@@ -1,0 +1,13 @@
+{
+	"nodes":[
+		{"id":"dd8c8e9a5b3d2fe7","type":"text","text":"Nombre de plante 1pt par plante","x":-120,"y":-300,"width":300,"height":60},
+		{"id":"67e11aee22f3f952","type":"text","text":"Transport","x":-42,"y":-160,"width":145,"height":60},
+		{"id":"402aac9c1bc6d434","x":-136,"y":20,"width":332,"height":60,"type":"text","text":"Verification du nombre de plante dans la zone de dépot 1pt par plante"},
+		{"id":"5624ee68c6f9cf3a","x":280,"y":-160,"width":367,"height":60,"type":"text","text":"Verifier si orientation panneau correct 5pt"},
+		{"id":"21961da6dc074037","x":-540,"y":-160,"width":340,"height":60,"type":"text","text":"SERGE de retour dans zone vide 10 pt"}
+	],
+	"edges":[
+		{"id":"77d451c19d6618fb","fromNode":"dd8c8e9a5b3d2fe7","fromSide":"bottom","toNode":"67e11aee22f3f952","toSide":"top"},
+		{"id":"9cdc29548250bf1c","fromNode":"67e11aee22f3f952","fromSide":"bottom","toNode":"402aac9c1bc6d434","toSide":"top"}
+	]
+}

@@ -1,0 +1,52 @@
+{
+  "settings": {
+    "migrated": 6,
+    "iconPacksPath": ".obsidian/icons",
+    "fontSize": 16,
+    "emojiStyle": "native",
+    "iconColor": null,
+    "recentlyUsedIcons": [
+      "FasCopy",
+      "FasServer",
+      "FasTable",
+      "FasSkull",
+      "FasBoxesStacked"
+    ],
+    "recentlyUsedIconsSize": 5,
+    "rules": [],
+    "extraMargin": {
+      "top": 0,
+      "right": 4,
+      "bottom": 0,
+      "left": 0
+    },
+    "iconInTabsEnabled": false,
+    "iconInTitleEnabled": false,
+    "iconInFrontmatterEnabled": false,
+    "iconsBackgroundCheckEnabled": false,
+    "iconsInNotesEnabled": true,
+    "iconIdentifier": ":",
+    "iconInTitlePosition": "above",
+    "iconInFrontmatterFieldName": "icon",
+    "iconColorInFrontmatterFieldName": "iconColor",
+    "iconsInLinksEnabled": true,
+    "lucideIconPackType": "native",
+    "debugMode": false
+  },
+  "ISEN": "FasFolderTree",
+  "ISEN/Algo C": "FasC",
+  "ISEN/Algo C++": "FasC",
+  "ISEN/BDD": "FasDatabase",
+  "ISEN/English": "FasBook",
+  "ISEN/FHS": "FasAddressCard",
+  "ISEN/Other": "FasDiceD20",
+  "ISEN/Physique": "FasLightbulb",
+  "ISEN/Réseau": "FasNetworkWired",
+  "ISEN/SI": "FasCar",
+  "ISEN/ComWeb": "FasCodeCommit",
+  "ISEN/PHP": "FasBoxesStacked",
+  "ISEN/PY": "FasSkull",
+  "ISEN/Tableur": "FasTable",
+  "ISEN/Web Server": "FasServer",
+  "ISEN/Template": "FasCopy"
+}

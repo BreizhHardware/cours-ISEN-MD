@@ -1,0 +1,1 @@
+DELETE FROM media where mediaType = 'tv';

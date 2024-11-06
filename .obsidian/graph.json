@@ -1,0 +1,44 @@
+{
+  "collapse-filter": false,
+  "search": "",
+  "showTags": true,
+  "showAttachments": true,
+  "hideUnresolved": true,
+  "showOrphans": true,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "Cisco",
+      "color": {
+        "a": 1,
+        "rgb": 14701138
+      }
+    },
+    {
+      "query": "FHS",
+      "color": {
+        "a": 1,
+        "rgb": 7935
+      }
+    },
+    {
+      "query": "Réseau",
+      "color": {
+        "a": 1,
+        "rgb": 14701138
+      }
+    }
+  ],
+  "collapse-display": false,
+  "showArrow": false,
+  "textFadeMultiplier": -0.6,
+  "nodeSizeMultiplier": 1.59296875,
+  "lineSizeMultiplier": 1.77161458333333,
+  "collapse-forces": false,
+  "centerStrength": 0.471354166666667,
+  "repelStrength": 10.5729166666667,
+  "linkStrength": 0.252604166666667,
+  "linkDistance": 30,
+  "scale": 0.5365569368278177,
+  "close": false
+}
