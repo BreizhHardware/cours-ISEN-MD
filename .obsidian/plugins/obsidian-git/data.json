@@ -1,5 +1,5 @@
 {
-  "commitMessage": "Obisidian vault manual backup: {{date}} on {{hostname}}.{{numFiles}}",
+  "commitMessage": "Obisidian vault manual backup: {{date}} on {{hostname}}. {{numFiles}} files edited",
   "commitDateFormat": "DD-MM-YYYY HH:mm:ss",
   "autoSaveInterval": 10,
   "autoPushInterval": 0,
@@ -54,5 +54,5 @@
     "lastShownAuthorDisplay": "initials",
     "lastShownDateTimeFormatOptions": "date"
   },
-  "autoCommitMessage": "Obisidian vault auto-backup: {{date}} on {{hostname}}.{{numFiles}}"
+  "autoCommitMessage": "Obisidian vault auto-backup: {{date}} on {{hostname}}. {{numFiles}} files edited"
 }
