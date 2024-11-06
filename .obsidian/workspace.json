@@ -23,18 +23,6 @@
             }
           },
           {
-            "id": "234b95931ff39ebb",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.7.5"
-              },
-              "icon": "lucide-file",
-              "title": "Release Notes 1.7.5"
-            }
-          },
-          {
             "id": "9d4539dc8395f9e7",
             "type": "leaf",
             "state": {
@@ -49,8 +37,7 @@
               "title": "README"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -218,7 +205,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "234b95931ff39ebb",
+  "active": "da4017e2068b8f8f",
   "lastOpenFiles": [
     "README.md",
     "ISEN/FHS/CIPA3/Gestion de projet/Gestion de projet Cours 1.md",
