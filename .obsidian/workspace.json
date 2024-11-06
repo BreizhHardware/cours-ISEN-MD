@@ -154,9 +154,17 @@
                 "searchQuery": ""
               }
             }
+          },
+          {
+            "id": "cc56184c227b09ca",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",

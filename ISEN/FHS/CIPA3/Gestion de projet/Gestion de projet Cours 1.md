@@ -68,7 +68,20 @@ To do: Ajouter diagram du cour sur le processus de mise en place simplifié
 ### Le référentiel
 Objectif technique: répondre à un besoin fonctionnel spécifique tout en respectant les contraintes
 Objectif de coût: respecter le coût du produit final tout en contrôlant le budget
-### WBS, Work Breakdown Structure, ou diagramme des t
+### WBS, Work Breakdown Structure, ou diagramme des tâches
+Découpage d'un objectif ultime en sous-groupes d'activités élémentaires
+- Approche itérative jusqu'au niveau désiré
+- Pas de règles à priori mais doit être adapté
+	- Au produit
+	- A l'entreprise
+	- A l'équipe
+	- Au contexte
+	- Aux contraintes
+	- ...
+
+Approche cartésienne du découpage du travail
+
+
 ## Gérer un projet
 
 

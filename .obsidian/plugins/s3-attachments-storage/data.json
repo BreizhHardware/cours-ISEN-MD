@@ -1,0 +1,15 @@
+{
+  "clients": [
+    {
+      "accessKey": "SCWMG5HZXGKQWCA0W0J3",
+      "secretKey": "cda178b7-24f1-445d-99fa-61407dc56f07",
+      "endPoint": "s3.fr-par.scw.cloud",
+      "folderName": "Obsidian",
+      "bucketName": "bkp-glassier-scalway",
+      "id": "default"
+    }
+  ],
+  "port": "4998",
+  "activeClient": "default",
+  "rawMIME": "\n\timg, ico, image/x-icon\n\timg, png, image/png\n\timg, jpg, image/jpeg\n\timg, jpeg, image/jpeg\n\timg, gif, image/gif\n\timg, svg, image/svg+xml\n\tiframe, wav, audio/wav\n\tiframe, mp3, audio/mp3\n\tiframe, mp4, video/mp4\n\tiframe, webm, video/webm\n\tlink, pdf, application/pdf\n\tlink, zip, application/zip\n\tlink, doc, application/doc \n\n\t"
+}
