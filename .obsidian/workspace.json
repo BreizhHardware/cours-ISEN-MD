@@ -19,6 +19,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "9d4539dc8395f9e7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ]
       }
@@ -162,10 +175,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "622da1d4e0ba0f73",
+  "active": "da4017e2068b8f8f",
   "lastOpenFiles": [
-    "ISEN/Template/Daily {{date}}.md",
+    "README.md",
     "ISEN/FHS/CIPA3/Gestion de projet/Gestion de projet Cours 1.md",
+    "ISEN/Template/Daily {{date}}.md",
     "ISEN/Réseau/A2/CCNA Cours 5.md",
     "ISEN/Réseau/A2/CCNA Cours 4.md",
     "ISEN/Réseau/A2/CCNA Cours 3.md",
@@ -201,7 +215,6 @@
     "ISEN/FHS/A2/Identité Numérique/Identité Numérique Cours 6.md",
     "ISEN/FHS/A2/Identité Numérique/Identité Numérique Cours 5.md",
     "ISEN/FHS/A2/Identité Numérique/Identité Numérique Cours 3.md",
-    "ISEN/FHS/A2/Identité Numérique/Identité Numérique Cours 2.md",
     "ISEN/Modelec/NB point.canvas",
     "ISEN/Réseau/A2/TP Ansible et docker.canvas",
     "Untitled.canvas",

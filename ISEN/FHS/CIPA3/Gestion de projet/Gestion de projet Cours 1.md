@@ -64,6 +64,10 @@ Comment concevoir une nouvelle voiture. Comment organiser le travail ?
 7. Planification des tâches dans le temps
 8. Execution et suivi des tâches
 9. Tester les livrables (qualifications, test automatiser et verification de la validation du cahier des charges)
+To do: Ajouter diagram du cour sur le processus de mise en place simplifié
+### Le référentiel
+Objectif technique: répondre à un besoin fonctionnel spécifique tout en respectant les contraintes
+Objectif de coût: respecter le coût du produit final tout en contrôlant le budget
 
 ## Gérer un projet
 
