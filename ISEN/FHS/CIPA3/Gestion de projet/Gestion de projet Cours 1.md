@@ -82,6 +82,13 @@ Découpage d'un objectif ultime en sous-groupes d'activités élémentaires
 Approche cartésienne du découpage du travail
 Le WBS est très compliquer à mettre en place et il existe de multiple solutions.
 
+100 000 - 150 000€ par ans pour un ingé
+
+Différent type de découpage:
+- En phases (orienté vers le delai)
+- Physique (orienté vers les coûts)
+- Fonctionnel (orienté vers la qualité)
+
 ## Gérer un projet
 
 
