@@ -80,7 +80,7 @@ Découpage d'un objectif ultime en sous-groupes d'activités élémentaires
 	- ...
 
 Approche cartésienne du découpage du travail
-
+Le WBS est très compliquer à mettre en place
 
 ## Gérer un projet
 
