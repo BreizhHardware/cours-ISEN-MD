@@ -7,6 +7,22 @@
       "folderName": "Obsidian",
       "bucketName": "bkp-glassier-scalway",
       "id": "default"
+    },
+    {
+      "accessKey": "",
+      "secretKey": "",
+      "endPoint": "",
+      "folderName": "obsidian",
+      "bucketName": "",
+      "id": "name-me"
+    },
+    {
+      "accessKey": "",
+      "secretKey": "",
+      "endPoint": "",
+      "folderName": "obsidian",
+      "bucketName": "",
+      "id": "name-me"
     }
   ],
   "port": "4998",
