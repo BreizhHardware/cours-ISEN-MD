@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ISEN/FHS/CIPA3/Gestion de projet/Réunion projet entreprenariat.md",
+                "file": "ISEN/FHS/CIPA3/Contreverses/Controverses Cours 3.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Réunion projet entreprenariat"
+              "title": "Controverses Cours 3"
             }
           },
           {
@@ -155,10 +155,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ISEN/FHS/CIPA3/Gestion de projet/Réunion projet entreprenariat.md"
+                "file": "ISEN/FHS/CIPA3/Contreverses/Controverses Cours 3.md"
               },
               "icon": "lucide-list",
-              "title": "Plan de Réunion projet entreprenariat"
+              "title": "Plan de Controverses Cours 3"
             }
           },
           {
@@ -207,9 +207,11 @@
   },
   "active": "da4017e2068b8f8f",
   "lastOpenFiles": [
-    "ISEN/FHS/CIPA3/Gestion de projet/Gestion de projet Cours 1.md",
-    "ISEN/FHS/CIPA3/Gestion de projet/Réunion projet entreprenariat.md",
+    "ISEN/FHS/CIPA3/Contreverses/Controverses Cours 2.md",
+    "ISEN/FHS/CIPA3/Contreverses/Controverses Cours 3.md",
     "ISEN/English/CIPA3/17 sept 2024.md",
+    "ISEN/FHS/CIPA3/Gestion de projet/Réunion projet entreprenariat.md",
+    "ISEN/FHS/CIPA3/Gestion de projet/Gestion de projet Cours 1.md",
     "README.md",
     "ISEN/Template/Daily {{date}}.md",
     "ISEN/Réseau/A2/CCNA Cours 5.md",
@@ -232,7 +234,6 @@
     "ISEN/Algo C/CIPA3/Intro et Chapitre 1 Les bases.pdf",
     "ISEN/Algo C/CIPA3",
     "ISEN/Algo C/CIPA",
-    "ISEN/FHS/CIPA3/Contreverses/Controverses Cours 2.md",
     "ISEN/Réunion/CIPA 3/Départ en entreprise 1 20-09-2024.md",
     "ISEN/FHS/A2/Film/Schéma naratif.md",
     "ISEN/FHS/A2/Outils RH/Outils RH 2024-02-09.md",
@@ -244,7 +245,6 @@
     "ISEN/FHS/A2/Identité Numérique/Vidéo a regarder.md",
     "ISEN/FHS/A2/Identité Numérique/Identité Numérique Cours 7.md",
     "ISEN/FHS/A2/Identité Numérique/Identité Numérique Cours 6.md",
-    "ISEN/FHS/A2/Identité Numérique/Identité Numérique Cours 5.md",
     "ISEN/Modelec/NB point.canvas",
     "ISEN/Réseau/A2/TP Ansible et docker.canvas",
     "Untitled.canvas",
