@@ -5,7 +5,7 @@
 # GROUPE 2 aka 
 
 Melissa product owner
-Mattéo secretaire
+Mattéo secrétaire
 
 ## Idée sujet
 1. Commercialisation de l'espace ❤️ (difficile de trouver contre)

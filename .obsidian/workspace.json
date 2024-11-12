@@ -23,6 +23,36 @@
             }
           },
           {
+            "id": "f5b3b8bf483ad077",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ISEN/FHS/CIPA3/Contreverses/Controverses Cours 2.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Controverses Cours 2"
+            }
+          },
+          {
+            "id": "da8a19e9e66ef775",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ISEN/FHS/CIPA3/Contreverses/Controverses Cours 1.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Controverses Cours 1"
+            }
+          },
+          {
             "id": "9d4539dc8395f9e7",
             "type": "leaf",
             "state": {
@@ -37,7 +67,8 @@
               "title": "README"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -155,10 +186,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ISEN/FHS/CIPA3/Contreverses/Controverses Cours 3.md"
+                "file": "ISEN/FHS/CIPA3/Contreverses/Controverses Cours 2.md"
               },
               "icon": "lucide-list",
-              "title": "Plan de Controverses Cours 3"
+              "title": "Plan de Controverses Cours 2"
             }
           },
           {
@@ -205,8 +236,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "da4017e2068b8f8f",
+  "active": "f5b3b8bf483ad077",
   "lastOpenFiles": [
+    "ISEN/FHS/CIPA3/Contreverses/Controverses Cours 1.md",
     "ISEN/FHS/CIPA3/Contreverses/Controverses Cours 2.md",
     "ISEN/FHS/CIPA3/Contreverses/Controverses Cours 3.md",
     "ISEN/English/CIPA3/17 sept 2024.md",
@@ -224,7 +256,6 @@
     "Pasted image 20240505210642.png",
     "ISEN/Template/Outils RH {{date}}.md",
     "ISEN/Template/Identité Numérique {{date}}.md",
-    "ISEN/FHS/CIPA3/Contreverses/Controverses Cours 1.md",
     "ISEN/FHS/CIPA3/Gestion de projet",
     "ISEN/Algo C/CIPA3/makefile example.c",
     "ISEN/Algo C/CIPA3/TP2_C.pdf",
