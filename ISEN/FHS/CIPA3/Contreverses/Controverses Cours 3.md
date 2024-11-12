@@ -2,5 +2,3 @@
 #FHS #Contreverses #CIPA3
 [Cours précédent](Controverses%20Cours%202.md)
 
-# GROUPE 2 aka 
-
