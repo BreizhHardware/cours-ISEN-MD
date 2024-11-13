@@ -4,55 +4,113 @@
     "type": "split",
     "children": [
       {
-        "id": "cfead9447b8b4656",
-        "type": "tabs",
+        "id": "16fa0f164c3076ef",
+        "type": "split",
         "children": [
           {
-            "id": "da4017e2068b8f8f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ISEN/FHS/CIPA3/Gestion de projet/Gestion de projet Cours 2.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
+            "id": "cfead9447b8b4656",
+            "type": "tabs",
+            "dimension": 80.62015503875969,
+            "children": [
+              {
+                "id": "da4017e2068b8f8f",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "ISEN/FHS/CIPA3/Gestion de projet/Gestion de projet Cours 2.md",
+                    "mode": "source",
+                    "backlinks": true,
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "Gestion de projet Cours 2"
+                }
               },
-              "icon": "lucide-file",
-              "title": "Gestion de projet Cours 2"
-            }
+              {
+                "id": "f5b3b8bf483ad077",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "ISEN/FHS/CIPA3/Gestion de projet/Gestion de projet Cours 1.md",
+                    "mode": "source",
+                    "backlinks": true,
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "Gestion de projet Cours 1"
+                }
+              },
+              {
+                "id": "da8a19e9e66ef775",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "ISEN/FHS/CIPA3/Contreverses/Controverses Cours 1.md",
+                    "mode": "source",
+                    "backlinks": true,
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "Controverses Cours 1"
+                }
+              }
+            ]
           },
           {
-            "id": "f5b3b8bf483ad077",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ISEN/FHS/CIPA3/Gestion de projet/Gestion de projet Cours 1.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Gestion de projet Cours 1"
-            }
-          },
-          {
-            "id": "da8a19e9e66ef775",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ISEN/FHS/CIPA3/Contreverses/Controverses Cours 1.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Controverses Cours 1"
-            }
+            "id": "acb24e7557099bd8",
+            "type": "tabs",
+            "dimension": 19.379844961240313,
+            "children": [
+              {
+                "id": "4bba6d84bea01e20",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "terminal:terminal",
+                  "state": {
+                    "terminal:terminal": {
+                      "cwd": "C:\\Users\\BreizhHardware\\Nextcloud\\Documents\\ISEN\\Cours\\Obsidian Vault",
+                      "focus": false,
+                      "profile": {
+                        "args": [],
+                        "executable": "C:\\Windows\\System32\\cmd.exe",
+                        "name": "",
+                        "platforms": {
+                          "win32": true
+                        },
+                        "pythonExecutable": "python3",
+                        "restoreHistory": true,
+                        "successExitCodes": [
+                          "0",
+                          "SIGINT",
+                          "SIGTERM"
+                        ],
+                        "terminalOptions": {
+                          "documentOverride": null
+                        },
+                        "type": "integrated",
+                        "useWin32Conhost": true
+                      },
+                      "serial": {
+                        "columns": 131,
+                        "data": "git pull\r\nAlready up to date.\r\n\r\n\r\n\r\n\r\nC:\\Users\\BreizhHardware\\Nextcloud\\Documents\\ISEN\\Cours\\Obsidian Vault>^C\r\n * Restored history at Wed Nov 13 2024 14:36:00 GMT+0100 (heure normale d’Europe centrale)\r\n\r\nexit\r\n\r\n\r\n\r\n\u001b[3A",
+                        "rows": 5
+                      }
+                    }
+                  },
+                  "pinned": true,
+                  "icon": "terminal",
+                  "title": "Terminal: cmd"
+                }
+              }
+            ],
+            "stacked": true
           }
-        ]
+        ],
+        "direction": "horizontal"
       }
     ],
     "direction": "vertical"
@@ -169,11 +227,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "ISEN/FHS/CIPA3/Gestion de projet/Gestion de projet Cours 2.md"
-              },
+              "state": {},
               "icon": "lucide-list",
-              "title": "Plan de Gestion de projet Cours 2"
+              "title": "Plan"
             }
           },
           {
@@ -220,10 +276,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "cc56184c227b09ca",
+  "active": "4bba6d84bea01e20",
   "lastOpenFiles": [
-    "Pasted image 20241113141806.png",
     "ISEN/FHS/CIPA3/Gestion de projet/Gestion de projet Cours 2.md",
+    "Pasted image 20241113141806.png",
     "ISEN/Template/Daily {{date}}.md",
     "ISEN/FHS/CIPA3/Gestion de projet/Gestion de projet Cours 1.md",
     "ISEN/FHS/CIPA3/Contreverses/Controverses Cours 1.md",
