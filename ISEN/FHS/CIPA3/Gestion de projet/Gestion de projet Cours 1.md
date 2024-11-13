@@ -89,7 +89,13 @@ Différent type de découpage:
 - Physique (orienté vers les coûts)
 - Fonctionnel (orienté vers la qualité)
 
-## Gérer un projet
+#### Comment mettre en place le WBS
+- Approche indivituelle
+- Approche collective
+- Processus d'entreprise
+- Exigence du client
+
+Suite au [Cours suivant](Gestion%20de%20projet%20Cours%202.md)
 
 
 ---
