@@ -72,6 +72,18 @@ C'est uniquement quand tous les éléments précédents sont en places que l'on 
 Mettre image diapo
 ### Exercice
 A partir du plan de projet 
+### Visualisation du planning
+La visualisation du planning la plus connue est le diagramme de Gantt
+#### Le diagramme de Gantt
+C'est une visualisation de la succession d'activités qui vont 
+#### Alternative de visualisation de planning: Projet Timeline
+
+#### Alternative de visualisation de planning: Projet planner
+
+## Conclusion
+
+# Connaitre les outils de suivi d'un projet
+
 
 ---
 &copy; Félix MARQUET
