@@ -201,7 +201,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -220,10 +220,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "da4017e2068b8f8f",
+  "active": "cc56184c227b09ca",
   "lastOpenFiles": [
-    "ISEN/FHS/CIPA3/Gestion de projet/Gestion de projet Cours 1.md",
+    "Pasted image 20241113141806.png",
     "ISEN/FHS/CIPA3/Gestion de projet/Gestion de projet Cours 2.md",
+    "ISEN/Template/Daily {{date}}.md",
+    "ISEN/FHS/CIPA3/Gestion de projet/Gestion de projet Cours 1.md",
     "ISEN/FHS/CIPA3/Contreverses/Controverses Cours 1.md",
     "Gestion.md",
     "ISEN/FHS/CIPA3/Contreverses/Controverses Cours 2.md",
@@ -231,7 +233,6 @@
     "ISEN/FHS/CIPA3/Contreverses/Controverses Cours 3.md",
     "ISEN/English/CIPA3/17 sept 2024.md",
     "ISEN/FHS/CIPA3/Gestion de projet/Réunion projet entreprenariat.md",
-    "ISEN/Template/Daily {{date}}.md",
     "ISEN/Réseau/A2/CCNA Cours 5.md",
     "ISEN/Réseau/A2/CCNA Cours 4.md",
     "ISEN/Réseau/A2/CCNA Cours 3.md",
@@ -259,7 +260,6 @@
     "ISEN/English/A2/23 févr 2024.md",
     "ISEN/English/A2/20 oct 2023.md",
     "ISEN/English/A2/2 févr 2024.md",
-    "ISEN/FHS/A2/Identité Numérique/Vidéo a regarder.md",
     "ISEN/Modelec/NB point.canvas",
     "ISEN/Réseau/A2/TP Ansible et docker.canvas",
     "Untitled.canvas",
