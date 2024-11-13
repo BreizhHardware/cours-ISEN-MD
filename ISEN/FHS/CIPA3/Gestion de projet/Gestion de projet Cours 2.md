@@ -61,7 +61,17 @@ Il vaut mieux être exact que précis
 Au moins dans un premier temps
 Exact : dimensionner la tâche à 9 jours en 3 minutes
 Précis : dimensionner la tâche à 8,26 jours en 1 heure
+
 ![](https://cdn.breizhhardware.fr/FAKA3/lAkIvOpo39.png/raw)
+
+![](https://cdn.breizhhardware.fr/FAKA3/nuBASuYI16.png/raw)
+Une fois que tous ces éléments sont en place, il est possible de planifier…
+## Planifier un projet
+C'est uniquement quand tous les éléments précédents sont en places que l'on peut commencer la planification du projet.
+### Méthode itérative
+Mettre image diapo
+### Exercice
+A partir du plan de projet 
 
 ---
 &copy; Félix MARQUET
