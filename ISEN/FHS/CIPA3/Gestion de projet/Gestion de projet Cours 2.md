@@ -47,7 +47,21 @@ Le Mois-Homme :
 Unité de durée :
 - C’est la durée totale incompressible de la tache entre son début et sa fin
 ![](https://cdn.breizhhardware.fr/FAKA3/SEcoCUpI44.png/raw)
+#### Limite de la méthode
+Grande vigilance sur la relation entre charge et durée
 
+Le calcul peut être faux dès que la tâche est complexe
+- Exemple : creuser un tunnel de 10000m^3 avec des pelleteuses qui peuvent déblayer 1000m^3/h
+Il y a une limite au partage de la tâche : point d’optimisation à trouver AVEC les experts du métier
+- Plus intéressant de travailler avec 4 dessinateurs = 1 par produit
+- 200 / 4 = 50 + 12 = 62h, soit ~8,5 jours
+- Compromis acceptable
+#### Note : précis ou exact ?
+Il vaut mieux être exact que précis
+Au moins dans un premier temps
+Exact : dimensionner la tâche à 9 jours en 3 minutes
+Précis : dimensionner la tâche à 8,26 jours en 1 heure
+![](https://cdn.breizhhardware.fr/FAKA3/lAkIvOpo39.png/raw)
 
 ---
 &copy; Félix MARQUET
