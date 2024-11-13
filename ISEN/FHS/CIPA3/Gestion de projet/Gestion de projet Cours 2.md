@@ -83,7 +83,8 @@ C'est une visualisation de la succession d'activités qui vont
 ## Conclusion
 
 # Connaitre les outils de suivi d'un projet
-
+## Suivi
+Les indicateur projets: QCD
 
 ---
 &copy; Félix MARQUET
