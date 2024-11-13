@@ -46,6 +46,8 @@ Le Mois-Homme :
 
 Unité de durée :
 - C’est la durée totale incompressible de la tache entre son début et sa fin
+![](https://cdn.breizhhardware.fr/FAKA3/SEcoCUpI44.png/raw)
+
 
 ---
 &copy; Félix MARQUET
