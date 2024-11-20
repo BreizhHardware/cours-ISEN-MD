@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ISEN/English/CIPA3/Company presentation.md",
+                "file": "ISEN/Maths/CIPA3/DM1.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Company presentation"
+              "title": "DM1"
             }
           },
           {
@@ -170,10 +170,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ISEN/English/CIPA3/Company presentation.md"
+                "file": "ISEN/Maths/CIPA3/DM1.md"
               },
               "icon": "lucide-list",
-              "title": "Plan de Company presentation"
+              "title": "Plan de DM1"
             }
           },
           {
@@ -222,8 +222,12 @@
   },
   "active": "da4017e2068b8f8f",
   "lastOpenFiles": [
-    "ISEN/English/CIPA3/17 sept 2024.md",
+    "ISEN/Maths/CIPA3/DM1.md",
     "ISEN/English/CIPA3/Company presentation.md",
+    "ISEN/Maths/CIPA3",
+    "Sans titre",
+    "ISEN/Maths",
+    "ISEN/English/CIPA3/17 sept 2024.md",
     "ISEN/FHS/CIPA3/Gestion de projet/Gestion de projet Cours 2.md",
     "ISEN/FHS/CIPA3/Gestion de projet/Gestion de projet Cours 1.md",
     "Pasted image 20241113141806.png",
@@ -250,9 +254,6 @@
     "ISEN/Algo C/CIPA3/Code Ex01.c",
     "ISEN/Algo C/CIPA3/TP1.pdf",
     "ISEN/Algo C/CIPA3/Cours2_LangageC_NB2023.pdf",
-    "ISEN/Algo C/CIPA3/Intro et Chapitre 1 Les bases.pdf",
-    "ISEN/Algo C/CIPA3",
-    "ISEN/Algo C/CIPA",
     "ISEN/Réunion/CIPA 3/Départ en entreprise 1 20-09-2024.md",
     "ISEN/FHS/A2/Film/Schéma naratif.md",
     "ISEN/FHS/A2/Outils RH/Outils RH 2024-02-09.md",
@@ -260,7 +261,6 @@
     "ISEN/Linux/Linux cours 1.md",
     "ISEN/English/A2/23 févr 2024.md",
     "ISEN/English/A2/20 oct 2023.md",
-    "ISEN/English/A2/2 févr 2024.md",
     "ISEN/Modelec/NB point.canvas",
     "ISEN/Réseau/A2/TP Ansible et docker.canvas",
     "Untitled.canvas",
