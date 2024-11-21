@@ -23,18 +23,6 @@
             }
           },
           {
-            "id": "9ed194fa6113bb8d",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.7.7"
-              },
-              "icon": "lucide-file",
-              "title": "Release Notes 1.7.7"
-            }
-          },
-          {
             "id": "f5b3b8bf483ad077",
             "type": "leaf",
             "state": {
@@ -64,8 +52,7 @@
               "title": "Controverses Cours 1"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -233,7 +220,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "9ed194fa6113bb8d",
+  "active": "da4017e2068b8f8f",
   "lastOpenFiles": [
     "ISEN/Maths/CIPA3/DM1.md",
     "ISEN/English/CIPA3/Company presentation.md",
