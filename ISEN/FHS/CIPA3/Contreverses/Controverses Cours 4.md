@@ -11,7 +11,9 @@
 
 ## Faire des sondages: <font style="font-size:16px">(fausse) </font>bonne idée ?
 - Biais en fonction de l'échantillons
-- 
+
+# Manier le doute
+
 
 ---
 &copy; Félix MARQUET
