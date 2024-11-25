@@ -28,3 +28,4 @@ Elargir sa vision, accumuler des informations utiles
 - Qui sont les acteurs ? Des "camps" se dessinent-ils ? Des visions... ? 
 ##### Analyse meme : 
 Google est un moteur de recherche -> ne produit pas de contenu, est un moyen de naviguer => Outil pour trouver des ressources, des informations
+[Cours suivant](Controverses%20Cours%204.md)
