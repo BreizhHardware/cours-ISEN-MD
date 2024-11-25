@@ -52,7 +52,8 @@
               "title": "Controverses Cours 1"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -170,10 +171,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ISEN/Maths/CIPA3/DM1.md"
+                "file": "ISEN/FHS/CIPA3/Contreverses/Controverses Cours 1.md"
               },
               "icon": "lucide-list",
-              "title": "Plan de DM1"
+              "title": "Plan de Controverses Cours 1"
             }
           },
           {
@@ -220,7 +221,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "da4017e2068b8f8f",
+  "active": "da8a19e9e66ef775",
   "lastOpenFiles": [
     "ISEN/Maths/CIPA3/DM1.md",
     "ISEN/English/CIPA3/Company presentation.md",
