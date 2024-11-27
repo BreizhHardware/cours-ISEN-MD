@@ -58,5 +58,5 @@ Méthode *STOP* (Style Theme Objectif Plan)
 	- Vérifier/Confirmer
 	- Utiliser pour construire l'agenda
 #### Importance du rythme
-
+Fréquence adaptée à l'échelle de temps du projet
 ## Gestion des risques
