@@ -1,3 +1,5 @@
 {
-  "folder": "ISEN/Template"
+  "folder": "ISEN/Template",
+  "dateFormat": "DD/MM/YYYY",
+  "timeFormat": "HH:mm"
 }

@@ -10,6 +10,7 @@ $$
 \end{bmatrix}
 $$
 
+
 Étape 1:
 $$
 \begin{bmatrix}

@@ -64,11 +64,20 @@ La granularité est le niveau de détail auquel il est nécessaire d'aller
 Trop fine et on se perd dans les détails
 Trop grosse et on passe à coté d'information importante
 ## Gestion du temps
-Plan temporel + Quantification + Management visulet
+Plan temporel + Quantification + Management visuel
 Release Burndown Chart 
 (Mettre photo)
 ## Gestion des risques
-
+Démarche pro-active
+C'est un outils précieux
+Exercice conduit en équipe
+- Formalisation des risques
+	- Permet de stimuler la participation collective à une recherche des problèmes potentielles
+- Analyse des risques
+	- Permet d'examiner et de juger les risques avec une approche pluridisciplinaire
+- Mitigation des risques
+	- Permet d'orienter l'énergie vers une utilisation positive des ressources: résolution de problème, réduction de risques par essai, anticipation
+	- Eviter, réduire, accepter
 
 ---
 &copy; Félix MARQUET
