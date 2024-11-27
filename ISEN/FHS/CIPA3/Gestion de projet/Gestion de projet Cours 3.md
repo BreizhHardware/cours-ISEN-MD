@@ -79,6 +79,8 @@ Exercice conduit en équipe
 	- Permet d'orienter l'énergie vers une utilisation positive des ressources: résolution de problème, réduction de risques par essai, anticipation
 	- Eviter, réduire, accepter
 # Gérer l'équipe projet
+Constituer l'équipe -> Recherche d'équilibre
+
 
 ---
 &copy; Félix MARQUET
