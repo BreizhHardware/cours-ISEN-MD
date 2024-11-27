@@ -86,5 +86,7 @@ C'est une visualisation de la succession d'activités qui vont
 ## Suivi
 Les indicateur projets: QCD
 
+Suite au [Cours suivant](Gestion%20de%20projet%20Cours%203.md)
+
 ---
 &copy; Félix MARQUET
