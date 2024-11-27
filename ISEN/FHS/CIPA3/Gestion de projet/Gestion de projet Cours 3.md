@@ -63,6 +63,8 @@ Fréquence adaptée à l'échelle de temps du projet
 La granularité est le niveau de détail auquel il est nécessaire d'aller
 Trop fine et on se perd dans les détails
 Trop grosse et on passe à coté d'information importante
+## Gestion du temps
+
 ## Gestion des risques
 
 
