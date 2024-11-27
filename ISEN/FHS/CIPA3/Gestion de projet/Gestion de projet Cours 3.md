@@ -59,4 +59,12 @@ Méthode *STOP* (Style Theme Objectif Plan)
 	- Utiliser pour construire l'agenda
 #### Importance du rythme
 Fréquence adaptée à l'échelle de temps du projet
+#### Importance de la granularité
+La granularité est le niveau de détail auquel il est nécessaire d'aller
+Trop fine et on se perd dans les détails
+Trop grosse et on passe à coté d'information importante
 ## Gestion des risques
+
+
+---
+&copy; Félix MARQUET
