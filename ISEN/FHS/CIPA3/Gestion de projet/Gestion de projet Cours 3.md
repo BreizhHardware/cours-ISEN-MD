@@ -24,8 +24,15 @@ Cohérence entre le suivi des résultats et le suivi des moyens
 ### Réunion projet
 #### Préparer ses réunions, La Méthode TOP
 - Theme (De quoi on va parler)
+	- Réunion Projet Hebdo
+	- Problèmes
+	- Lancement
+	- Idéation
 - Objectif (A quoi sert la réunion)
+	- Etre précis (Livrable)
+	- Etre précis dans le publique
 - Plan (Quel plan allons sous aborder)
+	- Agenda
 #### Choisir son "style" de revue
 Méthode *STOP* (Style Theme Objectif Plan)
 
