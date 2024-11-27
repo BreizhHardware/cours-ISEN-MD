@@ -52,5 +52,11 @@ Méthode *STOP* (Style Theme Objectif Plan)
 #### Maitriser les échanges d'informations
 - Ne pas sous estimer les circuits informels
 	- Echange du quotidiens
-	- A la machien a CAFE
+	- A la machine a CAFE
+- Attention a l'utilisation des infos
+	- Faire le tri entre les "faits" et les "opinions"
+	- Vérifier/Confirmer
+	- Utiliser pour construire l'agenda
+#### Importance du rythme
+
 ## Gestion des risques
