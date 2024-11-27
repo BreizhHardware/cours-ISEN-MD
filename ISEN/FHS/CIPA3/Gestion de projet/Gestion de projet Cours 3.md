@@ -78,6 +78,7 @@ Exercice conduit en équipe
 - Mitigation des risques
 	- Permet d'orienter l'énergie vers une utilisation positive des ressources: résolution de problème, réduction de risques par essai, anticipation
 	- Eviter, réduire, accepter
+# Gérer l'équipe projet
 
 ---
 &copy; Félix MARQUET
