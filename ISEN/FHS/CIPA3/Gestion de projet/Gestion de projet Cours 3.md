@@ -17,5 +17,16 @@ Si trop compliqué:
 - Temps passer a mettre le tableau de bord en place =/= temps a mettre en place le projet
 Faire le suivi des le début
 ### Mise en place de suivis d'information
+Dès le début du projet
+Mail avec des couleurs pour les changement (comme sur git)
+S'appuie sur la planification et l'ensemble des outils de mise en place du projet déjà discutés
+Cohérence entre le suivi des résultats et le suivi des moyens
+### Réunion projet
+#### Préparer ses réunions, La Méthode TOP
+- Theme (De quoi on va parler)
+- Objectif (A quoi sert la réunion)
+- Plan (Quel plan allons sous aborder)
+#### Choisir son "style" de revue
+Méthode *STOP* (Style Theme Objectif Plan)
 
 ## Gestion des risques
