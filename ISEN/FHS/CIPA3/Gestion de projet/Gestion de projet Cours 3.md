@@ -64,7 +64,9 @@ La granularité est le niveau de détail auquel il est nécessaire d'aller
 Trop fine et on se perd dans les détails
 Trop grosse et on passe à coté d'information importante
 ## Gestion du temps
-
+Plan temporel + Quantification + Management visulet
+Release Burndown Chart 
+(Mettre photo)
 ## Gestion des risques
 
 
