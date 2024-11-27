@@ -35,5 +35,22 @@ Cohérence entre le suivi des résultats et le suivi des moyens
 	- Agenda
 #### Choisir son "style" de revue
 Méthode *STOP* (Style Theme Objectif Plan)
-
+- Réunion formelle
+- StandUp meeting
+#### Formaliser le processus de suivi
+- Réunion régulière
+- Mise en place de "Règle de vie"
+	- Pas de critique, de jugement
+	- Rôle du chef de projet: "animateur", "chairman"
+- Distribution des rôles bien définie
+	- Qui doit contribuer ?
+	- Qui peut questionner ?
+- Agenda fixe
+	- Avec un temps pour ce qui n'est pas dans l'agenda
+- Produit de la revue ?
+	- S'accorder sur ce qui doit "sortir" de la réunion ?
+#### Maitriser les échanges d'informations
+- Ne pas sous estimer les circuits informels
+	- Echange du quotidiens
+	- A la machien a CAFE
 ## Gestion des risques
