@@ -217,7 +217,6 @@
       "templates:Insérer le modèle": false,
       "command-palette:Ouvrir la palette de commandes": false,
       "audio-recorder:Démarrer / arrêter l'enregistrement": false,
-      "terminal:Open terminal": false,
       "obsidian-git:Open Git source control": false
     }
   },
