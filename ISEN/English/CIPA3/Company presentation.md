@@ -11,4 +11,4 @@ The main product is called eTemptation, this is a time tracking and activity tra
 
 We have a pretty simple work policy, with include flex time, we only need to work 7 hours per day or 35 hours a week. We also work in an open space but with a dedicated office, but we also have occasional remote-work allowed.
 
-Our team is composed of 3 peoples, Antony our manager and us 2. Our mission for 3 year is pretty simple, we have to create an update system  
+Our team is composed of 3 peoples, Antony our manager and us 2. Our mission for 3 year is pretty simple, we have to create an update system for eTemptation, it's a very challenging mission because a big part of the code is older than us. 
