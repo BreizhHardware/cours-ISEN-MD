@@ -1,8 +1,8 @@
 #English #CIPA3 
 # Horoquartz
-My company is Horoquartz, this an software developer about HR.
+Our company is Horoquartz, this an software developer about HR.
 
-The company was founded in 1971, in Fontenay le Comte and was aquired in 2008 by the japanese compagny Amano.
+The company was founded in 1971, in Fontenay le Comte and was aquired in 2008 by the japanese compagny Amano a Japanese leader in time management, parking systems, and workforce solutions.
 Initially focused on time-tracking solutions, Horoquartz has since expanded its expertise to include workforce management, becoming a leader in its field.
 
 Today, Horoquartz as more than 650 hundred employees in 16 location mainly in France in cities like  Fontenay le Comte, Nantes, Lyon, Massy...
