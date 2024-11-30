@@ -3,7 +3,19 @@ title: Fiche de révision DS1 de maths
 ```
 <div style="page-break-after: always;"></div>
 
-# 1. **Espaces de Hilbert**
+# 1. Rappel primitive et dérivé
+
+|  Fonction $f(x)$  | Dérivée $f'(x)$ |   Primitive $F(x)$    |
+| :---------------: | :-------------: | :-------------------: |
+| $x^n (n \neq -1)$ |   $nx^{n-1}$    | $\frac{x^{n+1}}{n+1}$ |
+|     $x^{-1}$      |    $-x^{-2}$    |      $\ln\|x\|$       |
+|     $\ln(x)$      |  $\frac{1}{x}$  |    $x \ln(x) - x$     |
+|                   |                 |                       |
+|                   |                 |                       |
+|                   |                 |                       |
+|                   |                 |                       |
+
+# 2. **Espaces de Hilbert**
 
 Un **espace de Hilbert** est un espace vectoriel normé complet muni d'un produit scalaire.
 
@@ -15,7 +27,7 @@ Un **espace de Hilbert** est un espace vectoriel normé complet muni d'un produi
 $$
 - **Norme induite** :
   $$
-  `\|u\| = \sqrt{\langle u, u \rangle}.`
+  \|u\| = \sqrt{\langle u, u \rangle}
   $$
 ## Propriétés
 1. **Orthogonalité** : Deux vecteurs $u$ et $v$ sont orthogonaux si :
@@ -31,7 +43,7 @@ $$
    $$
    x = x_H + x_H^\perp, \quad x_H \in H, \, x_H^\perp \in H^\perp.
 $$
-# 2. **Décomposition en Séries de Fourier**
+# 3. **Décomposition en Séries de Fourier**
 ## Définition
 Une fonction périodique $f(x)$ de période $2π$ peut être décomposée en une série de Fourier :
 $$
@@ -50,7 +62,7 @@ $$
 - **Convergence** : La série converge en moyenne quadratique dans $L^2([-\pi, \pi])$. (Pas vu en cours mais je le note la quand même au cas ou)
 - **Parseval** :
   $$\frac{1}{2\pi} \int_{-\pi}^\pi |f(x)|^2 dx = \frac{a_0^2}{2} + \sum_{n=1}^\infty \frac{a_n^2 + b_n^2}{2}$$
-# 3. **Convolution**
+# 4. **Convolution**
 ## Définition
 La convolution de deux fonctions $f$ et $g$ est définie par :
 $$(f * g)(t) = \int_{-\infty}^\infty f(\tau) g(t - \tau) \, d\tau$$
