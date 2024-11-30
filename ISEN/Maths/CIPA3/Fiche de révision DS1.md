@@ -10,10 +10,10 @@ title: Fiche de révision DS1 de maths
 | $x^n (n \neq -1)$ |   $nx^{n-1}$    | $\frac{x^{n+1}}{n+1}$ |
 |     $x^{-1}$      |    $-x^{-2}$    |      $\ln\|x\|$       |
 |     $\ln(x)$      |  $\frac{1}{x}$  |    $x \ln(x) - x$     |
-|                   |                 |                       |
-|                   |                 |                       |
-|                   |                 |                       |
-|                   |                 |                       |
+|       $e^x$       |      $e^x$      |         $e^x$         |
+|       $a^x$       |  $a^x \ln(a)$   | $\frac{a^x}{\ln(a)}$  |
+|     $\sin(x)$     |    $\cos(x)$    |      $-\cos(x)$       |
+|    $\sin(ax)$     |   $a\cos(x)$    | $-\frac{1}{a}\cos(x)$ |
 
 # 2. **Espaces de Hilbert**
 
