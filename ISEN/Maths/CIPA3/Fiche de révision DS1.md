@@ -1,6 +1,7 @@
 ```table-of-contents
 title: Fiche de révision DS1 de maths
 ```
+<div style="page-break-after: always;"></div>
 
 # 1. **Espaces de Hilbert**
 
@@ -36,6 +37,7 @@ Une fonction périodique $f(x)$ de période $2π$ peut être décomposée en une
 $$
 f(x) = a_0 + \sum_{n=1}^\infty \left[a_n \cos(nx) + b_n \sin(nx)\right].
 $$
+
 ## Coefficients de Fourier
 - $a_0$ :
   $$a_0 = \frac{1}{2\pi} \int_{-\pi}^\pi f(x) \, dx$$
