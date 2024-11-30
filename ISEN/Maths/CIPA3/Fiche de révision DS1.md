@@ -40,4 +40,4 @@ $$
 - $b_n$ :
   $$b_n = \frac{1}{\pi} \int_{-\pi}^\pi f(x) \sin(nx) \, dx$$
 ## Propriétés
-- 
+- **Convergence** : La série converge en moyenne quadratique dans $
