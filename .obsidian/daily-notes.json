@@ -1,6 +1,6 @@
 {
-  "format": "DD/MM/YYYY",
+  "format": "DD-MM-YYYY",
   "folder": "ISEN/Daily",
-  "template": "ISEN/Template/Daily {{date}}",
+  "template": "ISEN/Template/Daily-{{date}}",
   "autorun": true
 }
