@@ -18,7 +18,7 @@ $$
   `\|u\| = \sqrt{\langle u, u \rangle}.`
   $$
 ## Propriétés
-1. **Orthogonalité** : Deux vecteurs uuu et vvv sont orthogonaux si :
+1. **Orthogonalité** : Deux vecteurs $u$ et $v$ sont orthogonaux si :
 $$
 \langle u, v \rangle = 0
 $$
@@ -37,6 +37,7 @@ Une fonction périodique $f(x)$ de période $2π$ peut être décomposée en une
 $$
 f(x) = a_0 + \sum_{n=1}^\infty \left[a_n \cos(nx) + b_n \sin(nx)\right].
 $$
+<div style="page-break-after: always;"></div>
 
 ## Coefficients de Fourier
 - $a_0$ :
@@ -46,7 +47,7 @@ $$
 - $b_n$ :
   $$b_n = \frac{1}{\pi} \int_{-\pi}^\pi f(x) \sin(nx) \, dx$$
 ## Propriétés
-- **Convergence** : La série converge en moyenne quadratique dans $L^2([-\pi, \pi])$.
+- **Convergence** : La série converge en moyenne quadratique dans $L^2([-\pi, \pi])$. (Pas vu en cours mais je le note la quand même au cas ou)
 - **Parseval** :
   $$\frac{1}{2\pi} \int_{-\pi}^\pi |f(x)|^2 dx = \frac{a_0^2}{2} + \sum_{n=1}^\infty \frac{a_n^2 + b_n^2}{2}$$
 # 3. **Convolution**
@@ -57,6 +58,8 @@ $$(f * g)(t) = \int_{-\infty}^\infty f(\tau) g(t - \tau) \, d\tau$$
 1. **Commutativité** : $$f * g = g * f$$
 2. **Associativité** :
 $$f * (g * h) = (f * g) * h$$
+<div style="page-break-after: always;"></div>
+
 3. **Distributivité** :
 $$f * (g + h) = (f * g) + (f * h)$$
 4. **Lien avec la transformée de Fourier** :
