@@ -5,18 +5,18 @@ title: Fiche de révision DS1 de maths
 
 # 1. Rappel primitive et dérivé
 
-|  Fonction $f(x)$  |       Dérivée $f'(x)$       |   Primitive $F(x)$    |
-| :---------------: | :-------------------------: | :-------------------: |
-| $x^n (n \neq -1)$ |         $nx^{n-1}$          | $\frac{x^{n+1}}{n+1}$ |
-|     $x^{-1}$      |          $-x^{-2}$          |      $\ln\|x\|$       |
-|     $\ln(x)$      |        $\frac{1}{x}$        |    $x \ln(x) - x$     |
-|       $e^x$       |            $e^x$            |         $e^x$         |
-|       $a^x$       |        $a^x \ln(a)$         | $\frac{a^x}{\ln(a)}$  |
-|     $\sin(x)$     |          $\cos(x)$          |      $-\cos(x)$       |
-|    $\sin(ax)$     |         $a\cos(x)$          | $-\frac{1}{a}\cos(x)$ |
-|     $\cos(x)$     |         $-\sin(x)$          |       $\sin(x)$       |
-|    $\cos(ax)$     |         $-a\sin(x)$         | $\frac{1}{a}\sin(x)$  |
-|     $\tan(x)$     | $1 + \tan^2(x) = \sec^2(x)$ |                       |
+|  Fonction $f(x)$  |            Dérivée $f'(x)$            |   Primitive $F(x)$    |
+| :---------------: | :-----------------------------------: | :-------------------: |
+| $x^n (n \neq -1)$ |              $nx^{n-1}$               | $\frac{x^{n+1}}{n+1}$ |
+|     $x^{-1}$      |               $-x^{-2}$               |      $\ln\|x\|$       |
+|     $\ln(x)$      |             $\frac{1}{x}$             |    $x \ln(x) - x$     |
+|       $e^x$       |                 $e^x$                 |         $e^x$         |
+|       $a^x$       |             $a^x \ln(a)$              | $\frac{a^x}{\ln(a)}$  |
+|     $\sin(x)$     |               $\cos(x)$               |      $-\cos(x)$       |
+|    $\sin(ax)$     |              $a\cos(x)$               | $-\frac{1}{a}\cos(x)$ |
+|     $\cos(x)$     |              $-\sin(x)$               |       $\sin(x)$       |
+|    $\cos(ax)$     |              $-a\sin(x)$              | $\frac{1}{a}\sin(x)$  |
+|     $\tan(x)$     | $1 + \tan^2(x) = \frac{1}{\cos^2(x)}$ |                       |
 
 # 2. **Espaces de Hilbert**
 
@@ -37,6 +37,8 @@ $$
 $$
 \langle u, v \rangle = 0
 $$
+<div style="page-break-after: always;"></div>
+
 2. **Inégalité de Cauchy-Schwarz** :
 $$
 |\langle u, v \rangle| \leq \|u\| \|v\|.
@@ -52,7 +54,6 @@ Une fonction périodique $f(x)$ de période $2π$ peut être décomposée en une
 $$
 f(x) = a_0 + \sum_{n=1}^\infty \left[a_n \cos(nx) + b_n \sin(nx)\right].
 $$
-<div style="page-break-after: always;"></div>
 
 ## Coefficients de Fourier
 - $a_0$ :
@@ -73,7 +74,6 @@ $$(f * g)(t) = \int_{-\infty}^\infty f(\tau) g(t - \tau) \, d\tau$$
 1. **Commutativité** : $$f * g = g * f$$
 2. **Associativité** :
 $$f * (g * h) = (f * g) * h$$
-<div style="page-break-after: always;"></div>
 
 3. **Distributivité** :
 $$f * (g + h) = (f * g) + (f * h)$$
