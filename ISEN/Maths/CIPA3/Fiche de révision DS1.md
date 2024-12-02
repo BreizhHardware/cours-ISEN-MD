@@ -107,6 +107,119 @@ $$\nabla \times f = \frac{\partial f_y}{\partial x} - \frac{\partial f_x}{\parti
 ## Théorème de Schwarz
 $$\frac{\partial^2 f}{\partial x \partial y} = \frac{\partial^2 f}{\partial y \partial x}, \quad \text{si } f_{xy} \text{ et } f_{yx} \text{ sont continues.}$$
 
+$$
+\documentclass{article}
+\usepackage{amsmath, tikz}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.17}
+
+\section*{Convolution : Exemple avec \(f(t)\) et \(g(t)\)}
+
+\subsection*{Les fonctions}
+1. \(f(t)\), définie comme :
+\[
+f(t) =
+\begin{cases}
+e^t & \text{si } t \leq 0, \\
+e^{-t} & \text{si } t > 0.
+\end{cases}
+\]
+
+2. \(g(t)\), définie comme :
+\[
+g(t) =
+\begin{cases}
+1 & \text{si } 0 \leq t \leq 1, \\
+0 & \text{sinon.}
+\end{cases}
+\]
+
+\subsection*{Définition de la convolution}
+La convolution est donnée par :
+\[
+(f * g)(t) = \int_{-\infty}^{\infty} f(\tau) g(t - \tau) \, d\tau
+\]
+
+Pour ce cas spécifique :
+\[
+(f * g)(t) =
+\begin{cases}
+\int_{0}^{t} e^\tau \, d\tau & \text{si } t \leq 1, \\
+\int_{t-1}^{t} e^\tau \, d\tau & \text{si } t > 1.
+\end{cases}
+\]
+
+\subsection*{Résultat de la convolution}
+
+Calculons les deux cas :
+1. Si \(t \leq 1\) :
+\[
+(f * g)(t) = \int_{0}^{t} e^\tau \, d\tau = \left[e^\tau \right]_{0}^{t} = e^t - 1.
+\]
+
+2. Si \(t > 1\) :
+\[
+(f * g)(t) = \int_{t-1}^{t} e^\tau \, d\tau = \left[e^\tau \right]_{t-1}^{t} = e^t - e^{t-1}.
+\]
+
+\subsection*{Visualisation des fonctions et de la convolution}
+
+\begin{figure}[ht]
+    \centering
+    \begin{tikzpicture}
+        % Graph for f(t)
+        \begin{axis}[
+            width=12cm,
+            height=6cm,
+            xlabel={$t$},
+            ylabel={$f(t)$ and $g(t)$},
+            axis x line=middle,
+            axis y line=middle,
+            ymin=0, ymax=2,
+            xmin=-2, xmax=2,
+            samples=100,
+            legend style={at={(1.1,1)},anchor=north west}
+        ]
+            % f(t)
+            \addplot[domain=-2:0, thick, blue] {exp(x)} node[pos=0.5, above] {};
+            \addplot[domain=0:2, thick, blue] {exp(-x)} node[pos=0.5, above] {};
+            \addlegendentry{$f(t)$}
+
+            % g(t)
+            \addplot[domain=0:1, thick, red] {1} node[pos=0.5, above] {};
+            \addplot[domain=-2:0, thick, red] {0};
+            \addplot[domain=1:2, thick, red] {0};
+            \addlegendentry{$g(t)$}
+        \end{axis}
+    \end{tikzpicture}
+    \caption{Les fonctions \(f(t)\) et \(g(t)\).}
+\end{figure}
+
+\begin{figure}[ht]
+    \centering
+    \begin{tikzpicture}
+        % Graph for the convolution
+        \begin{axis}[
+            width=12cm,
+            height=6cm,
+            xlabel={$t$},
+            ylabel={$(f * g)(t)$},
+            axis x line=middle,
+            axis y line=middle,
+            ymin=0, ymax=2,
+            xmin=-1, xmax=3,
+            samples=100
+        ]
+            % Convolution result
+            \addplot[domain=0:1, thick, green] {exp(x) - 1};
+            \addplot[domain=1:3, thick, green] {exp(x) - exp(x-1)};
+        \end{axis}
+    \end{tikzpicture}
+    \caption{Résultat de la convolution : \((f * g)(t)\).}
+\end{figure}
+
+\end{document}
+$$
 
 ---
 &copy; Félix MARQUET
