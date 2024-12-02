@@ -1,6 +1,7 @@
 ```table-of-contents
 title: Fiche de révision DS1 de maths
 ```
+<div style="page-break-after: always;"></div>
 
 # 1. Rappel primitive et dérivé
 
@@ -33,11 +34,13 @@ $\int u \, v' \, dx = u v - \int u' \, v \, dx$
 ## Fréquence
 $\omega = {2\pi}*F$ ou $\omega = \frac{2\pi}{T}$
 $F = \frac{{1}}{T}$
+<div style="page-break-after: always;"></div>
+
 ## Partité d'une fonction
 Une fonction est paire si $f(-x) = f(x)$
 Une fonction est impaire si $f(-x) = -f(x)$
-Une foncti
-<div style="page-break-after: always;"></div>
+Une fonction peut ne pas avoir de parité.
+
 
 # 4. **Espaces de Hilbert**
 
@@ -68,6 +71,8 @@ $$
    $$
    x = x_H + x_H^\perp, \quad x_H \in H, \, x_H^\perp \in H^\perp.
 $$
+<div style="page-break-after: always;"></div>
+
 # 5. **Décomposition en Séries de Fourier**
 ## Définition
 Une fonction périodique $f(x)$ de période $2π$ peut être décomposée en une série de Fourier :
@@ -75,7 +80,6 @@ $$
 f(x) = a_0 + \sum_{n=1}^\infty \left[a_n \cos(nx) + b_n \sin(nx)\right].
 $$
 
-<div style="page-break-after: always;"></div>
 
 ## Coefficients de Fourier
 - $a_0$ : (tous le temps)
@@ -90,6 +94,8 @@ $$
 - **Convergence** : La série converge en moyenne quadratique dans $L^2([-\pi, \pi])$. (Pas vu en cours mais je le note la quand même au cas ou)
 - **Parseval** :
   $$\frac{1}{2\pi} \int_{-\pi}^\pi |f(x)|^2 dx = \frac{a_0^2}{2} + \sum_{n=1}^\infty \frac{a_n^2 + b_n^2}{2}$$
+<div style="page-break-after: always;"></div>
+
 # 6. **Convolution**
 ## Définition
 La convolution de deux fonctions $f$ et $g$ est définie par :
@@ -111,6 +117,8 @@ pour toute fonction $f$ continue au voisinage de 0.
 ## Propriétés
 1. **Support ponctuel** :
 $$\delta(x) = 0 \quad \text{pour } x \neq 0$$
+<div style="page-break-after: always;"></div>
+
 2. **Translation** :
 $$\delta(x - a) \quad \text{est centrée en } x = a$$
 3. **Propriété de filtrage** :
@@ -134,6 +142,7 @@ $$\frac{\partial f}{\partial y} = \lim_{\Delta y \to 0} \frac{f(x, y+\Delta y) -
 $$\nabla \times f = \frac{\partial f_y}{\partial x} - \frac{\partial f_x}{\partial y}$$
 ## Théorème de Schwarz
 $$\frac{\partial^2 f}{\partial x \partial y} = \frac{\partial^2 f}{\partial y \partial x}, \quad \text{si } f_{xy} \text{ et } f_{yx} \text{ sont continues.}$$
+<div style="page-break-after: always;"></div>
 
 # 9. Matrice hessienne
 ## Définition
@@ -141,7 +150,6 @@ La matrice hessienne d'une fonction $f: R^n \to R$ est une matrice carrée compo
 $$
 H_f(x) = \begin{bmatrix} \frac{\partial^2 f}{\partial x_1^2} & \frac{\partial^2 f}{\partial x_1 \partial x_2} & \cdots & \frac{\partial^2 f}{\partial x_1 \partial x_n} \\ \frac{\partial^2 f}{\partial x_2 \partial x_1} & \frac{\partial^2 f}{\partial x_2^2} & \cdots & \frac{\partial^2 f}{\partial x_2 \partial x_n} \\ \vdots & \vdots & \ddots & \vdots \\ \frac{\partial^2 f}{\partial x_n \partial x_1} & \frac{\partial^2 f}{\partial x_n \partial x_2} & \cdots & \frac{\partial^2 f}{\partial x_n^2} \end{bmatrix}
 $$
-<div style="page-break-after: always;"></div>
 
 ## Propriétés
 1. La matrice hessienne est **symétrique** si $f$ est de classe $C^2$
@@ -163,6 +171,8 @@ H_f(x, y) =
 1 & 2
 \end{bmatrix}
 $$
+
+<div style="page-break-after: always;"></div>
 
 ## Analyse
 La matrice hessienne $H_{f}(x, y)$ est définie positive (ses valeurs propres sont toutes positives). Cela signifie que la fonction $f(x,y) = x^2 +xy + y^2$ est strictement convexe.
