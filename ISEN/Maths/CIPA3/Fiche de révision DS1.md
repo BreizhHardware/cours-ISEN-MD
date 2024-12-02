@@ -107,11 +107,13 @@ $$\nabla \times f = \frac{\partial f_y}{\partial x} - \frac{\partial f_x}{\parti
 ## Théorème de Schwarz
 $$\frac{\partial^2 f}{\partial x \partial y} = \frac{\partial^2 f}{\partial y \partial x}, \quad \text{si } f_{xy} \text{ et } f_{yx} \text{ sont continues.}$$
 
-$$
+```tikz
 \documentclass{article}
 \usepackage{amsmath, tikz}
 \usepackage{pgfplots}
 \pgfplotsset{compat=1.17}
+
+\begin{document}
 
 \section*{Convolution : Exemple avec \(f(t)\) et \(g(t)\)}
 
@@ -219,7 +221,7 @@ Calculons les deux cas :
 \end{figure}
 
 \end{document}
-$$
+```
 
 ---
 &copy; Félix MARQUET
