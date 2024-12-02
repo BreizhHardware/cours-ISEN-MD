@@ -106,8 +106,34 @@ $$\frac{\partial f}{\partial y} = \lim_{\Delta y \to 0} \frac{f(x, y+\Delta y) -
 $$\nabla \times f = \frac{\partial f_y}{\partial x} - \frac{\partial f_x}{\partial y}$$
 ## Théorème de Schwarz
 $$\frac{\partial^2 f}{\partial x \partial y} = \frac{\partial^2 f}{\partial y \partial x}, \quad \text{si } f_{xy} \text{ et } f_{yx} \text{ sont continues.}$$
-
-
+# Matrice hessienne
+## Définition
+La matrice hessienne d'une fonction $f: R^n \to R$ est une matrice carrée composée des dérivées partielles secondes de $f$. Si $f(x_{1}, x_{2}, x_{3},\dots, x_{n})$ est deux fois continûment différentiable, alors :
+$$
+H_f(x) = \begin{bmatrix} \frac{\partial^2 f}{\partial x_1^2} & \frac{\partial^2 f}{\partial x_1 \partial x_2} & \cdots & \frac{\partial^2 f}{\partial x_1 \partial x_n} \\ \frac{\partial^2 f}{\partial x_2 \partial x_1} & \frac{\partial^2 f}{\partial x_2^2} & \cdots & \frac{\partial^2 f}{\partial x_2 \partial x_n} \\ \vdots & \vdots & \ddots & \vdots \\ \frac{\partial^2 f}{\partial x_n \partial x_1} & \frac{\partial^2 f}{\partial x_n \partial x_2} & \cdots & \frac{\partial^2 f}{\partial x_n^2} \end{bmatrix}
+$$
+## Propriétés
+1. La matrice hessienne est **symétrique** si $f$ est de classe $C^2$
+$\frac{\partial^2 f}{\partial x_i \partial x_j} = \frac{\partial^2 f}{\partial x_j \partial x_i}.$
+2. La hessienne permet de déterminer la **convexité** ou la **concavité** de $f$ :
+	- Si $H_{f}(x)$ (x) est définie positive ($∀v, v^TH_{f}(x)v>0$) alors $f$ est **strictement convexe**.
+	- Si $H_{f}(x)$ (x) est définie négative ($∀v, v^TH_{f}(x)v<0$) alors $f$ est **strictement concave**.
+## Exemple: $f(x, y) = x^2 + xy + y^2$
+## Calcul des dérivées partielles
+1. Les dérivées partielles premières :
+$\frac{\partial f}{\partial x} = 2x + y, \quad \frac{\partial f}{\partial y} = x + 2y.$
+2. Les dérivées partielles secondes :
+$\frac{\partial^2 f}{\partial x^2} = 2, \quad \frac{\partial^2 f}{\partial y^2} = 2, \quad \frac{\partial^2 f}{\partial x \partial y} = \frac{\partial^2 f}{\partial y \partial x} = 1$
+## Matrice hessienne
+$$
+H_f(x, y) = 
+\begin{bmatrix}
+2 & 1 \\
+1 & 2
+\end{bmatrix}
+$$
+## Analyse
+La matrice hessienne $H_{f}(x, y)$ 
 
 ---
 &copy; Félix MARQUET
