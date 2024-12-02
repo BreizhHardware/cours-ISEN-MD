@@ -93,7 +93,20 @@ $$\delta(x - a) \quad \text{est centrée en } x = a$$
 $$\int_{-\infty}^\infty \delta(x - a) f(x) \, dx = f(a)$$
 4. **Lien avec la transformée de Fourier** :
 $$\mathcal{F}(\delta(x)) = 1$$
-# 5.
+# 5. Distribution de 2 variables
+## Gradient d'une fonction à 2 variables
+$$\nabla f(x, y) = \begin{bmatrix} \frac{\partial f}{\partial x} \\ \frac{\partial f}{\partial y} \end{bmatrix}$$
+## Dérivée partielle selon x
+$$
+\frac{\partial f}{\partial x} = \lim_{\Delta x \to 0} \frac{f(x+\Delta x, y) - f(x, y)}{\Delta x}
+$$
+## Dérivée partielle selon y
+$$\frac{\partial f}{\partial y} = \lim_{\Delta y \to 0} \frac{f(x, y+\Delta y) - f(x, y)}{\Delta y}$$
+## Rotationnel en 2D
+$$\nabla \times f = \frac{\partial f_y}{\partial x} - \frac{\partial f_x}{\partial y}$$
+## Théorème de Schwarz
+$$\frac{\partial^2 f}{\partial x \partial y} = \frac{\partial^2 f}{\partial y \partial x}, \quad \text{si } f_{xy} \text{ et } f_{yx} \text{ sont continues.}$$
+
 
 ---
 &copy; Félix MARQUET
