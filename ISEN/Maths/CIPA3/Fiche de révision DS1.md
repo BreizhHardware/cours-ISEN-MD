@@ -1,7 +1,6 @@
 ```table-of-contents
 title: Fiche de révision DS1 de maths
 ```
-<div style="page-break-after: always;"></div>
 
 # 1. Rappel primitive et dérivé
 
@@ -31,6 +30,10 @@ title: Fiche de révision DS1 de maths
 ## IPP
 
 $\int u \, v' \, dx = u v - \int u' \, v \, dx$
+## Fréquence
+$\omega = {2\pi}*F$ ou $\omega = \frac{2\pi}{T}$
+$F = \frac{{1}}{T}$
+
 
 <div style="page-break-after: always;"></div>
 
@@ -74,12 +77,12 @@ $$
 
 ## Coefficients de Fourier
 - $a_0$ : (tous le temps)
-  $$a_0 = \frac{1}{2\pi} \int_{-\pi}^\pi f(x) \, dx$$
+  $$a_0 = \frac{1}{T} \int_{d}^{d+T} f(x) \, dx$$
 
 - $a_n$ : (si paire)
-  $$a_n = \frac{1}{\pi} \int_{-\pi}^\pi f(x) \cos(nx) \, dx$$
+  $$a_n = \frac{1}{T} \int_{-\pi}^\pi f(x) \cos(nx) \, dx$$
 - $b_n$ : (si impaire)
-  $$b_n = \frac{1}{\pi} \int_{-\pi}^\pi f(x) \sin(nx) \, dx$$
+  $$b_n = \frac{2}{T} \int_{d}^{d+T} f(x) \sin(nx) \, dx$$
 
 ## Propriétés
 - **Convergence** : La série converge en moyenne quadratique dans $L^2([-\pi, \pi])$. (Pas vu en cours mais je le note la quand même au cas ou)
