@@ -33,8 +33,10 @@ $\int u \, v' \, dx = u v - \int u' \, v \, dx$
 ## Fréquence
 $\omega = {2\pi}*F$ ou $\omega = \frac{2\pi}{T}$
 $F = \frac{{1}}{T}$
-
-
+## Partité d'une fonction
+Une fonction est paire si $f(-x) = f(x)$
+Une fonction est impaire si $f(-x) = -f(x)$
+Une foncti
 <div style="page-break-after: always;"></div>
 
 # 4. **Espaces de Hilbert**
