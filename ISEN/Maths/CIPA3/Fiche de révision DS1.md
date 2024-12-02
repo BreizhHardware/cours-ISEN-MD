@@ -80,7 +80,7 @@ $$
   $$a_0 = \frac{1}{T} \int_{d}^{d+T} f(x) \, dx$$
 
 - $a_n$ : (si paire)
-  $$a_n = \frac{1}{T} \int_{-\pi}^\pi f(x) \cos(nx) \, dx$$
+  $$a_n = \frac{2}{T} \int_{d}^{d+T} f(x) \cos(nx) \, dx$$
 - $b_n$ : (si impaire)
   $$b_n = \frac{2}{T} \int_{d}^{d+T} f(x) \sin(nx) \, dx$$
 
