@@ -20,11 +20,14 @@ title: Fiche de révision DS1 de maths
 
 # 2. Identités trigonométrique: 
 
-| $\cos(a+b) = \cos(a)\cos(b) - \sin(a)\sin(b)$ |
-| :-------------------------------------------: |
-| $\sin(a+b) = \sin(a)\cos(b) + \sin(b)\cos(a)$ |
-| $\cos(a-b) = \cos(a)\cos(b) + \sin(a)\sin(b)$ |
-| $\sin(a-b) = \sin(a)\cos(b) - \sin(b)\cos(a)$ |
+|      $\cos(a+b) = \cos(a)\cos(b) - \sin(a)\sin(b)$       |
+| :------------------------------------------------------: |
+|      $\sin(a+b) = \sin(a)\cos(b) + \sin(b)\cos(a)$       |
+|      $\cos(a-b) = \cos(a)\cos(b) + \sin(a)\sin(b)$       |
+|      $\sin(a-b) = \sin(a)\cos(b) - \sin(b)\cos(a)$       |
+| $\cos(a)\sin(b) = \frac{1}{2} [\sin(a+b) + \sin(a - b)]$ |
+|  $\cos(a)\cos(b) = \frac{1}{2}[\cos(a+b) + \cos(a-b)]$   |
+|   $\sin(a)\sin(b) = \frac{1}{2}[\cos(a-b)-\cos(a+b)]$    |
 
 # 3. Rappel mathématique
 
