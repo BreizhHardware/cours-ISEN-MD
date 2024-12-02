@@ -43,13 +43,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ISEN/Daily/02-12-2024.md",
+                "file": "ISEN/Maths/CIPA3/Fiche de révision DS1.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "02-12-2024"
+              "title": "Fiche de révision DS1"
             }
           },
           {
@@ -63,7 +63,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -180,9 +180,11 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {},
+              "state": {
+                "file": "ISEN/Maths/CIPA3/Fiche de révision DS1.md"
+              },
               "icon": "lucide-list",
-              "title": "Plan"
+              "title": "Plan de Fiche de révision DS1"
             }
           },
           {
@@ -228,7 +230,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "620dd933593980bb",
+  "active": "d12031bc1c58d500",
   "lastOpenFiles": [
     "ISEN/Daily/02-12-2024.md",
     "ISEN/Maths/CIPA3/Fiche de révision DS1.md",
