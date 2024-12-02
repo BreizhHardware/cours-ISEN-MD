@@ -1,5 +1,6 @@
 ```table-of-contents
 title: Fiche de révision DS1 de maths
+includeLinks: false
 ```
 <div style="page-break-after: always;"></div>
 
@@ -20,11 +21,21 @@ title: Fiche de révision DS1 de maths
 
 # 2. Identités trigonométrique: 
 
-| $\cos(a+b) = \cos(a)\cos(b) - \sin  |
-| :------------: |                   |
+| $\cos(a+b) = \cos(a)\cos(b) - \sin(a)\sin(b)$ |
+| :-------------------------------------------: |
+| $\sin(a+b) = \sin(a)\cos(b) + \sin(b)\cos(a)$ |
+| $\cos(a-b) = \cos(a)\cos(b) + \sin(a)\sin(b)$ |
+| $\sin(a-b) = \sin(a)\cos(b) - \sin(b)\cos(a)$ |
 
+# 3. Rappel mathématique
 
-# 2. **Espaces de Hilbert**
+## IPP
+
+$\int u \, v' \, dx = u v - \int u' \, v \, dx$
+
+<div style="page-break-after: always;"></div>
+
+# 4. **Espaces de Hilbert**
 
 Un **espace de Hilbert** est un espace vectoriel normé complet muni d'un produit scalaire.
 
@@ -43,7 +54,6 @@ $$
 $$
 \langle u, v \rangle = 0
 $$
-<div style="page-break-after: always;"></div>
 
 2. **Inégalité de Cauchy-Schwarz** :
 $$
@@ -54,25 +64,29 @@ $$
    $$
    x = x_H + x_H^\perp, \quad x_H \in H, \, x_H^\perp \in H^\perp.
 $$
-# 3. **Décomposition en Séries de Fourier**
+# 5. **Décomposition en Séries de Fourier**
 ## Définition
 Une fonction périodique $f(x)$ de période $2π$ peut être décomposée en une série de Fourier :
 $$
 f(x) = a_0 + \sum_{n=1}^\infty \left[a_n \cos(nx) + b_n \sin(nx)\right].
 $$
 
+<div style="page-break-after: always;"></div>
+
 ## Coefficients de Fourier
 - $a_0$ : (tous le temps)
   $$a_0 = \frac{1}{2\pi} \int_{-\pi}^\pi f(x) \, dx$$
+
 - $a_n$ : (si paire)
   $$a_n = \frac{1}{\pi} \int_{-\pi}^\pi f(x) \cos(nx) \, dx$$
 - $b_n$ : (si impaire)
   $$b_n = \frac{1}{\pi} \int_{-\pi}^\pi f(x) \sin(nx) \, dx$$
+
 ## Propriétés
 - **Convergence** : La série converge en moyenne quadratique dans $L^2([-\pi, \pi])$. (Pas vu en cours mais je le note la quand même au cas ou)
 - **Parseval** :
   $$\frac{1}{2\pi} \int_{-\pi}^\pi |f(x)|^2 dx = \frac{a_0^2}{2} + \sum_{n=1}^\infty \frac{a_n^2 + b_n^2}{2}$$
-# 4. **Convolution**
+# 6. **Convolution**
 ## Définition
 La convolution de deux fonctions $f$ et $g$ est définie par :
 $$(f * g)(t) = \int_{-\infty}^\infty f(\tau) g(t - \tau) \, d\tau$$
@@ -85,7 +99,7 @@ $$f * (g * h) = (f * g) * h$$
 $$f * (g + h) = (f * g) + (f * h)$$
 4. **Lien avec la transformée de Fourier** :
 $$\mathcal{F}(f * g) = \mathcal{F}(f) \cdot \mathcal{F}(g)$$
-# 4. **Distribution de Dirac**
+# 7. **Distribution de Dirac**
 ## Définition
 La distribution de Dirac $\delta(x)$ est définie par :
 $$\int_{-\infty}^\infty \delta(x) f(x) \, dx = f(0)$$
@@ -99,9 +113,11 @@ $$\delta(x - a) \quad \text{est centrée en } x = a$$
 $$\int_{-\infty}^\infty \delta(x - a) f(x) \, dx = f(a)$$
 4. **Lien avec la transformée de Fourier** :
 $$\mathcal{F}(\delta(x)) = 1$$
-# 5. Distribution de 2 variables
+# 8. Distribution de 2 variables
 ## Gradient d'une fonction à 2 variables
 $$\nabla f(x, y) = \begin{bmatrix} \frac{\partial f}{\partial x} \\ \frac{\partial f}{\partial y} \end{bmatrix}$$
+<div style="page-break-after: always;"></div>
+
 ## Dérivée partielle selon x
 $$
 \frac{\partial f}{\partial x} = \lim_{\Delta x \to 0} \frac{f(x+\Delta x, y) - f(x, y)}{\Delta x}
@@ -112,9 +128,8 @@ $$\frac{\partial f}{\partial y} = \lim_{\Delta y \to 0} \frac{f(x, y+\Delta y) -
 $$\nabla \times f = \frac{\partial f_y}{\partial x} - \frac{\partial f_x}{\partial y}$$
 ## Théorème de Schwarz
 $$\frac{\partial^2 f}{\partial x \partial y} = \frac{\partial^2 f}{\partial y \partial x}, \quad \text{si } f_{xy} \text{ et } f_{yx} \text{ sont continues.}$$
-<div style="page-break-after: always;"></div>
 
-# Matrice hessienne
+# 9. Matrice hessienne
 ## Définition
 La matrice hessienne d'une fonction $f: R^n \to R$ est une matrice carrée composée des dérivées partielles secondes de $f$. Si $f(x_{1}, x_{2}, x_{3},\dots, x_{n})$ est deux fois continûment différentiable, alors :
 $$
@@ -140,6 +155,7 @@ H_f(x, y) =
 1 & 2
 \end{bmatrix}
 $$
+
 ## Analyse
 La matrice hessienne $H_{f}(x, y)$ est définie positive (ses valeurs propres sont toutes positives). Cela signifie que la fonction $f(x,y) = x^2 +xy + y^2$ est strictement convexe.
 
