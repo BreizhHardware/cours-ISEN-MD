@@ -1,6 +1,5 @@
 ```table-of-contents
 title: Fiche de révision DS1 de maths
-includeLinks: false
 ```
 <div style="page-break-after: always;"></div>
 
@@ -114,9 +113,11 @@ $$\int_{-\infty}^\infty \delta(x - a) f(x) \, dx = f(a)$$
 4. **Lien avec la transformée de Fourier** :
 $$\mathcal{F}(\delta(x)) = 1$$
 # 8. Distribution de 2 variables
+## Définition
+Une **distribution de deux variables** est une généralisation des fonctions classiques permettant de modéliser des phénomènes singuliers ou localisés, comme les impulsions ou les discontinuités. Elle agit sur des fonctions tests $\phi(x, y)$ lisses et à support compact par une intégrale généralisée.
+
 ## Gradient d'une fonction à 2 variables
 $$\nabla f(x, y) = \begin{bmatrix} \frac{\partial f}{\partial x} \\ \frac{\partial f}{\partial y} \end{bmatrix}$$
-<div style="page-break-after: always;"></div>
 
 ## Dérivée partielle selon x
 $$
@@ -135,13 +136,15 @@ La matrice hessienne d'une fonction $f: R^n \to R$ est une matrice carrée compo
 $$
 H_f(x) = \begin{bmatrix} \frac{\partial^2 f}{\partial x_1^2} & \frac{\partial^2 f}{\partial x_1 \partial x_2} & \cdots & \frac{\partial^2 f}{\partial x_1 \partial x_n} \\ \frac{\partial^2 f}{\partial x_2 \partial x_1} & \frac{\partial^2 f}{\partial x_2^2} & \cdots & \frac{\partial^2 f}{\partial x_2 \partial x_n} \\ \vdots & \vdots & \ddots & \vdots \\ \frac{\partial^2 f}{\partial x_n \partial x_1} & \frac{\partial^2 f}{\partial x_n \partial x_2} & \cdots & \frac{\partial^2 f}{\partial x_n^2} \end{bmatrix}
 $$
+<div style="page-break-after: always;"></div>
+
 ## Propriétés
 1. La matrice hessienne est **symétrique** si $f$ est de classe $C^2$
 $\frac{\partial^2 f}{\partial x_i \partial x_j} = \frac{\partial^2 f}{\partial x_j \partial x_i}.$
 2. La hessienne permet de déterminer la **convexité** ou la **concavité** de $f$ :
 	- Si $H_{f}(x)$ (x) est définie positive ($∀v, v^TH_{f}(x)v>0$) alors $f$ est **strictement convexe**.
 	- Si $H_{f}(x)$ (x) est définie négative ($∀v, v^TH_{f}(x)v<0$) alors $f$ est **strictement concave**.
-## Exemple: $f(x, y) = x^2 + xy + y^2$
+## Exemple: f(x, y) = x^2 + xy + y^2 
 ## Calcul des dérivées partielles
 1. Les dérivées partielles premières :
 $\frac{\partial f}{\partial x} = 2x + y, \quad \frac{\partial f}{\partial y} = x + 2y.$
