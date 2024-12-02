@@ -43,17 +43,27 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ISEN/Maths/CIPA3/Fiche de révision DS1.md",
+                "file": "ISEN/Daily/02-12-2024.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Fiche de révision DS1"
+              "title": "02-12-2024"
+            }
+          },
+          {
+            "id": "620dd933593980bb",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Nouvel onglet"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -75,7 +85,7 @@
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-folder-closed",
-              "title": "Files"
+              "title": "Explorateur de fichiers"
             }
           },
           {
@@ -102,7 +112,7 @@
               "type": "bookmarks",
               "state": {},
               "icon": "lucide-bookmark",
-              "title": "Bookmarks"
+              "title": "Signet"
             }
           }
         ]
@@ -170,11 +180,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "ISEN/Maths/CIPA3/Fiche de révision DS1.md"
-              },
+              "state": {},
               "icon": "lucide-list",
-              "title": "Outline of Fiche de révision DS1"
+              "title": "Plan"
             }
           },
           {
@@ -210,17 +218,17 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "audio-recorder:Start/stop recording": false,
+      "switcher:Ouvrir le sélecteur rapide": false,
+      "graph:Ouvrir la vue graphique": false,
+      "canvas:Créer une nouvelle toile": false,
+      "daily-notes:Ouvrir la note quotidienne": false,
+      "templates:Insérer le modèle": false,
+      "command-palette:Ouvrir la palette de commandes": false,
+      "audio-recorder:Démarrer / arrêter l'enregistrement": false,
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d12031bc1c58d500",
+  "active": "620dd933593980bb",
   "lastOpenFiles": [
     "ISEN/Daily/02-12-2024.md",
     "ISEN/Maths/CIPA3/Fiche de révision DS1.md",
