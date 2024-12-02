@@ -18,6 +18,12 @@ title: Fiche de révision DS1 de maths
 |    $\cos(ax)$     |              $-a\sin(x)$              | $\frac{1}{a}\sin(x)$  |
 |     $\tan(x)$     | $1 + \tan^2(x) = \frac{1}{\cos^2(x)}$ |                       |
 
+# 2. Identités trigonométrique: 
+
+| $\cos(a+b) = \cos(a)\cos(b) - \sin  |
+| :------------: |                   |
+
+
 # 2. **Espaces de Hilbert**
 
 Un **espace de Hilbert** est un espace vectoriel normé complet muni d'un produit scalaire.
@@ -56,11 +62,11 @@ f(x) = a_0 + \sum_{n=1}^\infty \left[a_n \cos(nx) + b_n \sin(nx)\right].
 $$
 
 ## Coefficients de Fourier
-- $a_0$ :
+- $a_0$ : (tous le temps)
   $$a_0 = \frac{1}{2\pi} \int_{-\pi}^\pi f(x) \, dx$$
-- $a_n$ :
+- $a_n$ : (si paire)
   $$a_n = \frac{1}{\pi} \int_{-\pi}^\pi f(x) \cos(nx) \, dx$$
-- $b_n$ :
+- $b_n$ : (si impaire)
   $$b_n = \frac{1}{\pi} \int_{-\pi}^\pi f(x) \sin(nx) \, dx$$
 ## Propriétés
 - **Convergence** : La série converge en moyenne quadratique dans $L^2([-\pi, \pi])$. (Pas vu en cours mais je le note la quand même au cas ou)
@@ -106,6 +112,8 @@ $$\frac{\partial f}{\partial y} = \lim_{\Delta y \to 0} \frac{f(x, y+\Delta y) -
 $$\nabla \times f = \frac{\partial f_y}{\partial x} - \frac{\partial f_x}{\partial y}$$
 ## Théorème de Schwarz
 $$\frac{\partial^2 f}{\partial x \partial y} = \frac{\partial^2 f}{\partial y \partial x}, \quad \text{si } f_{xy} \text{ et } f_{yx} \text{ sont continues.}$$
+<div style="page-break-after: always;"></div>
+
 # Matrice hessienne
 ## Définition
 La matrice hessienne d'une fonction $f: R^n \to R$ est une matrice carrée composée des dérivées partielles secondes de $f$. Si $f(x_{1}, x_{2}, x_{3},\dots, x_{n})$ est deux fois continûment différentiable, alors :
@@ -133,7 +141,7 @@ H_f(x, y) =
 \end{bmatrix}
 $$
 ## Analyse
-La matrice hessienne $H_{f}(x, y)$ 
+La matrice hessienne $H_{f}(x, y)$ est définie positive (ses valeurs propres sont toutes positives). Cela signifie que la fonction $f(x,y) = x^2 +xy + y^2$ est strictement convexe.
 
 ---
 &copy; Félix MARQUET
