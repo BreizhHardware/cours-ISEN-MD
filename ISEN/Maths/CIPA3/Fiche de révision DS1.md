@@ -93,7 +93,7 @@ $$\delta(x - a) \quad \text{est centrée en } x = a$$
 $$\int_{-\infty}^\infty \delta(x - a) f(x) \, dx = f(a)$$
 4. **Lien avec la transformée de Fourier** :
 $$\mathcal{F}(\delta(x)) = 1$$
-
+# 5.
 
 ---
 &copy; Félix MARQUET
