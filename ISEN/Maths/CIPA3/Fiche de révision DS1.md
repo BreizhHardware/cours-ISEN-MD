@@ -147,7 +147,15 @@ $$\nabla \times f = \frac{\partial f_y}{\partial x} - \frac{\partial f_x}{\parti
 ## Théorème de Schwarz
 $$\frac{\partial^2 f}{\partial x \partial y} = \frac{\partial^2 f}{\partial y \partial x}, \quad \text{si } f_{xy} \text{ et } f_{yx} \text{ sont continues.}$$
 <div style="page-break-after: always;"></div>
-
+## Recherche de point critique
+On pose $\nabla f(x, y) = 0$
+Puis une fois que x est exprimé par rapport a y on cherche les points évidents.
+Ensuite une exprime la matrice hessienne pour les points critiques.
+Si le déterminant $\Delta$ > 0 est défini positive.
+	Si $\frac{\partial^2 f}{\partial x^2} > 0$, alors le point critique est un **minimum local**.
+	Si $\frac{\partial^2 f}{\partial x^2} < 0$, alors le point critique est un **maximum local**.
+Si $\Delta$ < 0 le point critique est un **point de selle**.
+Si $\Delta$ = 0 le test est **indéterminé**, et il faut utiliser d'autres méthodes pour conclure.
 # 9. Matrice hessienne
 ## Définition
 La matrice hessienne d'une fonction $f: R^n \to R$ est une matrice carrée composée des dérivées partielles secondes de $f$. Si $f(x_{1}, x_{2}, x_{3},\dots, x_{n})$ est deux fois continûment différentiable, alors :

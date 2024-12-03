@@ -53,7 +53,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -171,10 +171,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ISEN/Daily/03-12-2024.md"
+                "file": "ISEN/Maths/CIPA3/Fiche de révision DS1.md"
               },
               "icon": "lucide-list",
-              "title": "Plan de 03-12-2024"
+              "title": "Plan de Fiche de révision DS1"
             }
           },
           {
@@ -220,10 +220,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "620dd933593980bb",
+  "active": "4794ff7216968ed7",
   "lastOpenFiles": [
-    "ISEN/Maths/CIPA3/Fiche de révision DS1.md",
     "ISEN/Daily/03-12-2024.md",
+    "ISEN/Maths/CIPA3/Fiche de révision DS1.md",
     "ISEN/Maths/CIPA3/Fiche de révision DS1.pdf",
     "ISEN/Daily/02-12-2024.md",
     "ISEN/FHS/CIPA3/Gestion de projet/Gestion de projet Cours 2.md",
