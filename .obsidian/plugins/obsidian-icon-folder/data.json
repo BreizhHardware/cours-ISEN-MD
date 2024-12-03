@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiSquareSigma",
       "FasCopy",
       "FasServer",
       "FasTable",
-      "FasSkull",
-      "FasBoxesStacked"
+      "FasSkull"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -48,5 +48,6 @@
   "ISEN/PY": "FasSkull",
   "ISEN/Tableur": "FasTable",
   "ISEN/Web Server": "FasServer",
-  "ISEN/Template": "FasCopy"
+  "ISEN/Template": "FasCopy",
+  "ISEN/Maths": "LiSquareSigma"
 }

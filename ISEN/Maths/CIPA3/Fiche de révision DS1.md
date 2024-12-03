@@ -38,7 +38,6 @@ $\int u \, v' \, dx = u v - \int u' \, v \, dx$
 ## Fréquence
 $\omega = {2\pi}*F$ ou $\omega = \frac{2\pi}{T}$
 $F = \frac{{1}}{T}$
-<div style="page-break-after: always;"></div>
 
 ## Partité d'une fonction
 Une fonction est paire si $f(-x) = f(x)$
@@ -113,6 +112,83 @@ $$f * (g * h) = (f * g) * h$$
 $$f * (g + h) = (f * g) + (f * h)$$
 4. **Lien avec la transformée de Fourier** :
 $$\mathcal{F}(f * g) = \mathcal{F}(f) \cdot \mathcal{F}(g)$$
+## Convolution de deux fonctions exponentielles
+
+Soient $\alpha$ et $beta$ deux nombres réels. Nous cherchons à démontrer l'existence et à calculer le produit de convolution :  
+$$
+\left(e^{\alpha x} \mathbf{1}_{[0,+\infty[}(x)\right) \ast \left(e^{\beta x} \mathbf{1}_{[0,+\infty[}(x)\right).
+$$
+
+### Existence
+
+Remarquons d'abord que l'existence du produit de convolution de ces deux fonctions ne résulte pas immédiatement des théorèmes du cours. En effet :
+
+- Si $alpha > 0$ et $beta > 0$, alors les deux fonctions ne sont dans aucun $L^p$ pour $p \geq 1$.
+- Elles appartiennent à $L^1_{\text{loc}}$, mais aucune des deux n'a de support compact.
+
+Ainsi, pour démontrer l'existence du produit de convolution, il faut montrer que, pour tout $x \in \mathbb{R}$, la fonction
+$$
+y \mapsto e^{\alpha (x-y)} \mathbf{1}_{[0,+\infty[}(x-y) e^{\beta y} \mathbf{1}_{[0,+\infty[}(y)
+\
+$$
+est intégrable.
+
+Comme cette fonction est positive, il suffit de faire le calcul sans les valeurs absolues.
+
+### Calcul du produit de convolution
+
+$$
+f \ast g(x) = \int_{\mathbb{R}} e^{\alpha (x-y)} \mathbf{1}_{[0,+\infty[}(x-y) e^{\beta y} \mathbf{1}_{[0,+\infty[}(y) \, dy
+$$
+
+Substituons les fonctions indicatrices $\mathbf{1}_{[0,+\infty[}$ :
+
+$$
+f \ast g(x) = e^{\alpha x} \int_{0}^{+\infty} e^{-\alpha y} \mathbf{1}_{[0,+\infty[}(x-y) e^{\beta y} \, dy
+$$
+
+Or, $x-y \in [0, +\infty[$ si et seulement si $x \geq y$. Ainsi :
+
+- Si $x \leq 0$, alors $f \ast g(x) = 0$.
+- Si $x \geq 0$, alors :
+  $$
+  f \ast g(x) = e^{\alpha x} \int_{0}^{x} e^{(\beta - \alpha) y} \, dy
+  $$
+#### Cas $\beta \neq \alpha$
+
+Pour $\beta \neq \alpha$, calculons l'intégrale :
+$$
+\int_{0}^{x} e^{(\beta - \alpha) y} \, dy = \frac{1}{\beta - \alpha} \left( e^{(\beta - \alpha)x} - 1 \right)
+$$
+
+Ainsi :
+$$
+f \ast g(x) = \frac{1}{\beta - \alpha} \left( e^{\beta x} - e^{\alpha x} \right).
+$$
+#### Cas $\beta = \alpha$
+
+Pour $\beta = \alpha$, l'intégrale devient :
+$$
+\int_{0}^{x} 1 \, dy = x.
+$$
+
+Ainsi :
+$$
+f \ast g(x) = x e^{\alpha x}.
+$$
+
+### Résultat final
+
+Le produit de convolution est donné par :
+$$
+f \ast g(x) =
+\begin{cases}
+0 & \text{si } x \leq 0, \\
+\frac{1}{\beta - \alpha} \left( e^{\beta x} - e^{\alpha x} \right) & \text{si } x > 0 \text{ et } \beta \neq \alpha, \\
+x e^{\alpha x} & \text{si } x > 0 \text{ et } \beta = \alpha.
+\end{cases}
+$$
+
 # 7. **Distribution de Dirac**
 ## Définition
 La distribution de Dirac $\delta(x)$ est définie par :
@@ -184,7 +260,6 @@ H_f(x, y) =
 \end{bmatrix}
 $$
 
-<div style="page-break-after: always;"></div>
 
 ## Analyse
 La matrice hessienne $H_{f}(x, y)$ est définie positive (ses valeurs propres sont toutes positives). Cela signifie que la fonction $f(x,y) = x^2 +xy + y^2$ est strictement convexe.
