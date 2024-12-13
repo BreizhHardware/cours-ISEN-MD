@@ -13,13 +13,14 @@ Possiblement redirigé vers un site perso
 Cibler sur qqch de particulier
 
 # Post
-🎉 This year I have started a new adventure: studying through a work-study program at ISEN Nantes!
+🎉 This year I have started a new adventure : studying through a work-study program at **ISEN Nantes**!
 
 It’s a unique opportunity to blend learning with hands-on experience, and I’m going to tell you more about it!
 
-💼 I’m currently working at **Horoquartz**, at the R&D department in Nantes. The company has been really nice, offering a supportive and enriching environment. Starting my first real job (beyond summer roles) was definitely something nervous at first, but thanks to the warm welcome of the team, I quickly felt at ease.
+💼 I’m currently working at **Horoquartz**, at the R&D Department in Nantes. The company has been really nice, offering a supportive and enriching environment. Starting my first real job (beyond summer roles) was definitely nerve-wracking at first, but thanks to the warm welcome of the team, I quickly felt at ease.
 
 💡One of my most exciting tasks so far was conducting a benchmark of programming languages for one of our projects. This deep dive into various technologies helped me identify the best fit for our project and introduced me to new tools that I might use in the future. It’s been both challenging and rewarding!
 
-🌟A big thank you to **Horoquartz** for their trust and to **ISEN Nantes** for supporting me on this new journey. I hope this journey will be a rewarding one in term of skill.
+🌟A big thank you to Horoquartz for their trust and to ISEN Nantes for supporting me on this new journey. I hope this journey will be a rewarding one in terms of skill.
+
 #WorkStudy #ISENNantes #Horoquartz #Innovation #Development #ProgrammingLanguages
