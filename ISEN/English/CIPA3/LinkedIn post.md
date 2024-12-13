@@ -15,11 +15,11 @@ Cibler sur qqch de particulier
 # Post
 🎉 This year I have started a new adventure: studying through a work-study program at ISEN Nantes!
 
-It’s a unique opportunity to blend learning with hands-on experience, and I’m thrilled to share more about it!
+It’s a unique opportunity to blend learning with hands-on experience, and I’m going to tell you more about it!
 
-💼 I’m currently working at **Horoquartz**, in the R&D department in Nantes. The company has been fantastic, offering a supportive and enriching environment. Starting my first real job (beyond summer roles) was definitely nerve-wracking at first, but thanks to the warm welcome and encouragement from the team, I quickly felt at ease.
+💼 I’m currently working at **Horoquartz**, at the R&D department in Nantes. The company has been really nice, offering a supportive and enriching environment. Starting my first real job (beyond summer roles) was definitely something nervous at first, but thanks to the warm welcome of the team, I quickly felt at ease.
 
-💡I had the opportunity to conduct a language benchmark for one of our projects. It was an incredibly interesting experience, allowing me to explore and evaluate the best language for this application. It has allowed me to be discover some new tools that I could maybe use in the futur.
+💡One of my most exciting tasks so far was conducting a benchmark of programming languages for one of our projects. This deep dive into various technologies helped me identify the best fit for our project and introduced me to new tools that I might use in the future. It’s been both challenging and rewarding!
 
-🌟A big thank you to **Horoquartz** for their trust and to **ISEN Nantes** for supporting me on this dual journey. I’m eager to keep growing and contributing to meaningful projects.
-#WorkStudy #ISENNantes #Horoquartz #Innovation #Development
+🌟A big thank you to **Horoquartz** for their trust and to **ISEN Nantes** for supporting me on this new journey. I hope this journey will be a rewarding one in term of skill.
+#WorkStudy #ISENNantes #Horoquartz #Innovation #Development #ProgrammingLanguages
