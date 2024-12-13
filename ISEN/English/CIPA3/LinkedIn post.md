@@ -11,3 +11,6 @@ Rester pro mais naturel
 Attention au visuel (photo de nous ++)
 Possiblement redirigé vers un site perso
 Cibler sur qqch de particulier
+
+# Post
+This year I have started a new adventure: 
