@@ -29,6 +29,9 @@ Kamban
 La méthode agile est une approche itérative et collaborative, capable de prendre en compte les besoins initiaux du client et ceux liés aux évolutions du produits.
 L'agilité propose de mettre en place une approche complète en se fixant des objectifs qui sont petits
 
+## Role
+- PO (product owner): Doit cadrer / Spécifier 
+
 
 ---
 &copy; Félix MARQUET
