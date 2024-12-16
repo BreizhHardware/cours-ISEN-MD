@@ -3,6 +3,18 @@ Cours du 2024-12-16
 # Les origines de l'agilité
 ## C'est quoi un projet
 C'est un effort temporaire entrepris pour créer un produit, un service ou un résultat unique. Il est caractérisé par un début et une fin qui sont définis, des objectifs spécifiques, des ressources allouées et il est souvent réalisé dans le cadre de contraintes de temps, de coûts, de qualité, prédéfini.
+## Def
+MOA: Maitrise d'ouvrage
+MOE: Maitrise d'oeuvre
+## Différente méthode
+### Cycle en V
+Très séquencée compliqué de revenir en arrière
+### Cycle en cascade
+Compliquer de revenir en arrière, difficulté a s'adapter aux nouvelles techno
+
+# Méthode inspirantes
+Plan Do Check Act (PDCA)
+
 
 
 ---
