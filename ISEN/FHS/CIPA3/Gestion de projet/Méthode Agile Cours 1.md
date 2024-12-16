@@ -21,6 +21,9 @@ Kamban
 
 12 Principes
 
+La méthode agile est une aproche itérative et collaborative, capable de prendre en compte les besoins initiaux du client et ceux liés aux évolutions du produits.
+L'agilité propose de mettre en place une approche complète en se fixant des objectif
+
 
 ---
 &copy; Félix MARQUET
