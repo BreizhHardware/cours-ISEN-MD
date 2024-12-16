@@ -18,11 +18,16 @@ Kamban
 
 # 2001: Manifeste Agile
 4 Valeurs
+- L'équipe
+- L'application
+- La collaboration
+- L'acceptation du changement
 
 12 Principes
+- 
 
-La méthode agile est une aproche itérative et collaborative, capable de prendre en compte les besoins initiaux du client et ceux liés aux évolutions du produits.
-L'agilité propose de mettre en place une approche complète en se fixant des objectif
+La méthode agile est une approche itérative et collaborative, capable de prendre en compte les besoins initiaux du client et ceux liés aux évolutions du produits.
+L'agilité propose de mettre en place une approche complète en se fixant des objectifs qui sont petits
 
 
 ---
