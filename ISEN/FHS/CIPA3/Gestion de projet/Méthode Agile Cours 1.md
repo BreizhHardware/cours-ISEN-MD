@@ -14,7 +14,7 @@ Compliquer de revenir en arrière, difficulté a s'adapter aux nouvelles techno
 
 # Méthode inspirantes
 Plan Do Check Act (PDCA)
-
+Kamban
 
 
 ---
