@@ -58,17 +58,17 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ISEN/Daily/06-12-2024.md",
+                "file": "ISEN/FHS/CIPA3/Gestion de projet/Méthode Agile Cours 1.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "06-12-2024"
+              "title": "Méthode Agile Cours 1"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -186,10 +186,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ISEN/Daily/16-12-2024.md"
+                "file": "ISEN/FHS/CIPA3/Gestion de projet/Méthode Agile Cours 1.md"
               },
               "icon": "lucide-list",
-              "title": "Plan de 16-12-2024"
+              "title": "Plan de Méthode Agile Cours 1"
             }
           },
           {
@@ -235,10 +235,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "4794ff7216968ed7",
+  "active": "f9e8a0606fa55e4f",
   "lastOpenFiles": [
-    "ISEN/English/CIPA3/LinkedIn post.md",
     "ISEN/Daily/16-12-2024.md",
+    "ISEN/FHS/CIPA3/Gestion de projet/Méthode Agile Cours 1.md",
+    "ISEN/Daily/06-12-2024.md",
+    "ISEN/Daily/03-12-2024.md",
+    "ISEN/English/CIPA3/LinkedIn post.md",
     "ISEN/English/CIPA3/29 nov 2024.md",
     "ISEN/Daily/13-12-2024.md",
     "ISEN/FHS/CIPA3/Contreverses/Controverses Cours 4.md",
@@ -247,13 +250,11 @@
     "ISEN/FHS/CIPA3/Contreverses/Controverses Cours 1.md",
     "ISEN/Daily/11-12-2024.md",
     "ISEN/Maths/CIPA3/Fiche de révision DS1.md",
-    "ISEN/Daily/06-12-2024.md",
     "ISEN/Daily/05-12-2024.md",
     "conflict-files-obsidian-git.md",
     "ISEN/English/CIPA3/Company presentation.md",
     "ISEN/FHS/A2/Outils RH/~WRL2137.tmp",
     "ISEN/FHS/A2/Outils RH/~$ttre de motivation.docx",
-    "ISEN/Daily/03-12-2024.md",
     "ISEN/Maths/CIPA3/Fiche de révision DS1.pdf",
     "ISEN/Daily/02-12-2024.md",
     "ISEN/FHS/CIPA3/Gestion de projet/Gestion de projet Cours 2.md",
@@ -267,7 +268,6 @@
     "ISEN/English/CIPA3/17 sept 2024.md",
     "ISEN/FHS/CIPA3/Gestion de projet/Gestion de projet Cours 3.md",
     "ISEN/FHS/CIPA3/Gestion de projet/Gestion de projet Cours 1.md",
-    "ISEN/Réseau/A2/CCNA Cours 2.md",
     "ISEN/Daily",
     "ISEN/Maths/CIPA3",
     "ISEN/Maths",
