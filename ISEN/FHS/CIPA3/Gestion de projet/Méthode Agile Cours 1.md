@@ -16,6 +16,11 @@ Compliquer de revenir en arrière, difficulté a s'adapter aux nouvelles techno
 Plan Do Check Act (PDCA)
 Kamban
 
+# 2001: Manifeste Agile
+4 Valeurs
+
+12 Principes
+
 
 ---
 &copy; Félix MARQUET
