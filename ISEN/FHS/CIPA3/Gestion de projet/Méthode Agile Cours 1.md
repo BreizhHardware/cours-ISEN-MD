@@ -24,6 +24,8 @@ Kamban
 - L'acceptation du changement
 
 12 Principes
+- Livrer de la valeur au client
+- Intégrer les demandes de changement
 - 
 
 La méthode agile est une approche itérative et collaborative, capable de prendre en compte les besoins initiaux du client et ceux liés aux évolutions du produits.

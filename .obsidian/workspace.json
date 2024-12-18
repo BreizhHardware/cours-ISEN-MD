@@ -58,13 +58,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ISEN/FHS/CIPA3/Gestion de projet/Réunion projet entreprenariat.md",
+                "file": "ISEN/Daily/18-12-2024.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Réunion projet entreprenariat"
+              "title": "18-12-2024"
             }
           }
         ],
@@ -186,10 +186,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ISEN/FHS/CIPA3/Gestion de projet/Réunion projet entreprenariat.md"
+                "file": "ISEN/Daily/18-12-2024.md"
               },
               "icon": "lucide-list",
-              "title": "Plan de Réunion projet entreprenariat"
+              "title": "Plan de 18-12-2024"
             }
           },
           {
@@ -237,8 +237,10 @@
   },
   "active": "f9e8a0606fa55e4f",
   "lastOpenFiles": [
-    "ISEN/Daily/17-12-2024.md",
     "ISEN/FHS/CIPA3/Gestion de projet/Méthode Agile Cours 1.md",
+    "ISEN/Daily/18-12-2024.md",
+    "ISEN/FHS/CIPA3/Gestion de projet/Réunion projet entreprenariat.md",
+    "ISEN/Daily/17-12-2024.md",
     "ISEN/Daily/16-12-2024.md",
     "ISEN/Daily/06-12-2024.md",
     "ISEN/Daily/03-12-2024.md",
@@ -266,8 +268,6 @@
     "ISEN/Daily/30/11/2024.md",
     "ISEN/Daily/30/11",
     "ISEN/Daily/30",
-    "ISEN/English/CIPA3/17 sept 2024.md",
-    "ISEN/FHS/CIPA3/Gestion de projet/Gestion de projet Cours 3.md",
     "ISEN/Daily",
     "ISEN/Maths/CIPA3",
     "ISEN/Maths",
