@@ -58,13 +58,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ISEN/Algo C/CIPA3/Sans titre.md",
+                "file": "ISEN/Algo C/CIPA3/Fiche DS.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Sans titre"
+              "title": "Fiche DS"
             }
           }
         ],
@@ -186,10 +186,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ISEN/Algo C/CIPA3/Sans titre.md"
+                "file": "ISEN/Algo C/CIPA3/Fiche DS.md"
               },
               "icon": "lucide-list",
-              "title": "Plan de Sans titre"
+              "title": "Plan de Fiche DS"
             }
           },
           {
@@ -238,7 +238,7 @@
   "active": "f9e8a0606fa55e4f",
   "lastOpenFiles": [
     "ISEN/Daily/19-12-2024.md",
-    "ISEN/Algo C/CIPA3/Sans titre.md",
+    "ISEN/Algo C/CIPA3/Fiche DS.md",
     "ISEN/Maths/CIPA3/Fiche de révision DS1.md",
     "ISEN/Daily/18-12-2024.md",
     "ISEN/FHS/CIPA3/Gestion de projet/Méthode Agile Cours 1.md",
