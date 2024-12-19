@@ -311,3 +311,62 @@ int main(int argc, char** argv){
     deletePerson(p5);
 }
 ```
+# Pointer
+```C
+#include <stdio.h> 
+#include <stdlib.h> 
+#include <string.h> 
+// Fonction pour démontrer les bases des pointeurs 
+void basicPointers() { 
+	int a = 10; 
+	int *p = &a; // Pointeur qui stocke l'adresse de a 
+	printf("Valeur de a: %d\n", a); 
+	printf("Adresse de a: %p\n", &a); 
+	printf("Adresse stockée dans p: %p\n", p); 
+	printf("Valeur pointée par p: %d\n", *p); 
+	*p = 20; // Modification de a via le pointeur 
+	printf("Nouvelle valeur de a après modification via p: %d\n", a); 
+} 
+// Exemple avec tableau dynamique 
+void dynamicArray() { 
+	int n; 
+	printf("Entrez la taille du tableau : "); 
+	scanf("%d", &n); 
+	int *arr = malloc(n * sizeof(int)); // Allocation dynamique d'un tableau 
+	for (int i = 0; i < n; i++) { 
+		arr[i] = i + 1; // Initialisation 
+	} 
+	printf("Contenu du tableau : "); 
+	for (int i = 0; i < n; i++) { 
+		printf("%d ", *(arr + i)); // Utilisation des pointeurs 
+	} printf("\n"); 
+	free(arr); // Libération de la mémoire 
+} 
+// Exemple avec pointeur sur une chaîne de caractères 
+void stringPointer() { 
+	char str[] = "Bonjour, Monde!"; 
+	char *ptr = str; printf("Chaîne complète : %s\n", ptr); 
+	printf("Premier caractère : %c\n", *ptr); 
+	while (*ptr != '\0') { 
+		printf("%c ", *ptr); ptr++; // Avancement du pointeur 
+	} 
+	printf("\n"); 
+}
+
+// Exemple avec une struct
+struct Person { 
+	char name[32]; 
+	int age; 
+}; 
+
+void structurePointerExample() { 
+	struct Person p = {"Alice", 25}; 
+	struct Person *pPtr = &p; 
+	printf("Nom : %s\n", pPtr->name); 
+	printf("Âge : %d\n", pPtr->age); // Modification via pointeur
+	strcpy(pPtr->name, "Bob"); 
+	pPtr->age = 30; 
+	printf("Nom modifié : %s\n", pPtr->name); 
+	printf("Âge modifié : %d\n", pPtr->age); 
+}
+```
