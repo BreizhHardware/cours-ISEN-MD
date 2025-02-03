@@ -58,13 +58,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ISEN/Daily/30-01-2025.md",
+                "file": "ISEN/Daily/03-02-2025.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "30-01-2025"
+              "title": "03-02-2025"
             }
           }
         ],
@@ -90,7 +90,7 @@
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-folder-closed",
-              "title": "Explorateur de fichiers"
+              "title": "Files"
             }
           },
           {
@@ -117,7 +117,7 @@
               "type": "bookmarks",
               "state": {},
               "icon": "lucide-bookmark",
-              "title": "Signet"
+              "title": "Bookmarks"
             }
           }
         ]
@@ -186,10 +186,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ISEN/Daily/30-01-2025.md"
+                "file": "ISEN/Daily/03-02-2025.md"
               },
               "icon": "lucide-list",
-              "title": "Plan de 30-01-2025"
+              "title": "Outline of 03-02-2025"
             }
           },
           {
@@ -225,20 +225,21 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Ouvrir le sélecteur rapide": false,
-      "graph:Ouvrir la vue graphique": false,
-      "canvas:Créer une nouvelle toile": false,
-      "daily-notes:Ouvrir la note quotidienne": false,
-      "templates:Insérer le modèle": false,
-      "command-palette:Ouvrir la palette de commandes": false,
-      "audio-recorder:Démarrer / arrêter l'enregistrement": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "audio-recorder:Start/stop recording": false,
       "obsidian-git:Open Git source control": false
     }
   },
   "active": "f9e8a0606fa55e4f",
   "lastOpenFiles": [
-    "ISEN/Daily/16-12-2024.md",
     "ISEN/Daily/30-01-2025.md",
+    "ISEN/Daily/03-02-2025.md",
+    "ISEN/Daily/16-12-2024.md",
     "ISEN/Réseau/A2/CCNA Cours 3.md",
     "ISEN/Réseau/A2/CCNA Cours 5.md",
     "ISEN/Réseau/A2/CCNA Cours 4.md",
@@ -263,7 +264,6 @@
     "ISEN/FHS/CIPA3/Contreverses/Controverses Cours 3.md",
     "ISEN/FHS/CIPA3/Contreverses/Controverses Cours 2.md",
     "ISEN/FHS/CIPA3/Contreverses/Controverses Cours 1.md",
-    "ISEN/Daily/11-12-2024.md",
     "ISEN/FHS/A2/Outils RH/~WRL2137.tmp",
     "ISEN/FHS/A2/Outils RH/~$ttre de motivation.docx",
     "ISEN/Maths/CIPA3/Fiche de révision DS1.pdf",
