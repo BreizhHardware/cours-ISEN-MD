@@ -106,7 +106,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ISEN/Daily/27-02-2025.md",
+                "file": "ISEN/Stat/CIPA3/Rapport Cours 1.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -121,7 +121,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "27-02-2025"
+              "title": "Rapport Cours 1"
             }
           }
         ],
@@ -244,13 +244,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ISEN/Daily/27-02-2025.md",
+                "file": "ISEN/Stat/CIPA3/Rapport Cours 1.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Plan de 27-02-2025"
+              "title": "Plan de Rapport Cours 1"
             }
           },
           {
@@ -298,8 +298,9 @@
   },
   "active": "9ef6255ed11ce32c",
   "lastOpenFiles": [
-    "ISEN/Daily/25-02-2025.md",
     "ISEN/Daily/27-02-2025.md",
+    "ISEN/Stat/CIPA3/Rapport Cours 1.md",
+    "ISEN/Daily/25-02-2025.md",
     "ISEN/Daily/30-01-2025.pdf",
     "ISEN/Daily/24-02-2025.md",
     "ISEN/Daily/03-02-2025.md",
@@ -325,7 +326,6 @@
     "ISEN/English/CIPA3/LinkedIn post.md",
     "ISEN/English/CIPA3/29 nov 2024.md",
     "ISEN/Daily/13-12-2024.md",
-    "ISEN/FHS/CIPA3/Contreverses/Controverses Cours 4.md",
     "ISEN/FHS/A2/Outils RH/~WRL2137.tmp",
     "ISEN/FHS/A2/Outils RH/~$ttre de motivation.docx",
     "ISEN/Maths/CIPA3/Fiche de révision DS1.pdf",

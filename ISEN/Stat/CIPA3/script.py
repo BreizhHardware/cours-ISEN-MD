@@ -11,7 +11,6 @@ moyenne_globale_classe_A = notes_classe_A.mean()
 notes_classe_B = pd.concat([df['Note classe B maths'], df['Note classe B phys']])
 moyenne_globale_classe_B = notes_classe_B.mean()
 
-
 # Afficher les moyennes
 print("================== Moyennes ==================")
 print(moyennes)
