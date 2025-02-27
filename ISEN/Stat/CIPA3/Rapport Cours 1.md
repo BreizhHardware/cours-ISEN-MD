@@ -82,19 +82,33 @@ L'écart-type révèle une dispersion plus importante des notes en physique pour
 
 Des histogrammes ont été générés pour chaque colonne de notes, permettant de visualiser la distribution des notes pour chaque matière et classe.
 ![](histo%20maths%20classe%20A.png)
-Cette historgramme montre la distribution des notes pour la classe A en mathématiques, les notes sont plus dispersées avec un pic autour de 10-12
+Cette histogramme montre la distribution des notes pour la classe A en mathématiques, les notes sont plus dispersées avec un pic autour de 10-12 avec un minimum a 3 et un maximum a 14.
 
-Pour la classe B, les notes en mathématiques sont plus concentrées autour de 13-14, ce qui correspond à une performance plus homogène. En physique, la classe B montre une distribution plus étroite, confirmant une variabilité réduite.
 ![](histo%20maths%20classe%20B.png)
+Pour la classe B, on peut observer que les notes en mathématiques sont plus concentrées autour de 13-14, avec un minimum à 10 et un maximum à 17, ce qui correspond à une performance plus homogène par rapport à la classe A.
+
 ![](histo%20phys%20classe%20A.png)
+Pour la classe A, on peut observer que les notes en physique sont relativement concentrées autour de 15-16, avec un minimum vers 6 et un maximum vers 16, ce qui correspond à une performance plus homogène par rapport aux mathématiques.
+
 ![](histo%20phys%20classe%20B.png)
+Pour la classe B, on peut observer que les notes en physique sont relativement concentrées autour de 13-15, avec un minimum vers 10 et un maximum vers 18, ce qui correspond à une performance plus homogène par rapport aux mathématiques.
 
 ## Boîtes à Moustaches
 
-Des boîtes à moustaches ont été utilisées pour comparer les notes en mathématiques et en physique entre les deux classes. Ces graphiques montrent clairement les différences de performance et de dispersion entre les classes.
+Les boîtes à moustaches permettent de visualiser la médiane, les quartiles et les valeurs aberrantes.
 ![](Moustache%20maths.png)
+En mathématiques, la classe B a une médiane plus élevée et une dispersion plus faible par rapport à la classe A.
+
 ![](Moustache%20phys.png)
+ En physique, la classe A montre une médiane légèrement supérieure mais avec une dispersion plus grande.
+ 
+Ces diagrammes confirment les observations statistiques et mettent en évidence les différences de performance et de dispersion entre les deux classes.
 
 # Conclusion
 
-Cette analyse met en évidence des différences notables dans les performances des élèves entre les deux classes. La classe B semble avoir une meilleure maîtrise des mathématiques, tandis que la classe A excelle en physique. Les écarts-types indiquent également des variations dans les performances qui pourraient nécessiter une attention particulière pour améliorer l'homogénéité des résultats.
+des élèves entre les deux classes. La classe B semble avoir une meilleure maîtrise des mathématiques, tandis que la classe A excelle en physique. Les écarts-types indiquent également des variations dans les performances qui pourraient nécessiter une attention particulière pour améliorer l'homogénéité des résultats.
+
+Les visualisations, telles que les histogrammes et les boîtes à moustaches, fournissent une compréhension plus approfondie de la distribution et de la dispersion des notes, renforçant ainsi les conclusions de l'analyse statistique.
+
+---
+&copy; Félix MARQUET
