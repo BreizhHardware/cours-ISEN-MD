@@ -106,7 +106,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ISEN/Daily/25-02-2025.md",
+                "file": "ISEN/Daily/27-02-2025.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -121,7 +121,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "25-02-2025"
+              "title": "27-02-2025"
             }
           }
         ],
@@ -244,13 +244,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ISEN/Daily/25-02-2025.md",
+                "file": "ISEN/Daily/27-02-2025.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Plan de 25-02-2025"
+              "title": "Plan de 27-02-2025"
             }
           },
           {
@@ -298,8 +298,9 @@
   },
   "active": "9ef6255ed11ce32c",
   "lastOpenFiles": [
-    "ISEN/Daily/30-01-2025.pdf",
     "ISEN/Daily/25-02-2025.md",
+    "ISEN/Daily/27-02-2025.md",
+    "ISEN/Daily/30-01-2025.pdf",
     "ISEN/Daily/24-02-2025.md",
     "ISEN/Daily/03-02-2025.md",
     "ISEN/Daily/30-01-2025.md",
