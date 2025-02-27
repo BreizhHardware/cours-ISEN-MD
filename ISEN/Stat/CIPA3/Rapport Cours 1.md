@@ -1,3 +1,8 @@
+---
+tags:
+  - CIPA3
+  - Stats
+---
 # Contexte
 
 Nous disposons d'un fichier contenant les notes de deux classes dans deux matières différentes : mathématiques et physique. L'objectif de cette étude est d'analyser et de comparer les performances des élèves dans ces matières en fonction de leur classe.
@@ -76,10 +81,19 @@ L'écart-type révèle une dispersion plus importante des notes en physique pour
 ## Histogrammes
 
 Des histogrammes ont été générés pour chaque colonne de notes, permettant de visualiser la distribution des notes pour chaque matière et classe.
+![](histo%20maths%20classe%20A.png)
+Cette historgramme montre la distribution des notes pour la classe A en mathématiques, les notes sont plus dispersées avec un pic autour de 10-12
+
+Pour la classe B, les notes en mathématiques sont plus concentrées autour de 13-14, ce qui correspond à une performance plus homogène. En physique, la classe B montre une distribution plus étroite, confirmant une variabilité réduite.
+![](histo%20maths%20classe%20B.png)
+![](histo%20phys%20classe%20A.png)
+![](histo%20phys%20classe%20B.png)
 
 ## Boîtes à Moustaches
 
 Des boîtes à moustaches ont été utilisées pour comparer les notes en mathématiques et en physique entre les deux classes. Ces graphiques montrent clairement les différences de performance et de dispersion entre les classes.
+![](Moustache%20maths.png)
+![](Moustache%20phys.png)
 
 # Conclusion
 

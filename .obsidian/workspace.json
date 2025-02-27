@@ -58,54 +58,6 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ISEN/Daily/30-01-2025.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "30-01-2025"
-            }
-          },
-          {
-            "id": "959c2d7cbf90318d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ISEN/Daily/24-02-2025.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "24-02-2025"
-            }
-          },
-          {
-            "id": "9ef6255ed11ce32c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
                 "file": "ISEN/Stat/CIPA3/Rapport Cours 1.md",
                 "mode": "source",
                 "source": false,
@@ -125,7 +77,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -296,15 +248,22 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "9ef6255ed11ce32c",
+  "active": "f9e8a0606fa55e4f",
   "lastOpenFiles": [
-    "ISEN/Daily/27-02-2025.md",
+    "ISEN/Daily/30-01-2025.md",
+    "ISEN/Daily/24-02-2025.md",
     "ISEN/Stat/CIPA3/Rapport Cours 1.md",
+    "ISEN/Stat/CIPA3/Rapport Cours 1.pdf",
+    "ISEN/Stat/CIPA3/Moustache phys.png",
+    "ISEN/Stat/CIPA3/Moustache maths.png",
+    "ISEN/Stat/CIPA3/histo phys classe B.png",
+    "ISEN/Stat/CIPA3/histo maths classe B.png",
+    "ISEN/Stat/CIPA3/histo phys classe A.png",
+    "ISEN/Stat/CIPA3/histo maths classe A.png",
+    "ISEN/Daily/27-02-2025.md",
     "ISEN/Daily/25-02-2025.md",
     "ISEN/Daily/30-01-2025.pdf",
-    "ISEN/Daily/24-02-2025.md",
     "ISEN/Daily/03-02-2025.md",
-    "ISEN/Daily/30-01-2025.md",
     "ISEN/Daily/16-12-2024.md",
     "ISEN/Réseau/A2/CCNA Cours 3.md",
     "ISEN/Réseau/A2/CCNA Cours 5.md",
@@ -325,7 +284,6 @@
     "ISEN/Daily/03-12-2024.md",
     "ISEN/English/CIPA3/LinkedIn post.md",
     "ISEN/English/CIPA3/29 nov 2024.md",
-    "ISEN/Daily/13-12-2024.md",
     "ISEN/FHS/A2/Outils RH/~WRL2137.tmp",
     "ISEN/FHS/A2/Outils RH/~$ttre de motivation.docx",
     "ISEN/Maths/CIPA3/Fiche de révision DS1.pdf",
@@ -333,7 +291,6 @@
     "ISEN/Daily/30",
     "ISEN/Daily",
     "ISEN/Maths/CIPA3",
-    "ISEN/Maths",
     "Pasted image 20241113141806.png",
     "Pasted image 20240505210657.png",
     "Pasted image 20240505210642.png",
@@ -343,12 +300,8 @@
     "ISEN/Other/Graph Overseer.canvas",
     "ISEN/Algo C/A2/MergeSort.png",
     "ISEN/Algo C/A2/TP1 Exercice 1.canvas",
-    "src/Pasted image 20240130111505.png",
-    "src/Pasted image 20240123120819.png",
-    "src/Pasted image 20240123120807.png",
     "ISEN/BDD/TD2.canvas",
     "ISEN/Algo C/A2/MergeSort.canvas",
-    "MergeSort.png",
     "ISEN/FHS/A1/Stage/Organigramme Go-Recup.canvas",
     "ISEN/FHS/A1/Démocratie/Mouvement Social.canvas"
   ]
