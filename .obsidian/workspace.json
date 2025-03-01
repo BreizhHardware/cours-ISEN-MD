@@ -67,7 +67,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ISEN/Stat/CIPA3/Rapport Cours 1 Félix MARQUET.md",
+                "file": "ISEN/Daily/27-02-2025.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -82,7 +82,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Rapport Cours 1 Félix MARQUET"
+              "title": "27-02-2025"
             }
           }
         ],
@@ -205,13 +205,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ISEN/Stat/CIPA3/Rapport Cours 1 Félix MARQUET.md",
+                "file": "ISEN/Daily/27-02-2025.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Plan de Rapport Cours 1 Félix MARQUET"
+              "title": "Plan de 27-02-2025"
             }
           },
           {
@@ -259,10 +259,11 @@
   },
   "active": "f9e8a0606fa55e4f",
   "lastOpenFiles": [
+    "ISEN/Daily/01-03-2025.md",
+    "ISEN/Stat/CIPA3/Rapport Cours 1 Félix MARQUET.md",
     "ISEN/Stat/CIPA3/Rapport Cours 1 Félix MARQUET.pdf",
     "ISEN/Stat/CIPA3/~$pport Cours 1.pdf",
     "ISEN/Daily/16-12-2024.md",
-    "ISEN/Stat/CIPA3/Rapport Cours 1 Félix MARQUET.md",
     "ISEN/Daily/30-01-2025.md",
     "ISEN/Daily/24-02-2025.md",
     "ISEN/Stat/CIPA3/Rapport Cours 1.pdf",
@@ -300,7 +301,6 @@
     "ISEN/Maths/CIPA3/Fiche de révision DS1.pdf",
     "ISEN/Daily/30/11",
     "ISEN/Daily/30",
-    "ISEN/Daily",
     "Pasted image 20241113141806.png",
     "Pasted image 20240505210657.png",
     "Pasted image 20240505210642.png",
