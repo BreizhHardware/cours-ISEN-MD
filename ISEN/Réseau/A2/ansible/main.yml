@@ -1,0 +1,7 @@
+- name: Initial conf
+  hosts: localhost
+  tasks:
+    - name: Define new hostname
+      hostname:
+        name: 100i
+

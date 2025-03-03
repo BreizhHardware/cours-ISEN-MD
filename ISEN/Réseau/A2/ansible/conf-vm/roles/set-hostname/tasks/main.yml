@@ -1,0 +1,4 @@
+---
+- name: Modifier le hostname
+  hostname:
+    name: "{{ new_hostname }}"
