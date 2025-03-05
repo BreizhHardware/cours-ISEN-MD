@@ -74,3 +74,12 @@ Il existe deux approches de l'économie:
 - Microéconomie: analyse le comportement des individus, des entreprises et leurs décisions. La microéconomie fournit une explication complète du comportement individuel d'un acteur
 - Macroéconomie: analyse des phénomènes économiques à grande échelle. C'est-a-dire qu'elle s'intéresse aux comportement global résultant de l'ensemble des comportements individuels des acteurs. Elle étudie les relation que l'économie domestique entretient avec les économies étrangères et raisonne sur des groupes d'agents économique.
 ![](https://i.la-croix.com/1400x933/smart/2016/06/28/1200772076/economie_0.jpg)
+![](https://d1yhils6iwh5l5.cloudfront.net/charts/resized/110833/large/FN_jWpPXMAk6Yvm.jpg)
+### Jamais raison... et jamais d'accord !
+Différentes façons de poser les questions
+- Economie nominative vs. explicative
+Différentes approches
+- Approche politique vs. science économique
+Différentes valeurs
+- Conception de la justice, de l'éthique,...
+
