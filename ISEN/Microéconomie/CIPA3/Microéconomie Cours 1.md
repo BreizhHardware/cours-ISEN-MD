@@ -83,3 +83,7 @@ Différentes approches
 Différentes valeurs
 - Conception de la justice, de l'éthique,...
 
+## Conclusion: tout tourne autour des CHOIX !
+Produire: Quoi ? Comment ?
+Répartir: Quoi ? Comment ?
+Dépenser: Quoi ? Comment ?
