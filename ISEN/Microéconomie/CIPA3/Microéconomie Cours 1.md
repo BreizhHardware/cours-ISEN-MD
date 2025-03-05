@@ -32,10 +32,19 @@ Champs d'étude:
 - Les choix et les comportements
 - Les institutions
 
-<span style="color: red; text: strong">Est-ce raisonnable ?</span>
-<span style="color: red; text: strong">Les besoins sont-ils satiables ?</span>
+<span style="color: red; font-weight: bold;">Est-ce raisonnable ?</span>
+<span style="color: red; font-weight: bold;">Les besoins sont-ils satiables ?</span>
 
 ## L'économie 
 ### Conception moderne
 "Science social qui étudie les comportements humains (allocations) devant des moyens rares (ressources) sollicités par des fins multiples (alternative)"
 Jacquemin et al., 2000
+
+![The basic economics problem](https://i.ytimg.com/vi/CYibc_oqR5M/maxresdefault.jpg)
+### Les bases du problème
+
+|                                                                                                                                                 Conditions                                                                                                                                                  |                                                                     Conséquences                                                                      |
+| :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------------------------------------: |
+|                                            **Resources rares**: la notion de rareté est la base du problème économique. En fait, elle résulte de la quantité limitée des ressources dont disposent les êtres humains et le caractère insatiable de leurs besoins                                            | **Mode d'affectation des ressources**: production, distribution, répartition et consomation des biens et aussi des institutions et activités en ayant |
+| **Besoins illimitées**: besoins économiques dont la satisfaction nécessite une activité, un coût ou un effort. Toute entité, pouvant faire l'objet d'une mesure quantitative, et susceptible d'inéresser les individus. C'est donc un élément matériel et tangible nécessaire à la satisfaction d'un besoin |                                                              **Comportement des agents**                                                              |
+|                                                                                                                                                                                                                                                                                                             |                                                                                                                                                       |
