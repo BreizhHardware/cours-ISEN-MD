@@ -67,7 +67,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ISEN/Daily/25-02-2025.md",
+                "file": "ISEN/Daily/05-03-2025.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -82,7 +82,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "25-02-2025"
+              "title": "05-03-2025"
             }
           }
         ],
@@ -205,13 +205,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ISEN/Daily/25-02-2025.md",
+                "file": "ISEN/Daily/05-03-2025.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 25-02-2025"
+              "title": "Outline of 05-03-2025"
             }
           },
           {
@@ -259,10 +259,11 @@
   },
   "active": "f9e8a0606fa55e4f",
   "lastOpenFiles": [
+    "ISEN/Daily/25-02-2025.md",
+    "ISEN/Daily/05-03-2025.md",
     "ISEN/Daily/27-02-2025.md",
     "ISEN/Daily/03-03-2025.md",
     "ISEN/Daily/16-12-2024.md",
-    "ISEN/Daily/25-02-2025.md",
     "ISEN/Daily/01-03-2025.md",
     "ISEN/Stat/CIPA3/Rapport Cours 1 Félix MARQUET.md",
     "ISEN/Stat/CIPA3/Rapport Cours 1 Félix MARQUET.pdf",
@@ -295,7 +296,6 @@
     "ISEN/Daily/17-12-2024.md",
     "ISEN/Daily/06-12-2024.md",
     "ISEN/Daily/03-12-2024.md",
-    "ISEN/English/CIPA3/LinkedIn post.md",
     "ISEN/FHS/A2/Outils RH/~WRL2137.tmp",
     "ISEN/FHS/A2/Outils RH/~$ttre de motivation.docx",
     "ISEN/Maths/CIPA3/Fiche de révision DS1.pdf",
