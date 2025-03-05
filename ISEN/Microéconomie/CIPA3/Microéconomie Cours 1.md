@@ -47,4 +47,20 @@ Jacquemin et al., 2000
 | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------------------------------------: |
 |                                            **Resources rares**: la notion de rareté est la base du problème économique. En fait, elle résulte de la quantité limitée des ressources dont disposent les êtres humains et le caractère insatiable de leurs besoins                                            | **Mode d'affectation des ressources**: production, distribution, répartition et consomation des biens et aussi des institutions et activités en ayant |
 | **Besoins illimitées**: besoins économiques dont la satisfaction nécessite une activité, un coût ou un effort. Toute entité, pouvant faire l'objet d'une mesure quantitative, et susceptible d'inéresser les individus. C'est donc un élément matériel et tangible nécessaire à la satisfaction d'un besoin |                                                              **Comportement des agents**                                                              |
-|                                                                                                                                                                                                                                                                                                             |                                                                                                                                                       |
+
+![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWgYacAW9jtm_P9Q_fWdlUEry-xSU6ca-dAA&s)
+### Cinq concepts centraux: comportement des agents
+Comprendre comment les individus font des choix et les conséquences de ces choix sur les ressources de la société.
+
+- Arbitrages: La rareté des ressources implique la nécessité d'éffectuer des arbitrages
+- Incitations: Les décideurs
+- Echanges
+- Information
+- Distribution
+
+### Les agents économiques
+Les agents économiques sont principalement les consommateurs et les producteurs.
+Il existe une relation d'inter-echange entre ces 2 agents.
+
+### Modèles économiques: agents et marchés
+![](https://images.edrawmax.com/what-is/circular-flow-diagram/circular-flow-1.jpg)
