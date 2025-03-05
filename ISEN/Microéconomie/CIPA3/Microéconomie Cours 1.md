@@ -87,3 +87,6 @@ Différentes valeurs
 Produire: Quoi ? Comment ?
 Répartir: Quoi ? Comment ?
 Dépenser: Quoi ? Comment ?
+
+# Les marchés, l'offre et la demande
+## Le marché
