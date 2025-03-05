@@ -64,3 +64,13 @@ Il existe une relation d'inter-echange entre ces 2 agents.
 
 ### Modèles économiques: agents et marchés
 ![](https://images.edrawmax.com/what-is/circular-flow-diagram/circular-flow-1.jpg)
+Il manque les banques.
+
+## Macro-économie vs. Micro-économie
+Il existe deux approches de l'économie:
+- Approche Macro-économique: L'économie est saisie dans sa globalité. On s'intéresse 
+- Approche Micro-économique: On s'intéresse aux individus. On analyse comment se comporte l'individu en situation de rareté, et la manière dont agit un agent économique au sein de la société.
+### 2 niveaux de modélisation
+- Microéconomie: analyse le comportement des individus, des entreprises et leurs décisions. La microéconomie fournit une explication complète du comportement individuel d'un acteur
+- Macroéconomie: analyse des phénomènes économiques à grande échelle. C'est-a-dire qu'elle s'intéresse aux comportement global résultant de l'ensemble des comportements individuels des acteurs. Elle étudie les relation que l'économie domestique entretient avec les économies étrangères et raisonne sur des groupes d'agents économique.
+![](https://i.la-croix.com/1400x933/smart/2016/06/28/1200772076/economie_0.jpg)
