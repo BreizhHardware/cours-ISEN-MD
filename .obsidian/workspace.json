@@ -184,7 +184,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -202,7 +202,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "622da1d4e0ba0f73",
+  "active": "879827be6c73ce1e",
   "lastOpenFiles": [
     "ISEN/Daily/16-12-2024.md",
     "ISEN/web.isen-ouest.fr/moodle/pluginfile.php/42940/mod_resource/content/0/Stage associatif - consignes - v1.1.pdf.md",
