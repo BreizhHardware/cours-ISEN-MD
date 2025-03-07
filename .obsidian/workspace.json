@@ -30,8 +30,33 @@
               "icon": "lucide-file",
               "title": "Microéconomie Cours 1"
             }
+          },
+          {
+            "id": "a357723b908762eb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ISEN/Daily/07-03-2025.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "07-03-2025"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -150,13 +175,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ISEN/Microéconomie/CIPA3/Microéconomie Cours 1.md",
+                "file": "ISEN/Daily/07-03-2025.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Microéconomie Cours 1"
+              "title": "Outline of 07-03-2025"
             }
           },
           {
@@ -202,8 +227,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "879827be6c73ce1e",
+  "active": "a357723b908762eb",
   "lastOpenFiles": [
+    "ISEN/Daily/07-03-2025.md",
     "ISEN/Daily/16-12-2024.md",
     "ISEN/web.isen-ouest.fr/moodle/pluginfile.php/42940/mod_resource/content/0/Stage associatif - consignes - v1.1.pdf.md",
     "ISEN/Microéconomie/CIPA3/Microéconomie Cours 1.md",
@@ -242,7 +268,6 @@
     "ISEN/Daily/18-12-2024.md",
     "ISEN/FHS/CIPA3/Gestion de projet/Méthode Agile Cours 1.md",
     "ISEN/FHS/CIPA3/Gestion de projet/Réunion projet entreprenariat.md",
-    "ISEN/Daily/17-12-2024.md",
     "ISEN/FHS/A2/Outils RH/~WRL2137.tmp",
     "ISEN/FHS/A2/Outils RH/~$ttre de motivation.docx",
     "ISEN/Maths/CIPA3/Fiche de révision DS1.pdf",
