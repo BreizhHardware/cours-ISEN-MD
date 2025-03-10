@@ -13,6 +13,30 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "ISEN/Microéconomie/CIPA3/Microéconomie Cours 2.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Microéconomie Cours 2"
+            }
+          },
+          {
+            "id": "9a3f85b5bb1bf890",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "ISEN/Microéconomie/CIPA3/Microéconomie Cours 1.md",
                 "mode": "source",
                 "source": false,
@@ -150,13 +174,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ISEN/Microéconomie/CIPA3/Microéconomie Cours 1.md",
+                "file": "ISEN/Microéconomie/CIPA3/Microéconomie Cours 2.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Microéconomie Cours 1"
+              "title": "Outline of Microéconomie Cours 2"
             }
           },
           {
@@ -204,13 +228,14 @@
   },
   "active": "4794ff7216968ed7",
   "lastOpenFiles": [
+    "ISEN/Microéconomie/CIPA3/Microéconomie Cours 1.md",
+    "ISEN/Microéconomie/CIPA3/Microéconomie Cours 2.md",
     "ISEN/Daily/10-03-2025.md",
     "ISEN/Daily/07-03-2025.md",
     "ISEN/FHS/CIPA3/Expression écrite et orale/Expression écrite et orale Cours 1.md",
     "ISEN/FHS/CIPA3/Expression écrite et orale",
     "ISEN/Daily/16-12-2024.md",
     "ISEN/web.isen-ouest.fr/moodle/pluginfile.php/42940/mod_resource/content/0/Stage associatif - consignes - v1.1.pdf.md",
-    "ISEN/Microéconomie/CIPA3/Microéconomie Cours 1.md",
     "ISEN/Daily/05-03-2025.md",
     "ISEN/Microéconomie/CIPA3",
     "ISEN/Microéconomie",
@@ -243,7 +268,6 @@
     "ISEN/Algo C/CIPA3/Fiche DS.pdf",
     "ISEN/Daily/19-12-2024.md",
     "ISEN/Maths/CIPA3/Fiche de révision DS1.md",
-    "ISEN/Daily/18-12-2024.md",
     "ISEN/FHS/A2/Outils RH/~WRL2137.tmp",
     "ISEN/FHS/A2/Outils RH/~$ttre de motivation.docx",
     "Pasted image 20241113141806.png",
