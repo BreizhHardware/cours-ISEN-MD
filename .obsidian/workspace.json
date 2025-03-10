@@ -30,33 +30,8 @@
               "icon": "lucide-file",
               "title": "Microéconomie Cours 1"
             }
-          },
-          {
-            "id": "a357723b908762eb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ISEN/Daily/10-03-2025.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "10-03-2025"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -175,13 +150,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ISEN/Daily/10-03-2025.md",
+                "file": "ISEN/Microéconomie/CIPA3/Microéconomie Cours 1.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 10-03-2025"
+              "title": "Outline of Microéconomie Cours 1"
             }
           },
           {
@@ -227,10 +202,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a357723b908762eb",
+  "active": "4794ff7216968ed7",
   "lastOpenFiles": [
-    "ISEN/Daily/07-03-2025.md",
     "ISEN/Daily/10-03-2025.md",
+    "ISEN/Daily/07-03-2025.md",
     "ISEN/FHS/CIPA3/Expression écrite et orale/Expression écrite et orale Cours 1.md",
     "ISEN/FHS/CIPA3/Expression écrite et orale",
     "ISEN/Daily/16-12-2024.md",
