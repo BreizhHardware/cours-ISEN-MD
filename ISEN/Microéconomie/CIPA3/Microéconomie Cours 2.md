@@ -19,3 +19,12 @@ Nouvelles monnaies (crypto)
 La monnaie marchandise: elle a une valeur en elle-même, en dehors de sa fonction de monnaie (cf. monnaies historiques)
 La monnaie scripturale: celle qui circule par jeu d'écriture (par virement notamment)
 La monnaie fiduciaire: Les pièces et les billets
+### Liquidité de la monnaie
+Monnaie: actif aisément mobilisable pour procéder à des transactions
+Liquidité d'un actif: facilité avec laquelle un actif est transformé en moyen d'échange pour acheter des biens et services
+La monnaie est l'actif le plus liquide de l'économie
+- Monnaie
+- Economies (livret A,..)
+- Actions
+- Biens mobiliers
+- Biens immobiliers
