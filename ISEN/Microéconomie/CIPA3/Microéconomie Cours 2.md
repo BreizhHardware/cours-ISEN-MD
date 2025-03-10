@@ -28,3 +28,12 @@ La monnaie est l'actif le plus liquide de l'économie
 - Actions
 - Biens mobiliers
 - Biens immobiliers
+### Inflation
+L'augmentation du niveau général des prix est une conséquence de l'inflation
+Inflation: perte de valeur de la monnaie donc augmentation des prix
+L'inflation est généralement mesurée par l'indice des prix à la consommation (IPC)
+### 4 phénomènes monétaires
+Inflation: Perte de la valeur de la monnaie donc augmentation des prix
+Déflation: Augmentation de la valeur de la monnaie donc diminution des prix
+Désinflation: Baisse de l'inflation mais toujours > 0`
+Hyperinflation: Très forte inflation > 50%
