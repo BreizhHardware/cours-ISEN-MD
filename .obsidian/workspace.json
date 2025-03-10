@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ISEN/FHS/CIPA3/Expression écrite et orale/Expression écrite et orale Cours 1.md",
+                "file": "ISEN/Daily/10-03-2025.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Expression écrite et orale Cours 1"
+              "title": "10-03-2025"
             }
           }
         ],
@@ -175,13 +175,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ISEN/FHS/CIPA3/Expression écrite et orale/Expression écrite et orale Cours 1.md",
+                "file": "ISEN/Daily/10-03-2025.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Expression écrite et orale Cours 1"
+              "title": "Outline of 10-03-2025"
             }
           },
           {
@@ -230,6 +230,7 @@
   "active": "a357723b908762eb",
   "lastOpenFiles": [
     "ISEN/Daily/07-03-2025.md",
+    "ISEN/Daily/10-03-2025.md",
     "ISEN/FHS/CIPA3/Expression écrite et orale/Expression écrite et orale Cours 1.md",
     "ISEN/FHS/CIPA3/Expression écrite et orale",
     "ISEN/Daily/16-12-2024.md",
@@ -268,7 +269,6 @@
     "ISEN/Daily/19-12-2024.md",
     "ISEN/Maths/CIPA3/Fiche de révision DS1.md",
     "ISEN/Daily/18-12-2024.md",
-    "ISEN/FHS/CIPA3/Gestion de projet/Méthode Agile Cours 1.md",
     "ISEN/FHS/A2/Outils RH/~WRL2137.tmp",
     "ISEN/FHS/A2/Outils RH/~$ttre de motivation.docx",
     "Pasted image 20241113141806.png",
