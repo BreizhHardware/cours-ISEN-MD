@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ISEN/Microéconomie/CIPA3/Microéconomie Cours 3.md",
+                "file": "ISEN/Microéconomie/CIPA3/Microéconomie Exercice.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Microéconomie Cours 3"
+              "title": "Microéconomie Exercice"
             }
           },
           {
@@ -174,13 +174,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ISEN/Microéconomie/CIPA3/Microéconomie Cours 3.md",
+                "file": "ISEN/Microéconomie/CIPA3/Microéconomie Exercice.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Microéconomie Cours 3"
+              "title": "Outline of Microéconomie Exercice"
             }
           },
           {
@@ -226,9 +226,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "879827be6c73ce1e",
+  "active": "4794ff7216968ed7",
   "lastOpenFiles": [
     "ISEN/Microéconomie/CIPA3/Microéconomie Cours 2.md",
+    "ISEN/Microéconomie/CIPA3/Microéconomie Exercice.md",
     "ISEN/Microéconomie/CIPA3/Microéconomie Cours 3.md",
     "ISEN/Microéconomie/CIPA3/Microéconomie Cours 1.md",
     "ISEN/Template/Daily-{{date}}.md",
@@ -266,7 +267,6 @@
     "ISEN/Réseau/A2/CCNA Cours 5.md",
     "ISEN/Réseau/A2/CCNA Cours 4.md",
     "ISEN/Réseau/A2/CCNA Cours 1.md",
-    "ISEN/Daily/31-12-2024.md",
     "ISEN/Algo C/CIPA3/Fiche DS.pdf",
     "ISEN/FHS/A2/Outils RH/~WRL2137.tmp",
     "ISEN/FHS/A2/Outils RH/~$ttre de motivation.docx",
