@@ -24,7 +24,7 @@ Les pays occidentaux, luttent contre une inflation élevée en augmentant les ta
 
 # Question 5 :
 **La situation économique a changé depuis fin 2023, en particulier pour l’inflation. Décrivez ce changement de contexte et prévoyez son impact sur les taux d’intérêt.**
-
+Depuis fin 2023, l'inflation mondiale a montré des signes de ralentissement important. Cette tendance à la baisse de l'inflation va inciter les banques centrales à travers le monde à envisager une réduction des taux d'intérêt pour stimuler l'économie. Les politiques monétaires vont également devoir prendre en compte les risques économiques persistants, tels que les inégalités croissantes et les perturbations géopolitiques comme les tensions entre la Russie et l’Occident, afin de garantir une reprise économique stable et durable.
 
 ---
 &copy; Félix MARQUET
