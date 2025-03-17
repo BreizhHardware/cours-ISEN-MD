@@ -13,6 +13,30 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "ISEN/Microéconomie/CIPA3/Microéconomie Cours 3.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Microéconomie Cours 3"
+            }
+          },
+          {
+            "id": "05fb2e0f4e86352f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "ISEN/Microéconomie/CIPA3/Microéconomie Exercice.md",
                 "mode": "source",
                 "source": false,
@@ -37,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ISEN/Microéconomie/CIPA3/Microéconomie Cours 2.md",
+                "file": "ISEN/Réseau/A1/Cisco Cours 1.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,10 +76,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Microéconomie Cours 2"
+              "title": "Cisco Cours 1"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -208,7 +233,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -226,12 +251,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "4794ff7216968ed7",
+  "active": "05fb2e0f4e86352f",
   "lastOpenFiles": [
-    "ISEN/Daily/17-03-2025.md",
-    "ISEN/Microéconomie/CIPA3/Microéconomie Exercice.md",
-    "ISEN/Microéconomie/CIPA3/Microéconomie Cours 2.md",
     "ISEN/Microéconomie/CIPA3/Microéconomie Cours 3.md",
+    "ISEN/Microéconomie/CIPA3/Microéconomie Exercice.md",
+    "ISEN/Réseau/A1/Cisco Cours 1.md",
+    "ISEN/Microéconomie/CIPA3/Microéconomie Cours 2.md",
+    "ISEN/Daily/17-03-2025.md",
     "ISEN/Microéconomie/CIPA3/Microéconomie Cours 1.md",
     "ISEN/Template/Daily-{{date}}.md",
     "ISEN/Daily/14-03-2025.md",
@@ -266,7 +292,6 @@
     "ISEN/Réseau/A2/CCNA Cours 3.md",
     "ISEN/Réseau/A2/CCNA Cours 5.md",
     "ISEN/Réseau/A2/CCNA Cours 4.md",
-    "ISEN/Réseau/A2/CCNA Cours 1.md",
     "ISEN/Algo C/CIPA3/Fiche DS.pdf",
     "ISEN/FHS/A2/Outils RH/~WRL2137.tmp",
     "ISEN/FHS/A2/Outils RH/~$ttre de motivation.docx",

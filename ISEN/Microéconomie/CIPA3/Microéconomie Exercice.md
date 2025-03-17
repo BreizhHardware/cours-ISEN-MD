@@ -1,5 +1,7 @@
 #CIPA3 #Microéconomie 
 
+[Microéconomie Cours 3](Microéconomie%20Cours%203.md)
+
 # Question 1 :
 **Résumer l’argumentaire de la BCE sur l’augmentation des taux
 Pourquoi augmente-t-elle les taux d’intérêts ? Quels sont les risques de ne pas le faire ? Quels sont les risques de le faire ? …**
@@ -19,3 +21,10 @@ La Fed à commencer ses hausses de taux 4 mois avant la BCE, de plus l’inflati
 **Comparer les situations occidentales (US et Europe) à la situation chinoise (article ci dessous)
 Détailler votre réponse avec des recherches supplémentaires si besoin**
 Les pays occidentaux, luttent contre une inflation élevée en augmentant les taux d'intérêt. En Chine, la situation est différente : la Banque du peuple de Chine réduit les taux pour stimuler l'économie face à un ralentissement, avec une inflation relativement faible. Là où l'Occident se concentre sur la maîtrise de l'inflation, la Chine cherche à relancer la consommation et l'investissement, cela prouve que les stratégies mise en place sont différentes.
+
+# Question 5 :
+**La situation économique a changé depuis fin 2023, en particulier pour l’inflation. Décrivez ce changement de contexte et prévoyez son impact sur les taux d’intérêt.**
+
+
+---
+&copy; Félix MARQUET

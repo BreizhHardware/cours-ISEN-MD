@@ -23,6 +23,7 @@ Une banque centrale crée la monnaie qui va ensuite circuler dans l'économie
 Pour que la valeur de la monnaie soit constante, elle va ajuster la quantité de monnaie injectée dans l'économie en fonction de la demande de monnaie.
 Pourquoi à ton besoin de monnaie ?
 
+[Exercice ici](Microéconomie%20Exercice.md)
 
 ---
 &copy; Félix MARQUET
