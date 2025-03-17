@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiActivity",
       "LiSquareSigma",
       "FasCopy",
       "FasServer",
-      "FasTable",
-      "FasSkull"
+      "FasTable"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -31,9 +31,10 @@
     "iconColorInFrontmatterFieldName": "iconColor",
     "iconsInLinksEnabled": true,
     "lucideIconPackType": "native",
-    "debugMode": false
+    "debugMode": false,
+    "useInternalPlugins": false
   },
-  "ISEN": "FasFolderTree",
+  "ISEN": "LiActivity",
   "ISEN/Algo C": "FasC",
   "ISEN/Algo C++": "FasC",
   "ISEN/BDD": "FasDatabase",
