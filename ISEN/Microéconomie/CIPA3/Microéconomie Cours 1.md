@@ -90,3 +90,6 @@ Dépenser: Quoi ? Comment ?
 
 # Les marchés, l'offre et la demande
 ## Le marché
+
+---
+&copy; Félix MARQUET

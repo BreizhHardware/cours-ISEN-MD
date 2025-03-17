@@ -37,3 +37,6 @@ Inflation: Perte de la valeur de la monnaie donc augmentation des prix
 Déflation: Augmentation de la valeur de la monnaie donc diminution des prix
 Désinflation: Baisse de l'inflation mais toujours > 0`
 Hyperinflation: Très forte inflation > 50%
+
+---
+&copy; Félix MARQUET
