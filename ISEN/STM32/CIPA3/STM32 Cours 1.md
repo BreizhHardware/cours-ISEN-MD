@@ -31,6 +31,14 @@ Micro controller 8bits:
 	- Microchips
 	- TI
 	- Philips
+	- Motorola -> Freescale
+Micro controller 16bits:
+- Leaders:
+	- TI
+	- Microchips
+Micro controller 32bits:
+- Leaders:
+	- CortexM -> ST
 
 
 ---
