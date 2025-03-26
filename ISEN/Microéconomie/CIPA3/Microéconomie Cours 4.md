@@ -20,7 +20,7 @@ Intérêts composé: > 1 ans
 | :-------------------: | :----: |
 |         Durée         | 6 mois |
 | Taux d'intérêt annuel | 1,5 %  |
-|                       |        |
+
 
 
 
