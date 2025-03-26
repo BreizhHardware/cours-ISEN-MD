@@ -40,6 +40,14 @@ Micro controller 32bits:
 - Leaders:
 	- CortexM -> ST
 
+# Type de mémoire
+## Mémoire volatile
+SRAM: Static Random Access Memory (micro controller)
+DRAM: Direct Random Access Memory (PC)
+## Mémoire non volatile
+ROM:
+EEPROM:
+Flash (N)
 
 ---
 &copy; Félix MARQUET
