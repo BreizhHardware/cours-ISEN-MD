@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ISEN/Daily/26-03-2025.md",
+                "file": "ISEN/STM32/CIPA3/STM32 Cours 1.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "26-03-2025"
+              "title": "STM32 Cours 1"
             }
           },
           {
@@ -251,15 +251,16 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "622da1d4e0ba0f73",
+  "active": "05fb2e0f4e86352f",
   "lastOpenFiles": [
-    "ISEN/STM32/Untitled",
-    "ISEN/STM32",
-    "ISEN/Daily/25-03-2025.md",
-    "ISEN/Daily/26-03-2025.md",
-    "ISEN/Microéconomie/CIPA3/Microéconomie Exercice.md",
     "ISEN/Microéconomie/CIPA3/Microéconomie Cours 3.md",
     "ISEN/Réseau/A1/Cisco Cours 1.md",
+    "ISEN/STM32/CIPA3/STM32 Cours 1.md",
+    "ISEN/Daily/26-03-2025.md",
+    "ISEN/STM32/CIPA3",
+    "ISEN/STM32",
+    "ISEN/Daily/25-03-2025.md",
+    "ISEN/Microéconomie/CIPA3/Microéconomie Exercice.md",
     "ISEN/Microéconomie/CIPA3/Microéconomie Cours 2.md",
     "ISEN/Daily/17-03-2025.md",
     "ISEN/Microéconomie/CIPA3/Microéconomie Cours 1.md",
@@ -294,7 +295,6 @@
     "ISEN/Daily/30-01-2025.pdf",
     "ISEN/Daily/03-02-2025.md",
     "ISEN/Algo C/CIPA3/Fiche DS.pdf",
-    "ISEN/FHS/A2/Outils RH/~WRL2137.tmp",
     "Pasted image 20241113141806.png",
     "Pasted image 20240505210657.png",
     "Pasted image 20240505210642.png",
