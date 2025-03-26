@@ -20,9 +20,27 @@ Intérêts composé: > 1 ans
 | :-------------------: | :----: |
 |         Durée         | 6 mois |
 | Taux d'intérêt annuel | 1,5 %  |
+Le montant des intérêts n'est pas intégré dans le calcul:
+- Vous gagnez 1,25€ le premier mois
+- Mais vous n'intégrez pas le montant des intérêts lorsque vous calculez les intérêts pour le 2e mois
+Le montant des intérêts est régulier, le même chaque mois
+On dit que les intérêts ne sont pas capitalisé
+###### Intérêts composés
 
-
-
+|        Epargne        | 1000 € |
+| :-------------------: | :----: |
+|         Durée         | 6 mois |
+| Taux d'intérêt annuel | 1,5 %  |
+Le montant des intérêts est intégré dans le calcul
+**Valeur future d'un placement** $$VF = VA * (1 + r)^n$$
+On dit que les intérêts sont capitalisé
+## Revenons à notre problème de départ...
+**... quelle est la valeur aujourd'hui d'un placement future ?**
+Si on veut VF = 2000 dans le future comment faire ?
+$$VA = VF / (1+r)^n$$
+Répondre à la question
+Avec un taux d'intérêt de 1%
+Avec un taux d'intérêt de 4%
 
 ---
 &copy; Félix MARQUET
