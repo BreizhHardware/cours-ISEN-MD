@@ -1,5 +1,7 @@
 #CIPA3 #Microéconomie
 
+[Cours précédent](Microéconomie%20Cours%202.md)
+
 # Inflation (suite)
 L'inflation est un des phénomènes monétaire.. mais elle n'est pas qu'un phénomène monétaire
 Selon la théorie quantitative de la monnaie, ces phénomènes résultent d'une croissance de la masse monétaire qui n'est pas adaptée à la croissance du PIB réel
@@ -24,6 +26,8 @@ Pour que la valeur de la monnaie soit constante, elle va ajuster la quantité de
 Pourquoi à ton besoin de monnaie ?
 
 [Exercice ici](Microéconomie%20Exercice.md)
+
+[Cours suivant](Microéconomie%20Cours%204.md)
 
 ---
 &copy; Félix MARQUET

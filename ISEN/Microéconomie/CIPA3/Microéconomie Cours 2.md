@@ -1,5 +1,7 @@
 #CIPA3 #Microéconomie
 
+[Cours précédent](Microéconomie%20Cours%201.md)
+
 # La monnaie et l'inflation
 ## Qui décide qu'un kilo de tomates vaut 2,5€ ?
 Pourquoi le kilo de tomates valait 2€ hier et vaut 2,5 aujourd'hui ?
@@ -37,6 +39,8 @@ Inflation: Perte de la valeur de la monnaie donc augmentation des prix
 Déflation: Augmentation de la valeur de la monnaie donc diminution des prix
 Désinflation: Baisse de l'inflation mais toujours > 0`
 Hyperinflation: Très forte inflation > 50%
+
+[Cours suivant](Microéconomie%20Cours%203.md)
 
 ---
 &copy; Félix MARQUET

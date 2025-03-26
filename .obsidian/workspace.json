@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ISEN/Microéconomie/CIPA3/Microéconomie Cours 3.md",
+                "file": "ISEN/Microéconomie/CIPA3/Microéconomie Cours 4.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Microéconomie Cours 3"
+              "title": "Microéconomie Cours 4"
             }
           },
           {
@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ISEN/STM32/CIPA3/STM32 Cours 1.md",
+                "file": "ISEN/Microéconomie/CIPA3/Microéconomie Cours 4.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "STM32 Cours 1"
+              "title": "Microéconomie Cours 4"
             }
           },
           {
@@ -79,8 +79,7 @@
               "title": "Cisco Cours 1"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -251,19 +250,20 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "05fb2e0f4e86352f",
+  "active": "4794ff7216968ed7",
   "lastOpenFiles": [
+    "ISEN/Microéconomie/CIPA3/Microéconomie Cours 1.md",
+    "ISEN/Microéconomie/CIPA3/Microéconomie Cours 2.md",
     "ISEN/Microéconomie/CIPA3/Microéconomie Cours 3.md",
-    "ISEN/Réseau/A1/Cisco Cours 1.md",
+    "ISEN/Microéconomie/CIPA3/Microéconomie Cours 4.md",
     "ISEN/STM32/CIPA3/STM32 Cours 1.md",
+    "ISEN/Réseau/A1/Cisco Cours 1.md",
     "ISEN/Daily/26-03-2025.md",
     "ISEN/STM32/CIPA3",
     "ISEN/STM32",
     "ISEN/Daily/25-03-2025.md",
     "ISEN/Microéconomie/CIPA3/Microéconomie Exercice.md",
-    "ISEN/Microéconomie/CIPA3/Microéconomie Cours 2.md",
     "ISEN/Daily/17-03-2025.md",
-    "ISEN/Microéconomie/CIPA3/Microéconomie Cours 1.md",
     "ISEN/Template/Daily-{{date}}.md",
     "ISEN/Daily/14-03-2025.md",
     "ISEN/Daily/12-03-2025.md",
@@ -293,7 +293,6 @@
     "ISEN/Stat/CIPA3/histo phys classe A.png",
     "ISEN/Stat/CIPA3/histo maths classe A.png",
     "ISEN/Daily/30-01-2025.pdf",
-    "ISEN/Daily/03-02-2025.md",
     "ISEN/Algo C/CIPA3/Fiche DS.pdf",
     "Pasted image 20241113141806.png",
     "Pasted image 20240505210657.png",
