@@ -70,6 +70,11 @@ Flash (Nor):
 - Limited endurance in write cycle
 - Slow access time to read / write cycle
 - Medium Size / Low Cost
+- Often used in micro controllers
+# Gestion mémoire
+Stack to the top of the SRAM
+Var to the bottom of the SRAM
+Heap in the middle of the 2
 
 ---
 &copy; Félix MARQUET
