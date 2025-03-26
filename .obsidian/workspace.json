@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ISEN/Microéconomie/CIPA3/Microéconomie Cours 4.md",
+                "file": "ISEN/Maths/CIPA3/DM1.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Microéconomie Cours 4"
+              "title": "DM1"
             }
           },
           {
@@ -79,7 +79,8 @@
               "title": "Cisco Cours 1"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -250,10 +251,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "4794ff7216968ed7",
+  "active": "05fb2e0f4e86352f",
   "lastOpenFiles": [
-    "ISEN/Microéconomie/CIPA3/Microéconomie Exercice.md",
+    "ISEN/Maths/CIPA3/DM1.md",
+    "ISEN/Maths/CIPA3/DS1.md",
+    "ISEN/Stat/CIPA3/Rapport Cours 1 Félix MARQUET.md",
     "ISEN/Microéconomie/CIPA3/Microéconomie Cours 4.md",
+    "ISEN/Physique/Présentation TP Hors les murs.md",
+    "ISEN/Microéconomie/CIPA3/Microéconomie Exercice.md",
     "ISEN/Microéconomie/CIPA3/Microéconomie Cours 1.md",
     "ISEN/Microéconomie/CIPA3/Microéconomie Cours 2.md",
     "ISEN/Microéconomie/CIPA3/Microéconomie Cours 3.md",
@@ -279,12 +284,8 @@
     "ISEN/Daily/25-02-2025.md",
     "ISEN/Daily/27-02-2025.md",
     "ISEN/Daily/03-03-2025.md",
-    "ISEN/Daily/01-03-2025.md",
-    "ISEN/Stat/CIPA3/Rapport Cours 1 Félix MARQUET.md",
     "ISEN/Stat/CIPA3/Rapport Cours 1 Félix MARQUET.pdf",
     "ISEN/Stat/CIPA3/~$pport Cours 1.pdf",
-    "ISEN/Daily/30-01-2025.md",
-    "ISEN/Daily/24-02-2025.md",
     "ISEN/Stat/CIPA3/Rapport Cours 1.pdf",
     "ISEN/Stat/CIPA3/Moustache phys.png",
     "ISEN/Stat/CIPA3/Moustache maths.png",
