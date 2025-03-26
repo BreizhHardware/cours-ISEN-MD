@@ -14,7 +14,7 @@ STM32: 28 ou 40 nm
 
 SMIC: Semiconductor Manufacturing International Corporation, fondrie chinoise alternative a TSMC
 
-# Déclarati
+# Déclaration variabl
 
 ---
 &copy; Félix MARQUET
