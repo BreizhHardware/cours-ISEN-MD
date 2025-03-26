@@ -40,7 +40,18 @@ Si on veut VF = 2000 dans le future comment faire ?
 $$VA = VF / (1+r)^n$$
 Répondre à la question
 Avec un taux d'intérêt de 1%
+$$
+\frac{10000000}{(1 + 0,01)^{10}} = 9052869,55
+$$
 Avec un taux d'intérêt de 4%
+$$
+\frac{10000000}{(1 + 0,04)^{10}} = 6755641,69
+$$
+Si je place 9 000 000 à 4% pendant 10 ans
+$$
+9000000 * (1 + 0,04)^{10} = 13322198,56
+$$
+
 
 ---
 &copy; Félix MARQUET
