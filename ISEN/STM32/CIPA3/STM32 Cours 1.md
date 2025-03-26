@@ -49,5 +49,22 @@ ROM: Read Only Memory
 EEPROM: Electrically-Erasable Programmable Read-Only Memory
 Flash (Nor):
 
+## DRAM Characteristics
+- Volatile
+- 8-bits granularity in read and write cycle
+- Unlimited Endurance
+- Fast access time to read and write
+- Small Size / Low Cost
+- High Current Consumption (must be refreshed) -> Not used in micro controllers
+
+## SRAM Characteristics
+- Volatile
+- 8-bits granularity in read and write cycle
+- Unlimited Endurance
+- Fast access time to read and write -> But slower than DRAM
+- Large Size / High Cost
+- Low Current Consumption -> Always used in micro controllers
+## EEPROM Cha
+
 ---
 &copy; Félix MARQUET
