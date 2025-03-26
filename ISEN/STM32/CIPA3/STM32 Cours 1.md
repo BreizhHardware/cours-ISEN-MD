@@ -64,7 +64,12 @@ Flash (Nor):
 - Fast access time to read and write -> But slower than DRAM
 - Large Size / High Cost
 - Low Current Consumption -> Always used in micro controllers
-## EEPROM Characteristi
+## EEPROM Characteristics
+- Non volatile
+- 8-bits granularity in read and write cycle
+- Limited endurance in write cycle
+- Slow access time to read / write cycle
+- Medium Size / Low Cost
 
 ---
 &copy; Félix MARQUET
