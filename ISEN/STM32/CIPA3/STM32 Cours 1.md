@@ -43,10 +43,10 @@ Micro controller 32bits:
 # Type de mémoire
 ## Mémoire volatile
 SRAM: Static Random Access Memory (micro controller)
-DRAM: Direct Random Access Memory (PC)
+DRAM: Dynamic Random Access Memory (PC)
 ## Mémoire non volatile
-ROM:
-EEPROM:
+ROM: Read Only Memory
+EEPROM: Electrically-Erasable Programmable Read-Only Memory
 Flash (Nor):
 
 ---
