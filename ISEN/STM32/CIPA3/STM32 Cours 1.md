@@ -47,7 +47,7 @@ DRAM: Direct Random Access Memory (PC)
 ## Mémoire non volatile
 ROM:
 EEPROM:
-Flash (N)
+Flash (Nor):
 
 ---
 &copy; Félix MARQUET
