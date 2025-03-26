@@ -52,8 +52,19 @@ $$
 9000000 * (1 + 0,04)^{10} = 13322198,56
 $$
 ## Taux d'intérêt: Qu'est ce qui le fait varier ?
+- Le risque notamment de défaut
+- La liquidité
+- La maturité
+- La fiscalité
 
-## Impact de l'évolution des taux
+## Remboursement des prêts/emprunts/crédits
+Comment rembourser un crédit ?
+- Vous remboursez à votre banque un paiement régulier: une rente
+- La banque ne vous prête pas de l'argent gratuitement...
+### Différents types d'annuités
+- Annuités constantes (remboursement du capital non constant alors)
+- Remboursement constant du capital (annuités non constantes alors)
+- Remboursement en une fois, à la fin
 
 
 ---
