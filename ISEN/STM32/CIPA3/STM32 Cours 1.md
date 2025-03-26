@@ -10,5 +10,11 @@ TSMC les best
 Logiciel: Synopsis et autre (tous américain)
 Fabrication par lithographie: ASML
 
+STM32: 28 ou 40 nm
+
+SMIC: Semiconductor Manufacturing International Corporation, fondrie chinoise alternative a TSMC
+
+
+
 ---
 &copy; Félix MARQUET
