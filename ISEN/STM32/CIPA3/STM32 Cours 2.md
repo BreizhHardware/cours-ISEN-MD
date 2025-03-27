@@ -41,7 +41,55 @@ XOR -> changer l'état d'un bit
 ## GPIO Schematic STM32
 ![GPIO Schematic](https://wiki.st.com/stm32mpu/nsfr_img_auth.php/5/56/IO_port.png)
 
+# Bit Masking
+Bit masking has the following purpose
+- Masking bits to 1
+- Masking bits to 0
+- Querying Status Bit
+- aled
 
+## Masking bits to 1
+### Masking on the higher nibble
+|     | 1001 0101 |
+| :-: | :-------: |
+| OR  | 1111 0000 |
+|  =  | 1111 0101 |
+### Masking on the lower nibble
+|     | 1010 0101 |
+| :-: | :-------: |
+| OR  | 0000 1111 |
+|  =  | 1010 1111 |
+
+
+## Masking bits to 0
+### Masking on the higher nibble
+|     | 1001 0101 |
+| :-: | :-------: |
+| OR  | 0000 1111 |
+|  =  | 0000 0101 |
+### Masking on the lower nibble
+|     | 1010 0101 |
+| :-: | :-------: |
+| OR  | 1111 0000 |
+|  =  | 1010 0000 |
+## Querying Status Bit
+### Check Status bit 3
+|     | 1001 1101 |
+| :-: | :-------: |
+| AND | 0000 1000 |
+| OR  | 0000 1000 |
+
+|     | 1001 0101 |
+| :-: | :-------: |
+| AND | 0000 1000 |
+| OR  | 0000 0000 |
+
+# Langage C
+| Log |     |
+| :-: | :-: |
+|     |     |
+|     |     |
+|     |     |
 
 ---
 &copy; Félix MARQUET
