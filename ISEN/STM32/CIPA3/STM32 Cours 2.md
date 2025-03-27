@@ -85,11 +85,13 @@ Bit masking has the following purpose
 | OR  | 0000 0000 |
 
 # Langage C
-| Logique |     |
-| :-----: | :-: |
-|         |     |
-|         |     |
-|         |     |
+| Logique |  C  | Exemple Code Haut niveau                 |
+| :-----: | :-: | ---------------------------------------- |
+|   OR    | \|  | GPIOA \|= (1 << 2); (force le bit 2 à 1) |
+|   AND   |  &  |                                          |
+|   XOR   |  ^  | GPIOA ^= (1 << 2); (inverse le bit 2)    |
+
+
 
 ---
 &copy; Félix MARQUET
