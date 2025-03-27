@@ -85,11 +85,11 @@ Bit masking has the following purpose
 | OR  | 0000 0000 |
 
 # Langage C
-| Log |     |
-| :-: | :-: |
-|     |     |
-|     |     |
-|     |     |
+| Logique |     |
+| :-----: | :-: |
+|         |     |
+|         |     |
+|         |     |
 
 ---
 &copy; Félix MARQUET
