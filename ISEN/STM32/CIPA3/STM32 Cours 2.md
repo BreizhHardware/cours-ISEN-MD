@@ -46,7 +46,7 @@ Bit masking has the following purpose
 - Masking bits to 1
 - Masking bits to 0
 - Querying Status Bit
-- aled
+- Toggling a bit
 
 ## Masking bits to 1
 ### Masking on the higher nibble
@@ -84,11 +84,19 @@ Bit masking has the following purpose
 | AND | 0000 1000 |
 | OR  | 0000 0000 |
 
+## Toggling a Bit
+### Check Status bit 3
+|     | 1001 1101 |
+| :-: | :-------: |
+| XOR | 1111 1111 |
+| OR  | 0000 1000 |
+
+
 # Langage C
 | Logique |  C  | Exemple Code Haut niveau                 |
 | :-----: | :-: | ---------------------------------------- |
 |   OR    | \|  | GPIOA \|= (1 << 2); (force le bit 2 à 1) |
-|   AND   |  &  |                                          |
+|   AND   |  &  | GPIOA &= ~(1 << 2); (force le bit 2 à 0) |
 |   XOR   |  ^  | GPIOA ^= (1 << 2); (inverse le bit 2)    |
 
 
