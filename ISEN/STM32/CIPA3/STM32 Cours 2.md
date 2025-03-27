@@ -108,14 +108,21 @@ Bit masking has the following purpose
 	4. 0xF0: 11110000
 	5. 0x6C: 1101100
 2. On considère une série d’entier relatifs négatifs -1, -21, -55, -100. Donner leur représentation en binaire sur 8 bits et leur représentation en hexadécimal, sachant qu’ils sont codés en complément à 2 
-	1. -1: 11111111
-	2. -21: 11101011
-	3. -55: 11001001
-	4. -100: 11001001
+	1. -1: 11111111 : 0xff 
+	2. -21: 11101011 : 0xeb
+	3. -55: 11001001 :  0xc9 
+	4. -100: 11001001 : 0x9c
 3. Donner les valeurs décimales signées et non-signées des octets suivants : 0b10010110, 0b11010001, 0b00110011, 0b10100101
 	1. Non signées
-		1. 0b10010110: -106
+		1. 0b10010110: 
 		2. 0b11010001: 
+		3. 0b00110011: 
+		4. 0b10100101: 
+	2. Signées
+		1. 0b10010110: -106
+		2. 0b11010001: -47
+		3. 0b00110011: 51
+		4. 0b10100101: -91
 
 ---
 &copy; Félix MARQUET
