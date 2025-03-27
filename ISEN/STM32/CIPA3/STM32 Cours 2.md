@@ -38,6 +38,9 @@ XOR -> changer l'état d'un bit
 ## Logic Gate
 ![Logic gate](https://i0.wp.com/www.goodmath.org/blog/wp-content/uploads/2022/12/basic-gates.png?w=417)
 
+## GPIO Schematic STM32
+![GPIO Schematic](https://wiki.st.com/stm32mpu/nsfr_img_auth.php/5/56/IO_port.png)
+
 
 
 ---
