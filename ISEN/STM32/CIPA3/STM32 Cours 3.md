@@ -32,12 +32,12 @@ Dans un microcontrôleur, où sont stockées les variables? Le programme? Les co
 - Programme
 	- FLASH
 - Constantes
-	- SRAM (en haut)
+	- SRAM (en haut) ou FLASH
 ## Exercice 6
 Soit une variable var, de taille 32 bits, initialisée comme suit : t var = b1001 0000. 
 Déterminer les masques et la logique pour obtenir les résultats suivant
 1. Forcer les bits 6 et 7 à 1 
-	1. J'utilise la porte logique **OR**
+	1. Porte logique utilisée **OR**
 	2. Masque: `0b00000000 00000000 00000000 11000000`
 	3. Opération:
 		1. `GPIOA |= (1 << 6);`
