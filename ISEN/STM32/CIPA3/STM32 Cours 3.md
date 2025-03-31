@@ -10,7 +10,7 @@
 	1. 160 / 8 = 20
 	2. 0b10100
 3. Que remarque t’on ? Proposer une méthode plus rapide pour obtenir le résultat.
-	1. On déplace de 3 zéro le résul
+	1. On déplace de 3 zéro le résultat (équ)
 
 ---
 &copy; Félix MARQUET
