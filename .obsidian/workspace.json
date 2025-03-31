@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ISEN/STM32/CIPA3/STM32 Cours 2.md",
+                "file": "ISEN/Daily/31-03-2025.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "STM32 Cours 2"
+              "title": "31-03-2025"
             }
           },
           {
@@ -253,8 +253,9 @@
   },
   "active": "05fb2e0f4e86352f",
   "lastOpenFiles": [
-    "ISEN/Daily/27-03-2025.md",
     "ISEN/STM32/CIPA3/STM32 Cours 2.md",
+    "ISEN/Daily/31-03-2025.md",
+    "ISEN/Daily/27-03-2025.md",
     "ISEN/STM32/CIPA3/STM32 Cours 1.md",
     "ISEN/Microéconomie/CIPA3/Microéconomie Cours 1.md",
     "ISEN/Microéconomie/CIPA3/Microéconomie Cours 3.md",
@@ -286,7 +287,6 @@
     "ISEN/FHS/CIPA3/Expression écrite et orale",
     "ISEN/Daily/16-12-2024.md",
     "ISEN/web.isen-ouest.fr/moodle/pluginfile.php/42940/mod_resource/content/0/Stage associatif - consignes - v1.1.pdf.md",
-    "ISEN/Daily/05-03-2025.md",
     "ISEN/Microéconomie/CIPA3",
     "ISEN/Microéconomie",
     "ISEN/Stat/CIPA3/Moustache phys.png",
