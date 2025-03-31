@@ -55,7 +55,7 @@ Déterminer les masques et la logique pour obtenir les résultats suivant
 	1. Porte logique utilisée  **AND**
 	2. Masque  `0b00000000 00000000 00000000 00100000`
 	3. Opération:
-		1. `if (var & (1 << 5))`
+		1. `if ((var & (1 << 5)) == (1 << 5))`
 
 ---
 &copy; Félix MARQUET
