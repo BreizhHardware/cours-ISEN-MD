@@ -38,7 +38,7 @@ Soit une variable var, de taille 32 bits, initialisée comme suit : t var = b100
 Déterminer les masques et la logique pour obtenir les résultats suivant
 1. Forcer les bits 6 et 7 à 1 
 	1. J'utilise la porte logique **OR**
-	2. Masque: `0b00000000 00000000 00000000 01100000`
+	2. Masque: `0b00000000 00000000 00000000 11000000`
 	3. Opération:
 		1. `GPIOA |= (1 << 6);`
 		2. `GPIOA |= (1 << 7);`
