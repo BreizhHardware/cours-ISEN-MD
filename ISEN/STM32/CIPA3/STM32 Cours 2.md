@@ -114,15 +114,17 @@ Bit masking has the following purpose
 	4. -100: 11001001 : 0x9c
 3. Donner les valeurs décimales signées et non-signées des octets suivants : 0b10010110, 0b11010001, 0b00110011, 0b10100101
 	1. Non signées
-		1. 0b10010110: 
-		2. 0b11010001: 
-		3. 0b00110011: 
-		4. 0b10100101: 
+		1. 0b10010110: 134
+		2. 0b11010001: 209
+		3. 0b00110011: 51
+		4. 0b10100101: 165
 	2. Signées
 		1. 0b10010110: -106
 		2. 0b11010001: -47
 		3. 0b00110011: 51
 		4. 0b10100101: -91
+
+[Cours suivant](STM32%20Cours%203.md)
 
 ---
 &copy; Félix MARQUET
