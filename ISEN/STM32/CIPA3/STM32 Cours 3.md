@@ -66,5 +66,12 @@ PA5 = Port A Numéro 5
 - Each pin is connected to a port
 - A port can be connected up to 16 pin
 
+GPIOA address is : 0x4002 0014
+Address offset of ODR: 0x14
+```C
+//Way to write 0x0000 0020 at the address 0x4002 0014
+*((unit32_t *)0x40020014) = 0x00000020
+```
+
 ---
 &copy; Félix MARQUET
