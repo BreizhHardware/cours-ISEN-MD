@@ -40,24 +40,22 @@ Déterminer les masques et la logique pour obtenir les résultats suivant
 	1. Porte logique utilisée **OR**
 	2. Masque: `0b00000000 00000000 00000000 11000000`
 	3. Opération:
-		1. `GPIOA |= (1 << 6);`
-		2. `GPIOA |= (1 << 7);`
+		1. `var |= (1 << 6 | 1 << 7);`
 2. Forcer les bit 4 et 0 à 0 
 	1. Porte logique utilisée  **AND**
 	2. Masque  `0b11111111 11111111 11111111 11101110`
 	3. Opération :
-		1. `GPIOA &= ~(1 << 4);`
-		2. `GPIOA &= ~(1 << 0);`
+		1. `var &= ~(1 << 4 | 1 << 0);`
 3. Changer l’état du bit 4 
 	1. Porte logique utilisée  **XOR**
 	2. Masque  `0b00000000 00000000 00000000 00010000`
 	3. Opération:
-		1. `GPIOA ^= (1 << 4);`
+		1. `var ^= (1 << 4);`
 4. Vérifier si le bit 5 est à 1
 	1. Porte logique utilisée  **AND**
 	2. Masque  `0b00000000 00000000 00000000 00100000`
 	3. Opération:
-		1. `if (GPIOA & (1 << 5))`
+		1. `if (var & (1 << 5))`
 
 ---
 &copy; Félix MARQUET
