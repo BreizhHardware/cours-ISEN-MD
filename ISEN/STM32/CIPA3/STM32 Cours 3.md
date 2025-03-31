@@ -57,5 +57,14 @@ Déterminer les masques et la logique pour obtenir les résultats suivant
 	3. Opération:
 		1. `if ((var & (1 << 5)) == (1 << 5))`
 
+# GPIO
+Broche -> Port (Lettre) + Numéro entre 0 et 15
+
+PA5 = Port A Numéro 5
+
+## Port
+- Each pin is connected to a port
+- A port can be connected up to 16 pin
+
 ---
 &copy; Félix MARQUET
