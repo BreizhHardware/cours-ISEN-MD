@@ -128,7 +128,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -299,12 +299,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "05fb2e0f4e86352f",
+  "active": "dd68e5b05b3d11c5",
   "lastOpenFiles": [
-    "ISEN/Maths/CIPA3/DM1.md",
     "ISEN/STM32/CIPA3/STM32 Cours 3.md",
     "ISEN/STM32/CIPA3/STM32 Cours 2.md",
     "ISEN/STM32/CIPA3/STM32 Cours 1.md",
+    "ISEN/Maths/CIPA3/DM1.md",
     "gitignore.md",
     "dossier sans titre",
     "ISEN/STM32/CIPA3/TD1_STM32_Eleves_2023.pdf",

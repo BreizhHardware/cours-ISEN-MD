@@ -28,12 +28,28 @@ Les technologies mémoire utilisées dans les microcontrôleurs sont principalem
 ## Exercice 5
 Dans un microcontrôleur, où sont stockées les variables? Le programme? Les constantes ?
 - Variables
-	- a
+	- SRAM (en bas)
 - Programme
-	- a
+	- FLASH
 - Constantes
-	- 
-
+	- SRAM (en haut)
+## Exercice 6
+Soit une variable var, de taille 32 bits, initialisée comme suit : t var = b1001 0000. 
+Déterminer les masques et la logique pour obtenir les résultats suivant
+1. Forcer les bits 6 et 7 à 1 
+	1. J'utilise la porte logique **OR**
+	2. Masque: `0b00000000 00000000 00000000 01100000`
+	3. Opération:
+		1. `GPIOA |= (1 << 6);`
+		2. `GPIOA |= (1 << 7);`
+2. Forcer les bit 4 et 0 à 0 
+	1. Porte logique utilisée  **AND**
+	2. Masque  `0b11111111 11111111 11111111 11101110`
+	3. Opération :
+		1. `GPIOA &= ~(1 << 4);`
+		2. `GPIOA &= ~(1 << 0);`
+3. Changer l’état du bit 4 
+4. Vérifier si le bit 5 est à 1
 
 ---
 &copy; Félix MARQUET
