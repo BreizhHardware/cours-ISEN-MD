@@ -11,7 +11,7 @@
 	1. 160 / 8 = 20
 	2. 0b10100
 3. Que remarque t’on ? Proposer une méthode plus rapide pour obtenir le résultat.
-	1. On déplace de 3 zéro le résultat (équivalent de 8 en binaire)
+	1. On déplace de 3 zéro le résultat (équivalent de 8 en binaire ($2^3$))
 
 ## Exercice 4
 Les technologies mémoire utilisées dans les microcontrôleurs sont principalement la SRAM et Flash.
