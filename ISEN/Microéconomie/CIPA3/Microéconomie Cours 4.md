@@ -32,12 +32,17 @@ On dit que les intérêts ne sont pas capitalisé
 |         Durée         | 6 mois |
 | Taux d'intérêt annuel | 1,5 %  |
 Le montant des intérêts est intégré dans le calcul
-**Valeur future d'un placement** $$VF = VA * (1 + r)^n$$
+**Valeur future d'un placement** 
+$$
+VF = VA * (1 + r)^n
+$$
 On dit que les intérêts sont capitalisé
 ## Revenons à notre problème de départ...
 **... quelle est la valeur aujourd'hui d'un placement future ?**
 Si on veut VF = 2000 dans le future comment faire ?
-$$VA = VF / (1+r)^n$$
+$$
+VA = VF / (1+r)^n
+$$
 Répondre à la question
 Avec un taux d'intérêt de 1%
 $$
