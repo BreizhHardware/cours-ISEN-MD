@@ -12,6 +12,8 @@ Mais l'inflation d'aujourd'hui est multifactorielle:
 - Politiques de soutien à la demande pendant le covid
 - Euro faible ...
 
+Pour baisser l'inflation il faut augmenter les taux d'intérêt, bloquer les prix et favoriser la concurrence.
+
 # Rôle des banques centrales
 Les banques centrales (par exemple la BCE) mettent en oeuvre
 	La politique monétaire
