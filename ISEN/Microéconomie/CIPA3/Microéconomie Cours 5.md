@@ -30,8 +30,16 @@ Régulation étatiques
 - Quotas
 - Taxes / Subventions
 ### Main invisible de Smith
-L'intérêt êrsp,,em et o,dovodiem ùène toujours au mieux pour le groupe
-L'impact 
+L'intérêt êrsp,,em et individuel mène toujours au mieux pour le groupe
+L'impact global social et économique est une externalité de l'intérêt individuel
+
+#### Helping the Invisible Hand
+Attendre les effets de la main invisible peut prendre longtemps et avoir des consequence graves
+Des "coups de pouces" sont en general mis en place pour aider !
+- Régulation de marché
+
+# Le voile de l'Ignorance
+
 
 ---
 &copy; Félix MARQUET
