@@ -5,6 +5,8 @@
 # Les théories du jeux
 Depuis la seconde guerre mondiale 11 prix Nobel d'économie attribués à des théoriciens des jeux.
 
+## Programme de clémence
+
 
 ---
 &copy; Félix MARQUET
