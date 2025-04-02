@@ -30,7 +30,8 @@ Régulation étatiques
 - Quotas
 - Taxes / Subventions
 ### Main invisible de Smith
-L'intérêt êrsp,,em e
+L'intérêt êrsp,,em et o,dovodiem ùène toujours au mieux pour le groupe
+L'impact 
 
 ---
 &copy; Félix MARQUET
