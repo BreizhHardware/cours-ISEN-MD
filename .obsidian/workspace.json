@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ISEN/Microéconomie/CIPA3/Microéconomie Cours 4.md",
+                "file": "ISEN/Daily/02-04-2025.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,7 +76,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Microéconomie Cours 4"
+              "title": "02-04-2025"
             }
           },
           {
@@ -325,11 +325,13 @@
   },
   "active": "cf67b9359e20432f",
   "lastOpenFiles": [
-    "ISEN/Maths/CIPA3/Fiche de révision DS1.md",
+    "ISEN/Microéconomie/CIPA3/Microéconomie Cours 1.md",
+    "ISEN/Daily/02-04-2025.md",
+    "ISEN/Microéconomie/CIPA3/Microéconomie Exercice.md",
     "ISEN/Microéconomie/CIPA3/Microéconomie Cours 4.md",
+    "ISEN/Maths/CIPA3/Fiche de révision DS1.md",
     "ISEN/Microéconomie/CIPA3/Microéconomie Cours 3.md",
     "ISEN/Microéconomie/CIPA3/Microéconomie Cours 2.md",
-    "ISEN/Microéconomie/CIPA3/Microéconomie Cours 1.md",
     "ISEN/Daily/01-04-2025.md",
     "ISEN/STM32/CIPA3/STM32 Cours 2.md",
     "ISEN/STM32/CIPA3/STM32 Cours 3.md",
@@ -350,7 +352,6 @@
     "ISEN/Maths/CIPA3/DS1.md",
     "ISEN/Stat/CIPA3/Rapport Cours 1 Félix MARQUET.md",
     "ISEN/Physique/Présentation TP Hors les murs.md",
-    "ISEN/Microéconomie/CIPA3/Microéconomie Exercice.md",
     "ISEN/STM32/CIPA3",
     "ISEN/STM32",
     "ISEN/Daily/25-03-2025.md",
@@ -359,7 +360,6 @@
     "ISEN/Daily/14-03-2025.md",
     "ISEN/Daily/12-03-2025.md",
     "ISEN/Daily/10-03-2025.md",
-    "ISEN/Daily/07-03-2025.md",
     "ISEN/FHS/CIPA3/Expression écrite et orale",
     "ISEN/Stat/CIPA3/Moustache phys.png",
     "ISEN/Stat/CIPA3/Moustache maths.png",
