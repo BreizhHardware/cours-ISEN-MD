@@ -8,108 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "cf67b9359e20432f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ISEN/Daily/02-04-2025.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "02-04-2025"
-            }
-          },
-          {
-            "id": "e2a5bc01fc3e5de0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ISEN/STM32/CIPA3/STM32 Cours 3.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "STM32 Cours 3"
-            }
-          },
-          {
-            "id": "4255f2c5dd214811",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ISEN/Microéconomie/CIPA3/Microéconomie Cours 2.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Microéconomie Cours 2"
-            }
-          },
-          {
-            "id": "6cf0f9d08489a0a7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ISEN/Microéconomie/CIPA3/Microéconomie Cours 3.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Microéconomie Cours 3"
-            }
-          },
-          {
             "id": "b888f2c03ef2f93b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ISEN/Microéconomie/CIPA3/Microéconomie Cours 4.md",
+                "file": "ISEN/Microéconomie/CIPA3/Microéconomie Cours 5.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -124,31 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Microéconomie Cours 4"
-            }
-          },
-          {
-            "id": "54f92db685b34402",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ISEN/Microéconomie/CIPA3/Microéconomie Exercice.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Microéconomie Exercice"
+              "title": "Microéconomie Cours 5"
             }
           }
         ]
@@ -322,15 +202,17 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "cf67b9359e20432f",
+  "active": "b888f2c03ef2f93b",
   "lastOpenFiles": [
+    "ISEN/Microéconomie/CIPA3/Microéconomie Cours 2.md",
     "ISEN/Microéconomie/CIPA3/Microéconomie Cours 3.md",
     "ISEN/Microéconomie/CIPA3/Microéconomie Cours 4.md",
-    "ISEN/Microéconomie/CIPA3/Microéconomie Cours 1.md",
+    "ISEN/Microéconomie/CIPA3/Microéconomie Cours 5.md",
+    "ISEN/Microéconomie/CIPA3/Untitled.md",
     "ISEN/STM32/CIPA3/STM32 Cours 3.md",
-    "ISEN/Microéconomie/CIPA3/Microéconomie Cours 2.md",
-    "ISEN/Microéconomie/CIPA3/Microéconomie Exercice.md",
     "ISEN/Daily/02-04-2025.md",
+    "ISEN/Microéconomie/CIPA3/Microéconomie Cours 1.md",
+    "ISEN/Microéconomie/CIPA3/Microéconomie Exercice.md",
     "ISEN/Microéconomie/CIPA3/~$FISA3 - Microéconomie - Valeur Actuellle - Mar25 vETUDIANT.xlsx",
     "ISEN/Microéconomie/CIPA3/~$FISA3 - Microéconomie - Exercice Annuités - Mar25 vETUDIANT.xlsx",
     "ISEN/Maths/CIPA3/Fiche de révision DS1.md",
@@ -357,7 +239,6 @@
     "ISEN/Daily/17-03-2025.md",
     "ISEN/Template/Daily-{{date}}.md",
     "ISEN/Daily/14-03-2025.md",
-    "ISEN/Daily/12-03-2025.md",
     "ISEN/FHS/CIPA3/Expression écrite et orale",
     "ISEN/Stat/CIPA3/Moustache phys.png",
     "ISEN/Stat/CIPA3/Moustache maths.png",
