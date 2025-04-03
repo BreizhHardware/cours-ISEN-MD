@@ -23,7 +23,7 @@ var |= (1 << 21);
 ```
 6. Déterminer la valeur du bit 27
 ```C
-var & (1 << 5)) != 0;
+uint8_t v = var & (1 << 27)) >> 27;
 ```
 7. Forcer les bit 11 et 15 à 1
 ```C
@@ -56,6 +56,10 @@ var = 0xFFFFFFFF;
 # Exercice 2
 On suppose que les valeurs sont enregistrées en complément à 2 sur 8 bits. Donner les valeurs - binaires des nombres suivants: -45, 89, -128, -3, 126.
 - -45: 11010011
+- 89: 01011001
+- -128: 10000000
+- -3: 11111101
+- 126: 01111110
 
 ---
 &copy; Félix MARQUET
