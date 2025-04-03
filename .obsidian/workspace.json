@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ISEN/STM32/CIPA3/STM32 Cours 3.md",
+                "file": "ISEN/Daily/03-04-2025.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "STM32 Cours 3"
+              "title": "03-04-2025"
             }
           },
           {
@@ -228,6 +228,7 @@
   },
   "active": "b888f2c03ef2f93b",
   "lastOpenFiles": [
+    "ISEN/STM32/CIPA3/STM32 Cours 3.md",
     "ISEN/STM32/CIPA3/STM32 TD 2.md",
     "ISEN/STM32/CIPA3/Datasheet/um1724-stm32-nucleo64-boards-mb1136-stmicroelectronics.pdf",
     "ISEN/STM32/CIPA3/Datasheet/pm0056-stm32f10xxx20xxx21xxxl1xxxx-cortexm3-programming-manual-stmicroelectronics.pdf",
@@ -235,7 +236,6 @@
     "ISEN/STM32/CIPA3/dossier sans titre",
     "ISEN/STM32/CIPA3/um1724-stm32-nucleo64-boards-mb1136-stmicroelectronics.pdf",
     "ISEN/STM32/CIPA3/pm0056-stm32f10xxx20xxx21xxxl1xxxx-cortexm3-programming-manual-stmicroelectronics.pdf",
-    "ISEN/STM32/CIPA3/STM32 Cours 3.md",
     "ISEN/Daily/03-04-2025.md",
     "ISEN/Microéconomie/CIPA3/Microéconomie Cours 5.md",
     "ISEN/Microéconomie/CIPA3/Microéconomie Cours 2.md",
