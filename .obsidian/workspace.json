@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ISEN/Microéconomie/CIPA3/Microéconomie Cours 5.md",
+                "file": "ISEN/Daily/03-04-2025.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Microéconomie Cours 5"
+              "title": "03-04-2025"
             }
           }
         ]
@@ -204,10 +204,11 @@
   },
   "active": "b888f2c03ef2f93b",
   "lastOpenFiles": [
+    "ISEN/Microéconomie/CIPA3/Microéconomie Cours 5.md",
+    "ISEN/Daily/03-04-2025.md",
     "ISEN/Microéconomie/CIPA3/Microéconomie Cours 2.md",
     "ISEN/Microéconomie/CIPA3/Microéconomie Cours 3.md",
     "ISEN/Microéconomie/CIPA3/Microéconomie Cours 4.md",
-    "ISEN/Microéconomie/CIPA3/Microéconomie Cours 5.md",
     "ISEN/Microéconomie/CIPA3/Untitled.md",
     "ISEN/STM32/CIPA3/STM32 Cours 3.md",
     "ISEN/Daily/02-04-2025.md",
@@ -238,7 +239,6 @@
     "ISEN/Daily/25-03-2025.md",
     "ISEN/Daily/17-03-2025.md",
     "ISEN/Template/Daily-{{date}}.md",
-    "ISEN/Daily/14-03-2025.md",
     "ISEN/FHS/CIPA3/Expression écrite et orale",
     "ISEN/Stat/CIPA3/Moustache phys.png",
     "ISEN/Stat/CIPA3/Moustache maths.png",
