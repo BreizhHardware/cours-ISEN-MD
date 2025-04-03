@@ -25,4 +25,6 @@ uint32_t var = 0;
 ```C
 **var & (1 << 5)) != 0;
 ```
-7. Forcer les 
+7. Forcer les bit 11 et 15 à 1
+```C
+
