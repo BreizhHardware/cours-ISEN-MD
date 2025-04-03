@@ -7,7 +7,7 @@ uint32_t var = 0;
 ```
 2. Affecter la valeur du registre dans la variable var
 ```C
-var = *(volatile uint32_t *)0x40020814;
+var = *(uint32_t *)0x40020814;
 ```
 3. Forcer le bit 7 à 0
 ```C
@@ -54,8 +54,8 @@ var ^= (1 << 2 | 1 << 3 | 1 << 4);
 var = 0xFFFFFFFF;
 ```
 # Exercice 2
-On suppose que les valeurs sont enregistrées en complément à 2 sur 8 bits. Donner les valeurs binaires des nombres suivants: -45, 89, -128, -3, 126.
-
+On suppose que les valeurs sont enregistrées en complément à 2 sur 8 bits. Donner les valeurs - binaires des nombres suivants: -45, 89, -128, -3, 126.
+- -45: 11010011
 
 ---
 &copy; Félix MARQUET
