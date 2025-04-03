@@ -73,5 +73,13 @@ Address offset of ODR: 0x14
 *((unit32_t *)0x40020014) = 0x00000020;
 ```
 
+# Interruption
+Permet d'éviter le polling (consomme beaucoup car vérifie h24 le status du périf)
+
+Les perifs vont envoyé une interruption au coeur du micro, chaque interruption à un numéro qui permet d'identifier le perif. Sur cortex-M maximum 256 interruption. Mais sur les notre 60 interruptions max. Possibilité de multiplexage quand même.
+
+Quand le NVIC reçoit une intérruption: saut dans le programme et saut dans une fonction appelée **handler**
+
+
 ---
 &copy; Félix MARQUET
