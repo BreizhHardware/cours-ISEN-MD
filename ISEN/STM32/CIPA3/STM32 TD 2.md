@@ -51,7 +51,7 @@ var ^= (1 << 2 | 1 << 3 | 1 << 4);
 ```
 13. Ecrire la valeur 0xFFFFFFFF dans le registre
 ```C
-var = 0xFFFFFFFF;
+&var = 0xFFFFFFFF;
 ```
 # Exercice 2
 On suppose que les valeurs sont enregistrées en complément à 2 sur 8 bits. Donner les valeurs - binaires des nombres suivants: -45, 89, -128, -3, 126.
