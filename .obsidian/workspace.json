@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ISEN/Daily/03-04-2025.md",
+                "file": "ISEN/Daily/08-04-2025.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "03-04-2025"
+              "title": "08-04-2025"
             }
           },
           {
@@ -228,6 +228,9 @@
   },
   "active": "b888f2c03ef2f93b",
   "lastOpenFiles": [
+    "ISEN/Daily/07-04-2025.md",
+    "ISEN/Daily/08-04-2025.md",
+    "ISEN/Daily/03-04-2025.md",
     "ISEN/Daily/03-04-2025.pdf",
     "ISEN/STM32/CIPA3/STM32 Cours 3.md",
     "ISEN/STM32/CIPA3/STM32 TD 2.md",
@@ -237,7 +240,6 @@
     "ISEN/STM32/CIPA3/dossier sans titre",
     "ISEN/STM32/CIPA3/um1724-stm32-nucleo64-boards-mb1136-stmicroelectronics.pdf",
     "ISEN/STM32/CIPA3/pm0056-stm32f10xxx20xxx21xxxl1xxxx-cortexm3-programming-manual-stmicroelectronics.pdf",
-    "ISEN/Daily/03-04-2025.md",
     "ISEN/Microéconomie/CIPA3/Microéconomie Cours 5.md",
     "ISEN/Microéconomie/CIPA3/Microéconomie Cours 2.md",
     "ISEN/Microéconomie/CIPA3/Microéconomie Cours 3.md",
@@ -255,7 +257,6 @@
     "ISEN/Maths/CIPA3/DM1.md",
     "gitignore.md",
     "dossier sans titre",
-    "ISEN/STM32/CIPA3/TD1_STM32_Eleves_2023.pdf",
     "ISEN/Réseau/A1/Cisco Cours 1.md",
     "ISEN/Daily/31-03-2025.md",
     "ISEN/Daily/27-03-2025.md",
@@ -263,7 +264,6 @@
     "ISEN/Maths/CIPA3/DS1.md",
     "ISEN/Stat/CIPA3/Rapport Cours 1 Félix MARQUET.md",
     "ISEN/Physique/Présentation TP Hors les murs.md",
-    "ISEN/Daily/25-03-2025.md",
     "ISEN/Stat/CIPA3/Moustache phys.png",
     "ISEN/Stat/CIPA3/Moustache maths.png",
     "ISEN/Stat/CIPA3/histo phys classe B.png",
