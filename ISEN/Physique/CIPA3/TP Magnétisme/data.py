@@ -65,7 +65,7 @@ def lire_fichier_24csv(surface_m2=1e-4):  # Valeur par défaut de surface: 1 cm�
             dataframes[nom] = df
 
             # Calculer les paramètres avec les données corrigées
-            champ_remanant = calculer_champ_remanant(df, zero_offset=-0.0025)
+            champ_remanant = calculer_champ_remanant(df, zero_offset=-0.25)
             print(f"Fichier {nom} chargé: {len(df)} lignes (facteur correctif 1/10 appliqué)")
             print(f"Champ rémanant (avec zéro à -0,0025V): {champ_remanant} V")
 
@@ -99,7 +99,7 @@ def tracer_courbes_hysteresis(dataframes):
     plt.legend()
     plt.show()
 
-def calculer_champ_remanant(df, zero_offset=-0.025):
+def calculer_champ_remanant(df, zero_offset=-0.25):
     """
     Calcule le champ rémanant (valeur de Tension2 quand Tension1 = zero_offset)
     Sélectionne le point avec une pente POSITIVE.
@@ -238,8 +238,9 @@ if __name__ == "__main__":
     else:
         print(f"{len(donnees)} fichiers CSV trouvés et chargés")
         tracer_courbes_hysteresis(donnees)
-
-    donnees24 = lire_fichier_24csv(surface_m2=)
+    surface = 10.5 * 14.5  # cm²
+    surface_m2 = surface * 1e-4
+    donnees24 = lire_fichier_24csv(surface_m2=surface_m2)
     if not donnees24:
         print("Aucun fichier SDS00024.CSV trouvé dans le répertoire courant")
     else:
