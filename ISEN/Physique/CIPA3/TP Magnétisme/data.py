@@ -246,3 +246,6 @@ if __name__ == "__main__":
     else:
         print(f"{len(donnees24)} fichier SDS00024.CSV trouvé, chargé et analysé")
         tracer_courbes_hysteresis(donnees24)
+
+    H = 500/0.51 * 0.55 * 2
+    print(f"Champ magnétique H: {H:.6f} A/m")
