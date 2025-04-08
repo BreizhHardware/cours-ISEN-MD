@@ -5,7 +5,7 @@ import glob
 import numpy as np
 
 def lire_fichiers_csv():
-    """Récupère et lit tous les fichiers CSV du répertoire courant"""
+    """Récupère et lit tous les fichiers CSV du répertoire courant avec correction 1/10"""
     fichiers_csv = glob.glob("*.CSV")
     dataframes = {}
 
@@ -22,10 +22,14 @@ def lire_fichiers_csv():
             for col in df.columns:
                 df[col] = pd.to_numeric(df[col], errors='coerce')
 
+            # Appliquer le facteur correctif 1/10
+            df["Tension1"] = df["Tension1"] * 10
+            df["Tension2"] = df["Tension2"] * 10
+
             nom = os.path.basename(fichier)
             dataframes[nom] = df
 
-            print(f"Fichier {nom} chargé: {len(df)} lignes")
+            print(f"Fichier {nom} chargé: {len(df)} lignes (facteur correctif 1/10 appliqué)")
 
         except Exception as e:
             print(f"Erreur lors de la lecture de {fichier}: {e}")
@@ -33,7 +37,7 @@ def lire_fichiers_csv():
     return dataframes
 
 def lire_fichier_24csv():
-    """Récupère et lit le fichier SDS00024.CSV et calcule des paramètres d'hystérésis"""
+    """Récupère et lit le fichier SDS00024.CSV avec correction 1/10 et calcule des paramètres d'hystérésis"""
     fichiers_csv = glob.glob("SDS00024.CSV")
     dataframes = {}
 
@@ -48,19 +52,21 @@ def lire_fichier_24csv():
             for col in df.columns:
                 df[col] = pd.to_numeric(df[col], errors='coerce')
 
+            # Appliquer le facteur correctif 1/10
+            df["Tension1"] = df["Tension1"] *10
+            df["Tension2"] = df["Tension2"] * 10
+
             nom = os.path.basename(fichier)
             dataframes[nom] = df
 
-            # Calculer le champ rémanent avec le décalage de -0,025V
-            champ_remanant = calculer_champ_remanant(df, zero_offset=-0.025)
-            print(f"Fichier {nom} chargé: {len(df)} lignes")
-            print(f"Champ rémanant (avec zéro à -0,025V): {champ_remanant} V")
+            # Calculer les paramètres avec les données corrigées
+            champ_remanant = calculer_champ_remanant(df, zero_offset=-0.0025)  # Aussi divisé par 10
+            print(f"Fichier {nom} chargé: {len(df)} lignes (facteur correctif 1/10 appliqué)")
+            print(f"Champ rémanant (avec zéro à -0,0025V): {champ_remanant} V")
 
-            # Calculer l'excitation magnétique coercitive
             champ_coercitif = calculer_champ_coercitif(df)
             print(f"Excitation magnétique coercitive: {champ_coercitif} V")
 
-            # Calculer l'aire du cycle d'hystérésis
             aire_cycle = calculer_aire_cycle(df)
             print(f"Aire du cycle d'hystérésis: {aire_cycle:.6f} V²")
 
