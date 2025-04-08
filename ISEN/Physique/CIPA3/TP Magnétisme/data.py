@@ -2,6 +2,7 @@ import os
 import pandas as pd
 import matplotlib.pyplot as plt
 import glob
+import numpy as np
 
 def lire_fichiers_csv():
     """Récupère et lit tous les fichiers CSV du répertoire courant"""
