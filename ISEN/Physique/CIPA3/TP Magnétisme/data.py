@@ -36,8 +36,13 @@ def lire_fichiers_csv():
 
     return dataframes
 
-def lire_fichier_24csv():
-    """Récupère et lit le fichier SDS00024.CSV avec correction 1/10 et calcule des paramètres d'hystérésis"""
+def lire_fichier_24csv(surface_m2=1e-4):  # Valeur par défaut de surface: 1 cm²
+    """
+    Récupère et lit le fichier SDS00024.CSV avec correction 1/10 et calcule des paramètres d'hystérésis
+
+    Args:
+        surface_m2: Surface en m² pour la conversion en Tesla
+    """
     fichiers_csv = glob.glob("SDS00024.CSV")
     dataframes = {}
 
@@ -53,16 +58,20 @@ def lire_fichier_24csv():
                 df[col] = pd.to_numeric(df[col], errors='coerce')
 
             # Appliquer le facteur correctif 1/10
-            df["Tension1"] = df["Tension1"] *10
+            df["Tension1"] = df["Tension1"] * 10
             df["Tension2"] = df["Tension2"] * 10
 
             nom = os.path.basename(fichier)
             dataframes[nom] = df
 
             # Calculer les paramètres avec les données corrigées
-            champ_remanant = calculer_champ_remanant(df, zero_offset=-0.0025)  # Aussi divisé par 10
+            champ_remanant = calculer_champ_remanant(df, zero_offset=-0.0025)
             print(f"Fichier {nom} chargé: {len(df)} lignes (facteur correctif 1/10 appliqué)")
             print(f"Champ rémanant (avec zéro à -0,0025V): {champ_remanant} V")
+
+            # Conversion en Tesla
+            champ_remanant_tesla = convertir_volts_en_tesla(champ_remanant, surface_m2)
+            print(f"Champ rémanant en Tesla: {champ_remanant_tesla:.6f} T")
 
             champ_coercitif = calculer_champ_coercitif(df)
             print(f"Excitation magnétique coercitive: {champ_coercitif} V")
@@ -201,6 +210,26 @@ def calculer_aire_cycle(df):
 
     return aire
 
+def convertir_volts_en_tesla(tension_v, surface_m2):
+    """
+    Convertit la tension (V) en champ magnétique (T) selon la formule 10RC/Sn * uc
+
+    Args:
+        tension_v: Tension mesurée en Volts
+        surface_m2: Surface en m²
+
+    Returns:
+        float: Champ magnétique en Tesla
+    """
+    R = 4700  # ohms
+    C = 470e-9  # farads (470 nanofarads)
+    n = 500  # nombre de spires
+
+    # Calcul du champ en Tesla selon la formule 10RC/Sn * uc
+    champ_tesla = 10 * R * C / (surface_m2 * n) * tension_v
+
+    return champ_tesla
+
 if __name__ == "__main__":
     donnees = lire_fichiers_csv()
 
@@ -210,7 +239,7 @@ if __name__ == "__main__":
         print(f"{len(donnees)} fichiers CSV trouvés et chargés")
         tracer_courbes_hysteresis(donnees)
 
-    donnees24 = lire_fichier_24csv()
+    donnees24 = lire_fichier_24csv(surface_m2=)
     if not donnees24:
         print("Aucun fichier SDS00024.CSV trouvé dans le répertoire courant")
     else:
