@@ -33,7 +33,7 @@ def lire_fichiers_csv():
     return dataframes
 
 def lire_fichier_24csv():
-    """Récupère et lit le fichier SDS00024.CSV et calcule le champ rémanent avec décalage"""
+    """Récupère et lit le fichier SDS00024.CSV et calcule des paramètres d'hystérésis"""
     fichiers_csv = glob.glob("SDS00024.CSV")
     dataframes = {}
 
@@ -55,6 +55,14 @@ def lire_fichier_24csv():
             champ_remanant = calculer_champ_remanant(df, zero_offset=-0.025)
             print(f"Fichier {nom} chargé: {len(df)} lignes")
             print(f"Champ rémanant (avec zéro à -0,025V): {champ_remanant} V")
+
+            # Calculer l'excitation magnétique coercitive
+            champ_coercitif = calculer_champ_coercitif(df)
+            print(f"Excitation magnétique coercitive: {champ_coercitif} V")
+
+            # Calculer l'aire du cycle d'hystérésis
+            aire_cycle = calculer_aire_cycle(df)
+            print(f"Aire du cycle d'hystérésis: {aire_cycle:.6f} V²")
 
         except Exception as e:
             print(f"Erreur lors de la lecture de {fichier}: {e}")
@@ -111,7 +119,7 @@ def calculer_champ_remanant(df, zero_offset=-0.025):
         # Si on a trouvé plusieurs points, prendre celui avec pente positive
         if len(remanants) > 1:
             for i, pente in enumerate(pentes):
-                if pente > 0:  # Courbe ascendante (pente positive)
+                if pente < 0: # Pente descentente
                     return remanants[i]
 
             # Si pas de pente positive, prendre la valeur la plus élevée
@@ -121,6 +129,71 @@ def calculer_champ_remanant(df, zero_offset=-0.025):
 
     # Si on ne trouve pas de points qui encadrent le zéro
     return None
+
+def calculer_champ_coercitif(df):
+    """
+    Calcule l'excitation magnétique coercitive (valeur de Tension1 quand Tension2 = 0)
+    Sélectionne les points avec une pente négative.
+    """
+    # Trouver les points où Tension2 change de signe
+    points_zero = []
+    pentes = []
+
+    for i in range(len(df)-1):
+        if df.iloc[i]["Tension2"] * df.iloc[i+1]["Tension2"] <= 0:
+            # Points de part et d'autre de zéro
+            y1, x1 = df.iloc[i]["Tension2"], df.iloc[i]["Tension1"]
+            y2, x2 = df.iloc[i+1]["Tension2"], df.iloc[i+1]["Tension1"]
+
+            # Calculer la pente dTension2/dTension1
+            pente = (y2 - y1) / (x2 - x1) if x2 - x1 != 0 else float('inf')
+
+            # Interpolation linéaire pour trouver Tension1 quand Tension2 = 0
+            if y2 - y1 != 0:  # Éviter division par zéro
+                x_zero = x1 + (0 - y1) * (x2 - x1) / (y2 - y1)
+                points_zero.append(x_zero)
+                pentes.append(pente)
+
+    if points_zero:
+        # On cherche le point où Tension2 = 0 avec une pente négative
+        if len(points_zero) > 1:
+            for i, pente in enumerate(pentes):
+                if pente < 0:  # Pente négative pour le champ coercitif
+                    return points_zero[i]
+
+            # Si pas de pente négative, prendre la valeur la plus proche de zéro
+            return min(points_zero, key=abs)
+
+        return points_zero[0]
+
+    return None
+
+def calculer_aire_cycle(df):
+    """
+    Calcule l'aire du cycle d'hystérésis qui représente l'énergie dissipée par cycle.
+
+    Args:
+        df: DataFrame contenant les données Tension1 et Tension2
+
+    Returns:
+        float: Aire du cycle en V²
+    """
+    # S'assurer que les données sont numériques
+    df_clean = df.copy()
+    df_clean["Tension1"] = pd.to_numeric(df_clean["Tension1"], errors='coerce')
+    df_clean["Tension2"] = pd.to_numeric(df_clean["Tension2"], errors='coerce')
+
+    # Éliminer les valeurs NaN potentielles
+    df_clean = df_clean.dropna(subset=["Tension1", "Tension2"])
+
+    # Utiliser numpy trapz pour calculer l'intégrale fermée
+    x = df_clean["Tension1"].values
+    y = df_clean["Tension2"].values
+
+    # L'aire est l'intégrale sur le cycle complet
+    aire = np.abs(np.trapezoid(y, x))
+
+    return aire
 
 if __name__ == "__main__":
     donnees = lire_fichiers_csv()
@@ -135,5 +208,5 @@ if __name__ == "__main__":
     if not donnees24:
         print("Aucun fichier SDS00024.CSV trouvé dans le répertoire courant")
     else:
-        print(f"{len(donnees24)} fichiers SDS00024.CSV trouvés et chargés")
+        print(f"{len(donnees24)} fichier SDS00024.CSV trouvé, chargé et analysé")
         tracer_courbes_hysteresis(donnees24)
