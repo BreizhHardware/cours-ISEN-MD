@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ISEN/Daily/08-04-2025.md",
+                "file": "ISEN/Daily/09-04-2025.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "08-04-2025"
+              "title": "09-04-2025"
             }
           },
           {
@@ -226,12 +226,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "cc56184c227b09ca",
+  "active": "b888f2c03ef2f93b",
   "lastOpenFiles": [
+    "ISEN/Daily/08-04-2025.md",
+    "ISEN/Daily/09-04-2025.md",
     "ISEN/Physique/CIPA3/TP Magnétisme/requirements.txt",
     "ISEN/Physique/CIPA3/TP Magnétisme/data.py",
     "ISEN/Daily/07-04-2025.md",
-    "ISEN/Daily/08-04-2025.md",
     "ISEN/Daily/03-04-2025.md",
     "ISEN/Daily/03-04-2025.pdf",
     "ISEN/STM32/CIPA3/STM32 Cours 3.md",
@@ -251,7 +252,6 @@
     "ISEN/Microéconomie/CIPA3/Microéconomie Cours 1.md",
     "ISEN/Microéconomie/CIPA3/Microéconomie Exercice.md",
     "ISEN/Microéconomie/CIPA3/~$FISA3 - Microéconomie - Valeur Actuellle - Mar25 vETUDIANT.xlsx",
-    "ISEN/Microéconomie/CIPA3/~$FISA3 - Microéconomie - Exercice Annuités - Mar25 vETUDIANT.xlsx",
     "ISEN/Maths/CIPA3/Fiche de révision DS1.md",
     "ISEN/Daily/01-04-2025.md",
     "ISEN/STM32/CIPA3/STM32 Cours 2.md",
