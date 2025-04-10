@@ -56,5 +56,13 @@ PA7 -> Alternate Push-Pull
 ## 1.
 0V
 
+# Timer
+- Time based generation
+- Measure the pulse lengths of input signal (input capture)
+- Generate Output Wave Forms Signals (PWM, Output Compare and One-pulse mode)
+- Interrupt capability on various events (capture, compare overflow)
+
+
+
 ---
 &copy; Félix MARQUET
