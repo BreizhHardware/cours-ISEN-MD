@@ -15,7 +15,8 @@
 - ADC: APB2
 - DAC: APB1
 - EXTI: APB2
-## 2. En regardant le périphérique RCC et les différents registres, nommer les trois registres qui permettent d'activer / désac
+## 2. En regardant le périphérique RCC et les différents registres, nommer les trois registres qui permettent d'activer / désactiver les horloges des périphériques. Déterminer les bits à modifier.
+
 
 
 ---
