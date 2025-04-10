@@ -73,6 +73,9 @@ Any timer in any microcontroller has:
 - Counter to store the nimber of click tics (CNT) -> Increment à chaque coup d'horloge après prescaler
 - Autoreload register to interact with the counter (compare timing, reload values) -> remet compteur à 0 quand ARR == CNT
 
+## Timer6 Block Diagram
+![](https://cdn.breizhhardware.fr/FAKA3/jemUnefU41.png/raw)
+
 
 ---
 &copy; Félix MARQUET
