@@ -61,7 +61,17 @@ PA7 -> Alternate Push-Pull
 - Measure the pulse lengths of input signal (input capture)
 - Generate Output Wave Forms Signals (PWM, Output Compare and One-pulse mode)
 - Interrupt capability on various events (capture, compare overflow)
-
+## Timer Categories
+Timer are split in 3 categories:
+- Basic
+- General Purpose
+- Advanced
+## Timer Basics
+Any timer in any microcontroller has:
+- Clock (souvent 16 Mhz)
+- Prescaler to divide clock frequency 
+- Counter to store the nimber of click tics (CNT) -> Increment à chaque coup d'horloge après prescaler
+- Autoreload register to interact with the counter (compare timing, reload values) -> remet compteur à 0 quand ARR == CNT
 
 
 ---
