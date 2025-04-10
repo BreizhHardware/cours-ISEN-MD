@@ -80,6 +80,7 @@ Les perifs vont envoyé une interruption au coeur du micro, chaque interruption 
 
 Quand le NVIC reçoit une intérruption: saut dans le programme et saut dans une fonction appelée **handler**
 
+[Cours suivant](STM32%20Cours%204.md)
 
 ---
 &copy; Félix MARQUET
