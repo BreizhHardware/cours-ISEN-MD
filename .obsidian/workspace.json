@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ISEN/Daily/09-04-2025.md",
+                "file": "ISEN/Daily/10-04-2025.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "09-04-2025"
+              "title": "10-04-2025"
             }
           },
           {
@@ -228,8 +228,9 @@
   },
   "active": "b888f2c03ef2f93b",
   "lastOpenFiles": [
-    "ISEN/Daily/08-04-2025.md",
     "ISEN/Daily/09-04-2025.md",
+    "ISEN/Daily/10-04-2025.md",
+    "ISEN/Daily/08-04-2025.md",
     "ISEN/Physique/CIPA3/TP Magnétisme/requirements.txt",
     "ISEN/Physique/CIPA3/TP Magnétisme/data.py",
     "ISEN/Daily/07-04-2025.md",
@@ -263,7 +264,6 @@
     "ISEN/Daily/27-03-2025.md",
     "ISEN/Daily/26-03-2025.md",
     "ISEN/Maths/CIPA3/DS1.md",
-    "ISEN/Stat/CIPA3/Rapport Cours 1 Félix MARQUET.md",
     "ISEN/Stat/CIPA3/Moustache phys.png",
     "ISEN/Stat/CIPA3/Moustache maths.png",
     "ISEN/Stat/CIPA3/histo phys classe B.png",
