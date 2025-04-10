@@ -16,10 +16,9 @@
 - DAC: APB1
 - EXTI: APB2
 ## 2. En regardant le périphérique RCC et les différents registres, nommer les trois registres qui permettent d'activer / désactiver les horloges des périphériques. Déterminer les bits à modifier.
+[Ce doc de mort](https://www.st.com/resource/en/reference_manual/rm0038-stm32l100xx-stm32l151xx-stm32l152xx-and-stm32l162xx-advanced-armbased-32bit-mcus-stmicroelectronics.pdf)
+Page 47
 RCC: 0x4002 3800 - 0x4002 3BFF
-APB2: 0x4002 3820
-APB1: 0x4002 3818
-AHB: 0x4002 3810
 
 - GPIOA: RCC_AHBENR, bit 0
 - GPIOB: RCC_AHBENR, bit 1
@@ -30,6 +29,16 @@ AHB: 0x4002 3810
 - TIM3: RCC_APB1ENR, bit 1
 - TIM6: RCC_APB1ENR, bit 4
 - DAC: RCC_APB1ENR, 29
+
+## 3. Donner les adresses de ces 3 registres
+
+Page 155
+RCC_APB2ENR: 0x4002 3820
+Page 157
+RCC_APB1ENR: 0x4002 3824
+Page 153
+RCC_AHBENR: 0x4002 381C
+
 
 ---
 &copy; Félix MARQUET
