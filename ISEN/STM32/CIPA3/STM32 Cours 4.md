@@ -41,12 +41,16 @@ RCC_AHBENR: 0x4002 381C
 
 # Exercice 2
 ## 1.
-- MODER: I/O direction mode
+- MODER: configure I/O direction mode
 - OTYPER: output type of the I/O port (push-pull or open drain)
-- PUPDR: 
-- IDR
-- ODR
-- AFRx
+- PUPDR: configure the I/O pull-up or pull-down
+- IDR: Input
+- ODR: Output
+- AFRx: configure alternate function I/Os
+
+## 2.
+PA5 -> sortie push-pull
+PA7 -> Alternate Push-Pull
 
 ---
 &copy; Félix MARQUET
