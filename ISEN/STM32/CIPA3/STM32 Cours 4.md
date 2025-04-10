@@ -39,6 +39,14 @@ RCC_APB1ENR: 0x4002 3824
 Page 153
 RCC_AHBENR: 0x4002 381C
 
+# Exercice 2
+## 1.
+- MODER: I/O direction mode
+- OTYPER: output type of the I/O port (push-pull or open drain)
+- PUPDR: 
+- IDR
+- ODR
+- AFRx
 
 ---
 &copy; Félix MARQUET
