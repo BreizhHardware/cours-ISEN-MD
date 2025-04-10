@@ -87,7 +87,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "[\"cssclasses\"]",
+                "query": "tag:#Daily",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -95,7 +95,7 @@
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-search",
-              "title": "Rechercher"
+              "title": "Search"
             }
           },
           {
@@ -108,7 +108,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -226,7 +227,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b888f2c03ef2f93b",
+  "active": "0a8401764020cd87",
   "lastOpenFiles": [
     "ISEN/Microéconomie/CIPA3/Microéconomie Cours 5.md",
     "ISEN/Daily/10-04-2025.md",
