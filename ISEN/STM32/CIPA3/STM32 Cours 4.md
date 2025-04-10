@@ -52,5 +52,9 @@ RCC_AHBENR: 0x4002 381C
 PA5 -> sortie push-pull
 PA7 -> Alternate Push-Pull
 
+# Exercice 3
+## 1.
+0V
+
 ---
 &copy; Félix MARQUET
