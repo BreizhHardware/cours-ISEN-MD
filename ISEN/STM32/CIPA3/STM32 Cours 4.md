@@ -15,7 +15,7 @@
 - ADC: APB2
 - DAC: APB1
 - EXTI: APB2
-## 2. En regardant le périphérique RCC et les différents registres, nommer les trois registres qui permettent d'activer / 
+## 2. En regardant le périphérique RCC et les différents registres, nommer les trois registres qui permettent d'activer / désac
 
 
 ---
