@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ISEN/STM32/CIPA3/STM32 Cours 4.md",
+                "file": "ISEN/Daily/15-04-2025.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "STM32 Cours 4"
+              "title": "15-04-2025"
             }
           }
         ],
@@ -229,9 +229,10 @@
   },
   "active": "94ec0bd32690d81b",
   "lastOpenFiles": [
+    "ISEN/STM32/CIPA3/STM32 Cours 4.md",
+    "ISEN/Daily/15-04-2025.md",
     "ISEN/STM32/CIPA3/STM32 Cours 3.md",
     "ISEN/STM32/CIPA3/STM32 Cours 2.md",
-    "ISEN/STM32/CIPA3/STM32 Cours 4.md",
     "ISEN/Daily/10-04-2025.md",
     "ISEN/Microéconomie/CIPA3/Microéconomie Cours 5.md",
     "ISEN/Daily/09-04-2025.md",
@@ -264,7 +265,6 @@
     "ISEN/Réseau/A1/Cisco Cours 1.md",
     "ISEN/Daily/31-03-2025.md",
     "ISEN/Daily/27-03-2025.md",
-    "ISEN/Daily/26-03-2025.md",
     "ISEN/Stat/CIPA3/Moustache phys.png",
     "ISEN/Stat/CIPA3/Moustache maths.png",
     "ISEN/Stat/CIPA3/histo phys classe B.png",
