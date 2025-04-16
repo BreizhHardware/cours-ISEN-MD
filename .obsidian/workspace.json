@@ -54,9 +54,33 @@
               "icon": "lucide-file",
               "title": "10-04-2025"
             }
+          },
+          {
+            "id": "0188963bc573f3d7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ISEN/Daily/16-04-2025.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "16-04-2025"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -227,8 +251,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "94ec0bd32690d81b",
+  "active": "0188963bc573f3d7",
   "lastOpenFiles": [
+    "ISEN/Daily/16-04-2025.md",
     "ISEN/Daily/10-03-2025.md",
     "ISEN/Daily/08-04-2025.md",
     "ISEN/Daily/09-04-2025.md",
@@ -264,7 +289,6 @@
     "ISEN/Maths/CIPA3/DM1.md",
     "gitignore.md",
     "ISEN/Réseau/A1/Cisco Cours 1.md",
-    "ISEN/Daily/31-03-2025.md",
     "ISEN/Stat/CIPA3/Moustache phys.png",
     "ISEN/Stat/CIPA3/Moustache maths.png",
     "ISEN/Stat/CIPA3/histo phys classe B.png",

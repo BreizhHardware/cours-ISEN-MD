@@ -1,9 +1,0 @@
----
-- name: Configure VM
-  hosts: localhost
-  become_method: sudo
-  become: true
-
-  roles:
-    - role: set-hostname
-    - role: set-dns
