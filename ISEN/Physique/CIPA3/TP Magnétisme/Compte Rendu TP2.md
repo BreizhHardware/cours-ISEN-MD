@@ -13,4 +13,20 @@ $$
 $$B = \mu_{0}\mu_{1}H$$ $$\mu_{0} = 4\pi * 10^{-7}$$
 $$H*l = i_{1}n_{1}$$
 $$H = \frac{B}{\mu_{0}\mu_{1}} = 113 A.m^{-1}$$
-$$i_{1}$$
+$$i_{1} = \frac{H*l}{n_{1}} = 95 m.A$$
+$$i_{eff1} = \frac{95}{\sqrt{ 2 }} = 97 m.A$$
+$$U_{eff2} = U_{eff2} \frac{n_{2}}{n_{1}} = 150 * \frac{250}{500} = 75V$$
+$$i_{eff2} = \frac{75}{20} = 3,75A$$
+Pour $330\ohm$ -> 36% de rendement
+Pour $165\ohm$ -> 49% de rendement
+Pour $220\ohm$ -> 42% de rendement
+
+|  V  | mA  | V secondaire | P1  |
+| :-: | :-: | :----------: | :-: |
+|     |     |              |     |
+|     |     |              |     |
+|     |     |              |     |
+|     |     |              |     |
+|     |     |              |     |
+|     |     |              |     |
+|     |     |              |     |
