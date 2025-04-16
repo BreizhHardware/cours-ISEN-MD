@@ -22,11 +22,39 @@ En simplifiant, nous obtenons :
 $$u_{1}=S.n_{1}*\frac{dB}{dt}$$
 En intégrant $u_{1}$​ par rapport au temps, nous avons :
 $$\int u_{1} = \int n_{1}B$$
+En utilisant $u_{1}=U_{eff1}\sqrt{2}\int \sin(2\pi ft)$, nous intégrons :
 $$\int u_{1} = U_{eff1}\sqrt{2}\int \sin(2\pi ft)dt = -U_{eff1}\sqrt{2}\frac{\cos(2\pi ft)}{2\pi f}$$
-$$B_{max} = \frac{\int u_{1}}{\int n_{1}} = 0,71$$
+### Q2. Valeur du champ magnétique maximal
+La valeur maximale du champ magnétique $B_{max}$​ est donnée par :
+$$B_{max} = \frac{\int u_{1}}{\int n_{1}} = 0,71T$$
+### Q3. Courant du primaire et résistance équivalente
+Le courant primaire $i1$​ est donné par :
+$$i_{1} = \frac{H*l}{n_{1}}$$
+Avec $H = \frac{B}{\mu_{0}\mu_{r}}$ et $\mu_{0} = 4\pi * 10^{-7}$:
+$$H = \frac{B}{\mu_{0}\mu_{r}} = 556 A.m^{-1}$$
+Le courant primaire est alors :
+$$
+i_{1} = \frac{556*l}{500}
+$$
+Pour une longueur $l≈0.1m$ (hypothèse typique) :
+$$
+i1​≈113mA
+$$
+Le courant efficace est :
+$$
+i_{eff1}​=\frac{113}{\sqrt{ 2 }}​≈80mA
+$$
+### Q4. Valeurs efficaces des courants au primaire et au secondaire
+La tension efficace au secondaire est :
+$$U_{eff2} = U_{eff1} \frac{n_{2}}{n_{1}} = 80 * \frac{250}{500} = 40V$$
+Le courant efficace au secondaire est (Pour R = 20$\ohm$)
+$$i_{eff2} = \frac{40}{20} = 2A$$
+### Q5. Rapport de transformation
+Le rapport de transformation est donné par :
+$$\frac{}$$
 $$
 \oint\vec{H}.\vec{dl} = i_{1}n_{1}$$
-$$B = \mu_{0}\mu_{1}H$$ $$\mu_{0} = 4\pi * 10^{-7}$$
+
 $$H*l = i_{1}n_{1}$$
 $$H = \frac{B}{\mu_{0}\mu_{1}} = 113 A.m^{-1}$$
 $$i_{1} = \frac{H*l}{n_{1}} = 95 m.A$$
