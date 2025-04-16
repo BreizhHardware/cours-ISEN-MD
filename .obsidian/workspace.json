@@ -61,10 +61,10 @@
             "state": {
               "type": "image",
               "state": {
-                "file": "ISEN/Physique/CIPA3/TP Magnétisme/plot_2025-04-16 21-25-34_0.png"
+                "file": "ISEN/Physique/CIPA3/TP Magnétisme/plot_2025-04-16 21-25-34_1.png"
               },
               "icon": "lucide-image",
-              "title": "plot_2025-04-16 21-25-34_0"
+              "title": "plot_2025-04-16 21-25-34_1"
             }
           },
           {
@@ -265,10 +265,14 @@
   },
   "active": "3f7f1aefdcebd3ee",
   "lastOpenFiles": [
+    "ISEN/STM32/CIPA3/STM32 Cours 2.md",
+    "ISEN/Physique/CIPA3/TP Magnétisme/plot_2025-04-16 21-25-34_1.png",
+    "ISEN/STM32/CIPA3/STM32 Cours 1.md",
+    "ISEN/STM32/CIPA3/STM32 Cours 4.md",
+    "ISEN/Physique/CIPA3/TP Magnétisme/Compte Rendu TP1.md",
     "ISEN/Physique/CIPA3/TP Magnétisme/plot_2025-04-16 21-25-34_0.png",
     "ISEN/Daily/10-04-2025.md",
-    "ISEN/Physique/CIPA3/TP Magnétisme/Compte Rendu TP1.md",
-    "ISEN/Physique/CIPA3/TP Magnétisme/plot_2025-04-16 21-25-34_1.png",
+    "plot_2025-04-16.md",
     "ISEN/Daily/16-04-2025.md",
     "ISEN/Daily/10-03-2025.md",
     "ISEN/Daily/08-04-2025.md",
@@ -276,9 +280,7 @@
     "ISEN/Daily/07-04-2025.md",
     "ISEN/Daily/03-04-2025.md",
     "ISEN/Daily/15-04-2025.md",
-    "ISEN/STM32/CIPA3/STM32 Cours 4.md",
     "ISEN/STM32/CIPA3/STM32 Cours 3.md",
-    "ISEN/STM32/CIPA3/STM32 Cours 2.md",
     "ISEN/Microéconomie/CIPA3/Microéconomie Cours 5.md",
     "ISEN/Physique/CIPA3/TP Magnétisme/requirements.txt",
     "ISEN/Physique/CIPA3/TP Magnétisme/data.py",
@@ -300,8 +302,6 @@
     "ISEN/Microéconomie/CIPA3/~$FISA3 - Microéconomie - Valeur Actuellle - Mar25 vETUDIANT.xlsx",
     "ISEN/Maths/CIPA3/Fiche de révision DS1.md",
     "ISEN/Daily/01-04-2025.md",
-    "ISEN/STM32/CIPA3/STM32 Cours 1.md",
-    "ISEN/Maths/CIPA3/DM1.md",
     "ISEN/Stat/CIPA3/Moustache phys.png",
     "ISEN/Stat/CIPA3/Moustache maths.png",
     "ISEN/Stat/CIPA3/histo phys classe B.png",
