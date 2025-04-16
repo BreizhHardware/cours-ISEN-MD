@@ -59,9 +59,21 @@
             "id": "0188963bc573f3d7",
             "type": "leaf",
             "state": {
+              "type": "image",
+              "state": {
+                "file": "ISEN/Physique/CIPA3/TP Magnétisme/plot_2025-04-16 21-25-34_0.png"
+              },
+              "icon": "lucide-image",
+              "title": "plot_2025-04-16 21-25-34_0"
+            }
+          },
+          {
+            "id": "3f7f1aefdcebd3ee",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
-                "file": "ISEN/Physique/CIPA3/TP Magnétisme/Untitled.md",
+                "file": "ISEN/Physique/CIPA3/TP Magnétisme/Compte Rendu TP1.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,11 +88,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "Compte Rendu TP1"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -251,10 +263,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "0188963bc573f3d7",
+  "active": "3f7f1aefdcebd3ee",
   "lastOpenFiles": [
+    "ISEN/Physique/CIPA3/TP Magnétisme/plot_2025-04-16 21-25-34_0.png",
+    "ISEN/Daily/10-04-2025.md",
+    "ISEN/Physique/CIPA3/TP Magnétisme/Compte Rendu TP1.md",
+    "ISEN/Physique/CIPA3/TP Magnétisme/plot_2025-04-16 21-25-34_1.png",
     "ISEN/Daily/16-04-2025.md",
-    "ISEN/Physique/CIPA3/TP Magnétisme/Untitled.md",
     "ISEN/Daily/10-03-2025.md",
     "ISEN/Daily/08-04-2025.md",
     "ISEN/Daily/09-04-2025.md",
@@ -264,7 +279,6 @@
     "ISEN/STM32/CIPA3/STM32 Cours 4.md",
     "ISEN/STM32/CIPA3/STM32 Cours 3.md",
     "ISEN/STM32/CIPA3/STM32 Cours 2.md",
-    "ISEN/Daily/10-04-2025.md",
     "ISEN/Microéconomie/CIPA3/Microéconomie Cours 5.md",
     "ISEN/Physique/CIPA3/TP Magnétisme/requirements.txt",
     "ISEN/Physique/CIPA3/TP Magnétisme/data.py",
@@ -288,7 +302,6 @@
     "ISEN/Daily/01-04-2025.md",
     "ISEN/STM32/CIPA3/STM32 Cours 1.md",
     "ISEN/Maths/CIPA3/DM1.md",
-    "gitignore.md",
     "ISEN/Stat/CIPA3/Moustache phys.png",
     "ISEN/Stat/CIPA3/Moustache maths.png",
     "ISEN/Stat/CIPA3/histo phys classe B.png",
@@ -297,12 +310,10 @@
     "ISEN/Stat/CIPA3/histo maths classe A.png",
     "Pasted image 20241113141806.png",
     "Pasted image 20240505210657.png",
-    "Pasted image 20240505210642.png",
     "ISEN/Modelec/NB point.canvas",
     "ISEN/Réseau/A2/TP Ansible et docker.canvas",
     "Untitled.canvas",
     "ISEN/Other/Graph Overseer.canvas",
-    "ISEN/Algo C/A2/MergeSort.png",
     "ISEN/Algo C/A2/TP1 Exercice 1.canvas",
     "ISEN/BDD/TD2.canvas",
     "ISEN/Algo C/A2/MergeSort.canvas",
