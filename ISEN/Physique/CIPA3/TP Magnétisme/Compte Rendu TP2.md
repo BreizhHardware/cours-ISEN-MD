@@ -1,9 +1,9 @@
 Matéo LETOUZIC, Maël MARAVAL, Félix MARQUET
-**I. Introduction**
+### **I. Introduction**
 
 L'objectif de cette séance de travaux pratiques est d'étudier un transformateur réel et de le comparer au modèle du transformateur parfait.
 
-**II. Préparation TP**
+### **II. Préparation TP**
 
 Le primaire d'un transformateur est alimenté sous une tension sinusoïdale d'environ :
 $u_{1} = U_{eff1}.\sqrt2 .\sin(2.\pi.f.t)$ avec: $U_{eff1}= 150V$ et $f=50Hz$
@@ -11,7 +11,7 @@ Le secondaire, quant à lui, est en circuit ouvert.
 
 Le bobinage primaire comporte 500 spires et le bobinage secondaire 250 spires.
 
-**Hypothèses**
+### **Hypothèses**
 
 Le matériau ferromagnétique sera supposé linéaire, homogène et isotrope. Le section du tube de champ (S) est constante le long des lignes de champ magnétique et est considérée comme négligeable. Les résistances des bobinages seront supposées nulles.
 
@@ -51,16 +51,10 @@ Le courant efficace au secondaire est (Pour R = 20$\ohm$)
 $$i_{eff2} = \frac{40}{20} = 2A$$
 ### Q5. Rapport de transformation
 Le rapport de transformation est donné par :
-$$\frac{}$$
-$$
-\oint\vec{H}.\vec{dl} = i_{1}n_{1}$$
-
-$$H*l = i_{1}n_{1}$$
-$$H = \frac{B}{\mu_{0}\mu_{1}} = 113 A.m^{-1}$$
-$$i_{1} = \frac{H*l}{n_{1}} = 95 m.A$$
-$$i_{eff1} = \frac{95}{\sqrt{ 2 }} = 97 m.A$$
-$$U_{eff2} = U_{eff2} \frac{n_{2}}{n_{1}} = 150 * \frac{250}{500} = 75V$$
-$$i_{eff2} = \frac{75}{20} = 3,75A$$
+$$\frac{V_{eff2}}{V_{eff1}} = \frac{n_{2}}{n_{1}}$$
+### Q6. Chute de tension
+La chute de tension est due aux pertes dans le transformateur, notamment les pertes par hystérésis et les pertes par courants de Foucault.
+### Q7. Évolution du rendement
 Pour $330\ohm$ -> 36% de rendement
 Pour $165\ohm$ -> 49% de rendement
 Pour $220\ohm$ -> 42% de rendement
