@@ -8,3 +8,9 @@ $$u_{1}=S.n_{1}*\frac{dB}{dt}$$
 $$\int u_{1} = \int n_{1}B$$
 $$\int u_{1} = U_{eff1}\sqrt{2}\int \sin(2\pi ft)dt = -U_{eff1}\sqrt{2}\frac{\cos(2\pi ft)}{2\pi f}$$
 $$B_{max} = \frac{\int u_{1}}{\int n_{1}} = 0,71$$
+$$
+\oint\vec{H}.\vec{dl} = i_{1}n_{1}$$
+$$B = \mu_{0}\mu_{1}H$$ $$\mu_{0} = 4\pi * 10^{-7}$$
+$$H*l = i_{1}n_{1}$$
+$$H = \frac{B}{\mu_{0}\mu_{1}} = 113 A.m^{-1}$$
+$$i_{1}$$
