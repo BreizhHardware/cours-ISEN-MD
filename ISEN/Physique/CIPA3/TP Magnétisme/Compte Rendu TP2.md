@@ -36,6 +36,8 @@ $$\int u_{1} = U_{eff1}\sqrt{2}\int \sin(2\pi ft)dt = -U_{eff1}\sqrt{2}\frac{\co
 ### Q2. Valeur du champ magnétique maximal
 La valeur maximale du champ magnétique $B_{max}$​ est donnée par :
 
+Dans le calcul pour $B_{max}$ nous prenons $\cos(2*\pi*f) = 1$
+
 $$B_{max} = \frac{\int u_{1}}{\int n_{1}} = 0,71T$$
 ### Q3. Courant du primaire et résistance équivalente
 Le courant primaire $i1$​ est donné par :
