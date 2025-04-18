@@ -54,57 +54,9 @@
               "icon": "lucide-file",
               "title": "10-04-2025"
             }
-          },
-          {
-            "id": "06680b6b908d43b8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ISEN/Physique/CIPA3/TP Magnétisme/Compte Rendu TP1.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Compte Rendu TP1"
-            }
-          },
-          {
-            "id": "3f7f1aefdcebd3ee",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ISEN/Physique/CIPA3/TP Magnétisme/Compte Rendu TP2.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Compte Rendu TP2"
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -275,20 +227,16 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "06680b6b908d43b8",
+  "active": "94ec0bd32690d81b",
   "lastOpenFiles": [
-    "ISEN/Physique/CIPA3/TP Magnétisme/Compte Rendu TP2.md",
-    "ISEN/Physique/CIPA3/TP Magnétisme/Compte Rendu TP2.pdf",
-    "ISEN/Physique/CIPA3/TP Magnétisme/Compte Rendu TP1.md",
-    "ISEN/Physique/CIPA3/TP Magnétisme/Compte Rendu TP1.pdf",
-    "ISEN/Daily/18-04-2025.md",
+    "plot_2025-04-16.md",
     "ISEN/Physique/CIPA3/TP Magnétisme/plot_2025-04-16 21-25-34_1.png",
     "ISEN/Physique/CIPA3/TP Magnétisme/plot_2025-04-16 21-25-34_0.png",
-    "ISEN/STM32/CIPA3/STM32 Cours 2.md",
-    "ISEN/STM32/CIPA3/STM32 Cours 1.md",
-    "ISEN/STM32/CIPA3/STM32 Cours 4.md",
-    "ISEN/Daily/10-04-2025.md",
-    "plot_2025-04-16.md",
+    "ISEN/Physique/CIPA3/TP Magnétisme/Compte Rendu TP2.pdf",
+    "ISEN/Physique/CIPA3/TP Magnétisme/Compte Rendu TP2.md",
+    "ISEN/Physique/CIPA3/TP Magnétisme/Compte Rendu TP1.pdf",
+    "ISEN/Physique/CIPA3/TP Magnétisme/Compte Rendu TP1.md",
+    "ISEN/Daily/18-04-2025.md",
     "ISEN/Daily/16-04-2025.md",
     "ISEN/Daily/10-03-2025.md",
     "ISEN/Daily/08-04-2025.md",
@@ -296,7 +244,10 @@
     "ISEN/Daily/07-04-2025.md",
     "ISEN/Daily/03-04-2025.md",
     "ISEN/Daily/15-04-2025.md",
+    "ISEN/STM32/CIPA3/STM32 Cours 4.md",
     "ISEN/STM32/CIPA3/STM32 Cours 3.md",
+    "ISEN/STM32/CIPA3/STM32 Cours 2.md",
+    "ISEN/Daily/10-04-2025.md",
     "ISEN/Microéconomie/CIPA3/Microéconomie Cours 5.md",
     "ISEN/Physique/CIPA3/TP Magnétisme/requirements.txt",
     "ISEN/Physique/CIPA3/TP Magnétisme/data.py",
@@ -314,6 +265,8 @@
     "ISEN/Daily/02-04-2025.md",
     "ISEN/Microéconomie/CIPA3/Microéconomie Cours 1.md",
     "ISEN/Microéconomie/CIPA3/Microéconomie Exercice.md",
+    "ISEN/Maths/CIPA3/Fiche de révision DS1.md",
+    "ISEN/Daily/01-04-2025.md",
     "ISEN/Stat/CIPA3/Moustache phys.png",
     "ISEN/Stat/CIPA3/Moustache maths.png",
     "ISEN/Stat/CIPA3/histo phys classe B.png",
