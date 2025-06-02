@@ -54,9 +54,33 @@
               "icon": "lucide-file",
               "title": "10-04-2025"
             }
+          },
+          {
+            "id": "fe564a699ce386ad",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ISEN/Daily/02-06-2025.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "02-06-2025"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -227,8 +251,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "94ec0bd32690d81b",
+  "active": "fe564a699ce386ad",
   "lastOpenFiles": [
+    "ISEN/Daily/02-06-2025.md",
     "plot_2025-04-16.md",
     "ISEN/Physique/CIPA3/TP Magnétisme/plot_2025-04-16 21-25-34_1.png",
     "ISEN/Physique/CIPA3/TP Magnétisme/plot_2025-04-16 21-25-34_0.png",
@@ -266,7 +291,6 @@
     "ISEN/Microéconomie/CIPA3/Microéconomie Cours 1.md",
     "ISEN/Microéconomie/CIPA3/Microéconomie Exercice.md",
     "ISEN/Maths/CIPA3/Fiche de révision DS1.md",
-    "ISEN/Daily/01-04-2025.md",
     "ISEN/Stat/CIPA3/Moustache phys.png",
     "ISEN/Stat/CIPA3/Moustache maths.png",
     "ISEN/Stat/CIPA3/histo phys classe B.png",
