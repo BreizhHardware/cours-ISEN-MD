@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ISEN/Daily/02-06-2025.md",
+                "file": "ISEN/Energie/CIPA3/Energie Cours 1.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,7 +76,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "02-06-2025"
+              "title": "Energie Cours 1"
             }
           }
         ],
@@ -254,6 +254,9 @@
   "active": "fe564a699ce386ad",
   "lastOpenFiles": [
     "ISEN/Daily/02-06-2025.md",
+    "ISEN/Energie/CIPA3/Energie Cours 1.md",
+    "ISEN/Energie/CIPA3",
+    "ISEN/Energie",
     "plot_2025-04-16.md",
     "ISEN/Physique/CIPA3/TP Magnétisme/plot_2025-04-16 21-25-34_1.png",
     "ISEN/Physique/CIPA3/TP Magnétisme/plot_2025-04-16 21-25-34_0.png",
@@ -281,8 +284,6 @@
     "ISEN/STM32/CIPA3/Datasheet/um1724-stm32-nucleo64-boards-mb1136-stmicroelectronics.pdf",
     "ISEN/STM32/CIPA3/Datasheet/pm0056-stm32f10xxx20xxx21xxxl1xxxx-cortexm3-programming-manual-stmicroelectronics.pdf",
     "ISEN/STM32/CIPA3/Datasheet",
-    "ISEN/STM32/CIPA3/dossier sans titre",
-    "ISEN/STM32/CIPA3/um1724-stm32-nucleo64-boards-mb1136-stmicroelectronics.pdf",
     "ISEN/Microéconomie/CIPA3/Microéconomie Cours 2.md",
     "ISEN/Microéconomie/CIPA3/Microéconomie Cours 3.md",
     "ISEN/Microéconomie/CIPA3/Microéconomie Cours 4.md",
@@ -290,7 +291,6 @@
     "ISEN/Daily/02-04-2025.md",
     "ISEN/Microéconomie/CIPA3/Microéconomie Cours 1.md",
     "ISEN/Microéconomie/CIPA3/Microéconomie Exercice.md",
-    "ISEN/Maths/CIPA3/Fiche de révision DS1.md",
     "ISEN/Stat/CIPA3/Moustache phys.png",
     "ISEN/Stat/CIPA3/Moustache maths.png",
     "ISEN/Stat/CIPA3/histo phys classe B.png",
