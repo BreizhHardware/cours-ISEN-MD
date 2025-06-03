@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ISEN/Energie/CIPA3/Energie Cours 1.md",
+                "file": "ISEN/Energie/CIPA3/Energie Cours 2.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,7 +76,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Energie Cours 1"
+              "title": "Energie Cours 2"
             }
           }
         ],
@@ -253,8 +253,9 @@
   },
   "active": "fe564a699ce386ad",
   "lastOpenFiles": [
-    "ISEN/STM32/CIPA3/STM32 Cours 3.md",
     "ISEN/Energie/CIPA3/Energie Cours 1.md",
+    "ISEN/Energie/CIPA3/Energie Cours 2.md",
+    "ISEN/STM32/CIPA3/STM32 Cours 3.md",
     "ISEN/Daily/02-06-2025.md",
     "ISEN/Energie/CIPA3",
     "ISEN/Energie",
@@ -290,7 +291,6 @@
     "ISEN/Microéconomie/CIPA3/Untitled.md",
     "ISEN/Daily/02-04-2025.md",
     "ISEN/Microéconomie/CIPA3/Microéconomie Cours 1.md",
-    "ISEN/Microéconomie/CIPA3/Microéconomie Exercice.md",
     "ISEN/Stat/CIPA3/Moustache phys.png",
     "ISEN/Stat/CIPA3/Moustache maths.png",
     "ISEN/Stat/CIPA3/histo phys classe B.png",
