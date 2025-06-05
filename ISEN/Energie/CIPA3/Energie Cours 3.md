@@ -18,4 +18,10 @@ Remarque:
 - Les inductances consomment de la puissance réactive: Q (en VAR (Volt Ampère Reactif))
 - Les capacités (condo) produisent de la puissance réactive
 - Le paramètre dimensionnant les cables de transport d'électicité est la puissance apparente: S (en VA (Volt Ampère))
-- En sinusoidal on se base sur le triangle des puissances
+- En sinusoidal on se base sur le triangle des puissances:
+![](https://i0.wp.com/www.lokelect-engineering.com/wp-content/uploads/2021/02/triangle-des-puissances.jpg?resize=579%2C381&ssl=1)
+
+# Rappels
+## Convenions récepteur / générateur
+![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaswJYuUxjKaeEcIDYWbaOqSamAGQROIr2kQ&s)
+En convention récepteur le calcul 
