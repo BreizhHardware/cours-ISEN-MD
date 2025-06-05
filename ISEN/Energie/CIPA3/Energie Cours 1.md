@@ -14,3 +14,5 @@ PDF du cours [ici](https://web.isen-ouest.fr/moodle4/pluginfile.php/17967/mod_re
 	- P en Watt, W en Joule et t en s
 	- Donc $1W=1J/s$ et $1J=1W.s=1.\frac{1}{1000}\frac{1}{3600}kWh$
 	- $1kWh=3,6.10^{6}J$
+
+[Cours suivant](Energie%20Cours%202.md)
