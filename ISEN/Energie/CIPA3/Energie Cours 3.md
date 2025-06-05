@@ -40,3 +40,7 @@ En convention générateur si $p(t) < 0$ récepteur
 ![](https://cdn.breizhhardware.fr/FAKA3/sEKotUsA23.png/raw)
 **La bobine peut fonctionner en récepteur et en générateur**
 **La bobine s’oppose aux variations rapides de courant**
+## Le condensateur
+![](https://cdn.breizhhardware.fr/FAKA3/yaFEREre86.png/raw)
+**Le condensateur s’oppose aux variations rapides de tension à ses bornes**
+**Le condensateur peut fonctionner en récepteur et en générateur**
