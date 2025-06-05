@@ -27,4 +27,10 @@ Remarque:
 En convention récepteur le calcul $p(t) = v(t).i(t)$ est celui d'une puissance reçue.
 En convention générateur le calcul $p(t) = v(t).i(t)$ est celui d'une puissance fournie.
 
-En convention récepteur si $p(t) > 0$ récé
+En convention récepteur si $p(t) > 0$ récepteur
+En convention récepteur si $p(t) < 0$ générateur
+
+En convention générateur si $p(t) > 0$ générateur
+En convention générateur si $p(t) < 0$ récepteur
+
+## La résistance
