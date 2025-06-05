@@ -44,3 +44,4 @@ En convention générateur si $p(t) < 0$ récepteur
 ![](https://cdn.breizhhardware.fr/FAKA3/yaFEREre86.png/raw)
 **Le condensateur s’oppose aux variations rapides de tension à ses bornes**
 **Le condensateur peut fonctionner en récepteur et en générateur**
+## Loi des mailles / lois des noeuds
