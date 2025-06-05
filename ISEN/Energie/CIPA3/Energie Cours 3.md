@@ -34,3 +34,9 @@ En convention générateur si $p(t) > 0$ générateur
 En convention générateur si $p(t) < 0$ récepteur
 
 ## La résistance
+![](https://cdn.breizhhardware.fr/FAKA3/PAkOCURe56.png/raw)
+**La résistance se comporte toujours comme un récepteur**
+## La bobine
+![](https://cdn.breizhhardware.fr/FAKA3/sEKotUsA23.png/raw)
+**La bobine peut fonctionner en récepteur et en générateur**
+**La bobine s’oppose aux variations rapides de courant**
