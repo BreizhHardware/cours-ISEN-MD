@@ -17,3 +17,5 @@ Remarque:
 - Les résistances consomment de la puissance active: P (en W)
 - Les inductances consomment de la puissance réactive: Q (en VAR (Volt Ampère Reactif))
 - Les capacités (condo) produisent de la puissance réactive
+- Le paramètre dimensionnant les cables de transport d'électicité est la puissance apparente: S (en VA (Volt Ampère))
+- En sinusoidal on se base sur le triangle des puissances
