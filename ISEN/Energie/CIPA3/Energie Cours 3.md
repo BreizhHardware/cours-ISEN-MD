@@ -24,4 +24,7 @@ Remarque:
 # Rappels
 ## Convenions récepteur / générateur
 ![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaswJYuUxjKaeEcIDYWbaOqSamAGQROIr2kQ&s)
-En convention récepteur le calcul 
+En convention récepteur le calcul $p(t) = v(t).i(t)$ est celui d'une puissance reçue.
+En convention générateur le calcul $p(t) = v(t).i(t)$ est celui d'une puissance fournie.
+
+En convention récepteur si $p(t) > 0$ récé
