@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ISEN/Daily/06-06-2025.md",
+                "file": "ISEN/English/CIPA3/Common questions asked at an interview.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,7 +76,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "06-06-2025"
+              "title": "Common questions asked at an interview"
             }
           }
         ],
@@ -253,8 +253,9 @@
   },
   "active": "fe564a699ce386ad",
   "lastOpenFiles": [
-    "ISEN/Energie/CIPA3/Energie Cours 3.md",
     "ISEN/Daily/06-06-2025.md",
+    "ISEN/English/CIPA3/Common questions asked at an interview.md",
+    "ISEN/Energie/CIPA3/Energie Cours 3.md",
     "ISEN/Energie/CIPA3/Energie Cours 1.md",
     "ISEN/Energie/CIPA3/Energie Cours 2.md",
     "Energie.md",
@@ -290,7 +291,6 @@
     "ISEN/STM32/CIPA3/Datasheet/pm0056-stm32f10xxx20xxx21xxxl1xxxx-cortexm3-programming-manual-stmicroelectronics.pdf",
     "ISEN/STM32/CIPA3/Datasheet",
     "ISEN/Microéconomie/CIPA3/Microéconomie Cours 2.md",
-    "ISEN/Microéconomie/CIPA3/Microéconomie Cours 3.md",
     "ISEN/Stat/CIPA3/Moustache phys.png",
     "ISEN/Stat/CIPA3/Moustache maths.png",
     "ISEN/Stat/CIPA3/histo phys classe B.png",
