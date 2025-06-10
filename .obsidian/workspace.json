@@ -32,30 +32,6 @@
             }
           },
           {
-            "id": "94ec0bd32690d81b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ISEN/Daily/10-04-2025.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "10-04-2025"
-            }
-          },
-          {
             "id": "fe564a699ce386ad",
             "type": "leaf",
             "state": {
@@ -85,6 +61,30 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "ISEN/Energie/CIPA3/Energie Cours 4.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Energie Cours 4"
+            }
+          },
+          {
+            "id": "8d1357b51450a4a1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "ISEN/Energie/CIPA3/Energie Cours 3.md",
                 "mode": "source",
                 "source": false,
@@ -104,7 +104,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -277,10 +277,11 @@
   },
   "active": "ed70feab21e748dc",
   "lastOpenFiles": [
+    "ISEN/Energie/CIPA3/Energie Cours 3.md",
+    "ISEN/Energie/CIPA3/Energie Cours 4.md",
     "Pasted image 20250610091125.png",
     "ISEN/English/CIPA3/Common questions asked at an interview.md",
     "ISEN/Daily/06-06-2025.md",
-    "ISEN/Energie/CIPA3/Energie Cours 3.md",
     "ISEN/Energie/CIPA3/Energie Cours 1.md",
     "ISEN/Energie/CIPA3/Energie Cours 2.md",
     "Energie.md",
@@ -322,7 +323,6 @@
     "ISEN/Stat/CIPA3/histo phys classe A.png",
     "ISEN/Stat/CIPA3/histo maths classe A.png",
     "Pasted image 20241113141806.png",
-    "Pasted image 20240505210657.png",
     "ISEN/Modelec/NB point.canvas",
     "ISEN/Réseau/A2/TP Ansible et docker.canvas",
     "Untitled.canvas",
