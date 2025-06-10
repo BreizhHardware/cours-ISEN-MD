@@ -45,3 +45,7 @@ En convention générateur si $p(t) < 0$ récepteur
 **Le condensateur s’oppose aux variations rapides de tension à ses bornes**
 **Le condensateur peut fonctionner en récepteur et en générateur**
 ## Loi des mailles / lois des noeuds
+### Loi des mailles
+![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjw2PBX74EWoji9vGMuPCgHMvZAs4M5LHOYA&s)
+### Loi des noeuds
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Kirchhoff%27s_Current_Law.svg/250px-Kirchhoff%27s_Current_Law.svg.png)
