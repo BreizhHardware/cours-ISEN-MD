@@ -78,9 +78,33 @@
               "icon": "lucide-file",
               "title": "Common questions asked at an interview"
             }
+          },
+          {
+            "id": "ed70feab21e748dc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ISEN/Energie/CIPA3/Energie Cours 3.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Energie Cours 3"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -251,10 +275,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "fe564a699ce386ad",
+  "active": "ed70feab21e748dc",
   "lastOpenFiles": [
-    "ISEN/Daily/06-06-2025.md",
     "ISEN/English/CIPA3/Common questions asked at an interview.md",
+    "ISEN/Daily/06-06-2025.md",
     "ISEN/Energie/CIPA3/Energie Cours 3.md",
     "ISEN/Energie/CIPA3/Energie Cours 1.md",
     "ISEN/Energie/CIPA3/Energie Cours 2.md",
