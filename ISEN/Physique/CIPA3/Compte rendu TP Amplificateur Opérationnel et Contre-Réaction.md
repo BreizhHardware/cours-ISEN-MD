@@ -8,6 +8,8 @@ hideWhenEmpty: false # Hide TOC if no headings are found
 debugInConsole: false # Print debug info in Obsidian console
 ```
 
+<div style="page-break-after: always;"></div>
+
 ## Introduction
 
 L'objectif de ce TP est d'étudier les propriétés et les applications des amplificateurs opérationnels (AOP) dans différents modes de fonctionnement. Nous nous concentrons sur les montages amplificateurs de base, les comparateurs à hystérésis, et les défauts dynamiques des AOP. Ce travail permet de comprendre les principes théoriques et de les appliquer expérimentalement en laboratoire. Les résultats obtenus lors de la préparation théorique seront détaillés, ainsi que les montages expérimentaux étudiés.
