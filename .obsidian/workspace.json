@@ -56,30 +56,6 @@
             }
           },
           {
-            "id": "ed70feab21e748dc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ISEN/Daily/11-06-2025.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "11-06-2025"
-            }
-          },
-          {
             "id": "8d1357b51450a4a1",
             "type": "leaf",
             "state": {
@@ -104,7 +80,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -275,13 +251,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ed70feab21e748dc",
+  "active": "fe564a699ce386ad",
   "lastOpenFiles": [
-    "ISEN/Energie/CIPA3/Energie Cours 4.md",
-    "ISEN/Daily/11-06-2025.md",
     "ISEN/Energie/CIPA3/Energie Cours 3.md",
-    "Pasted image 20250610091125.png",
     "ISEN/English/CIPA3/Common questions asked at an interview.md",
+    "ISEN/Daily/11-06-2025.md",
+    "ISEN/Energie/CIPA3/Energie Cours 4.md",
+    "Pasted image 20250610091125.png",
     "ISEN/Daily/06-06-2025.md",
     "ISEN/Energie/CIPA3/Energie Cours 1.md",
     "ISEN/Energie/CIPA3/Energie Cours 2.md",
