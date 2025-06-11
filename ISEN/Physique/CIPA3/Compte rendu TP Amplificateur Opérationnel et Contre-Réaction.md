@@ -67,10 +67,10 @@ L'objectif de ce TP est d'étudier les propriétés et les applications des ampl
   </tr>
   <tr>
     <td style="border: none; vertical-align: top;">
-      <img src="https://cdn.breizhhardware.fr/FAKA3/WUGedOMu55.jpg/raw" alt="Interrupteur en position 1" style="max-width: 100%; height: auto;"/>
+      <img src="https://cdn.breizhhardware.fr/FAKA3/puqigATi14.jpg/raw" alt="Interrupteur en position 1" style="max-width: 100%; height: auto;"/>
     </td>
     <td style="border: none; vertical-align: top;">
-      <img src="https://cdn.breizhhardware.fr/FAKA3/bApIDOFi20.jpg/raw" alt="Interrupteur en position 2" style="max-width: 100%; height: auto;"/>
+      <img src="https://cdn.breizhhardware.fr/FAKA3/bujARIjU59.jpg/raw" alt="Interrupteur en position 2" style="max-width: 100%; height: auto;"/>
     </td>
   </tr>
 </table>
@@ -80,47 +80,87 @@ L'objectif de ce TP est d'étudier les propriétés et les applications des ampl
 2. Le montage a été construit pour mettre en évidence la propriété de séparateur du montage suiveur.
 3. Les rapports de transfert T1 et T2 ont été mesurés avec et sans l'interrupteur.
 
-**Résultats :**
-- T1 = 0.065 avec $s = 130 \text{ mV}$ et $e = 2 \text{ V}$
-- T2 = 0.18 avec $s = 360 \text{ mV}$ et $e = 2 \text{ V}$
-- Impédances théoriques : $Z_{\text{in}} = +\infty$ et $Z_{\text{out}} = 0$
-
-
-**Intéupteur en position 1**
-![](https://cdn.breizhhardware.fr/FAKA3/pAWICaPe51.jpg/raw)
-**Intérupteur en position 2**
-![](https://cdn.breizhhardware.fr/FAKA3/zOBazEte74.jpg/raw)
-
+<table style="width: 100%; border-collapse: collapse;">
+  <tr>
+    <td colspan="2" style="border: none; text-align: left;">
+      <p><strong>Résultats :</strong></p>
+      <ul>
+        <li><span class="math display">T1 = 0.065</span> avec <span class="math display">s = 130 \text{ mV}</span> et <span class="math display">e = 2 \text{ V}</span></li>
+        <li><span class="math display">T2 = 0.18</span> avec <span class="math display">s = 360 \text{ mV}</span> et <span class="math display">e = 2 \text{ V}</span></li>
+        <li>Impédances théoriques : <span class="math display">Z_{\text{in}} = +\infty</span> et <span class="math display">Z_{\text{out}} = 0</span></li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td style="border: none; vertical-align: top; width: 50%;">
+      <p><strong>Interrupteur en position 1 :</strong></p>
+      <img src="https://cdn.breizhhardware.fr/FAKA3/pAWICaPe51.jpg/raw" alt="Interrupteur en position 1" style="max-width: 100%; height: auto;"/>
+    </td>
+    <td style="border: none; vertical-align: top; width: 50%;">
+      <p><strong>Interrupteur en position 2 :</strong></p>
+      <img src="https://cdn.breizhhardware.fr/FAKA3/zOBazEte74.jpg/raw" alt="Interrupteur en position 2" style="max-width: 100%; height: auto;"/>
+    </td>
+  </tr>
+</table>
 
 ### Montage Amplificateur Non Inverseur
 
-**Schéma :** Le schéma de l'amplificateur non inverseur a été établi avec une amplification de 11.
-![](https://cdn.breizhhardware.fr/FAKA3/QuCumAFa01.jpg/raw)
+<div style="display: flex; align-items: center; justify-content: space-between;">
+  <div style="flex: 1; padding-right: 10px;">
+    <p><strong>Schéma :</strong> Le schéma de l'amplificateur non inverseur a été établi avec une amplification de <span class="math display">11</span>.</p>
+  </div>
+  <div style="flex: 1; text-align: right;">
+    <img src="https://cdn.breizhhardware.fr/FAKA3/rIJeyiza82.jpg/raw" alt="Schéma Amplificateur Non Inverseur" style="max-width: 100%; height: auto;"/>
+  </div>
+</div>
 
 **Protocole expérimental :**
 1. Un signal d'entrée sinusoïdal de fréquence $1 \text{kHz}$ a été appliqué.
 2. Le montage a été construit et l'amplification a été mesurée.    
 
-**Résultats :**
-- Amplification mesurée : 11
-- $e = 1.98 \text{ V}, s = 21.8 \text{ V}, s/e = 11$
-![](https://cdn.breizhhardware.fr/FAKA3/SowAgOZe91.jpg/raw)
+<div style="display: flex; align-items: center; justify-content: space-between;">
+  <div style="flex: 1; padding-right: 10px;">
+    <p><strong>Résultats :</strong></p>
+    <ul>
+      <li>Amplification mesurée : <span class="math display">11</span></li>
+      <li><span class="math display">e = 1.98 \text{ V}</span>, <span class="math display">s = 21.8 \text{ V}</span>, <span class="math display">s/e = 11</span></li>
+    </ul>
+  </div>
+  <div style="flex: 1; text-align: right;">
+    <img src="https://cdn.breizhhardware.fr/FAKA3/SowAgOZe91.jpg/raw" alt="Résultats Amplificateur" style="max-width: 100%; height: auto;"/>
+  </div>
+</div>
 
 ### Montage à Boucle de Réaction Unique en Fonctionnement Non Linéaire
 
-**Schéma :** Le schéma du montage comparateur à hystérésis a été établi avec des résistances de $4.7 \text{ k}\Omega$ et $47 \text{ k}\Omega.$
-![](https://cdn.breizhhardware.fr/FAKA3/CAVuGUXi69.jpg/raw)
+<div style="display: flex; align-items: center; justify-content: space-between;">
+  <div style="flex: 1; padding-right: 10px;">
+    <p><strong>Schéma :</strong> Le schéma du montage comparateur à hystérésis a été établi avec des résistances de <span class="math display">4.7 \text{ k}\Omega</span> et <span class="math display">47 \text{ k}\Omega</span>.</p>
+  </div>
+  <div style="flex: 1; text-align: right;">
+    <img src="https://cdn.breizhhardware.fr/FAKA3/xifexUta46.jpg/raw" alt="Schéma Comparateur à Hystérésis" style="max-width: 100%; height: auto;"/>
+  </div>
+</div>
+
 
 **Protocole expérimental :**
 1. Un signal d'entrée triangulaire de fréquence 100 Hz a été appliqué avec une amplitude crête à crête de 4 V.
 2. Le montage a été construit et les seuils de basculement ont été mesurés.
 
-**Résultats :**
+<div style="display: flex; justify-content: space-between;">
+  <div style="flex: 1; padding-right: 10px;">
+    <p><strong>Résultats :</strong></p>
+    <ul>
+      <li>Seuils de basculement : <span class="math display">1 \text{ V}</span> et <span class="math display">-1 \text{ V}</span></li>
+      <li>Largeur de l'hystérésis : <span class="math display">40 \text{ \mu s}</span></li>
+    </ul>
+  </div>
+  <div style="flex: 1; text-align: right;">
+    <img src="https://cdn.breizhhardware.fr/FAKA3/gASaqozo03.jpg/raw" alt="Image 1" style="max-width: 100%; height: auto; margin-bottom: 10px;"/>
+    <img src="https://cdn.breizhhardware.fr/FAKA3/GEjUPAce04.jpg/raw" alt="Image 2" style="max-width: 100%; height: auto;"/>
+  </div>
+</div>
 
-- Seuils de basculement : 1 V et -1 V
-- Largeur de l'hystérésis : 40 μs
- ![](https://cdn.breizhhardware.fr/FAKA3/gASaqozo03.jpg/raw)
-![](https://cdn.breizhhardware.fr/FAKA3/GEjUPAce04.jpg/raw)
 
 ## Discussion
 
