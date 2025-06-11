@@ -36,6 +36,13 @@ L'objectif de ce TP est d'étudier les propriétés et les applications des ampl
 
 **Schéma :** Le schéma du montage suiveur a été complété avec un AOP, en utilisant des résistances de $47 \text{ k}\Omega$ et $10 \text{ k}\Omega$.
 
+**Intérupteur en position 1**
+![](https://cdn.breizhhardware.fr/FAKA3/QuCumAFa01.jpg/raw)
+
+![](https://cdn.breizhhardware.fr/FAKA3/WUGedOMu55.jpg/raw)
+**Intérupteur en position 2**
+![](https://cdn.breizhhardware.fr/FAKA3/bApIDOFi20.jpg/raw)
+
 **Protocole expérimental :**
 1. Le signal d'entrée était sinusoïdal de fréquence $1 \text{kHz}$.
 2. Le montage a été construit pour mettre en évidence la propriété de séparateur du montage suiveur.
@@ -46,9 +53,18 @@ L'objectif de ce TP est d'étudier les propriétés et les applications des ampl
 - T2 = 0.18 avec $s = 360 \text{ mV}$ et $e = 2 \text{ V}$
 - Impédances théoriques : $Z_{\text{in}} = +\infty$ et $Z_{\text{out}} = 0$
 
+
+**Intéupteur en position 1**
+![](https://cdn.breizhhardware.fr/FAKA3/pAWICaPe51.jpg/raw)
+**Intérupteur en position 2**
+![](https://cdn.breizhhardware.fr/FAKA3/zOBazEte74.jpg/raw)
+
+
 ### Montage Amplificateur Non Inverseur
 
 **Schéma :** Le schéma de l'amplificateur non inverseur a été établi avec une amplification de 11.
+![](https://cdn.breizhhardware.fr/FAKA3/QuCumAFa01.jpg/raw)
+
 **Protocole expérimental :**
 1. Un signal d'entrée sinusoïdal de fréquence $1 \text{kHz}$ a été appliqué.
 2. Le montage a été construit et l'amplification a été mesurée.    
@@ -56,10 +72,12 @@ L'objectif de ce TP est d'étudier les propriétés et les applications des ampl
 **Résultats :**
 - Amplification mesurée : 11
 - $e = 1.98 \text{ V}, s = 21.8 \text{ V}, s/e = 11$
+![](https://cdn.breizhhardware.fr/FAKA3/SowAgOZe91.jpg/raw)
 
 ### Montage à Boucle de Réaction Unique en Fonctionnement Non Linéaire
 
 **Schéma :** Le schéma du montage comparateur à hystérésis a été établi avec des résistances de $4.7 \text{ k}\Omega$ et $47 \text{ k}\Omega.$
+![](https://cdn.breizhhardware.fr/FAKA3/CAVuGUXi69.jpg/raw)
 
 **Protocole expérimental :**
 1. Un signal d'entrée triangulaire de fréquence 100 Hz a été appliqué avec une amplitude crête à crête de 4 V.
@@ -69,6 +87,8 @@ L'objectif de ce TP est d'étudier les propriétés et les applications des ampl
 
 - Seuils de basculement : 1 V et -1 V
 - Largeur de l'hystérésis : 40 μs
+ ![](https://cdn.breizhhardware.fr/FAKA3/gASaqozo03.jpg/raw)
+![](https://cdn.breizhhardware.fr/FAKA3/GEjUPAce04.jpg/raw)
 
 ## Discussion
 
