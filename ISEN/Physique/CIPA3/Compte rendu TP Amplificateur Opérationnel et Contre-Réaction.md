@@ -18,8 +18,17 @@ L'objectif de ce TP est d'étudier les propriétés et les applications des ampl
 
 ### Montage Amplificateur Inverseur
 
-**Schéma :** Le schéma de l'amplificateur inverseur a été établi avec un AOP de type 741. Les résistances utilisées étaient de $1 \text{ k}\Omega$ et $10 \text{ k}\Omega$ pour obtenir une amplification de -10.
-![](https://cdn.breizhhardware.fr/FAKA3/TOlutuJa85.jpg/raw)
+<div style="display: flex; align-items: center; justify-content: space-between;">
+  <div style="flex: 1; padding-right: 10px;">
+    <div style="display: flex; flex-direction: column;">
+      <p><strong>Schéma :</strong> Le schéma de l'amplificateur inverseur a été établi avec un AOP de type 741. Les résistances utilisées étaient de <span class="math display">1 \text{ k}\Omega</span> et <span class="math display">10 \text{ k}\Omega</span> pour obtenir une amplification de -10.</p>
+    </div>
+  </div>
+  <div style="flex: 1; text-align: right;">
+    <img src="https://cdn.breizhhardware.fr/FAKA3/TOlutuJa85.jpg/raw" alt="Schéma Amplificateur Inverseur" style="max-width: 100%; height: auto;"/>
+  </div>
+</div>
+
 
 
 **Protocole expérimental :**
@@ -28,20 +37,43 @@ L'objectif de ce TP est d'étudier les propriétés et les applications des ampl
 3. Les caractéristiques du montage ont été vérifiées expérimentalement.
 
 **Résultats :**
-- Amplification mesurée : -10
-- Source d'énergie : L'alimentation de l'AOP permet d'amplifier le signal d'entrée.
-![](https://cdn.breizhhardware.fr/FAKA3/pidAtUzo21.jpg/raw)
+<div style="display: flex; align-items: center; justify-content: space-between;">
+  <div style="flex: 1; padding-right: 10px;">
+    <ul>
+      <li>Amplification mesurée : -10</li>
+      <li>Source d'énergie : L'alimentation de l'AOP permet d'amplifier le signal d'entrée.</li>
+    </ul>
+  </div>
+  <div style="flex: 1; text-align: right;">
+    <img src="https://cdn.breizhhardware.fr/FAKA3/pidAtUzo21.jpg/raw" alt="Description de l'image" style="max-width: 100%; height: auto;"/>
+  </div>
+</div>
 
 ### Montage Suiveur
 
-**Schéma :** Le schéma du montage suiveur a été complété avec un AOP, en utilisant des résistances de $47 \text{ k}\Omega$ et $10 \text{ k}\Omega$.
-
-**Intérupteur en position 1**
-![](https://cdn.breizhhardware.fr/FAKA3/QuCumAFa01.jpg/raw)
-
-![](https://cdn.breizhhardware.fr/FAKA3/WUGedOMu55.jpg/raw)
-**Intérupteur en position 2**
-![](https://cdn.breizhhardware.fr/FAKA3/bApIDOFi20.jpg/raw)
+<table style="width: 100%; border-collapse: collapse;">
+  <tr>
+    <td colspan="2" style="border: none; text-align: left;">
+      <p><strong>Schéma :</strong> Le schéma du montage suiveur a été complété avec un AOP, en utilisant des résistances de <span class="math display">47 \text{ k}\Omega</span> et <span class="math display">10 \text{ k}\Omega</span>.</p>
+    </td>
+  </tr>
+  <tr>
+    <td style="border: none; vertical-align: top; width: 50%;">
+      <p><strong>Interrupteur en position 1 :</strong></p>
+    </td>
+    <td style="border: none; vertical-align: top; width: 50%;">
+      <p><strong>Interrupteur en position 2 :</strong></p>
+    </td>
+  </tr>
+  <tr>
+    <td style="border: none; vertical-align: top;">
+      <img src="https://cdn.breizhhardware.fr/FAKA3/WUGedOMu55.jpg/raw" alt="Interrupteur en position 1" style="max-width: 100%; height: auto;"/>
+    </td>
+    <td style="border: none; vertical-align: top;">
+      <img src="https://cdn.breizhhardware.fr/FAKA3/bApIDOFi20.jpg/raw" alt="Interrupteur en position 2" style="max-width: 100%; height: auto;"/>
+    </td>
+  </tr>
+</table>
 
 **Protocole expérimental :**
 1. Le signal d'entrée était sinusoïdal de fréquence $1 \text{kHz}$.
