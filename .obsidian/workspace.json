@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ISEN/Physique/CIPA3/Compte rendu TP Amplificateur Opérationnel et Contre-Réaction.md",
+                "file": "ISEN/Daily/11-06-2025.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Compte rendu TP Amplificateur Opérationnel et Contre-Réaction"
+              "title": "11-06-2025"
             }
           },
           {
@@ -253,8 +253,8 @@
   },
   "active": "fe564a699ce386ad",
   "lastOpenFiles": [
-    "README.md",
     "ISEN/Physique/CIPA3/Compte rendu TP Amplificateur Opérationnel et Contre-Réaction.md",
+    "README.md",
     "plot_2025-04-16.md",
     "Energie.md",
     "ISEN/English/CIPA3/Common questions asked at an interview.md",
