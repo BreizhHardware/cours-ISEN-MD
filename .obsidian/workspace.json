@@ -38,7 +38,7 @@
               "type": "markdown",
               "state": {
                 "file": "ISEN/Physique/CIPA3/Compte rendu TP Amplificateur Opérationnel et Contre-Réaction.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -253,8 +253,10 @@
   },
   "active": "fe564a699ce386ad",
   "lastOpenFiles": [
-    "ISEN/Daily/11-06-2025.md",
+    "ISEN/Physique/CIPA3/Compte rendu TP Amplificateur Opérationnel et Contre-Réaction.pdf",
+    "ISEN/Physique/Présentation TP Hors les murs.md",
     "ISEN/Physique/CIPA3/Compte rendu TP Amplificateur Opérationnel et Contre-Réaction.md",
+    "ISEN/Daily/11-06-2025.md",
     "README.md",
     "plot_2025-04-16.md",
     "Energie.md",
@@ -284,8 +286,6 @@
     "ISEN/Daily/07-04-2025.md",
     "ISEN/Daily/03-04-2025.md",
     "ISEN/Daily/15-04-2025.md",
-    "ISEN/STM32/CIPA3/STM32 Cours 4.md",
-    "ISEN/STM32/CIPA3/STM32 Cours 2.md",
     "ISEN/Physique/CIPA3/TP Magnétisme/requirements.txt",
     "ISEN/Physique/CIPA3/TP Magnétisme/data.py",
     "ISEN/Daily/03-04-2025.pdf",

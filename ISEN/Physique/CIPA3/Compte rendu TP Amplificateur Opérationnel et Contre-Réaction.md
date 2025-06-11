@@ -152,7 +152,7 @@ L'objectif de ce TP est d'étudier les propriétés et les applications des ampl
     <p><strong>Résultats :</strong></p>
     <ul>
       <li>Seuils de basculement : <span class="math display">1 \text{ V}</span> et <span class="math display">-1 \text{ V}</span></li>
-      <li>Largeur de l'hystérésis : <span class="math display">40 \text{ \mu s}</span></li>
+	<li>Largeur de l'hystérésis : <span class="math display">40 \text{ μs}</span></li>
     </ul>
   </div>
   <div style="flex: 1; text-align: right;">
