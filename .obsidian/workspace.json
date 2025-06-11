@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "ISEN/Physique/CIPA3/Compte rendu TP.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "Compte rendu TP"
             }
           },
           {
@@ -253,6 +253,8 @@
   },
   "active": "fe564a699ce386ad",
   "lastOpenFiles": [
+    "README.md",
+    "ISEN/Physique/CIPA3/Compte rendu TP.md",
     "plot_2025-04-16.md",
     "Energie.md",
     "ISEN/English/CIPA3/Common questions asked at an interview.md",
@@ -284,8 +286,6 @@
     "ISEN/Daily/15-04-2025.md",
     "ISEN/STM32/CIPA3/STM32 Cours 4.md",
     "ISEN/STM32/CIPA3/STM32 Cours 2.md",
-    "ISEN/Daily/10-04-2025.md",
-    "ISEN/Microéconomie/CIPA3/Microéconomie Cours 5.md",
     "ISEN/Physique/CIPA3/TP Magnétisme/requirements.txt",
     "ISEN/Physique/CIPA3/TP Magnétisme/data.py",
     "ISEN/Daily/03-04-2025.pdf",
