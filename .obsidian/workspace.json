@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ISEN/Energie/CIPA3/Energie Cours 4.md",
+                "file": "ISEN/Daily/11-06-2025.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,7 +76,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Energie Cours 4"
+              "title": "11-06-2025"
             }
           },
           {
@@ -277,8 +277,9 @@
   },
   "active": "ed70feab21e748dc",
   "lastOpenFiles": [
-    "ISEN/Energie/CIPA3/Energie Cours 3.md",
     "ISEN/Energie/CIPA3/Energie Cours 4.md",
+    "ISEN/Daily/11-06-2025.md",
+    "ISEN/Energie/CIPA3/Energie Cours 3.md",
     "Pasted image 20250610091125.png",
     "ISEN/English/CIPA3/Common questions asked at an interview.md",
     "ISEN/Daily/06-06-2025.md",
@@ -312,7 +313,6 @@
     "ISEN/Physique/CIPA3/TP Magnétisme/requirements.txt",
     "ISEN/Physique/CIPA3/TP Magnétisme/data.py",
     "ISEN/Daily/03-04-2025.pdf",
-    "ISEN/STM32/CIPA3/STM32 TD 2.md",
     "ISEN/STM32/CIPA3/Datasheet/um1724-stm32-nucleo64-boards-mb1136-stmicroelectronics.pdf",
     "ISEN/STM32/CIPA3/Datasheet/pm0056-stm32f10xxx20xxx21xxxl1xxxx-cortexm3-programming-manual-stmicroelectronics.pdf",
     "ISEN/STM32/CIPA3/Datasheet",
