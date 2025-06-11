@@ -19,6 +19,8 @@ L'objectif de ce TP est d'étudier les propriétés et les applications des ampl
 ### Montage Amplificateur Inverseur
 
 **Schéma :** Le schéma de l'amplificateur inverseur a été établi avec un AOP de type 741. Les résistances utilisées étaient de $1 \text{ k}\Omega$ et $10 \text{ k}\Omega$ pour obtenir une amplification de -10.
+![](https://cdn.breizhhardware.fr/FAKA3/TOlutuJa85.jpg/raw)
+
 
 **Protocole expérimental :**
 1. Un signal d'entrée sinusoïdal de fréquence $1 \text{kHz}$ a été appliqué.
@@ -28,6 +30,7 @@ L'objectif de ce TP est d'étudier les propriétés et les applications des ampl
 **Résultats :**
 - Amplification mesurée : -10
 - Source d'énergie : L'alimentation de l'AOP permet d'amplifier le signal d'entrée.
+![](https://cdn.breizhhardware.fr/FAKA3/pidAtUzo21.jpg/raw)
 
 ### Montage Suiveur
 
