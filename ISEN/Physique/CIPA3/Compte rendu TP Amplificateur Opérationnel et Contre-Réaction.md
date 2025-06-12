@@ -61,29 +61,28 @@ L'objectif de ce TP est d'étudier les propriétés et les applications des ampl
 
 ### Montage Suiveur
 
+<div style="display: flex; align-items: center; justify-content: space-between; width: 100%;">
+  <div style="flex: 1; padding-right: 10px;">
+    <p><strong>Schéma :</strong> Le schéma du montage suiveur a été complété avec un AOP, en utilisant des résistances de <span class="math display">47 \text{ k}\Omega</span> et <span class="math display">10 \text{ k}\Omega</span>.</p>
+  </div>
+  <div style="flex: 1; text-align: right;">
+    <img src="https://cdn.breizhhardware.fr/FAKA3/teGOtUma85.png/raw" alt="Schema du montage suiveur" style="max-width: 100%; height: auto;"/>
+  </div>
+</div>
+
 <table style="width: 100%; border-collapse: collapse;">
-  <tr>
-    <td colspan="2" style="border: none; text-align: left;">
-      <p><strong>Schéma :</strong> Le schéma du montage suiveur a été complété avec un AOP, en utilisant des résistances de <span class="math display">47 \text{ k}\Omega</span> et <span class="math display">10 \text{ k}\Omega</span>.</p>
-    </td>
-  </tr>
   <tr>
     <td style="border: none; vertical-align: top; width: 50%;">
       <p><strong>Interrupteur en position 1 :</strong></p>
+      <img src="https://cdn.breizhhardware.fr/FAKA3/puqigATi14.jpg/raw" alt="Interrupteur en position 1" style="width: 100%; height: auto;"/>
     </td>
     <td style="border: none; vertical-align: top; width: 50%;">
       <p><strong>Interrupteur en position 2 :</strong></p>
-    </td>
-  </tr>
-  <tr>
-    <td style="border: none; vertical-align: top;">
-      <img src="https://cdn.breizhhardware.fr/FAKA3/puqigATi14.jpg/raw" alt="Interrupteur en position 1" style="max-width: 100%; height: auto;"/>
-    </td>
-    <td style="border: none; vertical-align: top;">
-      <img src="https://cdn.breizhhardware.fr/FAKA3/bujARIjU59.jpg/raw" alt="Interrupteur en position 2" style="max-width: 100%; height: auto;"/>
+      <img src="https://cdn.breizhhardware.fr/FAKA3/bujARIjU59.jpg/raw" alt="Interrupteur en position 2" style="width: 100%; height: auto;"/>
     </td>
   </tr>
 </table>
+
 
 **Protocole expérimental :**
 1. Le signal d'entrée était sinusoïdal de fréquence $1 \text{kHz}$.
