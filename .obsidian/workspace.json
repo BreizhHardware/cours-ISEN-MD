@@ -38,7 +38,7 @@
               "type": "markdown",
               "state": {
                 "file": "ISEN/Physique/CIPA3/Compte rendu TP Amplificateur Opérationnel et Contre-Réaction.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -80,7 +80,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -251,8 +251,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "8d1357b51450a4a1",
+  "active": "fe564a699ce386ad",
   "lastOpenFiles": [
+    "ISEN/English/CIPA3/Common questions asked at an interview.md",
     "ISEN/Energie/CIPA3/Energie Cours 3.md",
     "ISEN/Physique/CIPA3/Compte rendu TP Amplificateur Opérationnel et Contre-Réaction.md",
     "ISEN/Physique/CIPA3/Compte rendu TP Amplificateur Opérationnel et Contre-Réaction.pdf",
@@ -261,7 +262,6 @@
     "README.md",
     "plot_2025-04-16.md",
     "Energie.md",
-    "ISEN/English/CIPA3/Common questions asked at an interview.md",
     "ISEN/Energie/CIPA3/Energie Cours 4.md",
     "Pasted image 20250610091125.png",
     "ISEN/Daily/06-06-2025.md",
