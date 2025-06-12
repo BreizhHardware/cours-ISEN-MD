@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ISEN/Energie/CIPA3/Energie Cours 3.md",
+                "file": "ISEN/English/CIPA3/Common questions asked at an interview.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,11 +76,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Energie Cours 3"
+              "title": "Common questions asked at an interview"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -251,17 +251,17 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "fe564a699ce386ad",
+  "active": "8d1357b51450a4a1",
   "lastOpenFiles": [
+    "ISEN/Energie/CIPA3/Energie Cours 3.md",
+    "ISEN/Physique/CIPA3/Compte rendu TP Amplificateur Opérationnel et Contre-Réaction.md",
     "ISEN/Physique/CIPA3/Compte rendu TP Amplificateur Opérationnel et Contre-Réaction.pdf",
     "ISEN/Physique/Présentation TP Hors les murs.md",
-    "ISEN/Physique/CIPA3/Compte rendu TP Amplificateur Opérationnel et Contre-Réaction.md",
     "ISEN/Daily/11-06-2025.md",
     "README.md",
     "plot_2025-04-16.md",
     "Energie.md",
     "ISEN/English/CIPA3/Common questions asked at an interview.md",
-    "ISEN/Energie/CIPA3/Energie Cours 3.md",
     "ISEN/Energie/CIPA3/Energie Cours 4.md",
     "Pasted image 20250610091125.png",
     "ISEN/Daily/06-06-2025.md",
@@ -291,7 +291,6 @@
     "ISEN/Daily/03-04-2025.pdf",
     "ISEN/STM32/CIPA3/Datasheet/um1724-stm32-nucleo64-boards-mb1136-stmicroelectronics.pdf",
     "ISEN/STM32/CIPA3/Datasheet/pm0056-stm32f10xxx20xxx21xxxl1xxxx-cortexm3-programming-manual-stmicroelectronics.pdf",
-    "ISEN/STM32/CIPA3/Datasheet",
     "ISEN/Stat/CIPA3/Moustache phys.png",
     "ISEN/Stat/CIPA3/Moustache maths.png",
     "ISEN/Stat/CIPA3/histo phys classe B.png",
