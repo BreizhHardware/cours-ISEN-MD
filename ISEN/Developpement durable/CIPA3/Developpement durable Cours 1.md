@@ -12,3 +12,13 @@ C'est l'empreinte que l'espèce humaine a laissée sur la planète. L'Anthropoc�
 Terme inventée par Andrew C. Revkin en 1992.
 
 # La place des énergies fossiles dans nos sociétés
+## Avant 1850
+### Transport
+Cheval, vent
+100% Energie renouvelable
+### Construction
+Savoir faire, humain
+100% Energie renouvelable
+## Après 1850
+82% d'énergie fossile en moyenne
+0,5% d'énergie humaine
