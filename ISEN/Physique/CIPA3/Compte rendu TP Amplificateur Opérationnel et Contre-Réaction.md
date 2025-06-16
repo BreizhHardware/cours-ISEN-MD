@@ -161,6 +161,7 @@ Le montage suiveur a été réalisé avec succès, démontrant la propriété fo
 </div>
 **Conclusion :**
 Le montage amplificateur non inverseur a été réalisé avec succès, confirmant les principes théoriques d'amplification du signal sans inversion. L'amplification mesurée de 11 est conforme aux attentes théoriques, validant ainsi le bon fonctionnement du circuit et l'efficacité de l'AOP utilisé. Ce montage a permis de comprendre l'importance de la configuration des résistances pour obtenir l'amplification souhaitée. Les résultats obtenus mettent en évidence la capacité à amplifier un signal d'entrée de manière précise.
+
 ### Montage à Boucle de Réaction Unique en Fonctionnement Non Linéaire
 <table style="width: 100%; border-collapse: collapse;">
   <tr>
