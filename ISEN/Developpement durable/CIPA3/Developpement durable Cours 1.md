@@ -6,3 +6,5 @@
 - Séance 4: La biodiversité à l'Anthropocène
 - Séance 5: Séminaire de recherche pour présenter des projets portant sur l'atténuation et l'adaptation aux changements climatiques
 
+# Qu'est ce que l'Anthropocène ?
+C'est l'empreinte que l'espèce humaine a laissée sur la planète. L'anthropocène signifiant "l'ère de l'être humain" se traduirait par 
