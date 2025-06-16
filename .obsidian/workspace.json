@@ -78,6 +78,18 @@
               "icon": "lucide-file",
               "title": "Developpement durable Cours 1"
             }
+          },
+          {
+            "id": "877eaa351ab0c7b2",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "ISEN/Physique/CIPA3/Compte rendu TP Amplificateur Opérationnel et Contre-Réaction.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "Compte rendu TP Amplificateur Opérationnel et Contre-Réaction"
+            }
           }
         ],
         "currentTab": 1
@@ -253,6 +265,8 @@
   },
   "active": "fe564a699ce386ad",
   "lastOpenFiles": [
+    "ISEN/Physique/CIPA3/Compte rendu TP Amplificateur Opérationnel et Contre-Réaction.pdf",
+    "ISEN/Physique/CIPA3/Compte rendu TP Amplificateur Opérationnel et Contre-Réaction.md",
     "ISEN/Developpement durable/CIPA3/Developpement durable Cours 1.md",
     "ISEN/Daily/16-06-2025.md",
     "ISEN/Developpement durable/CIPA3",
@@ -260,10 +274,8 @@
     "ISEN/FHS/CIPA3/Sociologie et organisation entreprises/Sociologie et organisation entreprises Cours 1.md",
     "ISEN/English/CIPA3/Common questions asked at an interview.md",
     "ISEN/FHS/CIPA3/Sociologie et organisation entreprises",
-    "ISEN/Physique/CIPA3/Compte rendu TP Amplificateur Opérationnel et Contre-Réaction.md",
     "ISEN/English/CIPA3/Common questions asked at an interview.pdf",
     "ISEN/Energie/CIPA3/Energie Cours 3.md",
-    "ISEN/Physique/CIPA3/Compte rendu TP Amplificateur Opérationnel et Contre-Réaction.pdf",
     "ISEN/Physique/Présentation TP Hors les murs.md",
     "ISEN/Daily/11-06-2025.md",
     "README.md",
@@ -290,7 +302,6 @@
     "ISEN/Daily/10-03-2025.md",
     "ISEN/Daily/08-04-2025.md",
     "ISEN/Daily/09-04-2025.md",
-    "ISEN/Daily/07-04-2025.md",
     "ISEN/Physique/CIPA3/TP Magnétisme/requirements.txt",
     "ISEN/Stat/CIPA3/Moustache phys.png",
     "ISEN/Stat/CIPA3/Moustache maths.png",

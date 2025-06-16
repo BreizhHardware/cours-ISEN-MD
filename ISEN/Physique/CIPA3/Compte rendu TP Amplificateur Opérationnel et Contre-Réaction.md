@@ -45,6 +45,7 @@ L'objectif de ce TP est d'étudier les propriétés et les applications des ampl
 1. Un signal d'entrée sinusoïdal de fréquence $1 \text{kHz}$ a été appliqué.
 2. Le montage a été construit sur une plaquette d'essai.
 3. Les caractéristiques du montage ont été vérifiées expérimentalement.
+<div style="page-break-after: always;"></div>
 
 **Résultats :**
 <div style="display: flex; align-items: center; justify-content: space-between;">
@@ -71,6 +72,7 @@ Le montage amplificateur inverseur a été réalisé avec succès, confirmant le
     <img src="https://cdn.breizhhardware.fr/FAKA3/teGOtUma85.png/raw" alt="Schema du montage suiveur" style="max-width: 100%; height: auto;"/>
   </div>
 </div>
+<div style="page-break-after: always;"></div>
 
 <table style="width: 100%; border-collapse: collapse;">
   <tr>
@@ -204,7 +206,8 @@ Le montage amplificateur non inverseur a été réalisé avec succès, confirman
     <img src="https://cdn.breizhhardware.fr/FAKA3/GEjUPAce04.jpg/raw" alt="Image 2" style="max-width: 100%; height: auto;"/>
   </div>
 </div>
-
+**Conclusion :**
+Le montage comparateur à hystérésis a été réalisé avec succès, démontrant les principes théoriques des circuits à boucle de réaction unique en fonctionnement non linéaire. Les seuils de basculement mesurés à $1 V$ et $−1 V$ confirment le bon fonctionnement du circuit et l'efficacité des résistances choisies pour créer l'hystérésis souhaitée. Ce montage a permis de comprendre l'importance des composants dans la détermination des caractéristiques de transfert des circuits non linéaires. Les résultats obtenus sont conformes aux attentes théoriques.
 
 ## Discussion
 
