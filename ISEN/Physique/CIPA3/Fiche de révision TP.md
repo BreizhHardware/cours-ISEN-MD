@@ -121,7 +121,7 @@ où :
 
    $40 \text{ µs} \approx 2 \cdot R \cdot 1 \text{ nF} \cdot \ln(2)$
 
-   En utilisant \( \ln(2) \approx 0.693$ :
+   En utilisant $\ln(2) \approx 0.693$ :
 
    \[ R \approx \frac{40 \text{ µs}}{2 \cdot 0.693 \cdot 1 \text{ nF}} \]
 
