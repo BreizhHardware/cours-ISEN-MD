@@ -118,14 +118,14 @@ L'objectif de ce TP est d'étudier les propriétés et les applications des ampl
 <table style="width: 100%; border-collapse: collapse;">
   <tr>
     <td colspan="2" style="border: none; text-align: left;">
-      <p><strong>Schéma :</strong> Le schéma de l'amplificateur inverseur a été établi avec un AOP de type 741. Les résistances utilisées étaient de <span class="math display">1 \text{ k}\Omega</span> et <span class="math display">10 \text{ k}\Omega</span> pour obtenir une amplification de -10.</p>
+      <p><strong>Schéma :</strong> Le schéma de l'amplificateur non inverseur a été établi avec une amplification de <span class="math display">11</span>.</p>
   </tr>
   <tr>
     <td style="border: none; vertical-align: top; width: 50%;">
-      <p><strong>Schéma du montage:</strong></p>
+      <p><strong>Photo du montage:</strong></p>
     </td>
     <td style="border: none; vertical-align: top; width: 50%;">
-      <p><strong>Photo du montage:</strong></p>
+      <p><strong>Schema du montage:</strong></p>
     </td>
   </tr>
   <tr>
@@ -157,15 +157,28 @@ L'objectif de ce TP est d'étudier les propriétés et les applications des ampl
 </div>
 
 ### Montage à Boucle de Réaction Unique en Fonctionnement Non Linéaire
-
-<div style="display: flex; align-items: center; justify-content: space-between;">
-  <div style="flex: 1; padding-right: 10px;">
-    <p><strong>Schéma :</strong> Le schéma du montage comparateur à hystérésis a été établi avec des résistances de <span class="math display">4.7 \text{ k}\Omega</span> et <span class="math display">47 \text{ k}\Omega</span>.</p>
-  </div>
-  <div style="flex: 1; text-align: right;">
-    <img src="https://cdn.breizhhardware.fr/FAKA3/xifexUta46.jpg/raw" alt="Schéma Comparateur à Hystérésis" style="max-width: 100%; height: auto;"/>
-  </div>
-</div>
+<table style="width: 100%; border-collapse: collapse;">
+  <tr>
+    <td colspan="2" style="border: none; text-align: left;">
+      <p><strong>Schéma :</strong> Le schéma du montage comparateur à hystérésis a été établi avec des résistances de <span class="math display">4.7 \text{ k}\Omega</span> et <span class="math display">47 \text{ k}\Omega</span>.</p>
+  </tr>
+  <tr>
+    <td style="border: none; vertical-align: top; width: 50%;">
+      <p><strong>Photo du montage:</strong></p>
+    </td>
+    <td style="border: none; vertical-align: top; width: 50%;">
+      <p><strong>Schéma du montage:</strong></p>
+    </td>
+  </tr>
+  <tr>
+    <td style="border: none; vertical-align: top;">
+      <img src="https://cdn.breizhhardware.fr/FAKA3/xifexUta46.jpg/raw" alt="Photo Comparateur à Hystérésis" style="max-width: 100%; height: auto;"/>
+    </td>
+    <td style="border: none; vertical-align: top;">
+      <img src="https://cdn.breizhhardware.fr/FAKA3/tAluBOra36.png/raw" alt="Schema Comparateur à Hystérésis" style="max-width: 100%; height: auto;"/>
+    </td>
+  </tr>
+</table>
 
 
 **Protocole expérimental :**
