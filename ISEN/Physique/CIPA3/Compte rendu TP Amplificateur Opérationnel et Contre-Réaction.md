@@ -59,7 +59,7 @@ L'objectif de ce TP est d'étudier les propriétés et les applications des ampl
   </div>
 </div>
 **Conclusion :**
-Le montage amplificateur inverseur a été réalisé avec succès, confirmant les principes théoriques d'inversion et d'amplification du signal. L'amplification mesurée de -10 est conforme aux attentes théoriques, validant ainsi le bon fonctionnement du circuit et l'efficacité de l'AOP de type 741 utilisé. Ce montage a permis de se familiariser avec les montages de base à amplificateur opérationnel et de comprendre l'importance de la précision des composants dans la réalisation des circuits électroniques. Les résultats obtenus mettent en évidence la capacité à amplifier un signal d'entrée de manière précise, ce qui est essentiel pour de nombreuses applications en électronique.
+Le montage amplificateur inverseur a été réalisé avec succès, confirmant les principes théoriques d'inversion et d'amplification du signal. L'amplification mesurée de $-10$ est conforme aux attentes théoriques, validant ainsi le bon fonctionnement du circuit et l'efficacité de l'AOP de type 741 utilisé. Ce montage a permis de se familiariser avec les montages de base à amplificateur opérationnel et de comprendre l'importance de la précision des composants dans la réalisation des circuits électroniques. Les résultats obtenus mettent en évidence la capacité à amplifier un signal d'entrée de manière précise, ce qui est essentiel pour de nombreuses applications en électronique.
 ### Montage Suiveur
 
 <div style="display: flex; align-items: center; justify-content: space-between; width: 100%;">
