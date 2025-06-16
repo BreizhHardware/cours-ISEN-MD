@@ -95,17 +95,16 @@ Le montage amplificateur inverseur a été réalisé avec succès, confirmant le
 2. Le montage a été construit pour mettre en évidence la propriété de séparateur du montage suiveur.
 3. Les rapports de transfert T1 et T2 ont été mesurés avec et sans l'interrupteur.
 
+
+
+**Résultats :**
+
+- $T1 = 0.065$ avec $s = 130 \text{ mV} et $e = 2 \text{ V}$
+- $T2 = 0.18$ avec $s = 360 \text{ mV}$ et $e = 2 \text{ V}$
+- Impédances théoriques : $Z_{\text{in}} = +\infty$ et $Z_{\text{out}} = 0$
+<div style="page-break-after: always;"></div>
+
 <table style="width: 100%; border-collapse: collapse;">
-  <tr>
-    <td colspan="2" style="border: none; text-align: left;">
-      <p><strong>Résultats :</strong></p>
-      <ul>
-        <li><span class="math display">T1 = 0.065</span> avec <span class="math display">s = 130 \text{ mV}</span> et <span class="math display">e = 2 \text{ V}</span></li>
-        <li><span class="math display">T2 = 0.18</span> avec <span class="math display">s = 360 \text{ mV}</span> et <span class="math display">e = 2 \text{ V}</span></li>
-        <li>Impédances théoriques : <span class="math display">Z_{\text{in}} = +\infty</span> et <span class="math display">Z_{\text{out}} = 0</span></li>
-      </ul>
-    </td>
-  </tr>
   <tr>
     <td style="border: none; vertical-align: top; width: 50%;">
       <p><strong>Interrupteur en position 1 :</strong></p>
@@ -228,6 +227,7 @@ Le montage comparateur à hystérésis a été réalisé avec succès, démontra
 - Produit gain-bande : $M = A \times B$
     - $MA_2 = 825, MA_3 = 799, MA_4 = 919.1$
 - La relation entre l'amplification et la bande passante a été vérifiée, confirmant que le produit gain-bande est constant.
+<div style="page-break-after: always;"></div>
 
 ## Conclusion
 
