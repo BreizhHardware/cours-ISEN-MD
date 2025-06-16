@@ -58,7 +58,8 @@ L'objectif de ce TP est d'étudier les propriétés et les applications des ampl
     <img src="https://cdn.breizhhardware.fr/FAKA3/pidAtUzo21.jpg/raw" alt="Description de l'image" style="max-width: 100%; height: auto;"/>
   </div>
 </div>
-
+**Conclusion :**
+Le montage amplificateur inverseur a été réalisé avec succès, confirmant les principes théoriques d'inversion et d'amplification du signal. L'amplification mesurée de -10 est conforme aux attentes théoriques, validant ainsi le bon fonctionnement du circuit et l'efficacité de l'AOP de type 741 utilisé. Ce montage a permis de se familiariser avec les montages de base à amplificateur opérationnel et de comprendre l'importance de la précision des composants dans la réalisation des circuits électroniques. Les résultats obtenus mettent en évidence la capacité à amplifier un signal d'entrée de manière précise, ce qui est essentiel pour de nombreuses applications en électronique.
 ### Montage Suiveur
 
 <div style="display: flex; align-items: center; justify-content: space-between; width: 100%;">
@@ -113,7 +114,8 @@ L'objectif de ce TP est d'étudier les propriétés et les applications des ampl
     </td>
   </tr>
 </table>
-
+**Conclusion :**
+Le montage suiveur a été réalisé avec succès, démontrant la propriété fondamentale de séparation du montage suiveur. Les rapports de transfert mesurés, T1=0.065T1=0.065 et T2=0.18T2=0.18, confirment le bon fonctionnement du circuit et l'efficacité de l'AOP utilisé. Ce montage a permis de comprendre l'importance de l'impédance d'entrée et de sortie dans les circuits électroniques, ainsi que l'utilité des montages suiveurs pour isoler les étages de circuits. Les résultats obtenus sont conformes aux attentes théoriques.
 ### Montage Amplificateur Non Inverseur
 <table style="width: 100%; border-collapse: collapse;">
   <tr>
