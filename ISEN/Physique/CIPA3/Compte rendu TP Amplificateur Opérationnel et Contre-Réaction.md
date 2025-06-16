@@ -80,7 +80,7 @@ L'objectif de ce TP est d'étudier les propriétés et les applications des ampl
     <td style="border: none; vertical-align: top; width: 50%;">
       <p><strong>Interrupteur en position 2 :</strong></p>
       <img src="https://cdn.breizhhardware.fr/FAKA3/bujARIjU59.jpg/raw" alt="Interrupteur en position 2" style="width: 100%; height: auto;"/>
-      <img src:"https://cdn.breizhhardware.fr/FAKA3/fOSIlaPO78.png/raw" alt="Schema interrupteur en position 2" style="width: 100%; height: auto;"/>
+      <img src="https://cdn.breizhhardware.fr/FAKA3/fOSIlaPO78.png/raw" alt="Schema interrupteur en position 2" style="width: 100%; height: auto;"/>
     </td>
   </tr>
 </table>
