@@ -10,3 +10,5 @@
 ## Définition
 C'est l'empreinte que l'espèce humaine a laissée sur la planète. L'Anthropocène signifiant "l'ère de l'être humain" se traduirait par une influence significative de ce dernier sur l'environnement, la biosphère et le système terrestre dans son ensemble.
 Terme inventée par Andrew C. Revkin en 1992.
+
+# La place des énergies fossiles dans nos sociétés
