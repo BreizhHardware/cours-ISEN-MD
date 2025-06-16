@@ -113,15 +113,29 @@ L'objectif de ce TP est d'étudier les propriétés et les applications des ampl
 </table>
 
 ### Montage Amplificateur Non Inverseur
+<table style="width: 100%; border-collapse: collapse;">
+  <tr>
+    <td colspan="2" style="border: none; text-align: left;">
+      <p><strong>Schéma :</strong> Le schéma de l'amplificateur inverseur a été établi avec un AOP de type 741. Les résistances utilisées étaient de <span class="math display">1 \text{ k}\Omega</span> et <span class="math display">10 \text{ k}\Omega</span> pour obtenir une amplification de -10.</p>
+  </tr>
+  <tr>
+    <td style="border: none; vertical-align: top; width: 50%;">
+      <p><strong>Schéma du montage:</strong></p>
+    </td>
+    <td style="border: none; vertical-align: top; width: 50%;">
+      <p><strong>Photo du montage:</strong></p>
+    </td>
+  </tr>
+  <tr>
+    <td style="border: none; vertical-align: top;">
+      <img src="https://cdn.breizhhardware.fr/FAKA3/rIJeyiza82.jpg/raw" alt="Photo Amplificateur Non Inverseur" style="max-width: 100%; height: auto;"/>
+    </td>
+    <td style="border: none; vertical-align: top;">
+      <img src="https://cdn.breizhhardware.fr/FAKA3/LAtUQUKA77.png/raw" alt="Schéma Amplificateur Non Inverseur" style="max-width: 100%; height: auto;"/>
+    </td>
+  </tr>
+</table>
 
-<div style="display: flex; align-items: center; justify-content: space-between;">
-  <div style="flex: 1; padding-right: 10px;">
-    <p><strong>Schéma :</strong> Le schéma de l'amplificateur non inverseur a été établi avec une amplification de <span class="math display">11</span>.</p>
-  </div>
-  <div style="flex: 1; text-align: right;">
-    <img src="https://cdn.breizhhardware.fr/FAKA3/rIJeyiza82.jpg/raw" alt="Schéma Amplificateur Non Inverseur" style="max-width: 100%; height: auto;"/>
-  </div>
-</div>
 
 **Protocole expérimental :**
 1. Un signal d'entrée sinusoïdal de fréquence $1 \text{kHz}$ a été appliqué.
