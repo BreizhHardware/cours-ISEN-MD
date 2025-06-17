@@ -35,5 +35,15 @@ var ^= (1 << 3 | 1 << 8 | 1 << 11 | 1 << 2);
 if (((var & (1 << 5)1 << 7 )) == (1 << 5 | 1 << 7){}
 ```
 
+# Le microcontrolleur
+![](https://upload.wikimedia.org/wikipedia/commons/9/9e/Syst%C3%A8meMicroproc.png)
+GPIO = General Purpose Input Output
+2 mode de fonctionnement sur les broches:
+- GPIO (15 Broches GPIO)
+- Alternate Function
+
+IDR = Input Data Register
+ODR = Output Data Register
+
 ---
 &copy; Félix MARQUET
