@@ -203,7 +203,7 @@ Le montage suiveur a été réalisé avec succès, démontrant la propriété fo
 </table>
 
 **Calcul pour déterminer les valeur de resistances :**
-- Rapport 
+- Rapport d'Amp
 
 
 **Protocole expérimental :**
