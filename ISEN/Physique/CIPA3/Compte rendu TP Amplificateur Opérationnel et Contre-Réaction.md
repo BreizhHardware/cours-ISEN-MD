@@ -137,12 +137,12 @@ Le montage amplificateur inverseur a été réalisé avec succès, confirmant le
   <tr>
     <td style="border: none; vertical-align: top; width: 50%;">
       <p><strong>Interrupteur en position 1 :</strong></p>
-      <img src="https://cdn.breizhhardware.fr/FAKA3/puqigATi14.jpg/raw" alt="Interrupteur en position 1" style="width: 100%; height: auto;"/>
+      <img src="https://cdn.breizhhardware.fr/FAKA3/wiCOZive28.png/raw" alt="Interrupteur en position 1" style="width: 100%; height: auto;"/>
       <img src="https://cdn.breizhhardware.fr/FAKA3/VuWAYELa11.png/raw" alt="Schema interrupteur en position 1" style="width: 100%; height: auto;"/>
     </td>
     <td style="border: none; vertical-align: top; width: 50%;">
       <p><strong>Interrupteur en position 2 :</strong></p>
-      <img src="https://cdn.breizhhardware.fr/FAKA3/bujARIjU59.jpg/raw" alt="Interrupteur en position 2" style="width: 100%; height: auto;"/>
+      <img src="https://cdn.breizhhardware.fr/FAKA3/luVuPoHu92.png/raw" alt="Interrupteur en position 2" style="width: 100%; height: auto;"/>
       <img src="https://cdn.breizhhardware.fr/FAKA3/fOSIlaPO78.png/raw" alt="Schema interrupteur en position 2" style="width: 100%; height: auto;"/>
     </td>
   </tr>
@@ -201,6 +201,9 @@ Le montage suiveur a été réalisé avec succès, démontrant la propriété fo
     </td>
   </tr>
 </table>
+
+**Calcul pour déterminer les valeur de resistances :**
+- Rapport 
 
 
 **Protocole expérimental :**
