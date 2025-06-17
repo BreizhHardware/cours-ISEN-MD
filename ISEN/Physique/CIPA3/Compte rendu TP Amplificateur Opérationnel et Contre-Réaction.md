@@ -1,3 +1,62 @@
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compte Rendu de TP</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f4f4f9;
+        }
+        .cover-container {
+            text-align: center;
+            background-color: white;
+            padding: 1rem;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            max-width: 500px;
+            width: 100%;
+        }
+        .cover-container h1 {
+            font-size: 1.5rem;
+            color: #2c3e50;
+            margin-bottom: 0.3rem;
+        }
+        .cover-container h2 {
+            font-size: 1.2rem;
+            color: #3498db;
+            margin-top: 0;
+        }
+        .cover-container p {
+            font-size: 0.9rem;
+            color: #7f8c8d;
+            margin: 0.2rem 0;
+        }
+        .logo {
+            width: 60px; /* Réduction de la largeur de l'image */
+            height: auto; /* Ajustement automatique de la hauteur */
+            margin-bottom: 0.5rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="cover-container">
+        <img src="https://isen-nantes.fr/wp-content/uploads/2023/11/ISEN-Nantes.png" alt="Logo" class="logo">
+        <h1>COMPTE RENDU DE TP</h1>
+        <h2>Amplificateurs Opérationnels</h2>
+        <p>Étude des propriétés et des applications des amplificateurs opérationnels</p>
+        <p>Présenté par : Matéo LE TOUZIC et Félix MARQUET</p>
+        <p>Date : 20/06/2025</p>
+    </div>
+</body>
+</html>
+<div style="page-break-after: always;"></div>
+
 ```table-of-contents
 title: 
 style: nestedList # TOC style (nestedList|nestedOrderedList|inlineFirstLevel)
