@@ -76,6 +76,7 @@ Any timer in any microcontroller has:
 ## Timer6 Block Diagram
 ![](https://cdn.breizhhardware.fr/FAKA3/jemUnefU41.png/raw)
 
+[Cours suivant](STM32%20Cours%205.md)
 
 ---
 &copy; Félix MARQUET

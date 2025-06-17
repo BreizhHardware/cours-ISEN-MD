@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ISEN/STM32/CIPA3/STM32 Cours 3.md",
+                "file": "ISEN/STM32/CIPA3/STM32 Cours 5.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "STM32 Cours 3"
+              "title": "STM32 Cours 5"
             }
           },
           {
@@ -90,33 +90,8 @@
               "icon": "lucide-file-text",
               "title": "Compte rendu TP Amplificateur Opérationnel et Contre-Réaction"
             }
-          },
-          {
-            "id": "310024453c875c5c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ISEN/Physique/CIPA3/Fiche de révision TP.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Fiche de révision TP"
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -189,7 +164,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ISEN/FHS/CIPA3/Gestion de projet/Gestion de projet Cours 1.md",
+                "file": "ISEN/STM32/CIPA3/STM32 Cours 5.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -199,7 +174,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Rétrolien pour Gestion de projet Cours 1"
+              "title": "Backlinks for STM32 Cours 5"
             }
           },
           {
@@ -208,12 +183,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ISEN/FHS/CIPA3/Gestion de projet/Gestion de projet Cours 1.md",
+                "file": "ISEN/STM32/CIPA3/STM32 Cours 5.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Liens sortants de Gestion de projet Cours 1"
+              "title": "Outgoing links from STM32 Cours 5"
             }
           },
           {
@@ -223,10 +198,12 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": false
+                "useHierarchy": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-tags",
-              "title": "Mots-clés"
+              "title": "Tags"
             }
           },
           {
@@ -264,12 +241,12 @@
             "state": {
               "type": "git-view",
               "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -287,10 +264,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "fe564a699ce386ad",
+  "active": "a1a2a7f3dfd58872",
   "lastOpenFiles": [
-    "ISEN/Physique/CIPA3/Compte rendu TP Amplificateur Opérationnel et Contre-Réaction.md",
     "ISEN/Daily/17-06-2025.md",
+    "ISEN/STM32/CIPA3/STM32 Cours 5.md",
+    "ISEN/STM32/CIPA3/STM32 Cours 4.md",
+    "ISEN/STM32/CIPA3/STM32 Cours 3.md",
+    "ISEN/Physique/CIPA3/Compte rendu TP Amplificateur Opérationnel et Contre-Réaction.md",
     "ISEN/Developpement durable/CIPA3/Developpement durable Cours 1.md",
     "ISEN/Physique/CIPA3/Fiche de révision TP.md",
     "ISEN/Physique/CIPA3/Fiche de révision TP.pdf",
@@ -313,7 +293,6 @@
     "ISEN/Daily/06-06-2025.md",
     "ISEN/Energie/CIPA3/Energie Cours 1.md",
     "ISEN/Energie/CIPA3/Energie Cours 2.md",
-    "ISEN/STM32/CIPA3/STM32 Cours 3.md",
     "ISEN/Daily/05-06-2025.md",
     "ISEN/Daily/02-06-2025.md",
     "ISEN/Energie/CIPA3",
@@ -326,8 +305,6 @@
     "ISEN/Physique/CIPA3/TP Magnétisme/Compte Rendu TP1.md",
     "ISEN/Daily/18-04-2025.md",
     "ISEN/Daily/16-04-2025.md",
-    "ISEN/Daily/10-03-2025.md",
-    "ISEN/Daily/08-04-2025.md",
     "ISEN/Stat/CIPA3/Moustache phys.png",
     "ISEN/Stat/CIPA3/Moustache maths.png",
     "ISEN/Stat/CIPA3/histo phys classe B.png",
