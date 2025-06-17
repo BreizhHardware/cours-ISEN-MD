@@ -139,7 +139,7 @@ Le montage amplificateur inverseur a été réalisé avec succès, confirmant le
       <p><strong>Interrupteur en position 1 :</strong></p>
       <img src="https://cdn.breizhhardware.fr/FAKA3/wiCOZive28.png/raw" alt="Interrupteur en position 1" style="width: 100%; height: auto;"/>
       <img src="https://cdn.breizhhardware.fr/FAKA3/VuWAYELa11.png/raw" alt="Schema interrupteur en position 1" style="width: 100%; height: auto;"/>
-      <p><strong>Avec un suiveur :</strong> <span class="math display">V_{R_{3}} = V_{R_{2}} = S</span>, donc <span class="math display">S=\frac{R_{2}}{R_{1}+R_{2}}e</span> d'où <span class="math display"></stro</p>
+      <p><strong>Avec un suiveur :</strong> <span class="math display">V_{R_{3}} = V_{R_{2}} = S</span>, donc <span class="math display">S=\frac{R_{2}}{R_{1}+R_{2}}e</span> d'où <span class="math display"></strong></p>
     </td>
     <td style="border: none; vertical-align: top; width: 50%;">
       <p><strong>Interrupteur en position 2 :</strong></p>
