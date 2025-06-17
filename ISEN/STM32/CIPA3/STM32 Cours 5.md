@@ -6,6 +6,8 @@ SP = Stack Pointer
 LR = Link Register
 PC = Program Counter
 PSR = Program Status Register
+# Pointer
+
 
 ---
 &copy; Félix MARQUET
