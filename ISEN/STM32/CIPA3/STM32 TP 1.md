@@ -44,3 +44,7 @@ La load address correspond
 110                   {
 ```
 # Combien d'octets occupe la fonction main() en mémoire?
+
+
+# Donner le numéro de ligne où la structure GPIO_TypeDef
+Ligne 352
