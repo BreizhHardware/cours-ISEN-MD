@@ -44,6 +44,9 @@ GPIO = General Purpose Input Output
 
 IDR = Input Data Register
 ODR = Output Data Register
+# Vérifier l'état d'un bit régulièrement
+Pooling (verifier régulièrement l'état de qqch)
+Interruption ()
 
 ---
 &copy; Félix MARQUET
