@@ -139,6 +139,7 @@ Le montage amplificateur inverseur a été réalisé avec succès, confirmant le
       <p><strong>Interrupteur en position 1 :</strong></p>
       <img src="https://cdn.breizhhardware.fr/FAKA3/wiCOZive28.png/raw" alt="Interrupteur en position 1" style="width: 100%; height: auto;"/>
       <img src="https://cdn.breizhhardware.fr/FAKA3/VuWAYELa11.png/raw" alt="Schema interrupteur en position 1" style="width: 100%; height: auto;"/>
+      <p><strong>Avec un suiveur :</strong> <span class="math display">V_{R_{3}} = V_{R_{2}} = S</span>, donc <span class="math display">S=</span></p>
     </td>
     <td style="border: none; vertical-align: top; width: 50%;">
       <p><strong>Interrupteur en position 2 :</strong></p>
@@ -203,8 +204,15 @@ Le montage suiveur a été réalisé avec succès, démontrant la propriété fo
 </table>
 
 **Calcul pour déterminer les valeur de resistances :**
-- Rapport d'amplification de 
-
+- Rapport d'amplification $A_{2} = 11$
+	- $\frac{R_{1}}{R_{1}+R_{2}}S=e_{1}$
+	- $S=\frac{R_{1}+R_{2}}{R_{1}}e_{1}$
+	- $\frac{R_{1}+R_{2}}{R_{1}}=1+\frac{R_{2}}{R_{1}}$
+	- $1+\frac{R_{2}}{R_{1}}=11$ => $R_{2}=10R_{1}$
+- Rapport d'amplification $A_{3} = 48$
+	- $1+\frac{R_{2}}{R_{1}}=48$ => $R_{2}=47R_{1}$
+- Rapport d'amplification $A_{4}=101$
+	- $1+\frac{R_{2}}{R_{1}}=101$ => $R_{2}=100R_{1}$
 
 **Protocole expérimental :**
 1. Un signal d'entrée sinusoïdal de fréquence $1 \text{kHz}$ a été appliqué.
