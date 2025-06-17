@@ -139,12 +139,13 @@ Le montage amplificateur inverseur a été réalisé avec succès, confirmant le
       <p><strong>Interrupteur en position 1 :</strong></p>
       <img src="https://cdn.breizhhardware.fr/FAKA3/wiCOZive28.png/raw" alt="Interrupteur en position 1" style="width: 100%; height: auto;"/>
       <img src="https://cdn.breizhhardware.fr/FAKA3/VuWAYELa11.png/raw" alt="Schema interrupteur en position 1" style="width: 100%; height: auto;"/>
-      <p><strong>Avec un suiveur :</strong> <span class="math display">V_{R_{3}} = V_{R_{2}} = S</span>, donc <span class="math display">S=\frac{R_{2}}{R_{1}+R_{2}}e</span> d'où <span class="math display"></strong></p>
+      <p><strong>Avec un suiveur :</strong> <span class="math display">V_{R_{3}} = V_{R_{2}} = S</span>, donc <span class="math display">S=\frac{R_{2}}{R_{1}+R_{2}}e</span> d'où <span class="math display">\text{Valeur càc} -> 0,175*2 = 0,35\text{V} => 350\text{mV}</strong></p>
     </td>
     <td style="border: none; vertical-align: top; width: 50%;">
       <p><strong>Interrupteur en position 2 :</strong></p>
       <img src="https://cdn.breizhhardware.fr/FAKA3/luVuPoHu92.png/raw" alt="Interrupteur en position 2" style="width: 100%; height: auto;"/>
       <img src="https://cdn.breizhhardware.fr/FAKA3/fOSIlaPO78.png/raw" alt="Schema interrupteur en position 2" style="width: 100%; height: auto;"/>
+      <p><strong>Sans suiveur :</strong> <span class="math display">Z_{eq} = \frac{R_{2}R_{3}}{R_{2}+R_{3}} = 3,2\text{k}\Omega</span>, <span class="math display">S=\frac{Z_{eq}}{R_{1}+Z_{eq}}e = 64\text{mV}</span> d'où <span class="math display">\text{Valeur càc} -> 64*2 = 128\text{mV} </strong></p>
     </td>
   </tr>
 </table>
@@ -261,6 +262,10 @@ Le montage amplificateur non inverseur a été réalisé avec succès, confirman
 **Protocole expérimental :**
 1. Un signal d'entrée triangulaire de fréquence 100 Hz a été appliqué avec une amplitude crête à crête de 4 V.
 2. Le montage a été construit et les seuils de basculement ont été mesurés.
+
+**Détermination des valeurs du cycle :**
+- Pour $V_{-} = -Vcc$
+	- $V(t) = \frac{()}{}$
 
 <div style="display: flex; justify-content: space-between;">
   <div style="flex: 1; padding-right: 10px;">
