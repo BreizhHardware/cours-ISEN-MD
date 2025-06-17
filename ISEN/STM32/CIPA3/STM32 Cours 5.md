@@ -46,7 +46,10 @@ IDR = Input Data Register
 ODR = Output Data Register
 # Vérifier l'état d'un bit régulièrement
 Pooling (verifier régulièrement l'état de qqch)
-Interruption ()
+Interruption (Fait appelle a la fonction handler (nom imposé par ARM, fonction dans argument))
+
+-> ST définit la callback avec l'attribut weak
+-> si elle est redéfini ce n'est pas la weak qui est appeler mais la redéfini
 
 ---
 &copy; Félix MARQUET
