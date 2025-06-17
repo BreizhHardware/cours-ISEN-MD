@@ -265,7 +265,7 @@ Le montage amplificateur non inverseur a été réalisé avec succès, confirman
 
 **Détermination des valeurs du cycle :**
 - Pour $V_{-} = -Vcc$
-	- $V(t) = \frac{()}{}$
+	- $V(t) = \frac{\epsilon-Vcc}{}$
 
 <div style="display: flex; justify-content: space-between;">
   <div style="flex: 1; padding-right: 10px;">
