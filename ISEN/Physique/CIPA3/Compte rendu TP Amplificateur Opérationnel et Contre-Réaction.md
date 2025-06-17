@@ -37,16 +37,11 @@
             color: #7f8c8d;
             margin: 0.2rem 0;
         }
-        .logo {
-            width: 60px; /* Réduction de la largeur de l'image */
-            height: auto; /* Ajustement automatique de la hauteur */
-            margin-bottom: 0.5rem;
-        }
     </style>
 </head>
 <body>
     <div class="cover-container">
-        <img src="https://isen-nantes.fr/wp-content/uploads/2023/11/ISEN-Nantes.png" alt="Logo" class="logo">
+        <img src="https://isen-nantes.fr/wp-content/uploads/2023/11/ISEN-Nantes.png" alt="Logo" style="width: 33%; display: block; margin-left: auto; margin-right: auto;">
         <h1>COMPTE RENDU DE TP</h1>
         <h2>Amplificateurs Opérationnels</h2>
         <p>Étude des propriétés et des applications des amplificateurs opérationnels</p>
@@ -265,7 +260,9 @@ Le montage amplificateur non inverseur a été réalisé avec succès, confirman
 
 **Détermination des valeurs du cycle :**
 - Pour $V_{-} = -Vcc$
-	- $V(t) = \frac{\epsilon-Vcc}{}$
+	- $V(t) = \frac{(\epsilon-Vcc)(R_{1}+R_{2})}{R_{1}}$
+- Pour $V_{-} = +Vcc$
+	- $V(t) = \frac{(\epsilon+Vcc)(R_{1}+R_{2})}{R_{1}}$
 
 <div style="display: flex; justify-content: space-between;">
   <div style="flex: 1; padding-right: 10px;">
