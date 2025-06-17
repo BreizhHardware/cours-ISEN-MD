@@ -13,16 +13,16 @@
   "enabledCss": false,
   "prevConfig": {
     "pageSize": "A4",
-    "marginType": "1",
-    "showTitle": true,
+    "marginType": "2",
+    "showTitle": false,
     "open": true,
-    "scale": 52,
+    "scale": 69,
     "landscape": false,
     "marginTop": "10",
     "marginBottom": "10",
     "marginLeft": "10",
     "marginRight": "10",
-    "displayHeader": true,
+    "displayHeader": false,
     "displayFooter": true,
     "cssSnippet": "0"
   }

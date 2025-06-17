@@ -299,7 +299,6 @@ Le montage comparateur à hystérésis a été réalisé avec succès, démontra
 - Produit gain-bande : $M = A \times B$
     - $MA_2 = 825, MA_3 = 799, MA_4 = 919.1$
 - La relation entre l'amplification et la bande passante a été vérifiée, confirmant que le produit gain-bande est constant.
-<div style="page-break-after: always;"></div>
 
 ## Conclusion
 
