@@ -11,14 +11,24 @@
             "id": "b888f2c03ef2f93b",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": ".obsidian/plugins/automatic-table-of-contents/main.js",
-                "bFile": ".obsidian/plugins/automatic-table-of-contents/main.js",
-                "aRef": ""
+                "file": "ISEN/STM32/CIPA3/STM32 Cours 5.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
-              "icon": "diff",
-              "title": "Diff: main.js"
+              "icon": "lucide-file",
+              "title": "STM32 Cours 5"
             }
           },
           {
@@ -154,6 +164,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "ISEN/STM32/CIPA3/STM32 Cours 5.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +174,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for STM32 Cours 5"
             }
           },
           {
@@ -172,11 +183,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "ISEN/STM32/CIPA3/STM32 Cours 5.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from STM32 Cours 5"
             }
           },
           {
