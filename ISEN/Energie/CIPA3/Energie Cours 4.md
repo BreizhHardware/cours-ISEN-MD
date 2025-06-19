@@ -7,4 +7,7 @@ Réseau de transport à 400kV et 225kV
 Réseau de répartition à 90kV, 20kV et 63kV
 ## Guerre des courants
 Tesla pour l'alternatif
-Edisson pour
+Edisson pour le continu
+L'alternatif a gagné parce qu'on ne savait pas augmenter une tension continu alors qu'on savait le faire en alternatif
+## Pourquoi on utilise des cables torsadé multi-brin ?
+C'est a cause de [l'effet de peau](https://fr.wikipedia.org/wiki/Effet_de_peau)
