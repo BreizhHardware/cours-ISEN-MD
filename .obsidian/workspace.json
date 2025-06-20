@@ -73,7 +73,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ISEN/Physique/CIPA3/Compte rendu TP Amplificateur Opérationnel et Contre-Réaction.md",
+                "file": "ISEN/ELA/TP/Conclusion Oscillateur a pont de wien.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -88,11 +88,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Compte rendu TP Amplificateur Opérationnel et Contre-Réaction"
+              "title": "Conclusion Oscillateur a pont de wien"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -264,13 +264,18 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "50bd388c21663835",
+  "active": "b211b85a27ff6e49",
   "lastOpenFiles": [
+    "ISEN/ELA/TP/Compte rendu TP Amplificateur Opérationnel et Contre-Réaction.md",
+    "ISEN/ELA/TP/Conclusion Oscillateur a pont de wien.md",
+    "ISEN/ELA/TP/Compte rendu TP Amplificateur Opérationnel et Contre-Réaction.pdf",
+    "ISEN/ELA/TP",
+    "ISEN/Physique/CIPA3/Compte rendu TP Amplificateur Opérationnel et Contre-Réaction_compressed.pdf",
+    "ISEN/Energie/CIPA3/Energie Cours 4.md",
     "ISEN/STM32/CIPA3/STM32 Cours 3.md",
     "ISEN/STM32/CIPA3/STM32 TP 1.md",
     "ISEN/STM32/CIPA3/STM32 Cours 5.md",
     "ISEN/STM32/CIPA3/STM32 Cours 4.md",
-    "ISEN/Physique/CIPA3/Compte rendu TP Amplificateur Opérationnel et Contre-Réaction.md",
     "ISEN/Developpement durable/CIPA3/Developpement durable Cours 1.md",
     "ISEN/Daily/31-03-2025.md",
     "ISEN/Daily/31-12-2024.md",
@@ -290,21 +295,16 @@
     "ISEN/Daily/17-06-2025.md",
     "ISEN/Daily/17-03-2025.md",
     "ISEN/Daily/16-12-2024.md",
-    "ISEN/Daily/16-06-2025.md",
-    "ISEN/Daily/16-04-2025.md",
     "ISEN/Daily/03-04-2025.pdf",
-    "ISEN/Physique/CIPA3/Fiche de révision TP.pdf",
-    "ISEN/Physique/CIPA3/Compte rendu TP Amplificateur Opérationnel et Contre-Réaction.pdf",
+    "ISEN/ELA/TP/Fiche de révision TP.pdf",
     "ISEN/Developpement durable/CIPA3",
     "ISEN/Developpement durable",
     "ISEN/FHS/CIPA3/Sociologie et organisation entreprises",
     "ISEN/English/CIPA3/Common questions asked at an interview.pdf",
     "Pasted image 20250610091125.png",
     "ISEN/Energie/CIPA3",
-    "ISEN/Energie",
     "ISEN/Physique/CIPA3/TP Magnétisme/plot_2025-04-16 21-25-34_1.png",
     "ISEN/Physique/CIPA3/TP Magnétisme/plot_2025-04-16 21-25-34_0.png",
-    "ISEN/Physique/CIPA3/TP Magnétisme/Compte Rendu TP2.pdf",
     "ISEN/Stat/CIPA3/Moustache phys.png",
     "ISEN/Stat/CIPA3/Moustache maths.png",
     "ISEN/Stat/CIPA3/histo phys classe B.png",
