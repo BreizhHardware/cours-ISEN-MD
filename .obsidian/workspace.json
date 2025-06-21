@@ -59,11 +59,23 @@
             "id": "877eaa351ab0c7b2",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "ISEN/Physique/CIPA3/Compte rendu TP Amplificateur Opérationnel et Contre-Réaction.pdf"
+                "file": "ISEN/ELA/TP/Compte rendu TP Amplificateur Opérationnel et Contre-Réaction.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
-              "icon": "lucide-file-text",
+              "icon": "lucide-file",
               "title": "Compte rendu TP Amplificateur Opérationnel et Contre-Réaction"
             }
           },
@@ -92,7 +104,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -264,10 +276,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b211b85a27ff6e49",
+  "active": "877eaa351ab0c7b2",
   "lastOpenFiles": [
-    "ISEN/ELA/TP/Compte rendu TP Amplificateur Opérationnel et Contre-Réaction.md",
     "ISEN/ELA/TP/Conclusion Oscillateur a pont de wien.md",
+    "ISEN/ELA/TP/Compte rendu TP Amplificateur Opérationnel et Contre-Réaction.md",
     "ISEN/ELA/TP/Compte rendu TP Amplificateur Opérationnel et Contre-Réaction.pdf",
     "ISEN/ELA/TP",
     "ISEN/Physique/CIPA3/Compte rendu TP Amplificateur Opérationnel et Contre-Réaction_compressed.pdf",
