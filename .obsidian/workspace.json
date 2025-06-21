@@ -85,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ISEN/ELA/TP/Conclusion Oscillateurs à relaxation.md",
+                "file": "ISEN/ELA/TP/Conclusion Oscillateur a pont de wien.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -100,7 +100,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Conclusion Oscillateurs à relaxation"
+              "title": "Conclusion Oscillateur a pont de wien"
             }
           }
         ],
@@ -278,9 +278,9 @@
   },
   "active": "b211b85a27ff6e49",
   "lastOpenFiles": [
+    "ISEN/ELA/TP/Conclusion Oscillateurs à relaxation.md",
     "ISEN/ELA/TP/Conclusion Oscillateur a pont de wien.md",
     "ISEN/ELA/TP/Compte rendu TP Amplificateur Opérationnel et Contre-Réaction.md",
-    "ISEN/ELA/TP/Conclusion Oscillateurs à relaxation.md",
     "ISEN/ELA/TP/Conclusion Oscillateur a pont de wien.pdf",
     "ISEN/ELA/TP/Compte rendu TP Amplificateur Opérationnel et Contre-Réaction.pdf",
     "ISEN/ELA/TP",
