@@ -85,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ISEN/ELA/TP/Conclusion Oscillateur a pont de wien.md",
+                "file": "ISEN/ELA/TP/Conclusion Oscillateurs à relaxation.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -100,7 +100,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Conclusion Oscillateur a pont de wien"
+              "title": "Conclusion Oscillateurs à relaxation"
             }
           }
         ],
@@ -278,11 +278,12 @@
   },
   "active": "b211b85a27ff6e49",
   "lastOpenFiles": [
-    "ISEN/ELA/TP/Conclusion Oscillateurs à relaxation.md",
+    "ISEN/ELA/TP/Conclusion Oscillateurs à relaxation.pdf",
     "ISEN/ELA/TP/Conclusion Oscillateur a pont de wien.md",
+    "ISEN/ELA/TP/Conclusion Oscillateurs à relaxation.md",
     "ISEN/ELA/TP/Compte rendu TP Amplificateur Opérationnel et Contre-Réaction.md",
-    "ISEN/ELA/TP/Conclusion Oscillateur a pont de wien.pdf",
     "ISEN/ELA/TP/Compte rendu TP Amplificateur Opérationnel et Contre-Réaction.pdf",
+    "ISEN/ELA/TP/Conclusion Oscillateur a pont de wien.pdf",
     "ISEN/ELA/TP",
     "ISEN/Physique/CIPA3/Compte rendu TP Amplificateur Opérationnel et Contre-Réaction_compressed.pdf",
     "ISEN/Energie/CIPA3/Energie Cours 4.md",
@@ -307,7 +308,6 @@
     "ISEN/Daily/18-12-2024.md",
     "ISEN/Daily/17-12-2024.md",
     "ISEN/Daily/17-06-2025.md",
-    "ISEN/Daily/17-03-2025.md",
     "ISEN/Daily/03-04-2025.pdf",
     "ISEN/ELA/TP/Fiche de révision TP.pdf",
     "ISEN/Developpement durable/CIPA3",
