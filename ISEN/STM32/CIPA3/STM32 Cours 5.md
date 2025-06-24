@@ -51,5 +51,8 @@ Interruption (Fait appelle a la fonction handler (nom imposé par ARM, fonction 
 -> ST définit la callback avec l'attribut weak
 -> si elle est redéfini ce n'est pas la weak qui est appeler mais la redéfini
 
+# Timer
+
+
 ---
 &copy; Félix MARQUET

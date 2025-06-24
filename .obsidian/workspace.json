@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ISEN/STM32/CIPA3/STM32 TP 1.md",
+                "file": "ISEN/STM32/CIPA3/STM32 Cours 5.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "STM32 TP 1"
+              "title": "STM32 Cours 5"
             }
           },
           {
@@ -103,8 +103,7 @@
               "title": "Conclusion Oscillateurs à relaxation"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -276,11 +275,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b211b85a27ff6e49",
+  "active": "8d1357b51450a4a1",
   "lastOpenFiles": [
+    "ISEN/STM32/CIPA3/STM32 TP 1.md",
+    "ISEN/ELA/TP/Conclusion Oscillateurs à relaxation.md",
     "ISEN/ELA/TP/Conclusion Oscillateurs à relaxation.pdf",
     "ISEN/ELA/TP/Conclusion Oscillateur a pont de wien.md",
-    "ISEN/ELA/TP/Conclusion Oscillateurs à relaxation.md",
     "ISEN/ELA/TP/Compte rendu TP Amplificateur Opérationnel et Contre-Réaction.md",
     "ISEN/ELA/TP/Compte rendu TP Amplificateur Opérationnel et Contre-Réaction.pdf",
     "ISEN/ELA/TP/Conclusion Oscillateur a pont de wien.pdf",
@@ -288,7 +288,6 @@
     "ISEN/Physique/CIPA3/Compte rendu TP Amplificateur Opérationnel et Contre-Réaction_compressed.pdf",
     "ISEN/Energie/CIPA3/Energie Cours 4.md",
     "ISEN/STM32/CIPA3/STM32 Cours 3.md",
-    "ISEN/STM32/CIPA3/STM32 TP 1.md",
     "ISEN/STM32/CIPA3/STM32 Cours 5.md",
     "ISEN/STM32/CIPA3/STM32 Cours 4.md",
     "ISEN/Developpement durable/CIPA3/Developpement durable Cours 1.md",
@@ -313,7 +312,6 @@
     "ISEN/Developpement durable/CIPA3",
     "ISEN/Developpement durable",
     "ISEN/FHS/CIPA3/Sociologie et organisation entreprises",
-    "ISEN/English/CIPA3/Common questions asked at an interview.pdf",
     "Pasted image 20250610091125.png",
     "ISEN/Physique/CIPA3/TP Magnétisme/plot_2025-04-16 21-25-34_1.png",
     "ISEN/Physique/CIPA3/TP Magnétisme/plot_2025-04-16 21-25-34_0.png",
