@@ -19,3 +19,11 @@ Sachant qu'il y a environ 3 réacteurs par central il faut environ 108 centrales
 $39,3M*150kW = 5895GW$
 
 $\frac{5895000}{900} = 6550 \text{ réacteur (arrondi au supérieur)}$
+
+### Correction 
+Consommation annuelle des carburant fossile en France: $48000000m^3$
+Densité d'énergie des carburants: $10 kWh/l$
+Energie brulée: $E_b = 48.10^6*10*1000 = 4,8.10^{11}kWh$
+Energie à la roue (rendement = 0,33): $E_{m}=n.E_{b} = 1,6.10^{11}kWh = 160 TWh$
+Energie stockée dans les batterie du véhicule (rendement = 0,9): $E_{batterie} = \frac{E_{m}}{n} = 1,77.10^{11} kWh = 177 TWh$
+Puissance necessaire: 
