@@ -12,6 +12,8 @@ $39,3M*7,4kW = 290820000000 = 290GW$
 
 $\frac{290000}{900} = 323 \text{ réacteur (arrondi au supérieur)}$
 
+Sachant qu'il y a environ 3 réacteurs par central il faut environ 108 centrales nucléaires
+
 150 kW de puissance de charge rapide moyenne
 
 $39,3M*150kW = 5895GW$
