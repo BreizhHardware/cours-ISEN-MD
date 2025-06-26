@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ISEN/Energie/CIPA3/Energie Cours 5.md",
+                "file": "ISEN/Developpement durable/CIPA3/Matrice Industrie.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Energie Cours 5"
+              "title": "Matrice Industrie"
             }
           },
           {
@@ -277,8 +277,9 @@
   },
   "active": "8d1357b51450a4a1",
   "lastOpenFiles": [
-    "ISEN/Energie/CIPA3/Energie Cours 4.md",
     "ISEN/Energie/CIPA3/Energie Cours 5.md",
+    "ISEN/Developpement durable/CIPA3/Matrice Industrie.md",
+    "ISEN/Energie/CIPA3/Energie Cours 4.md",
     "ISEN/Energie/CIPA3/Energie Cours 3.md",
     "ISEN/Energie/CIPA3/Energie Cours 2.md",
     "ISEN/STM32/CIPA3/STM32 Cours 5.md",
@@ -307,7 +308,6 @@
     "ISEN/Daily/20-12-2024.md",
     "ISEN/Daily/19-12-2024.md",
     "ISEN/Daily/18-04-2025.md",
-    "ISEN/Daily/18-12-2024.md",
     "ISEN/Daily/03-04-2025.pdf",
     "ISEN/ELA/TP/Fiche de révision TP.pdf",
     "ISEN/Developpement durable/CIPA3",
