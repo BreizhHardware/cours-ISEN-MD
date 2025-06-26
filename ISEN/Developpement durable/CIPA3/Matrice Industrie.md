@@ -12,7 +12,8 @@
 5. **Lobbying pour des pratiques durables** :
     - **Impact indirect** : Le lobbying peut conduire à des changements de politiques qui favorisent des pratiques durables, mais il est difficile de quantifier directement en tonnes de CO2.
 6. **Changement de fournisseur** :
-    - **Réduction estimée** : Changer pour des fournisseurs plus durables peut réduire les émissions de 10 à 30 tonnes de CO2 par an, selon la taille de l'entreprise et le secteur d'activité.
+    - **Réduction estimée** : Changer pour des fournisseurs plus durables peut réduire les émissions de 90%.
+    - **Source potentielle** : [Greenly](https://greenly.earth/blog/guide-entreprise/fournisseurs-agir-sur-sa-chaine-d-approvisionnement)
 7. **Nouvelles normes/lois** :
     - **Impact indirect** : Les nouvelles normes et lois peuvent imposer des réductions d'émissions. Par exemple, une loi sur l'efficacité énergétique pourrait réduire les émissions de plusieurs milliers de tonnes de CO2 par an à l'échelle nationale.
 8. **Choix des entreprises partenaires** :
@@ -20,6 +21,7 @@
 9. **Taxes sur les produits non locaux** :
     - **Impact indirect** : Les taxes peuvent encourager l'achat de produits locaux, réduisant ainsi les émissions liées au transport. Difficile à quantifier directement en tonnes de CO2.
 10. **Aide sur les produits locaux** :
-    - **Réduction estimée** : Encourager les produits locaux peut réduire les émissions de 5 à 20 tonnes de CO2 par an pour une entreprise moyenne.
+    - **Réduction estimée** : Encourager les produits locaux peut réduire les émissions de 5 à 17 tonnes de CO2 par an pour une entreprise moyenne.
+    - **Source potentielle** : [Action Climatique](https://www.action-climatique.com/consommation-responsable/produits-ecoresponsables/consommation-responsable-comment-privilegier-les-produits-locaux-pour-un-impact-environnemental-reduit/#:~:text=L'ADEME%20estime%20d'ailleurs,ou%20%C3%A9lev%C3%A9s%20en%20serres%20chauff%C3%A9es.)
 11. **Augmenter le budget pour la R&D** :
     - **Impact indirect** : Investir dans la R&D peut conduire à des innovations réduisant les émissions. Par exemple, développer de nouvelles technologies pourrait réduire les émissions de plusieurs centaines de tonnes de CO2 par an à long terme.
