@@ -21,8 +21,6 @@
     - **Services Écosystémiques :** La figure montre les impacts sur les services écosystémiques tels que les services d'habitat, le piégeage côtier de carbone, et les revenus du tourisme.
     - **Exemples d'Impacts :**
         - **Services d'Habitat :** Les changements dans les écosystèmes peuvent affecter les habitats naturels et les espèces qui en dépendent.
-        - **Piégeage Côtiers de Carbone :** Les écosystèmes côtiers jouent un rôle crucial dans le stockage du carbone. Les changements dans ces écosystèmes peuvent affecter leur capacité à stocker le carbone.
-        - **Revenus du Tourisme :** Les écosystèmes marins et côtiers attirent des touristes, et les changements dans ces écosystèmes peuvent affecter les revenus du tourisme.
 4. **Degré de Confiance :**
     - **Attribution des Changements :** La figure inclut une évaluation du degré de confiance dans l'attribution des changements observés aux variations du forçage résultant des gaz à effet de serre.
     - **Niveaux de Confiance :** Les niveaux de confiance sont probablement indiqués par des symboles ou des couleurs spécifiques pour montrer la certitude des observations et des impacts.
