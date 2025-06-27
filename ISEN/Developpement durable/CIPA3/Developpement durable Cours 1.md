@@ -22,3 +22,4 @@ Savoir faire, humain
 ## Après 1850
 82% d'énergie fossile en moyenne
 0,5% d'énergie humaine
+
