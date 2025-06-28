@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ISEN/STM32/CIPA3/STM32 Cours 1.md",
+                "file": "ISEN/STM32/CIPA3/STM32 Cours 3.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "STM32 Cours 1"
+              "title": "STM32 Cours 3"
             }
           },
           {
@@ -277,6 +277,9 @@
   },
   "active": "8d1357b51450a4a1",
   "lastOpenFiles": [
+    "ISEN/STM32/CIPA3/STM32 Cours 4.md",
+    "ISEN/STM32/CIPA3/STM32 Cours 2.md",
+    "ISEN/STM32/CIPA3/STM32 Cours 1.md",
     "ISEN/Developpement durable/CIPA3/Figure Clarisse Andral et Félix Marquet.md",
     "ISEN/Developpement durable/CIPA3/Figure Clarisse Andral et Félix Marquet.pdf",
     "ISEN/Developpement durable/CIPA3/Développement durable Cours 2.md",
@@ -297,7 +300,6 @@
     "ISEN/ELA/TP",
     "ISEN/Physique/CIPA3/Compte rendu TP Amplificateur Opérationnel et Contre-Réaction_compressed.pdf",
     "ISEN/STM32/CIPA3/STM32 Cours 3.md",
-    "ISEN/STM32/CIPA3/STM32 Cours 4.md",
     "ISEN/Daily/31-03-2025.md",
     "ISEN/Daily/31-12-2024.md",
     "ISEN/Daily/30-11-2024.md",
@@ -307,7 +309,6 @@
     "ISEN/Daily/27-03-2025.md",
     "ISEN/Daily/27-02-2025.md",
     "ISEN/Daily/25-02-2025.md",
-    "ISEN/Daily/24-02-2025.md",
     "ISEN/Daily/03-04-2025.pdf",
     "ISEN/ELA/TP/Fiche de révision TP.pdf",
     "ISEN/Developpement durable/CIPA3",
