@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ISEN/STM32/CIPA3/STM32 Cours 3.md",
+                "file": "ISEN/STM32/CIPA3/STM32 Cours 5.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "STM32 Cours 3"
+              "title": "STM32 Cours 5"
             }
           },
           {
@@ -277,7 +277,10 @@
   },
   "active": "8d1357b51450a4a1",
   "lastOpenFiles": [
+    "ISEN/STM32/CIPA3/TD1_STM32_Eleves_2023.pdf",
+    "ISEN/STM32/CIPA3/STM32 Cours 5.md",
     "ISEN/STM32/CIPA3/STM32 Cours 4.md",
+    "ISEN/STM32/CIPA3/STM32 Cours 3.md",
     "ISEN/STM32/CIPA3/STM32 Cours 2.md",
     "ISEN/STM32/CIPA3/STM32 Cours 1.md",
     "ISEN/Developpement durable/CIPA3/Figure Clarisse Andral et Félix Marquet.md",
@@ -290,7 +293,6 @@
     "ISEN/Energie/CIPA3/Energie Cours 4.md",
     "ISEN/Energie/CIPA3/Energie Cours 3.md",
     "ISEN/Energie/CIPA3/Energie Cours 2.md",
-    "ISEN/STM32/CIPA3/STM32 Cours 5.md",
     "ISEN/STM32/CIPA3/STM32 TP 1.md",
     "ISEN/ELA/TP/Conclusion Oscillateurs à relaxation.pdf",
     "ISEN/ELA/TP/Conclusion Oscillateur a pont de wien.md",
@@ -299,7 +301,6 @@
     "ISEN/ELA/TP/Conclusion Oscillateur a pont de wien.pdf",
     "ISEN/ELA/TP",
     "ISEN/Physique/CIPA3/Compte rendu TP Amplificateur Opérationnel et Contre-Réaction_compressed.pdf",
-    "ISEN/STM32/CIPA3/STM32 Cours 3.md",
     "ISEN/Daily/31-03-2025.md",
     "ISEN/Daily/31-12-2024.md",
     "ISEN/Daily/30-11-2024.md",
@@ -308,7 +309,6 @@
     "ISEN/Daily/26-03-2025.md",
     "ISEN/Daily/27-03-2025.md",
     "ISEN/Daily/27-02-2025.md",
-    "ISEN/Daily/25-02-2025.md",
     "ISEN/Daily/03-04-2025.pdf",
     "ISEN/ELA/TP/Fiche de révision TP.pdf",
     "ISEN/Developpement durable/CIPA3",
