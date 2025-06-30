@@ -15,7 +15,7 @@ var &= ~(1 << 7);
 ```
 4. Changer l'état du bit 9
 ```C
-var ^= (1 << 4);
+var ^= (1 << 9);
 ```
 5. Forcer le bit 21 à 1
 ```C
