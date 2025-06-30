@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ISEN/Developpement durable/CIPA3/Schneider.md",
+                "file": "ISEN/STM32/CIPA3/STM32 TD 2.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Schneider"
+              "title": "STM32 TD 2"
             }
           },
           {
@@ -278,12 +278,12 @@
   "active": "8d1357b51450a4a1",
   "lastOpenFiles": [
     "ISEN/STM32/CIPA3/STM32 Cours 5.md",
-    "ISEN/Developpement durable/CIPA3/Schneider.md",
-    "ISEN/STM32/CIPA3/TD1_STM32_Eleves_2023.pdf",
     "ISEN/STM32/CIPA3/STM32 Cours 4.md",
     "ISEN/STM32/CIPA3/STM32 Cours 3.md",
     "ISEN/STM32/CIPA3/STM32 Cours 2.md",
     "ISEN/STM32/CIPA3/STM32 Cours 1.md",
+    "ISEN/Developpement durable/CIPA3/Schneider.md",
+    "ISEN/STM32/CIPA3/TD1_STM32_Eleves_2023.pdf",
     "ISEN/Developpement durable/CIPA3/Figure Clarisse Andral et Félix Marquet.md",
     "ISEN/Developpement durable/CIPA3/Figure Clarisse Andral et Félix Marquet.pdf",
     "ISEN/Developpement durable/CIPA3/Développement durable Cours 2.md",
