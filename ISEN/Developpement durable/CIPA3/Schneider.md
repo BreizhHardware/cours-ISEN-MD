@@ -34,3 +34,4 @@
 - Schneider Electric s'engage à travailler avec des fournisseurs qui respectent des normes élevées en matière de durabilité. Cela inclut des pratiques logistiques optimisées pour réduire les émissions et des politiques d'achat qui favorisent les matériaux durables.
 
 ### Utilisation des énergies renouvelables
+- Schneider Electric accompagne les entreprises dans leur transition vers les énergies renouvelables en proposant des solutions complètes et diversifiées. Leur approche vise à faciliter l'adoption de technologies propres, en identifiant les défis et opportunités tout en engageant les parties prenantes et en minimisant les risques. Ils recommandent une stratégie par portefeuille, utilisant diverses solutions technologiques pour atteindre les objectifs énergétiques. Cela inclut des contrats d'achat d'énergie hors site, la production sur site, et l'utilisation de certificats d'attributs environnementaux.

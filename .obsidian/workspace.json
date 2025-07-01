@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ISEN/Developpement durable/CIPA3/Schneider.md",
+                "file": "ISEN/STM32/CIPA3/STM32 Cours 2.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Schneider"
+              "title": "STM32 Cours 2"
             }
           },
           {
@@ -277,6 +277,9 @@
   },
   "active": "8d1357b51450a4a1",
   "lastOpenFiles": [
+    "ISEN/STM32/CIPA3/STM32 Cours 1.md",
+    "ISEN/Energie/CIPA3/Energie Cours 1.md",
+    "ISEN/Developpement durable/CIPA3/Schneider.md",
     "ISEN/STM32/CIPA3/STM32 TD 2.md",
     "ISEN/Energie/CIPA3/Energie-Puissance Seances 1 et 2 .pdf",
     "ISEN/Energie/CIPA3/EnrA3 - Réseau Séances 3 et 4.pdf",
@@ -287,8 +290,6 @@
     "ISEN/STM32/CIPA3/STM32 Cours 4.md",
     "ISEN/STM32/CIPA3/STM32 Cours 3.md",
     "ISEN/STM32/CIPA3/STM32 Cours 2.md",
-    "ISEN/STM32/CIPA3/STM32 Cours 1.md",
-    "ISEN/Developpement durable/CIPA3/Schneider.md",
     "ISEN/STM32/CIPA3/TD1_STM32_Eleves_2023.pdf",
     "ISEN/Developpement durable/CIPA3/Figure Clarisse Andral et Félix Marquet.md",
     "ISEN/Developpement durable/CIPA3/Figure Clarisse Andral et Félix Marquet.pdf",
@@ -312,7 +313,6 @@
     "ISEN/Daily/30-01-2025.md",
     "ISEN/Daily/25-03-2025.md",
     "ISEN/Daily/26-03-2025.md",
-    "ISEN/Daily/27-03-2025.md",
     "Pasted image 20250610091125.png",
     "ISEN/Physique/CIPA3/TP Magnétisme/plot_2025-04-16 21-25-34_1.png",
     "ISEN/Physique/CIPA3/TP Magnétisme/plot_2025-04-16 21-25-34_0.png",
