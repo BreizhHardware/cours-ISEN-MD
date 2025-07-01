@@ -22,3 +22,15 @@
 
 ### Engagement Local et Initiatives Communautaires
 - Schneider Electric mobilise ses employés pour des initiatives locales de développement durable à travers le programme VolunteerIn. Ils ont adopté plus de 200 initiatives locales entre 2021 et 2023 pour impacter positivement leurs communautés[6](https://www.se.com/ww/fr/about-us/sustainability/local-commitment.jsp).
+
+
+### Décarbonation des opérations internes :
+- Schneider Electric travaille activement à réduire son empreinte carbone en améliorant l'efficacité énergétique de ses installations et en électrifiant ses processus. Cela inclut l'utilisation de technologies avancées pour surveiller et optimiser la consommation d'énergie.
+
+### Innovation produit / écoconception
+- Le programme ecoDesign Way™, appliqué systématiquement aux nouveaux produits, se compose de trois phases clés : l'identification des contraintes et des impacts environnementaux, la traduction de ces exigences en éléments de conception, et la communication des performances environnementales aux clients. Schneider Electric se concentre sur sept axes environnementaux, incluant l'efficacité énergétique, la réduction des émissions de carbone, et l'économie circulaire.
+
+### Chaîne de valeur responsable
+- Schneider Electric s'engage à travailler avec des fournisseurs qui respectent des normes élevées en matière de durabilité. Cela inclut des pratiques logistiques optimisées pour réduire les émissions et des politiques d'achat qui favorisent les matériaux durables.
+
+### Utilisation des énergies renouvelables

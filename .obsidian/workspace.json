@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ISEN/STM32/CIPA3/STM32 TD 2.md",
+                "file": "ISEN/Developpement durable/CIPA3/Schneider.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "STM32 TD 2"
+              "title": "Schneider"
             }
           },
           {
@@ -275,8 +275,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "622da1d4e0ba0f73",
+  "active": "8d1357b51450a4a1",
   "lastOpenFiles": [
+    "ISEN/STM32/CIPA3/STM32 TD 2.md",
     "ISEN/Energie/CIPA3/Energie-Puissance Seances 1 et 2 .pdf",
     "ISEN/Energie/CIPA3/EnrA3 - Réseau Séances 3 et 4.pdf",
     "ISEN/Energie/CIPA3/Nucleaire Séance 5.pdf",
@@ -305,7 +306,6 @@
     "ISEN/ELA/TP/Compte rendu TP Amplificateur Opérationnel et Contre-Réaction.md",
     "ISEN/ELA/TP/Compte rendu TP Amplificateur Opérationnel et Contre-Réaction.pdf",
     "ISEN/ELA/TP/Conclusion Oscillateur a pont de wien.pdf",
-    "ISEN/ELA/TP",
     "ISEN/Daily/31-03-2025.md",
     "ISEN/Daily/31-12-2024.md",
     "ISEN/Daily/30-11-2024.md",
