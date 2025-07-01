@@ -1,3 +1,9 @@
+## Figure 1
+La figure montre l'influence humaine sur le réchauffement climatique, avec des graphiques illustrant les changements de température mondiale depuis 1-2000 et 1850-2020, indiquant un réchauffement sans précédent en plus de 2000 ans.
+
+## Figure 2
+La figure présente les impacts du changement climatique à travers le monde, avec des cartes montrant les changements observés dans les extrêmes chauds et les précipitations abondantes, et la confiance dans la contribution humaine à ces changements.
+
 ## Figure 13
 La figure est un tableau à triple entrée présentant les impacts régionaux observés résultant de changements climatiques et de la cryosphère. Il existe un tableau pour l'océan et un pour les régions de haute montagnes.
 1. **Changements Physiques :**
