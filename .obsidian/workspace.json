@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ISEN/Developpement durable/CIPA3/Figure Félix Marquet.md",
+                "file": "ISEN/Developpement durable/CIPA3/Développement durable Cours 3.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Figure Félix Marquet"
+              "title": "Développement durable Cours 3"
             }
           },
           {
@@ -277,6 +277,10 @@
   },
   "active": "8d1357b51450a4a1",
   "lastOpenFiles": [
+    "ISEN/Developpement durable/CIPA3/Développement durable Cours 2.md",
+    "ISEN/Developpement durable/CIPA3/Developpement durable Cours 1.md",
+    "ISEN/Developpement durable/CIPA3/Développement durable Cours 3.md",
+    "ISEN/Developpement durable/CIPA3/Figure Félix Marquet.md",
     "ISEN/Developpement durable/CIPA3/Figure Félix Marquet.pdf",
     "ISEN/Developpement durable/CIPA3/Schneider.md",
     "ISEN/STM32/CIPA3/STM32 Cours 3.md",
@@ -292,10 +296,7 @@
     "ISEN/STM32/CIPA3/STM32 Cours 5.md",
     "ISEN/STM32/CIPA3/STM32 Cours 4.md",
     "ISEN/STM32/CIPA3/TD1_STM32_Eleves_2023.pdf",
-    "ISEN/Developpement durable/CIPA3/Figure Félix Marquet.md",
     "ISEN/Developpement durable/CIPA3/Figure Clarisse Andral et Félix Marquet.pdf",
-    "ISEN/Developpement durable/CIPA3/Développement durable Cours 2.md",
-    "ISEN/Developpement durable/CIPA3/Developpement durable Cours 1.md",
     "ISEN/Developpement durable/CIPA3/Matrice Industrie.md",
     "ISEN/ELA/TP/Conclusion Oscillateurs à relaxation.md",
     "ISEN/Energie/CIPA3/Energie Cours 5.md",
@@ -307,7 +308,6 @@
     "ISEN/ELA/TP/Conclusion Oscillateur a pont de wien.md",
     "ISEN/ELA/TP/Compte rendu TP Amplificateur Opérationnel et Contre-Réaction.md",
     "ISEN/ELA/TP/Compte rendu TP Amplificateur Opérationnel et Contre-Réaction.pdf",
-    "ISEN/ELA/TP/Conclusion Oscillateur a pont de wien.pdf",
     "ISEN/Daily/31-03-2025.md",
     "ISEN/Daily/31-12-2024.md",
     "ISEN/Daily/30-11-2024.md",
