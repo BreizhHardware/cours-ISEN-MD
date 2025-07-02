@@ -1,0 +1,1 @@
+# Oral 1 Groupe 6 Stratégies internationales mises en place pour préserver le vclient
