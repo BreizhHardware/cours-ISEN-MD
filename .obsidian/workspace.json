@@ -32,6 +32,30 @@
             }
           },
           {
+            "id": "14045e30aacf0836",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ISEN/Developpement durable/CIPA3/Matrice Industrie.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Matrice Industrie"
+            }
+          },
+          {
             "id": "50bd388c21663835",
             "type": "leaf",
             "state": {
@@ -54,56 +78,9 @@
               "icon": "lucide-file",
               "title": "Energie Cours 4"
             }
-          },
-          {
-            "id": "877eaa351ab0c7b2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ISEN/ELA/TP/Compte rendu TP Amplificateur Opérationnel et Contre-Réaction.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Compte rendu TP Amplificateur Opérationnel et Contre-Réaction"
-            }
-          },
-          {
-            "id": "b211b85a27ff6e49",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ISEN/ELA/TP/Conclusion Oscillateurs à relaxation.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Conclusion Oscillateurs à relaxation"
-            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -275,11 +252,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "8d1357b51450a4a1",
+  "active": "14045e30aacf0836",
   "lastOpenFiles": [
+    "ISEN/Developpement durable/CIPA3/Développement durable Cours 3.md",
+    "ISEN/Developpement durable/CIPA3/Matrice Industrie.md",
     "ISEN/Developpement durable/CIPA3/Développement durable Cours 2.md",
     "ISEN/Developpement durable/CIPA3/Developpement durable Cours 1.md",
-    "ISEN/Developpement durable/CIPA3/Développement durable Cours 3.md",
     "ISEN/Developpement durable/CIPA3/Figure Félix Marquet.md",
     "ISEN/Developpement durable/CIPA3/Figure Félix Marquet.pdf",
     "ISEN/Developpement durable/CIPA3/Schneider.md",
@@ -297,7 +275,6 @@
     "ISEN/STM32/CIPA3/STM32 Cours 4.md",
     "ISEN/STM32/CIPA3/TD1_STM32_Eleves_2023.pdf",
     "ISEN/Developpement durable/CIPA3/Figure Clarisse Andral et Félix Marquet.pdf",
-    "ISEN/Developpement durable/CIPA3/Matrice Industrie.md",
     "ISEN/ELA/TP/Conclusion Oscillateurs à relaxation.md",
     "ISEN/Energie/CIPA3/Energie Cours 5.md",
     "ISEN/Energie/CIPA3/Energie Cours 4.md",

@@ -5,7 +5,7 @@
     - **Source potentielle** : [Action Climatique](https://www.action-climatique.com/consommation-responsable/produits-ecoresponsables/consommation-responsable-comment-privilegier-les-produits-locaux-pour-un-impact-environnemental-reduit/#:~:text=L'ADEME%20estime%20d'ailleurs,ou%20%C3%A9lev%C3%A9s%20en%20serres%20chauff%C3%A9es.)
 3. **Panier antigaspi** :
     - **Réduction estimée** : Réduire le gaspillage alimentaire peut éviter l'émission de 1,5 gigatonne de CO2 au niveau mondial chaque année. Pour une entreprise moyenne, cela pourrait représenter une réduction de 10 à 50 tonnes de CO2 par an.
-    - **Source potentielle** : Rapports sur le gaspillage alimentaire et ses impacts environnementaux, par exemple, [FAO - Food Wastage Footprint](http://www.fao.org/3/a-bb144e.pdf).
+    - **Source potentielle** : Rapports sur le gaspillage alimentaire et ses impacts environnementaux, par exemple, [FAO - Food Wastage Footprint](http://www.fao.org/3/a-bb144e.pdf)
 4. **Acheter de saison et éviter la surconsommation** :
     - **Réduction estimée** : Acheter des produits de saison peut réduire les émissions liées aux serres chauffées et au transport. Une réduction de 5 à 20 tonnes de CO2 par an pour une entreprise moyenne.
     - **Source potentielle** : [ADEME](https://agirpourlatransition.ademe.fr/particuliers/conso/alimentation/manger-local-de-saison-pourquoi-c-est-essentiel)
