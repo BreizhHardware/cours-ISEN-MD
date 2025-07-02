@@ -19,7 +19,7 @@ Actuellement nous connaissons 953000 espèces animales, 216000 espèces de plant
 Les forêts tropicales humides, comme l'Amazonie, sont les espaces terrestres les plus riches en biodiversité. Pour les écosystèmes marins, les récifs coralliens abritent la plus grande diversité d'espèces.
 
 ## Question 5
-Près de chez vous, en France, les zones humides et les écosystèmes côtiers sont parmi les espaces les plus menacés. Ces régions sont particulièrement vulnérables en raison de l'urbanisation croissante, de la pollution, de l'exploitation excessive des ressources et des effets du changement climatique, tels que l'élévation du niveau de la mer et l'augmentation des températures.
+En France, les zones humides et les écosystèmes côtiers sont parmi les espaces les plus menacés. Ces régions sont particulièrement vulnérables en raison de l'urbanisation croissante, de la pollution, de l'exploitation excessive des ressources et des effets du changement climatique, tels que l'élévation du niveau de la mer et l'augmentation des températures. Exemple local: Marais de l'Erdre, Baie de l'Arguenon, Baie de Lancieux
 
 ## Question 6
 La part des terres sauvages ou semi-naturelles a fortement diminué depuis 300 ans en raison de l'expansion agricole et de l'urbanisation. Cela a entraîné une perte de biodiversité et une perturbation des écosystèmes.
@@ -41,5 +41,3 @@ Selon de nombreux experts, les mesures de conservation actuelles ne sont pas suf
 
 ## Question 12
 La Colombie-Britannique est un site important au Canada en raison de sa riche biodiversité et de la présence de nombreux écosystèmes uniques. La province abrite 224 espèces en péril, menacées ou préoccupantes, selon l'annexe 1 de la Loi sur les espèces en péril du Canada (SARA), ce qui en fait une région cruciale pour les efforts de conservation. Cependant, malgré cette richesse biologique, la Colombie-Britannique ne dispose pas de sa propre loi provinciale pour protéger les espèces en danger, ce qui laisse de nombreuses espèces vulnérables sur les terres provinciales.
-
-## Question 13
