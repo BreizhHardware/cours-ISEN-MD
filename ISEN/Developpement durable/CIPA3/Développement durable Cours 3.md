@@ -31,3 +31,15 @@ Les principales menaces pour la biodiversité sont la perte et la fragmentation 
 La Base de données mondiales des aires protégées compte plus de 250 000 zones protégées, terrestres et marines, à travers le monde. Les régions les plus protégées se trouvent souvent en Afrique, en Amérique du Sud et en Asie du Sud-Est. Cependant, certaines zones, notamment dans les océans et les pays moins développés, restent sous-protégées.
 
 ## Question 9
+En Afrique du Sud, la création de réserves naturelles comme le parc national Kruger a permis de protéger les écosystèmes et de favoriser la croissance des populations animales. L'utilisation de technologies de surveillance a également aidé à réduire le braconnage.
+
+## Question 10
+L'exemple présenté dans le document pour illustrer le potentiel d'extension de la conservation marine est la Zone Protégée des Îles Phénix, administrée par la République de Kiribati. Établie en 2008 et désignée comme site du patrimoine mondial de l'UNESCO, cette zone protégée couvre plus de 400 000 kilomètres carrés, démontrant un engagement significatif envers la protection des environnements marins.
+
+## Question 11
+Selon de nombreux experts, les mesures de conservation actuelles ne sont pas suffisantes pour assurer la santé à long terme de la planète. Par exemple, le biologiste distingué E.O. Wilson préconise l'initiative "Half-Earth", suggérant que 50 % de la surface de la Terre devrait être protégée pour maintenir des populations saines de la majorité des espèces végétales et animales et assurer la biodiversité naturelle dont les humains dépendent.
+
+## Question 12
+La Colombie-Britannique est un site important au Canada en raison de sa riche biodiversité et de la présence de nombreux écosystèmes uniques. La province abrite 224 espèces en péril, menacées ou préoccupantes, selon l'annexe 1 de la Loi sur les espèces en péril du Canada (SARA), ce qui en fait une région cruciale pour les efforts de conservation. Cependant, malgré cette richesse biologique, la Colombie-Britannique ne dispose pas de sa propre loi provinciale pour protéger les espèces en danger, ce qui laisse de nombreuses espèces vulnérables sur les terres provinciales.
+
+## Question 13
