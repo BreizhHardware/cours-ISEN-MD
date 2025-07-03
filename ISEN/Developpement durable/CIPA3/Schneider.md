@@ -51,3 +51,14 @@ Schneider Electric a été nommée l'entreprise la plus durable au monde en 2025
 Schneider Electric a été reconnue comme l'entreprise la plus durable au monde par Corporate Knights pour la deuxième fois, devenant ainsi la première entreprise à remporter ce titre deux fois. Cette reconnaissance est significative et coïncide avec la conclusion de son dernier programme quinquennal de durabilité. L'entreprise a été présente dans le Global 100 pendant 14 années consécutives, avec sept apparitions dans le top 10[14](https://sustainabilitymag.com/articles/schneider-electric-the-worlds-most-sustainable-company).
 
 Schneider Electric a été nommée "Entreprise la plus durable au monde 2025" par le magazine TIME et Statista. Il s'agit de la deuxième année consécutive où Schneider Electric figure en tête de la liste des 500 entreprises les plus durables au monde. Cette reconnaissance reflète les progrès constants de Schneider Electric vers ses propres objectifs de durabilité, ainsi que son engagement à aider ses clients et ses partenaires à atteindre leurs objectifs de durabilité[15](https://electrotechnicalnews.com/schneider-electric-named-the-worlds-most-sustainable-company-by-time-magazine/).
+
+
+
+# Conclusion
+
+Schneider Electric, en tant que leader mondial dans la gestion de l'énergie et de l'automatisation, a démontrée un engagement profond et continu envers la durabilité et la lutte contre le changement climatique. À travers ses initiatives et programmes, l'entreprise a non seulement atteint, mais souvent dépassé ses objectifs de durabilité, étabilissant des normes élevées pour l'industrie.
+
+Dans le contexte des enjeux climatiques, Schneider Electric a pris des meusures significatives pour réduire l'impact environnemental des industries. Elle a mis en place des solutions innovantes pour améliorer l'efficacité énergétique et réduire les émissions de carbone, tout en promouvant l'utilisation de sources d'énergie renouvelable. Ces efforts sont essentiels pour répondre aux attentes des parties prenantes, notamment les clients, les investisseurs, les employés et les ONG, qui cherchent tous à voir l'entreprise intégrer activement la durabilité dans ses opérations quotidiennes et ses décisions stratégiques.
+
+Les engagements climatiques de Schneider Electric sont ambitieux et bien définis. L'entreprise s'est engagée à atteindre un objectif Net-Zéro validé par l'initiative Science Based Targets, avec une réduction de 25% des émissions de CO2 sur l'ensemble de leur chaîne de valeur d'ici 2030 et la neutralité carbone d'ici 2050. Des programmes comme RE100 et EP100 montrent leur engagement à utiliser 100% d'énergies renouvelables et à doubler la productivité énergétique d'ici 2030. Le projet Zéro Carbone vise à aider 1000 fournisseurs majeurs à réduire de 50% leurs émissions de CO2 d'ici la fin d'année.
+

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ISEN/Developpement durable/CIPA3/Développement durable Cours 3.md",
+                "file": "ISEN/Developpement durable/CIPA3/Schneider.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Développement durable Cours 3"
+              "title": "Schneider"
             }
           },
           {
@@ -79,8 +79,7 @@
               "title": "Energie Cours 4"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -252,11 +251,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "14045e30aacf0836",
+  "active": "8d1357b51450a4a1",
   "lastOpenFiles": [
-    "ISEN/Developpement durable/CIPA3/Question oral.md",
-    "ISEN/Energie/CIPA3/Text oral.md",
     "ISEN/Developpement durable/CIPA3/Développement durable Cours 3.md",
+    "ISEN/Energie/CIPA3/Text oral.md",
+    "ISEN/Developpement durable/CIPA3/Question oral.md",
     "ISEN/Developpement durable/CIPA3/Développement durable Cours 3.pdf",
     "ISEN/Developpement durable/CIPA3/Matrice Industrie.md",
     "ISEN/Developpement durable/CIPA3/Développement durable Cours 2.md",
