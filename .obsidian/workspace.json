@@ -8,30 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "8d1357b51450a4a1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ISEN/Energie/CIPA3/Text oral.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Text oral"
-            }
-          },
-          {
             "id": "14045e30aacf0836",
             "type": "leaf",
             "state": {
@@ -53,30 +29,6 @@
               },
               "icon": "lucide-file",
               "title": "Text oral"
-            }
-          },
-          {
-            "id": "50bd388c21663835",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ISEN/Energie/CIPA3/Energie Cours 4.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Energie Cours 4"
             }
           }
         ]
@@ -251,44 +203,44 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "8d1357b51450a4a1",
+  "active": "622da1d4e0ba0f73",
   "lastOpenFiles": [
+    "ISEN/Energie/CIPA3/Exposé_FISA3N/EXP9_La recuperation de l energie de la houle_OK_partie2.pdf",
+    "ISEN/Energie/CIPA3/Exposé_FISA3N/EXP8_microgrid_insulaire_OK.pdf",
+    "ISEN/Energie/CIPA3/Exposé_FISA3N/EXP7_La Gestion de l'Equilibre entre l'Ofre et la Demande_OK.pdf",
+    "ISEN/Energie/CIPA3/Exposé_FISA3N/EXP6_Maintenance RTE_OK.pdf",
+    "ISEN/Energie/CIPA3/Exposé_FISA3N/EXP5_Véhicule PaC_partie 1_V2.pdf",
+    "ISEN/Energie/CIPA3/Exposé_FISA3N/EXP4_Le véhicule électrifié_V2_OK.pdf",
+    "ISEN/Energie/CIPA3/Exposé_FISA3N/EXP3_Batteries_V1_OK.pdf",
+    "ISEN/Energie/CIPA3/Exposé_FISA3N/EXP2_transition_60_renouvelable_OK.pdf",
+    "ISEN/Energie/CIPA3/Exposé_FISA3N/EXP1_Transition énergétique insulaire_OK.pdf",
+    "ISEN/Energie/CIPA3/Exposé_FISA3N/EXP11_pourquoi-chercher-convertir-energies-renouvelables-mer-2.pdf",
+    "ISEN/Energie/CIPA3/Exposé_FISA3N/EXP10_Hydrolien_OK.pdf",
+    "ISEN/Energie/CIPA3/Text oral.md",
     "ISEN/Developpement durable/CIPA3/Schneider.md",
     "ISEN/Developpement durable/CIPA3/Développement durable Cours 3.md",
-    "ISEN/Energie/CIPA3/Text oral.md",
     "ISEN/Developpement durable/CIPA3/Question oral.md",
-    "ISEN/Developpement durable/CIPA3/Développement durable Cours 3.pdf",
     "ISEN/Developpement durable/CIPA3/Matrice Industrie.md",
     "ISEN/Developpement durable/CIPA3/Développement durable Cours 2.md",
     "ISEN/Developpement durable/CIPA3/Developpement durable Cours 1.md",
     "ISEN/Developpement durable/CIPA3/Figure Félix Marquet.md",
-    "ISEN/Developpement durable/CIPA3/Figure Félix Marquet.pdf",
     "ISEN/STM32/CIPA3/STM32 Cours 3.md",
     "ISEN/STM32/CIPA3/STM32 Cours 2.md",
     "ISEN/STM32/CIPA3/STM32 Cours 1.md",
     "ISEN/Energie/CIPA3/Energie Cours 1.md",
     "ISEN/STM32/CIPA3/STM32 TD 2.md",
-    "ISEN/Energie/CIPA3/Energie-Puissance Seances 1 et 2 .pdf",
-    "ISEN/Energie/CIPA3/EnrA3 - Réseau Séances 3 et 4.pdf",
-    "ISEN/Energie/CIPA3/Nucleaire Séance 5.pdf",
-    "ISEN/Energie/CIPA3/Eolien_Hydrolien Séances 6 et 7_V2.pdf",
-    "ISEN/Energie/CIPA3/Production energie PV séances 8_V2.pdf",
     "ISEN/STM32/CIPA3/STM32 Cours 5.md",
     "ISEN/STM32/CIPA3/STM32 Cours 4.md",
-    "ISEN/STM32/CIPA3/TD1_STM32_Eleves_2023.pdf",
-    "ISEN/Developpement durable/CIPA3/Figure Clarisse Andral et Félix Marquet.pdf",
     "ISEN/ELA/TP/Conclusion Oscillateurs à relaxation.md",
     "ISEN/Energie/CIPA3/Energie Cours 5.md",
     "ISEN/Energie/CIPA3/Energie Cours 4.md",
     "ISEN/Energie/CIPA3/Energie Cours 3.md",
     "ISEN/Energie/CIPA3/Energie Cours 2.md",
     "ISEN/STM32/CIPA3/STM32 TP 1.md",
-    "ISEN/ELA/TP/Conclusion Oscillateurs à relaxation.pdf",
     "ISEN/ELA/TP/Conclusion Oscillateur a pont de wien.md",
     "ISEN/ELA/TP/Compte rendu TP Amplificateur Opérationnel et Contre-Réaction.md",
     "ISEN/Daily/31-03-2025.md",
     "ISEN/Daily/31-12-2024.md",
-    "ISEN/Daily/30-11-2024.md",
     "Pasted image 20250610091125.png",
     "ISEN/Physique/CIPA3/TP Magnétisme/plot_2025-04-16 21-25-34_1.png",
     "ISEN/Physique/CIPA3/TP Magnétisme/plot_2025-04-16 21-25-34_0.png",
