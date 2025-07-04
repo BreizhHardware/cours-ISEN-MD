@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ISEN/Developpement durable/CIPA3/Schneider.md",
+                "file": "ISEN/Energie/CIPA3/Text oral.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Schneider"
+              "title": "Text oral"
             }
           },
           {
@@ -253,6 +253,7 @@
   },
   "active": "8d1357b51450a4a1",
   "lastOpenFiles": [
+    "ISEN/Developpement durable/CIPA3/Schneider.md",
     "ISEN/Developpement durable/CIPA3/Développement durable Cours 3.md",
     "ISEN/Energie/CIPA3/Text oral.md",
     "ISEN/Developpement durable/CIPA3/Question oral.md",
@@ -262,7 +263,6 @@
     "ISEN/Developpement durable/CIPA3/Developpement durable Cours 1.md",
     "ISEN/Developpement durable/CIPA3/Figure Félix Marquet.md",
     "ISEN/Developpement durable/CIPA3/Figure Félix Marquet.pdf",
-    "ISEN/Developpement durable/CIPA3/Schneider.md",
     "ISEN/STM32/CIPA3/STM32 Cours 3.md",
     "ISEN/STM32/CIPA3/STM32 Cours 2.md",
     "ISEN/STM32/CIPA3/STM32 Cours 1.md",
