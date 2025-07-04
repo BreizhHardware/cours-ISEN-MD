@@ -1,4 +1,4 @@
-Les véhicules à hydrogène représentent une avancée significative dans le domaine de la mobilité durable. Plusieurs constructeurs automobiles, dont Toyota, Hyundai, BMW et Mercedes, ont déjà commercialisé des modèles utilisant cette technologie. Cependant chaque constructeur à sa propre stratégie.
+Plusieurs constructeurs automobiles, dont Toyota, Hyundai, BMW et Mercedes, ont déjà commercialisé des modèles utilisant cette technologie. Cependant chaque constructeur à sa propre stratégie.
 
 Par exemple ici vous pouvez voir une Mercedes GLC F-Cell en train de faire le plein, cette voiture est équipé d’une micro-hybridation propulsé par une pile à combustible. Et ici une toyota Mirai qui elle est 100% éléctrique et alimenté par une PAC.
 
