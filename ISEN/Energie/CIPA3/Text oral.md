@@ -6,8 +6,4 @@ En France fin 2024, on compte 1385 voiture propulsé par hydrogène, pour une au
 
 Prenons l'exemple du Hyundai Nexo, un véhicule à pile à combustible qui illustre les progrès technologiques dans ce secteur. Le Nexo offre une autonomie de 666 kilomètres selon le cycle WLTP, comparable à celle des véhicules thermiques traditionnels (par exemple 850 km WTLP pour une Renault AUSTRAL, et 540 Km WLTP pour une Hyundai Ioniq 5) grace à sa PAC de 95 kW. Un avantage notable est son temps de recharge : seulement cinq minutes pour faire le plein, similaire à celui des véhicules à carburant fossile.
 
-Sur le plan environnemental, le Nexo ne rejette que de l'eau, ce qui en fait une solution propre pour la mobilité. Avec une puissance de 163 chevaux, il offre des performances correcte dans sa catégorie si on ne prends pas en compte le prix d'environ 80 600 euros, reflétant le coût encore élevé des technologies à hydrogène. Ce prix est justifié par les performances environnementales et technologiques du véhicule.
-
-La Hyundai Nexo rejette **9,5 kg/100 km** contre **102g/km** pour la Renault Austral.
-
-En conclusion, les véhicules à hydrogène comme le Hyundai Nexo constituent une alternative écologique et performante aux véhicules traditionnels. Avec des autonomies comparables, des temps de recharge rapides et des émissions nulles, ils pourraient jouer un rôle clé dans la transition vers une mobilité plus durable.
+Sur le plan environnemental, le Nexo ne rejette que de l'eau, ce qui en fait une solution propre pour la mobilité. Avec une puissance de 163 chevaux, il offre des performances correcte dans sa catégorie si on ne prends pas en compte le prix d'environ 80 600 euros, reflétant le coût encore élevé des technologies à hydrogène.
