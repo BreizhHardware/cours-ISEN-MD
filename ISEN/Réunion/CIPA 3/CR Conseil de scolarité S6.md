@@ -1,7 +1,4 @@
 #CIPA3 #ConseilDeScolarité 
-**Ambiance générale** **:**
-
-
 **Disciplines** **:**
 
 **Mathématiques (Houssem Gazzah) :** 
@@ -42,16 +39,16 @@ Prof: Pas de retour
 
 **Anglais (Karina Biles)** : 
 Prof: Pas de retour
-Attention au TOIEIC, il faut passer la vitesse superieur surtout pour l'international
+Attention au TOIEIC, il faut passer la vitesse supérieure surtout pour l'international
 
 **Développement Durable (Pauline Depuydt)** : 
-Prof: Très bien passé, groupe très varié sur l'interessement. Mais investissement correct. 
+Prof: Très bien passé, groupe très varié sur l'intéressement. Mais investissement correct. 
 
 **UE entreprise:**
-Retour après la periode en cours. ATTENTION aux évalutations et objectif. Les évalutations sont a faire de préférences avec l'
+Retour après la période en cours. ATTENTION aux évaluations et objectif. Les évaluations sont à faire de préférences avec l'apprenti. Si pas de retour validation reportée au conseil suivant. Décision pour les rattrapages en septembre.
 
 **Divers** **:**
 
 2 groupes en FISA4 donc majorité des cours en demi classe
 
-Sur le point des notes: Demander les copies plutôt que de les attendres sur Aurion (15 jours après le DS). Ne pas faire de calcul sur nos moyennes en fonction des notes
+Sur le point des notes: demander les copies plutôt que de les attendre sur Aurion (15 jours après le DS). Ne pas faire de calcul sur nos moyennes en fonction des notes
