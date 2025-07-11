@@ -20,33 +20,35 @@ Prof (Flo): Trop d'utilisation de ChatGPT puis demande de correction de ChatGPT.
 Prof: Avant Big Data mais on utilise quand même R. Gros programme de Stats donc compliqué à tenir. Cours enrichissant
 
 **Électronique Analogique TP (Frederic Queudet) :** 
-Prof: 
+Prof: Classe agréable mais parfois on survole les notions, grande disparité de niveau. 
 
 **Informatique Python (Florian Bescher)** **:** 
 Prof: Classe sérieuse et travailleuse, très bon rendu sur le projet
 
 **Energie (Elhoussin Elbouchikhi) :** 
-Prof: Classe relativement agréable mais pas intéressé (peu d'intéraction). Probablement parce que le cours est trop tard dans l'année. Il a beaucoup apprécié les exposés.
+Prof: Classe relativement agréable mais pas intéressé (peu d'interaction). Probablement parce que le cours est trop tard dans l'année. Il a beaucoup apprécié les exposés. Résultat moyen, les moyennes sont remontés grace aux exposés.
 
 **Big Data (Benoit Lardeux)** : 
  Prof: Classe agréable et impliqué. Un peu plus de difficulté sur la partie théorique face à la partie pratique
 
 **Micro-Économie (Olivier Saquet)** : 
-Prof: 
+Prof: Bon groupe, bonne participation a l'oral, compliqué a cause de la taille du groupe
 
 **Expression écrite et théâtrale (Matéo Sorin)** : 
-Prof: 
-
+Prof: Classe mature et très agréable, grande qualité dans les nouvelles et dans l'investissement. 
 
 **Sociologie, organisation de l'entreprise (Hervé Bougro)** : 
-Prof: 
+Prof: Pas de retour
 
 **Anglais (Karina Biles)** : 
-Prof: 
+Prof: Pas de retour
+Attention au TOIEIC, il faut passer la vitesse superieur surtout pour l'international
 
 **Développement Durable (Pauline Depuydt)** : 
-Prof: 
+Prof: Très bien passé, groupe très varié sur l'interessement. Mais investissement correct. 
 
+**UE entreprise:**
+Retour après la periode en cours. ATTENTION aux évalutations et objectif. Les évalutations sont a faire de préférences avec l'
 
 **Divers** **:**
 
