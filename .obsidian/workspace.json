@@ -11,24 +11,10 @@
             "id": "14045e30aacf0836",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ISEN/Réunion/CIPA 3/CR Conseil de scolarité S6.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "CR Conseil de scolarité S6"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ]
@@ -205,9 +191,9 @@
   },
   "active": "14045e30aacf0836",
   "lastOpenFiles": [
+    "ISEN/Réunion/CIPA 3/CR Conseil de scolarité S6.md",
     "ISEN/Réunion/CIPA 3/CR Conseil de scolarité S6.pdf",
     "ISEN/Energie/CIPA3/Text oral.md",
-    "ISEN/Réunion/CIPA 3/CR Conseil de scolarité S6.md",
     "ISEN/Energie/CIPA3/Exposé_FISA3N/EXP9_La recuperation de l energie de la houle_OK_partie2.pdf",
     "ISEN/Energie/CIPA3/Exposé_FISA3N/EXP8_microgrid_insulaire_OK.pdf",
     "ISEN/Energie/CIPA3/Exposé_FISA3N/EXP7_La Gestion de l'Equilibre entre l'Ofre et la Demande_OK.pdf",
@@ -217,7 +203,6 @@
     "ISEN/Energie/CIPA3/Exposé_FISA3N/EXP3_Batteries_V1_OK.pdf",
     "ISEN/Energie/CIPA3/Exposé_FISA3N/EXP2_transition_60_renouvelable_OK.pdf",
     "ISEN/Energie/CIPA3/Exposé_FISA3N/EXP1_Transition énergétique insulaire_OK.pdf",
-    "ISEN/Energie/CIPA3/Exposé_FISA3N/EXP11_pourquoi-chercher-convertir-energies-renouvelables-mer-2.pdf",
     "ISEN/Developpement durable/CIPA3/Schneider.md",
     "ISEN/Developpement durable/CIPA3/Développement durable Cours 3.md",
     "ISEN/Developpement durable/CIPA3/Question oral.md",
