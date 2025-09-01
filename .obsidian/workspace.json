@@ -13,6 +13,54 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "ISEN/Réunion/CIPA 4/Rentrée 2025-2026.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Rentrée 2025-2026"
+            }
+          },
+          {
+            "id": "9a73acbd78182e8c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ISEN/Réunion/CIPA 3/Départ en entreprise 1 20-09-2024.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Départ en entreprise 1 20-09-2024"
+            }
+          },
+          {
+            "id": "89d36436e5c74b5f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "ISEN/Réunion/CIPA 3/Rentrée 2024-25.md",
                 "mode": "source",
                 "source": false,
@@ -30,21 +78,8 @@
               "icon": "lucide-file",
               "title": "Rentrée 2024-25"
             }
-          },
-          {
-            "id": "89d36436e5c74b5f",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.9.12"
-              },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.9.12"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -217,8 +252,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "89d36436e5c74b5f",
+  "active": "14045e30aacf0836",
   "lastOpenFiles": [
+    "ISEN/Réunion/CIPA 3/Départ en entreprise 1 20-09-2024.md",
+    "ISEN/Réunion/CIPA 4/Rentrée 2025-2026.md",
+    "ISEN/Réunion/CIPA 3/Rentrée 2024-25.md",
+    "ISEN/Réunion/CIPA 4",
     "ISEN/Réunion/CIPA 3/CR Conseil de scolarité S6.md",
     "ISEN/Réunion/CIPA 3/CR Conseil de scolarité S6.pdf",
     "ISEN/Energie/CIPA3/Text oral.md",
@@ -230,7 +269,6 @@
     "ISEN/Energie/CIPA3/Exposé_FISA3N/EXP4_Le véhicule électrifié_V2_OK.pdf",
     "ISEN/Energie/CIPA3/Exposé_FISA3N/EXP3_Batteries_V1_OK.pdf",
     "ISEN/Energie/CIPA3/Exposé_FISA3N/EXP2_transition_60_renouvelable_OK.pdf",
-    "ISEN/Energie/CIPA3/Exposé_FISA3N/EXP1_Transition énergétique insulaire_OK.pdf",
     "ISEN/Developpement durable/CIPA3/Schneider.md",
     "ISEN/Developpement durable/CIPA3/Développement durable Cours 3.md",
     "ISEN/Developpement durable/CIPA3/Question oral.md",
@@ -252,8 +290,6 @@
     "ISEN/Energie/CIPA3/Energie Cours 2.md",
     "ISEN/STM32/CIPA3/STM32 TP 1.md",
     "ISEN/ELA/TP/Conclusion Oscillateur a pont de wien.md",
-    "ISEN/ELA/TP/Compte rendu TP Amplificateur Opérationnel et Contre-Réaction.md",
-    "ISEN/Daily/31-03-2025.md",
     "Pasted image 20250610091125.png",
     "ISEN/Physique/CIPA3/TP Magnétisme/plot_2025-04-16 21-25-34_1.png",
     "ISEN/Physique/CIPA3/TP Magnétisme/plot_2025-04-16 21-25-34_0.png",
