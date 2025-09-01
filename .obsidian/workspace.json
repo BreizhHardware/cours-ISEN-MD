@@ -30,8 +30,21 @@
               "icon": "lucide-file",
               "title": "Rentrée 2024-25"
             }
+          },
+          {
+            "id": "89d36436e5c74b5f",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.9.12"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.9.12"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -194,6 +207,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -203,7 +217,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "14045e30aacf0836",
+  "active": "89d36436e5c74b5f",
   "lastOpenFiles": [
     "ISEN/Réunion/CIPA 3/CR Conseil de scolarité S6.md",
     "ISEN/Réunion/CIPA 3/CR Conseil de scolarité S6.pdf",
