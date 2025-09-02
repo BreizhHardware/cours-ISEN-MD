@@ -126,9 +126,10 @@ Gardiens:
 Artisans:
 Guérisseurs:
 Sorciers / chamans:
-détient la mémoire et le savoir:
-pouvoir: 
-partagé ou c
+Détient la mémoire et le savoir:
+Pouvoir: 
+Partagé ou concentré ?
+Obtenir du pouvoir:
 
 ---
 &copy Félix MARQUET
