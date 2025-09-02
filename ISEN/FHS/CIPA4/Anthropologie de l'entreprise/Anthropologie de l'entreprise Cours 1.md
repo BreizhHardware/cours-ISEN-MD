@@ -84,8 +84,12 @@ Elle incorpore à la fois:
 - Des hypothèses fondamentales inconscientes
 
 ### Exercice
-Notion de culture d'entreprise: 1980 pour pallier aux défaillances des doctrines et des outils de management classiques et rationnels;
+Notion de culture d'entreprise: 1980 pour pallier aux défaillances des doctrines et des outils de management classiques et rationnels, aux pressions de leurs environnements divers. Manifestation, codes, savoirs, langages, techniques, oeuvres d'art, façons de faire et de penser.
 
 Rôles, fonction (3 mots clés): Améliorer l'intégration des salarié et/ou leur motivation, reconstituer une forme de pérennité et flexibilité stratégique et organisationnelle
 
-Sur quoi se construit la culture d'entreprise ? Sur quoi repose t elle ?: 
+Sur quoi se construit la culture d'entreprise ? Sur quoi repose t elle ?: Implication des membres dans une série de projets communs. Elle se repose sur des personnes individuelles douées de savoirs, d'idées et de valeurs nécessaires à la vie collective.
+
+Quand: Année 70-80
+Comment: Sciences de gestion
+Pourquoi: 
