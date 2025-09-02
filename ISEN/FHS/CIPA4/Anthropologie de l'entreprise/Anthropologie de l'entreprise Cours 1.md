@@ -75,3 +75,6 @@ Fin du 20ème siècle: Anthropologie post-moderne
 ### Faire une "ethnologie du proche"
 Le défi n'est plus de partir loin, mais de **rendre étranger ce qui nous semble familier**.
 
+# Module 2: Faire de l'anthropologie de l'entreprise
+L'entreprise est-elle une tribu ?
+
