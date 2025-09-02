@@ -73,5 +73,5 @@ Fin du 20ème siècle: Anthropologie post-moderne
 
 ## Apprendre à prendre de la distance vis-à-vis de son objet d'étude.
 ### Faire une "ethnologie du proche"
-Le défi n'est plus de partir loin, mais de **rendre étrange ci qui nous semble familier**.
+Le défi n'est plus de partir loin, mais de **rendre étranger ce qui nous semble familier**.
 
