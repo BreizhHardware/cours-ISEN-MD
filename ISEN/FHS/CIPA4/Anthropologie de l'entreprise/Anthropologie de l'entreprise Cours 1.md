@@ -100,6 +100,11 @@ Pourquoi:
 Fonctions:
 - Impliquer les salariés
 	- Se sentir impliqué
+	- Faire en sorte que les motivation des salariés rejoignent les objectif de l'entreprise
 - Crée une ligne de conduite
 	- Point de repère
-	- Assure la pérénnité
+	- Assure la pérennité
+- Socialisation / Intégration
+
+---
+&copy Félix MARQUET
