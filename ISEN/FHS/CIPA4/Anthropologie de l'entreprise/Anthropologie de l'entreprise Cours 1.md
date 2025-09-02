@@ -93,3 +93,13 @@ Sur quoi se construit la culture d'entreprise ? Sur quoi repose t elle ?: Implic
 Quand: Année 70-80
 Comment: Sciences de gestion
 Pourquoi: 
+- Défaillances des doctrines de management
+- Mai 68 -> - hiérarchie, + autonomie
+- Mondialisation -> internalisation + concurrence
+- Univers professionnel se transforme -> financiarisation de l'entreprise, évolutions technologique, sous traitance, contrats courts
+Fonctions:
+- Impliquer les salariés
+	- Se sentir impliqué
+- Crée une ligne de conduite
+	- Point de repère
+	- Assure la pérénnité
