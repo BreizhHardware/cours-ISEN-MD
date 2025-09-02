@@ -83,3 +83,9 @@ Elle incorpore à la fois:
 - Des valeurs affichées et croyances adoptées
 - Des hypothèses fondamentales inconscientes
 
+### Exercice
+Notion de culture d'entreprise: 1980 pour pallier aux défaillances des doctrines et des outils de management classiques et rationnels;
+
+Rôles, fonction (3 mots clés): Améliorer l'intégration des salarié et/ou leur motivation, reconstituer une forme de pérennité et flexibilité stratégique et organisationnelle
+
+Sur quoi se construit la culture d'entreprise ? Sur quoi repose t elle ?: 
