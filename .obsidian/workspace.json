@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ISEN/Réunion/CIPA 4/Rentrée 2025-2026.md",
+                "file": "ISEN/English/CIPA4/2 sept 2025.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Rentrée 2025-2026"
+              "title": "2 sept 2025"
             }
           },
           {
@@ -252,11 +252,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "622da1d4e0ba0f73",
+  "active": "14045e30aacf0836",
   "lastOpenFiles": [
+    "ISEN/Réunion/CIPA 4/Rentrée 2025-2026.md",
+    "ISEN/English/CIPA4/2 sept 2025.md",
     "ISEN/English/CIPA4",
     "ISEN/Réunion/CIPA 3/Départ en entreprise 1 20-09-2024.md",
-    "ISEN/Réunion/CIPA 4/Rentrée 2025-2026.md",
     "ISEN/Réunion/CIPA 3/CR Conseil de scolarité S6.pdf",
     "ISEN/Réunion/CIPA 3/Rentrée 2024-25.md",
     "ISEN/Réunion/CIPA 4",
@@ -269,7 +270,6 @@
     "ISEN/Energie/CIPA3/Exposé_FISA3N/EXP5_Véhicule PaC_partie 1_V2.pdf",
     "ISEN/Energie/CIPA3/Exposé_FISA3N/EXP4_Le véhicule électrifié_V2_OK.pdf",
     "ISEN/Energie/CIPA3/Exposé_FISA3N/EXP3_Batteries_V1_OK.pdf",
-    "ISEN/Energie/CIPA3/Exposé_FISA3N/EXP2_transition_60_renouvelable_OK.pdf",
     "ISEN/Developpement durable/CIPA3/Schneider.md",
     "ISEN/Developpement durable/CIPA3/Développement durable Cours 3.md",
     "ISEN/Developpement durable/CIPA3/Question oral.md",
