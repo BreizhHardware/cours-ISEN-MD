@@ -106,5 +106,29 @@ Fonctions:
 	- Assure la pérennité
 - Socialisation / Intégration
 
+### Exercice: Et si mon entreprise était une tribu ?
+**Symboles**
+Nom de la tribu: Les gardiens du temps
+Animal totem: Hibou (Grand yeux qui regardent partout)
+Objet: Sablier
+Devise: Nous en sommes les gardiens pas les maîtres
+Couleur: Jaune sable
+**Origines et légendes**
+Légendes: 
+Récits: 
+Héros: 
+**Rôles sociaux**
+Chef/Cheffe de la tribu:
+Plusieurs chefs ?
+Rôles au sein de la tribu:
+Eclaireur:
+Gardiens:
+Artisans:
+Guérisseurs:
+Sorciers / chamans:
+détient la mémoire et le savoir:
+pouvoir: 
+partagé ou c
+
 ---
 &copy Félix MARQUET
