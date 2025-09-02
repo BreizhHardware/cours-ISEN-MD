@@ -76,5 +76,10 @@ Fin du 20ème siècle: Anthropologie post-moderne
 Le défi n'est plus de partir loin, mais de **rendre étranger ce qui nous semble familier**.
 
 # Module 2: Faire de l'anthropologie de l'entreprise
-L'entreprise est-elle une tribu ?
+## Culture d'entreprise
+La culture d'entreprise désigne un ensemble de valeurs, croyances normes, comportements, pratique, symboles et rituels, à la fois visibles et implicites qii façonnent l'identité unique d'une organisation et guident ses interactions internes et externes.
+Elle incorpore à la fois: 
+- Des artéfacts pratiques et visibles
+- Des valeurs affichées et croyances adoptées
+- Des hypothèses fondamentales inconscientes
 
