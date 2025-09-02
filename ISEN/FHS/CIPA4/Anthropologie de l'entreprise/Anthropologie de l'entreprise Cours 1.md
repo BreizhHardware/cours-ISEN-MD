@@ -49,6 +49,13 @@ Début du 20ème siècle: Anthropologie culturaliste
 		Chaque culture est unique, cohérente et doit être comprise de l'intérieur, selon ses propres logiques.
 		Il n'y a pas de trajectoire unique, juste des cultures différentes.
 
+Fin du 20ème siècle: Anthropologie post-moderne
+	Idée centrales
+		L'anthropologue ne peut plus prétendre être neutre, objectif au dessus de la culture qu'il étudie. La connaissance produite est située, influencée par des rapports de pouvoir
+		"Ethnologie du proche": analyse de l'Occident moderne. Le regard ethnographique se tourne vers "nous-mêmes".
+
+### 4 examples d'études en anthropologie contemporaine
+1. Michiel Agier - "L"
 
 ## Comprendre la posture de l'anthropologue.
 
