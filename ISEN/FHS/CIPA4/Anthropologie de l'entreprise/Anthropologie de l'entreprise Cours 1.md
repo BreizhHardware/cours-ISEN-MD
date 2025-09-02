@@ -54,9 +54,24 @@ Fin du 20ème siècle: Anthropologie post-moderne
 		L'anthropologue ne peut plus prétendre être neutre, objectif au dessus de la culture qu'il étudie. La connaissance produite est située, influencée par des rapports de pouvoir
 		"Ethnologie du proche": analyse de l'Occident moderne. Le regard ethnographique se tourne vers "nous-mêmes".
 
-### 4 examples d'études en anthropologie contemporaine
-1. Michiel Agier - "L"
-
 ## Comprendre la posture de l'anthropologue.
+### 4 examples d'études en anthropologie contemporaine
+1. Michiel Agier - "La Jungle" de Calais (2016)
+	1. Ethnographie d'un bidonville migratoire devenu un lieu de vie et une forme de ville.
+2. Didier Fassin - "La Force de l'ordre" (2021)
+	1. Une enquête ethnographique au sain d'une BAC en banlieue parisienne.
+3. Anne Gotman - "Hériter" (1988)
+	1. Une anthropologie des transmissions familiales.
+4. Jean-Didier Urbain - "Secrets de voyage" (1998)
+	1. Pionnier de l'anthropologie du tourisme. Il décrypte les comportement des touristes français, leurs rituels et comment ils cherchent à la fois l'exotime et le confort de leur familiarité.
+
+### La posture de l'anthropologue
+1. Observation participante et immersion
+2. Relativisme culturel et suspension du jugement
+3. Réflexivité critique
+
 
 ## Apprendre à prendre de la distance vis-à-vis de son objet d'étude.
+### Faire une "ethnologie du proche"
+Le défi n'est plus de partir loin, mais de **rendre étrange ci qui nous semble familier**.
+
