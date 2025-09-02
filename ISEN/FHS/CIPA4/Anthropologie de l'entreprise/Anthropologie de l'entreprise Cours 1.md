@@ -29,6 +29,27 @@ Elle étudie les sociétés humaines dans toute leur diversité et notamment:
 - Le corps, la santé, le genre, la sexualité
 
 C'est une discipline née au 19 ème siècle.
+
+Milieu du 19ème siècle: Anthropologie évolutionniste:
+	Idée centrale
+		- Les sociétés humaines évoluent selon une progression linéaire
+			de la sauvagerie -> à la barbarie -> à la civilisation
+		  L'Europe est au somment de cette évolution tandis que les peuples "primitifs" représentent les stades antérieurs de cette évolution.
+
+Milieu du 19ème siècle: Anthropologie physique:
+	Idée centrale
+		On peut classer les populations humaines selon des critères corporels.
+		On peut ainsi:
+			- Hiérarchiser les "races", en plaçant les Européens tout en haut
+			- Justifier la colonisation
+
+Début du 20ème siècle: Anthropologie culturaliste
+	Idée centrale
+		C'est la culture, et non la race ou la biologie, qui façonne le comportement humain.
+		Chaque culture est unique, cohérente et doit être comprise de l'intérieur, selon ses propres logiques.
+		Il n'y a pas de trajectoire unique, juste des cultures différentes.
+
+
 ## Comprendre la posture de l'anthropologue.
 
 ## Apprendre à prendre de la distance vis-à-vis de son objet d'étude.
