@@ -14,11 +14,12 @@
 |                Module                | Interv | Heures |
 | :----------------------------------: | :----: | :----: |
 |        De l'expert au profane        |   MS   |   15   |
-|           Design thinking            |        |   30   |
-|    Macroéconomie et géopolitique     |        |   15   |
-|      Stratégie des entreprises       |        |   15   |
-| Droit social et éthique industrielle |        |   30   |
-|    Hygiène et sécurité au travail    |        |   30   |
-| Gestion de projet - qualité - sureté |        |   30   |
-|      Management des transition       |        |   30   |
+|           Design thinking            |  TBD   |   30   |
+|    Macroéconomie et géopolitique     |  TBD   |   15   |
+|      Stratégie des entreprises       |  TBD   |   15   |
+| Droit social et éthique industrielle |  TBD   |   30   |
+|    Hygiène et sécurité au travail    |  TBD   |   30   |
+| Gestion de projet - qualité - sureté |  TBD   |   30   |
+|      Management des transition       |  TBD   |   30   |
+TBD = To Be Defined
 
