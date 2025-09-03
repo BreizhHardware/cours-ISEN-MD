@@ -20,54 +20,19 @@
             }
           },
           {
-            "id": "825c97032d95590d",
+            "id": "de73955bd240465b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "ISEN/Réunion/CIPA 3/Départ en entreprise 1 20-09-2024.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
+                "file": "ISEN/Traitement du signal/CIPA4/TD/TD1_signal_m1_original.pdf"
               },
-              "icon": "lucide-file",
-              "title": "Départ en entreprise 1 20-09-2024"
-            }
-          },
-          {
-            "id": "89d36436e5c74b5f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ISEN/Réunion/CIPA 3/Rentrée 2024-25.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Rentrée 2024-25"
+              "icon": "lucide-file-text",
+              "title": "TD1_signal_m1_original"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -240,8 +205,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "14045e30aacf0836",
+  "active": "de73955bd240465b",
   "lastOpenFiles": [
+    "ISEN/Traitement du signal/CIPA4/Cours/chap1_rappels.pdf",
+    "ISEN/Traitement du signal/CIPA4/TD/TD1_signal_m1_original.pdf",
     "ISEN/Traitement du signal/CIPA4/Cours/chap1res.pdf",
     "ISEN/FHS/CIPA4/Anthropologie de l'entreprise/Anthropologie de l'entreprise Cours 1.md",
     "ISEN/Traitement du signal/CIPA4/TP/TP4/DS2425cipa1.wav",
@@ -252,8 +219,6 @@
     "ISEN/Traitement du signal/CIPA4/TP/TP4/DS2425cipa6.wav",
     "ISEN/Traitement du signal/CIPA4/TP/TP4/DS2425cipa7.wav",
     "ISEN/Traitement du signal/CIPA4/TP/TP4/DS2425cipa8.wav",
-    "ISEN/Traitement du signal/CIPA4/TP/TP4/DS2425cipa9.wav",
-    "ISEN/Traitement du signal/CIPA4/TP/TP4/DS2425cipa10.wav",
     "ISEN/FHS/CIPA3/Sociologie et organisation entreprises/Sociologie et organisation entreprises Cours 1.md",
     "ISEN/English/CIPA4/2 sept 2025.md",
     "ISEN/Réunion/CIPA 4/Rentrée 2025-2026.md",
