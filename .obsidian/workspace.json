@@ -11,14 +11,24 @@
             "id": "14045e30aacf0836",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": "ISEN/IA/CIPA4/TP/TP1/tp1_IA.ipynb",
-                "bFile": "ISEN/IA/CIPA4/TP/TP1/tp1_IA.ipynb",
-                "aRef": ""
+                "file": "ISEN/Réunion/CIPA 4/Rentrée 2025-2026.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
-              "icon": "diff",
-              "title": "Diff: tp1_IA.ipynb"
+              "icon": "lucide-file",
+              "title": "Rentrée 2025-2026"
             }
           },
           {
@@ -208,6 +218,8 @@
   },
   "active": "14045e30aacf0836",
   "lastOpenFiles": [
+    "ISEN/Réunion/CIPA 4/Réunion FHS Rentrée 2025.md",
+    "ISEN/Réunion/CIPA 4/Rentrée 2025-2026.md",
     "ISEN/IA/CIPA4/Cours/CM1_KOA-IA-Generalites-CIPA4.pdf",
     "ISEN/IA/CIPA4/TP/TP1/tp1_IA.ipynb",
     "ISEN/IA/CIPA4/TP/TP1/tp1_IA.pdf",
@@ -218,15 +230,12 @@
     "ISEN/IA/CIPA4/TP/TP1",
     "ISEN/IA/CIPA4/TP",
     "ISEN/IA/CIPA4/Cours",
-    "ISEN/Réunion/CIPA 4/Réunion FHS Rentrée 2025.md",
     "ISEN/IA/CIPA4",
     "ISEN/IA",
     "ISEN/Traitement du signal/CIPA4/Cours/chap1_rappels.pdf",
-    "ISEN/Traitement du signal/CIPA4/TD/TD1_signal_m1_original.pdf",
     "ISEN/FHS/CIPA4/Anthropologie de l'entreprise/Anthropologie de l'entreprise Cours 1.md",
     "ISEN/FHS/CIPA3/Sociologie et organisation entreprises/Sociologie et organisation entreprises Cours 1.md",
     "ISEN/English/CIPA4/2 sept 2025.md",
-    "ISEN/Réunion/CIPA 4/Rentrée 2025-2026.md",
     "ISEN/Réunion/CIPA 3/Départ en entreprise 1 20-09-2024.md",
     "ISEN/Réunion/CIPA 3/Rentrée 2024-25.md",
     "ISEN/Réunion/CIPA 3/CR Conseil de scolarité S6.md",
