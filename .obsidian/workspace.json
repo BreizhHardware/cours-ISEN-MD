@@ -11,12 +11,14 @@
             "id": "14045e30aacf0836",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "split-diff-view",
               "state": {
-                "file": "ISEN/IA/CIPA4/Cours/CM1_KOA-IA-Generalites-CIPA4.pdf"
+                "aFile": "ISEN/IA/CIPA4/TP/TP1/tp1_IA.ipynb",
+                "bFile": "ISEN/IA/CIPA4/TP/TP1/tp1_IA.ipynb",
+                "aRef": ""
               },
-              "icon": "lucide-file-text",
-              "title": "CM1_KOA-IA-Generalites-CIPA4"
+              "icon": "diff",
+              "title": "Diff: tp1_IA.ipynb"
             }
           },
           {
@@ -206,10 +208,10 @@
   },
   "active": "14045e30aacf0836",
   "lastOpenFiles": [
+    "ISEN/IA/CIPA4/Cours/CM1_KOA-IA-Generalites-CIPA4.pdf",
     "ISEN/IA/CIPA4/TP/TP1/tp1_IA.ipynb",
     "ISEN/IA/CIPA4/TP/TP1/tp1_IA.pdf",
     "ISEN/IA/CIPA4/TP/TP1/california.png",
-    "ISEN/IA/CIPA4/Cours/CM1_KOA-IA-Generalites-CIPA4.pdf",
     "ISEN/IA/CIPA4/IA Cours 1.md",
     "ISEN/IA/CIPA4/TP/TP1/california 1.png",
     "ISEN/IA/CIPA4/TP/TP1/housing.csv",
