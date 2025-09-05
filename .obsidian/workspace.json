@@ -11,12 +11,24 @@
             "id": "14045e30aacf0836",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "ISEN/BDD/CIR2/PostgreSQLInstallCIR2.pdf"
+                "file": "ISEN/BDD/CIPA4/BDD Cours 1.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
-              "icon": "lucide-file-text",
-              "title": "PostgreSQLInstallCIR2"
+              "icon": "lucide-file",
+              "title": "BDD Cours 1"
             }
           },
           {
@@ -204,8 +216,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "622da1d4e0ba0f73",
+  "active": "14045e30aacf0836",
   "lastOpenFiles": [
+    "ISEN/BDD/CIR2/sakila(1).zip",
+    "ISEN/BDD/CIR2/clearTV.sql",
+    "ISEN/BDD/CIR2/PostgreSQLInstallCIR2.pdf",
+    "ISEN/BDD/CIPA4/BDD Cours 1.md",
+    "ISEN/BDD/CIPA4",
     "ISEN/BDD/CIR2",
     "ISEN/Réunion/CIPA 4/Rentrée 2025-2026.md",
     "ISEN/Réunion/CIPA 4/Réunion FHS Rentrée 2025.md",
@@ -218,10 +235,6 @@
     "ISEN/IA/CIPA4/TP/TP1/housing.csv",
     "ISEN/IA/CIPA4/TP/TP1",
     "ISEN/IA/CIPA4/TP",
-    "ISEN/IA/CIPA4/Cours",
-    "ISEN/IA/CIPA4",
-    "ISEN/IA",
-    "ISEN/Traitement du signal/CIPA4/Cours/chap1_rappels.pdf",
     "ISEN/FHS/CIPA4/Anthropologie de l'entreprise/Anthropologie de l'entreprise Cours 1.md",
     "ISEN/FHS/CIPA3/Sociologie et organisation entreprises/Sociologie et organisation entreprises Cours 1.md",
     "ISEN/English/CIPA4/2 sept 2025.md",
@@ -243,7 +256,6 @@
     "ISEN/STM32/CIPA3/STM32 TD 2.md",
     "ISEN/STM32/CIPA3/STM32 Cours 5.md",
     "ISEN/STM32/CIPA3/STM32 Cours 4.md",
-    "ISEN/ELA/TP/Conclusion Oscillateurs à relaxation.md",
     "Pasted image 20250610091125.png",
     "ISEN/Physique/CIPA3/TP Magnétisme/plot_2025-04-16 21-25-34_1.png",
     "ISEN/Physique/CIPA3/TP Magnétisme/plot_2025-04-16 21-25-34_0.png",
