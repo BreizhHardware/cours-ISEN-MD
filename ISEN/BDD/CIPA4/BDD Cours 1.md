@@ -30,4 +30,6 @@
 	- Oracle rachète Sun Microsystème
 		- Création de MariaDB (fork de MySQL)
 - NoSQL (ACID)
-	- BigData: Cassendra, Dynam
+	- BigData: Cassendra, DymoraDB (AWS)
+	- Document: MongoDB (JSON)
+	- Timeseries: InfluxDB
