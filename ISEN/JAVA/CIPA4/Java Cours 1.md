@@ -89,3 +89,6 @@ Même pas besoin du .class
 - L’opérateur + permet de concaténer des chaînes, et d’y inclure les valeurs de types primitifs (conversion implicite)
 - Les méthodes de la classe String permettent d’effectuer quelques opérations courantes sur les chaînes
 ![](Pasted%20image%2020250905144746.png)
+- Toute tentative de modification sur une chaîne crée une nouvelle chaîne car les chaîne sont immuables
+- **Comme en C, l’opérateur == compare l’adresse des chaînes en mémoire, et non leur contenu**
+- Pour tester si deux chaînes sont égales, il faut utiliser la méthode `equals()`

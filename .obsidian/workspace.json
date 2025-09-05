@@ -55,7 +55,8 @@
               "title": "TD1_signal_m1_original"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -228,11 +229,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "14045e30aacf0836",
+  "active": "cbcc85c28ced408b",
   "lastOpenFiles": [
-    "Pasted image 20250905144746.png",
-    "ISEN/JAVA/CIPA4/CM/01-bases.pdf",
     "ISEN/JAVA/CIPA4/Java Cours 1.md",
+    "ISEN/JAVA/CIPA4/CM/01-bases.pdf",
+    "Pasted image 20250905144746.png",
     "Pasted image 20250905144313.png",
     "Pasted image 20250610091125.png",
     "Pasted image 20240505210657.png",
@@ -276,7 +277,6 @@
     "ISEN/Energie/CIPA3/Energie Cours 1.md",
     "ISEN/STM32/CIPA3/STM32 TD 2.md",
     "ISEN/STM32/CIPA3/STM32 Cours 5.md",
-    "ISEN/Physique/CIPA3/TP Magnétisme/plot_2025-04-16 21-25-34_1.png",
     "ISEN/Modelec/NB point.canvas",
     "ISEN/Réseau/A2/TP Ansible et docker.canvas",
     "Untitled.canvas",
