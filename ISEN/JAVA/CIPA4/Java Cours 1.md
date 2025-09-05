@@ -92,3 +92,28 @@ Même pas besoin du .class
 - Toute tentative de modification sur une chaîne crée une nouvelle chaîne car les chaîne sont immuables
 - **Comme en C, l’opérateur == compare l’adresse des chaînes en mémoire, et non leur contenu**
 - Pour tester si deux chaînes sont égales, il faut utiliser la méthode `equals()`
+
+## Conversion
+- Pour convertir un nombre en chaîne, utiliser la méthode `toString()`. des classes enveloppantes
+- Pour convertir une chaîne en nombre, utiliser la méthode `parseXXX()` des classes enveloppantes
+
+## Tableaux
+- En Java, les tableaux sont des objets : ils sont donc manipulés par référence 
+- Un tableau possède un attribut `length` qui contient sa taille 
+- Initialisation d’un tableau vide
+```java
+type[] array = new type[taille];
+```
+- Java possède une boucle de type « for each » qui évite d’explicitement manipuler des indices
+```java
+int[] array = {1,2,3,4}; 
+for(int value : array){
+	System.out.println(value);
+}
+```
+### Tableaux multidimensions
+- Initialisation d’un tableau vide à N dimensions
+```java
+type[]…[][] array = new type[dim1][dim2]…[dimN]
+```
+
