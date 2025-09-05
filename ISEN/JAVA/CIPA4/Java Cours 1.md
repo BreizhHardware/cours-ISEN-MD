@@ -178,3 +178,16 @@ public class Fraction
 	}
 }
 ```
+
+## Import d'une classe
+- Pour importer une classe 
+	- `import <Nom du package>.<Nom de la classe>`
+- Pour importer toutes les classes d’un package
+	- `import <Nom du package>.*`
+
+## Créer un package
+Ajouter la ligne `package <Nom du package>` au début du fichier .java
+
+
+---
+&copy Félix MARQUET
