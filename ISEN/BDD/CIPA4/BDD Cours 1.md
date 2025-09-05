@@ -36,3 +36,5 @@
 	- Performence: Redis
 ## Année 2010
 - 2011: NewSQL
+- 2014: IOT
+- 2016: SQL2016 (JSON)
