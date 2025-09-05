@@ -37,10 +37,10 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "ISEN/JAVA/CIPA4/CM/01-bases.pdf"
+                "file": "ISEN/JAVA/CIPA4/CM/02-classes.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "01-bases"
+              "title": "02-classes"
             }
           },
           {
@@ -55,7 +55,8 @@
               "title": "TD1_signal_m1_original"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -228,17 +229,18 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "14045e30aacf0836",
+  "active": "cbcc85c28ced408b",
   "lastOpenFiles": [
-    "ISEN/JAVA/CIPA4/CM/01-bases.pdf",
     "ISEN/JAVA/CIPA4/Java Cours 1.md",
+    "ISEN/JAVA/CIPA4/CM/02-classes.pdf",
+    "Pasted image 20250905143950.png",
+    "Pasted image 20240505210657.png",
+    "ISEN/JAVA/CIPA4/CM/01-bases.pdf",
     "Pasted image 20250905144746.png",
     "Pasted image 20250905144313.png",
     "Pasted image 20250610091125.png",
-    "Pasted image 20240505210657.png",
     "Pasted image 20240505210642.png",
     "Pasted image 20250905144006.png",
-    "Pasted image 20250905143950.png",
     "ISEN/JAVA/CIPA4/CM/00-introduction.pdf",
     "ISEN/BDD/CIR2/PostgreSQLInstallCIR2.pdf",
     "ISEN/JAVA/CIPA4/CM/09-fichiers.pdf",
@@ -247,7 +249,6 @@
     "ISEN/JAVA/CIPA4/CM/06-threads.pdf",
     "ISEN/JAVA/CIPA4/CM/05-swing.pdf",
     "ISEN/JAVA/CIPA4/CM/04-classes-abstraites-interfaces.pdf",
-    "ISEN/JAVA/CIPA4/CM/03-heritage.pdf",
     "ISEN/BDD/CIPA4/BDD Cours 1.md",
     "ISEN/BDD/CIR2/TD2.canvas",
     "ISEN/BDD/CIR2/Postgre_SQL_Cheat_Sheet_3432a8648a.png",

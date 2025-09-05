@@ -63,9 +63,9 @@ Même pas besoin du .class
 ## Vérification des types
 - La vérification des types est très stricte en Java
 - A part quelques rares exceptions (autoboxing, toString (), …) il n’y a pas de conversion implicite en Java
-![](Pasted%20image%2020250905143950.png)
+![](https://cdn.breizhhardware.fr/FAKA3/XAwIJoNA16.png/raw)
 - Les nombres à virgule écrits « en dur » sont implicitement des double. Il faudra les caster explicitement lors de l’initialisation d’un float
-![](Pasted%20image%2020250905144006.png)
+![](https://cdn.breizhhardware.fr/FAKA3/cUToloJA43.png/raw)
 
 ## Types primitifs
 - Ce sont les seuls types qui ne sont pas des objets en Java 
@@ -78,7 +78,7 @@ Même pas besoin du .class
 
 ## Classes enveloppantes
 - A chaque type primitif est associé une classe
-![](Pasted%20image%2020250905144313.png)
+![](https://cdn.breizhhardware.fr/FAKA3/CoZIvIJE65.png/raw)
 - A chaque type primitif est associé une classe
 - Ces classes, appelées classes enveloppantes (wrapper classes), encapsulent des types primitifs associés
 - Comme toute fonction doit être une méthode de classe, les fonctions utilitaires permettant de manipuler chaque type se trouvent dans les classes correspondantes
@@ -88,7 +88,7 @@ Même pas besoin du .class
 - La méthode length renvoie la longueur de la chaîne 
 - L’opérateur + permet de concaténer des chaînes, et d’y inclure les valeurs de types primitifs (conversion implicite)
 - Les méthodes de la classe String permettent d’effectuer quelques opérations courantes sur les chaînes
-![](Pasted%20image%2020250905144746.png)
+![](https://cdn.breizhhardware.fr/FAKA3/riZOmISu56.png/raw)
 - Toute tentative de modification sur une chaîne crée une nouvelle chaîne car les chaîne sont immuables
 - **Comme en C, l’opérateur == compare l’adresse des chaînes en mémoire, et non leur contenu**
 - Pour tester si deux chaînes sont égales, il faut utiliser la méthode `equals()`
@@ -117,3 +117,32 @@ for(int value : array){
 type[]…[][] array = new type[dim1][dim2]…[dimN]
 ```
 
+## Entrée/Sortie
+### Classe System
+- La classe System permet d’interagir avec le système d’exploitation
+### Les flux d'entrée / sortie
+- System.out modélise la sortie standard 
+	- La méthode `print()` permet d’afficher des données avec un formatage automatique.
+	- La méthode `println()` ajoute un retour à la ligne (portable) 
+- System.in modélise l’entrée standard 
+	- La méthode `read()` permet de lire des octets. Elle est fastidieuse à utiliser car il faut manipuler les octets et faire les conversions à la main
+### Classe Scanner
+- La classe Scanner fait partie du package `java.util`
+- Elle découpe la chaîne en morceaux selon un délimiteur (espace par défaut, modifiable)
+- On peut convertir chaque morceau dans un type cible. Une exception est levée si la conversion échoue. 
+![](https://cdn.breizhhardware.fr/FAKA3/YebIHuSE31.png/raw)
+- Ne pas oublier de fermer le Scanner après utilisation, avec la méthode `close()`
+Example:
+```java
+public class HelloYou { 
+	public static void main(String[] args) 
+	{ 
+		Scanner s = new Scanner(System.in); // création du Scanner 
+		String name = s.next (); // lecture d'une chaîne bloquant 
+		System.out.println ("Hello, " + name + "!"); 
+		s.close(); // fermeture du Scanner 
+	} 
+}
+```
+
+# Classes
