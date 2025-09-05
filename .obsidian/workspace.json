@@ -11,24 +11,12 @@
             "id": "14045e30aacf0836",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "ISEN/JAVA/CIPA4/Java Cours 1.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
+                "file": "Pasted image 20250610091125.png"
               },
-              "icon": "lucide-file",
-              "title": "Java Cours 1"
+              "icon": "lucide-image",
+              "title": "Pasted image 20250610091125"
             }
           },
           {
@@ -37,10 +25,10 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "ISEN/JAVA/CIPA4/CM/00-introduction.pdf"
+                "file": "ISEN/JAVA/CIPA4/CM/01-bases.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "00-introduction"
+              "title": "01-bases"
             }
           },
           {
@@ -230,9 +218,13 @@
   },
   "active": "14045e30aacf0836",
   "lastOpenFiles": [
-    "ISEN/JAVA/CIPA4/CM/00-introduction.pdf",
-    "ISEN/JAVA/CIPA4/CM/01-bases.pdf",
+    "Pasted image 20240505210657.png",
+    "Pasted image 20240505210642.png",
     "ISEN/JAVA/CIPA4/Java Cours 1.md",
+    "Pasted image 20250905144006.png",
+    "ISEN/JAVA/CIPA4/CM/01-bases.pdf",
+    "Pasted image 20250905143950.png",
+    "ISEN/JAVA/CIPA4/CM/00-introduction.pdf",
     "ISEN/BDD/CIR2/PostgreSQLInstallCIR2.pdf",
     "ISEN/JAVA/CIPA4/CM/09-fichiers.pdf",
     "ISEN/JAVA/CIPA4/CM/08-collections.pdf",
@@ -241,7 +233,6 @@
     "ISEN/JAVA/CIPA4/CM/05-swing.pdf",
     "ISEN/JAVA/CIPA4/CM/04-classes-abstraites-interfaces.pdf",
     "ISEN/JAVA/CIPA4/CM/03-heritage.pdf",
-    "ISEN/JAVA/CIPA4/CM/02-classes.pdf",
     "ISEN/BDD/CIPA4/BDD Cours 1.md",
     "ISEN/BDD/CIR2/TD2.canvas",
     "ISEN/BDD/CIR2/Postgre_SQL_Cheat_Sheet_3432a8648a.png",
@@ -274,9 +265,6 @@
     "ISEN/Physique/CIPA3/TP Magnétisme/plot_2025-04-16 21-25-34_1.png",
     "ISEN/Physique/CIPA3/TP Magnétisme/plot_2025-04-16 21-25-34_0.png",
     "ISEN/Stat/CIPA3/Moustache phys.png",
-    "ISEN/Stat/CIPA3/Moustache maths.png",
-    "ISEN/Stat/CIPA3/histo phys classe B.png",
-    "ISEN/Stat/CIPA3/histo maths classe B.png",
     "ISEN/Modelec/NB point.canvas",
     "ISEN/Réseau/A2/TP Ansible et docker.canvas",
     "Untitled.canvas",
