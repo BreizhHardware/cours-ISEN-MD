@@ -146,3 +146,36 @@ public class HelloYou {
 ```
 
 # Classes
+## Définition d'une classe
+- Une classe possède des membres : des attributs et des méthodes 
+- Chaque membre possède une visibilité : 
+	- Privée : Uniquement accessible depuis le code des méthodes de la classe
+	- Publique : Accessible depuis n’importe où 
+	- Protected: visible des classes enfants de la classe
+	- Package private (défaut) : visible des classes du package 
+Example de classe
+```java
+public class Fraction
+{
+	private int numerator 
+	private int denominator
+	public int getNumerator() 
+	{ 
+		return this.numerator; 
+	} 
+	public void setNumerator(int numerator) 
+	{ 
+		this.numerator = numerator; 
+	}
+	public Fraction(int numerator, int denominator) 
+	{ 
+		this.setNumerator(numerator); 
+		this.setDenominator(denominator); 
+	}
+	public Fraction(int numerator)
+	{
+		this.setNumerator(numerator); 
+		this.setDenominator(1); 
+	}
+}
+```
