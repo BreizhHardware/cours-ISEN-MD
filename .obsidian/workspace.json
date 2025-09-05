@@ -37,10 +37,10 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "ISEN/JAVA/CIPA4/CM/02-classes.pdf"
+                "file": "ISEN/JAVA/CIPA4/CM/03-heritage.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "02-classes"
+              "title": "03-heritage"
             }
           },
           {
@@ -230,8 +230,9 @@
   },
   "active": "14045e30aacf0836",
   "lastOpenFiles": [
-    "ISEN/JAVA/CIPA4/CM/02-classes.pdf",
+    "ISEN/JAVA/CIPA4/CM/03-heritage.pdf",
     "ISEN/JAVA/CIPA4/Java Cours 1.md",
+    "ISEN/JAVA/CIPA4/CM/02-classes.pdf",
     "ISEN/IA/CIPA4/TP/TP1/tp1_IA.pdf",
     "Pasted image 20250905143950.png",
     "Pasted image 20240505210657.png",
@@ -247,7 +248,6 @@
     "ISEN/JAVA/CIPA4/CM/08-collections.pdf",
     "ISEN/JAVA/CIPA4/CM/07-exceptions.pdf",
     "ISEN/JAVA/CIPA4/CM/06-threads.pdf",
-    "ISEN/JAVA/CIPA4/CM/05-swing.pdf",
     "ISEN/BDD/CIPA4/BDD Cours 1.md",
     "ISEN/BDD/CIR2/TD2.canvas",
     "ISEN/BDD/CIR2/Postgre_SQL_Cheat_Sheet_3432a8648a.png",

@@ -188,6 +188,47 @@ public class Fraction
 ## Créer un package
 Ajouter la ligne `package <Nom du package>` au début du fichier .java
 
+## Membre statique
+- Un membre statique est associé à une classe (et non à une instance) 
+- On déclare un membre statique en ajoutant le mot clé static 
+- On accède à un membre statique m d’une classe C en écrivant : C.m 
+	- Un attribut statique existe même si la classe n’a jamais été instanciée 
+	- Dans le code d’une méthode statique, this n’a aucun sens. 
+- Utilisations : 
+	- Partager une information entre toutes les instances d’une classe (sorte de variable globale dans la portée de la classe) 
+	- Modéliser une information propre à la classe (ex : compteur d’instances) 
+	- Définir des fonctions utilitaires
+	- Définir des constantes
+
+## Enumeration
+- Une énumération permet de modéliser un type qui possède un nombre fini de valeurs
+Example
+```java
+public enum Color
+{ 
+	RED, 
+	BLUE, 
+	GREEN 
+}
+```
+
+## Héritage
+Déclaration d'un héritage
+```java
+public class Forme 
+{ 
+	protected Point centre;
+	public void afficher(){ System.out.println("Je suis une forme de centre " + centre); }
+} 
+
+public class Cercle extends Forme 
+{ 
+	public void afficher()
+	{ 
+		System.out.println("Je suis un cercle de centre " + centre.toString());
+	} 
+} 
+```
 
 ---
 &copy Félix MARQUET
