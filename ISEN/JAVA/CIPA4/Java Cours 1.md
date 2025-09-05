@@ -61,9 +61,31 @@ Même pas besoin du .class
 - **MAIS : Il n’est pas possible d’utiliser une variable sans l’avoir explicitement initialisée (vérifié à la compilation)**
 
 ## Vérification des types
-- La vérification des types est très stricte en Java. 
+- La vérification des types est très stricte en Java
 - A part quelques rares exceptions (autoboxing, toString (), …) il n’y a pas de conversion implicite en Java
 ![](Pasted%20image%2020250905143950.png)
 - Les nombres à virgule écrits « en dur » sont implicitement des double. Il faudra les caster explicitement lors de l’initialisation d’un float
 ![](Pasted%20image%2020250905144006.png)
 
+## Types primitifs
+- Ce sont les seuls types qui ne sont pas des objets en Java 
+- On retrouve les types de C/C++ : 
+	- boolean 
+	- char 
+	- byte 
+	- short, int , long 
+	- float , double
+
+## Classes enveloppantes
+- A chaque type primitif est associé une classe
+![](Pasted%20image%2020250905144313.png)
+- A chaque type primitif est associé une classe
+- Ces classes, appelées classes enveloppantes (wrapper classes), encapsulent des types primitifs associés
+- Comme toute fonction doit être une méthode de classe, les fonctions utilitaires permettant de manipuler chaque type se trouvent dans les classes correspondantes
+
+## Chaînes de caractères
+- En Java, les chaînes de caractères sont modélisées par la classe String
+- La méthode length renvoie la longueur de la chaîne 
+- L’opérateur + permet de concaténer des chaînes, et d’y inclure les valeurs de types primitifs (conversion implicite)
+- Les méthodes de la classe String permettent d’effectuer quelques opérations courantes sur les chaînes
+![](Pasted%20image%2020250905144746.png)

@@ -11,12 +11,24 @@
             "id": "14045e30aacf0836",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Pasted image 20250610091125.png"
+                "file": "ISEN/JAVA/CIPA4/Java Cours 1.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
-              "icon": "lucide-image",
-              "title": "Pasted image 20250610091125"
+              "icon": "lucide-file",
+              "title": "Java Cours 1"
             }
           },
           {
@@ -218,11 +230,14 @@
   },
   "active": "14045e30aacf0836",
   "lastOpenFiles": [
+    "Pasted image 20250905144746.png",
+    "ISEN/JAVA/CIPA4/CM/01-bases.pdf",
+    "ISEN/JAVA/CIPA4/Java Cours 1.md",
+    "Pasted image 20250905144313.png",
+    "Pasted image 20250610091125.png",
     "Pasted image 20240505210657.png",
     "Pasted image 20240505210642.png",
-    "ISEN/JAVA/CIPA4/Java Cours 1.md",
     "Pasted image 20250905144006.png",
-    "ISEN/JAVA/CIPA4/CM/01-bases.pdf",
     "Pasted image 20250905143950.png",
     "ISEN/JAVA/CIPA4/CM/00-introduction.pdf",
     "ISEN/BDD/CIR2/PostgreSQLInstallCIR2.pdf",
@@ -261,10 +276,7 @@
     "ISEN/Energie/CIPA3/Energie Cours 1.md",
     "ISEN/STM32/CIPA3/STM32 TD 2.md",
     "ISEN/STM32/CIPA3/STM32 Cours 5.md",
-    "Pasted image 20250610091125.png",
     "ISEN/Physique/CIPA3/TP Magnétisme/plot_2025-04-16 21-25-34_1.png",
-    "ISEN/Physique/CIPA3/TP Magnétisme/plot_2025-04-16 21-25-34_0.png",
-    "ISEN/Stat/CIPA3/Moustache phys.png",
     "ISEN/Modelec/NB point.canvas",
     "ISEN/Réseau/A2/TP Ansible et docker.canvas",
     "Untitled.canvas",
