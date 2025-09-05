@@ -215,18 +215,60 @@ public enum Color
 ## Héritage
 Déclaration d'un héritage
 ```java
+public class Point
+{
+	private int x;
+	private int y;
+	public setX(int x)
+	{
+		this.x = x;
+	}
+	public setY(int y)
+	{
+		this.y = y;
+	}
+	public Point(x, y)
+	{
+		this.setX(x);
+		this.setY(y);
+	}
+}
+
 public class Forme 
 { 
 	protected Point centre;
-	public void afficher(){ System.out.println("Je suis une forme de centre " + centre); }
+	public void afficher()
+	{ 
+		System.out.println("Je suis une forme de centre " + this.centre); 
+	}
+	public void setCentre(Point centre)
+	{
+		this.centre = centre;
+	}
+	public Forme(Point centre)
+	{ 
+		this.setCentre(centre);
+	}
 } 
 
 public class Cercle extends Forme 
 { 
+	private float rayon;
+	@Override //permet de préciser qu’une méthode est une surcharge
 	public void afficher()
 	{ 
-		System.out.println("Je suis un cercle de centre " + centre.toString());
+		super.afficher(); 
+		System.out.println("Je suis un cercle de rayon " + this.rayon);
 	} 
+	public void setRayon(float rayon)
+	{
+		this.rayon = rayon;
+	}
+	public Cercle(Point centre, float rayon)
+	{ 
+		super(centre); 
+		this.setRayon(rayon); 
+	}
 } 
 ```
 
