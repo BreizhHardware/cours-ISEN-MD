@@ -11,24 +11,12 @@
             "id": "14045e30aacf0836",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "ISEN/JAVA/CIPA4/Java Cours 1.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
+                "file": "ISEN/JAVA/CIPA4/CM/04-classes-abstraites-interfaces.pdf"
               },
-              "icon": "lucide-file",
-              "title": "Java Cours 1"
+              "icon": "lucide-file-text",
+              "title": "04-classes-abstraites-interfaces"
             }
           },
           {
