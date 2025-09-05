@@ -174,8 +174,7 @@ public class Fraction
 	}
 	public Fraction(int numerator)
 	{
-		this.setNumerator(numerator); 
-		this.setDenominator(1); 
+		this(numerator, 1);
 	}
 }
 ```
