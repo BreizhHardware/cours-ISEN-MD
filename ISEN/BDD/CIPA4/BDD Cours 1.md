@@ -22,3 +22,12 @@
 	- MySQL
 - 99: 
 	- SQL99
+## Année 2000
+- SQLite
+- 2008: SQL2008
+- 2009: 
+	- Sun Microsystème rachète MySQL
+	- Oracle rachète Sun Microsystème
+		- Création de MariaDB (fork de MySQL)
+- NoSQL (ACID)
+	- BigData: Cassendra, Dynam

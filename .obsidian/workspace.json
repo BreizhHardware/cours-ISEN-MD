@@ -37,10 +37,10 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "ISEN/BDD/CIR2/coursBDD_part2.pdf"
+                "file": "ISEN/BDD/CIR2/PostgreSQLInstallCIR2.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "coursBDD_part2"
+              "title": "PostgreSQLInstallCIR2"
             }
           },
           {
@@ -230,19 +230,19 @@
   },
   "active": "14045e30aacf0836",
   "lastOpenFiles": [
-    "ISEN/BDD/CIPA4/BDD Cours 1.md",
+    "ISEN/BDD/CIR2/PostgreSQLInstallCIR2.pdf",
     "ISEN/BDD/CIR2/coursBDD_part2.pdf",
+    "ISEN/BDD/CIPA4/BDD Cours 1.md",
+    "ISEN/BDD/CIPA4/Cours/_TP0 installation postgresql.pdf",
+    "ISEN/BDD/CIPA4/Cours",
+    "ISEN/BDD/CIPA4/dossier sans titre",
+    "ISEN/BDD/CIPA4/_TP0 installation postgresql.pdf",
     "ISEN/BDD/CIR2/coursBDD_part1.pdf",
     "ISEN/BDD/CIR2/Td3.pdf",
     "ISEN/BDD/CIR2/Td2.pdf",
     "ISEN/BDD/CIR2/TD2.canvas",
     "ISEN/BDD/CIR2/Td1.pdf",
     "ISEN/BDD/CIR2/Postgre_SQL_Cheat_Sheet_3432a8648a.png",
-    "ISEN/BDD/CIR2/PostgreSQLInstallCIR2.pdf",
-    "ISEN/BDD/CIR2/sakila(1).zip",
-    "ISEN/BDD/CIR2/clearTV.sql",
-    "ISEN/BDD/CIPA4",
-    "ISEN/BDD/CIR2",
     "ISEN/Réunion/CIPA 4/Rentrée 2025-2026.md",
     "ISEN/Réunion/CIPA 4/Réunion FHS Rentrée 2025.md",
     "ISEN/IA/CIPA4/TP/TP1/california.png",
