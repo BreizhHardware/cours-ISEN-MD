@@ -33,3 +33,6 @@
 	- BigData: Cassendra, DymoraDB (AWS)
 	- Document: MongoDB (JSON)
 	- Timeseries: InfluxDB
+	- Performence: Redis
+## Année 2010
+- 2011: NewSQL
