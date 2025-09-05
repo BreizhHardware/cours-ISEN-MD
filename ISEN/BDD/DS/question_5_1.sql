@@ -1,1 +1,0 @@
-CREATE DATABASE nouvelle_base;

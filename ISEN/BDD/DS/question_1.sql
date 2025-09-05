@@ -1,1 +1,0 @@
-SELECT username FROM users WHERE bio LIKE 'y%' OR bio LIKE 'Y%';

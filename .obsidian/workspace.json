@@ -11,24 +11,12 @@
             "id": "14045e30aacf0836",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "ISEN/Réunion/CIPA 4/Rentrée 2025-2026.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
+                "file": "ISEN/BDD/CIR2/PostgreSQLInstallCIR2.pdf"
               },
-              "icon": "lucide-file",
-              "title": "Rentrée 2025-2026"
+              "icon": "lucide-file-text",
+              "title": "PostgreSQLInstallCIR2"
             }
           },
           {
@@ -216,10 +204,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "14045e30aacf0836",
+  "active": "622da1d4e0ba0f73",
   "lastOpenFiles": [
-    "ISEN/Réunion/CIPA 4/Réunion FHS Rentrée 2025.md",
+    "ISEN/BDD/CIR2",
     "ISEN/Réunion/CIPA 4/Rentrée 2025-2026.md",
+    "ISEN/Réunion/CIPA 4/Réunion FHS Rentrée 2025.md",
     "ISEN/IA/CIPA4/Cours/CM1_KOA-IA-Generalites-CIPA4.pdf",
     "ISEN/IA/CIPA4/TP/TP1/tp1_IA.ipynb",
     "ISEN/IA/CIPA4/TP/TP1/tp1_IA.pdf",
@@ -268,7 +257,7 @@
     "Untitled.canvas",
     "ISEN/Other/Graph Overseer.canvas",
     "ISEN/Algo C/A2/TP1 Exercice 1.canvas",
-    "ISEN/BDD/TD2.canvas",
+    "ISEN/BDD/CIR2/TD2.canvas",
     "ISEN/Algo C/A2/MergeSort.canvas",
     "ISEN/FHS/A1/Stage/Organigramme Go-Recup.canvas",
     "ISEN/FHS/A1/Démocratie/Mouvement Social.canvas"

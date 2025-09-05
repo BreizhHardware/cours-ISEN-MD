@@ -1,7 +1,0 @@
-[{ "_id" : 6041, "name" : "Smith John", "gender" : "M", "age" : 28, "occupation" : "engineer" },
-{ "_id" : 6042, "name" : "Johnson Emily", "gender" : "F", "age" : 35, "occupation" : "teacher" },
-{ "_id" : 6043, "name" : "Brown Michael", "gender" : "M", "age" : 40, "occupation" : "artist" },
-{ "_id" : 6044, "name" :  "Robert Downey Jr.", "gender" : "M", "age" :  58, "occupation" : "actor/writer" },
-{ "_id" : 6045, "name" : "Acteur A", "gender" : "M", "age": 32, "occupation": "actor"},
-{}
-]

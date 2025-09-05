@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SqlDialectMappings">
+    <file url="file://$PROJECT_DIR$/ITtpisen.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/TP1.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/../TP2/TP2.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/../TP3/TP3.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/../TP4/TP4.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/../TP4/postgres-sakila-schema.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/../TP5/TP5_1.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/../TP6/TP6.sql" dialect="MongoDB" />
+    <file url="PROJECT" dialect="PostgreSQL" />
+  </component>
+</project>
