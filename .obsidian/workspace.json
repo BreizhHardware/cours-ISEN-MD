@@ -11,24 +11,12 @@
             "id": "14045e30aacf0836",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "ISEN/English/CIPA4/My CIPA3 year Reflexive feedback.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
+                "file": "ISEN/Traitement du signal/CIPA4/Cours/chap2_numerisation.pdf"
               },
-              "icon": "lucide-file",
-              "title": "My CIPA3 year Reflexive feedback"
+              "icon": "lucide-file-text",
+              "title": "chap2_numerisation"
             }
           },
           {
@@ -230,9 +218,9 @@
   },
   "active": "14045e30aacf0836",
   "lastOpenFiles": [
+    "ISEN/English/CIPA4/My CIPA3 year Reflexive feedback.md",
     "ISEN/English/CIPA4/My CIPA3 year Reflexive feedback.pdf",
     "ISEN/JAVA/CIPA4/Java Cours 1.md",
-    "ISEN/English/CIPA4/My CIPA3 year Reflexive feedback.md",
     "ISEN/JAVA/CIPA4/CM/04-classes-abstraites-interfaces.pdf",
     "ISEN/JAVA/CIPA4/CM/05-swing.pdf",
     "ISEN/JAVA/CIPA4/CM/03-heritage.pdf",
@@ -249,7 +237,6 @@
     "ISEN/JAVA/CIPA4/CM/00-introduction.pdf",
     "ISEN/BDD/CIR2/PostgreSQLInstallCIR2.pdf",
     "ISEN/JAVA/CIPA4/CM/09-fichiers.pdf",
-    "ISEN/JAVA/CIPA4/CM/08-collections.pdf",
     "ISEN/BDD/CIPA4/BDD Cours 1.md",
     "ISEN/BDD/CIR2/TD2.canvas",
     "ISEN/BDD/CIR2/Postgre_SQL_Cheat_Sheet_3432a8648a.png",
