@@ -13,34 +13,10 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "ISEN/Traitement du signal/CIPA4/Cours/chap2_numerisation.pdf"
+                "file": "ISEN/Traitement du signal/CIPA4/Cours/chap1_rappels.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "chap2_numerisation"
-            }
-          },
-          {
-            "id": "9d952b8248a96279",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ISEN/English/CIPA4/My CIPA3 year Reflexive feedback.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "My CIPA3 year Reflexive feedback"
+              "title": "chap1_rappels"
             }
           },
           {
@@ -67,8 +43,7 @@
               "title": "TD1_signal_m1_original"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -241,7 +216,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "9d952b8248a96279",
+  "active": "14045e30aacf0836",
   "lastOpenFiles": [
     "ISEN/Traitement du signal/CIPA4/Cours/chap2_numerisation.pdf",
     "ISEN/English/CIPA4/My CIPA3 year Reflexive feedback.md",
@@ -262,7 +237,6 @@
     "Pasted image 20250905144006.png",
     "ISEN/JAVA/CIPA4/CM/00-introduction.pdf",
     "ISEN/BDD/CIR2/PostgreSQLInstallCIR2.pdf",
-    "ISEN/JAVA/CIPA4/CM/09-fichiers.pdf",
     "ISEN/BDD/CIPA4/BDD Cours 1.md",
     "ISEN/BDD/CIR2/TD2.canvas",
     "ISEN/BDD/CIR2/Postgre_SQL_Cheat_Sheet_3432a8648a.png",
