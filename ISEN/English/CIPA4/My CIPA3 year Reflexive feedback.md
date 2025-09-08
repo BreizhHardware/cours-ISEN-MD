@@ -1,1 +1,3 @@
 Félix MARQUET - Horoquartz
+
+I work as a backend developer on my own project. This project is about the development of an update system for Horoquartz products. My first year as an apprentice was overwelming positive, I'm pretty happy because it allow me to see how it is to work in a company and learn how to do clean project and code. I have mainly developp skills at work and not at school, In fact by working in a profesional environment is way more educational that just learning at school. When you have real life experience I think it's better. For exemple, when I started I didn't know anything about the Go programing language and now by practicing and applying it to a real project I think I can say that I partialy 
