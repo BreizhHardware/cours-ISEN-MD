@@ -20,6 +20,30 @@
             }
           },
           {
+            "id": "9d952b8248a96279",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ISEN/English/CIPA4/My CIPA3 year Reflexive feedback.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "My CIPA3 year Reflexive feedback"
+            }
+          },
+          {
             "id": "cbcc85c28ced408b",
             "type": "leaf",
             "state": {
@@ -43,7 +67,8 @@
               "title": "TD1_signal_m1_original"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -216,8 +241,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "14045e30aacf0836",
+  "active": "9d952b8248a96279",
   "lastOpenFiles": [
+    "ISEN/Traitement du signal/CIPA4/Cours/chap2_numerisation.pdf",
     "ISEN/English/CIPA4/My CIPA3 year Reflexive feedback.md",
     "ISEN/English/CIPA4/My CIPA3 year Reflexive feedback.pdf",
     "ISEN/JAVA/CIPA4/Java Cours 1.md",
