@@ -1,8 +1,13 @@
 Félix MARQUET - Horoquartz
 
 I work as a backend developer on my own project, focused on building an update system for Horoquartz products. My role involves designing a reliable, secure, and scalable infrastructure to deliver software and firmware updates. My daily tasks include developing APIs, managing databases, and collaborating with other teams to ensure seamless integration and user experience, but this part will only start this year.
+
 My first year as an apprentice was overwhelmingly positive. It gave me the opportunity to see how a company operates and taught me how to structure projects and write clean, maintainable, and reliable code. I think working in a professional environment proved far more educational than classroom learning alone. For instance, I had no prior experience with Go (a programming language), but through practice on a real project, I now feel I have partially mastered the language.
+
 This year also highlighted areas for growth, particularly in communication. Since I worked mostly on a new project with limited team interaction, I didn’t have many chances to collaborate with colleagues or build relationships across the company.
+
 For this year, my goal is to improve my communication skills, both in leading meetings and engaging with teammates. I want to take more opportunities to work with other teams, expand my network within the company, and become more comfortable in collaborative settings.
+
 In two years, I envision myself transitioning away from my current role—or even my current company—to pursue a career in cybersecurity, which is where my passion lies. Ideally, I’d like to return to Rennes, but this will depend on the job opportunities available after I complete my studies, as well as the people and professional connections I build along the way.
+
 Another possibility I’m considering is switching to a cybersecurity-focused position within my current company for my final year. This would allow me to gain hands-on experience in the field while staying in a familiar environment. Ultimately, my goal is to align my work with my interests and find a role that challenges me in cybersecurity, whether that means changing teams internally or exploring new opportunities elsewhere.
