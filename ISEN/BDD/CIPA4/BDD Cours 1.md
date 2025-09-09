@@ -38,3 +38,9 @@
 - 2011: NewSQL
 - 2014: IOT
 - 2016: SQL2016 (JSON)
+
+Cours suivant: [BDD Cours 2](BDD%20Cours%202.md)
+
+---
+
+&copy Félix MARQUET
