@@ -11,12 +11,24 @@
             "id": "14045e30aacf0836",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "ISEN/Traitement du signal/CIPA4/Cours/chap3_signaux_numeriques.pdf"
+                "file": "ISEN/BDD/CIPA4/BDD Cours 1.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
-              "icon": "lucide-file-text",
-              "title": "chap3_signaux_numeriques"
+              "icon": "lucide-file",
+              "title": "BDD Cours 1"
             }
           },
           {
@@ -218,6 +230,7 @@
   },
   "active": "14045e30aacf0836",
   "lastOpenFiles": [
+    "ISEN/Traitement du signal/CIPA4/Cours/chap3_signaux_numeriques.pdf",
     "ISEN/Traitement du signal/CIPA4/Cours/chap2_numerisation.pdf",
     "ISEN/Traitement du signal/CIPA4/TD/TD2_signal_m1nouveau.pdf",
     "ISEN/Traitement du signal/CIPA4/TD/TD1_signal_m1_original.pdf",
@@ -232,7 +245,6 @@
     "ISEN/IA/CIPA4/TP/TP1/tp1_IA.pdf",
     "Pasted image 20250905143950.png",
     "Pasted image 20240505210657.png",
-    "ISEN/JAVA/CIPA4/CM/01-bases.pdf",
     "Pasted image 20250905144746.png",
     "Pasted image 20250905144313.png",
     "Pasted image 20250610091125.png",
