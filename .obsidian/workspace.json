@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ISEN/BDD/CIPA4/BDD Cours 2.md",
+                "file": "ISEN/BDD/CIPA4/Cas modélisation alternatifs.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "BDD Cours 2"
+              "title": "Cas modélisation alternatifs"
             }
           },
           {
@@ -214,7 +214,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 317.5
+    "width": 319.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -228,10 +228,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "14045e30aacf0836",
+  "active": "cc56184c227b09ca",
   "lastOpenFiles": [
-    "ISEN/English/CIPA4/My CIPA3 year Reflexive feedback.md",
+    "ISEN/BDD/CIR2/Td3.pdf",
+    "ISEN/BDD/CIPA4/Cas modélisation alternatifs.md",
+    "ISEN/BDD/CIR2/Td2.pdf",
+    "ISEN/BDD/CIR2/Td1.pdf",
+    "ISEN/BDD/CIR2/TD2.canvas",
     "ISEN/BDD/CIPA4/BDD Cours 2.md",
+    "ISEN/English/CIPA4/My CIPA3 year Reflexive feedback.md",
     "ISEN/English/CIPA4/~$ CIPA3 year Reflexive feedback.docx",
     "ISEN/English/CIPA4/My CIPA3 year Reflexive feedback.docx",
     "ISEN/BDD/CIPA4/BDD Cours 1.md",
@@ -242,8 +247,6 @@
     "ISEN/Traitement du signal/CIPA4/Cours/chap1_rappels.pdf",
     "ISEN/English/CIPA4/My CIPA3 year Reflexive feedback.pdf",
     "ISEN/JAVA/CIPA4/Java Cours 1.md",
-    "ISEN/JAVA/CIPA4/CM/04-classes-abstraites-interfaces.pdf",
-    "ISEN/JAVA/CIPA4/CM/05-swing.pdf",
     "Pasted image 20250905143950.png",
     "Pasted image 20240505210657.png",
     "Pasted image 20250905144746.png",
@@ -251,7 +254,6 @@
     "Pasted image 20250610091125.png",
     "Pasted image 20240505210642.png",
     "Pasted image 20250905144006.png",
-    "ISEN/BDD/CIR2/TD2.canvas",
     "ISEN/BDD/CIR2/Postgre_SQL_Cheat_Sheet_3432a8648a.png",
     "ISEN/Réunion/CIPA 4/Rentrée 2025-2026.md",
     "ISEN/Réunion/CIPA 4/Réunion FHS Rentrée 2025.md",
@@ -275,7 +277,6 @@
     "ISEN/STM32/CIPA3/STM32 Cours 3.md",
     "ISEN/STM32/CIPA3/STM32 Cours 2.md",
     "ISEN/STM32/CIPA3/STM32 Cours 1.md",
-    "ISEN/Energie/CIPA3/Energie Cours 1.md",
     "ISEN/Modelec/NB point.canvas",
     "ISEN/Réseau/A2/TP Ansible et docker.canvas",
     "Untitled.canvas",
