@@ -214,7 +214,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 319.5
+    "width": 319.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -228,8 +229,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "cc56184c227b09ca",
+  "active": "14045e30aacf0836",
   "lastOpenFiles": [
+    "ISEN/BDD/CIPA4/Cas modélisation alternatifs/salarie.mcd",
+    "ISEN/BDD/CIPA4/Cas modélisation alternatifs/salarie",
+    "ISEN/BDD/CIPA4/Cas modélisation alternatifs",
     "ISEN/BDD/CIR2/Td3.pdf",
     "ISEN/BDD/CIPA4/Cas modélisation alternatifs.md",
     "ISEN/BDD/CIR2/Td2.pdf",
@@ -243,9 +247,6 @@
     "ISEN/Traitement du signal/CIPA4/Cours/chap3_signaux_numeriques.pdf",
     "ISEN/Traitement du signal/CIPA4/Cours/chap2_numerisation.pdf",
     "ISEN/Traitement du signal/CIPA4/TD/TD2_signal_m1nouveau.pdf",
-    "ISEN/Traitement du signal/CIPA4/TD/TD1_signal_m1_original.pdf",
-    "ISEN/Traitement du signal/CIPA4/Cours/chap1_rappels.pdf",
-    "ISEN/English/CIPA4/My CIPA3 year Reflexive feedback.pdf",
     "ISEN/JAVA/CIPA4/Java Cours 1.md",
     "Pasted image 20250905143950.png",
     "Pasted image 20240505210657.png",
