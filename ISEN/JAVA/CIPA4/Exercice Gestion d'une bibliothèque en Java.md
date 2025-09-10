@@ -56,7 +56,7 @@ Créez une classe `Adherent` qui représente un adhérent de la bibliothèque.
 **Attributs :**
 - `nom` (String) : le nom de l'adhérent.
 - `numeroAdherent` (String) : le numéro unique de l'adhérent.
-- `ressourcesEmpruntees` (Tableau de ressources) : une liste des ressources actuellement empruntées par l'adhérent.
+- `ressourcesEmpruntees` (ArrayList de ressources) : une liste des ressources actuellement empruntées par l'adhérent.
 
 **Méthodes :**
 - Un constructeur qui initialise le nom et le numéro de l'adhérent, et initialise la liste des ressources empruntées.
