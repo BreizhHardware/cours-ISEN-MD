@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ISEN/BDD/CIPA4/Cas modélisation alternatifs.md",
+                "file": "ISEN/JAVA/CIPA4/Java Cours 1.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Cas modélisation alternatifs"
+              "title": "Java Cours 1"
             }
           },
           {
@@ -231,9 +231,9 @@
   },
   "active": "14045e30aacf0836",
   "lastOpenFiles": [
+    "ISEN/BDD/CIPA4/Cas modélisation alternatifs.md",
     "ISEN/BDD/CIPA4/BDD Cours 2.md",
     "ISEN/BDD/CIR2/TD2.canvas",
-    "ISEN/BDD/CIPA4/Cas modélisation alternatifs.md",
     "ISEN/BDD/CIPA4/Cas modélisation alternatifs/salarie",
     "ISEN/BDD/CIPA4/Cas modélisation alternatifs/salarie.mcd",
     "ISEN/BDD/CIPA4/Cas modélisation alternatifs",
