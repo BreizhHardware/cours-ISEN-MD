@@ -55,7 +55,8 @@
               "title": "TD1_signal_m1_original"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -229,8 +230,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "14045e30aacf0836",
+  "active": "cbcc85c28ced408b",
   "lastOpenFiles": [
+    "ISEN/JAVA/CIPA4/Java Cours 1.md",
+    "ISEN/JAVA/CIPA4/CM/04-classes-abstraites-interfaces.pdf",
     "ISEN/BDD/CIPA4/Cas modélisation alternatifs.md",
     "ISEN/BDD/CIPA4/BDD Cours 2.md",
     "ISEN/BDD/CIR2/TD2.canvas",
@@ -245,8 +248,6 @@
     "ISEN/English/CIPA4/My CIPA3 year Reflexive feedback.docx",
     "ISEN/BDD/CIPA4/BDD Cours 1.md",
     "ISEN/Traitement du signal/CIPA4/Cours/chap3_signaux_numeriques.pdf",
-    "ISEN/Traitement du signal/CIPA4/Cours/chap2_numerisation.pdf",
-    "ISEN/JAVA/CIPA4/Java Cours 1.md",
     "Pasted image 20250905143950.png",
     "Pasted image 20240505210657.png",
     "Pasted image 20250905144746.png",
