@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ISEN/JAVA/CIPA4/Exercice Gestion d'une bibliothèque en Java.md",
+                "file": "ISEN/JAVA/CIPA4/Exercice Gestion d'un parc automobile en Java.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Exercice Gestion d'une bibliothèque en Java"
+              "title": "Exercice Gestion d'un parc automobile en Java"
             }
           },
           {
@@ -243,9 +243,11 @@
   },
   "active": "cbcc85c28ced408b",
   "lastOpenFiles": [
+    "ISEN/JAVA/CIPA4/Exercice Gestion d'un parc automobile en Java.pdf",
+    "ISEN/JAVA/CIPA4/Exercice Gestion d'une bibliothèque en Java.md",
+    "ISEN/JAVA/CIPA4/Exercice Gestion d'un parc automobile en Java.md",
     "ISEN/JAVA/CIPA4/Exercice Gestion d'une bibliothèque en Java.pdf",
     "ISEN/JAVA/CIPA4/CM/05-swing.pdf",
-    "ISEN/JAVA/CIPA4/Exercice Gestion d'une bibliothèque en Java.md",
     "ISEN/JAVA/CIPA4/CM/04-classes-abstraites-interfaces.pdf",
     "ISEN/JAVA/CIPA4/Java Cours 1.md",
     "ISEN/BDD/CIPA4/Cas modélisation alternatifs.md",
@@ -259,7 +261,6 @@
     "ISEN/BDD/CIR2/Td1.pdf",
     "ISEN/English/CIPA4/My CIPA3 year Reflexive feedback.md",
     "ISEN/English/CIPA4/~$ CIPA3 year Reflexive feedback.docx",
-    "ISEN/English/CIPA4/My CIPA3 year Reflexive feedback.docx",
     "ISEN/BDD/CIPA4/BDD Cours 1.md",
     "Pasted image 20250905143950.png",
     "Pasted image 20240505210657.png",
@@ -289,7 +290,6 @@
     "ISEN/Developpement durable/CIPA3/Developpement durable Cours 1.md",
     "ISEN/Developpement durable/CIPA3/Figure Félix Marquet.md",
     "ISEN/STM32/CIPA3/STM32 Cours 3.md",
-    "ISEN/STM32/CIPA3/STM32 Cours 2.md",
     "ISEN/Modelec/NB point.canvas",
     "ISEN/Réseau/A2/TP Ansible et docker.canvas",
     "Untitled.canvas",
