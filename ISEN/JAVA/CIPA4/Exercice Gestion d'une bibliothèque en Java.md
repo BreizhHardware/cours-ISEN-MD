@@ -60,9 +60,15 @@ Créez une classe `Adherent` qui représente un adhérent de la bibliothèque.
 
 **Méthodes :**
 - Un constructeur qui initialise le nom et le numéro de l'adhérent, et initialise la liste des ressources empruntées.
-- Une méthode `emprunter(Ressource r)` : ajoute une ressource à la liste des ressources empruntées et met à jour sa disponibilité.
-- Une méthode `rendre(Ressource r)` : retire une ressource de la liste des ressources empruntées et met à jour sa disponibilité.
+- Une méthode `emprunter(Ressource ressource)` : ajoute une ressource à la liste des ressources empruntées et met à jour sa disponibilité.
+- Une méthode `rendre(Ressource ressource)` : retire une ressource de la liste des ressources empruntées et met à jour sa disponibilité.
 - Une méthode `afficherRessourcesEmpruntees()` : affiche la liste des ressources actuellement empruntées par l'adhérent.
+	- Example de retour:
+		- ```TEXT
+			  Détails de l'adhérent Jean Dupont (N°A123) : 
+				  Ressources empruntées :
+					- Le Petit Prince (Livre)
+		  ```
 
 ---
 
