@@ -35,12 +35,24 @@
             "id": "cbcc85c28ced408b",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "ISEN/JAVA/CIPA4/CM/05-swing.pdf"
+                "file": "ISEN/JAVA/CIPA4/Exercice Gestion d'une bibliothèque en Java.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
-              "icon": "lucide-file-text",
-              "title": "05-swing"
+              "icon": "lucide-file",
+              "title": "Exercice Gestion d'une bibliothèque en Java"
             }
           },
           {
@@ -231,6 +243,9 @@
   },
   "active": "cbcc85c28ced408b",
   "lastOpenFiles": [
+    "ISEN/JAVA/CIPA4/Exercice Gestion d'une bibliothèque en Java.pdf",
+    "ISEN/JAVA/CIPA4/CM/05-swing.pdf",
+    "ISEN/JAVA/CIPA4/Exercice Gestion d'une bibliothèque en Java.md",
     "ISEN/JAVA/CIPA4/CM/04-classes-abstraites-interfaces.pdf",
     "ISEN/JAVA/CIPA4/Java Cours 1.md",
     "ISEN/BDD/CIPA4/Cas modélisation alternatifs.md",
@@ -246,7 +261,6 @@
     "ISEN/English/CIPA4/~$ CIPA3 year Reflexive feedback.docx",
     "ISEN/English/CIPA4/My CIPA3 year Reflexive feedback.docx",
     "ISEN/BDD/CIPA4/BDD Cours 1.md",
-    "ISEN/Traitement du signal/CIPA4/Cours/chap3_signaux_numeriques.pdf",
     "Pasted image 20250905143950.png",
     "Pasted image 20240505210657.png",
     "Pasted image 20250905144746.png",
@@ -276,7 +290,6 @@
     "ISEN/Developpement durable/CIPA3/Figure Félix Marquet.md",
     "ISEN/STM32/CIPA3/STM32 Cours 3.md",
     "ISEN/STM32/CIPA3/STM32 Cours 2.md",
-    "ISEN/STM32/CIPA3/STM32 Cours 1.md",
     "ISEN/Modelec/NB point.canvas",
     "ISEN/Réseau/A2/TP Ansible et docker.canvas",
     "Untitled.canvas",
