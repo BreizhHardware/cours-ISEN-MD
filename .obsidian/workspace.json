@@ -11,48 +11,24 @@
             "id": "14045e30aacf0836",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "ISEN/JAVA/CIPA4/Java Cours 1.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
+                "file": "ISEN/Traitement du signal/CIPA4/Cours/chap4_filtrage_numerique.pdf"
               },
-              "icon": "lucide-file",
-              "title": "Java Cours 1"
+              "icon": "lucide-file-text",
+              "title": "chap4_filtrage_numerique"
             }
           },
           {
             "id": "cbcc85c28ced408b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "ISEN/JAVA/CIPA4/Exercice Gestion d'un parc automobile en Java.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
+                "file": "ISEN/Traitement du signal/CIPA4/Cours/chap4_filtrage_numerique.pdf"
               },
-              "icon": "lucide-file",
-              "title": "Exercice Gestion d'un parc automobile en Java"
+              "icon": "lucide-file-text",
+              "title": "chap4_filtrage_numerique"
             }
           },
           {
@@ -67,8 +43,7 @@
               "title": "TD1_signal_m1_original"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -241,15 +216,16 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "cbcc85c28ced408b",
+  "active": "14045e30aacf0836",
   "lastOpenFiles": [
+    "ISEN/JAVA/CIPA4/Java Cours 1.md",
+    "ISEN/Traitement du signal/CIPA4/Cours/chap4_filtrage_numerique.pdf",
+    "ISEN/JAVA/CIPA4/Exercice Gestion d'un parc automobile en Java.md",
     "ISEN/JAVA/CIPA4/Exercice Gestion d'un parc automobile en Java.pdf",
     "ISEN/JAVA/CIPA4/Exercice Gestion d'une bibliothèque en Java.md",
-    "ISEN/JAVA/CIPA4/Exercice Gestion d'un parc automobile en Java.md",
     "ISEN/JAVA/CIPA4/Exercice Gestion d'une bibliothèque en Java.pdf",
     "ISEN/JAVA/CIPA4/CM/05-swing.pdf",
     "ISEN/JAVA/CIPA4/CM/04-classes-abstraites-interfaces.pdf",
-    "ISEN/JAVA/CIPA4/Java Cours 1.md",
     "ISEN/BDD/CIPA4/Cas modélisation alternatifs.md",
     "ISEN/BDD/CIPA4/BDD Cours 2.md",
     "ISEN/BDD/CIR2/TD2.canvas",
@@ -258,9 +234,7 @@
     "ISEN/BDD/CIPA4/Cas modélisation alternatifs",
     "ISEN/BDD/CIR2/Td3.pdf",
     "ISEN/BDD/CIR2/Td2.pdf",
-    "ISEN/BDD/CIR2/Td1.pdf",
     "ISEN/English/CIPA4/My CIPA3 year Reflexive feedback.md",
-    "ISEN/English/CIPA4/~$ CIPA3 year Reflexive feedback.docx",
     "ISEN/BDD/CIPA4/BDD Cours 1.md",
     "Pasted image 20250905143950.png",
     "Pasted image 20240505210657.png",
