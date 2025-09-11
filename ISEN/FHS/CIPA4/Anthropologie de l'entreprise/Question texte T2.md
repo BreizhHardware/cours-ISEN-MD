@@ -13,7 +13,6 @@
 	- **Avantages** :
 		- Renforce l’identité et la crédibilité.
 		- Permet d’apprendre des succès/échecs passés.
-
-- **Risques** :
-- Crise d’image si révélation de faits problématiques.
-- Conflits internes ou perte de contrôle sur le récit.
+	- **Risques** :
+		- Crise d’image si révélation de faits problématiques.
+		- Conflits internes ou perte de contrôle sur le récit.
