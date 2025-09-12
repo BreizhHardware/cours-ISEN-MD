@@ -35,24 +35,12 @@
             "id": "cbcc85c28ced408b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "ISEN/FHS/CIPA4/Anthropologie de l'entreprise/Question texte T2.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
+                "file": "ISEN/Traitement du signal/CIPA4/Cours/chap4_filtrage_numerique.pdf"
               },
-              "icon": "lucide-file",
-              "title": "Question texte T2"
+              "icon": "lucide-file-text",
+              "title": "chap4_filtrage_numerique"
             }
           },
           {
