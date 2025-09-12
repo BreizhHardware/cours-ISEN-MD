@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ISEN/FHS/CIPA4/Anthropologie de l'entreprise/Question texte T2.md",
+                "file": "ISEN/FPGA/CIPA4/FPGA Cours 1.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Question texte T2"
+              "title": "FPGA Cours 1"
             }
           },
           {
@@ -230,10 +230,13 @@
   },
   "active": "14045e30aacf0836",
   "lastOpenFiles": [
+    "ISEN/FHS/CIPA4/Anthropologie de l'entreprise/Question texte T2.md",
+    "ISEN/FPGA/CIPA4/FPGA Cours 1.md",
+    "ISEN/FPGA/CIPA4",
+    "ISEN/FPGA",
     "ISEN/FHS/A2/Outils RH/~WRL2137.tmp",
     "ISEN/FHS/A2/Outils RH/~$ttre de motivation.docx",
     "ISEN/FHS/CIPA4/Anthropologie de l'entreprise/Question texte T2 (conflicted copy 2025-09-12 095312).md",
-    "ISEN/FHS/CIPA4/Anthropologie de l'entreprise/Question texte T2.md",
     "ISEN/FHS/CIPA4/Anthropologie de l'entreprise/Anthropologie de l'entreprise Cours 1.md",
     "ISEN/Traitement du signal/CIPA4/Cours/chap4_filtrage_numerique.pdf",
     "ISEN/JAVA/CIPA4/Java Cours 1.md",
@@ -247,9 +250,6 @@
     "ISEN/BDD/CIPA4/BDD Cours 2.md",
     "ISEN/BDD/CIR2/TD2.canvas",
     "ISEN/BDD/CIPA4/Cas modélisation alternatifs/salarie",
-    "ISEN/BDD/CIPA4/Cas modélisation alternatifs/salarie.mcd",
-    "ISEN/BDD/CIPA4/Cas modélisation alternatifs",
-    "ISEN/BDD/CIR2/Td3.pdf",
     "ISEN/English/CIPA4/My CIPA3 year Reflexive feedback.md",
     "ISEN/BDD/CIPA4/BDD Cours 1.md",
     "Pasted image 20250905143950.png",
