@@ -13,10 +13,10 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "ISEN/Traitement du signal/CIPA4/Cours/chap4_filtrage_numerique.pdf"
+                "file": "ISEN/Traitement du signal/CIPA4/Cours/chap5_signaux_aleatoires.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "chap4_filtrage_numerique"
+              "title": "chap5_signaux_aleatoires"
             }
           },
           {
@@ -218,8 +218,8 @@
   },
   "active": "14045e30aacf0836",
   "lastOpenFiles": [
-    "ISEN/Réunion/CIPA 4/Rentrée 2025-2026.md",
     "ISEN/Traitement du signal/CIPA4/Cours/chap4_filtrage_numerique.pdf",
+    "ISEN/Réunion/CIPA 4/Rentrée 2025-2026.md",
     "ISEN/English/CIPA4/15 sept 2025.md",
     "ISEN/FPGA/CIPA4/FPGA Cours 1.md",
     "ISEN/FHS/CIPA4/Anthropologie de l'entreprise/Question texte T2.md",
