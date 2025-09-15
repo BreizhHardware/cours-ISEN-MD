@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ISEN/FPGA/CIPA4/FPGA Cours 1.md",
+                "file": "ISEN/English/CIPA4/15 sept 2025.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "FPGA Cours 1"
+              "title": "15 sept 2025"
             }
           },
           {
@@ -230,8 +230,9 @@
   },
   "active": "14045e30aacf0836",
   "lastOpenFiles": [
-    "ISEN/FHS/CIPA4/Anthropologie de l'entreprise/Question texte T2.md",
     "ISEN/FPGA/CIPA4/FPGA Cours 1.md",
+    "ISEN/English/CIPA4/15 sept 2025.md",
+    "ISEN/FHS/CIPA4/Anthropologie de l'entreprise/Question texte T2.md",
     "ISEN/FPGA/CIPA4",
     "ISEN/FPGA",
     "ISEN/FHS/A2/Outils RH/~WRL2137.tmp",
@@ -276,7 +277,6 @@
     "ISEN/Developpement durable/CIPA3/Question oral.md",
     "ISEN/Developpement durable/CIPA3/Matrice Industrie.md",
     "ISEN/Developpement durable/CIPA3/Développement durable Cours 2.md",
-    "ISEN/Developpement durable/CIPA3/Developpement durable Cours 1.md",
     "ISEN/Modelec/NB point.canvas",
     "ISEN/Réseau/A2/TP Ansible et docker.canvas",
     "Untitled.canvas",
