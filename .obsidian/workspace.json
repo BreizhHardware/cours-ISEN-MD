@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ISEN/BDD/CIPA4/modelisation-cas-immo.md",
+                "file": "ISEN/BDD/CIPA4/Cas modélisation alternatifs.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "modelisation-cas-immo"
+              "title": "Cas modélisation alternatifs"
             }
           },
           {
@@ -228,11 +228,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "622da1d4e0ba0f73",
+  "active": "14045e30aacf0836",
   "lastOpenFiles": [
+    "ISEN/BDD/CIPA4/modelisation-cas-immo.md",
     "ISEN/BDD/CIPA4/modelisation-cas-centre-de-formation.md",
     "ISEN/BDD/CIPA4/Cas modélisation alternatifs.md",
-    "ISEN/BDD/CIPA4/modelisation-cas-immo.md",
     "ISEN/BDD/CIPA4/BDD Cours 2.md",
     "ISEN/Traitement du signal/CIPA4/Cours/chap5_signaux_aleatoires.pdf",
     "ISEN/Traitement du signal/CIPA4/Cours/chap4_filtrage_numerique.pdf",
