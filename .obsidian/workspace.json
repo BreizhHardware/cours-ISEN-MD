@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ISEN/BDD/CIPA4/Cas modélisation alternatifs.md",
+                "file": "ISEN/BDD/CIPA4/modelisation-cas-immo.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Cas modélisation alternatifs"
+              "title": "modelisation-cas-immo"
             }
           },
           {
@@ -228,8 +228,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "14045e30aacf0836",
+  "active": "622da1d4e0ba0f73",
   "lastOpenFiles": [
+    "ISEN/BDD/CIPA4/modelisation-cas-centre-de-formation.md",
+    "ISEN/BDD/CIPA4/Cas modélisation alternatifs.md",
+    "ISEN/BDD/CIPA4/modelisation-cas-immo.md",
     "ISEN/BDD/CIPA4/BDD Cours 2.md",
     "ISEN/Traitement du signal/CIPA4/Cours/chap5_signaux_aleatoires.pdf",
     "ISEN/Traitement du signal/CIPA4/Cours/chap4_filtrage_numerique.pdf",
@@ -250,7 +253,6 @@
     "ISEN/JAVA/CIPA4/Exercice Gestion d'une bibliothèque en Java.pdf",
     "ISEN/JAVA/CIPA4/CM/05-swing.pdf",
     "ISEN/JAVA/CIPA4/CM/04-classes-abstraites-interfaces.pdf",
-    "ISEN/BDD/CIPA4/Cas modélisation alternatifs.md",
     "ISEN/BDD/CIR2/TD2.canvas",
     "ISEN/English/CIPA4/My CIPA3 year Reflexive feedback.md",
     "ISEN/BDD/CIPA4/BDD Cours 1.md",
@@ -275,7 +277,6 @@
     "ISEN/Developpement durable/CIPA3/Schneider.md",
     "ISEN/Developpement durable/CIPA3/Développement durable Cours 3.md",
     "ISEN/Developpement durable/CIPA3/Question oral.md",
-    "ISEN/Developpement durable/CIPA3/Matrice Industrie.md",
     "ISEN/Modelec/NB point.canvas",
     "ISEN/Réseau/A2/TP Ansible et docker.canvas",
     "Untitled.canvas",

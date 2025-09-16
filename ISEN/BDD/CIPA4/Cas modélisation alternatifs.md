@@ -14,4 +14,4 @@ Tout consultant doit être disponible un jour par semaine (jsem) et durant une p
 1. Modifiez le schéma pour qu'un consultant puisse être interrogé à différents moments de la semaine tout en respectant un seul créneau par formation qu'il supervise.
 
 ## Etape 3
-2. Modifiez le schéma pour qu'un consultant puisse donner des renseignements sur une formation qu'il supervise à différents moments de la semaine.
+2. Modifiez le schéma pour qu'un consultant puisse donner des renseignements sur une formation qu'il supervise à différents moments de la semaine. 
