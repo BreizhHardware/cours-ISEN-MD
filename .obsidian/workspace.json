@@ -11,12 +11,24 @@
             "id": "14045e30aacf0836",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "ISEN/Traitement du signal/CIPA4/Cours/chap5_signaux_aleatoires.pdf"
+                "file": "ISEN/BDD/CIPA4/Cas modélisation alternatifs.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
-              "icon": "lucide-file-text",
-              "title": "chap5_signaux_aleatoires"
+              "icon": "lucide-file",
+              "title": "Cas modélisation alternatifs"
             }
           },
           {
@@ -218,6 +230,8 @@
   },
   "active": "14045e30aacf0836",
   "lastOpenFiles": [
+    "ISEN/BDD/CIPA4/BDD Cours 2.md",
+    "ISEN/Traitement du signal/CIPA4/Cours/chap5_signaux_aleatoires.pdf",
     "ISEN/Traitement du signal/CIPA4/Cours/chap4_filtrage_numerique.pdf",
     "ISEN/Réunion/CIPA 4/Rentrée 2025-2026.md",
     "ISEN/English/CIPA4/15 sept 2025.md",
@@ -237,9 +251,7 @@
     "ISEN/JAVA/CIPA4/CM/05-swing.pdf",
     "ISEN/JAVA/CIPA4/CM/04-classes-abstraites-interfaces.pdf",
     "ISEN/BDD/CIPA4/Cas modélisation alternatifs.md",
-    "ISEN/BDD/CIPA4/BDD Cours 2.md",
     "ISEN/BDD/CIR2/TD2.canvas",
-    "ISEN/BDD/CIPA4/Cas modélisation alternatifs/salarie",
     "ISEN/English/CIPA4/My CIPA3 year Reflexive feedback.md",
     "ISEN/BDD/CIPA4/BDD Cours 1.md",
     "Pasted image 20250905143950.png",
