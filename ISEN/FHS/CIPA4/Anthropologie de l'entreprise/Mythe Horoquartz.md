@@ -26,7 +26,7 @@ L’obstacle central est la transformation d’une petite structure artisanale e
 L’Ordomatic (premier appareil) et Temptation/eTemptation (solutions logicielles) sont les objets symboliques, représentant l’innovation et la pérennité de l’entreprise.
 
 # Étape 3 : Analyser le mythe
-Horoquartz s'inscrit dans un mythe de fondateur avec Jean-Michel Poupeau et un mythe de mission. L'entreprise se présente comme un acteur engagé, au service de l’humain et de la durabilité, avec une responsabilité sociétale forte. 
+Horoquartz s'inscrit dans un mythe de fondateur avec Jean-Michel Poupeau et un mythe de mission. L'entreprise se présente comme un acteur engagé, au service de l’humain et de la durabilité, avec une responsabilité sociétal forte. 
 
 En interne, le mythe fédère les équipes autour de valeurs communes et justifie l’importance accordée à la formation et à l’accompagnement des collaborateurs. Pendant qu'en externe, il rassure les clients sur la fiabilité et l'éthique des solutions proposées. Il renforce également l'image d'une entreprise ancrée dans le réel, proche de ses clients et de ses partenaires.
 

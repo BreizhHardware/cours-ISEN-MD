@@ -11,24 +11,14 @@
             "id": "14045e30aacf0836",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "split-diff-view",
               "state": {
-                "file": "ISEN/FHS/CIPA4/Anthropologie de l'entreprise/Mythe Horoquartz.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
+                "aFile": "ISEN/FHS/CIPA4/Anthropologie de l'entreprise/Mythe Horoquartz.md",
+                "bFile": "ISEN/FHS/CIPA4/Anthropologie de l'entreprise/Mythe Horoquartz.md",
+                "aRef": ""
               },
-              "icon": "lucide-file",
-              "title": "Mythe Horoquartz"
+              "icon": "diff",
+              "title": "Diff: Mythe Horoquartz"
             }
           },
           {
@@ -230,8 +220,8 @@
   },
   "active": "14045e30aacf0836",
   "lastOpenFiles": [
-    "ISEN/FHS/CIPA4/Anthropologie de l'entreprise/Question texte T2.md",
     "ISEN/FHS/CIPA4/Anthropologie de l'entreprise/Mythe Horoquartz.md",
+    "ISEN/FHS/CIPA4/Anthropologie de l'entreprise/Question texte T2.md",
     "ISEN/FHS/CIPA4/Anthropologie de l'entreprise/Anthropologie de l'entreprise Cours 1.md",
     "ISEN/BDD/CIPA4/Cas modélisation alternatifs.md",
     "ISEN/BDD/CIPA4/modelisation-cas-immo.md",
