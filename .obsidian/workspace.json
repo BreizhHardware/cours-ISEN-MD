@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ISEN/BDD/CIPA4/Cas modélisation alternatifs.md",
+                "file": "ISEN/FHS/CIPA4/Anthropologie de l'entreprise/Mythe Horoquartz.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Cas modélisation alternatifs"
+              "title": "Mythe Horoquartz"
             }
           },
           {
@@ -230,22 +230,23 @@
   },
   "active": "14045e30aacf0836",
   "lastOpenFiles": [
+    "ISEN/FHS/CIPA4/Anthropologie de l'entreprise/Question texte T2.md",
+    "ISEN/FHS/CIPA4/Anthropologie de l'entreprise/Mythe Horoquartz.md",
+    "ISEN/FHS/CIPA4/Anthropologie de l'entreprise/Anthropologie de l'entreprise Cours 1.md",
+    "ISEN/BDD/CIPA4/Cas modélisation alternatifs.md",
     "ISEN/BDD/CIPA4/modelisation-cas-immo.md",
     "ISEN/BDD/CIPA4/modelisation-cas-centre-de-formation.md",
-    "ISEN/BDD/CIPA4/Cas modélisation alternatifs.md",
     "ISEN/BDD/CIPA4/BDD Cours 2.md",
     "ISEN/Traitement du signal/CIPA4/Cours/chap5_signaux_aleatoires.pdf",
     "ISEN/Traitement du signal/CIPA4/Cours/chap4_filtrage_numerique.pdf",
     "ISEN/Réunion/CIPA 4/Rentrée 2025-2026.md",
     "ISEN/English/CIPA4/15 sept 2025.md",
     "ISEN/FPGA/CIPA4/FPGA Cours 1.md",
-    "ISEN/FHS/CIPA4/Anthropologie de l'entreprise/Question texte T2.md",
     "ISEN/FPGA/CIPA4",
     "ISEN/FPGA",
     "ISEN/FHS/A2/Outils RH/~WRL2137.tmp",
     "ISEN/FHS/A2/Outils RH/~$ttre de motivation.docx",
     "ISEN/FHS/CIPA4/Anthropologie de l'entreprise/Question texte T2 (conflicted copy 2025-09-12 095312).md",
-    "ISEN/FHS/CIPA4/Anthropologie de l'entreprise/Anthropologie de l'entreprise Cours 1.md",
     "ISEN/JAVA/CIPA4/Java Cours 1.md",
     "ISEN/JAVA/CIPA4/Exercice Gestion d'un parc automobile en Java.md",
     "ISEN/JAVA/CIPA4/Exercice Gestion d'un parc automobile en Java.pdf",
@@ -276,7 +277,6 @@
     "ISEN/Energie/CIPA3/Text oral.md",
     "ISEN/Developpement durable/CIPA3/Schneider.md",
     "ISEN/Developpement durable/CIPA3/Développement durable Cours 3.md",
-    "ISEN/Developpement durable/CIPA3/Question oral.md",
     "ISEN/Modelec/NB point.canvas",
     "ISEN/Réseau/A2/TP Ansible et docker.canvas",
     "Untitled.canvas",
