@@ -18,9 +18,9 @@ Cours précédent dispo ici: [[Cisco Cours 1]]
 - Les frontières entre niveaux sont choisies pour **minimiser les flux** d'informations entre niveaux
 - Le nombre de niveaux est choisi pour correspondre aux différentes fonctions mais ne doit pas être trop grand parce que le système serait trop lourds
 # Interaction entre Couches Voisines
-https://cdn.breizhhardware.fr/FAKA3/YIHazaMu87.png
+![](https://cdn.breizhhardware.fr/FAKA3/YIHazaMu87.png/raw)
 # PDUs de Différentes Couches
-https://cdn.breizhhardware.fr/FAKA3/MaqiJUwI08.png
+![](https://cdn.breizhhardware.fr/FAKA3/MaqiJUwI08.png/raw)
 # Fonctions ?
 - Encapsulation
 - Segmentation et assemblage
@@ -44,9 +44,9 @@ https://cdn.breizhhardware.fr/FAKA3/MaqiJUwI08.png
 	- Fragmentation dans le modèle TCP/IP
 	- Les trames Ethernet ne peuvent pas dépasser 1526 octets
 
-tableau MTU: https://cdn.breizhhardware.fr/FAKA3/cEhUwUCo16.png
-schéma fragmentation: https://cdn.breizhhardware.fr/FAKA3/nAQuLowe47.png
-schéma encapsulation, fragm, assemblage : https://cdn.breizhhardware.fr/FAKA3/laxuCoBO73.png
+tableau MTU: ![](https://cdn.breizhhardware.fr/FAKA3/cEhUwUCo16.png/raw)
+schéma fragmentation: ![](https://cdn.breizhhardware.fr/FAKA3/nAQuLowe47.png/raw)
+schéma encapsulation, fragm, assemblage : ![](https://cdn.breizhhardware.fr/FAKA3/laxuCoBO73.png/raw)
 ## Contrôle de connexion
 - Etablissement de connexion
 - Transfère de données

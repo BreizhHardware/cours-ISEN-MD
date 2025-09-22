@@ -27,4 +27,6 @@ Protocole couche 2 ([rappel couche](https://www.manageengine.com/fr/network-moni
 
 [[CCNA Cours 2|Cours suivant]]
 
+---
+
 &copy; Félix MARQUET

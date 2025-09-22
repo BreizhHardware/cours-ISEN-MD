@@ -120,7 +120,7 @@ Commutation de circuit Vs. Commutation de paquets
 	- Des implémentations différentes de vendeurs différents
 
 ## Primitive de Service: Un Exemple
-https://cdn.breizhhardware.fr/FAKA3/lECuvUQa00.png
+![](https://cdn.breizhhardware.fr/FAKA3/lECuvUQa00.png/raw)
 
 # Architecture de Protocole
 **Réseaux sont complexes!**
@@ -131,7 +131,7 @@ https://cdn.breizhhardware.fr/FAKA3/lECuvUQa00.png
 		- Application de transfert de fichier
 		- Module du service  de transport/communications
 		- Module d'accès au réseau
-https://cdn.breizhhardware.fr/FAKA3/kegIyOzA65.png (simplified File Transfer Architecture **SFTP**)
+![](https://cdn.breizhhardware.fr/FAKA3/kegIyOzA65.png/raw) (simplified File Transfer Architecture **SFTP**)
 
 # Couche d'accès réseau
 - Echange de données entre la machine et le réseau
@@ -155,12 +155,10 @@ https://cdn.breizhhardware.fr/FAKA3/kegIyOzA65.png (simplified File Transfer Arc
 	- Point d'accès au service (service access point): SAP
 
 # Architecture de Protocoles et réseaux
-https://cdn.breizhhardware.fr/FAKA3/sujUHApi26.png
-![](Pasted%20image%2020240505210642.png)
+![](https://cdn.breizhhardware.fr/FAKA3/sujUHApi26.png/raw)
 
 ## Protocoles dans une Architecture Simplifiée
-https://cdn.breizhhardware.fr/FAKA3/cIFAVuBi35.png
-![](Pasted%20image%2020240505210657.png)
+![](https://cdn.breizhhardware.fr/FAKA3/cIFAVuBi35.png/raw)
 
 # Protocol Data Units (PDU)
 - Au niveau de chaque couche, des protocoles sont utilisés pour communiquer
@@ -214,7 +212,7 @@ https://cdn.breizhhardware.fr/FAKA3/cIFAVuBi35.png
 	- Liaison
 	- Physique
 
-https://cdn.breizhhardware.fr/FAKA3/xAFOSomA41.png
+![](https://cdn.breizhhardware.fr/FAKA3/xAFOSomA41.png/raw)
 
 ## Couche Physique
 - Interface physique entre les équipements de transmissions et le medium de transmission
@@ -248,7 +246,7 @@ https://cdn.breizhhardware.fr/FAKA3/xAFOSomA41.png
 - K sources et L destinations exige X protocoles et Y implémentations
 - Si des protocoles standard sont utilisés, on a besoin de 1 protocole et L + K implémentations
 - Si pas de standards, K x L protocole et 2(K x L) implémentations
-https://cdn.breizhhardware.fr/FAKA3/GePEricI25.png
+![](https://cdn.breizhhardware.fr/FAKA3/GePEricI25.png/raw)
 
 # Conclusion
 - Communication de connées Vs. réseautage

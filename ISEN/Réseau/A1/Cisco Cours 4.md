@@ -14,16 +14,16 @@ Cours précédent dispo ici: [[Cisco Cours 3]]
 - Conclusion
 
 # Signal Analogique Vs. Signal digital
-https://cdn.breizhhardware.fr/FAKA3/mOvudObI29.png
+![](https://cdn.breizhhardware.fr/FAKA3/mOvudObI29.png/raw)
 - Analogique
 	- valeurs continues, par exemple, voix ou vidéo
 - Digital
 	- valeurs discrètes, par exemple, texte représenté par des caractères ASCII ou chaque caractère corresponds à une séquence de 7 ou 8 bits.
 
 # Période Vs. Fréquence
-https://cdn.breizhhardware.fr/FAKA3/zEmEsOsa64.png
-https://cdn.breizhhardware.fr/FAKA3/zoVEKikO31.png
-https://cdn.breizhhardware.fr/FAKA3/sApANAGA09.png
+![](https://cdn.breizhhardware.fr/FAKA3/zEmEsOsa64.png/raw)
+![](https://cdn.breizhhardware.fr/FAKA3/zoVEKikO31.png/raw)
+![](https://cdn.breizhhardware.fr/FAKA3/sApANAGA09.png/raw)
 
 # Composantes Harmoniques
 - Généralement, un signal est composé de plusieurs fréquences
@@ -32,9 +32,9 @@ https://cdn.breizhhardware.fr/FAKA3/sApANAGA09.png
 # Théorème de Fourier
 - Théorème de Fourier
 	- Un signal périodique s(t), de fréquence *f*, peut s'écrire sous la forme d'une somme infinie de sinus et cosinus dont la fréquence de chaque signal périodique est un multiple entier de la fréquence (pas sur).
-https://cdn.breizhhardware.fr/FAKA3/lOHunuMu81.png
-https://cdn.breizhhardware.fr/FAKA3/cOcESiVu72.png
-https://cdn.breizhhardware.fr/FAKA3/lapukAwI98.png
+![](https://cdn.breizhhardware.fr/FAKA3/lOHunuMu81.png/raw)
+![](https://cdn.breizhhardware.fr/FAKA3/cOcESiVu72.png/raw)
+![](https://cdn.breizhhardware.fr/FAKA3/lapukAwI98.png/raw)
 
 ## Un signal est représenté par ces premiers harmoniques
 
@@ -58,10 +58,10 @@ https://cdn.breizhhardware.fr/FAKA3/lapukAwI98.png
 			- 0 à 500 Mhz pour télédistribution
 - Généralement, un signal périodique est composé d'une infinité d'harmoniques
 	- Les harmoniques de fréquence supérieure à la bande passante du canal ne seront pas transmises par le canal
-https://cdn.breizhhardware.fr/FAKA3/gECegETE88.png
+![](https://cdn.breizhhardware.fr/FAKA3/gECegETE88.png/raw)
 
 # Atténuation
-https://cdn.breizhhardware.fr/FAKA3/HAmELuTe70.png
+![](https://cdn.breizhhardware.fr/FAKA3/HAmELuTe70.png/raw)
 - L'atténuation et l'amplification sont quantifiées en décibels (dB)
 	- **Atténuation:** 10log(P1/P2) dB
 	- **Amplification:** 10log(P2/P1) dB
@@ -71,7 +71,7 @@ https://cdn.breizhhardware.fr/FAKA3/HAmELuTe70.png
 
 # Distorsion
 - Certaines harmoniques sont transmises plus "rapidement" que d'autres sur le canal
-https://cdn.breizhhardware.fr/FAKA3/wiCUQAxo40.png
+![](https://cdn.breizhhardware.fr/FAKA3/wiCUQAxo40.png/raw)
 
 # Bruit
 - Signal parasite se superposant au signal utile
@@ -124,11 +124,11 @@ https://cdn.breizhhardware.fr/FAKA3/wiCUQAxo40.png
 - Multiplexage temporel
 ## Multiplexage en Fréquence
 - Le multiplexage en fréquence (FDM: Frequency Division Multiplexing) consiste à partager la bande de fréquence disponible en différents canaux à bande plus étroite et à chacun de ces canaux.
-https://cdn.breizhhardware.fr/FAKA3/SIwalOto66.png
+![](https://cdn.breizhhardware.fr/FAKA3/SIwalOto66.png/raw)
 ## Muletiplexage Temporel
 - Multiplexage Temporel (Synchrone)
 	- Le multiplexage temporel (TDM: Time Division Multiplexing) synchrone assigne à chaque utilisateur la totalité de la capacité de transmission pour un court instant
-https://cdn.breizhhardware.fr/FAKA3/SoSEkUMa05.png
+![](https://cdn.breizhhardware.fr/FAKA3/SoSEkUMa05.png/raw)
 - Multiplexage temporel asyncrone
 	- On assigne la capacité de transmission de façon dynamique (multiplexage temporel statistique)
 - Le multiplexage statistique (asyncrone) utilise le fait que la capacité de la ligne de sortie ne doit pas nécessairement être égal à la somme des capacités
