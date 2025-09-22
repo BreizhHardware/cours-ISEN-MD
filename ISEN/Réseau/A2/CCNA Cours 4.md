@@ -16,7 +16,7 @@ D30A <sub>16</sub> = 13 + 3 + 0 + 10 = 1101 0011 0000 1010 <sub>2</sub>
 2FC <sub>16</sub> = 2x16<sup>2</sup> + 15x16<sup>1</sup> + 12x16<sup>0</sup> = 2x256 + 15x16 + 12 = 512 + 240 + 12 = 764 <sub>10</sub>
 1011 1100 <sub>2</sub> = 4 + 8 +16 + 32 + 128 = 188 <sub>10</sub>
 644 <sub>8</sub> = 6x8<sup>2</sup> + 4x8<sup>1</sup> + 4x8<sup>0</sup>  = 6x64 + 4x8 + 4 = 384 + 32 + 4 = 420 <sub>10</sub>
-***
+
 [[CCNA Cours 5|Cours suivant]]
 
 ---

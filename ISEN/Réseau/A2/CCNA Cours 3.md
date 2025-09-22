@@ -118,4 +118,6 @@ Switch(config)# show ip interfaces brief
 
 [[CCNA Cours 4|Cours suivant]]
 
+---
+
 &copy; Félix MARQUET

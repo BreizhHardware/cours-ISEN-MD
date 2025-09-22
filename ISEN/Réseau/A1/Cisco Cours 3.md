@@ -15,7 +15,8 @@ Cours précédent dispo ici: [[Cisco Cours 2]]
   * peut contenir des paramètres tels que 
     * source
     * destination
-    * message transmis (SDU ou Service Data Unit) https://cdn.breizhhardware.fr/FAKA3/tASIgEBU16.png
+    * message transmis (SDU ou Service Data Unit) 
+![](https://cdn.breizhhardware.fr/FAKA3/tASIgEBU16.png/raw)
 
 # Service sans Connexion
 
@@ -30,14 +31,14 @@ Cours précédent dispo ici: [[Cisco Cours 2]]
 - Primitives
   - DATA.request(source, destination, SDU)
   - DATA.indication(source, destination, SDU)
-https://cdn.breizhhardware.fr/FAKA3/kUpiYotE44.png
+![](https://cdn.breizhhardware.fr/FAKA3/kUpiYotE44.png/raw)
 * Caractéristiques du service 
   * respect de la séquence 
     * aucune garantie
   * Pas d'établissement / terminaison de connexion
 - Service confirmé
 	- Envoyer data.confirm
-https://cdn.breizhhardware.fr/FAKA3/nopIZEGO72.png
+![](https://cdn.breizhhardware.fr/FAKA3/nopIZEGO72.png/raw)
 
 # Service Orienté Connexion
 
@@ -47,12 +48,12 @@ https://cdn.breizhhardware.fr/FAKA3/nopIZEGO72.png
   * Ouverture de la connexion
   * Les 2 utilisateurs peuvent envoyer des messages en profitant de cette connexion
   * Fermeture de la connexion 
-https://cdn.breizhhardware.fr/FAKA3/VUjISIci34.png
-https://cdn.breizhhardware.fr/FAKA3/bInEnuTu59.png
-https://cdn.breizhhardware.fr/FAKA3/SEfOgEJE74.png
-https://cdn.breizhhardware.fr/FAKA3/kUGEZIBe11.png
-https://cdn.breizhhardware.fr/FAKA3/QAbaYaYi45.png
-https://cdn.breizhhardware.fr/FAKA3/MOroRUwO61.png
+![](https://cdn.breizhhardware.fr/FAKA3/VUjISIci34.png/raw)
+![](https://cdn.breizhhardware.fr/FAKA3/bInEnuTu59.png/raw)
+![](https://cdn.breizhhardware.fr/FAKA3/SEfOgEJE74.png/raw)
+![](https://cdn.breizhhardware.fr/FAKA3/kUGEZIBe11.png/raw)
+![](https://cdn.breizhhardware.fr/FAKA3/QAbaYaYi45.png/raw)
+![](https://cdn.breizhhardware.fr/FAKA3/MOroRUwO61.png/raw)
 * Caractéristiques générales 
   * Transmission bidirectionnelle 
     * Une fois la connexion ouverte, les 2 utilisateurs peuvent l'exploiter
@@ -71,7 +72,7 @@ https://cdn.breizhhardware.fr/FAKA3/MOroRUwO61.png
   * Il n'y a aucune garantie de réception de données transmises
 
 ## Modèle de référence OSI
-https://cdn.breizhhardware.fr/FAKA3/CibotAro61.png
+![](https://cdn.breizhhardware.fr/FAKA3/CibotAro61.png/raw)
 ### Couches OSI
 
 * Physique 
@@ -94,7 +95,7 @@ https://cdn.breizhhardware.fr/FAKA3/CibotAro61.png
 
 ### Modèle de Référence TCP/IP
 
-https://cdn.breizhhardware.fr/FAKA3/BarusIwU46.png
+![](https://cdn.breizhhardware.fr/FAKA3/BarusIwU46.png/raw)
 
 ### Service Fourni par IP
 
@@ -104,7 +105,7 @@ https://cdn.breizhhardware.fr/FAKA3/BarusIwU46.png
     * perte possible de messages
     * non respect de la séquence
     * erreurs de transmission possibles et non détectées 
-https://cdn.breizhhardware.fr/FAKA3/pInaLOMa17.png
+![](https://cdn.breizhhardware.fr/FAKA3/pInaLOMa17.png/raw)
 
 ### TCP - UDP
 
@@ -123,7 +124,7 @@ https://cdn.breizhhardware.fr/FAKA3/pInaLOMa17.png
   * fiable
   * mode stream
   * fermeture de la connexion: abrupte par le fournisseur, ordonnée ou abrupte par les utilisateurs
-  https://cdn.breizhhardware.fr/FAKA3/bEqUBARE62.png
+  ![](https://cdn.breizhhardware.fr/FAKA3/bEqUBARE62.png/raw)
 
 #### Service UDP
 
@@ -132,15 +133,15 @@ https://cdn.breizhhardware.fr/FAKA3/pInaLOMa17.png
 * Caractéristique du service 
   * service sans connexion
   * non fiable
-https://cdn.breizhhardware.fr/FAKA3/gePiGOYu36.png
+![](https://cdn.breizhhardware.fr/FAKA3/gePiGOYu36.png/raw)
 
 #### TCP/IP PDU:
 
-https://cdn.breizhhardware.fr/FAKA3/SecaMuVe13.png
+![](https://cdn.breizhhardware.fr/FAKA3/SecaMuVe13.png/raw)
 
 #### TCP/IP Quelque Protocoles
 
-https://cdn.breizhhardware.fr/FAKA3/DIxApiFI47.png
+![](https://cdn.breizhhardware.fr/FAKA3/DIxApiFI47.png/raw)
 
 # Conclusion
 
