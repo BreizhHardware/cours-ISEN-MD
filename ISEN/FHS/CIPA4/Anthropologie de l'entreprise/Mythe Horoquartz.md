@@ -7,9 +7,9 @@ Horoquartz a été fondée en 1971 à Fontenay-le-Comte par Jean-Michel Poupeau 
 
 ## Développement et innovations
 - **1980** : L’entreprise quitte le centre-ville pour s’installer dans un bâtiment neuf et fonctionnel, signe de sa croissance et de son professionnalisme croissant.
-- **1984** : Avec l’arrivée des PC sous DOS, Horoquartz développe ses premiers systèmes informatisés de gestion des temps, de suivi d’activité et de contrôle d’accès, marquant un tournant technologique.
+- **1984** : Avec l’arrivée des PC sous DOS, Horoquartz développe ses premiers systèmes informatisés de gestion des temps, de suivi d’activité et de contrôle d’accès.
 - **1995** : Lancement de **Temptation**, une solution de gestion des temps compatible avec plusieurs plateformes (Unix, AS400, Windows), qui deviendra un produit phare et changera de nom pour **eTemptation**.
-- **2001** : Rachat de **Manatom**, une société lyonnaise spécialisée dans l’optimisation des plannings, permettant à Horoquartz d’intégrer des technologies avancées et d’élargir son offre.
+- **2001** : Rachat de **Manatom**, une société lyonnaise spécialisée dans l’optimisation des plannings, permettant à Horoquartz d’élargir son offre.
 - **2008** : Horoquartz rejoint le groupe japonais **Amano**, spécialisé dans les solutions de gestion du temps et de la sécurité, ce qui lui ouvre de nouvelles perspectives internationales.
 
 # Étape 2 : Identifier les aspects mythiques
