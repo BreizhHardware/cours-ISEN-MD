@@ -11,24 +11,12 @@
             "id": "14045e30aacf0836",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "ISEN/Réseau/CIPA4/TP/TP M02 Conversion.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
+                "file": "ISEN/BDD/CIPA4/TP1/Tp1.pdf"
               },
-              "icon": "lucide-file",
-              "title": "TP M02 Conversion"
+              "icon": "lucide-file-text",
+              "title": "Tp1"
             }
           },
           {
@@ -252,10 +240,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "14045e30aacf0836",
+  "active": "622da1d4e0ba0f73",
   "lastOpenFiles": [
-    "ISEN/Réseau/CIPA4/Réseau Cours 1.md",
+    "ISEN/BDD/CIPA4/TP1/tp1.sql",
+    "ISEN/BDD/CIR2/TP1/Tp1.pdf",
+    "ISEN/BDD/CIPA4/TP1/Tp1.pdf",
     "ISEN/Réseau/CIPA4/TP/TP M02 Conversion.md",
+    "ISEN/Réseau/CIPA4/Réseau Cours 1.md",
     "ISEN/Réseau/A1/Cisco Cours 2.md",
     "ISEN/Réseau/CIPA4/TP/M01-01-TP-Packet-Tracer_Modele_OSI.pka~",
     "ISEN/Réseau/CIPA4/TP/M01-01-TP-Packet-Tracer_Modele_OSI.pka",
@@ -287,10 +278,7 @@
     "ISEN/English/CIPA4/15 sept 2025.md",
     "ISEN/FPGA/CIPA4/FPGA Cours 1.md",
     "ISEN/FPGA/CIPA4",
-    "ISEN/FPGA",
-    "ISEN/FHS/A2/Outils RH/~WRL2137.tmp",
     "ISEN/FHS/CIPA4/Anthropologie de l'entreprise/Question texte T2 (conflicted copy 2025-09-12 095312).md",
-    "ISEN/JAVA/CIPA4/Java Cours 1.md",
     "ISEN/BDD/CIR2/TD2.canvas",
     "Pasted image 20250905143950.png",
     "Pasted image 20240505210657.png",
