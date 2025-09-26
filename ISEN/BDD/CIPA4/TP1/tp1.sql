@@ -9,7 +9,7 @@ SELECT nom, salaire
     ORDER BY salaire, nom;
 
 /*
- b) fficher le nom, le salaire et la commission des employés ayant une commission
+ b) Afficher le nom, le salaire et la commission des employés ayant une commission
  */
 SELECT nom, salaire, comm
     FROM employe
