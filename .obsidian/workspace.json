@@ -11,12 +11,14 @@
             "id": "14045e30aacf0836",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "split-diff-view",
               "state": {
-                "file": "ISEN/IA/CIPA4/Cours/CM1_KOA-IA-Generalites-CIPA4.pdf"
+                "aFile": "ISEN/IA/CIPA4/TP/TP2/tp2_IA.ipynb",
+                "bFile": "ISEN/IA/CIPA4/TP/TP2/tp2_IA.ipynb",
+                "aRef": ""
               },
-              "icon": "lucide-file-text",
-              "title": "CM1_KOA-IA-Generalites-CIPA4"
+              "icon": "diff",
+              "title": "Diff: tp2_IA.ipynb"
             }
           },
           {
@@ -242,6 +244,7 @@
   },
   "active": "14045e30aacf0836",
   "lastOpenFiles": [
+    "ISEN/IA/CIPA4/Cours/CM1_KOA-IA-Generalites-CIPA4.pdf",
     "ISEN/IA/CIPA4/TP/TP2/tp2_IA.ipynb",
     "ISEN/IA/CIPA4/TP/TP2/tp2_IA.ipnb",
     "ISEN/IA/CIPA4/TP/TP2/tp2_IA",
@@ -257,7 +260,6 @@
     "ISEN/Réseau/A1/Cisco Cours 2.md",
     "ISEN/Réseau/CIPA4/TP/M01-01-TP-Packet-Tracer_Modele_OSI.pka~",
     "ISEN/Réseau/CIPA4/TP/M01-01-TP-Packet-Tracer_Modele_OSI.pka",
-    "ISEN/Réseau/CIPA4/TP",
     "ISEN/Réseau/A2/CCNA Cours 1.md",
     "ISEN/Réseau/A1/Cisco Cours 1.md",
     "ISEN/Réseau/A2/CCNA Cours 2.md",
