@@ -11,24 +11,12 @@
             "id": "14045e30aacf0836",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "ISEN/English/CIPA4/29 sept 2025.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
+                "file": "ISEN/IA/CIPA4/Cours/CM1_KOA-IA-Generalites-CIPA4.pdf"
               },
-              "icon": "lucide-file",
-              "title": "29 sept 2025"
+              "icon": "lucide-file-text",
+              "title": "CM1_KOA-IA-Generalites-CIPA4"
             }
           },
           {
@@ -254,8 +242,9 @@
   },
   "active": "14045e30aacf0836",
   "lastOpenFiles": [
-    "ISEN/BDD/CIPA4/TP1/Tp1.pdf",
+    "ISEN/IA/CIPA4/IA Cours 1.md",
     "ISEN/English/CIPA4/29 sept 2025.md",
+    "ISEN/BDD/CIPA4/TP1/Tp1.pdf",
     "ISEN/BDD/CIPA4/TP1/tp1.sql~",
     "ISEN/BDD/CIPA4/TP1/tp1.sql",
     "ISEN/BDD/CIR2/TP1/Tp1.pdf",
