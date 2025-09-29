@@ -11,12 +11,24 @@
             "id": "14045e30aacf0836",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "ISEN/BDD/CIPA4/TP1/Tp1.pdf"
+                "file": "ISEN/English/CIPA4/29 sept 2025.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
-              "icon": "lucide-file-text",
-              "title": "Tp1"
+              "icon": "lucide-file",
+              "title": "29 sept 2025"
             }
           },
           {
@@ -242,10 +254,11 @@
   },
   "active": "14045e30aacf0836",
   "lastOpenFiles": [
+    "ISEN/BDD/CIPA4/TP1/Tp1.pdf",
+    "ISEN/English/CIPA4/29 sept 2025.md",
     "ISEN/BDD/CIPA4/TP1/tp1.sql~",
     "ISEN/BDD/CIPA4/TP1/tp1.sql",
     "ISEN/BDD/CIR2/TP1/Tp1.pdf",
-    "ISEN/BDD/CIPA4/TP1/Tp1.pdf",
     "ISEN/Réseau/CIPA4/TP/TP M02 Conversion.md",
     "ISEN/Réseau/CIPA4/Réseau Cours 1.md",
     "ISEN/Réseau/A1/Cisco Cours 2.md",
@@ -274,11 +287,9 @@
     "ISEN/BDD/CIPA4/modelisation-cas-centre-de-formation.md",
     "ISEN/BDD/CIPA4/BDD Cours 2.md",
     "ISEN/Traitement du signal/CIPA4/Cours/chap5_signaux_aleatoires.pdf",
-    "ISEN/Traitement du signal/CIPA4/Cours/chap4_filtrage_numerique.pdf",
     "ISEN/Réunion/CIPA 4/Rentrée 2025-2026.md",
     "ISEN/English/CIPA4/15 sept 2025.md",
     "ISEN/FPGA/CIPA4/FPGA Cours 1.md",
-    "ISEN/FHS/CIPA4/Anthropologie de l'entreprise/Question texte T2 (conflicted copy 2025-09-12 095312).md",
     "ISEN/BDD/CIR2/TD2.canvas",
     "Pasted image 20250905143950.png",
     "Pasted image 20240505210657.png",
