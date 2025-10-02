@@ -32,6 +32,18 @@
             }
           },
           {
+            "id": "d7edff405bbcbd43",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.9.14"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.9.14"
+            }
+          },
+          {
             "id": "bb525c2565afdf89",
             "type": "leaf",
             "state": {
@@ -79,7 +91,8 @@
               "title": "TD1_signal_m1_original"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -252,7 +265,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "14045e30aacf0836",
+  "active": "d7edff405bbcbd43",
   "lastOpenFiles": [
     "ISEN/FPGA/CIPA4/FPGA TP Login.md",
     "ISEN/FPGA/CIPA4/FPGA TP Utils.md",
