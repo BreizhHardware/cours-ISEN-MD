@@ -35,12 +35,24 @@
             "id": "d7edff405bbcbd43",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.9.14"
+                "file": "ISEN/Réunion/CIPA 4/Délégué 2025-2026.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.9.14"
+              "icon": "lucide-file",
+              "title": "Délégué 2025-2026"
             }
           },
           {
@@ -267,6 +279,7 @@
   },
   "active": "d7edff405bbcbd43",
   "lastOpenFiles": [
+    "ISEN/Réunion/CIPA 4/Délégué 2025-2026.md",
     "ISEN/FPGA/CIPA4/FPGA TP Login.md",
     "ISEN/FPGA/CIPA4/FPGA TP Utils.md",
     "ISEN/JAVA/CIPA4/CM/07-exceptions.pdf",
