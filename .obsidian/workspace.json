@@ -11,14 +11,12 @@
             "id": "d7edff405bbcbd43",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "pdf",
               "state": {
-                "aFile": "ISEN/IA/CIPA4/TP/TP3/tp3_IA.ipynb",
-                "bFile": "ISEN/IA/CIPA4/TP/TP3/tp3_IA.ipynb",
-                "aRef": ""
+                "file": "ISEN/Réseau/CIPA4/TP/Module 3/Enonce du M03 TP 01 - Les classes IPv4.pdf"
               },
-              "icon": "diff",
-              "title": "Diff: tp3_IA.ipynb"
+              "icon": "lucide-file-text",
+              "title": "Enonce du M03 TP 01 - Les classes IPv4"
             }
           },
           {
@@ -242,17 +240,21 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "622da1d4e0ba0f73",
+  "active": "d7edff405bbcbd43",
   "lastOpenFiles": [
+    "ISEN/Réseau/CIPA4/TP/Module 3/Enonce du M03 TP 02 - Calcul d'adresses.pdf",
+    "ISEN/Réseau/CIPA4/TP/Module 3/Enonce du M03 TP 01 - Les classes IPv4.pdf",
+    "ISEN/Réseau/CIPA4/TP/Module 3/Enonce du M03 TP 03 - Notation CIDR.pdf",
+    "ISEN/Réseau/CIPA4/TP/Module 3/Enonce du M03 TP 04 - Calcul de sous-reseaux.pdf",
+    "ISEN/Réseau/CIPA4/TP/Module 3/M03-05-TP-Packet-Tracer_Adressage_IPv4.pka",
+    "ISEN/Réseau/CIPA4/TP/Module 3/Enonce du M03 TP 05 - Parametrages d'adresses IPv4.pdf",
+    "ISEN/Réseau/CIPA4/TP/Module 3",
     "ISEN/IA/CIPA4/TP/TP2/tp2.pdf",
     "ISEN/IA/CIPA4/TP/TP2/tp2 (1).pdf",
     "ISEN/IA/CIPA4/TP/TP3/tp3_IA.pdf",
     "ISEN/IA/CIPA4/TP/TP3/Compte Rendu TP3  Apprentissage non-supervisé - Réduction de la dimensionnalité.md",
     "ISEN/IA/CIPA4/TP/TP3/tp3_IA.ipynb",
-    "ISEN/IA/CIPA4/TP/TP3/Compte Rendu TP3  Apprentissage non-supervisé - Réduction de la dimensionnalité.pdf",
     "ISEN/Réunion/CIPA 4/Délégué 2025-2026.md",
-    "ISEN/IA/CIPA4/TP/TP3",
-    "ISEN/Réunion/CIPA 4/Délégué 2025-2026.pdf",
     "src/Pasted image 20240130111505.png",
     "src/Pasted image 20240123120819.png",
     "src/Pasted image 20240123120807.png",
@@ -264,11 +266,7 @@
     "Pasted image 20240505210642.png",
     "ISEN/FPGA/CIPA4/FPGA TP Login.md",
     "ISEN/FPGA/CIPA4/FPGA TP Utils.md",
-    "ISEN/JAVA/CIPA4/CM/07-exceptions.pdf",
-    "ISEN/JAVA/CIPA4/CM/08-collections.pdf",
-    "ISEN/JAVA/CIPA4/CM/09-fichiers.pdf",
     "ISEN/JAVA/CIPA4/TP/TP2/TP2.md",
-    "ISEN/JAVA/CIPA4/TP/TP2",
     "ISEN/IA/CIPA4/IA Cours 1.md",
     "ISEN/English/CIPA4/29 sept 2025.md",
     "ISEN/Réseau/CIPA4/TP/TP M02 Conversion.md",
