@@ -184,6 +184,25 @@ X, y = mnist["data"], mnist["target"]
 sgd_clf.fit(X_train, y_train)  # y_train = chiffres 0-9
 ```
 
+### TP3 : Réduction de Dimension avec PCA / t-SNE
+- **Objectif** : Visualiser MNIST en 2D.
+- **Code clé** :
+```python
+# PCA
+pca = PCA(n_components=0.95)  # Conserver 95% de la variance
+X_pca = pca.fit_transform(X_train)
+# t-SNE
+tsne = TSNE(n_components=2)
+X_tsne = tsne.fit_transform(X_train)
+```
+
+## 7. Résumé des Bonnes Pratiques
+1. **Toujours séparer les données** : Train/Validation/Test (dans cette ordre)
+2. **Nettoyer les données** : Gérer les valeurs manquantes et encoder les catégories.
+3. **Standardiser les features** : Surtout pour les algorithmes sensibles à l'échelle (ex: SVM, KNN).
+4. **Utiliser la validation croisée** pour évaluer la généralisation.
+5. **Optimiser les hyperparamètres** avec `GridSearchCV`.
+6. **Visualiser les résultats** : Matrices de confusion, courbes ROC, projections 2D.
 
 ---
 
