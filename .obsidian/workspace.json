@@ -11,12 +11,24 @@
             "id": "d7edff405bbcbd43",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "ISEN/Réseau/CIPA4/TP/Module 3/Enonce du M03 TP 04 - Calcul de sous-reseaux.pdf"
+                "file": "ISEN/IA/CIPA4/Fiche de révision.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
-              "icon": "lucide-file-text",
-              "title": "Enonce du M03 TP 04 - Calcul de sous-reseaux"
+              "icon": "lucide-file",
+              "title": "Fiche de révision"
             }
           },
           {
@@ -242,8 +254,9 @@
   },
   "active": "d7edff405bbcbd43",
   "lastOpenFiles": [
-    "ISEN/Réseau/CIPA4/TP/Module 3/Enonce du M03 TP 03 - Notation CIDR.pdf",
     "ISEN/Réseau/CIPA4/TP/Module 3/Enonce du M03 TP 04 - Calcul de sous-reseaux.pdf",
+    "ISEN/IA/CIPA4/Fiche de révision.md",
+    "ISEN/Réseau/CIPA4/TP/Module 3/Enonce du M03 TP 03 - Notation CIDR.pdf",
     "ISEN/Réseau/CIPA4/TP/Module 3/Enonce du M03 TP 05 - Parametrages d'adresses IPv4.pdf",
     "ISEN/Réseau/CIPA4/TP/Module 3/Enonce du M03 TP 02 - Calcul d'adresses.pdf",
     "ISEN/Réseau/CIPA4/TP/Module 3/Enonce du M03 TP 01 - Les classes IPv4.pdf",
@@ -283,7 +296,6 @@
     "ISEN/Réseau/A1/Cisco Intro.md",
     "ISEN/Réseau/A1/Cisco Cours 3.md",
     "ISEN/FHS/CIPA4/Anthropologie de l'entreprise/Mythe Horoquartz.md",
-    "ISEN/FHS/CIPA4/Anthropologie de l'entreprise/Anthropologie de l'entreprise Cours 1.md",
     "ISEN/BDD/CIR2/TD2.canvas",
     "Pasted image 20250905143950.png",
     "Pasted image 20250905144746.png",
