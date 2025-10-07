@@ -85,6 +85,104 @@ scaler = StandardScaler()
 X_train_scaled = scaler.fit_transform(X_train)
 ```
 
+## 3. Apprentissage Non Supervisé
+### 3.1 Concepts Clés
+- **Clustering** : Regrouper des données similaires (ex: K-Means, DBSCAN).
+- **Réduction de Dimension** : Simplifier les données (ex: PCA, t-SNE).
+- **Détection d'Anomalies** : Identifier des points aberrants.
+
+### 3.2 Algorithmes Courants
+| Algorithme  | Utilisation                      | Code Scikit-Learn                       |
+| ----------- | -------------------------------- | --------------------------------------- |
+| **K-Means** | Clustering par partitionnement.  | `from sklearn.cluster import KMeans`    |
+| **PCA**     | Réduction de dimension linéaire. | `from sklearn.decomposition import PCA` |
+| **t-SNE**   | Visualisation en 2D/3D.          | `from sklearn.manifold import TSNE`     |
+| **DBSCAN**  | Clustering basé sur la densité.  | `from sklearn.cluster import DBSCAN`    |
+
+### 3.3 Exemples de Code (TP3)
+#### PCA pour Réduction de Dimension (TP3)
+```python
+from sklearn.decomposition import PCA
+pca = PCA(n_components=2)
+X_pca = pca.fit_transform(X_train)
+print(f"Variance expliquée: {pca.explained_variance_ratio_}")
+```
+
+#### t-SNE pour Visualisation (TP3)
+```python
+from sklearn.manifold import TSNE
+tsne = TSNE(n_components=2, random_state=42)
+X_tsne = tsne.fit_transform(X_train)
+```
+
+## 4. Préparation des Données
+### 4.1 Nettoyage et Prétraitement
+- **Gestion des valeurs manquantes** :
+```python
+data.fillna(data.median(), inplace=True)  # Remplace par la médiane
+```
+- **Encodage des variables catégorielles** :
+```python
+from sklearn.preprocessing import OrdinalEncoder
+encoder = OrdinalEncoder()
+data_cat_encoded = encoder.fit_transform(data_cat)
+```
+- **Normalisation** :
+```python
+from sklearn.preprocessing import MinMaxScaler
+scaler = MinMaxScaler()
+data_scaled = scaler.fit_transform(data)
+```
+
+### 4.2 Répartition Train/Test
+```python
+from sklearn.model_selection import train_test_split
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+```
+
+## 5. Évaluation et Optimisation
+### 5.1 Métriques
+- **RMSE (Régression)** :
+```python
+from sklearn.metrics import mean_squared_error
+rmse = np.sqrt(mean_squared_error(y_true, y_pred))
+```
+- **Grid Search (Optimisation des Hyperparamètres)** :
+```python
+from sklearn.model_selection import GridSearchCV
+param_grid = {"n_estimators": [3, 10, 30], "max_features": [2, 4, 6]}
+grid_search = GridSearchCV(RandomForestRegressor(), param_grid, cv=5)
+grid_search.fit(X_train, y_train)
+print(f"Meilleurs paramètres: {grid_search.best_params_}")
+```
+
+## 6.  Cas pratiques (TP)
+### TP1 : Régression sur le prix des maisons
+- **Objectif** : Prédire `median_house_value` à partir de features géographiques.
+- **Code clé** :
+```python
+# Chargement des données
+import pandas as pd
+data = pd.read_csv("housing.csv")
+# Nettoyage
+data["total_bedrooms"].fillna(data["total_bedrooms"].median(), inplace=True)
+# Modèle
+from sklearn.ensemble import RandomForestRegressor
+model = RandomForestRegressor(n_estimators=30, max_features=6)
+model.fit(X_train, y_train)
+```
+
+### TP2 : Classement des Chiffres MNIST
+- **Objectif** : Classifier des images de chiffres (0-9).
+- **Code clé** :
+```python
+# Chargement des données
+from sklearn.datasets import fetch_openml
+mnist = fetch_openml("mnist_784", version=1)
+X, y = mnist["data"], mnist["target"]
+# Classification multi-classe
+sgd_clf.fit(X_train, y_train)  # y_train = chiffres 0-9
+```
 
 
 ---
