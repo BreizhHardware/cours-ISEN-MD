@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ISEN/Réunion/CIPA 4/Rentrée 2025-2026.md",
+                "file": "ISEN/Réunion/CIPA 4/Réunion international.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Rentrée 2025-2026"
+              "title": "Réunion international"
             }
           },
           {
@@ -254,6 +254,8 @@
   },
   "active": "d7edff405bbcbd43",
   "lastOpenFiles": [
+    "ISEN/Réunion/CIPA 4/Rentrée 2025-2026.md",
+    "ISEN/Réunion/CIPA 4/Réunion international.md",
     "ISEN/Réunion/CIPA 4/Réunion FHS Rentrée 2025.md",
     "ISEN/Réunion/CIPA 4/Délégué 2025-2026.md",
     "ISEN/IA/CIPA4/Fiche de révision.md",
@@ -295,8 +297,6 @@
     "ISEN/Réseau/A2/CCNA Cours 5.md",
     "ISEN/Réseau/A2/CCNA Cours 4.md",
     "ISEN/Réseau/A1/Cisco Intro.md",
-    "ISEN/Réseau/A1/Cisco Cours 3.md",
-    "ISEN/FHS/CIPA4/Anthropologie de l'entreprise/Mythe Horoquartz.md",
     "ISEN/BDD/CIR2/TD2.canvas",
     "Pasted image 20250905143950.png",
     "Pasted image 20250905144746.png",
