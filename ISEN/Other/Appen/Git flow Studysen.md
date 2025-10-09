@@ -1,3 +1,4 @@
+#Appen #Studysen
 # Git Flow : Principe et Intérêt pour la CI/CD
 
 ## 1. Introduction
@@ -5,15 +6,12 @@ Le **Git Flow** est un modèle de gestion de branches Git conçu pour structurer
 - Séparer clairement le code stable (production) du code en développement.
 - Faciliter la collaboration entre plusieurs développeurs.
 - Automatiser les tests et déploiements (CI/CD).
-
 ## 2. Branches principales
 
 | Branche | Rôle                                                                 | Exemple d’utilisation                                                                 |
 |---------|----------------------------------------------------------------------|---------------------------------------------------------------------------------------|
 | **main** | Contient le code de production, toujours stable et prêt à être déployé. | Version disponible sur les stores (App Store, Google Play, etc.).                     |
 | **dev**  | Intègre les nouvelles fonctionnalités et corrections avant la release. | Branche où tout le développement actif a lieu avant de fusionner vers `main`.         |
-
----
 
 ## 3. Branches de support (temporaires)
 
@@ -68,7 +66,7 @@ git merge --no-ff hotfix/critical-bug
 
 ## 4. Intérêt pour la CI/CD
 - **Automatisation des tests** : Chaque fusion vers `dev` ou `main` peut déclencher des pipelines CI (tests unitaires, intégration, etc.).
-- **Déploiement continu** : La branche `main` peut être configurée pour déclencher un déploiement automatique vers la production (compilation et publication sur les store via expo).
+- **Déploiement continu** : La branche `main` déclenche un build et une publication automatique sur Expo et les stores.
 - **Isolation des fonctionnalités** : Les `feature branches` permettent de tester une fonctionnalité en isolation avant intégration.
 - **Gestion des versions** : Les `release branches` et les tags facilitent le suivi des versions et les rollbacks si nécessaire.
 
@@ -76,7 +74,7 @@ git merge --no-ff hotfix/critical-bug
 1. Un développeur crée une `feature/login-page` depuis `dev`.
 2. Après validation, la feature est mergée dans `dev`.
 3. Quand `dev` est stable, une `release/1.2.0` est créée pour les tests finaux.
-4. La release est mergée dans `main` (avec un tag) et `dev`.
+4. La release est mergée dans `main` (avec un tag) et `dev`, puis déployée automatiquement via EAS.
 5. Si un bug critique est détecté en production, un `hotfix` est créé depuis `main`, corrigé, puis mergé dans `main` et `dev`.
 
 ## 6. Schéma visuel simplifié
@@ -92,3 +90,16 @@ dev ────┴─────┬────────────┴─�
         feature/*           release/*
 
 ```
+
+## 7. Bonnes pratiques pour React Native + Expo
+- **Utiliser EAS Build** pour générer des builds à chaque tag sur `main`.
+- **Configurer des canaux de release** dans Expo pour tester les `feature branches` :
+```bash
+npx expo publish --release-channel dev
+```
+- **Automatiser la génération des notes de release** à partir des commits depuis le dernier tag.
+- **Utiliser des variables d’environnement** pour gérer les clés API et les configurations spécifiques à chaque environnement (dev/prod).
+
+---
+
+&copy Félix MARQUET pour Appen ISEN
