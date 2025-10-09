@@ -78,18 +78,7 @@ git merge --no-ff hotfix/critical-bug
 5. Si un bug critique est détecté en production, un `hotfix` est créé depuis `main`, corrigé, puis mergé dans `main` et `dev`.
 
 ## 6. Schéma visuel simplifié
-```
-main ────┬─────────────────┬─────────────────┬───>
-         │                 │                 │
-         ▼                 ▼                 ▼
-      v1.1.0            v1.2.0            v1.2.1
-         │                 │                 │
-dev ────┴─────┬────────────┴─────┬────────────┴───>
-              │                   │
-              ▼                   ▼
-        feature/*           release/*
-
-```
+![](https://cdn.breizhhardware.fr/FAKA3/yeFEpABE52.webp/raw)
 
 ## 7. Bonnes pratiques pour React Native + Expo
 - **Utiliser EAS Build** pour générer des builds à chaque tag sur `main`.
