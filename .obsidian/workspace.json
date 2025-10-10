@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ISEN/Other/Appen/Git flow Studysen.md",
+                "file": "ISEN/Réunion/CIPA 4/Réunion international.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Git flow Studysen"
+              "title": "Réunion international"
             }
           },
           {
@@ -111,7 +111,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#Daily",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -254,24 +254,26 @@
   },
   "active": "d7edff405bbcbd43",
   "lastOpenFiles": [
+    "Untitled.base",
     "Pasted image 20251009192656.png",
     "ISEN/Other/Appen/Git flow Studysen.pdf",
     "ISEN/Other/Appen/Git flow Studysen.md",
-    "Untitled.base",
+    "ISEN/Other/Appen",
     "ISEN/FHS/A2/Outils RH/~WRL2137.tmp",
     "ISEN/FHS/A2/Outils RH/~$ttre de motivation.docx",
-    "ISEN/Other/TP Class 1.md",
-    "ISEN/Other/Appen",
-    "ISEN/IA/CIPA4/Fiche de révision.md",
+    "ISEN/Réunion/CIPA 4/Rentrée 2025-2026.md",
     "ISEN/Réunion/CIPA 4/Réunion international.md",
-    "ISEN/IA/CIPA4/TP/TP4/tp4_IA.pdf",
+    "ISEN/Réunion/CIPA 4/Réunion FHS Rentrée 2025.md",
+    "ISEN/Réunion/CIPA 4/Délégué 2025-2026.md",
+    "ISEN/IA/CIPA4/Fiche de révision.md",
     "ISEN/IA/CIPA4/TP/TP4/tp4_IA.ipynb",
-    "ISEN/IA/CIPA4/TP/TP4",
+    "ISEN/IA/CIPA4/TP/TP4/tp4_IA (1).ipynb",
     "ISEN/IA/CIPA4/Fiche de révision.pdf",
     "ISEN/Réseau/CIPA4/TP/Module 3/Enonce du M03 TP 04 - Calcul de sous-reseaux.pdf",
+    "ISEN/Réseau/CIPA4/TP/Module 3/Enonce du M03 TP 03 - Notation CIDR.pdf",
+    "ISEN/Réseau/CIPA4/TP/Module 3/Enonce du M03 TP 05 - Parametrages d'adresses IPv4.pdf",
     "ISEN/Réseau/CIPA4/Réseau Cours 1.md",
     "ISEN/IA/CIPA4/TP/TP3/Compte Rendu TP3  Apprentissage non-supervisé - Réduction de la dimensionnalité.md",
-    "ISEN/Réunion/CIPA 4/Délégué 2025-2026.md",
     "src/Pasted image 20240130111505.png",
     "src/Pasted image 20240123120819.png",
     "src/Pasted image 20240123120807.png",
@@ -296,12 +298,10 @@
     "ISEN/Réseau/A1/Cisco Cours 5.md",
     "ISEN/Réseau/A2/TP Ansible et docker.canvas",
     "ISEN/Réseau/A2/CCNA Cours 5.md",
-    "ISEN/Réseau/A2/CCNA Cours 4.md",
     "ISEN/BDD/CIR2/TD2.canvas",
     "Pasted image 20250905143950.png",
     "Pasted image 20250905144746.png",
     "Pasted image 20250905144313.png",
-    "Pasted image 20250905144006.png",
     "ISEN/Modelec/NB point.canvas",
     "Untitled.canvas",
     "ISEN/Other/Graph Overseer.canvas",
