@@ -11,24 +11,13 @@
             "id": "d7edff405bbcbd43",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "bases",
               "state": {
-                "file": "ISEN/Réunion/CIPA 4/Réunion international.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
+                "file": "Untitled.base",
+                "viewName": "Table"
               },
-              "icon": "lucide-file",
-              "title": "Réunion international"
+              "icon": "lucide-table",
+              "title": "Untitled"
             }
           },
           {
@@ -252,8 +241,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "622da1d4e0ba0f73",
+  "active": "d7edff405bbcbd43",
   "lastOpenFiles": [
+    "ISEN/Réunion/CIPA 4/Réunion international.md",
     "ISEN/BDD/CIPA4/TP2/TP2.sql~",
     "ISEN/BDD/CIPA4/TP2/TP2.sql",
     "ISEN/BDD/CIPA4/TP2/Tp2.pdf",
@@ -266,12 +256,10 @@
     "ISEN/FHS/A2/Outils RH/~WRL2137.tmp",
     "ISEN/FHS/A2/Outils RH/~$ttre de motivation.docx",
     "ISEN/Réunion/CIPA 4/Rentrée 2025-2026.md",
-    "ISEN/Réunion/CIPA 4/Réunion international.md",
     "ISEN/Réunion/CIPA 4/Réunion FHS Rentrée 2025.md",
     "ISEN/Réunion/CIPA 4/Délégué 2025-2026.md",
     "ISEN/IA/CIPA4/Fiche de révision.md",
     "ISEN/IA/CIPA4/TP/TP4/tp4_IA.ipynb",
-    "ISEN/IA/CIPA4/TP/TP4/tp4_IA (1).ipynb",
     "ISEN/Réseau/CIPA4/Réseau Cours 1.md",
     "ISEN/IA/CIPA4/TP/TP3/Compte Rendu TP3  Apprentissage non-supervisé - Réduction de la dimensionnalité.md",
     "src/Pasted image 20240130111505.png",
