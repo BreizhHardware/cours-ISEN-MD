@@ -11,13 +11,24 @@
             "id": "d7edff405bbcbd43",
             "type": "leaf",
             "state": {
-              "type": "bases",
+              "type": "markdown",
               "state": {
-                "file": "Untitled.base",
-                "viewName": "Table"
+                "file": "ISEN/BDD/CIPA4/Projet/Présentation projet.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
-              "icon": "lucide-table",
-              "title": "Untitled"
+              "icon": "lucide-file",
+              "title": "Présentation projet"
             }
           },
           {
@@ -243,12 +254,14 @@
   },
   "active": "d7edff405bbcbd43",
   "lastOpenFiles": [
+    "Untitled.base",
+    "ISEN/BDD/CIPA4/Projet/Présentation projet.md",
+    "ISEN/BDD/CIPA4/Projet",
     "ISEN/Réunion/CIPA 4/Réunion international.md",
     "ISEN/BDD/CIPA4/TP2/TP2.sql~",
     "ISEN/BDD/CIPA4/TP2/TP2.sql",
     "ISEN/BDD/CIPA4/TP2/Tp2.pdf",
     "ISEN/BDD/CIPA4/TP2",
-    "Untitled.base",
     "Pasted image 20251009192656.png",
     "ISEN/Other/Appen/Git flow Studysen.pdf",
     "ISEN/Other/Appen/Git flow Studysen.md",
@@ -259,7 +272,6 @@
     "ISEN/Réunion/CIPA 4/Réunion FHS Rentrée 2025.md",
     "ISEN/Réunion/CIPA 4/Délégué 2025-2026.md",
     "ISEN/IA/CIPA4/Fiche de révision.md",
-    "ISEN/IA/CIPA4/TP/TP4/tp4_IA.ipynb",
     "ISEN/Réseau/CIPA4/Réseau Cours 1.md",
     "ISEN/IA/CIPA4/TP/TP3/Compte Rendu TP3  Apprentissage non-supervisé - Réduction de la dimensionnalité.md",
     "src/Pasted image 20240130111505.png",
@@ -285,7 +297,6 @@
     "ISEN/Réseau/A1/Cisco Cours 4.md",
     "ISEN/Réseau/A1/Cisco Cours 5.md",
     "ISEN/Réseau/A2/TP Ansible et docker.canvas",
-    "ISEN/Réseau/A2/CCNA Cours 5.md",
     "ISEN/BDD/CIR2/TD2.canvas",
     "Pasted image 20250905143950.png",
     "Pasted image 20250905144746.png",
