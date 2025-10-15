@@ -1,0 +1,27 @@
+[project]
+name = "data-cleanup"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Félix MARQUET",email = "72651575+BreizhHardware@users.noreply.github.com"}
+]
+readme = "../README.md"
+requires-python = ">=3.12,<3.14"
+dependencies = [
+    "pandas (>=2.3.3,<3.0.0)",
+    "chardet (>=5.0.0,<6.0.0)",
+    "transformers (>=4.57.0,<5.0.0)",
+    "torch (>=2.8.0,<3.0.0)",
+    "python-dotenv (>=1.1.1,<2.0.0)",
+    "requests (>=2.32.5,<3.0.0)",
+    "psycopg2-binary (>=2.9.11,<3.0.0)",
+    "folium (>=0.20.0,<0.21.0)",
+    "sqlalchemy (>=2.0.44,<3.0.0)"
+]
+
+[tool.poetry]
+packages = [{include = "data_cleanup", from = "src"}]
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"

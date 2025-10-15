@@ -2,6 +2,8 @@
 <project version="4">
   <component name="DataSourcePerFileMappings">
     <file url="file://$APPLICATION_CONFIG_DIR$/consoles/db/eb9e9749-0ca8-4553-b81f-a6e8f6e0ae06/console.sql" value="eb9e9749-0ca8-4553-b81f-a6e8f6e0ae06" />
+    <file url="file://$PROJECT_DIR$/Projet/sql/model/database.sql" value="8e6fbf35-1bf9-43a5-bb8c-3bd8ddad339e" />
+    <file url="file://$PROJECT_DIR$/Projet/sql/model/drop_and_recreate.sql" value="8e6fbf35-1bf9-43a5-bb8c-3bd8ddad339e" />
     <file url="file://$PROJECT_DIR$/TP1/CTtpisen.sql" value="eb9e9749-0ca8-4553-b81f-a6e8f6e0ae06" />
     <file url="file://$PROJECT_DIR$/TP1/ITtpisen.sql" value="eb9e9749-0ca8-4553-b81f-a6e8f6e0ae06" />
     <file url="file://$PROJECT_DIR$/TP1/tp1.sql" value="eb9e9749-0ca8-4553-b81f-a6e8f6e0ae06" />

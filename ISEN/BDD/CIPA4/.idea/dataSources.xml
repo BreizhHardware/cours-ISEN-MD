@@ -8,5 +8,12 @@
       <jdbc-url>jdbc:postgresql://192.168.21.20:5432/postgres</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
+    <data-source source="LOCAL" name="isen-projet@10.30.51.183" uuid="8e6fbf35-1bf9-43a5-bb8c-3bd8ddad339e">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://10.30.51.183:5432/isen-projet</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
   </component>
 </project>
