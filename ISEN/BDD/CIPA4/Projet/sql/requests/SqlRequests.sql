@@ -174,13 +174,56 @@ ALTER TABLE Localisation ADD COLUMN last_modified TIMESTAMP DEFAULT CURRENT_TIME
 
 ALTER TABLE Installation ADD COLUMN last_modified TIMESTAMP DEFAULT CURRENT_TIMESTAMP;
 
+-- Fonction pour mettre à jour automatiquement last_modified
+CREATE OR REPLACE FUNCTION update_last_modified()
+RETURNS TRIGGER AS $$
+BEGIN
+    NEW.last_modified = CURRENT_TIMESTAMP;
+    RETURN NEW;
+END;
+$$ LANGUAGE plpgsql;
+
+-- Triggers pour chaque table
+CREATE TRIGGER trigger_update_last_modified_Marque
+    BEFORE UPDATE ON Marque
+    FOR EACH ROW EXECUTE FUNCTION update_last_modified();
+
+CREATE TRIGGER trigger_update_last_modified_Region
+    BEFORE UPDATE ON Region
+    FOR EACH ROW EXECUTE FUNCTION update_last_modified();
+
+CREATE TRIGGER trigger_update_last_modified_Installateur
+    BEFORE UPDATE ON Installateur
+    FOR EACH ROW EXECUTE FUNCTION update_last_modified();
+
+CREATE TRIGGER trigger_update_last_modified_Panneau
+    BEFORE UPDATE ON Panneau
+    FOR EACH ROW EXECUTE FUNCTION update_last_modified();
+
+CREATE TRIGGER trigger_update_last_modified_Onduleur
+    BEFORE UPDATE ON Onduleur
+    FOR EACH ROW EXECUTE FUNCTION update_last_modified();
+
+CREATE TRIGGER trigger_update_last_modified_Departement
+    BEFORE UPDATE ON Departement
+    FOR EACH ROW EXECUTE FUNCTION update_last_modified();
+
+CREATE TRIGGER trigger_update_last_modified_Localisation
+    BEFORE UPDATE ON Localisation
+    FOR EACH ROW EXECUTE FUNCTION update_last_modified();
+
+CREATE TRIGGER trigger_update_last_modified_Installation
+    BEFORE UPDATE ON Installation
+    FOR EACH ROW EXECUTE FUNCTION update_last_modified();
+
 --11)	On souhaiterait explorer le lien entre la surface des installations et leur puissance crête.
 -- Proposez une ou plusieurs requêtes qui permettent d’explorer cette question et expliquez votre
 -- démarche (corrélations simples, regroupements par tranches de surface, etc.).
 -- 1. Coefficient de corrélation entre surface et puissance_crete
 SELECT CORR(surface, puissance_crete) AS correlation_surface_puissance
 FROM Installation
-WHERE surface IS NOT NULL AND puissance_crete IS NOT NULL AND surface > 0;
+WHERE surface IS NOT NULL AND puissance_crete IS NOT NULL AND surface > 0
+LIMIT 100;
 
 -- 2. Moyenne de puissance_crete par tranches de surface
 SELECT
@@ -197,7 +240,8 @@ SELECT
 FROM Installation
 WHERE surface IS NOT NULL AND puissance_crete IS NOT NULL AND surface > 0
 GROUP BY tranche_surface
-ORDER BY tranche_surface;
+ORDER BY tranche_surface
+LIMIT 100;
 
 -- 3. Données pour scatter plot
 SELECT puissance_crete, surface
@@ -212,7 +256,7 @@ LIMIT 100;
 -- -densité de puissance moyenne par commune ; 
 -- -top N marques d’onduleurs par nombre d’installations. 
 
-CREATE VIEW vue_puissance_region_annee AS
+CREATE OR REPLACE VIEW vue_puissance_region_annee AS
 SELECT 
     r.nom AS region,
     EXTRACT(YEAR FROM i.date_installation) AS annee,
@@ -225,12 +269,12 @@ JOIN Departement d ON l.departement_code = d.departement_code
 JOIN Region r ON d.region_code = r.region_code
 WHERE i.date_installation IS NOT NULL
 GROUP BY r.nom, EXTRACT(YEAR FROM i.date_installation)
-ORDER BY annee DESC, puissance_totale DESC;
+ORDER BY annee DESC, puissance_totale DESC
+LIMIT 100;
 
-SELECT * FROM vue_puissance_region_annee;
-DROP VIEW vue_puissance_region_annee;
+SELECT * FROM vue_puissance_region_annee LIMIT 100;
 
-CREATE VIEW vue_densite_puissance_commune AS
+CREATE OR REPLACE VIEW vue_densite_puissance_commune AS
 SELECT
     l.ville AS commune,
     l.code_postal,
@@ -249,12 +293,12 @@ JOIN Localisation l ON i.id_ville = l.id_ville
 JOIN Departement d ON l.departement_code = d.departement_code
 JOIN Region r ON d.region_code = r.region_code
 GROUP BY l.ville, l.code_postal, l.id_ville, d.nom, r.nom, l.population
-ORDER BY densite_puissance_par_habitant DESC;
+ORDER BY densite_puissance_par_habitant DESC
+LIMIT 100;
 
-SELECT * FROM vue_densite_puissance_commune;
-DROP VIEW vue_densite_puissance_commune;
+SELECT * FROM vue_densite_puissance_commune LIMIT 100;
 
-CREATE VIEW vue_top_marques_onduleurs AS
+CREATE OR REPLACE VIEW vue_top_marques_onduleurs AS
 SELECT
     m.marque AS marque_onduleur,
     COUNT(DISTINCT i.id_installation) AS nombre_installations,
@@ -266,36 +310,34 @@ FROM Installation i
 JOIN Onduleur o ON i.id_onduleur = o.id_onduleur
 JOIN Marque m ON o.id_marque = m.id_marque
 GROUP BY m.marque
-ORDER BY nombre_installations DESC;
+ORDER BY nombre_installations DESC
+LIMIT 100;
 
-SELECT * FROM vue_top_marques_onduleurs;
-DROP VIEW vue_top_marques_onduleurs;
+SELECT * FROM vue_top_marques_onduleurs LIMIT 100;
 
-CREATE VIEW vue_orientation_pente_region AS
+-- Ecart des orientations et pentes par rapport à l'optimum, par département
+
+CREATE OR REPLACE VIEW vue_departements_pente_orientation AS
 SELECT
-    r.nom AS region,
-    d.nom AS departement,
-    COUNT(i.id_installation) AS nombre_installations,
-    -- Statistiques orientation
-    AVG(i.orientation) AS orientation_moyenne,
-    MIN(i.orientation) AS orientation_min,
-    MAX(i.orientation) AS orientation_max,
-    STDDEV(i.orientation) AS orientation_ecart_type,
-    -- Statistiques pente
-    AVG(i.pente) AS pente_moyenne,
-    MIN(i.pente) AS pente_min,
-    MAX(i.pente) AS pente_max,
-    STDDEV(i.pente) AS pente_ecart_type
-FROM Installation i
-JOIN Localisation l ON i.id_ville = l.id_ville
-JOIN Departement d ON l.departement_code = d.departement_code
-JOIN Region r ON d.region_code = r.region_code
-WHERE i.orientation IS NOT NULL AND i.pente IS NOT NULL
-GROUP BY GROUPING SETS (
-    (r.nom, d.nom),  -- Par département
-    (r.nom)          -- Par région
-)
-ORDER BY r.nom, d.nom NULLS FIRST;
+    R.nom AS nom_region,
+    D.nom AS nom_departement,
+    COUNT(I.Id_installation) AS nombre_installations,
+    ROUND(AVG(I.orientation)) AS moyenne_orientation,
+    ROUND(AVG(I.orientation_optimum)) AS moyenne_orientation_optimum,
+    ROUND(AVG(I.pente)) AS moyenne_pente,
+    ROUND(AVG(I.pente_optimum)) AS moyenne_pente_optimum
+FROM
+    Installation I
+JOIN
+    Localisation L ON I.Id_ville = L.Id_ville
+JOIN
+    Departement D ON L.departement_code = D.departement_code
+JOIN
+    Region R ON D.region_code = R.region_code
+GROUP BY
+    R.nom, D.nom
+ORDER BY
+    R.nom, D.nom
+LIMIT 100;
 
-SELECT * FROM vue_orientation_pente_region;
-DROP VIEW vue_orientation_pente_region;
+SELECT * FROM vue_departements_pente_orientation LIMIT 100;

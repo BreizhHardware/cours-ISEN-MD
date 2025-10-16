@@ -135,6 +135,10 @@ def clean_data(input_file, output_file):
     validity_cache = {inst: is_valid_company_name(inst) for inst in unique_installateurs}
     df['installateur_valide'] = df['installateur'].map(validity_cache)
 
+    # Replace invalid installateur names with a representative value only for completely invalid ones (no letters)
+    pattern = r'^[^a-zA-Z]*$|.*&\w+;.*'
+    df.loc[~df['installateur_valide'] & df['installateur'].str.fullmatch(pattern, na=False), 'installateur'] = 'ENTREPRISE INVALIDE'
+
     # Handle duplicate iddoc again after cleaning
     duplicates = df[df.duplicated('iddoc', keep=False)]
     for iddoc in duplicates['iddoc'].unique():
@@ -242,7 +246,7 @@ def clean_data(input_file, output_file):
                         if score > best_score:
                             best_score = score
                             best_info = info
-                    if best_score > 0.5:
+                    if best_score > 0.7:
                         df.at[idx, 'administrative_area_level_1'] = best_info[1]
                         df.at[idx, 'administrative_area_level_2'] = best_info[2]
                         df.at[idx, 'code_insee'] = best_info[3]
@@ -259,7 +263,7 @@ def clean_data(input_file, output_file):
                     if score > best_score:
                         best_score = score
                         best_match = city_norm
-                if best_score > 0.5:
+                if best_score > 0.7:
                     matched_key = (best_match, dep_norm)
                     if matched_key in reg_mapping:
                         df.at[idx, 'administrative_area_level_1'] = reg_mapping[matched_key]

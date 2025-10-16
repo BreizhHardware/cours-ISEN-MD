@@ -112,7 +112,9 @@ def clean_company_name(text):
     if pd.isna(text):
         return text
     text = str(text)
-    # Decode HTML entities
+    # Remove HTML entities
+    text = re.sub(r'&[^;]*;', '', text)
+    # Decode HTML entities (in case any remain)
     text = html.unescape(text)
     # Remove extra spaces
     text = re.sub(r'\s+', ' ', text).strip()
@@ -149,11 +151,12 @@ def is_valid_company_name(text):
         return False
     # Exclude invalid patterns
     invalid_patterns = [
-        'http', 'www.', 'ww.', '&', 'non renseign', 'moi', 'je', 'particulier', 'auto installation',
+        'http', 'www.', 'ww.', 'non renseign', 'moi', 'je', 'particulier', 'auto installation',
         "ne merite plus d'etre cite", "000", "a bannir", "a eviter", "a fuir", "a proscrire",
         "a oublier", "a deconseiller", "a ne pas contacter", "a ne pas retenir", "a ne pas choisir",
         "a ne pas faire travailler", "a ne pas faire appel", "ne pas contacter", "ne pas retenir",
-        "ne pas choisir", "ne pas faire travailler", "ne pas faire appel", "a completer", "a voir", "aucun"
+        "ne pas choisir", "ne pas faire travailler", "ne pas faire appel", "a completer", "a voir", "aucun",
+        "***", ";"
     ]
     if any(pattern in text.lower() for pattern in invalid_patterns):
         return False
@@ -162,7 +165,7 @@ def is_valid_company_name(text):
         return True  # Likely has registration number
     if ' ' in text:
         return True  # Likely full name
-    keywords = ['sar', 'sas', 'sa', 'gmb', 'ltd', 'inc', 'co', 'entreprise', 'societe', 'electricite', 'energie', 'solaire', 'solar', 'energy', 'ener', 'volt', 'sol', 'sun']
+    keywords = ['sar', 'sas', 'sa', 'gmb', 'ltd', 'inc', 'co', 'entreprise', 'societe', 'electricite', 'energie', 'solaire', 'solar', 'energy', 'ener', 'volt', 'sol', 'sun', 'elec', 'eurl', 'e.u.r.l']
     if any(kw in text.lower() for kw in keywords):
         return True
     # Use AI as fallback
