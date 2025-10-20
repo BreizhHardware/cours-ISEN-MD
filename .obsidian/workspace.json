@@ -8,32 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "d7edff405bbcbd43",
-            "type": "leaf",
-            "state": {
-              "type": "split-diff-view",
-              "state": {
-                "aFile": ".obsidian/workspace.json",
-                "bFile": ".obsidian/workspace.json",
-                "aRef": ""
-              },
-              "icon": "diff",
-              "title": "Diff: workspace.json"
-            }
-          },
-          {
-            "id": "d5d2a69d64b2cf52",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.9.14"
-              },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.9.14"
-            }
-          },
-          {
             "id": "bb525c2565afdf89",
             "type": "leaf",
             "state": {
@@ -81,8 +55,7 @@
               "title": "TD1_signal_m1_original"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -255,7 +228,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d5d2a69d64b2cf52",
+  "active": "cc56184c227b09ca",
   "lastOpenFiles": [
     "ISEN/BDD/CIPA4/modelisation-cas-immo.md",
     "ISEN/BDD/CIPA4/Cas modélisation alternatifs.md",
