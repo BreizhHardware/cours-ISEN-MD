@@ -11,24 +11,26 @@
             "id": "d7edff405bbcbd43",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "split-diff-view",
               "state": {
-                "file": "ISEN/FHS/CIPA4/Anthropologie de l'entreprise/Mythe Horoquartz.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
+                "aFile": ".obsidian/workspace.json",
+                "bFile": ".obsidian/workspace.json",
+                "aRef": ""
               },
-              "icon": "lucide-file",
-              "title": "Mythe Horoquartz"
+              "icon": "diff",
+              "title": "Diff: workspace.json"
+            }
+          },
+          {
+            "id": "d5d2a69d64b2cf52",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.9.14"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.9.14"
             }
           },
           {
@@ -79,7 +81,8 @@
               "title": "TD1_signal_m1_original"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -252,8 +255,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d7edff405bbcbd43",
+  "active": "d5d2a69d64b2cf52",
   "lastOpenFiles": [
+    "ISEN/BDD/CIPA4/modelisation-cas-immo.md",
+    "ISEN/BDD/CIPA4/Cas modélisation alternatifs.md",
+    "ISEN/BDD/CIPA4/BDD Cours 1.md",
+    "ISEN/BDD/CIPA4/BDD Cours 2.md",
+    "ISEN/FHS/CIPA4/Anthropologie de l'entreprise/Mythe Horoquartz.md",
     "ISEN/FHS/CIPA4/Anthropologie de l'entreprise/Anthropologie de l'entreprise Cours 1.md",
     "ISEN/BDD/CIPA4/Projet/Présentation projet.md",
     "Untitled.base",
@@ -292,11 +300,6 @@
     "ISEN/Réseau/CIPA4/TP/TP M02 Conversion.md",
     "ISEN/Réseau/A1/Cisco Cours 2.md",
     "ISEN/Réseau/A2/CCNA Cours 1.md",
-    "ISEN/Réseau/A1/Cisco Cours 1.md",
-    "ISEN/Réseau/A2/CCNA Cours 2.md",
-    "ISEN/Réseau/A2/CCNA Cours 3.md",
-    "ISEN/Réseau/A1/Cisco Cours 4.md",
-    "ISEN/Réseau/A1/Cisco Cours 5.md",
     "ISEN/Réseau/A2/TP Ansible et docker.canvas",
     "ISEN/BDD/CIR2/TD2.canvas",
     "Pasted image 20250905143950.png",

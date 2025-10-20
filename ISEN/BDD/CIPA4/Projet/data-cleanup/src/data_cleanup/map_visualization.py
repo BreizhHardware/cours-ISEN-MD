@@ -218,7 +218,7 @@ def main():
     carte = create_map(df, regions_geojson, departements_geojson)
 
     # Save map
-    output_file = 'carte_installations_france.html'
+    output_file = '../carte_installations_france.html'
     carte.save(output_file)
     print(f"\nMap saved in: {output_file}")
 
