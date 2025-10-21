@@ -13,10 +13,10 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "ISEN/Réseau/CIPA4/TP/Module 3/Enonce du M03 TP 04 - Calcul de sous-reseaux.pdf"
+                "file": "ISEN/Réseau/CIPA4/TP/Réseaux Informatique.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "Enonce du M03 TP 04 - Calcul de sous-reseaux"
+              "title": "Réseaux Informatique"
             }
           },
           {
@@ -240,12 +240,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "622da1d4e0ba0f73",
+  "active": "d7edff405bbcbd43",
   "lastOpenFiles": [
+    "ISEN/Réseau/CIPA4/TP/Module 3/Enonce du M03 TP 04 - Calcul de sous-reseaux.pdf",
     "ISEN/Réseau/CIPA4/TP/Module 3/M03-05-TP-Packet-Tracer_Adressage_IPv4.pka~",
     "ISEN/Réseau/CIPA4/TP/Module 3/Enonce du M03 TP 05 - Parametrages d'adresses IPv4.pdf",
-    "ISEN/Réseau/CIPA4/TP/Module 3/Enonce du M03 TP 04 - Calcul de sous-reseaux.pdf",
-    "ISEN/Réseau/CIPA4/TP/Module 3/Enonce du M03 TP 04 - Calcul de sous-reseaux.pdf",
     "ISEN/BDD/CIPA4/modelisation-cas-immo.md",
     "ISEN/BDD/CIPA4/Cas modélisation alternatifs.md",
     "ISEN/BDD/CIPA4/BDD Cours 1.md",
