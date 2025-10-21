@@ -11,12 +11,14 @@
             "id": "d7edff405bbcbd43",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "split-diff-view",
               "state": {
-                "file": "ISEN/Réseau/CIPA4/TP/Module 4/M04 TP 01 - Communication.pdf"
+                "aFile": ".obsidian/workspace.json",
+                "bFile": ".obsidian/workspace.json",
+                "aRef": ""
               },
-              "icon": "lucide-file-text",
-              "title": "M04 TP 01 - Communication"
+              "icon": "diff",
+              "title": "Diff: workspace.json"
             }
           },
           {
@@ -124,7 +126,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 361.5
+    "width": 300
   },
   "right": {
     "id": "620e2dd59da72017",
@@ -242,13 +244,6 @@
   },
   "active": "d7edff405bbcbd43",
   "lastOpenFiles": [
-    "ISEN/Réseau/CIPA4/TP/Réseaux Informatique.pdf",
-    "ISEN/Réseau/CIPA4/TP/Module 4/M04 TP 02 -Packet_Tracer-La_communication.pka",
-    "ISEN/Réseau/CIPA4/TP/Module 4/M04 TP 01 - Communication.pdf",
-    "ISEN/Réseau/CIPA4/TP/Module 4",
-    "ISEN/Réseau/CIPA4/TP/Module 3/M03-05-TP-Packet-Tracer_Adressage_IPv4.pka~",
-    "ISEN/Réseau/CIPA4/TP/Module 3/Enonce du M03 TP 04 - Calcul de sous-reseaux.pdf",
-    "ISEN/Réseau/CIPA4/TP/Module 3/Enonce du M03 TP 05 - Parametrages d'adresses IPv4.pdf",
     "ISEN/BDD/CIPA4/modelisation-cas-immo.md",
     "ISEN/BDD/CIPA4/Cas modélisation alternatifs.md",
     "ISEN/BDD/CIPA4/BDD Cours 1.md",
@@ -261,8 +256,14 @@
     "ISEN/Réunion/CIPA 4/Réunion international.md",
     "ISEN/BDD/CIPA4/TP2/TP2.sql~",
     "ISEN/BDD/CIPA4/TP2/TP2.sql",
+    "ISEN/BDD/CIPA4/TP2/Tp2.pdf",
+    "ISEN/BDD/CIPA4/TP2",
     "Pasted image 20251009192656.png",
+    "ISEN/Other/Appen/Git flow Studysen.pdf",
     "ISEN/Other/Appen/Git flow Studysen.md",
+    "ISEN/Other/Appen",
+    "ISEN/FHS/A2/Outils RH/~WRL2137.tmp",
+    "ISEN/FHS/A2/Outils RH/~$ttre de motivation.docx",
     "ISEN/Réunion/CIPA 4/Rentrée 2025-2026.md",
     "ISEN/Réunion/CIPA 4/Réunion FHS Rentrée 2025.md",
     "ISEN/Réunion/CIPA 4/Délégué 2025-2026.md",
@@ -285,6 +286,7 @@
     "ISEN/English/CIPA4/29 sept 2025.md",
     "ISEN/Réseau/CIPA4/TP/TP M02 Conversion.md",
     "ISEN/Réseau/A1/Cisco Cours 2.md",
+    "ISEN/Réseau/A2/CCNA Cours 1.md",
     "ISEN/Réseau/A2/TP Ansible et docker.canvas",
     "ISEN/BDD/CIR2/TD2.canvas",
     "Pasted image 20250905143950.png",
