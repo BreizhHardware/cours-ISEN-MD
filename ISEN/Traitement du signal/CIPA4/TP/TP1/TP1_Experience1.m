@@ -22,7 +22,7 @@ y1 = sin(2 * pi * t1);        % Calcul du signal
 
 subplot(3, 2, 1);
 plot(t1, y1, 'b-');
-title('1. sin(2\pi t) à Fs = 10 Hz (Sous-échantillonné)');
+title('1. sin(2\pi t) à Fs = 10 Hz');
 xlabel('Temps (s)');
 ylabel('Amplitude');
 grid on;
@@ -35,7 +35,7 @@ y2 = sin(2 * pi * t2);        % Calcul du signal
 
 subplot(3, 2, 2);
 plot(t2, y2, 'r-');
-title('2. sin(2\pi t) à Fs = 100 Hz (Échantillonnage correct)');
+title('2. sin(2\pi t) à Fs = 100 Hz');
 xlabel('Temps (s)');
 ylabel('Amplitude');
 grid on;
@@ -81,24 +81,18 @@ xlabel('Temps (s)');
 ylabel('Amplitude');
 grid on;
 
-%% 6. Signal 6 : sin(t) - (sin²(t) + sin²(t)) à 10 Hz
+%% 6. Signal 6 : sin(t) + sin(t²) + sin²(t) à 10 Hz
 Fs6 = 10;                     % Fréquence d'échantillonnage (Hz)
 Ts6 = 1/Fs6;                  % Période d'échantillonnage (s)
 t6 = T_debut : Ts6 : T_fin;   % Vecteur temps
 
-% L'expression se simplifie à sin(t) - 2*sin²(t)
-% Note: Utilisation de '.^' pour l'élévation à la puissance terme à terme
-y6 = sin(t6) - (sin(t6).^2 + sin(t6).^2); % Calcul du signal
+% Nouvelle formule : sin(t) + sin(t²) + sin²(t)
+% Attention : on utilise les opérateurs pointés (.*, .^, etc.)
+y6 = sin(t6) + sin(t6.^2) + sin(t6).^2; % Calcul du signal
 
 subplot(3, 2, 6);
-plot(t6, y6, 'k-');
-title('6. sin(t) - 2sin²(t) à Fs = 10 Hz');
+plot(t6, y6, 'g-');
+title('6. sin(t) + sin(t^2) + sin^2(t) à Fs = 10 Hz');
 xlabel('Temps (s)');
 ylabel('Amplitude');
 grid on;
-
-%% Finalisation de la figure
-% Ajuste l'espacement entre les sous-graphes
-% Utiliser un espacement par défaut ou ajuster manuellement avec 'tight' si nécessaire
-% linkaxes([subplot(3,2,1), subplot(3,2,2), subplot(3,2,3), subplot(3,2,4), subplot(3,2,5), subplot(3,2,6)],'x');
-% Ces options sont souvent utilisées pour des réglages fins d'affichage.
