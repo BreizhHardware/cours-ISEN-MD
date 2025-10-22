@@ -6,7 +6,7 @@ close all;  % Ferme toutes les figures ouvertes
 
 % --- 1. Paramètres d'Échantillonnage et Temps ---
 F_max = 50000;      % Fréquence maximale du signal (50 kHz)
-Fs = 25 * F_max;    % Fréquence d'échantillonnage choisie (1.25 MHz)
+Fs = F_max * F_max;    % Fréquence d'échantillonnage choisie (1.25 MHz)
 Ts = 1/Fs;          % Période d'échantillonnage (0.8 µs)
 
 T_start = 0;
@@ -17,7 +17,7 @@ t = T_start : Ts : T_end; % Vecteur temps
 % x(t) = cos(2*pi*20000t) * sin(2*pi*30000t) + 2 * cos(22000t)
 F1 = 20000;
 F2 = 30000;
-F3 = 22000 / (2*pi); % La fréquence angulaire est déjà en radians/s. F3 ≈ 3501 Hz
+F3 = 22000 / (2*pi); % La fréquence angulaire est déjà en radians/s. 
 
 x = cos(2*pi*F1*t) .* sin(2*pi*F2*t) + 2 * cos(22000*t);
 
