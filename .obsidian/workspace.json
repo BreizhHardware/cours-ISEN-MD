@@ -13,10 +13,10 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "ISEN/JAVA/CIPA4/CM/03-heritage.pdf"
+                "file": "ISEN/JAVA/CIPA4/CM/05-swing.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "03-heritage"
+              "title": "05-swing"
             }
           }
         ]
@@ -194,6 +194,8 @@
   },
   "active": "f8adac6650611d50",
   "lastOpenFiles": [
+    "ISEN/JAVA/CIPA4/CM/04-classes-abstraites-interfaces.pdf",
+    "ISEN/JAVA/CIPA4/CM/03-heritage.pdf",
     "ISEN/JAVA/CIPA4/CM/02-classes.pdf",
     "ISEN/JAVA/CIPA4/CM/01-bases.pdf",
     "ISEN/JAVA/CIPA4/CM/00-introduction.pdf",
@@ -205,8 +207,6 @@
     "ISEN/Traitement du signal/CIPA4/TP/TP1/TP1_Experience7.m",
     "ISEN/Traitement du signal/CIPA4/TP/TP1/TP1_Experience6.m",
     "ISEN/Traitement du signal/CIPA4/TP/TP1/TP1_Experience4.m",
-    "ISEN/Traitement du signal/CIPA4/TP/TP1/TP1_Experience5.m",
-    "ISEN/Traitement du signal/CIPA4/TP/TP1/TP1_experience4.m",
     "ISEN/BDD/CIPA4/modelisation-cas-immo.md",
     "ISEN/BDD/CIPA4/Cas modélisation alternatifs.md",
     "ISEN/BDD/CIPA4/BDD Cours 1.md",
