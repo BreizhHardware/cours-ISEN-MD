@@ -11,14 +11,12 @@
             "id": "d7edff405bbcbd43",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "pdf",
               "state": {
-                "aFile": ".obsidian/workspace.json",
-                "bFile": ".obsidian/workspace.json",
-                "aRef": ""
+                "file": "ISEN/Réseau/CIPA4/TP/Module 4/M04 TP 01 - Communication.pdf"
               },
-              "icon": "diff",
-              "title": "Diff: workspace.json"
+              "icon": "lucide-file-text",
+              "title": "M04 TP 01 - Communication"
             }
           },
           {
@@ -244,6 +242,7 @@
   },
   "active": "d7edff405bbcbd43",
   "lastOpenFiles": [
+    "ISEN/Réseau/CIPA4/TP/Réseaux Informatique.pdf",
     "ISEN/BDD/CIPA4/modelisation-cas-immo.md",
     "ISEN/BDD/CIPA4/Cas modélisation alternatifs.md",
     "ISEN/BDD/CIPA4/BDD Cours 1.md",
@@ -286,7 +285,6 @@
     "ISEN/English/CIPA4/29 sept 2025.md",
     "ISEN/Réseau/CIPA4/TP/TP M02 Conversion.md",
     "ISEN/Réseau/A1/Cisco Cours 2.md",
-    "ISEN/Réseau/A2/CCNA Cours 1.md",
     "ISEN/Réseau/A2/TP Ansible et docker.canvas",
     "ISEN/BDD/CIR2/TD2.canvas",
     "Pasted image 20250905143950.png",
