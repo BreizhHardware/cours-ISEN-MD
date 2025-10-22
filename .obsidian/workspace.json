@@ -13,10 +13,10 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "ISEN/JAVA/CIPA4/CM/01-bases.pdf"
+                "file": "ISEN/JAVA/CIPA4/CM/02-classes.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "01-bases"
+              "title": "02-classes"
             }
           }
         ]
@@ -194,9 +194,9 @@
   },
   "active": "f8adac6650611d50",
   "lastOpenFiles": [
+    "ISEN/JAVA/CIPA4/CM/01-bases.pdf",
     "ISEN/JAVA/CIPA4/CM/00-introduction.pdf",
     "ISEN/JAVA/CIPA4/CM/02-classes.pdf",
-    "ISEN/JAVA/CIPA4/CM/01-bases.pdf",
     "ISEN/FHS/A1/Réunion stage associatif.md",
     "ISEN/FHS/A1/Démocratie/Démocracie cours 7.md",
     "ISEN/Réseau/CIPA4/TP/Module 4/M04 TP 01 - Communication.pdf",
