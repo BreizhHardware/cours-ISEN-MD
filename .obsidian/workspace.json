@@ -4,67 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "cfead9447b8b4656",
+        "id": "6077b69c4a14352c",
         "type": "tabs",
         "children": [
           {
-            "id": "d7edff405bbcbd43",
+            "id": "f8adac6650611d50",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "ISEN/Réseau/CIPA4/TP/Module 4/M04 TP 01 - Communication.pdf"
+                "file": "ISEN/JAVA/CIPA4/CM/01-bases.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "M04 TP 01 - Communication"
-            }
-          },
-          {
-            "id": "bb525c2565afdf89",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ISEN/Réseau/A1/Cisco Cours 2.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Cisco Cours 2"
-            }
-          },
-          {
-            "id": "cbcc85c28ced408b",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "ISEN/Traitement du signal/CIPA4/Cours/chap4_filtrage_numerique.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "chap4_filtrage_numerique"
-            }
-          },
-          {
-            "id": "de73955bd240465b",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "ISEN/Traitement du signal/CIPA4/TD/TD1_signal_m1_original.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "TD1_signal_m1_original"
+              "title": "01-bases"
             }
           }
         ]
@@ -240,8 +192,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "cc56184c227b09ca",
+  "active": "f8adac6650611d50",
   "lastOpenFiles": [
+    "ISEN/JAVA/CIPA4/CM/00-introduction.pdf",
+    "ISEN/JAVA/CIPA4/CM/02-classes.pdf",
+    "ISEN/JAVA/CIPA4/CM/01-bases.pdf",
+    "ISEN/FHS/A1/Réunion stage associatif.md",
+    "ISEN/FHS/A1/Démocratie/Démocracie cours 7.md",
+    "ISEN/Réseau/CIPA4/TP/Module 4/M04 TP 01 - Communication.pdf",
     "ISEN/Traitement du signal/CIPA4/TP/TP1/~$1_MARQUET.docx",
     "ISEN/Traitement du signal/CIPA4/TP/TP1/TP1_MARQUET.docx",
     "ISEN/Traitement du signal/CIPA4/TP/TP1/TP1_Experience7.m",
@@ -249,10 +207,6 @@
     "ISEN/Traitement du signal/CIPA4/TP/TP1/TP1_Experience4.m",
     "ISEN/Traitement du signal/CIPA4/TP/TP1/TP1_Experience5.m",
     "ISEN/Traitement du signal/CIPA4/TP/TP1/TP1_experience4.m",
-    "ISEN/Traitement du signal/CIPA4/TP/TP1/TP1_Experience3.m",
-    "ISEN/Traitement du signal/CIPA4/TP/TP1/TP1_Experience2.m",
-    "ISEN/Traitement du signal/CIPA4/TP/TP1/TP1_Experience1.mat",
-    "ISEN/Traitement du signal/CIPA4/TP/TP1/TP1_Experience1.m",
     "ISEN/BDD/CIPA4/modelisation-cas-immo.md",
     "ISEN/BDD/CIPA4/Cas modélisation alternatifs.md",
     "ISEN/BDD/CIPA4/BDD Cours 1.md",
@@ -283,8 +237,6 @@
     "ISEN/JAVA/CIPA4/TP/TP2/TP2.md",
     "ISEN/IA/CIPA4/IA Cours 1.md",
     "ISEN/English/CIPA4/29 sept 2025.md",
-    "ISEN/Réseau/CIPA4/TP/TP M02 Conversion.md",
-    "ISEN/Réseau/A1/Cisco Cours 2.md",
     "ISEN/Réseau/A2/TP Ansible et docker.canvas",
     "ISEN/BDD/CIR2/TD2.canvas",
     "Pasted image 20250905143950.png",
