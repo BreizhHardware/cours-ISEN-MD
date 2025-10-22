@@ -13,10 +13,10 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "ISEN/JAVA/CIPA4/CM/08-collections.pdf"
+                "file": "ISEN/JAVA/CIPA4/CM/10_JDBC.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "08-collections"
+              "title": "10_JDBC"
             }
           }
         ]
@@ -194,8 +194,10 @@
   },
   "active": "f8adac6650611d50",
   "lastOpenFiles": [
-    "ISEN/JAVA/CIPA4/CM/07-exceptions.pdf",
+    "ISEN/JAVA/CIPA4/CM/09-fichiers.pdf",
+    "ISEN/JAVA/CIPA4/CM/10_JDBC.pdf",
     "ISEN/JAVA/CIPA4/CM/08-collections.pdf",
+    "ISEN/JAVA/CIPA4/CM/07-exceptions.pdf",
     "ISEN/JAVA/CIPA4/CM/06-threads.pdf",
     "ISEN/JAVA/CIPA4/CM/05-swing.pdf",
     "ISEN/JAVA/CIPA4/CM/04-classes-abstraites-interfaces.pdf",
@@ -205,8 +207,6 @@
     "ISEN/JAVA/CIPA4/CM/00-introduction.pdf",
     "ISEN/FHS/A1/Réunion stage associatif.md",
     "ISEN/FHS/A1/Démocratie/Démocracie cours 7.md",
-    "ISEN/Réseau/CIPA4/TP/Module 4/M04 TP 01 - Communication.pdf",
-    "ISEN/Traitement du signal/CIPA4/TP/TP1/~$1_MARQUET.docx",
     "ISEN/BDD/CIPA4/modelisation-cas-immo.md",
     "ISEN/BDD/CIPA4/Cas modélisation alternatifs.md",
     "ISEN/BDD/CIPA4/BDD Cours 1.md",
