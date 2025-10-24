@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ISEN/JAVA/CIPA4/TP/TP2/TP2.md",
+                "file": "ISEN/English/CIPA4/24 oct 2025.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "TP2"
+              "title": "24 oct 2025"
             }
           }
         ]
@@ -206,6 +206,8 @@
   },
   "active": "f8adac6650611d50",
   "lastOpenFiles": [
+    "ISEN/JAVA/CIPA4/TP/TP2/TP2.md",
+    "ISEN/English/CIPA4/24 oct 2025.md",
     "ISEN/JAVA/CIPA4/CM/10_JDBC.pdf",
     "ISEN/JAVA/CIPA4/CM/09-fichiers.pdf",
     "ISEN/JAVA/CIPA4/CM/08-collections.pdf",
@@ -216,7 +218,6 @@
     "ISEN/JAVA/CIPA4/CM/03-heritage.pdf",
     "ISEN/JAVA/CIPA4/CM/02-classes.pdf",
     "ISEN/JAVA/CIPA4/CM/01-bases.pdf",
-    "ISEN/JAVA/CIPA4/CM/00-introduction.pdf",
     "ISEN/FHS/A1/Réunion stage associatif.md",
     "ISEN/FHS/A1/Démocratie/Démocracie cours 7.md",
     "ISEN/BDD/CIPA4/modelisation-cas-immo.md",
@@ -246,7 +247,6 @@
     "Pasted image 20240505210642.png",
     "ISEN/FPGA/CIPA4/FPGA TP Login.md",
     "ISEN/FPGA/CIPA4/FPGA TP Utils.md",
-    "ISEN/JAVA/CIPA4/TP/TP2/TP2.md",
     "ISEN/IA/CIPA4/IA Cours 1.md",
     "ISEN/English/CIPA4/29 sept 2025.md",
     "ISEN/Réseau/A2/TP Ansible et docker.canvas",
