@@ -35,12 +35,12 @@
             "id": "8beea5ef99c3c6ed",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "pdf",
               "state": {
-                "currentVersion": "1.10.6"
+                "file": "ISEN/Réseau/CIPA4/TP/Module 4/M04 TP 01 - Communication.pdf"
               },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.10.6"
+              "icon": "lucide-file-text",
+              "title": "M04 TP 01 - Communication"
             }
           }
         ],
@@ -219,6 +219,14 @@
   },
   "active": "8beea5ef99c3c6ed",
   "lastOpenFiles": [
+    "ISEN/Réseau/CIPA4/TP/Module 5/M05 TP 01 - Les commandes.pdf",
+    "ISEN/Réseau/CIPA4/TP/Module 4/M04 TP 01 - Communication.pdf",
+    "ISEN/Réseau/CIPA4/TP/Module 6/M06 TP 01 - IPv6.pdf",
+    "ISEN/Réseau/CIPA4/TP/Module 6",
+    "ISEN/Réseau/CIPA4/TP/dossier sans titre",
+    "ISEN/Réseau/CIPA4/TP/Module 5/M05 TP 01 - Packet_Tracer_Les_commandes.pka",
+    "ISEN/Réseau/CIPA4/TP/Module 5",
+    "ISEN/Réseau/CIPA4/TP/Module 3/Enonce du M03 TP 05 - Parametrages d'adresses IPv4.pdf",
     "Protocol Data Units (PDU).md",
     "ISEN/English/CIPA4/Elevator pitch.md",
     "Untitled.base",
@@ -239,13 +247,6 @@
     "ISEN/JAVA/CIPA4/TP/TP2/TP2.md",
     "ISEN/JAVA/CIPA4/CM/10_JDBC.pdf",
     "ISEN/JAVA/CIPA4/CM/09-fichiers.pdf",
-    "ISEN/JAVA/CIPA4/CM/08-collections.pdf",
-    "ISEN/JAVA/CIPA4/CM/07-exceptions.pdf",
-    "ISEN/JAVA/CIPA4/CM/06-threads.pdf",
-    "ISEN/JAVA/CIPA4/CM/05-swing.pdf",
-    "ISEN/JAVA/CIPA4/CM/04-classes-abstraites-interfaces.pdf",
-    "ISEN/JAVA/CIPA4/CM/03-heritage.pdf",
-    "ISEN/JAVA/CIPA4/CM/02-classes.pdf",
     "ISEN/FHS/A1/Réunion stage associatif.md",
     "ISEN/FHS/A1/Démocratie/Démocracie cours 7.md",
     "ISEN/BDD/CIPA4/modelisation-cas-immo.md",
@@ -254,7 +255,6 @@
     "ISEN/FHS/CIPA4/Anthropologie de l'entreprise/Mythe Horoquartz.md",
     "ISEN/FHS/CIPA4/Anthropologie de l'entreprise/Anthropologie de l'entreprise Cours 1.md",
     "ISEN/BDD/CIPA4/Projet/Présentation projet.md",
-    "ISEN/Réunion/CIPA 4/Réunion international.md",
     "Pasted image 20251009192656.png",
     "src/Pasted image 20240130111505.png",
     "src/Pasted image 20240123120819.png",
