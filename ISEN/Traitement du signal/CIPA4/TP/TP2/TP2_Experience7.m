@@ -10,7 +10,7 @@
 %   Ts  = 0.13*T  (sampling period)
 %
 % We generate the pulse h(t), plot it in time (ms) and frequency (Hz),
-% and compute the theoretical bandwidth B = (1/(2T))*(1+beta). [web:222][web:228]
+% and compute the theoretical bandwidth B = (1/(2T))*(1+beta). 
 
 clc;
 clear;
@@ -45,8 +45,8 @@ title('Raised cosine pulse h(t), \beta = 0.5');
 grid on;
 
 % Frequency-domain magnitude spectrum
-H1    = fft(h1);                % FFT of the pulse [web:8]
-magH1 = abs(fftshift(H1));      % Magnitude, zero frequency centered [web:202]
+H1    = fft(h1);                % FFT of the pulse 
+magH1 = abs(fftshift(H1));      % Magnitude, zero frequency centered
 
 figure('Name','Experiment 7 - Frequency domain, beta = 0.5');
 plot(f_axis, magH1, 'g');
@@ -57,7 +57,7 @@ grid on;
 
 % Theoretical bandwidth
 Rs       = 1 / T;                      % Symbol rate (Hz)
-BW_theo1 = (Rs/2) * (1 + beta1);       % B = (Rs/2)*(1+beta) [web:222][web:228]
+BW_theo1 = (Rs/2) * (1 + beta1);       % B = (Rs/2)*(1+beta)
 fprintf('Theoretical bandwidth for beta = 0.5 : %.2f Hz\n', BW_theo1);
 
 %% ===================== beta = 0.25 =====================
@@ -94,8 +94,7 @@ function h = raisedCosineSample(t, T, beta)
     % Raised cosine pulse sample at time t (scalar).
     % h(t) = sinc(t/T) * cos(pi*beta*t/T) / (1 - (4*beta^2*t^2)/T^2)
     % with sinc(x) = sin(pi*x)/(pi*x).
-    % Special cases at t = 0 and t = ±T/(2*beta) use limit values. [web:223]
-
+    % Special cases at t = 0 and t = ±T/(2*beta) use limit values. 
     x = t / T;
 
     % Manual definition of sinc(x) = sin(pi*x)/(pi*x)
@@ -110,7 +109,7 @@ function h = raisedCosineSample(t, T, beta)
         % At t -> 0, h(0) = 1 (sinc(0)=1 and cos(0)/(1-0)=1)
         h = 1;
     elseif beta ~= 0 && abs(abs(t) - T/(2*beta)) < 1e-12
-        % Limit at t = ±T/(2*beta) [web:223]
+        % Limit at t = ±T/(2*beta)
         h = (beta/pi) * sin(pi/(2*beta));
     else
         h = sx * cos(pi*beta*x) / (1 - (4*beta^2*x^2));
