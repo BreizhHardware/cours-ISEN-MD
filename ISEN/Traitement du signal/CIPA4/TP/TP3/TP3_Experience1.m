@@ -37,7 +37,7 @@ figure('Name','Q2noisy - Magnitude spectrum');
 plot(f, magX_half, 'g');
 xlabel('Frequency (Hz)');
 ylabel('|X(f)|');
-title('Magnitude spectrum of Q2noisy (use this to read jamming frequency)');
+title('Magnitude spectrum of Q2noisy');
 grid on;
 xlim([0 Fs/2]);
 
