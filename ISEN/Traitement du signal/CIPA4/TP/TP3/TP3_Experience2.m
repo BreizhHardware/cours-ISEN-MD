@@ -3,7 +3,7 @@
 % - Sampling period Ts = 0.13*T
 % - Add narrowband jamming at 800 Hz and white noise
 % - Design IIR notch filter (order 15 then 5) to remove the jamming tone
-% - Use subplot to show time-domain signal and magnitude spectrum. [web:216][web:223]
+% - Use subplot to show time-domain signal and magnitude spectrum.
 
 clc;
 clear;
@@ -14,7 +14,7 @@ close all;
 T   = 2e-3;                % Symbol period (s)
 beta = 0.5;                % Roll-off factor
 Ts  = 0.13 * T;            % Sampling period (s)
-Fs  = 1 / Ts;              % Sampling frequency (Hz) [web:202]
+Fs  = 1 / Ts;              % Sampling frequency (Hz) 
 t   = -10*T : Ts : 10*T;   % Time vector
 N   = length(t);
 
@@ -23,11 +23,11 @@ f_axis = (-N/2 : N/2-1) * (Fs / N);   % Hz
 
 %% 2) Raised cosine pulse h(t)
 
-h = arrayfun(@(tt) raisedCosineSample(tt, T, beta), t);   % [web:223]
+h = arrayfun(@(tt) raisedCosineSample(tt, T, beta), t);  
 
 % Time-domain h(t) and magnitude spectrum
 H  = fft(h);
-magH = abs(fftshift(H));   % magnitude, zero frequency at center [web:202]
+magH = abs(fftshift(H));   % magnitude, zero frequency at center 
 
 figure('Name','Experiment 2 - h(t) and |H(f)|');
 subplot(2,1,1);
@@ -49,7 +49,7 @@ grid on;
 fJam = 800;                       % Jamming frequency (Hz)
 x = 0.2 * cos(2*pi*fJam*t);       % narrowband jamming (adjust amplitude if needed)
 
-n = 0.02 * randn(size(t));        % ambient white noise (low level) [web:223]
+n = 0.02 * randn(size(t));        % ambient white noise (low level) 
 
 z = h + x + n;                    % corrupted signal
 
@@ -74,7 +74,7 @@ grid on;
 
 %% 4) Design 15th-order notch (bandstop) filter at 800 Hz (no butter)
 % We build an IIR notch with zeros at exp(±j*w0) and poles at r*exp(±j*w0),
-% then cascade enough sections to reach an effective order ≈ 15. [web:238]
+% then cascade enough sections to reach an effective order ≈ 15.
 
 w0 = 2*pi*fJam/Fs;     % digital radian frequency
 r  = 0.98;             % pole radius (controls notch width)
@@ -150,7 +150,7 @@ grid on;
 function h = raisedCosineSample(t, T, beta)
     % Raised cosine pulse sample at time t (scalar).
     % h(t) = sinc(t/T) * cos(pi*beta*t/T) / (1 - (4*beta^2*t^2)/T^2)
-    % with sinc(x) = sin(pi*x)/(pi*x). [web:216][web:223]
+    % with sinc(x) = sin(pi*x)/(pi*x).
 
     x = t / T;
 
@@ -165,7 +165,7 @@ function h = raisedCosineSample(t, T, beta)
     if abs(t) < 1e-12
         h = 1;
     elseif beta ~= 0 && abs(abs(t) - T/(2*beta)) < 1e-12
-        h = (beta/pi) * sin(pi/(2*beta)); % limit at t = ±T/(2*beta) [web:223]
+        h = (beta/pi) * sin(pi/(2*beta)); % limit at t = ±T/(2*beta)
     else
         h = sx * cos(pi*beta*x) / (1 - (4*beta^2*x^2));
     end
