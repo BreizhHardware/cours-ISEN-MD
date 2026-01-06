@@ -68,4 +68,4 @@ cleanSig = filter(b, a, noisySig);    % Apply the filter to remove narrow-band n
 
 %% 5) Save the result
 
-audiowrite('E71marquet.wav', cleanSig, Fs);   % change 'yourname' to your actual name
+audiowrite('E71marquet.wav', cleanSig, Fs);   
