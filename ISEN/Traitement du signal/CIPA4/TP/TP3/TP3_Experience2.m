@@ -84,7 +84,7 @@ b_sec = [1, -2*cos(w0), 1];          % zeros at e^{±jw0}
 a_sec = [1, -2*r*cos(w0), r^2];      % poles at r*e^{±jw0}
 
 % Approximate 15th-order by cascading 8 sections (~16th order)
-sections = 8;                         % adjust to get desired attenuation
+sections = 8;                        
 
 b15 = 1;
 a15 = 1;
