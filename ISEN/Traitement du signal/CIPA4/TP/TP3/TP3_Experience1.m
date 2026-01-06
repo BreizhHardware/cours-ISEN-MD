@@ -41,10 +41,7 @@ title('Magnitude spectrum of Q2noisy');
 grid on;
 xlim([0 Fs/2]);
 
-% >>> À partir de cette figure, lis la fréquence du pic étroit (jamming).
-% Remplace "fJam" ci-dessous par la valeur observée (en Hz).
-
-fJam = 1000;            % EXAMPLE ONLY: replace by the real jamming frequency you read
+fJam = 5000;        
 
 %% 3) Design a suitable Butterworth bandstop (notch) filter
 
