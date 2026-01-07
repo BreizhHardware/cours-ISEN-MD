@@ -56,7 +56,7 @@ title('Single-sided amplitude spectrum of y(t)');
 grid on;
 xlim([0 Fs/2]);
 
-% Choose cutoff frequency for baseband, e.g. 5 kHz (adapt after seeing spectrum)
+% Choose cutoff frequency for baseband, e.g. 5 kHz 
 Fc = 5000;                       % cutoff in Hz
 wc = 2*pi*Fc/Fs;                 % digital radian cutoff
 
