@@ -6,9 +6,9 @@ close all;
 
 %% Load data from MAT-file
 
-donnees3 = load('TP4cipaQ3.mat');
-y1 = donnees3.y1;
-y2 = donnees3.y2;
+data = load('TP4cipaQ3.mat');
+y1 = data.y1;
+y2 = data.y2;
 y1 = y1(:);                     
 y2 = y2(:);
 

@@ -6,18 +6,18 @@ close all;
 
 %% 0) Load data
 
-data = load('TP4cipaQ1.mat');
-champs = fieldnames(data);
-sig = data.(champs{1});
-sig = sig(:);
+data   = load('TP4cipaQ1.mat');   
+fields = fieldnames(data);         % Get field names
+sig    = data.(fields{1});         
+sig    = sig(:);                   
 
-Fs = 96000;                 % Sampling frequency in Hz (given)
-Ts = 1/Fs;                  % Sampling period
+Fs = 96000;                        % Sampling frequency (Hz)
+Ts = 1/Fs;                         % Sampling period (s)
 
-N = length(sig);              % Number of samples
-t = (0:N-1)*Ts;             % Time axis in seconds 
+N = length(sig);                   % Number of samples
+t = (0:N-1) * Ts;                  % Time axis (s)
 
-%% i) Plot y(t) over the whole duration
+%% i) Plot full signal y(t)
 
 figure('Name','i) Full signal y(t)');
 plot(t, sig, 'g');
@@ -26,10 +26,10 @@ ylabel('Amplitude');
 title('Full signal y(t) sampled at 96 kHz');
 grid on;
 
-%% ii) Plot the first 10000 samples
+%% ii) Plot first 10000 samples of y(t)
 
-Nseg = min(10000, N);       % in case the file is shorter
-t_seg = t(1:Nseg);
+Nseg    = min(10000, N);           % Limit to 10000 samples
+t_seg   = t(1:Nseg);
 sig_seg = sig(1:Nseg);
 
 figure('Name','ii) First 10000 samples of y(t)');
@@ -41,12 +41,12 @@ grid on;
 
 %% iii) Amplitude spectrum of y(t) (frequencies in Hz)
 
-Y  = fft(sig);
-magY = abs(Y);              % magnitude spectrum
+Y    = fft(sig);                   % FFT of signal 
+magY = abs(Y);                     % Magnitude spectrum 
 
-halfN = floor(N/2) + 1;     % positive frequencies only
+halfN     = floor(N/2) + 1;        % Positive-frequency part
 magY_half = magY(1:halfN);
-f = (0:halfN-1) * (Fs/N);   % frequency axis in Hz
+f        = (0:halfN-1) * (Fs/N);   % Frequency axis (Hz)
 
 figure('Name','iii) Amplitude spectrum of y(t)');
 plot(f, magY_half, 'g');
@@ -56,17 +56,13 @@ title('Single-sided amplitude spectrum of y(t)');
 grid on;
 xlim([0 Fs/2]);
 
-% Choose cutoff frequency for baseband, e.g. 5 kHz 
-Fc = 5000;                       % cutoff in Hz
-wc = 2*pi*Fc/Fs;                 % digital radian cutoff
+%% Low-pass filter design with Butterworth (baseband extraction)
 
-r = 0.95;                        % pole radius (<1); closer to 1 => sharper LP
+Fc    = 5000;                      % Cutoff frequency (Hz)
+Wn    = Fc / (Fs/2);               % Normalized cutoff (0..1) relative to Nyquist 
+order = 4;                         % Filter order 
 
-% Poles at r*exp(±j*wc)  => denominator:
-a = [1, -2*r*cos(wc), r^2];
-
-% Simple low-pass numerator (gain 1 - r)
-b = (1 - r) * [1, 0, 0];        % two zeros at z=0, gives LP shape
+[b, a] = butter(order, Wn, 'low'); % Low-pass Butterworth filter
 
 %% Apply the low-pass filter
 
@@ -74,11 +70,11 @@ y_filt = filter(b, a, sig);
 
 %% iv) Amplitude spectrum of filtered signal (frequencies in kHz)
 
-YF  = fft(y_filt);
+YF    = fft(y_filt);
 magYF = abs(YF);
 
 magYF_half = magYF(1:halfN);
-f_kHz = f / 1000;               % convert frequency axis to kHz
+f_kHz      = f / 1000;            % Frequency axis in kHz
 
 figure('Name','iv) Spectrum of filtered signal');
 plot(f_kHz, magYF_half, 'g');
@@ -88,7 +84,7 @@ title('Single-sided amplitude spectrum of filtered signal (baseband)');
 grid on;
 xlim([0 (Fs/2)/1000]);
 
-%% v) Filtered signal versus time (seconds)
+%% v) Filtered signal y_filt(t) versus time (s)
 
 figure('Name','v) Filtered signal y\_filt(t)');
 plot(t, y_filt, 'g');
