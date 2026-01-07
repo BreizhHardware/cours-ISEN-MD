@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "6077b69c4a14352c",
+        "id": "a0965a7be66d6773",
         "type": "tabs",
         "children": [
           {
-            "id": "f8adac6650611d50",
+            "id": "e11a6a080eb83632",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ISEN/English/CIPA4/24 oct 2025.md",
+                "file": "ISEN/Réunion/CIPA 4/Réunion 8 janv 2026.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,19 +28,31 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "24 oct 2025"
+              "title": "Réunion 8 janv 2026"
             }
           },
           {
-            "id": "8beea5ef99c3c6ed",
+            "id": "962e723708a621ad",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "ISEN/Réseau/CIPA4/TP/Module 5/M05 TP 01 - Les commandes.pdf"
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
-              "icon": "lucide-file-text",
-              "title": "M05 TP 01 - Les commandes"
+              "icon": "lucide-file",
+              "title": "conflict-files-obsidian-git"
             }
           }
         ],
@@ -217,23 +229,25 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "8beea5ef99c3c6ed",
+  "active": "962e723708a621ad",
   "lastOpenFiles": [
-    "ISEN/Traitement du signal/CIPA4/TP/TP4/TP4cipa_MARQUET.pdf",
-    "ISEN/Traitement du signal/CIPA4/TP/TP4/~WRL3604.tmp",
-    "ISEN/Traitement du signal/CIPA4/TP/TP4/~WRD3600.tmp",
-    "ISEN/Traitement du signal/CIPA4/TP/TP4/~WRL2177.tmp",
-    "ISEN/Traitement du signal/CIPA4/TP/TP4/~WRD2173.tmp",
-    "ISEN/Traitement du signal/CIPA4/TP/TP4/~WRL0125.tmp",
-    "ISEN/Traitement du signal/CIPA4/TP/TP4/~WRD0121.tmp",
-    "ISEN/Traitement du signal/CIPA4/TP/TP4/~WRL3834.tmp",
-    "ISEN/Traitement du signal/CIPA4/TP/TP4/~WRD3830.tmp",
-    "ISEN/Traitement du signal/CIPA4/TP/TP4/~WRL2846.tmp",
-    "ISEN/Traitement du signal/CIPA4/TP/TP4/~WRD2842.tmp",
+    "ISEN/Réunion/CIPA 4/Réunion 8 janv 2026.md",
+    "conflict-files-obsidian-git.md",
+    "ISEN/Traitement du signal/CIPA4/TP/TP5/~$5_Marquet.doc",
+    "ISEN/Traitement du signal/CIPA4/TP/TP5/TP5_Marquet.doc",
+    "ISEN/Traitement du signal/CIPA4/TP/TP5/TP5remplir.doc",
+    "ISEN/Traitement du signal/CIPA4/TP/TP5/Q2noiz810KA.wav",
+    "ISEN/Traitement du signal/CIPA4/TP/TP5/Q2.wav",
+    "ISEN/Traitement du signal/CIPA4/TP/TP5/holiday_offer.wav",
+    "ISEN/Traitement du signal/CIPA4/TP/TP5/claves.wav",
+    "ISEN/Traitement du signal/CIPA4/TP/TP5",
+    "ISEN/Traitement du signal/CIPA4/TP/dossier sans titre",
+    "ISEN/Réunion/CIPA 4/Untitled.md",
+    "ISEN/Traitement du signal/CIPA4/TP/TP3/E71marquet.wav",
+    "ISEN/English/CIPA4/24 oct 2025.md",
     "ISEN/Réseau/CIPA4/TP/TP M02 Conversion.md",
     "Protocol Data Units (PDU).md",
     "ISEN/English/CIPA4/Elevator pitch.md",
-    "ISEN/English/CIPA4/24 oct 2025.md",
     "ISEN/English/CIPA4/29 sept 2025.md",
     "ISEN/BDD/CIPA4/BDD Cours 1.md",
     "ISEN/ELA/TP/Compte rendu TP Amplificateur Opérationnel et Contre-Réaction.md",
@@ -252,9 +266,6 @@
     "ISEN/FHS/A1/Démocratie/Démocracie cours 7.md",
     "ISEN/BDD/CIPA4/modelisation-cas-immo.md",
     "ISEN/BDD/CIPA4/Cas modélisation alternatifs.md",
-    "ISEN/BDD/CIPA4/BDD Cours 2.md",
-    "ISEN/FHS/CIPA4/Anthropologie de l'entreprise/Mythe Horoquartz.md",
-    "ISEN/FHS/CIPA4/Anthropologie de l'entreprise/Anthropologie de l'entreprise Cours 1.md",
     "Pasted image 20251009192656.png",
     "src/Pasted image 20240130111505.png",
     "src/Pasted image 20240123120819.png",
