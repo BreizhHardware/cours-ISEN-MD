@@ -3,10 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <title>Chat</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
 </head>
 <body>
 <header>
-<h1>Chat en ligne</h1>
+    <h1>Chat en ligne</h1>
     <nav>
         <ul>
             <li><a href="accueil.html">Accueil</a></li>
@@ -15,6 +29,22 @@
         </ul>
     </nav>
 </header>
+<section>
+    <h2>Chat</h2>
+    <form>
+        <div id="channel-refresh">
+            <label for="channel-select">Canaux: </label>
+            <select id="channel-select">
+                <option value="general">Général</option>
+                <option value="random">Aléatoire</option>
+                <option value="projets">Projets</option>
+                <option value="aide">Aide</option>
+            </select>
+            <label for="refresh-delay">Rafraichissement:</label>
+            <input type="number" id="refresh-delay" name="refresh-delay" min="1" max="60" value="5"> secondes
+        </div>
+    </form>
+</section>
 <footer>
     <p>All content copyright &copy;A3</p>
     <a href="http://isen-nantes.fr" target="_blank"><p>Lien vers la page du Programmeur</p></a>

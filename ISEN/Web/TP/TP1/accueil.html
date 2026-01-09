@@ -3,6 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <title>Chat</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
 </head>
 <body>
 <header>
@@ -21,15 +35,12 @@
         <table>
             <thead>
                 <tr>
-                    <th>Jour</th>
-                    <th>Horaires</th>
-                    <th>Évènement</th>
+                    <th rowspan="2">Jour</th>
+                    <th rowspan="2">Horaires</th>
+                    <th rowspan="2">Évènement</th>
                     <th colspan="4">Sites</th>
                 </tr>
                 <tr>
-                    <th></th>
-                    <th></th>
-                    <th></th>
                     <th>Brest</th>
                     <th>Caen</th>
                     <th>Nantes</th>
@@ -41,10 +52,7 @@
                     <td>Lundi</td>
                     <td>17h - 19h</td>
                     <td>Réunion BDE</td>
-                    <td>X</td>
-                    <td>X</td>
-                    <td>X</td>
-                    <td>X</td>
+                    <td colspan="4">X</td>
                 </tr>
                 <tr>
                     <td>Mardi</td>

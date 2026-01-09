@@ -3,6 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <title>Chat</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
 </head>
 <body>
 <header>
@@ -15,6 +29,18 @@
         </ul>
     </nav>
 </header>
+<section>
+    <h2>Authentification</h2>
+    <form action="chat.html" method="get">
+        <label for="username">Nom d'utilisateur:</label>
+        <input type="text" id="username" name="username" required>
+        <br><br>
+        <label for="password">Mot de passe:</label>
+        <input type="password" id="password" name="password" required>
+        <br><br>
+        <input type="submit" value="Se connecter">
+    </form>
+</section>
 <footer>
     <p>All content copyright &copy;A3</p>
     <a href="http://isen-nantes.fr" target="_blank"><p>Lien vers la page du Programmeur</p></a>
