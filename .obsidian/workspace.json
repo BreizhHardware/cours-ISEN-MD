@@ -35,24 +35,14 @@
             "id": "962e723708a621ad",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "split-diff-view",
               "state": {
-                "file": "ISEN/Réunion/CIPA 4/Réunion 8 janv 2026.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
+                "aFile": "ISEN/Web/TP/TP1/accueil.html",
+                "bFile": "ISEN/Web/TP/TP1/accueil.html",
+                "aRef": ""
               },
-              "icon": "lucide-file",
-              "title": "Réunion 8 janv 2026"
+              "icon": "diff",
+              "title": "Diff: accueil.html"
             }
           }
         ],
@@ -231,11 +221,11 @@
   },
   "active": "962e723708a621ad",
   "lastOpenFiles": [
+    "ISEN/Réunion/CIPA 4/Réunion 8 janv 2026.md",
     "ISEN/Web/TP/TP1/chat.html~",
     "conflict-files-obsidian-git.md",
     "ISEN/Traitement du signal/CIPA4/TP/TP5/TP5_MARQUET.doc",
     "ISEN/Réunion/CIPA 4/Untitled.md",
-    "ISEN/Réunion/CIPA 4/Réunion 8 janv 2026.md",
     "ISEN/Traitement du signal/CIPA4/TP/TP5/~$5_Marquet.doc",
     "ISEN/Traitement du signal/CIPA4/TP/TP5/TP5_Marquet.doc",
     "ISEN/Traitement du signal/CIPA4/TP/TP5/TP5remplir.doc",
@@ -244,7 +234,6 @@
     "ISEN/Traitement du signal/CIPA4/TP/TP5/holiday_offer.wav",
     "ISEN/Traitement du signal/CIPA4/TP/TP5/claves.wav",
     "ISEN/Traitement du signal/CIPA4/TP/TP5",
-    "ISEN/Traitement du signal/CIPA4/TP/dossier sans titre",
     "ISEN/English/CIPA4/24 oct 2025.md",
     "ISEN/Réseau/CIPA4/TP/TP M02 Conversion.md",
     "Protocol Data Units (PDU).md",
