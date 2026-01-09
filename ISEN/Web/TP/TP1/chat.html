@@ -43,6 +43,17 @@
             <label for="refresh-delay">Rafraichissement:</label>
             <input type="number" id="refresh-delay" name="refresh-delay" min="1" max="60" value="5"> secondes
         </div>
+        <div>
+            <label for="chat-messages">Messages:</label><br>
+            <textarea id="chat-messages" name="chat-messages" cols="100" rows="10" readonly></textarea>
+        </div>
+        <div>
+            <label for="message">Message:</label>
+            <input type="text" id="message" name="message" required>
+            <br>
+            <button type="button" id="disconnect-button">Se déconnecter</button>
+            <button type="submit">Envoyer</button>
+        </div>
     </form>
 </section>
 <footer>
