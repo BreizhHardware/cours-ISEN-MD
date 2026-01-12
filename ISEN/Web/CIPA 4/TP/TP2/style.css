@@ -32,8 +32,8 @@ footer {
 
 /* Logo */
 .logo {
-    height: 100px;
-    width: 50px;
+    height: 50px;
+    width: 100px;
 }
 
 /* Menu Navigation */
@@ -75,3 +75,99 @@ nav ul li.active {
     letter-spacing: 0.2em;
 }
 
+/* Common Frame for Auth and Chat pages */
+.frame {
+    border: 6px double #783F27;
+    border-radius: 25px;
+    margin: 2.5%;
+    padding: 1em;
+}
+
+/* Authentication Page Styles */
+.auth-page form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1em;
+    justify-items: start;
+    align-items: center;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.auth-page label {
+    justify-self: end;
+}
+
+.auth-page input[type="text"],
+.auth-page input[type="password"] {
+    border: 2px solid #ccc; /* Default border to start */
+    border-radius: 8px;
+    font-size: 18px;
+    padding: 4px 20px 0 20px; /* Top Right Bottom Left */
+}
+
+.auth-page input[type="submit"],
+.auth-page input[type="reset"],
+.auth-page button, /* Generic buttons if any */
+.chat-page button {
+    background-color: #783F27;
+    border-radius: 12px;
+    border: none;
+    height: 30px;
+    margin-top: 10px;
+    color: #D3D3D3;
+    cursor: grab;
+}
+
+.auth-page input[type="checkbox"] {
+    width: 1.15em;
+    height: 1.15em;
+    justify-self: start;
+}
+
+#form-buttons {
+    grid-column: 1 / span 2; 
+    justify-self: center;
+    display: flex;
+    gap: 1em;
+}
+
+/* Chat Page Styles */
+.chat-page section.frame {
+    display: grid;
+    grid-template-rows: auto auto auto;
+    grid-row-gap: 1em;
+}
+
+.chat-page #channel-select {
+    width: 190px;
+    height: 30px;
+    color: #783F27;
+    background-color: #eeeeee;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 4px 4px #d2cece;
+}
+
+.chat-page input[type="number"],
+.chat-page input[type="text"] {
+    /* "Même style que les champs de texte de la page authentification.html" */
+    border: 2px solid #ccc; /* implicit default */
+    border-radius: 8px;
+    font-size: 18px;
+    padding: 4px 20px 0 20px;
+}
+
+.chat-page textarea {
+    border-style: dotted;
+    cursor: not-allowed;
+    background-color: #ded1c5;
+    width: 100%;
+    box-sizing: border-box; /* Ensure padding doesn't overflow width */
+}
+
+/* Chat form layout override if needed */
+.chat-page form {
+    display: grid;
+    grid-row-gap: 1em;
+}
