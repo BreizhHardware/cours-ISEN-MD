@@ -30,23 +30,8 @@
               "icon": "lucide-file",
               "title": "Réunion 8 janv 2026"
             }
-          },
-          {
-            "id": "962e723708a621ad",
-            "type": "leaf",
-            "state": {
-              "type": "split-diff-view",
-              "state": {
-                "aFile": "ISEN/Web/TP/TP1/accueil.html",
-                "bFile": "ISEN/Web/TP/TP1/accueil.html",
-                "aRef": ""
-              },
-              "icon": "diff",
-              "title": "Diff: accueil.html"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -221,20 +206,21 @@
   },
   "active": "cc56184c227b09ca",
   "lastOpenFiles": [
-    "ISEN/Web/TP/TP1/authentification.html~",
+    "ISEN/Web/CIPA 4/TP/TP1/TP1_MARQUET.zip",
+    "ISEN/Web/CIPA 4/TP/TP1/Archive.zip",
+    "ISEN/Web/CIPA 4/TP/TP1/images/ISEN_Logo.png",
+    "ISEN/Web/CIPA 4/TP/TP1/tp1.pdf",
+    "ISEN/Web/CIPA 4/TP/TP1/images",
+    "ISEN/Web/CIPA 4/TP/TP1/chat.html",
+    "ISEN/Web/CIPA 4/TP/TP1/authentification.html",
+    "ISEN/Web/CIPA 4/TP/TP1/accueil.html",
+    "ISEN/Web/CIPA 4/TP/TP1",
+    "ISEN/Web/CIPA 4/TP",
+    "ISEN/Web/CIPA 4",
+    "ISEN/Web/dossier sans titre",
     "ISEN/Réunion/CIPA 4/Réunion 8 janv 2026.md",
-    "ISEN/Web/TP/TP1/chat.html~",
     "conflict-files-obsidian-git.md",
-    "ISEN/Traitement du signal/CIPA4/TP/TP5/TP5_MARQUET.doc",
     "ISEN/Réunion/CIPA 4/Untitled.md",
-    "ISEN/Traitement du signal/CIPA4/TP/TP5/~$5_Marquet.doc",
-    "ISEN/Traitement du signal/CIPA4/TP/TP5/TP5_Marquet.doc",
-    "ISEN/Traitement du signal/CIPA4/TP/TP5/TP5remplir.doc",
-    "ISEN/Traitement du signal/CIPA4/TP/TP5/Q2noiz810KA.wav",
-    "ISEN/Traitement du signal/CIPA4/TP/TP5/Q2.wav",
-    "ISEN/Traitement du signal/CIPA4/TP/TP5/holiday_offer.wav",
-    "ISEN/Traitement du signal/CIPA4/TP/TP5/claves.wav",
-    "ISEN/Traitement du signal/CIPA4/TP/TP5",
     "ISEN/English/CIPA4/24 oct 2025.md",
     "ISEN/Réseau/CIPA4/TP/TP M02 Conversion.md",
     "Protocol Data Units (PDU).md",
@@ -268,7 +254,6 @@
     "ISEN/BDD/CIR2/TD2.canvas",
     "Pasted image 20250905143950.png",
     "Pasted image 20250905144746.png",
-    "Pasted image 20250905144313.png",
     "ISEN/Modelec/NB point.canvas",
     "Untitled.canvas",
     "ISEN/Other/Graph Overseer.canvas",
