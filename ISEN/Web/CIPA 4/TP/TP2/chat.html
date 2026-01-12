@@ -3,27 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <title>Chat</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Marko+One&display=swap" rel="stylesheet">
 </head>
-<body bgcolor="#c0c0c0" text="#000000" link="#0000EE" vlink="#551A8B">
+<body>
 <header>
-    <center><font face="Courier New, monospace" size="6">Chat en ligne</font></center>
+    <h1>Chat en ligne</h1>
     <nav>
-        <center>
-            <a href="accueil.html">Accueil</a> |
-            <a href="chat.html">Chat</a> |
-            <a href="https://isen-nantes.fr" target="_blank"><img src="images/ISEN_Logo.png" alt="logo isen" border="0" height="50" width="auto"></a>
-        </center>
+        <ul>
+            <li><a href="accueil.html">Accueil</a></li>
+            <li class="active"><a href="chat.html">Chat</a></li>
+            <li><a href="https://isen-nantes.fr" target="_blank"><img class="logo" src="images/ISEN_Logo.png" alt="logo isen"></a></li>
+        </ul>
     </nav>
-    <hr>
 </header>
 <section>
-    <table width="100%" border="0" cellpadding="4" cellspacing="0">
-        <tr>
-            <td>
-                <center><font face="Arial, Helvetica, sans-serif" size="4">Chat</font></center>
-            </td>
-        </tr>
-    </table>
+    <div class="table">
+        <h2 class="page-title">Chat</h2>
+    </div>
     <form>
         <div id="channel-refresh">
             <label for="channel-select">Canaux: </label>

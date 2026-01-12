@@ -1,0 +1,77 @@
+body {
+    background-color: #EADDC4;
+    font-family: Verdana, sans-serif;
+    text-align: center;
+    font-size: 16px;
+    margin: 0;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Header Title "Chat en ligne" */
+h1 {
+    font-size: 3em; /* 48px */
+    font-weight: bold;
+    font-family: 'Marko One', Georgia, serif;
+    color: #CC6600;
+    text-shadow: 0.2em 0.2em #D3D3D3;
+    text-transform: uppercase;
+    letter-spacing: 0.5em;
+}
+
+/* Footer style */
+footer {
+    background-color: #783F27;
+    color: #EADDC4;
+    font-size: 0.8em;
+    padding: 0.5em;
+}
+
+/* Logo */
+.logo {
+    height: 100px;
+    width: 50px;
+}
+
+/* Menu Navigation */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    display: block;
+    background-color: #783F27;
+    border: 1px solid black;
+    border-radius: 0.5em;
+    margin: 0.5em; /* External margin */
+    padding: 0.5em 1em 0.5em 1em; /* Top Right Bottom Left */
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #DC6903;
+}
+
+nav ul li a:hover {
+    color: #F9AB33;
+}
+
+/* Active menu item state */
+nav ul li.active {
+    background-color: #EADDC4;
+}
+
+/* Specific Page Titles */
+.page-title {
+    text-transform: uppercase;
+    color: #7A0002;
+    letter-spacing: 0.2em;
+}
+
