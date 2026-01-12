@@ -126,7 +126,7 @@ nav ul li.active {
 }
 
 #form-buttons {
-    grid-column: 1 / span 2; 
+    grid-column: 1 / span 2;
     justify-self: center;
     display: flex;
     gap: 1em;
