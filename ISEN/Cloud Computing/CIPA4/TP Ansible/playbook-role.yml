@@ -1,0 +1,13 @@
+---
+- hosts: demo
+  roles:
+    - flask_app
+
+- hosts: localhost
+  become: yes
+  vars:
+    proxy_port: 80
+    flask_port: 8080
+    server_name: "135.125.246.84"
+  roles:
+    - role: nginx_proxy

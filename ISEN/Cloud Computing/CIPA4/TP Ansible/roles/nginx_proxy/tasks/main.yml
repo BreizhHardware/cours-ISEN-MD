@@ -1,0 +1,18 @@
+---
+- name: Installer Nginx
+  apt:
+    name: nginx
+    state: present
+
+- name: Configurer Nginx comme reverse proxy
+  template:
+    src: nginx.conf.j2
+    dest: /etc/nginx/sites-available/{{ server_name }}
+  notify: Restart Nginx
+
+- name: Activer la configuration du site
+  file:
+    src: /etc/nginx/sites-available/{{ server_name }}
+    dest: /etc/nginx/sites-enabled/{{ server_name }}
+    state: link
+  notify: Restart Nginx

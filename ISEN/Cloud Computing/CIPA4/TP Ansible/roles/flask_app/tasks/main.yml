@@ -1,0 +1,22 @@
+---
+- name: Installer le paquet git
+  apt:
+    name: git
+    state: present
+
+- name: Cloner l'application Flask
+  git:
+    repo: 'https://github.com/arnaudmorin/demo-flask.git'
+    dest: /root/demo-flask
+
+- name: Installer pip
+  apt:
+    name: python3-pip
+    state: present
+
+- name: Installer les dépendances Flask
+  pip:
+    requirements: /root/demo-flask/requirements.txt
+
+- name: Démarrer l'application Flask en arrière-plan
+  shell: "nohup /root/demo-flask/start.sh &"
