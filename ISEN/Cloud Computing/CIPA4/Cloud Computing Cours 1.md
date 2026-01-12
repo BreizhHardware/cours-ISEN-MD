@@ -1,24 +1,7 @@
 #CIPA4 #CloudComputing #DP
 # Ansible
 ## TP
-```Bash
-ssh root@135.125.246.84
-```
-mdp : moutard42
-
-### Installation
-Install ansible on `localhost`
-
-```text
-apt install ansible
-```
-
-### Ad-hoc ping
-Q: What happened behing the scene?
-It ping the localhost.
-
-### Ad-hoc shell
-Q: what command can you use to get the IP of your machine?
-```Bash
-ansible localhost -m shell -a "ip a"
-```
+Sujet des tp : https://git.arnaudmorin.fr/arnaud/trainings/src/branch/main/ansible/training/lessons
+TP1: [TP 1 Ansible](TP%201%20Ansible.md)
+TP2: [TP 2 Ansible](TP%202%20Ansible.md)
+TP3: [TP 3 Ansible](TP%203%20Ansible.md)

@@ -3,7 +3,7 @@
 ```Bash
 ssh root@135.125.246.84
 ```
-mdp : moutard42
+mdp : moutarde42
 
 ### Installation
 Install ansible on `localhost`
