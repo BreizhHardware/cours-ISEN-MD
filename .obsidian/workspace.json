@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ISEN/Cloud Computing/CIPA4/TP 4 Ansible.md",
+                "file": "ISEN/Cloud Computing/CIPA4/Cloud Computing Cours 1.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "TP 4 Ansible"
+              "title": "Cloud Computing Cours 1"
             }
           }
         ]
@@ -206,6 +206,7 @@
   },
   "active": "622da1d4e0ba0f73",
   "lastOpenFiles": [
+    "ISEN/Cloud Computing/CIPA4/TP 4 Ansible.md",
     "ISEN/Cloud Computing/CIPA4/TP Ansible/templates/nginx.conf.j2",
     "ISEN/Cloud Computing/CIPA4/TP Ansible/templates",
     "ISEN/Cloud Computing/CIPA4/TP Ansible/roles/nginx_proxy/templates/nginx.conf.j2",
@@ -216,9 +217,7 @@
     "ISEN/Cloud Computing/CIPA4/TP Ansible/roles/nginx_proxy/tasks",
     "ISEN/Cloud Computing/CIPA4/TP Ansible/roles/nginx_proxy/handlers",
     "ISEN/Cloud Computing/CIPA4/TP Ansible/roles/flask_app/templates",
-    "ISEN/Cloud Computing/CIPA4/TP Ansible/roles/flask_app/tasks",
     "ISEN/Cloud Computing/CIPA4/Cloud Computing Cours 1.md",
-    "ISEN/Cloud Computing/CIPA4/TP 4 Ansible.md",
     "ISEN/Cloud Computing/CIPA4/TP 3 Ansible.md",
     "ISEN/Cloud Computing/CIPA4/TP 2 Ansible.md",
     "ISEN/Cloud Computing/CIPA4/TP 1 Ansible.md",
