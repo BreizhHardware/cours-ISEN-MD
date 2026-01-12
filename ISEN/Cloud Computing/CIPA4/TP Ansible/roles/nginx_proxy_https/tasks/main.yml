@@ -1,0 +1,47 @@
+---
+- name: Installer Nginx et Certbot
+  apt:
+    name:
+      - nginx
+      - certbot
+      - python3-certbot-nginx
+    state: present
+    update_cache: yes
+
+- name: Vérifier si le certificat existe
+  stat:
+    path: /etc/letsencrypt/live/{{ server_name }}/fullchain.pem
+  register: cert_file
+
+- name: Configurer Nginx (HTTP temporaire pour Certbot)
+  template:
+    src: nginx_http.conf.j2
+    dest: /etc/nginx/sites-available/{{ server_name }}
+  when: not cert_file.stat.exists
+  notify: Restart Nginx
+
+- name: Activer la configuration du site
+  file:
+    src: /etc/nginx/sites-available/{{ server_name }}
+    dest: /etc/nginx/sites-enabled/{{ server_name }}
+    state: link
+  notify: Restart Nginx
+
+- name: Forcer le redémarrage de Nginx pour prise en compte
+  meta: flush_handlers
+
+- name: Obtenir le certificat SSL
+  command: certbot certonly --nginx -d {{ server_name }} --non-interactive --agree-tos --email admin@{{ server_name }}
+  when: not cert_file.stat.exists
+
+- name: Vérifier de nouveau le certificat
+  stat:
+    path: /etc/letsencrypt/live/{{ server_name }}/fullchain.pem
+  register: cert_file_after
+
+- name: Configurer Nginx (HTTPS permanent)
+  template:
+    src: nginx_https.conf.j2
+    dest: /etc/nginx/sites-available/{{ server_name }}
+  when: cert_file_after.stat.exists
+  notify: Restart Nginx
