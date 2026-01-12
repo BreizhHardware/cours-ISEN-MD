@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Authentification</title>
+</head>
+<body bgcolor="#c0c0c0" text="#000000" link="#0000EE" vlink="#551A8B">
+<header>
+    <center><font face="Courier New, monospace" size="6">Chat en ligne</font></center>
+    <nav>
+        <center>
+            <a href="accueil.html">Accueil</a> |
+            <a href="chat.html">Chat</a> |
+            <a href="https://isen-nantes.fr" target="_blank"><img src="images/ISEN_Logo.png" alt="logo isen" border="0" height="50" width="auto"></a>
+        </center>
+    </nav>
+    <hr>
+</header>
+<section>
+    <table width="100%" border="0" cellpadding="4" cellspacing="0">
+        <tr>
+            <td>
+                <center><font face="Arial, Helvetica, sans-serif" size="4">Authentification</font></center>
+            </td>
+        </tr>
+    </table>
+    <form action="chat.html" method="get">
+        <label for="username">Nom d'utilisateur:</label>
+        <input type="text" id="username" name="username" required>
+        <br><br>
+        <label for="password">Mot de passe:</label>
+        <input type="password" id="password" name="password" required>
+        <br><br>
+        <input type="submit" value="Se connecter">
+        <input type="reset" value="Effacer">
+        <label for="remember-me">Rester connecté</label>
+        <input type="checkbox" id="remember-me" name="remember-me">
+    </form>
+</section>
+<footer>
+    <p>All content copyright &copy;A3</p>
+    <p><a href="http://isen-nantes.fr" target="_blank">Lien vers la page du Programmeur</a></p>
+</footer>
+</body>
+</html>

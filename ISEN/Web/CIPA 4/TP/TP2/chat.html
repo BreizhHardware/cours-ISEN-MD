@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Chat</title>
+</head>
+<body bgcolor="#c0c0c0" text="#000000" link="#0000EE" vlink="#551A8B">
+<header>
+    <center><font face="Courier New, monospace" size="6">Chat en ligne</font></center>
+    <nav>
+        <center>
+            <a href="accueil.html">Accueil</a> |
+            <a href="chat.html">Chat</a> |
+            <a href="https://isen-nantes.fr" target="_blank"><img src="images/ISEN_Logo.png" alt="logo isen" border="0" height="50" width="auto"></a>
+        </center>
+    </nav>
+    <hr>
+</header>
+<section>
+    <table width="100%" border="0" cellpadding="4" cellspacing="0">
+        <tr>
+            <td>
+                <center><font face="Arial, Helvetica, sans-serif" size="4">Chat</font></center>
+            </td>
+        </tr>
+    </table>
+    <form>
+        <div id="channel-refresh">
+            <label for="channel-select">Canaux: </label>
+            <select id="channel-select">
+                <option value="general">Général</option>
+                <option value="random">Aléatoire</option>
+                <option value="projets">Projets</option>
+                <option value="aide">Aide</option>
+            </select>
+            <label for="refresh-delay">Rafraichissement:</label>
+            <input type="number" id="refresh-delay" name="refresh-delay" min="1" max="60" value="5"> secondes
+        </div>
+        <div>
+            <label for="chat-messages">Messages:</label><br>
+            <textarea id="chat-messages" name="chat-messages" cols="100" rows="10" readonly></textarea>
+        </div>
+        <div>
+            <label for="message">Message:</label>
+            <input type="text" id="message" name="message" required>
+            <br>
+            <button type="button" id="disconnect-button" onclick="window.location.href='authentification.html';">Se déconnecter</button>
+            <button type="submit">Envoyer</button>
+        </div>
+    </form>
+</section>
+<footer>
+    <p>All content copyright &copy;A3</p>
+    <p><a href="http://isen-nantes.fr" target="_blank">Lien vers la page du Programmeur</a></p>
+</footer>
+</body>
+</html>
