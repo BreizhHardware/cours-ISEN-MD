@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ISEN/Réunion/CIPA 4/Réunion 8 janv 2026.md",
+                "file": "ISEN/Cloud Computing/CIPA4/Cloud Computing Cours 1.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Réunion 8 janv 2026"
+              "title": "Cloud Computing Cours 1"
             }
           }
         ]
@@ -204,8 +204,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "cc56184c227b09ca",
+  "active": "e11a6a080eb83632",
   "lastOpenFiles": [
+    "ISEN/Réunion/CIPA 4/Réunion 8 janv 2026.md",
+    "ISEN/Cloud Computing/CIPA4/Cloud Computing Cours 1.md",
+    "ISEN/Cloud Computing/CIPA4",
+    "ISEN/Cloud Computing",
     "ISEN/Web/CIPA 4/TP/TP1/TP1_MARQUET.zip",
     "ISEN/Web/CIPA 4/TP/TP1/Archive.zip",
     "ISEN/Web/CIPA 4/TP/TP1/images/ISEN_Logo.png",
@@ -215,10 +219,6 @@
     "ISEN/Web/CIPA 4/TP/TP1/authentification.html",
     "ISEN/Web/CIPA 4/TP/TP1/accueil.html",
     "ISEN/Web/CIPA 4/TP/TP1",
-    "ISEN/Web/CIPA 4/TP",
-    "ISEN/Web/CIPA 4",
-    "ISEN/Web/dossier sans titre",
-    "ISEN/Réunion/CIPA 4/Réunion 8 janv 2026.md",
     "conflict-files-obsidian-git.md",
     "ISEN/Réunion/CIPA 4/Untitled.md",
     "ISEN/English/CIPA4/24 oct 2025.md",
