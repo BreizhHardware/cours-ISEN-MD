@@ -80,15 +80,26 @@ http://169.254.169.254/openstack/2012-08-10/user_data
 ```bash
 #!/bin/bash
 
+# Setup logging
+exec > >(tee -a /var/log/postinstall.log) 2>&1
+
+echo "Starting post-installation setup..."
 sudo apt update
 
-sudo apt install -y python3-pip git
+echo "Installing dependencies..."
+sudo apt install -y python3-pip python3-venv git
 
+echo "Cloning repository..."
 git clone https://github.com/arnaudmorin/demo-flask.git /home/debian/demo-flask
 
-pip3 install -r /home/debian/demo-flask/requirements.txt
+echo "Creating virtual environment..."
+python3 -m venv /home/debian/demo-flask/venv
 
-nohup /home/debian/demo-flask/start.sh &
+echo "Installing Python requirements..."
+/home/debian/demo-flask/venv/bin/pip install -r /home/debian/demo-flask/requirements.txt
 
-echo "Hello from my instance" > /var/log/postinstall.log
+echo "Starting the application..."
+nohup bash -c "source /home/debian/demo-flask/venv/bin/activate && /home/debian/demo-flask/start.sh" &
+
+echo "Setup complete."
 ```
