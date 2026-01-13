@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+  <!-- Meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Title -->
+  <title></title>
+
+  <!-- CSS Styles -->
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+
+  <!-- JS Scripts -->
+  <script src="js/tic-tac-toe.js" defer></script>
+
+</head>
+
+<body>
+  <!-- Header -->
+  <header>
+    <h1>Jeu du Morpion</h1>
+    <hr>
+  </header>
+
+  <!-- Players -->
+  <section>
+    <h2>Noms des joueurs</h2>
+    <label for="player1">Joueur 1 :</label>
+    <input name="player1" type="text" value="J1" placeholder="Entrez le nom du joueur 1">
+    <br>
+    <label for="player2">Joueur 2 :</label>
+    <input name="player2" type="text" value="J2" placeholder="Entrez le nom du joueur 2">
+  </section>
+
+  <!-- Board -->
+  <section>
+    <form>
+      <h2>Plateau de jeu <span id="timer"></span></h2>
+      <div class="game">
+        <div class="board">
+          <span id="cell0" class="cell"></span>
+          <span id="cell1" class="cell"></span>
+          <span id="cell2" class="cell"></span>
+          <span id="cell3" class="cell"></span>
+          <span id="cell4" class="cell"></span>
+          <span id="cell5" class="cell"></span>
+          <span id="cell6" class="cell"></span>
+          <span id="cell7" class="cell"></span>
+          <span id="cell8" class="cell"></span>
+        </div>
+        <div>
+          <h2>Règles du jeu</h2>
+          <br>
+          <div id="rules">
+            Pour jouer, il suffit de rentrer le nom des joueurs<br>puis de cliquer sur le plateau de jeu :<br>- 1 fois
+            pour le joueur 1<br>- 2 fois pour le joueur 2.<br>Si vous pensez avoir gagné, cliquez sur le bouton «
+            vérifier ».<br><br>Bonne partie !!
+          </div>
+        </div>
+      </div>
+      <br>
+      <button id="play" type="button">Vérifier</button>
+    </form>
+  </section>
+
+  <!-- Scores -->
+  <section>
+    <h2>Scores</h2>
+    <table id="scores">
+      <thead>
+        <tr>
+          <th>Nom</th>
+          <th>Date et heure</th>
+        </tr>
+      </thead>
+    </table>
+    <br>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <hr>
+    <a href="https://www.isen.fr/" target="_blank">&copy; ISEN Yncréa Ouest - A3</a>
+  </footer>
+</body>
+
+</html>

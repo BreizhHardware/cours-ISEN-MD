@@ -1,0 +1,51 @@
+body
+{
+  text-align: center;
+  color: white;
+  background-color:steelblue;
+}
+
+section
+{
+  width: 31rem;
+  margin: auto;
+}
+
+table, th, td
+{
+  border-style: solid;
+  border-width: 0.1rem;
+  border-color: white;
+  margin: auto;
+}
+
+th, td
+{
+  padding: 0.5rem;
+}
+
+.game
+{
+  display: grid;
+  grid-template-columns: repeat(2, 31rem);
+}
+
+.board
+{
+  display: grid;
+  grid-template-columns: repeat(3, 10.5rem);
+  grid-template-rows: repeat(3, 10.5rem);
+}
+
+.cell
+{
+  display: flex;
+  background-color: white;
+  color: black;
+  height: 10rem;
+  width: 10rem;
+  font-size: 8rem;
+  font-family: sans-serif;
+  align-items: center;
+  justify-content: center;
+}
