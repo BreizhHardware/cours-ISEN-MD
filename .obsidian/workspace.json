@@ -35,12 +35,24 @@
             "id": "9478fca2041362c8",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.11.4"
+                "file": "ISEN/Cloud Computing/CIPA4/Cloud Computing Cours 2.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.11.4"
+              "icon": "lucide-file",
+              "title": "Cloud Computing Cours 2"
             }
           }
         ],
@@ -219,8 +231,10 @@
   },
   "active": "9478fca2041362c8",
   "lastOpenFiles": [
-    "ISEN/Web/CIPA 4/Idée projet.md",
+    "ISEN/Cloud Computing/CIPA4/TP 1 Ansible.md",
+    "ISEN/Cloud Computing/CIPA4/Cloud Computing Cours 2.md",
     "ISEN/Cloud Computing/CIPA4/Cloud Computing Cours 1.md",
+    "ISEN/Web/CIPA 4/Idée projet.md",
     "ISEN/Web/CIPA 4/TP/TP2/authentification.html~",
     "ISEN/Web/CIPA 4/TP/TP1/chat.html~",
     "ISEN/Web/CIPA 4/TP/TP2/style.css",
@@ -234,7 +248,6 @@
     "ISEN/Cloud Computing/CIPA4/TP 4 Ansible.md",
     "ISEN/Cloud Computing/CIPA4/TP 3 Ansible.md",
     "ISEN/Cloud Computing/CIPA4/TP 2 Ansible.md",
-    "ISEN/Cloud Computing/CIPA4/TP 1 Ansible.md",
     "ISEN/Réunion/CIPA 4/Réunion 8 janv 2026.md",
     "ISEN/Web/CIPA 4/TP/TP1/images/ISEN_Logo.png",
     "conflict-files-obsidian-git.md",
@@ -255,7 +268,6 @@
     "ISEN/Developpement durable/CIPA3/Developpement durable Cours 1.md",
     "ISEN/Réseau/A2/CCNA Cours 2.md",
     "ISEN/Réseau/A2/CCNA Cours 3.md",
-    "Elevator.md",
     "Pasted image 20251009192656.png",
     "src/Pasted image 20240130111505.png",
     "src/Pasted image 20240123120819.png",
