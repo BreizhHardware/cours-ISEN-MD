@@ -68,3 +68,27 @@ debian@myvm01:~$ ip a
 ```bash
 openstack server create --image 'Debian 12' --flavor small --network private --key-name isen --user-data postinstall.sh myvm01
 ```
+
+### Check the result
+Q: what is the name of the service running inside your instance that execute this `user-data` script?
+cloud-init
+
+Q: from which url this service retrieve the script?
+http://169.254.169.254/openstack/2012-08-10/user_data
+
+## demo-flask
+```bash
+#!/bin/bash
+
+sudo apt update
+
+sudo apt install -y python3-pip git
+
+git clone https://github.com/arnaudmorin/demo-flask.git /home/debian/demo-flask
+
+pip3 install -r /home/debian/demo-flask/requirements.txt
+
+nohup /home/debian/demo-flask/start.sh &
+
+echo "Hello from my instance" > /var/log/postinstall.log
+```
