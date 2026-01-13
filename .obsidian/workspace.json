@@ -30,8 +30,21 @@
               "icon": "lucide-file",
               "title": "Cloud Computing Cours 1"
             }
+          },
+          {
+            "id": "9478fca2041362c8",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.11.4"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.11.4"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -204,7 +217,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e11a6a080eb83632",
+  "active": "9478fca2041362c8",
   "lastOpenFiles": [
     "ISEN/Web/CIPA 4/Idée projet.md",
     "ISEN/Cloud Computing/CIPA4/Cloud Computing Cours 1.md",
