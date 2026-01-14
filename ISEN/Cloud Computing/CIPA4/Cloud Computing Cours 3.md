@@ -72,7 +72,33 @@ docker rm -f 3b64c4b556b255f49d4587f34aea0b14201f05431af487068a9e35c0c98e2b0b
 docker volume create todo-db
 docker ps
 docker rm -f e7663a0b8f1d
-1. ```
-    docker run -dp 3000:3000 -v todo-db:/etc/todos getting-started
+docker run -dp 8080:3000 -v todo-db:/etc/todos getting-started
+docker ps
+docker rm -f c64257c38371
+docker run -dp 8080:3000 -v todo-db:/etc/todos getting-started
+docker volume inspect todo-db
+#[
+#    {
+#        "CreatedAt": "2026-01-14T12:59:17Z",
+#        "Driver": "local",
+#        "Labels": null,
+#        "Mountpoint": "/var/lib/docker/volumes/todo-db/_data",
+#        "Name": "todo-db",
+#        "Options": null,
+#        "Scope": "local"
+#    }
+#]
 
+# Using Bind Mounts
+docker ps
+docker rm -f adfa85f94341
+docker run -dp 8080:3000 -w /app -v "$(pwd):/app" node:18-alpine sh -c "yarn install && yarn run dev"
+docker ps
+docker logs -f ec442a5d5d80
+nano src/static/js/app.js
+docker build -t getting-started .
+
+# Multi-Container Apps
+docker network create todo-app
+    
 ```
