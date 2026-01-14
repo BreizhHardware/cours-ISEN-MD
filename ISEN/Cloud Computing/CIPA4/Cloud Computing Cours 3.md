@@ -42,3 +42,10 @@ git merge master
 git switch master
 git log --oneline --graph --all
 ```
+
+# TP Docker
+```bash
+docker run -dp 8080:3000 getting-started
+docker ps
+
+```
