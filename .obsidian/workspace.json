@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ISEN/Cloud Computing/CIPA4/Cloud Computing Cours 2.md",
+                "file": "ISEN/Cloud Computing/CIPA4/Cloud Computing Cours 3.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Cloud Computing Cours 2"
+              "title": "Cloud Computing Cours 3"
             }
           }
         ]
@@ -206,12 +206,13 @@
   },
   "active": "e11a6a080eb83632",
   "lastOpenFiles": [
+    "ISEN/Cloud Computing/CIPA4/Cloud Computing Cours 2.md",
+    "ISEN/Cloud Computing/CIPA4/Cloud Computing Cours 3.md",
     "ISEN/Cloud Computing/CIPA4/Cloud Computing Cours 1.md",
     "ISEN/Web/CIPA 4/TP/TP3/TP3_MARQUET.zip",
     "ISEN/Web/CIPA 4/TP/TP3/Archive.zip",
     "ISEN/Web/CIPA 4/TP/TP1/authentification.html~",
     "ISEN/Web/CIPA 4/TP/TP3/js/tic-tac-toe.js~",
-    "ISEN/Cloud Computing/CIPA4/Cloud Computing Cours 2.md",
     "ISEN/Web/CIPA 4/TP/TP3/js/tic-tac-toe.js",
     "ISEN/Web/CIPA 4/TP/TP3/js",
     "ISEN/Web/CIPA 4/TP/TP3/index.html",
