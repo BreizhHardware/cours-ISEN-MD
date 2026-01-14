@@ -11,24 +11,12 @@
             "id": "e11a6a080eb83632",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "ISEN/Introduction a la cyber et a la cryptographie/CIPA 4/Cours 1.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
+                "file": "ISEN/Introduction a la cyber et a la cryptographie/CIPA 4/Intro2Cyber - Sujet TP 2025-2026.pdf"
               },
-              "icon": "lucide-file",
-              "title": "Cours 1"
+              "icon": "lucide-file-text",
+              "title": "Intro2Cyber - Sujet TP 2025-2026"
             }
           }
         ]
@@ -206,8 +194,11 @@
   },
   "active": "e11a6a080eb83632",
   "lastOpenFiles": [
-    "ISEN/Cloud Computing/CIPA4/Cloud Computing Cours 3.md",
+    "ISEN/Introduction a la cyber et a la cryptographie/CIPA 4/~$tro2Cyber - Sujet TP 2025-2026.pdf",
     "ISEN/Introduction a la cyber et a la cryptographie/CIPA 4/Cours 1.md",
+    "ISEN/Introduction a la cyber et a la cryptographie/CIPA 4/Untitled.md",
+    "ISEN/Introduction a la cyber et a la cryptographie/CIPA 4/Intro2Cyber - Sujet TP 2025-2026.pdf",
+    "ISEN/Cloud Computing/CIPA4/Cloud Computing Cours 3.md",
     "ISEN/Introduction a la cyber et a la cryptographie/CIPA 4",
     "ISEN/Introduction a la cyber et a la cryptographie",
     "ISEN/Cloud Computing/CIPA4/Cloud Computing Cours 2.md",
@@ -219,7 +210,6 @@
     "ISEN/Web/CIPA 4/TP/TP3/js/tic-tac-toe.js",
     "ISEN/Web/CIPA 4/TP/TP3/js",
     "ISEN/Web/CIPA 4/TP/TP3/index.html",
-    "ISEN/Web/CIPA 4/TP/TP3/css/style.css",
     "ISEN/Cloud Computing/CIPA4/TP 1 Ansible.md",
     "ISEN/Web/CIPA 4/Idée projet.md",
     "ISEN/Cloud Computing/CIPA4/TP 4 Ansible.md",
@@ -241,8 +231,6 @@
     "ISEN/Developpement durable/CIPA3/Matrice Industrie.md",
     "ISEN/Developpement durable/CIPA3/Figure Félix Marquet.md",
     "ISEN/Developpement durable/CIPA3/Développement durable Cours 3.md",
-    "ISEN/Developpement durable/CIPA3/Développement durable Cours 2.md",
-    "ISEN/Developpement durable/CIPA3/Developpement durable Cours 1.md",
     "Pasted image 20251009192656.png",
     "src/Pasted image 20240130111505.png",
     "src/Pasted image 20240123120819.png",
