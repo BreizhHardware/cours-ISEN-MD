@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ISEN/Cloud Computing/CIPA4/Cloud Computing Cours 3.md",
-                "mode": "preview",
+                "file": "ISEN/Introduction a la cyber et a la cryptographie/CIPA 4/Cours 1.md",
+                "mode": "source",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Cloud Computing Cours 3"
+              "title": "Cours 1"
             }
           }
         ]
@@ -206,8 +206,11 @@
   },
   "active": "e11a6a080eb83632",
   "lastOpenFiles": [
-    "ISEN/Cloud Computing/CIPA4/Cloud Computing Cours 2.md",
     "ISEN/Cloud Computing/CIPA4/Cloud Computing Cours 3.md",
+    "ISEN/Introduction a la cyber et a la cryptographie/CIPA 4/Cours 1.md",
+    "ISEN/Introduction a la cyber et a la cryptographie/CIPA 4",
+    "ISEN/Introduction a la cyber et a la cryptographie",
+    "ISEN/Cloud Computing/CIPA4/Cloud Computing Cours 2.md",
     "ISEN/Cloud Computing/CIPA4/Cloud Computing Cours 1.md",
     "ISEN/Web/CIPA 4/TP/TP3/TP3_MARQUET.zip",
     "ISEN/Web/CIPA 4/TP/TP3/Archive.zip",
@@ -217,10 +220,8 @@
     "ISEN/Web/CIPA 4/TP/TP3/js",
     "ISEN/Web/CIPA 4/TP/TP3/index.html",
     "ISEN/Web/CIPA 4/TP/TP3/css/style.css",
-    "ISEN/Web/CIPA 4/TP/TP3/css",
     "ISEN/Cloud Computing/CIPA4/TP 1 Ansible.md",
     "ISEN/Web/CIPA 4/Idée projet.md",
-    "ISEN/Web/CIPA 4/TP/TP2/authentification.html~",
     "ISEN/Cloud Computing/CIPA4/TP 4 Ansible.md",
     "ISEN/Cloud Computing/CIPA4/TP 3 Ansible.md",
     "ISEN/Cloud Computing/CIPA4/TP 2 Ansible.md",
@@ -242,7 +243,6 @@
     "ISEN/Developpement durable/CIPA3/Développement durable Cours 3.md",
     "ISEN/Developpement durable/CIPA3/Développement durable Cours 2.md",
     "ISEN/Developpement durable/CIPA3/Developpement durable Cours 1.md",
-    "ISEN/Réseau/A2/CCNA Cours 2.md",
     "Pasted image 20251009192656.png",
     "src/Pasted image 20240130111505.png",
     "src/Pasted image 20240123120819.png",
