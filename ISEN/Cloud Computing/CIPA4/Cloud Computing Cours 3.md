@@ -11,3 +11,6 @@
 ## Basic branching
 ![](https://cdn.breizhhardware.fr/FAKA3/RuBoMopA36.png/raw)
 
+## ff-merge
+![](https://cdn.breizhhardware.fr/FAKA3/fOwOhUJo22.png/raw)
+
