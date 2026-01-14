@@ -20,3 +20,9 @@
 ## Merge conflict
 ![](https://cdn.breizhhardware.fr/FAKA3/CUgimImu48.png/raw)
 
+## Merge mergesort
+![](https://cdn.breizhhardware.fr/FAKA3/NenINaJu95.png/raw)
+
+## Rebase branch
+![](https://cdn.breizhhardware.fr/FAKA3/lacAmIRI44.png/raw)
+
