@@ -141,4 +141,72 @@ mysql.                  600     IN      A       172.18.0.2
 docker run -dp 8080:3000 -w /app -v "$(pwd):/app" --network todo-app -e MYSQL_HOST=mysql -e MYSQL_USER=root -e MYSQL_PASSWORD=secret -e MYSQL_DB=todos node:18-alpine sh -c "yarn install && yarn run dev"
 docker ps
 docker logs 57e59c98f9f8
+docker exec -it cfdcbc8d1680 mysql -p todos
+mysql> select * from todo_items;
++--------------------------------------+--------------+-----------+
+| id                                   | name         | completed |
++--------------------------------------+--------------+-----------+
+| 1c488735-3d8c-4965-816a-75eab1178cba | Star Citizen |         0 |
+| b0ba135b-bd8d-460c-8680-41127e08d7d6 | Squadron 42  |         0 |
+| f2194135-fd96-4938-b340-db8162b43b01 | Elocution    |         0 |
++--------------------------------------+--------------+-----------+
+3 rows in set (0.00 sec)
+mysql> exit
+
+# Using docker compose
+nano docker-compose.yml
+docker compose up -d 
+docker compose logs -f
+docker compose logs -f app
+docker compose down
+
+# Image Building Best Practices
+docker image history getting-started
+IMAGE          CREATED          CREATED BY                                      SIZE      COMMENT
+f6dd66f1e7f3   23 minutes ago   CMD ["node" "./src/index.js"]                   0B        buildkit.dockerfile.v0
+<missing>      23 minutes ago   RUN /bin/sh -c yarn install --production # b…   115MB     buildkit.dockerfile.v0
+<missing>      23 minutes ago   COPY . . # buildkit                             78MB      buildkit.dockerfile.v0
+<missing>      43 minutes ago   WORKDIR /app                                    8.19kB    buildkit.dockerfile.v0
+<missing>      9 months ago     CMD ["node"]                                    0B        buildkit.dockerfile.v0
+<missing>      9 months ago     ENTRYPOINT ["docker-entrypoint.sh"]             0B        buildkit.dockerfile.v0
+<missing>      9 months ago     COPY docker-entrypoint.sh /usr/local/bin/ # …   20.5kB    buildkit.dockerfile.v0
+<missing>      9 months ago     RUN /bin/sh -c apk add --no-cache --virtual …   5.47MB    buildkit.dockerfile.v0
+<missing>      9 months ago     ENV YARN_VERSION=1.22.22                        0B        buildkit.dockerfile.v0
+<missing>      9 months ago     RUN /bin/sh -c addgroup -g 1000 node     && …   122MB     buildkit.dockerfile.v0
+<missing>      9 months ago     ENV NODE_VERSION=18.20.8                        0B        buildkit.dockerfile.v0
+<missing>      11 months ago    CMD ["/bin/sh"]                                 0B        buildkit.dockerfile.v0
+<missing>      11 months ago    ADD alpine-minirootfs-3.21.3-x86_64.tar.gz /…   8.5MB     buildkit.dockerfile.v0
+
+
+docker image history --no-trunc getting-started
+rm Dockerfile && nano Dockerfile
+docker build -t getting-started .
+nano src/static/index.html
+
+```
+
+docker-compose.yml:
+```YML
+services: 
+	app: 
+		image: node:18-alpine 
+		command: sh -c "yarn install && yarn run dev" 
+		ports: 
+			- 3000:3000 
+		working_dir: /app 
+		volumes: 
+			- ./:/app 
+		environment: 
+			MYSQL_HOST: mysql 
+			MYSQL_USER: root 
+			MYSQL_PASSWORD: secret 
+			MYSQL_DB: todos 
+	mysql: 
+		image: mysql:8.0 
+		volumes: 
+			- todo-mysql-data:/var/lib/mysql 
+		environment: 
+			MYSQL_ROOT_PASSWORD: secret 
+			MYSQL_DATABASE: todos 
+volumes: todo-mysql-data:
 ```
