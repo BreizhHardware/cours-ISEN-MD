@@ -100,5 +100,45 @@ docker build -t getting-started .
 
 # Multi-Container Apps
 docker network create todo-app
-    
+docker run -d --network todo-app --network-alias mysql -v todo-mysql-data:/var/lib/mysql -e MYSQL_ROOT_PASSWORD=secret -e MYSQL_DATABASE=todos mysql:8.0
+docker ps
+docker exec -it cfdcbc8d1680 mysql -p
+# secret
+mysql> SHOW DATABASES;
++--------------------+
+| Database           |
++--------------------+
+| information_schema |
+| mysql              |
+| performance_schema |
+| sys                |
+| todos              |
++--------------------+
+5 rows in set (0.00 sec)
+mysql> exit
+docker run -it --network todo-app nicolaka/netshoot
+ 89c761819671  ~  dig mysql
+
+
+; <<>> DiG 9.20.17 <<>> mysql
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 35535
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;mysql.                         IN      A
+
+;; ANSWER SECTION:
+mysql.                  600     IN      A       172.18.0.2
+
+;; Query time: 0 msec
+;; SERVER: 127.0.0.11#53(127.0.0.11) (UDP)
+;; WHEN: Wed Jan 14 13:19:11 UTC 2026
+;; MSG SIZE  rcvd: 44
+ 89c761819671  ~  exit
+ 
+docker run -dp 8080:3000 -w /app -v "$(pwd):/app" --network todo-app -e MYSQL_HOST=mysql -e MYSQL_USER=root -e MYSQL_PASSWORD=secret -e MYSQL_DB=todos node:18-alpine sh -c "yarn install && yarn run dev"
+docker ps
+docker logs 57e59c98f9f8
 ```
