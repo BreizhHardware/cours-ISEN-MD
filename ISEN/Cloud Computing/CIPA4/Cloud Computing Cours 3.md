@@ -26,3 +26,19 @@
 ## Rebase branch
 ![](https://cdn.breizhhardware.fr/FAKA3/lacAmIRI44.png/raw)
 
+## Commit on wrong branch II
+```Bash
+git log --all
+#get commit hash
+git reset --hard HEAD~1
+git switch new-feature 
+git cherry-pick hash
+ls
+nano myapp.txt 
+git add myapp.txt 
+git status
+git cherry-pick --continue
+git merge master
+git switch master
+git log --oneline --graph --all
+```
