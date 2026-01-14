@@ -14,3 +14,9 @@
 ## ff-merge
 ![](https://cdn.breizhhardware.fr/FAKA3/fOwOhUJo22.png/raw)
 
+## 3-way-merge
+![](https://cdn.breizhhardware.fr/FAKA3/BodibOPO89.png/raw)
+
+## Merge conflict
+![](https://cdn.breizhhardware.fr/FAKA3/CUgimImu48.png/raw)
+
