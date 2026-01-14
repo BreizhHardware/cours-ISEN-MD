@@ -182,7 +182,7 @@ docker image history --no-trunc getting-started
 rm Dockerfile && nano Dockerfile
 docker build -t getting-started .
 nano src/static/index.html
-
+docker build -t getting-started .
 ```
 
 docker-compose.yml:
@@ -208,5 +208,6 @@ services:
 		environment: 
 			MYSQL_ROOT_PASSWORD: secret 
 			MYSQL_DATABASE: todos 
-volumes: todo-mysql-data:
+volumes: 
+	todo-mysql-data:
 ```
