@@ -11,10 +11,24 @@
             "id": "e11a6a080eb83632",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "ISEN/English/CIPA4/16 janv 2026.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "16 janv 2026"
             }
           }
         ]
@@ -192,6 +206,11 @@
   },
   "active": "622da1d4e0ba0f73",
   "lastOpenFiles": [
+    "ISEN/English/CIPA4/29 sept 2025.md",
+    "ISEN/English/A2/23 févr 2024.md",
+    "ISEN/English/A2/20 oct 2023.md",
+    "ISEN/English/A2/2 févr 2024.md",
+    "ISEN/English/CIPA4/16 janv 2026.md",
     "ISEN/English/Untitled",
     "ISEN/Réunion/CIPA 4/Réunion international.md",
     "README.md",
@@ -214,7 +233,6 @@
     "ISEN/Web/CIPA 4/TP/TP3/TP3_MARQUET.zip",
     "ISEN/Web/CIPA 4/TP/TP3/Archive.zip",
     "ISEN/Web/CIPA 4/TP/TP1/authentification.html~",
-    "ISEN/Web/CIPA 4/TP/TP3/js/tic-tac-toe.js~",
     "ISEN/Cloud Computing/CIPA4/TP 1 Ansible.md",
     "ISEN/Web/CIPA 4/Idée projet.md",
     "ISEN/Cloud Computing/CIPA4/TP 4 Ansible.md",
@@ -227,12 +245,8 @@
     "ISEN/English/CIPA4/24 oct 2025.md",
     "ISEN/Réseau/CIPA4/TP/TP M02 Conversion.md",
     "ISEN/English/CIPA4/Elevator pitch.md",
-    "ISEN/English/CIPA4/29 sept 2025.md",
     "ISEN/BDD/CIPA4/BDD Cours 1.md",
     "ISEN/ELA/TP/Compte rendu TP Amplificateur Opérationnel et Contre-Réaction.md",
-    "ISEN/Developpement durable/CIPA3/Schneider.md",
-    "ISEN/Developpement durable/CIPA3/Question oral.md",
-    "ISEN/Developpement durable/CIPA3/Matrice Industrie.md",
     "src/Pasted image 20240130111505.png",
     "src/Pasted image 20240123120819.png",
     "src/Pasted image 20240123120807.png",
