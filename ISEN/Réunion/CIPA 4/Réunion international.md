@@ -3,3 +3,4 @@
 Si mission avec l'entreprise:
 - Le tuteur doit venir avec nous
 
+# Réunion V2 du 16/01/2026
