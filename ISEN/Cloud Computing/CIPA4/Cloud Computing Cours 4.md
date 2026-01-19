@@ -313,6 +313,75 @@ spec:
           defaultMode: 0755
 ---
 apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: monkey-config
+  namespace: demo-flask
+data:
+  start.py: |-
+    #!/usr/bin/env python3
+    import platform
+    from flask import Flask
+    app = Flask(__name__)
+    @app.route('/')
+    def homepage():
+        img_url = "https://www.placemonkeys.com/1920/1080?random"
+        html = '''
+        <html><head>
+        <style>
+        html {{
+            background: url({}) no-repeat center center fixed;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+        }}
+        h1 {{
+            color: white;
+            top: 30%;
+            position: absolute;
+            width: 100%;
+            font-size: 70px;
+        }}
+        </style>
+        </head><body><center><h1>MONKEY hello from<br/>{}</h1></center></body></html>
+        '''.format(img_url, platform.node())
+        return html
+    if __name__ == "__main__":
+        app.run(host='0.0.0.0', port=8080)
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: demo-flask-monkey
+  namespace: demo-flask
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: demo-flask
+  template:
+    metadata:
+      labels:
+        app: demo-flask
+        version: monkey
+    spec:
+      containers:
+      - name: demo-flask
+        image: arnaudmorin/demo-flask:latest
+        ports:
+        - containerPort: 8080
+        volumeMounts:
+        - name: config-volume
+          mountPath: /app/start.py
+          subPath: start.py
+      volumes:
+      - name: config-volume
+        configMap:
+          name: monkey-config
+          defaultMode: 0755
+---
+apiVersion: v1
 kind: Service
 metadata:
   name: demo-flask-service
@@ -348,6 +417,7 @@ metadata:
   namespace: demo-flask
   annotations:
     cert-manager.io/issuer: letsencrypt-prod
+    kubernetes.io/ingress.class: traefik
 spec:
   rules:
   - host: 135.125.246.84.xip.opensteak.fr
