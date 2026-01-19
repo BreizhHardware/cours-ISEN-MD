@@ -109,17 +109,38 @@ kind: ConfigMap
 metadata:
   name: dog-config
 data:
-  start.py: |
-    import os
+  start.py: |-
+    #!/usr/bin/env python3
+    import platform, json, urllib.request
     from flask import Flask
-    import requests
     app = Flask(__name__)
     @app.route('/')
-    def index():
-        r = requests.get('https://api.thedogapi.com/v1/images/search')
-        data = r.json()[0]
-        return f'<img src="{data["url"]}" width="500">'
-    if __name__ == '__main__':
+    def homepage():
+        with urllib.request.urlopen("https://api.thedogapi.com/v1/images/search?limit=1") as url:
+            data = json.loads(url.read().decode())
+            img_url = data[0]['url']
+        html = '''
+        <html><head>
+        <style>
+        html {{
+            background: url({}) no-repeat center center fixed;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+        }}
+        h1 {{
+            color: white;
+            top: 30%;
+            position: absolute;
+            width: 100%;
+            font-size: 70px;
+        }}
+        </style>
+        </head><body><center><h1>DOG hello from<br/>{}</h1></center></body></html>
+        '''.format(img_url, platform.node())
+        return html
+    if __name__ == "__main__":
         app.run(host='0.0.0.0', port=8080)
 ---
 apiVersion: apps/v1
@@ -171,6 +192,7 @@ spec:
       - name: config-volume
         configMap:
           name: dog-config
+          defaultMode: 0755
 ---
 apiVersion: v1
 kind: Service
@@ -178,9 +200,10 @@ metadata:
   name: demo-flask-service
 spec:
   selector:
-    app: demo-flask  
+    app: demo-flask
   ports:
   - port: 8080
     targetPort: 8080
   type: LoadBalancer
 ```
+
