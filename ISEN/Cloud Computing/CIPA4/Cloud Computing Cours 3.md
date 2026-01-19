@@ -192,7 +192,7 @@ services:
 		image: node:18-alpine 
 		command: sh -c "yarn install && yarn run dev" 
 		ports: 
-			- 3000:3000 
+			- 8080:8080 
 		working_dir: /app 
 		volumes: 
 			- ./:/app 
