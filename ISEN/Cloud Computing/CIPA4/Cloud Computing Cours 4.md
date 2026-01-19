@@ -61,7 +61,7 @@ Hello Kubernetes bootcamp! | Running on: first-dep-588887cc8d-6jpqj | v=2
 ```
 
 ## Demo-flask
-demo-flask.yml
+`demo-flask.yml`
 ```Yaml
 apiVersion: apps/v1
 kind: Deployment
@@ -81,7 +81,7 @@ spec:
       - name: demo-flask
         image: arnaudmorin/demo-flask:latest
         ports:
-        - containerPort: 5000
+        - containerPort: 8080
 ---
 apiVersion: v1
 kind: Service
@@ -91,8 +91,11 @@ spec:
   selector:
     app: demo-flask
   ports:
-  - port: 808
-    targetPort: 5000
+  - port: 8080
+    targetPort: 8080
   type: LoadBalancer 
 ```
 
+```bash
+kubectl apply -f demo-flask.yml
+```
