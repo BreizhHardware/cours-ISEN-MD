@@ -99,3 +99,91 @@ spec:
 ```bash
 kubectl apply -f demo-flask.yml
 ```
+
+
+# TP Kube Partie 2
+`cat-and-dog.yml`
+```yml
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: dog-config
+data:
+  start.py: |
+    # Contenu modifié : remplace "thecatapi.com" par "thedogapi.com"
+    # (copie le start.py original et change l'URL API)
+    # Exemple simplifié - adapte selon le vrai code
+    import os
+    from flask import Flask
+    import requests
+    app = Flask(__name__)
+    @app.route('/')
+    def index():
+        r = requests.get('https://api.thedogapi.com/v1/images/search')
+        data = r.json()[0]
+        return f'<img src="{data["url"]}" width="500">'
+    if __name__ == '__main__':
+        app.run(host='0.0.0.0', port=8080)
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: demo-flask-cat
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: demo-flask
+  template:
+    metadata:
+      labels:
+        app: demo-flask
+        version: cat
+    spec:
+      containers:
+      - name: demo-flask
+        image: arnaudmorin/demo-flask:latest
+        ports:
+        - containerPort: 8080
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: demo-flask-dog
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: demo-flask
+  template:
+    metadata:
+      labels:
+        app: demo-flask
+        version: dog
+    spec:
+      containers:
+      - name: demo-flask
+        image: arnaudmorin/demo-flask:latest
+        ports:
+        - containerPort: 8080
+        volumeMounts:
+        - name: config-volume
+          mountPath: /app/start.py
+          subPath: start.py
+      volumes:
+      - name: config-volume
+        configMap:
+          name: dog-config
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: demo-flask-service
+spec:
+  selector:
+    app: demo-flask  
+  ports:
+  - port: 8080
+    targetPort: 8080
+  type: LoadBalancer
+```
