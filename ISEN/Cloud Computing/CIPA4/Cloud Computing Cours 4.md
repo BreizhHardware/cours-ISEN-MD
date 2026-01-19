@@ -110,9 +110,6 @@ metadata:
   name: dog-config
 data:
   start.py: |
-    # Contenu modifié : remplace "thecatapi.com" par "thedogapi.com"
-    # (copie le start.py original et change l'URL API)
-    # Exemple simplifié - adapte selon le vrai code
     import os
     from flask import Flask
     import requests
