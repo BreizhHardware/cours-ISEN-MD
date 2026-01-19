@@ -207,3 +207,161 @@ spec:
   type: LoadBalancer
 ```
 
+## Bonus HTTPS
+```bash
+kubectl apply -f https://github.com/cert-manager/cert-manager/releases/download/v1.19.2/cert-manager.yaml
+```
+
+`cat-and-dog-https.yml`
+```yaml
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: demo-flask
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: dog-config
+  namespace: demo-flask
+data:
+  start.py: |-
+    #!/usr/bin/env python3
+    import platform, json, urllib.request
+    from flask import Flask
+    app = Flask(__name__)
+    @app.route('/')
+    def homepage():
+        with urllib.request.urlopen("https://api.thedogapi.com/v1/images/search?limit=1") as url:
+            data = json.loads(url.read().decode())
+            img_url = data[0]['url']
+        html = '''
+        <html><head>
+        <style>
+        html {{
+            background: url({}) no-repeat center center fixed;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+        }}
+        h1 {{
+            color: white;
+            top: 30%;
+            position: absolute;
+            width: 100%;
+            font-size: 70px;
+        }}
+        </style>
+        </head><body><center><h1>DOG hello from<br/>{}</h1></center></body></html>
+        '''.format(img_url, platform.node())
+        return html
+    if __name__ == "__main__":
+        app.run(host='0.0.0.0', port=8080)
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: demo-flask-cat
+  namespace: demo-flask
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: demo-flask
+  template:
+    metadata:
+      labels:
+        app: demo-flask
+        version: cat
+    spec:
+      containers:
+      - name: demo-flask
+        image: arnaudmorin/demo-flask:latest
+        ports:
+        - containerPort: 8080
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: demo-flask-dog
+  namespace: demo-flask
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: demo-flask
+  template:
+    metadata:
+      labels:
+        app: demo-flask
+        version: dog
+    spec:
+      containers:
+      - name: demo-flask
+        image: arnaudmorin/demo-flask:latest
+        ports:
+        - containerPort: 8080
+        volumeMounts:
+        - name: config-volume
+          mountPath: /app/start.py
+          subPath: start.py
+      volumes:
+      - name: config-volume
+        configMap:
+          name: dog-config
+          defaultMode: 0755
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: demo-flask-service
+  namespace: demo-flask
+spec:
+  selector:
+    app: demo-flask
+  ports:
+  - port: 8080
+    targetPort: 8080
+  type: ClusterIP
+---
+apiVersion: cert-manager.io/v1
+kind: Issuer
+metadata:
+  name: letsencrypt-prod
+  namespace: demo-flask
+spec:
+  acme:
+    server: https://acme-v02.api.letsencrypt.org/directory
+    email: admin@opensteak.fr
+    privateKeySecretRef:
+      name: letsencrypt-prod
+    solvers:
+    - http01:
+        ingress:
+          class: traefik
+---
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: demo-flask-ingress
+  namespace: demo-flask
+  annotations:
+    cert-manager.io/issuer: letsencrypt-prod
+spec:
+  rules:
+  - host: 135.125.246.84.xip.opensteak.fr
+    http:
+      paths:
+      - path: /
+        pathType: Prefix
+        backend:
+          service:
+            name: demo-flask-service
+            port:
+              number: 8080
+  tls:
+  - hosts:
+    - 135.125.246.84.xip.opensteak.fr
+    secretName: demo-flask-tls
+```
