@@ -12,6 +12,7 @@ resource "openstack_networking_subnet_v2" "private_subnet" {
   network_id = openstack_networking_network_v2.private.id
   cidr       = "192.168.1.0/24"
   ip_version = 4
+  dns_nameservers = ["1.1.1.1", "8.8.8.8"]
 }
 
 resource "openstack_networking_router_v2" "router" {
@@ -37,6 +38,10 @@ resource "openstack_compute_instance_v2" "demo-flask" {
   user_data = file("install-demo-flask.sh")
 }
 
+resource "openstack_networking_floatingip_v2" "frontend_fip" {
+  pool = "public"
+}
+
 resource "openstack_compute_instance_v2" "nginx-frontend" {
   name        = "nginx-frontend"
   image_name  = "Debian 13"
@@ -47,7 +52,7 @@ resource "openstack_compute_instance_v2" "nginx-frontend" {
   }
   security_groups = [openstack_networking_secgroup_v2.allow_web.id]
   user_data = templatefile("${path.module}/install-nginx.sh.tpl", {
-    frontend = "nginx-frontend"
+    frontend = openstack_networking_floatingip_v2.frontend_fip.address
     backend  = openstack_compute_instance_v2.demo-flask.access_ip_v4
   })
   depends_on = [openstack_compute_instance_v2.demo-flask]
@@ -109,10 +114,6 @@ resource "openstack_networking_secgroup_rule_v2" "allow_https" {
   port_range_max    = 443
   remote_ip_prefix  = "0.0.0.0/0"
   security_group_id = openstack_networking_secgroup_v2.allow_web.id
-}
-
-resource "openstack_networking_floatingip_v2" "frontend_fip" {
-  pool = "public"
 }
 
 resource "openstack_compute_floatingip_associate_v2" "frontend_fip_assoc" {
