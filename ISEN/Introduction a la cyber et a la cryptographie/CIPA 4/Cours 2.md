@@ -1,4 +1,1 @@
 #CIPA4 #DP #Cyber
-<script>const sheet = new CSSStyleSheet(); sheet.insertRule(`     body.portal #portalPageBody::before {         background-image: url("https://media1.tenor.com/m/OODI9dWH1LUAAAAd/star-citizen-hornet.gif");     } `); document.adoptedStyleSheets = [...document.adoptedStyleSheets, sheet];</script>
-
-<script>const sheet = new CSSStyleSheet(); sheet.insertRule(`     body.portal #portalPageBody::before {         background-image: url("https://cdn.discordapp.com/attachments/1354478087689207933/1463196905466105898/image.png?ex=6970f3cf&is=696fa24f&hm=1823718500a4429c2a832f97f214b3c3df61a93b5ba8b3108ab79a9790143928&");     } `); document.adoptedStyleSheets = [...document.adoptedStyleSheets, sheet];</script>
