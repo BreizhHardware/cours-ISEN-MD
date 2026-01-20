@@ -11,24 +11,17 @@
             "id": "e11a6a080eb83632",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "ISEN/Introduction a la cyber et a la cryptographie/CIPA 4/Cours 2.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
+                "file": "ISEN/Introduction a la cyber et a la cryptographie/CIPA 4/Tunnel SSH TP.canvas",
+                "viewState": {
+                  "x": 0,
+                  "y": 0,
+                  "zoom": 0
                 }
               },
-              "icon": "lucide-file",
-              "title": "Cours 2"
+              "icon": "lucide-layout-dashboard",
+              "title": "Tunnel SSH TP"
             }
           }
         ]
@@ -207,6 +200,7 @@
   "active": "e11a6a080eb83632",
   "lastOpenFiles": [
     "ISEN/Introduction a la cyber et a la cryptographie/CIPA 4/Cours 2.md",
+    "ISEN/Introduction a la cyber et a la cryptographie/CIPA 4/Tunnel SSH TP.canvas",
     "ISEN/Introduction a la cyber et a la cryptographie/CIPA 4/Cours 1.md",
     "ISEN/Cloud Computing/CIPA4/Cloud Computing Cours 5.md",
     "ISEN/Introduction a la cyber et a la cryptographie/CIPA 4/~$tro2Cyber - Sujet TP 2025-2026.docx",
@@ -246,7 +240,6 @@
     "conflict-files-obsidian-git.md",
     "ISEN/Réunion/CIPA 4/Untitled.md",
     "ISEN/English/CIPA4/24 oct 2025.md",
-    "ISEN/Réseau/CIPA4/TP/TP M02 Conversion.md",
     "src/Pasted image 20240130111505.png",
     "src/Pasted image 20240123120819.png",
     "src/Pasted image 20240123120807.png",
