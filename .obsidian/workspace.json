@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ISEN/Cloud Computing/CIPA4/Cloud Computing Cours 5.md",
+                "file": "ISEN/Introduction a la cyber et a la cryptographie/CIPA 4/Cours 1.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Cloud Computing Cours 5"
+              "title": "Cours 1"
             }
           }
         ]
@@ -204,8 +204,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "cc56184c227b09ca",
+  "active": "e11a6a080eb83632",
   "lastOpenFiles": [
+    "ISEN/Cloud Computing/CIPA4/Cloud Computing Cours 5.md",
     "ISEN/Introduction a la cyber et a la cryptographie/CIPA 4/~$tro2Cyber - Sujet TP 2025-2026.docx",
     "ISEN/Cloud Computing/CIPA4/TP Terraform/105/requirements.txt",
     "ISEN/Cloud Computing/CIPA4/TP Terraform/105/Pulumi.yaml",
@@ -216,8 +217,6 @@
     "ISEN/Cloud Computing/CIPA4/TP Terraform/104/terraform.tfstate.backup",
     "ISEN/Cloud Computing/CIPA4/TP Terraform/104/main.tf",
     "ISEN/Cloud Computing/CIPA4/TP Terraform/104/install-nginx.sh.tpl",
-    "ISEN/Cloud Computing/CIPA4/TP Terraform/104/terraform.tfstate",
-    "ISEN/Cloud Computing/CIPA4/Cloud Computing Cours 5.md",
     "ISEN/Cloud Computing/CIPA4/Cloud Computing Cours 2.md",
     "ISEN/Cloud Computing/CIPA4/Cloud Computing Cours 1.md",
     "ISEN/Cloud Computing/CIPA4/Cloud Computing Cours 4.md",
