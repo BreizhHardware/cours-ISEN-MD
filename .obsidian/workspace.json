@@ -204,8 +204,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "622da1d4e0ba0f73",
+  "active": "cc56184c227b09ca",
   "lastOpenFiles": [
+    "ISEN/Introduction a la cyber et a la cryptographie/CIPA 4/~$tro2Cyber - Sujet TP 2025-2026.docx",
     "ISEN/Cloud Computing/CIPA4/TP Terraform/105/requirements.txt",
     "ISEN/Cloud Computing/CIPA4/TP Terraform/105/Pulumi.yaml",
     "ISEN/Cloud Computing/CIPA4/TP Terraform/105/__main__.py",
@@ -216,7 +217,6 @@
     "ISEN/Cloud Computing/CIPA4/TP Terraform/104/main.tf",
     "ISEN/Cloud Computing/CIPA4/TP Terraform/104/install-nginx.sh.tpl",
     "ISEN/Cloud Computing/CIPA4/TP Terraform/104/terraform.tfstate",
-    "ISEN/Cloud Computing/CIPA4/TP Terraform/104/provider.tf",
     "ISEN/Cloud Computing/CIPA4/Cloud Computing Cours 5.md",
     "ISEN/Cloud Computing/CIPA4/Cloud Computing Cours 2.md",
     "ISEN/Cloud Computing/CIPA4/Cloud Computing Cours 1.md",
