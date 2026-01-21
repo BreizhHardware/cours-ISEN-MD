@@ -10,14 +10,8 @@
   - [Rebase branch](#rebase-branch)
   - [Commit on wrong branch II](#commit-on-wrong-branch-ii)
 - [TP Docker](#tp-docker)
-  - [Our app](#our-app)
-  - [Updating our app](#updating-our-app)
-  - [Sharing our app](#sharing-our-app)
-  - [Persisting our DB](#persisting-our-db)
-  - [Using Bind Mounts](#using-bind-mounts)
-  - [Multi-Container Apps](#multi-container-apps)
-  - [Using docker compose](#using-docker-compose)
-  - [Image Building Best Practices](#image-building-best-practices)
+  - [Docker Compose](#docker-compose)
+  - [Lien vers l'image docker](#lien-vers-l-image-docker)
 
 # TP Git
 ## Basic commits
@@ -205,7 +199,8 @@ nano src/static/index.html
 docker build -t getting-started .
 ```
 
-docker-compose.yml:
+## Docker compose
+`docker-compose.yml:`
 ```YML
 services: 
 	app: 
@@ -232,7 +227,7 @@ volumes:
 	todo-mysql-data:
 ```
 
-Lien vers l'image docker 
+## Lien vers l'image docker 
 
 https://nexus.mrqt.fr/#browse/browse:dockerr:v2%2Fgetting-started%2Ftags%2Flatest
 

@@ -32,17 +32,27 @@
             }
           },
           {
-            "id": "be76ae4eb3f25e5b",
+            "id": "463cbd6321fbc612",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": "ISEN/Cloud Computing/CIPA4/Cloud Computing Cours 3.md",
-                "bFile": "ISEN/Cloud Computing/CIPA4/Cloud Computing Cours 3.md",
-                "aRef": ""
+                "file": "ISEN/Cloud Computing/CIPA4/Cloud Computing Cours 3.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
-              "icon": "diff",
-              "title": "Diff: Cloud Computing Cours 3"
+              "icon": "lucide-file",
+              "title": "Cloud Computing Cours 3"
             }
           }
         ],
@@ -219,13 +229,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "be76ae4eb3f25e5b",
+  "active": "463cbd6321fbc612",
   "lastOpenFiles": [
+    "ISEN/Cloud Computing/CIPA4/Cloud Computing Cours 4.md",
     "ISEN/Cloud Computing/CIPA4/Cloud Computing Cours 3.md",
     "ISEN/Cloud Computing/CIPA4/Cloud Computing Cours 2.md",
-    "ISEN/Cloud Computing/CIPA4/Cloud Computing Cours 1.md",
     "ISEN/Cloud Computing/CIPA4/Cloud Computing Cours 5.md",
-    "ISEN/Cloud Computing/CIPA4/Cloud Computing Cours 4.md",
+    "ISEN/Cloud Computing/CIPA4/Cloud Computing Cours 1.md",
     "ISEN/Cloud Computing/CIPA4/TP 4 Ansible.md",
     "ISEN/Cloud Computing/CIPA4/TP 3 Ansible.md",
     "ISEN/Cloud Computing/CIPA4/TP 2 Ansible.md",

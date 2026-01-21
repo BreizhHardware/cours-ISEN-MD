@@ -7,9 +7,10 @@
   - [105](#105)
 
 
-
 # TP Terraform
 ## 101
+[Dossier 101](TP%20Terraform/101)
+
 ```tf
 terraform {
   required_providers {
@@ -60,6 +61,8 @@ resource "openstack_networking_secgroup_rule_v2" "allow_ping" {
 ```
 
 ## 102
+[Dossier 102](TP%20Terraform/102)
+
 ```tf
 resource "openstack_compute_instance_v2" "demo-flask" {
   name        = "demo-flask"
@@ -114,6 +117,8 @@ output "demo-flask-url" {
 ```
 
 ## 103
+[Dossier 103](TP%20Terraform/103)
+
 ```tf
 data "openstack_networking_network_v2" "public" {
   name = "public"
@@ -248,6 +253,8 @@ output "nginx-url" {
 ```
 
 ## 104
+[Dossier 104](TP%20Terraform/104)
+
 `main.tf`
 ```tf
 resource "kubernetes_config_map" "nginx-config" {
@@ -454,6 +461,8 @@ provider "kubernetes" {
 
 
 ## 105
+[Dossier 105](TP%20Terraform/105)
+
 ```py
 import pulumi
 import pulumi_kubernetes as k8s
