@@ -30,8 +30,23 @@
               "icon": "lucide-file",
               "title": "Cloud Computing Cours 3"
             }
+          },
+          {
+            "id": "be76ae4eb3f25e5b",
+            "type": "leaf",
+            "state": {
+              "type": "split-diff-view",
+              "state": {
+                "aFile": "ISEN/Cloud Computing/CIPA4/Cloud Computing Cours 3.md",
+                "bFile": "ISEN/Cloud Computing/CIPA4/Cloud Computing Cours 3.md",
+                "aRef": ""
+              },
+              "icon": "diff",
+              "title": "Diff: Cloud Computing Cours 3"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -204,17 +219,17 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e11a6a080eb83632",
+  "active": "be76ae4eb3f25e5b",
   "lastOpenFiles": [
-    "ISEN/Cloud Computing/CIPA4/Cloud Computing Cours 1.md",
+    "ISEN/Cloud Computing/CIPA4/Cloud Computing Cours 3.md",
     "ISEN/Cloud Computing/CIPA4/Cloud Computing Cours 2.md",
+    "ISEN/Cloud Computing/CIPA4/Cloud Computing Cours 1.md",
+    "ISEN/Cloud Computing/CIPA4/Cloud Computing Cours 5.md",
+    "ISEN/Cloud Computing/CIPA4/Cloud Computing Cours 4.md",
     "ISEN/Cloud Computing/CIPA4/TP 4 Ansible.md",
     "ISEN/Cloud Computing/CIPA4/TP 3 Ansible.md",
     "ISEN/Cloud Computing/CIPA4/TP 2 Ansible.md",
     "ISEN/Cloud Computing/CIPA4/TP 1 Ansible.md",
-    "ISEN/Cloud Computing/CIPA4/Cloud Computing Cours 5.md",
-    "ISEN/Cloud Computing/CIPA4/Cloud Computing Cours 4.md",
-    "ISEN/Cloud Computing/CIPA4/Cloud Computing Cours 3.md",
     "ISEN/Introduction a la cyber et a la cryptographie/CIPA 4/Cours 2.md",
     "ISEN/Introduction a la cyber et a la cryptographie/CIPA 4/Tunnel SSH TP.canvas",
     "ISEN/Introduction a la cyber et a la cryptographie/CIPA 4/Cours 1.md",

@@ -1,15 +1,19 @@
 #CIPA4 #CloudComputing #DP 
-```table-of-contents
-title: 
-style: nestedList # TOC style (nestedList|nestedOrderedList|inlineFirstLevel)
-minLevel: 0 # Include headings from the specified level
-maxLevel: 0 # Include headings up to the specified level
-include: 
-exclude: 
-includeLinks: true # Make headings clickable
-hideWhenEmpty: false # Hide TOC if no headings are found
-debugInConsole: false # Print debug info in Obsidian console
-```
+- [TP Openstack](#tp-openstack)
+  - [Instance](#instance)
+    - [Boot](#boot)
+    - [Ping](#ping)
+    - [Security rules](#security-rules)
+    - [Connect with ssh](#connect-with-ssh)
+    - [Delete the instance](#delete-the-instance)
+  - [Private networks](#private-networks)
+    - [Create a router](#create-a-router)
+    - [Boot](#boot-1)
+    - [Floating IP](#floating-ip)
+  - [Userdata](#userdata)
+    - [Start an instance](#start-an-instance)
+    - [Check the result](#check-the-result)
+  - [demo-flask](#demo-flask)
 
 # TP Openstack
 ## Instance
@@ -21,10 +25,12 @@ openstack server create --image 'Debian 12' --flavor small --network public --ke
 
 ### Ping
 Q: is it working?
+
 No
 
 ### Security rules
 Q: is ping working now?
+
 Yes
 
 ### Connect with ssh
@@ -41,9 +47,11 @@ openstack server delete myvm01
 ## Private networks
 ### Create a router
 Q: which IP address the router is having in your private network?
+
 192.168.42.1
 
 Q: which IP addres the router is having as external gateway?
+
 51.91.90.70
 
 ### Boot
@@ -51,6 +59,7 @@ Q: which IP addres the router is having as external gateway?
 openstack server create --image 'Debian 12' --flavor small --network private --key-name isen myvm01
 ```
 Q: can you access to your instance in SSH?
+
 No
 
 ### Floating IP
@@ -83,9 +92,11 @@ openstack server create --image 'Debian 12' --flavor small --network private --k
 
 ### Check the result
 Q: what is the name of the service running inside your instance that execute this `user-data` script?
+
 cloud-init
 
 Q: from which url this service retrieve the script?
+
 http://169.254.169.254/openstack/2012-08-10/user_data
 
 ## demo-flask

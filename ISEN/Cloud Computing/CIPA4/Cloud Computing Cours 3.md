@@ -1,15 +1,23 @@
 #CloudComputing #DP #CIPA4 
-```table-of-contents
-title: 
-style: nestedList # TOC style (nestedList|nestedOrderedList|inlineFirstLevel)
-minLevel: 0 # Include headings from the specified level
-maxLevel: 0 # Include headings up to the specified level
-include: 
-exclude: 
-includeLinks: true # Make headings clickable
-hideWhenEmpty: false # Hide TOC if no headings are found
-debugInConsole: false # Print debug info in Obsidian console
-```
+- [TP Git](#tp-git)
+  - [Basic commits](#basic-commits)
+  - [Basic staging](#basic-staging)
+  - [Basic branching](#basic-branching)
+  - [ff-merge](#ff-merge)
+  - [3-way-merge](#3-way-merge)
+  - [Merge conflict](#merge-conflict)
+  - [Merge mergesort](#merge-mergesort)
+  - [Rebase branch](#rebase-branch)
+  - [Commit on wrong branch II](#commit-on-wrong-branch-ii)
+- [TP Docker](#tp-docker)
+  - [Our app](#our-app)
+  - [Updating our app](#updating-our-app)
+  - [Sharing our app](#sharing-our-app)
+  - [Persisting our DB](#persisting-our-db)
+  - [Using Bind Mounts](#using-bind-mounts)
+  - [Multi-Container Apps](#multi-container-apps)
+  - [Using docker compose](#using-docker-compose)
+  - [Image Building Best Practices](#image-building-best-practices)
 
 # TP Git
 ## Basic commits
@@ -223,3 +231,8 @@ services:
 volumes: 
 	todo-mysql-data:
 ```
+
+Lien vers l'image docker 
+
+https://nexus.mrqt.fr/#browse/browse:dockerr:v2%2Fgetting-started%2Ftags%2Flatest
+

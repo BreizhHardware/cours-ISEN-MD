@@ -1,15 +1,11 @@
 #DP #CIPA4 #CloudComputing 
-```table-of-contents
-title: 
-style: nestedList # TOC style (nestedList|nestedOrderedList|inlineFirstLevel)
-minLevel: 0 # Include headings from the specified level
-maxLevel: 0 # Include headings up to the specified level
-include: 
-exclude: 
-includeLinks: true # Make headings clickable
-hideWhenEmpty: false # Hide TOC if no headings are found
-debugInConsole: false # Print debug info in Obsidian console
-```
+- [TP Kube](#tp-kube)
+  - [Creating a service](#creating-a-service)
+  - [Edit your deployment](#edit-your-deployment)
+  - [Updating the app](#updating-the-app)
+  - [Demo-flask](#demo-flask)
+- [TP Kube Partie 2](#tp-kube-partie-2)
+  - [Bonus HTTPS](#bonus-https)
 
 # TP Kube
 ## Creating a service
@@ -19,6 +15,7 @@ curl http://135.125.246.84:8080
 ```
 
 Q: how many pods do you have? Why?
+
 1 pods, it use 1 by default
 
 ## Edit your deployment
@@ -41,6 +38,7 @@ Hello Kubernetes bootcamp! | Running on: first-dep-6d75bd9fc8-zngh4 | v=1
 ```
 
 Q: how many pods do you have?
+
 2
 
 Q: is the output always the same? Explain why.
@@ -56,6 +54,7 @@ No it balance between all pods to balance the load.
 
 ## Updating the app
 Q: do you see the `v=2`?
+
 Yes
 ```bash
 ╭─ 💁 root at 💻 isen-41 in 📁 ~
