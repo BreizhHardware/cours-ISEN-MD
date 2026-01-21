@@ -11,7 +11,8 @@
   - [Commit on wrong branch II](#commit-on-wrong-branch-ii)
 - [TP Docker](#tp-docker)
   - [Docker Compose](#docker-compose)
-  - [Lien vers l'image docker](#lien-vers-l-image-docker)
+  - [Lien vers l'image docker](#lien-vers-limage-docker)
+
 
 # TP Git
 ## Basic commits
