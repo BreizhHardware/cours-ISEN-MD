@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ISEN/Réunion/CIPA 4/Réunion international.md",
+                "file": "ISEN/Introduction a la cyber et a la cryptographie/CIPA 4/Crypto Cours 1.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Réunion international"
+              "title": "Crypto Cours 1"
             }
           }
         ]
@@ -206,6 +206,10 @@
   },
   "active": "e11a6a080eb83632",
   "lastOpenFiles": [
+    "ISEN/Introduction a la cyber et a la cryptographie/CIPA 4/Cyber Cours 2.md",
+    "ISEN/Introduction a la cyber et a la cryptographie/CIPA 4/Crypto Cours 1.md",
+    "ISEN/Introduction a la cyber et a la cryptographie/CIPA 4/Cyber Cours 1.md",
+    "ISEN/Réunion/CIPA 4/Réunion international.md",
     "ISEN/Cloud Computing/CIPA4/Cloud Computing Cours 3.md",
     "ISEN/Cloud Computing/CIPA4/Cloud Computing Cours 4.md",
     "ISEN/Cloud Computing/CIPA4/Cloud Computing Cours 2.md",
@@ -215,9 +219,7 @@
     "ISEN/Cloud Computing/CIPA4/TP 3 Ansible.md",
     "ISEN/Cloud Computing/CIPA4/TP 2 Ansible.md",
     "ISEN/Cloud Computing/CIPA4/TP 1 Ansible.md",
-    "ISEN/Introduction a la cyber et a la cryptographie/CIPA 4/Cours 2.md",
     "ISEN/Introduction a la cyber et a la cryptographie/CIPA 4/Tunnel SSH TP.canvas",
-    "ISEN/Introduction a la cyber et a la cryptographie/CIPA 4/Cours 1.md",
     "ISEN/Introduction a la cyber et a la cryptographie/CIPA 4/~$tro2Cyber - Sujet TP 2025-2026.docx",
     "ISEN/Cloud Computing/CIPA4/TP Terraform/105/requirements.txt",
     "ISEN/Cloud Computing/CIPA4/TP Terraform/105/Pulumi.yaml",
@@ -233,14 +235,12 @@
     "ISEN/English/A2/23 févr 2024.md",
     "ISEN/English/A2/20 oct 2023.md",
     "ISEN/English/A2/2 févr 2024.md",
-    "ISEN/Réunion/CIPA 4/Réunion international.md",
     "README.md",
     "Protocol Data Units (PDU).md",
     "Pasted image 20251009192656.png",
     "Pasted image 20250610091125.png",
     "Pasted image 20240505210657.png",
     "Pasted image 20240505210642.png",
-    "ISEN/Introduction a la cyber et a la cryptographie/CIPA 4/Untitled.md",
     "ISEN/Web/CIPA 4/Idée projet.md",
     "ISEN/Réunion/CIPA 4/Réunion 8 janv 2026.md",
     "ISEN/Web/CIPA 4/TP/TP1/images/ISEN_Logo.png",
