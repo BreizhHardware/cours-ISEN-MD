@@ -63,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#Daily",
+                "query": "tag:#CIPA4",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -204,7 +204,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e11a6a080eb83632",
+  "active": "622da1d4e0ba0f73",
   "lastOpenFiles": [
     "ISEN/Introduction a la cyber et a la cryptographie/CIPA 4/Cyber Cours 2.md",
     "ISEN/Introduction a la cyber et a la cryptographie/CIPA 4/Crypto Cours 1.md",
