@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ISEN/Introduction a la cyber et a la cryptographie/CIPA 4/Crypto Cours 1.md",
+                "file": "ISEN/Sécurité IOT/CIPA4/Sécurité IOT Cours 1.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Crypto Cours 1"
+              "title": "Sécurité IOT Cours 1"
             }
           }
         ]
@@ -204,10 +204,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "622da1d4e0ba0f73",
+  "active": "e11a6a080eb83632",
   "lastOpenFiles": [
-    "ISEN/Introduction a la cyber et a la cryptographie/CIPA 4/Cyber Cours 2.md",
     "ISEN/Introduction a la cyber et a la cryptographie/CIPA 4/Crypto Cours 1.md",
+    "ISEN/Sécurité IOT/CIPA4/Sécurité IOT Cours 1.md",
+    "ISEN/Sécurité IOT/CIPA4",
+    "ISEN/Sécurité IOT",
+    "ISEN/Introduction a la cyber et a la cryptographie/CIPA 4/Cyber Cours 2.md",
     "ISEN/Introduction a la cyber et a la cryptographie/CIPA 4/Cyber Cours 1.md",
     "ISEN/Réunion/CIPA 4/Réunion international.md",
     "ISEN/Cloud Computing/CIPA4/Cloud Computing Cours 3.md",
@@ -228,8 +231,6 @@
     "ISEN/Cloud Computing/CIPA4/TP Terraform/103/main.tf",
     "ISEN/Cloud Computing/CIPA4/TP Terraform/104/install-demo-flask.sh",
     "ISEN/Cloud Computing/CIPA4/TP Terraform/104/terraform.tfstate.backup",
-    "ISEN/Cloud Computing/CIPA4/TP Terraform/104/main.tf",
-    "ISEN/Cloud Computing/CIPA4/TP Terraform/104/install-nginx.sh.tpl",
     "ISEN/English/CIPA4/16 janv 2026.md",
     "ISEN/English/CIPA4/29 sept 2025.md",
     "ISEN/English/A2/23 févr 2024.md",
