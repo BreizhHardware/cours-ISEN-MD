@@ -45,8 +45,7 @@
               "title": "Diff: workspace.json"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -219,10 +218,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "08f51c7995720182",
+  "active": "e11a6a080eb83632",
   "lastOpenFiles": [
-    "ISEN/Introduction a la cyber et a la cryptographie/CIPA 4/20250708_CRYPTO_exos_avec_corriges.pdf",
     "ISEN/Introduction a la cyber et a la cryptographie/CIPA 4/20011126_fips-197.pdf",
+    "ISEN/Introduction a la cyber et a la cryptographie/CIPA 4/20250708_CRYPTO_exos_avec_corriges.pdf",
     "ISEN/Introduction a la cyber et a la cryptographie/CIPA 4/20250708_CRYPTO_slides.pdf",
     "ISEN/Introduction a la cyber et a la cryptographie/CIPA 4/Crypto Cours 2.md",
     "ISEN/Introduction a la cyber et a la cryptographie/CIPA 4/tables_gf256.res",
