@@ -11,24 +11,12 @@
             "id": "e11a6a080eb83632",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "ISEN/Introduction a la cyber et a la cryptographie/CIPA 4/Crypto Cours 2.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
+                "file": "ISEN/Introduction a la cyber et a la cryptographie/CIPA 4/20250708_CRYPTO_slides.pdf"
               },
-              "icon": "lucide-file",
-              "title": "Crypto Cours 2"
+              "icon": "lucide-file-text",
+              "title": "20250708_CRYPTO_slides"
             }
           }
         ]
@@ -206,8 +194,12 @@
   },
   "active": "e11a6a080eb83632",
   "lastOpenFiles": [
-    "ISEN/Introduction a la cyber et a la cryptographie/CIPA 4/Crypto Cours 1.md",
+    "ISEN/Introduction a la cyber et a la cryptographie/CIPA 4/20011126_fips-197.pdf",
     "ISEN/Introduction a la cyber et a la cryptographie/CIPA 4/Crypto Cours 2.md",
+    "ISEN/Introduction a la cyber et a la cryptographie/CIPA 4/tables_gf256.res",
+    "ISEN/Introduction a la cyber et a la cryptographie/CIPA 4/20250708_CRYPTO_slides.pdf",
+    "ISEN/Introduction a la cyber et a la cryptographie/CIPA 4/20250708_CRYPTO_exos_avec_corriges.pdf",
+    "ISEN/Introduction a la cyber et a la cryptographie/CIPA 4/Crypto Cours 1.md",
     "ISEN/Réunion/CIPA 3/Rentrée 2024-25.md",
     "ISEN/Réunion/CIPA 3/Départ en entreprise 1 20-09-2024.md",
     "ISEN/Réunion/CIPA 3/CR Conseil de scolarité S6.pdf",
@@ -231,10 +223,6 @@
     "ISEN/Cloud Computing/CIPA4/TP 1 Ansible.md",
     "ISEN/Introduction a la cyber et a la cryptographie/CIPA 4/Tunnel SSH TP.canvas",
     "ISEN/Introduction a la cyber et a la cryptographie/CIPA 4/~$tro2Cyber - Sujet TP 2025-2026.docx",
-    "ISEN/Cloud Computing/CIPA4/TP Terraform/105/requirements.txt",
-    "ISEN/Cloud Computing/CIPA4/TP Terraform/105/Pulumi.yaml",
-    "ISEN/Cloud Computing/CIPA4/TP Terraform/105/__main__.py",
-    "ISEN/Cloud Computing/CIPA4/TP Terraform/105",
     "ISEN/English/CIPA4/16 janv 2026.md",
     "ISEN/English/CIPA4/29 sept 2025.md",
     "ISEN/English/A2/23 févr 2024.md",
@@ -246,7 +234,6 @@
     "Pasted image 20250610091125.png",
     "Pasted image 20240505210657.png",
     "Pasted image 20240505210642.png",
-    "ISEN/Web/CIPA 4/Idée projet.md",
     "ISEN/Web/CIPA 4/TP/TP1/images/ISEN_Logo.png",
     "src/Pasted image 20240130111505.png",
     "src/Pasted image 20240123120819.png",
