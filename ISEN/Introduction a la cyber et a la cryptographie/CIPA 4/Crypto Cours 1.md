@@ -24,3 +24,7 @@ Le chiffrement de César est un décalage fixe.
 ### 2. Vigenère 
 * ***Note :** La table de Vigenère équivaut ($\leftrightarrow$) à une table d'addition modulo 26. 
 * **Formule :** $$\text{chiffré} = \text{clair} + \text{séq chif} \pmod{26}$$ *(Note : "séq chif" correspond à la **séquence chiffrante**)*
+
+---
+
+&copy Félix MARQUET

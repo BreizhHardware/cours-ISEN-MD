@@ -4,14 +4,25 @@ Vidéo AES: https://youtube.com/watch?v=evjFwDRTmV0
 
 # Exercice 7 (LFSR)
 ## 1. Initialisation On considère un registre à 4 cellules ($0, 1, 2, 3$). 
-Les coefficients de rétroaction sont donnés par le vecteur : $$(z_0, z_1, z_2, z_3) = (1, 1, 0, 0)$$
+Les coefficients de rétroaction sont donnés par le vecteur : 
+
+$$
+(z_0, z_1, z_2, z_3) = (1, 1, 0, 0)
+$$
 
 ## Système d'équations
 La mise à jour de l'état se fait selon le système suivant :
-$$ \begin{cases} x_{0, t+1} &= x_{1, t} \\ x_{1, t+1} &= x_{2, t} \\ x_{2, t+1} &= x_{3, t} \\ x_{3, t+1} &= x_{0, t} \oplus x_{1, t} \oplus 0 \cdot x_{2, t} \oplus 0 \cdot x_{3, t} \end{cases} $$
+
+$$
+\begin{cases} x_{0, t+1} &= x_{1, t} \\ x_{1, t+1} &= x_{2, t} \\ x_{2, t+1} &= x_{3, t} \\ x_{3, t+1} &= x_{0, t} \oplus x_{1, t} \oplus 0 \cdot x_{2, t} \oplus 0 \cdot x_{3, t} \end{cases} 
+$$
 
 ## Représentation Matricielle
-$$ \begin{bmatrix} x_{0, t+1} \\ \vdots \\ \vdots \\ x_{3, t+1} \end{bmatrix} = \begin{bmatrix} 0 & 1 & 0 & 0 \\ 0 & 0 & 1 & 0 \\ 0 & 0 & 0 & 1 \\ 1 & 1 & 0 & 0 \end{bmatrix} \cdot \begin{bmatrix} x_{0, t} \\ \vdots \\ \vdots \\ x_{3, t} \end{bmatrix} $$
+
+$$
+\begin{bmatrix} x_{0, t+1} \\ \vdots \\ \vdots \\ x_{3, t+1} \end{bmatrix} = \begin{bmatrix} 0 & 1 & 0 & 0 \\ 0 & 0 & 1 & 0 \\ 0 & 0 & 0 & 1 \\ 1 & 1 & 0 & 0 \end{bmatrix} \cdot \begin{bmatrix} x_{0, t} \\ \vdots \\ \vdots \\ x_{3, t} \end{bmatrix} 
+$$
+
 *(La dernière ligne de la matrice correspond aux coef. de rétroaction)*
 
 ## Exécution (Trace)
@@ -42,10 +53,15 @@ Combinaison non linéaire des $k_0 \dots k_{127}$ et $v_0 \dots v_{63}$ de degr�
 ## 3. MixColumns
 L'opération est une multiplication matricielle dans le corps de Galois :
 
-$$ \begin{bmatrix} 02 & 03 & 01 & 01 \\ 01 & 02 & 03 & 01 \\ 01 & 01 & 02 & 03 \\ 03 & 01 & 01 & 02 \end{bmatrix} \times \begin{bmatrix} d4 \\ bf \\ 5d \\ 30 \end{bmatrix} $$
+$$ 
+\begin{bmatrix} 02 & 03 & 01 & 01 \\ 01 & 02 & 03 & 01 \\ 01 & 01 & 02 & 03 \\ 03 & 01 & 01 & 02 \end{bmatrix} \times \begin{bmatrix} d4 \\ bf \\ 5d \\ 30 \end{bmatrix} 
+$$
 
 **Calcul pour la première ligne :**
-$$02 \cdot d4 \oplus 03 \cdot bf \oplus 01 \cdot 5d \oplus 01 \cdot 30$$
+
+$$
+02 \cdot d4 \oplus 03 \cdot bf \oplus 01 \cdot 5d \oplus 01 \cdot 30
+$$
 
 ### Arithmétique Polynomiale
 Exemple de conversion Hexadécimal $\leftrightarrow$ Binaire $\leftrightarrow$ Polynôme.
@@ -59,11 +75,17 @@ Exemple de conversion Hexadécimal $\leftrightarrow$ Binaire $\leftrightarrow$ P
 * Polynôme : $x^7 \oplus x^6 \oplus x^4 \oplus x^2$
 
 **Addition (XOR) :**
-$$57 \oplus d4 = 1000\ 0011 = 83_{hex}$$
+
+$$
+57 \oplus d4 = 1000\ 0011 = 83_{hex}
+$$
 *(Correspond à $x^7 \oplus x \oplus 1$)*
 
 **Multiplication :**
-$$(x^6 \oplus x^4 \oplus x^2 \oplus x \oplus 1)(x^7 \oplus x^6 \oplus x^4 \oplus x^2)$$
+
+$$
+(x^6 \oplus x^4 \oplus x^2 \oplus x \oplus 1)(x^7 \oplus x^6 \oplus x^4 \oplus x^2)
+$$
 Le résultat est un polynôme de degré $\le 14$. On effectue ensuite une réduction modulaire (division euclidienne) par le polynôme irréductible de l'AES ($x^8 + x^4 + x^3 + x + 1$).
 
 ---
@@ -72,8 +94,60 @@ Le résultat est un polynôme de degré $\le 14$. On effectue ensuite une réduc
 
 ## Données initiales
 **State :**
-$$ \begin{pmatrix} 42 & 09 & 3a & 8e \\ 28 & 6b & 0a & 6c \\ 03 & aa & 88 & bc \\ 4b & 27 & 11 & 60 \end{pmatrix} $$
+
+$$ 
+\begin{pmatrix} 42 & 09 & 3a & 8e \\ 28 & 6b & 0a & 6c \\ 03 & aa & 88 & bc \\ 4b & 27 & 11 & 60 \end{pmatrix} 
+$$
 
 **Round Key :**
-$$ \begin{pmatrix} ac & 19 & 28 & 57 \\ 77 & fa & d1 & 5c \\ 66 & dc & 29 & 00 \\ f3 & 21 & 41 & 6e \end{pmatrix} $$
 
+$$ 
+\begin{pmatrix} ac & 19 & 28 & 57 \\ 77 & fa & d1 & 5c \\ 66 & dc & 29 & 00 \\ f3 & 21 & 41 & 6e \end{pmatrix} 
+$$
+
+## Étapes de la ronde
+### 1. SubBytes ($\downarrow$)
+Application de la S-Box à chaque octet :
+
+$$ 
+\begin{pmatrix} 2c & 63 & 80 & 19 \\ 34 & 7f & 67 & 50 \\ 7b & ac & c4 & 65 \\ b3 & cc & 82 & d0 \end{pmatrix} 
+$$
+
+### 2. ShiftRows ($\rightarrow$)
+Décalage cyclique des lignes (0 pour la ligne 0, 1 pour la ligne 1, etc.) :
+
+$$ 
+\begin{pmatrix} 2c & 63 & 80 & 19 \\ 7f & 67 & 50 & 34 \\ c4 & 65 & 7b & ac \\ d0 & b3 & cc & 82 \end{pmatrix} 
+$$
+
+### 3. MixColumns ($\downarrow$)
+Transformation des colonnes.
+Exemple de calcul pour un élément :
+
+$$
+02 \cdot 2c \oplus 03 \cdot 7f \oplus 01 \cdot c4 \oplus 01 \cdot d0
+$$
+Cela donne une matrice intermédiaire (notée ici avec $cd$ en haut à gauche).
+
+$$ 
+\begin{pmatrix} cd & \cdot & \cdot & \cdot \\ \cdot & \cdot & \cdot & \cdot \\ \cdot & \cdot & \cdot & \cdot \\ \cdot & \cdot & \cdot & \cdot \end{pmatrix} 
+$$
+
+### 4. Add Round Key (ARK) ($\leftarrow$)
+XOR final entre la matrice issue de MixColumns et la Round Key.
+
+**Calcul détaillé pour le premier octet :**
+
+$$
+cd \oplus ac = 61
+$$
+
+**Résultat partiel :**
+
+$$ 
+\begin{pmatrix} 61 & \cdot & \cdot & \cdot \\ \cdot & \cdot & \cdot & \cdot \\ \cdot & \cdot & \cdot & \cdot \\ \cdot & \cdot & \cdot & \cdot \end{pmatrix} 
+$$
+
+---
+
+&copy Félix MARQUET
