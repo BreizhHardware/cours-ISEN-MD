@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ISEN/Sécurité IOT/CIPA4/Sécurité IOT Cours 1.md",
+                "file": "ISEN/Introduction a la cyber et a la cryptographie/CIPA 4/Crypto Cours 2.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Sécurité IOT Cours 1"
+              "title": "Crypto Cours 2"
             }
           }
         ]
@@ -207,7 +207,14 @@
   "active": "e11a6a080eb83632",
   "lastOpenFiles": [
     "ISEN/Introduction a la cyber et a la cryptographie/CIPA 4/Crypto Cours 1.md",
+    "ISEN/Introduction a la cyber et a la cryptographie/CIPA 4/Crypto Cours 2.md",
+    "ISEN/Réunion/CIPA 3/Rentrée 2024-25.md",
+    "ISEN/Réunion/CIPA 3/Départ en entreprise 1 20-09-2024.md",
+    "ISEN/Réunion/CIPA 3/CR Conseil de scolarité S6.pdf",
+    "ISEN/Réunion/CIPA 3/CR Conseil de scolarité S6.md",
     "ISEN/Sécurité IOT/CIPA4/Sécurité IOT Cours 1.md",
+    "ISEN/Traitement du signal/CIPA4/TP/TP4/~WRL0001.tmp",
+    "ISEN/Traitement du signal/CIPA4/TP/TP4/~$P4cipa.doc",
     "ISEN/Sécurité IOT/CIPA4",
     "ISEN/Sécurité IOT",
     "ISEN/Introduction a la cyber et a la cryptographie/CIPA 4/Cyber Cours 2.md",
@@ -228,9 +235,6 @@
     "ISEN/Cloud Computing/CIPA4/TP Terraform/105/Pulumi.yaml",
     "ISEN/Cloud Computing/CIPA4/TP Terraform/105/__main__.py",
     "ISEN/Cloud Computing/CIPA4/TP Terraform/105",
-    "ISEN/Cloud Computing/CIPA4/TP Terraform/103/main.tf",
-    "ISEN/Cloud Computing/CIPA4/TP Terraform/104/install-demo-flask.sh",
-    "ISEN/Cloud Computing/CIPA4/TP Terraform/104/terraform.tfstate.backup",
     "ISEN/English/CIPA4/16 janv 2026.md",
     "ISEN/English/CIPA4/29 sept 2025.md",
     "ISEN/English/A2/23 févr 2024.md",
@@ -243,11 +247,7 @@
     "Pasted image 20240505210657.png",
     "Pasted image 20240505210642.png",
     "ISEN/Web/CIPA 4/Idée projet.md",
-    "ISEN/Réunion/CIPA 4/Réunion 8 janv 2026.md",
     "ISEN/Web/CIPA 4/TP/TP1/images/ISEN_Logo.png",
-    "conflict-files-obsidian-git.md",
-    "ISEN/Réunion/CIPA 4/Untitled.md",
-    "ISEN/English/CIPA4/24 oct 2025.md",
     "src/Pasted image 20240130111505.png",
     "src/Pasted image 20240123120819.png",
     "src/Pasted image 20240123120807.png",
