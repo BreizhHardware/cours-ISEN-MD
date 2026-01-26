@@ -13,10 +13,10 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "ISEN/Introduction a la cyber et a la cryptographie/CIPA 4/20250708_CRYPTO_exos_avec_corriges.pdf"
+                "file": "ISEN/Introduction a la cyber et a la cryptographie/CIPA 4/20250708_CRYPTO_slides.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "20250708_CRYPTO_exos_avec_corriges"
+              "title": "20250708_CRYPTO_slides"
             }
           }
         ]
@@ -194,11 +194,11 @@
   },
   "active": "e11a6a080eb83632",
   "lastOpenFiles": [
+    "ISEN/Introduction a la cyber et a la cryptographie/CIPA 4/20250708_CRYPTO_exos_avec_corriges.pdf",
     "ISEN/Introduction a la cyber et a la cryptographie/CIPA 4/20250708_CRYPTO_slides.pdf",
     "ISEN/Introduction a la cyber et a la cryptographie/CIPA 4/20011126_fips-197.pdf",
     "ISEN/Introduction a la cyber et a la cryptographie/CIPA 4/Crypto Cours 2.md",
     "ISEN/Introduction a la cyber et a la cryptographie/CIPA 4/tables_gf256.res",
-    "ISEN/Introduction a la cyber et a la cryptographie/CIPA 4/20250708_CRYPTO_exos_avec_corriges.pdf",
     "ISEN/Introduction a la cyber et a la cryptographie/CIPA 4/Crypto Cours 1.md",
     "ISEN/Réunion/CIPA 3/Rentrée 2024-25.md",
     "ISEN/Réunion/CIPA 3/Départ en entreprise 1 20-09-2024.md",
