@@ -11,38 +11,24 @@
             "id": "e11a6a080eb83632",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "ISEN/Introduction a la cyber et a la cryptographie/CIPA 4/20250708_CRYPTO_exos_avec_corriges.pdf"
+                "file": "ISEN/Introduction a la cyber et a la cryptographie/CIPA 4/Crypto Cours 2.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
-              "icon": "lucide-file-text",
-              "title": "20250708_CRYPTO_exos_avec_corriges"
-            }
-          },
-          {
-            "id": "08f51c7995720182",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "ISEN/Introduction a la cyber et a la cryptographie/CIPA 4/20011126_fips-197.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "20011126_fips-197"
-            }
-          },
-          {
-            "id": "29499891d2cf84e7",
-            "type": "leaf",
-            "state": {
-              "type": "split-diff-view",
-              "state": {
-                "aFile": ".obsidian/workspace.json",
-                "bFile": ".obsidian/workspace.json",
-                "aRef": ""
-              },
-              "icon": "diff",
-              "title": "Diff: workspace.json"
+              "icon": "lucide-file",
+              "title": "Crypto Cours 2"
             }
           }
         ]
@@ -220,13 +206,13 @@
   },
   "active": "e11a6a080eb83632",
   "lastOpenFiles": [
-    "ISEN/Introduction a la cyber et a la cryptographie/CIPA 4/20011126_fips-197.pdf",
-    "ISEN/Introduction a la cyber et a la cryptographie/CIPA 4/20250708_CRYPTO_exos_avec_corriges.pdf",
-    "ISEN/Introduction a la cyber et a la cryptographie/CIPA 4/20250708_CRYPTO_slides.pdf",
-    "ISEN/Introduction a la cyber et a la cryptographie/CIPA 4/Crypto Cours 2.md",
-    "ISEN/Introduction a la cyber et a la cryptographie/CIPA 4/tables_gf256.res",
     "ISEN/Introduction a la cyber et a la cryptographie/CIPA 4/Crypto Cours 1.md",
+    "ISEN/Introduction a la cyber et a la cryptographie/CIPA 4/Crypto Cours 2.md",
     "ISEN/Réunion/CIPA 3/Rentrée 2024-25.md",
+    "ISEN/Introduction a la cyber et a la cryptographie/CIPA 4/tables_gf256.res",
+    "ISEN/Introduction a la cyber et a la cryptographie/CIPA 4/20250708_CRYPTO_slides.pdf",
+    "ISEN/Introduction a la cyber et a la cryptographie/CIPA 4/20250708_CRYPTO_exos_avec_corriges.pdf",
+    "ISEN/Introduction a la cyber et a la cryptographie/CIPA 4/20011126_fips-197.pdf",
     "ISEN/Réunion/CIPA 3/Départ en entreprise 1 20-09-2024.md",
     "ISEN/Réunion/CIPA 3/CR Conseil de scolarité S6.pdf",
     "ISEN/Réunion/CIPA 3/CR Conseil de scolarité S6.md",
@@ -260,6 +246,7 @@
     "Pasted image 20250610091125.png",
     "Pasted image 20240505210657.png",
     "Pasted image 20240505210642.png",
+    "ISEN/Web/CIPA 4/Idée projet.md",
     "ISEN/Web/CIPA 4/TP/TP1/images/ISEN_Logo.png",
     "src/Pasted image 20240130111505.png",
     "src/Pasted image 20240123120819.png",
