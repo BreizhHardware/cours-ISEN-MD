@@ -1,0 +1,37 @@
+
+-- USE devweb_m1;
+
+DROP TABLE IF EXISTS messages;
+DROP TABLE IF EXISTS channels;
+DROP TABLE IF EXISTS users;
+
+CREATE TABLE users
+(
+  login VARCHAR(20) PRIMARY KEY,
+  nickname VARCHAR(20) NOT NULL,
+  password VARCHAR(40) NOT NULL
+);
+
+
+CREATE TABLE channels
+(
+  id SERIAL PRIMARY KEY,
+  name VARCHAR(20) NOT NULL
+);
+
+
+CREATE TABLE messages
+(
+  id SERIAL PRIMARY KEY,
+  userLogin VARCHAR(20) NOT NULL,
+  channelId INT NOT NULL,
+  message VARCHAR(256) NOT NULL,
+  timestamp TIMESTAMP NOT NULL default CURRENT_TIMESTAMP,
+  FOREIGN KEY(userLogin) REFERENCES users(login)
+    ON UPDATE CASCADE ON DELETE CASCADE,
+  FOREIGN KEY(channelId) REFERENCES channels(id)
+    ON UPDATE CASCADE ON DELETE CASCADE
+);
+
+
+

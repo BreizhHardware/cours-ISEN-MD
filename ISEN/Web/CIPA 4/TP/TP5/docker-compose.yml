@@ -1,0 +1,12 @@
+version: '3.8'
+services:
+  db:
+    image: postgres:17
+    environment:
+      POSTGRES_DB: devweb
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: a
+    ports:
+      - "5432:5432"
+    volumes:
+      - ./sql:/docker-entrypoint-initdb.d
