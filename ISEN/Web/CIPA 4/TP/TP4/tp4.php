@@ -21,7 +21,7 @@
 
     <!-- Premier formulaire -->
     <h2>Premier formulaire</h2>
-    <form action="" method="POST">
+    <form action="process_f1.php" method="POST">
       <h3>Nous aimerions mieux vous connaître :</h3>
       <label for="languages">Quelles langues parlez-vous (utilisez la touche <i>CTRL</i> pour en choisir plusieurs) :</label>
       <br><br>
@@ -58,7 +58,7 @@
 
     <!-- Second formulaire -->
     <h2>Second formulaire</h2>
-    <form action="" method="GET">
+    <form action="process_f2.php" method="GET">
       <h3>Dessin d'un triangle :</h3>
       <label for="size">Longueur du coté :</label>
       <input type="number" min="0" name="size" id="size">
@@ -79,6 +79,6 @@
       <br><br>
       <input type="reset" value="Effacer">
       <input type="submit" value="Envoyer">
-    <form>
+    </form>
   </body>
 </html>
