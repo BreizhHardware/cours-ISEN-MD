@@ -38,7 +38,7 @@
                     echo " ";
                 }
             }
-            echo "\n"; 
+            echo "\n";
         }
     } elseif ($size == 0) {
         echo "Taille nulle.";
