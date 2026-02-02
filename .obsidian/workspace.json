@@ -18,6 +18,30 @@
               "icon": "lucide-file-text",
               "title": "20250708_CRYPTO_slides"
             }
+          },
+          {
+            "id": "37a6109c5cf4f8fa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ISEN/Introduction a la cyber et a la cryptographie/CIPA 4/Crypto Cours 2.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Crypto Cours 2"
+            }
           }
         ]
       }
