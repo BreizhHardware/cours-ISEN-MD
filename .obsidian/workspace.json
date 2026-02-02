@@ -67,8 +67,7 @@
               "title": "20011126_fips-197"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -241,7 +240,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "8d52247f0504a39c",
+  "active": "e11a6a080eb83632",
   "lastOpenFiles": [
     "ISEN/Introduction a la cyber et a la cryptographie/CIPA 4/20250708_CRYPTO_exos_avec_corriges.pdf",
     "ISEN/Introduction a la cyber et a la cryptographie/CIPA 4/20011126_fips-197.pdf",
