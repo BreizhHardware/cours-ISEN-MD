@@ -42,8 +42,33 @@
               "icon": "lucide-file",
               "title": "Crypto Cours 2"
             }
+          },
+          {
+            "id": "ae4f57562b1235e7",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "ISEN/Introduction a la cyber et a la cryptographie/CIPA 4/20250708_CRYPTO_exos_avec_corriges.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "20250708_CRYPTO_exos_avec_corriges"
+            }
+          },
+          {
+            "id": "8d52247f0504a39c",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "ISEN/Introduction a la cyber et a la cryptographie/CIPA 4/20011126_fips-197.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "20011126_fips-197"
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -216,10 +241,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e11a6a080eb83632",
+  "active": "8d52247f0504a39c",
   "lastOpenFiles": [
-    "ISEN/Introduction a la cyber et a la cryptographie/CIPA 4/Crypto Cours 2.md",
+    "ISEN/Introduction a la cyber et a la cryptographie/CIPA 4/20250708_CRYPTO_exos_avec_corriges.pdf",
     "ISEN/Introduction a la cyber et a la cryptographie/CIPA 4/20250708_CRYPTO_slides.pdf",
+    "ISEN/Introduction a la cyber et a la cryptographie/CIPA 4/20011126_fips-197.pdf",
+    "ISEN/Introduction a la cyber et a la cryptographie/CIPA 4/Crypto Cours 2.md",
     "ISEN/Automatique Analogique/CIPA4/Note de cours TD.pdf",
     "ISEN/Web/CIPA 4/TP/TP5/tp5.pdf",
     "ISEN/Automatique Analogique/CIPA4/TD/TD2-SystemResponse.pdf",
@@ -228,7 +255,6 @@
     "ISEN/Automatique Analogique/CIPA4/cours/3-RootLocus.pdf",
     "ISEN/Automatique Analogique/CIPA4/cours/2-Transient response, precision, stability.pdf",
     "ISEN/Automatique Analogique/CIPA4/cours/0-Introduction.pdf",
-    "ISEN/Automatique Analogique/CIPA4/TD",
     "ISEN/Web/CIPA 4/TP/TP5/MPD.png",
     "ISEN/Web/CIPA 4/TP/TP5/MCD.png",
     "ISEN/Introduction a la cyber et a la cryptographie/CIPA 4/Crypto Cours 1.md",
