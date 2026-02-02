@@ -13,10 +13,10 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "ISEN/Automatique Analogique/CIPA4/Note de cours TD.pdf"
+                "file": "ISEN/Introduction a la cyber et a la cryptographie/CIPA 4/20250708_CRYPTO_slides.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "Note de cours TD"
+              "title": "20250708_CRYPTO_slides"
             }
           }
         ]
@@ -194,6 +194,9 @@
   },
   "active": "e11a6a080eb83632",
   "lastOpenFiles": [
+    "ISEN/Introduction a la cyber et a la cryptographie/CIPA 4/Crypto Cours 2.md",
+    "ISEN/Introduction a la cyber et a la cryptographie/CIPA 4/20250708_CRYPTO_slides.pdf",
+    "ISEN/Automatique Analogique/CIPA4/Note de cours TD.pdf",
     "ISEN/Web/CIPA 4/TP/TP5/tp5.pdf",
     "ISEN/Automatique Analogique/CIPA4/TD/TD2-SystemResponse.pdf",
     "ISEN/Automatique Analogique/CIPA4/TD/Bode plots summary.pdf",
@@ -202,12 +205,8 @@
     "ISEN/Automatique Analogique/CIPA4/cours/2-Transient response, precision, stability.pdf",
     "ISEN/Automatique Analogique/CIPA4/cours/0-Introduction.pdf",
     "ISEN/Automatique Analogique/CIPA4/TD",
-    "ISEN/Automatique Analogique/CIPA4/Note de cours TD.pdf",
-    "ISEN/Automatique Analogique/CIPA4/cours",
-    "ISEN/Automatique Analogique/CIPA4",
     "ISEN/Web/CIPA 4/TP/TP5/MPD.png",
     "ISEN/Web/CIPA 4/TP/TP5/MCD.png",
-    "ISEN/Introduction a la cyber et a la cryptographie/CIPA 4/Crypto Cours 2.md",
     "ISEN/Introduction a la cyber et a la cryptographie/CIPA 4/Crypto Cours 1.md",
     "ISEN/Réunion/CIPA 3/Rentrée 2024-25.md",
     "ISEN/Réunion/CIPA 3/Départ en entreprise 1 20-09-2024.md",
