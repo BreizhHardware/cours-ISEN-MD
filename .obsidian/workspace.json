@@ -11,12 +11,24 @@
             "id": "e11a6a080eb83632",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "ISEN/Introduction a la cyber et a la cryptographie/CIPA 4/Intro2Cyber - Sujet TP 2025-2026.pdf"
+                "file": "ISEN/Navigation de vehicule autonome/CIPA4/Navigation de véhicule autonome Cours 1.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
-              "icon": "lucide-file-text",
-              "title": "Intro2Cyber - Sujet TP 2025-2026"
+              "icon": "lucide-file",
+              "title": "Navigation de véhicule autonome Cours 1"
             }
           },
           {
@@ -242,6 +254,10 @@
   },
   "active": "e11a6a080eb83632",
   "lastOpenFiles": [
+    "ISEN/Introduction a la cyber et a la cryptographie/CIPA 4/Intro2Cyber - Sujet TP 2025-2026.pdf",
+    "ISEN/Navigation de vehicule autonome/CIPA4/Navigation de véhicule autonome Cours 1.md",
+    "ISEN/Navigation de vehicule autonome/CIPA4",
+    "ISEN/Navigation de vehicule autonome",
     "ISEN/Introduction a la cyber et a la cryptographie/CIPA 4/Cyber Cours 2.md",
     "ISEN/Introduction a la cyber et a la cryptographie/CIPA 4/Crypto Cours 2.md",
     "ISEN/Introduction a la cyber et a la cryptographie/CIPA 4/20250708_CRYPTO_slides.pdf",
@@ -252,8 +268,6 @@
     "ISEN/Automatique Analogique/CIPA4/Note de cours TD.pdf",
     "ISEN/Web/CIPA 4/TP/TP5/tp5.pdf",
     "ISEN/Automatique Analogique/CIPA4/TD/TD2-SystemResponse.pdf",
-    "ISEN/Automatique Analogique/CIPA4/TD/Bode plots summary.pdf",
-    "ISEN/Automatique Analogique/CIPA4/cours/1-MathematicalPreleminaries.pdf",
     "ISEN/Web/CIPA 4/TP/TP5/MPD.png",
     "ISEN/Web/CIPA 4/TP/TP5/MCD.png",
     "ISEN/Introduction a la cyber et a la cryptographie/CIPA 4/Crypto Cours 1.md",
@@ -279,7 +293,6 @@
     "ISEN/English/A2/20 oct 2023.md",
     "ISEN/English/A2/2 févr 2024.md",
     "README.md",
-    "Protocol Data Units (PDU).md",
     "Pasted image 20251009192656.png",
     "Pasted image 20250610091125.png",
     "Pasted image 20240505210657.png",
