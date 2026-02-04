@@ -67,7 +67,8 @@
               "title": "20011126_fips-197"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -240,8 +241,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e11a6a080eb83632",
+  "active": "ae4f57562b1235e7",
   "lastOpenFiles": [
+    "ISEN/Introduction a la cyber et a la cryptographie/CIPA 4/20250708_CRYPTO_slides.pdf",
+    "ISEN/Introduction a la cyber et a la cryptographie/CIPA 4/20250708_CRYPTO_exos_avec_corriges.pdf",
     "ISEN/Sécurité IOT/CIPA4/Sécurité IOT Cours 3.md",
     "ISEN/Sécurité IOT/CIPA4/Sécurité IOT Cours 2.md",
     "ISEN/Sécurité IOT/CIPA4/Sécurité IOT Cours 1.md",
@@ -252,10 +255,8 @@
     "ISEN/Navigation de vehicule autonome",
     "ISEN/Introduction a la cyber et a la cryptographie/CIPA 4/Cyber Cours 2.md",
     "ISEN/Introduction a la cyber et a la cryptographie/CIPA 4/Crypto Cours 2.md",
-    "ISEN/Introduction a la cyber et a la cryptographie/CIPA 4/20250708_CRYPTO_slides.pdf",
     "ISEN/Introduction a la cyber et a la cryptographie/CIPA 4/~$tro2Cyber - Sujet TP 2025-2026.docx",
     "Recording 20260202110706.m4a",
-    "ISEN/Introduction a la cyber et a la cryptographie/CIPA 4/20250708_CRYPTO_exos_avec_corriges.pdf",
     "ISEN/Introduction a la cyber et a la cryptographie/CIPA 4/20011126_fips-197.pdf",
     "ISEN/Automatique Analogique/CIPA4/Note de cours TD.pdf",
     "ISEN/Web/CIPA 4/TP/TP5/MPD.png",
@@ -280,7 +281,6 @@
     "ISEN/English/CIPA4/29 sept 2025.md",
     "ISEN/English/A2/23 févr 2024.md",
     "ISEN/English/A2/20 oct 2023.md",
-    "ISEN/English/A2/2 févr 2024.md",
     "Pasted image 20251009192656.png",
     "Pasted image 20250610091125.png",
     "Pasted image 20240505210657.png",
