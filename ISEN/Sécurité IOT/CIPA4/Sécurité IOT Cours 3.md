@@ -16,4 +16,10 @@ https://apps.fcc.gov/oetcf/eas/reports/ViewExhibitReport.cfm?mode=Exhibits&Reque
 - **Network Protocols**: Supports HTTP, TCP/IP, UDP, SMTP, DDNS, SNTP, DHCP, and FTP   
 - **Video Compression**: Uses **MJPEG** hardware compression technology for video transmission
 
-## Physical Access Ports**
+## Physical Access Ports
+- **LAN Port**: An RJ-45 (10-100 Base T port for wired network connections
+- **Power Port**: A DC 5V/2A input for the power supply adapter
+- **Audio Input**: A jack for plugging in an external microphone
+- **Audio Output**: A jack for connecting an external speaker
+- **Reset Button**: Located on the bottom of the camera; pressing and holding for 15 seconds restores factory default settings
+- **Antenna Connector**: A threaded port on the back for the Wi-Fi antenna (available on wireless models)
