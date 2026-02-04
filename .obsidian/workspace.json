@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ISEN/Navigation de vehicule autonome/CIPA4/Navigation de véhicule autonome Cours 1.md",
+                "file": "ISEN/Sécurité IOT/CIPA4/Sécurité IOT Cours 3.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Navigation de véhicule autonome Cours 1"
+              "title": "Sécurité IOT Cours 3"
             }
           },
           {
@@ -254,8 +254,12 @@
   },
   "active": "e11a6a080eb83632",
   "lastOpenFiles": [
-    "ISEN/Introduction a la cyber et a la cryptographie/CIPA 4/Intro2Cyber - Sujet TP 2025-2026.pdf",
+    "ISEN/Sécurité IOT/CIPA4/Sécurité IOT Cours 2.md",
+    "ISEN/Sécurité IOT/CIPA4/Sécurité IOT Cours 3.md",
+    "ISEN/Sécurité IOT/CIPA4/Sécurité IOT Cours 1.md",
     "ISEN/Navigation de vehicule autonome/CIPA4/Navigation de véhicule autonome Cours 1.md",
+    "ISEN/Securité IOT",
+    "ISEN/Introduction a la cyber et a la cryptographie/CIPA 4/Intro2Cyber - Sujet TP 2025-2026.pdf",
     "ISEN/Navigation de vehicule autonome/CIPA4",
     "ISEN/Navigation de vehicule autonome",
     "ISEN/Introduction a la cyber et a la cryptographie/CIPA 4/Cyber Cours 2.md",
@@ -266,15 +270,12 @@
     "ISEN/Introduction a la cyber et a la cryptographie/CIPA 4/20250708_CRYPTO_exos_avec_corriges.pdf",
     "ISEN/Introduction a la cyber et a la cryptographie/CIPA 4/20011126_fips-197.pdf",
     "ISEN/Automatique Analogique/CIPA4/Note de cours TD.pdf",
-    "ISEN/Web/CIPA 4/TP/TP5/tp5.pdf",
-    "ISEN/Automatique Analogique/CIPA4/TD/TD2-SystemResponse.pdf",
     "ISEN/Web/CIPA 4/TP/TP5/MPD.png",
     "ISEN/Web/CIPA 4/TP/TP5/MCD.png",
     "ISEN/Introduction a la cyber et a la cryptographie/CIPA 4/Crypto Cours 1.md",
     "ISEN/Réunion/CIPA 3/Rentrée 2024-25.md",
     "ISEN/Réunion/CIPA 3/Départ en entreprise 1 20-09-2024.md",
     "ISEN/Réunion/CIPA 3/CR Conseil de scolarité S6.md",
-    "ISEN/Sécurité IOT/CIPA4/Sécurité IOT Cours 1.md",
     "ISEN/Introduction a la cyber et a la cryptographie/CIPA 4/Cyber Cours 1.md",
     "ISEN/Réunion/CIPA 4/Réunion international.md",
     "ISEN/Cloud Computing/CIPA4/Cloud Computing Cours 3.md",
@@ -292,7 +293,6 @@
     "ISEN/English/A2/23 févr 2024.md",
     "ISEN/English/A2/20 oct 2023.md",
     "ISEN/English/A2/2 févr 2024.md",
-    "README.md",
     "Pasted image 20251009192656.png",
     "Pasted image 20250610091125.png",
     "Pasted image 20240505210657.png",
