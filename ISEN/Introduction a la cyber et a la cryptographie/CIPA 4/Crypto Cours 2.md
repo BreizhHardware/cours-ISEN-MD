@@ -11,7 +11,7 @@ $$
 $$
 
 ## Système d'équations
-La mise à jour de l'état se fait selon le système suivant :
+La mise à jour de l'état se fait selon le système suivant 
 
 $$
 \begin{cases} x_{0, t+1} &= x_{1, t} \\ x_{1, t+1} &= x_{2, t} \\ x_{2, t+1} &= x_{3, t} \\ x_{3, t+1} &= x_{0, t} \oplus x_{1, t} \oplus 0 \cdot x_{2, t} \oplus 0 \cdot x_{3, t} \end{cases} 
