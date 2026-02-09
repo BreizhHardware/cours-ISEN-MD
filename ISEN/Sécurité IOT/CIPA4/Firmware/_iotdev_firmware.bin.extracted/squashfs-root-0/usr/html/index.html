@@ -1,0 +1,210 @@
+<html>
+	<head>
+		<style>
+			body {
+				background-color: white;
+			}
+			#container {
+				width:800px;
+				height:600px;
+				
+				
+			}
+			#header {
+				width:100%;
+				height:50px;
+				border: 1px solid black;	
+				display:none;
+			}
+			#sideBarLeft {
+				width:20%;
+				margin-top:2px;
+				margin-bottom:2px;
+				height: 490px;
+				float:left;
+				clear both;
+				border: 1px solid black;
+				display:none;
+			}
+			#loginDiv {
+				width:200px;
+				height:100px;
+				padding:12px;
+				margin:0 auto;
+				margin-top: 210px;
+				
+			}
+			#content {
+				width:78%;
+				height: 490px;
+				float:right;
+				font-size: 14px;
+				padding-left: 5px;
+				padding-right: 5px;
+				margin-top:2px;
+				margin-bottom:2px;
+				border: 1px solid black;
+				display:none;
+			}
+			#footer {
+				clear: both;
+				width:100%;
+				height:50px;
+				border: 1px solid black;
+				display:none;
+			}
+			#logoDiv {
+				float:left;
+				height: 45px;
+				padding-top: 5px;
+				padding-left: 10px;
+			}
+			#userDiv {
+				float:right;
+				font-size: 12px;
+				height: 45px;
+				line-height: 45px;
+  				text-align: center;
+  				margin-left: 5px;
+  				margin-right: 5px;
+			}
+			#logoutDiv {
+				float:right;
+				font-size: 12px;
+				height: 45px;
+				line-height: 45px;
+  				text-align: center;
+  				margin-left: 5px;
+  				margin-right: 5px;
+			}
+			.sideBarLClass {
+				width: 95%;
+				float:left;
+				margin-top:5px;
+				padding-left: 4px;
+				font-size: 13px;
+				
+			}
+			#dash_content {
+				float:left;
+				margin: 5px;
+				
+			}
+			.graphs {
+				margin-top:5px;
+				border: 1px solid black;	
+			}
+			#copyRightDiv {
+				font-size: 13px;
+				line-height: 50px;
+  				text-align: center;
+			}
+			@font-face {
+ 				font-family: myFont;
+    			src: url(fonts/palanquin/palanquindark-regular.ttf);
+			}
+			p {
+ 				font-family: myFont;
+			}
+		</style>
+		<script>
+			function login(){
+				var user=document.getElementById('username').value;
+				var pwd=document.getElementById('password').value;
+				if ((user=='default') && (pwd=='default')) {
+					document.getElementById("dash").style.border  = "1px dashed black";
+					loadInterface();
+				} else {
+					document.getElementById('username').value = "";
+					document.getElementById('password').value = ""
+				}
+			}
+			function loadInterface(){
+				document.getElementById("loginDiv").style.display = "none";
+				document.getElementById("header").style.display = "block";
+				document.getElementById("sideBarLeft").style.display = "block";
+				document.getElementById("footer").style.display = "block";
+				document.getElementById("content").style.display = "block";
+				nav("dash");
+			}
+			function nav(l) {
+				var divName="";
+				var el = document.getElementById(l);
+				var x = document.getElementsByClassName("sideBarLClass");
+				for (i=0;i<x.length;i++){
+					x[i].style.borderStyle = "none";
+					divName = x[i].id + "_content";
+					document.getElementById(divName).style.display = "none";
+				}
+				//divName = el.id+"_content";
+				document.getElementById(el.id+"_content").style.display = "block";
+				el.style.border  = "1px dashed black";
+			}
+			function logout() {
+				var x = document.getElementsByClassName("sideBarLClass");    
+                                for (i=0;i<x.length;i++){                                    
+                                        x[i].style.borderStyle = "none";                     
+                                }
+				document.getElementById("header").style.display = "none";
+				document.getElementById("sideBarLeft").style.display = "none";
+				document.getElementById("footer").style.display = "none";
+				document.getElementById("content").style.display = "none";
+				document.getElementById("loginDiv").style.display = "block";
+				document.getElementById('username').value = "";
+				document.getElementById('password').value = ""
+			}
+		</script>
+	</head>
+	<body>
+		<div id="container">
+			<div id="loginDiv">
+				<fieldset>
+					<legend>IoT Device Login</legend>
+						<label for="username">Username:</label>
+						<input type="text" id="username" name="user_name">
+						<label for="password:">Password:</label>
+						<input type="password" id="password" name="passwd"><br><br>
+						<input type="submit" value="Login" style="float:right;" onclick='login();'>
+				</fieldset>
+			</div>
+			<div id="header">
+				<div id="logoDiv"><img src="logo-7.svg" height="40"></div>
+				<a href="#"><div id="logoutDiv" onclick='logout();'><span style="color: blue;">Log Out</span></div></a>
+				<div id="userDiv">Hello <span style="color: orange;">Admin</span></div>
+			</div>
+			<div id="sideBarLeft">
+				<a href="#"><div id="dash" class="sideBarLClass" onclick='nav("dash")'>Dashboard</div></a>
+				<a href="#"><div id="neta" class="sideBarLClass" onclick='nav("neta")'>Network Access</div></a>
+				<a href="#"><div id="priv" class="sideBarLClass" onclick='nav("priv")'>Privacy</div></a>
+				<a href="#"><div id="user" class="sideBarLClass" onclick='nav("user")'>Users</div></a>
+				<a href="#"><div id="logf" class="sideBarLClass" onclick='nav("logf")'>Logging Facilities</div></a>
+				<a href="#"><div id="syst" class="sideBarLClass" onclick='nav("syst")'>System Information</div></a>
+			</div>
+			<div id="content">
+				<div id="dash_content">
+						<div class="graphs"><img src="graph1.png" width="100%"></div>
+						<div class="graphs"><img src="graph2.png" width="100%"></div>
+				</div>
+				<div id="neta_content" style="display:none;">
+					<center><h2>Network Access Page Unavalable</h2></center>
+				</div>
+				<div id="priv_content" style="display:none;">
+					<center><h2>Privacy Settings Unavalable</h2></center>
+				</div>
+				<div id="user_content" style="display:none;">
+					<center><h2>User Configuration Unavalable</h2></center>
+				</div>
+				<div id="logf_content" style="display:none;">
+					<center><h2>Logging Facilities Unavalable</h2></center>
+				</div>
+				<div id="syst_content" style="display:none;">
+					<center><h2>System Information Unavalable</h2></center>
+				</div>
+
+			</div>
+			<div id="footer">
+				<div id="copyRightDiv">© 2018 ACME Co, Inc. All rights reserved.</div>
+			</div>
+		</div>
+	</body>
+</html>

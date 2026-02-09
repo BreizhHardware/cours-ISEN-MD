@@ -1,0 +1,38 @@
+#!/bin/bash
+# -------------------------------------------------------------------------------
+
+# Name: start_device.sh
+
+# Purpose:
+# Script to start the Cisco Networking Academy IoTSec Emulated IoT Device
+# The script test for the existence of the tap0 interface before proceeding.
+# If tap0 does NOT exist, the script creates it, configures it and starts the emulation.
+# If tap0 already exists, the scripts simply starts the emulated device.
+# Author: Rodrigo Floriano
+# Created:  25 April 2018
+# History:
+# *------------------------------------------------------------------------------
+# Name                   Date                           Notes
+# *------------------------------------------------------------------------------
+# Rodrigo Floriano           25th April 2018              Created initial version
+# -------------------------------------------------------------------------------
+# -------------------------------------------------------------------------------
+# ------------------------------- CISCO CONFIDENTIAL ----------------------------
+# --------------------- Copyright (c) 2018, Cisco Systems, Inc.------------------
+# -------------------------------------------------------------------------------
+# -------------------------------------------------------------------------------
+
+FOUND=`grep "tap0" /proc/net/dev`
+
+if  [ -n "$FOUND" ] ; then
+echo "Looking for tap0... FOUND!"
+else
+echo "Looking for tap0... NOT FOUND!"
+sudo /bin/ip tuntap add dev tap0 mode tap user root
+sudo /sbin/ifconfig tap0 up
+sudo /sbin/ifconfig tap0 198.51.100.1 netmask 255.255.255.0
+#sudo /sbin/ifconfig tap0 20.0.0.1 netmask 255.255.255.0
+#sudo /sbin/brctl addif br0 tap0
+fi
+
+sudo qemu-system-mips -M malta -kernel vmlinux -drive file=rootfs.ext2,if=ide,format=raw,media=disk -append "root=/dev/hda console=ttyS0" -net nic -net tap,ifname=tap0,script=no,downscript=no -nographic
