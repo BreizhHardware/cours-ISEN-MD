@@ -1,5 +1,6 @@
 #CIPA4 #DP #SécuritéIOT
 
+# Partie I
 ```Bash
 binwalk ./iotdev_firmware.bin 
                                                                            **/Volumes/SSD/OwnCloud/Personal/Documents/ISEN/Cours/Obsidian Vault/ISEN/Sécurité IOT/CIPA4/Firmware/iotdev_firmware.bin**
@@ -69,6 +70,53 @@ ELF Header:
   Section header string table index: 26
 felix@Debian-13:~/Firmware/_iotdev_firmware.bin.extracted/squashfs-root$ bin/busybox 
 mips-binfmt-P: Could not open '/lib/ld-uClibc.so.0': No such file or directory
+```
+
+
+```bash
+felix@Debian-13:~/Firmware/_iotdev_firmware.bin.extracted/squashfs-root$ sudo chroot . ./qemu-mips bin/busybox
+BusyBox v1.27.2 (2018-04-23 15:08:10 EDT) multi-call binary.
+BusyBox is copyrighted by many authors between 1998-2015.
+Licensed under GPLv2. See source distribution for detailed
+copyright notices.
+
+Usage: busybox [function [arguments]...]
+   or: busybox --list[-full]
+   or: busybox --install [-s] [DIR]
+   or: function [arguments]...
+
+        BusyBox is a multi-call binary that combines many common Unix
+        utilities into a single executable.  Most people will create a
+        link to busybox for each function they wish to use and BusyBox
+        will act like whatever it was invoked as.
+
+Currently defined functions:
+        [, [[, addgroup, adduser, ar, arp, arping, ash, awk, basename, blkid, bunzip2, bzcat, cat, chattr, chgrp, chmod, chown, chroot, chrt, chvt, cksum, clear, cmp, cp, cpio, crond, crontab, cut,
+        date, dc, dd, deallocvt, delgroup, deluser, devmem, df, diff, dirname, dmesg, dnsd, dnsdomainname, dos2unix, du, dumpkmap, echo, egrep, eject, env, ether-wake, expr, factor, fallocate,
+        false, fbset, fdflush, fdformat, fdisk, fgrep, find, flock, fold, free, freeramdisk, fsck, fsfreeze, fstrim, fuser, getopt, getty, grep, gunzip, gzip, halt, hdparm, head, hexdump, hostid,
+        hostname, hwclock, i2cdetect, i2cdump, i2cget, i2cset, id, ifconfig, ifdown, ifup, inetd, init, insmod, install, ip, ipaddr, ipcrm, ipcs, iplink, ipneigh, iproute, iprule, iptunnel, kill,
+        killall, killall5, klogd, last, less, link, linux32, linux64, linuxrc, ln, loadfont, loadkmap, logger, login, logname, losetup, ls, lsattr, lsmod, lsof, lspci, lsscsi, lsusb, lzcat, lzma,
+        lzopcat, makedevs, md5sum, mdev, mesg, microcom, mkdir, mkdosfs, mke2fs, mkfifo, mknod, mkpasswd, mkswap, mktemp, modprobe, more, mount, mountpoint, mt, mv, nameif, netstat, nice, nl, nohup,
+        nproc, nslookup, od, openvt, partprobe, passwd, paste, patch, pidof, ping, pipe_progress, pivot_root, poweroff, printenv, printf, ps, pwd, rdate, readlink, readprofile, realpath, reboot,
+        renice, reset, resize, rm, rmdir, rmmod, route, run-parts, runlevel, sed, seq, setarch, setconsole, setkeycodes, setlogcons, setpriv, setserial, setsid, sh, sha1sum, sha256sum, sha3sum,
+        sha512sum, shred, sleep, sort, start-stop-daemon, strings, stty, su, sulogin, svc, swapoff, swapon, switch_root, sync, sysctl, syslogd, tail, tar, tee, telnet, test, tftp, time, top, touch,
+        tr, traceroute, true, truncate, tty, ubirename, udhcpc, uevent, umount, uname, uniq, unix2dos, unlink, unlzma, unlzop, unxz, unzip, uptime, usleep, uudecode, uuencode, vconfig, vi, vlock, w,
+        watch, watchdog, wc, wget, which, who, whoami, xargs, xxd, xz, xzcat, yes, zcat
+```
+
+```bash
+felix@Debian-13:~/Firmware/_iotdev_firmware.bin.extracted/squashfs-root$ sudo chroot . ./qemu-mips bin/busybox sh
+/ # exit
+```
+
+# Partie II
+```bash
+felix@Debian-13:~/Firmware$ tar -xvf emulated.tgz 
+emulated/
+emulated/mips32/
+emulated/mips32/start_device.sh
+emulated/mips32/vmlinux
+emulated/mips32/rootfs.ext2
 ```
 
 
