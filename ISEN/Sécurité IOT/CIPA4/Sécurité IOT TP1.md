@@ -56,7 +56,9 @@ default:default:1001:1001:Linux User,,,:/home/default:/bin/sh
 1 password hash cracked, 0 left
 
 
-
+felix@Debian-13:~/Firmware/_iotdev_firmware.bin.extracted/squashfs-root$ grep '^root' etc/shadow > root.shadow
+felix@Debian-13:~/Firmware/_iotdev_firmware.bin.extracted/squashfs-root$ grep '^root' etc/passwd > root.passwd
+felix@Debian-13:~/Firmware/_iotdev_firmware.bin.extracted/squashfs-root$ unshadow root.passwd root.shadow > root.hash
 felix@Debian-13:~/Firmware/_iotdev_firmware.bin.extracted/squashfs-root$ john root.hash    
 Loaded 1 password hash (md5crypt [MD5 32/64 X2])
 Will run 4 OpenMP threads
@@ -146,4 +148,67 @@ emulated/mips32/vmlinux
 emulated/mips32/rootfs.ext2
 ```
 
+
+```Bash
+# netstat -unta
+Active Internet connections (servers and established)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State       
+tcp        0      0 0.0.0.0:80              0.0.0.0:*               LISTEN      
+tcp        0      0 0.0.0.0:22              0.0.0.0:*               LISTEN      
+tcp        0      0 :::22                   :::*                    LISTEN
+```
+
+He want to install a backdore
+
+```Bash
+# ./backdoor &
+# ls
+backdoor  ss_mips
+# netstat -unta
+Active Internet connections (servers and established)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State       
+tcp        0      0 0.0.0.0:9999            0.0.0.0:*               LISTEN      
+tcp        0      0 0.0.0.0:80              0.0.0.0:*               LISTEN      
+tcp        0      0 0.0.0.0:22              0.0.0.0:*               LISTEN      
+tcp        0      0 :::22                   :::*                    LISTEN  
+
+# ps aux
+PID   USER     COMMAND
+    1 root     init
+    2 root     [kthreadd]
+    3 root     [kworker/0:0]
+    4 root     [kworker/0:0H]
+    5 root     [kworker/u2:0]
+    6 root     [mm_percpu_wq]
+    7 root     [ksoftirqd/0]
+    8 root     [rcu_sched]
+    9 root     [rcu_bh]
+   10 root     [migration/0]
+   11 root     [cpuhp/0]
+   12 root     [kdevtmpfs]
+   13 root     [netns]
+   14 root     [oom_reaper]
+   15 root     [writeback]
+   16 root     [kcompactd0]
+   17 root     [crypto]
+   18 root     [bioset]
+   19 root     [kblockd]
+   20 root     [kswapd0]
+   21 root     [kworker/0:1]
+   22 root     [bioset]
+   29 root     [bioset]
+   30 root     [bioset]
+   31 root     [kworker/0:1H]
+   32 root     [ipv6_addrconf]
+   33 root     [ext4-rsv-conver]
+   45 root     /sbin/syslogd -n
+   48 root     /sbin/klogd -n
+   55 root     [kworker/u2:1]
+   81 root     nginx: master process /usr/sbin/nginx
+   83 www-data nginx: worker process
+   86 root     /usr/sbin/sshd
+  103 root     -sh
+  114 root     ./backdoor
+  119 root     ps aux
+```
 

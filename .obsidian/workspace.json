@@ -67,7 +67,8 @@
               "title": "20011126_fips-197"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -240,10 +241,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e11a6a080eb83632",
+  "active": "37a6109c5cf4f8fa",
   "lastOpenFiles": [
-    "ISEN/Sécurité IOT/CIPA4/IoT.Firmware.Analysis.pdf",
     "ISEN/Sécurité IOT/CIPA4/Sécurité IOT TP1.md",
+    "ISEN/Sécurité IOT/CIPA4/IoT.Firmware.Analysis.pdf",
     "ISEN/Introduction a la cyber et a la cryptographie/CIPA 4/20011126_fips-197.pdf",
     "ISEN/Introduction a la cyber et a la cryptographie/CIPA 4/Crypto Cours 2.md",
     "ISEN/Sécurité IOT/CIPA4/Firmware/extractions/iotdev_firmware.bin.extracted/120200/squashfs_120200.sqsh",
