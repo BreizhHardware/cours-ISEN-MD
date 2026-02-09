@@ -25,3 +25,20 @@ binwalk -e ./iotdev_firmware.bin
 ```
 
 Sert à extraire des fichiers du binaire
+
+
+```bash
+felix@Debian-13:~/Firmware/_iotdev_firmware.bin.extracted/squashfs-root$ cat etc/shadow
+root:$1$TO1dd7Y2$G7nYNf7F8re7.gl355jXM1:10933:0:99999:7:::
+daemon:*:10933:0:99999:7:::
+bin:*:10933:0:99999:7:::
+sys:*:10933:0:99999:7:::
+sync:*:10933:0:99999:7:::
+mail:*:10933:0:99999:7:::
+www-data:*:10933:0:99999:7:::
+operator:*:10933:0:99999:7:::
+nobody:*:10933:0:99999:7:::
+sshd:*:::::::
+default:$1$TLEiB.OR$ZU8PwoIb2Z0jh8Eyex7m.1:17645:0:99999:7:::
+```
+
