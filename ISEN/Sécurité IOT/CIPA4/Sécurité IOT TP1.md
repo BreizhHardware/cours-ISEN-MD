@@ -43,6 +43,18 @@ sshd:*:::::::
 default:$1$TLEiB.OR$ZU8PwoIb2Z0jh8Eyex7m.1:17645:0:99999:7:::
 ```
 
+```bash
+felix@Debian-13:~/Firmware/_iotdev_firmware.bin.extracted/squashfs-root$ grep '^default' etc/passwd > default.passwd
+felix@Debian-13:~/Firmware/_iotdev_firmware.bin.extracted/squashfs-root$ grep '^default' etc/shadow > default.shadow
+felix@Debian-13:~/Firmware/_iotdev_firmware.bin.extracted/squashfs-root$ unshadow default.passwd default.shadow > default.hash
+felix@Debian-13:~/Firmware/_iotdev_firmware.bin.extracted/squashfs-root$ john default.hash --wordlist=/usr/share/john/password.lst
+Loaded 1 password hash (md5crypt [MD5 32/64 X2])
+No password hashes left to crack (see FAQ)
+felix@Debian-13:~/Firmware/_iotdev_firmware.bin.extracted/squashfs-root$ john --show default.hash
+default:default:1001:1001:Linux User,,,:/home/default:/bin/sh
+
+1 password hash cracked, 0 left
+```
 
 Il y a un serveur Web et un serveur SSH.
 
