@@ -42,3 +42,33 @@ sshd:*:::::::
 default:$1$TLEiB.OR$ZU8PwoIb2Z0jh8Eyex7m.1:17645:0:99999:7:::
 ```
 
+
+Il y a un serveur Web et un serveur SSH.
+
+```bash
+felix@Debian-13:~/Firmware/_iotdev_firmware.bin.extracted/squashfs-root$ readelf -h bin/busybox
+ELF Header:
+  Magic:   7f 45 4c 46 01 02 01 00 00 00 00 00 00 00 00 00 
+  Class:                             ELF32
+  Data:                              2's complement, big endian
+  Version:                           1 (current)
+  OS/ABI:                            UNIX - System V
+  ABI Version:                       0
+  Type:                              EXEC (Executable file)
+  Machine:                           MIPS R3000
+  Version:                           0x1
+  Entry point address:               0x403010
+  Start of program headers:          52 (bytes into file)
+  Start of section headers:          874404 (bytes into file)
+  Flags:                             0x70001007, noreorder, pic, cpic, o32, mips32r2
+  Size of this header:               52 (bytes)
+  Size of program headers:           32 (bytes)
+  Number of program headers:         9
+  Size of section headers:           40 (bytes)
+  Number of section headers:         27
+  Section header string table index: 26
+felix@Debian-13:~/Firmware/_iotdev_firmware.bin.extracted/squashfs-root$ bin/busybox 
+mips-binfmt-P: Could not open '/lib/ld-uClibc.so.0': No such file or directory
+```
+
+
