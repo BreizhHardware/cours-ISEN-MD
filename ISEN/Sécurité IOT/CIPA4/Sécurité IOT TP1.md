@@ -54,6 +54,21 @@ felix@Debian-13:~/Firmware/_iotdev_firmware.bin.extracted/squashfs-root$ john --
 default:default:1001:1001:Linux User,,,:/home/default:/bin/sh
 
 1 password hash cracked, 0 left
+
+
+
+felix@Debian-13:~/Firmware/_iotdev_firmware.bin.extracted/squashfs-root$ john root.hash    
+Loaded 1 password hash (md5crypt [MD5 32/64 X2])
+Will run 4 OpenMP threads
+Press 'q' or Ctrl-C to abort, almost any other key for status
+device           (root)
+1g 0:00:00:42 3/3 0.02334g/s 52777p/s 52777c/s 52777C/s delomy..deva09
+Use the "--show" option to display all of the cracked passwords reliably
+Session completed
+felix@Debian-13:~/Firmware/_iotdev_firmware.bin.extracted/squashfs-root$ john --show root.hash
+root:device:0:0:root:/root:/bin/sh
+
+1 password hash cracked, 0 left
 ```
 
 Il y a un serveur Web et un serveur SSH.
