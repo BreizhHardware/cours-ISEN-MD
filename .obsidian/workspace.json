@@ -32,6 +32,18 @@
             }
           },
           {
+            "id": "c14718d48fd4ce6a",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.11.7"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.11.7"
+            }
+          },
+          {
             "id": "37a6109c5cf4f8fa",
             "type": "leaf",
             "state": {
@@ -67,7 +79,8 @@
               "title": "20011126_fips-197"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -240,7 +253,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e11a6a080eb83632",
+  "active": "c14718d48fd4ce6a",
   "lastOpenFiles": [
     "ISEN/Sécurité IOT/CIPA4/Firmware/iotdev_firmware.bin",
     "ISEN/Sécurité IOT/CIPA4/Firmware/emulated.tgz",
