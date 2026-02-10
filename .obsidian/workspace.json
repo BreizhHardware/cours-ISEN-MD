@@ -35,12 +35,12 @@
             "id": "c14718d48fd4ce6a",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "pdf",
               "state": {
-                "currentVersion": "1.11.7"
+                "file": "ISEN/Sécurité IOT/CIPA4/IoT.Security.Primer.2026.part1.pdf"
               },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.11.7"
+              "icon": "lucide-file-text",
+              "title": "IoT.Security.Primer.2026.part1"
             }
           },
           {
@@ -255,6 +255,9 @@
   },
   "active": "c14718d48fd4ce6a",
   "lastOpenFiles": [
+    "ISEN/Sécurité IOT/CIPA4/IoT.Security.Primer.2026.part2.pdf",
+    "ISEN/Sécurité IOT/CIPA4/IoT.Security.Primer.2026.part3.pdf",
+    "ISEN/Sécurité IOT/CIPA4/IoT.Security.Primer.2026.part4.pdf",
     "ISEN/Sécurité IOT/CIPA4/Firmware/iotdev_firmware.bin",
     "ISEN/Sécurité IOT/CIPA4/Firmware/emulated.tgz",
     "ISEN/Sécurité IOT/CIPA4/Firmware/emulated/mips32/rootfs.ext2",
@@ -263,9 +266,6 @@
     "ISEN/Sécurité IOT/CIPA4/Firmware/emulated/mips32/root.shadow",
     "ISEN/Sécurité IOT/CIPA4/Firmware/emulated/mips32/vmlinux",
     "ISEN/Sécurité IOT/CIPA4/Firmware/_iotdev_firmware.bin.extracted/squashfs-root/root.passwd",
-    "ISEN/Sécurité IOT/CIPA4/Firmware/_iotdev_firmware.bin.extracted/squashfs-root/run/utmp",
-    "ISEN/Sécurité IOT/CIPA4/Firmware/_iotdev_firmware.bin.extracted/squashfs-root/default.hash",
-    "ISEN/Sécurité IOT/CIPA4/Firmware/_iotdev_firmware.bin.extracted/squashfs-root/home/default/ss_mips",
     "ISEN/Sécurité IOT/CIPA4/Firmware/_iotdev_firmware.bin.extracted/squashfs-root/usr/html/logo-7.svg",
     "ISEN/Sécurité IOT/CIPA4/Firmware/_iotdev_firmware.bin.extracted/squashfs-root/usr/html/graph2.png",
     "ISEN/Sécurité IOT/CIPA4/Firmware/_iotdev_firmware.bin.extracted/squashfs-root/usr/html/graph1.png",
