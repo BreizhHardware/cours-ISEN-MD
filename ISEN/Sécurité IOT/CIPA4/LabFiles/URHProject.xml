@@ -1,0 +1,104 @@
+<?xml version="1.0" ?>
+<UniversalRadioHackerProject description="" collapse_project_tabs="0" modulation_was_edited="0" broadcast_address_hex="ffff">
+  <modulators>
+    <modulator carrier_freq_hz="40000.0" carrier_amplitude="1.0" carrier_phase_deg="0.0" samples_per_symbol="100" name="Modulator" gauss_bt="0.5" gauss_filter_width="1.0" sample_rate="None" modulation_type="ASK" index="0" parameters="0.0,100.0" bits_per_symbol="1"/>
+  </modulators>
+  <device_conf>
+    <bandwidth>1000000.0</bandwidth>
+    <frequency>433920000.0</frequency>
+    <name>USRP</name>
+    <sample_rate>1000000.0</sample_rate>
+  </device_conf>
+  <simulator_rx_conf/>
+  <simulator_tx_conf/>
+  <signal name="FullRemote-433_7MHz-2MSps-2MHz" filename="FullRemote-433_7MHz-2MSps-2MHz.complex16s" samples_per_symbol="300" center="0.008731566271308111" center_spacing="1" tolerance="12" noise_threshold="0" noise_minimum="0" noise_maximum="0" modulation_type="ASK" sample_rate="1000000.0" pause_threshold="12" message_length_divisor="1" bits_per_symbol="1" costas_loop_bandwidth="0.1">
+    <messages/>
+  </signal>
+  <open_file name="FullRemote-433_7MHz-2MSps-2MHz.complex16s" position="0"/>
+  <group name="New Group" id="0">
+    <cf_protocol filename="FullRemote-433_7MHz-2MSps-2MHz.complex16s"/>
+  </group>
+  <protocol>
+    <decodings>
+      <decoding>'Non Return To Zero (NRZ)', </decoding>
+      <decoding>'Non Return To Zero + Invert', 'Invert', </decoding>
+      <decoding>'Manchester I', 'Edge Trigger', </decoding>
+      <decoding>'Manchester II', 'Edge Trigger', 'Invert', </decoding>
+      <decoding>'Differential Manchester', 'Edge Trigger', 'Differential Encoding', </decoding>
+      <decoding>'IoT Device', 'Invert', 'Morse Code', '2;7;1', </decoding>
+      <decoding>'IoT Device2', 'Invert', 'Morse Code', '2;7;1', 'Edge Trigger', 'Invert', </decoding>
+    </decodings>
+    <participants/>
+    <messages>
+      <message message_type_id="334b270c-977a-44f8-867e-477ebec7979f" modulator_index="0" pause="5840" timestamp="1.840087" decoding_index="6"/>
+      <message message_type_id="334b270c-977a-44f8-867e-477ebec7979f" modulator_index="0" pause="21834" timestamp="1.846288" decoding_index="6"/>
+      <message message_type_id="334b270c-977a-44f8-867e-477ebec7979f" modulator_index="0" pause="5831" timestamp="2.010989" decoding_index="6"/>
+      <message message_type_id="334b270c-977a-44f8-867e-477ebec7979f" modulator_index="0" pause="21858" timestamp="2.017194" decoding_index="6"/>
+      <message message_type_id="334b270c-977a-44f8-867e-477ebec7979f" modulator_index="0" pause="5875" timestamp="2.181926" decoding_index="6"/>
+      <message message_type_id="334b270c-977a-44f8-867e-477ebec7979f" modulator_index="0" pause="21870" timestamp="2.18816" decoding_index="6"/>
+      <message message_type_id="334b270c-977a-44f8-867e-477ebec7979f" modulator_index="0" pause="5858" timestamp="2.352879" decoding_index="6"/>
+      <message message_type_id="334b270c-977a-44f8-867e-477ebec7979f" modulator_index="0" pause="21853" timestamp="2.359087" decoding_index="6"/>
+      <message message_type_id="334b270c-977a-44f8-867e-477ebec7979f" modulator_index="0" pause="5863" timestamp="2.523839" decoding_index="6"/>
+      <message message_type_id="334b270c-977a-44f8-867e-477ebec7979f" modulator_index="0" pause="2316358" timestamp="2.530053" decoding_index="6"/>
+      <message message_type_id="334b270c-977a-44f8-867e-477ebec7979f" modulator_index="0" pause="5896" timestamp="4.989288" decoding_index="6"/>
+      <message message_type_id="334b270c-977a-44f8-867e-477ebec7979f" modulator_index="0" pause="21970" timestamp="4.995511" decoding_index="6"/>
+      <message message_type_id="334b270c-977a-44f8-867e-477ebec7979f" modulator_index="0" pause="5984" timestamp="5.16031" decoding_index="6"/>
+      <message message_type_id="334b270c-977a-44f8-867e-477ebec7979f" modulator_index="0" pause="22022" timestamp="5.166567" decoding_index="6"/>
+      <message message_type_id="334b270c-977a-44f8-867e-477ebec7979f" modulator_index="0" pause="5922" timestamp="5.33134" decoding_index="6"/>
+      <message message_type_id="334b270c-977a-44f8-867e-477ebec7979f" modulator_index="0" pause="21901" timestamp="5.337481" decoding_index="6"/>
+      <message message_type_id="334b270c-977a-44f8-867e-477ebec7979f" modulator_index="0" pause="5892" timestamp="5.502176" decoding_index="6"/>
+      <message message_type_id="334b270c-977a-44f8-867e-477ebec7979f" modulator_index="0" pause="21888" timestamp="5.508389" decoding_index="6"/>
+      <message message_type_id="334b270c-977a-44f8-867e-477ebec7979f" modulator_index="0" pause="5901" timestamp="5.67315" decoding_index="6"/>
+      <message message_type_id="334b270c-977a-44f8-867e-477ebec7979f" modulator_index="0" pause="2196868" timestamp="5.67938" decoding_index="6"/>
+      <message message_type_id="334b270c-977a-44f8-867e-477ebec7979f" modulator_index="0" pause="5857" timestamp="8.019068" decoding_index="6"/>
+      <message message_type_id="334b270c-977a-44f8-867e-477ebec7979f" modulator_index="0" pause="21857" timestamp="8.025224" decoding_index="6"/>
+      <message message_type_id="334b270c-977a-44f8-867e-477ebec7979f" modulator_index="0" pause="5870" timestamp="8.189957" decoding_index="6"/>
+      <message message_type_id="334b270c-977a-44f8-867e-477ebec7979f" modulator_index="0" pause="21883" timestamp="8.19617" decoding_index="6"/>
+      <message message_type_id="334b270c-977a-44f8-867e-477ebec7979f" modulator_index="0" pause="5855" timestamp="8.36093" decoding_index="6"/>
+      <message message_type_id="334b270c-977a-44f8-867e-477ebec7979f" modulator_index="0" pause="21874" timestamp="8.36715" decoding_index="6"/>
+      <message message_type_id="334b270c-977a-44f8-867e-477ebec7979f" modulator_index="0" pause="5898" timestamp="8.531918" decoding_index="6"/>
+      <message message_type_id="334b270c-977a-44f8-867e-477ebec7979f" modulator_index="0" pause="21880" timestamp="8.538149" decoding_index="6"/>
+      <message message_type_id="334b270c-977a-44f8-867e-477ebec7979f" modulator_index="0" pause="5868" timestamp="8.702911" decoding_index="6"/>
+      <message message_type_id="334b270c-977a-44f8-867e-477ebec7979f" modulator_index="0" pause="1780624" timestamp="8.709106" decoding_index="6"/>
+      <message message_type_id="334b270c-977a-44f8-867e-477ebec7979f" modulator_index="0" pause="5902" timestamp="10.63263" decoding_index="6"/>
+      <message message_type_id="334b270c-977a-44f8-867e-477ebec7979f" modulator_index="0" pause="21898" timestamp="10.638824" decoding_index="6"/>
+      <message message_type_id="334b270c-977a-44f8-867e-477ebec7979f" modulator_index="0" pause="5903" timestamp="10.803576" decoding_index="6"/>
+      <message message_type_id="334b270c-977a-44f8-867e-477ebec7979f" modulator_index="0" pause="21943" timestamp="10.809826" decoding_index="6"/>
+      <message message_type_id="334b270c-977a-44f8-867e-477ebec7979f" modulator_index="0" pause="5893" timestamp="10.974584" decoding_index="6"/>
+      <message message_type_id="334b270c-977a-44f8-867e-477ebec7979f" modulator_index="0" pause="21920" timestamp="10.980778" decoding_index="6"/>
+      <message message_type_id="334b270c-977a-44f8-867e-477ebec7979f" modulator_index="0" pause="5907" timestamp="11.145533" decoding_index="6"/>
+      <message message_type_id="334b270c-977a-44f8-867e-477ebec7979f" modulator_index="0" pause="21881" timestamp="11.15175" decoding_index="6"/>
+      <message message_type_id="334b270c-977a-44f8-867e-477ebec7979f" modulator_index="0" pause="5895" timestamp="11.3165" decoding_index="6"/>
+      <message message_type_id="334b270c-977a-44f8-867e-477ebec7979f" modulator_index="0" pause="1900290" timestamp="11.32274" decoding_index="6"/>
+      <message message_type_id="334b270c-977a-44f8-867e-477ebec7979f" modulator_index="0" pause="5866" timestamp="13.365872" decoding_index="6"/>
+      <message message_type_id="334b270c-977a-44f8-867e-477ebec7979f" modulator_index="0" pause="21889" timestamp="13.372097" decoding_index="6"/>
+      <message message_type_id="334b270c-977a-44f8-867e-477ebec7979f" modulator_index="0" pause="5905" timestamp="13.536858" decoding_index="6"/>
+      <message message_type_id="334b270c-977a-44f8-867e-477ebec7979f" modulator_index="0" pause="21900" timestamp="13.5431" decoding_index="6"/>
+      <message message_type_id="334b270c-977a-44f8-867e-477ebec7979f" modulator_index="0" pause="5913" timestamp="13.707862" decoding_index="6"/>
+      <message message_type_id="334b270c-977a-44f8-867e-477ebec7979f" modulator_index="0" pause="21926" timestamp="13.714102" decoding_index="6"/>
+      <message message_type_id="334b270c-977a-44f8-867e-477ebec7979f" modulator_index="0" pause="5885" timestamp="13.878883" decoding_index="6"/>
+      <message message_type_id="334b270c-977a-44f8-867e-477ebec7979f" modulator_index="0" pause="21896" timestamp="13.885091" decoding_index="6"/>
+      <message message_type_id="334b270c-977a-44f8-867e-477ebec7979f" modulator_index="0" pause="5865" timestamp="14.049866" decoding_index="6"/>
+      <message message_type_id="334b270c-977a-44f8-867e-477ebec7979f" modulator_index="0" pause="1955076" timestamp="14.056042" decoding_index="6"/>
+      <message message_type_id="334b270c-977a-44f8-867e-477ebec7979f" modulator_index="0" pause="5848" timestamp="16.154013" decoding_index="6"/>
+      <message message_type_id="334b270c-977a-44f8-867e-477ebec7979f" modulator_index="0" pause="21884" timestamp="16.16024" decoding_index="6"/>
+      <message message_type_id="334b270c-977a-44f8-867e-477ebec7979f" modulator_index="0" pause="5841" timestamp="16.325033" decoding_index="6"/>
+      <message message_type_id="334b270c-977a-44f8-867e-477ebec7979f" modulator_index="0" pause="21871" timestamp="16.331243" decoding_index="6"/>
+      <message message_type_id="334b270c-977a-44f8-867e-477ebec7979f" modulator_index="0" pause="5899" timestamp="16.496028" decoding_index="6"/>
+      <message message_type_id="334b270c-977a-44f8-867e-477ebec7979f" modulator_index="0" pause="21846" timestamp="16.502286" decoding_index="6"/>
+      <message message_type_id="334b270c-977a-44f8-867e-477ebec7979f" modulator_index="0" pause="5919" timestamp="16.667038" decoding_index="6"/>
+      <message message_type_id="334b270c-977a-44f8-867e-477ebec7979f" modulator_index="0" pause="21887" timestamp="16.673322" decoding_index="6"/>
+      <message message_type_id="334b270c-977a-44f8-867e-477ebec7979f" modulator_index="0" pause="5912" timestamp="16.838068" decoding_index="6"/>
+      <message message_type_id="334b270c-977a-44f8-867e-477ebec7979f" modulator_index="0" pause="3460021" timestamp="16.844346" decoding_index="6"/>
+    </messages>
+    <message_types>
+      <message_type name="Default" id="334b270c-977a-44f8-867e-477ebec7979f" assigned_by_ruleset="0" assigned_by_logic_analyzer="0">
+        <label name="synchronization" start="0" end="408" color_index="0" apply_decoding="True" show="2" display_format_index="0" display_bit_order_index="0" display_endianness="big" fuzz_me="2" fuzz_values="" auto_created="True"/>
+        <ruleset mode="0"/>
+      </message_type>
+    </message_types>
+  </protocol>
+  <simulator_config>
+    <items/>
+  </simulator_config>
+</UniversalRadioHackerProject>

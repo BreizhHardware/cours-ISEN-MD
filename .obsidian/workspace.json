@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ISEN/Sécurité IOT/CIPA4/Sécurité IOT TP1.md",
+                "file": "ISEN/English/CIPA4/11 fev 2026.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,19 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Sécurité IOT TP1"
-            }
-          },
-          {
-            "id": "c14718d48fd4ce6a",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "ISEN/Sécurité IOT/CIPA4/IoT.Security.Primer.2026.part1.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "IoT.Security.Primer.2026.part1"
+              "title": "11 fev 2026"
             }
           },
           {
@@ -79,8 +67,7 @@
               "title": "20011126_fips-197"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -253,34 +240,39 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c14718d48fd4ce6a",
+  "active": "e11a6a080eb83632",
   "lastOpenFiles": [
-    "ISEN/Sécurité IOT/CIPA4/IoT.Security.Primer.2026.part2.pdf",
-    "ISEN/Sécurité IOT/CIPA4/IoT.Security.Primer.2026.part3.pdf",
+    "ISEN/English/CIPA4/11 fev 2026.md",
+    "ISEN/Sécurité IOT/CIPA4/Sécurité IOT TP2.md",
+    "Pasted image 20260210150329.png",
+    "ISEN/Sécurité IOT/CIPA4/LabFiles/URHProject.xml",
+    "ISEN/Sécurité IOT/CIPA4/Sécurité IOT TP1.md",
+    "ISEN/Sécurité IOT/CIPA4/IoT.Firmware.Analysis.pdf",
+    "ISEN/Sécurité IOT/CIPA4/test2.md",
+    "ISEN/Sécurité IOT/CIPA4/test.md",
     "ISEN/Sécurité IOT/CIPA4/IoT.Security.Primer.2026.part4.pdf",
-    "ISEN/Sécurité IOT/CIPA4/Firmware/iotdev_firmware.bin",
-    "ISEN/Sécurité IOT/CIPA4/Firmware/emulated.tgz",
-    "ISEN/Sécurité IOT/CIPA4/Firmware/emulated/mips32/rootfs.ext2",
-    "ISEN/Sécurité IOT/CIPA4/Firmware/emulated/mips32/start_device.sh.bak",
-    "ISEN/Sécurité IOT/CIPA4/Firmware/emulated/mips32/start_device.sh",
-    "ISEN/Sécurité IOT/CIPA4/Firmware/emulated/mips32/root.shadow",
-    "ISEN/Sécurité IOT/CIPA4/Firmware/emulated/mips32/vmlinux",
-    "ISEN/Sécurité IOT/CIPA4/Firmware/_iotdev_firmware.bin.extracted/squashfs-root/root.passwd",
+    "ISEN/Sécurité IOT/CIPA4/IoT.Security.Primer.2026.part3.pdf",
+    "ISEN/Sécurité IOT/CIPA4/IoT.Security.Primer.2026.part2.pdf",
+    "ISEN/Sécurité IOT/CIPA4/IoT.Security.Primer.2026.part1.pdf",
+    "ISEN/Sécurité IOT/CIPA4/Sécurité IOT Cours 3.md",
+    "Pasted image 20260210141034.png",
+    "Pasted image 20260210140833.png",
+    "ISEN/Sécurité IOT/CIPA4/LabFiles/rawdata-B1-I-f4.335000e+08-s8.000000e+06.cfile",
+    "ISEN/Sécurité IOT/CIPA4/LabFiles/B1-I-433_5MHz-2MSps-2MHz.complex16s",
+    "ISEN/Sécurité IOT/CIPA4/LabFiles/FullRemote-433_7MHz-2MSps-2MHz.complex16s",
+    "ISEN/Sécurité IOT/CIPA4/LabFiles",
     "ISEN/Sécurité IOT/CIPA4/Firmware/_iotdev_firmware.bin.extracted/squashfs-root/usr/html/logo-7.svg",
     "ISEN/Sécurité IOT/CIPA4/Firmware/_iotdev_firmware.bin.extracted/squashfs-root/usr/html/graph2.png",
     "ISEN/Sécurité IOT/CIPA4/Firmware/_iotdev_firmware.bin.extracted/squashfs-root/usr/html/graph1.png",
     "ISEN/Sécurité IOT/CIPA4/Firmware/_iotdev_firmware.bin.extracted/squashfs-root-0/usr/html/logo-7.svg",
     "ISEN/Sécurité IOT/CIPA4/Firmware/_iotdev_firmware.bin.extracted/squashfs-root-0/usr/html/graph2.png",
     "ISEN/Sécurité IOT/CIPA4/Firmware/_iotdev_firmware.bin.extracted/squashfs-root-0/usr/html/graph1.png",
-    "ISEN/Sécurité IOT/CIPA4/Sécurité IOT TP1.md",
     "ISEN/Introduction a la cyber et a la cryptographie/CIPA 4/Crypto Cours 2.md",
     "ISEN/Sécurité IOT/CIPA4/Sécurité IOT Cours 1.md",
-    "ISEN/Sécurité IOT/CIPA4/Sécurité IOT Cours 3.md",
     "ISEN/Sécurité IOT/CIPA4/Sécurité IOT Cours 2.md",
     "ISEN/Navigation de vehicule autonome/CIPA4/Navigation de véhicule autonome Cours 1.md",
     "ISEN/Introduction a la cyber et a la cryptographie/CIPA 4/Cyber Cours 2.md",
     "ISEN/Web/CIPA 4/TP/TP5/MPD.png",
-    "ISEN/Web/CIPA 4/TP/TP5/MCD.png",
     "ISEN/Introduction a la cyber et a la cryptographie/CIPA 4/Crypto Cours 1.md",
     "ISEN/Réunion/CIPA 3/Rentrée 2024-25.md",
     "ISEN/Réunion/CIPA 3/Départ en entreprise 1 20-09-2024.md",
@@ -297,11 +289,6 @@
     "ISEN/Cloud Computing/CIPA4/TP 2 Ansible.md",
     "ISEN/Cloud Computing/CIPA4/TP 1 Ansible.md",
     "ISEN/Introduction a la cyber et a la cryptographie/CIPA 4/Tunnel SSH TP.canvas",
-    "ISEN/English/CIPA4/16 janv 2026.md",
-    "ISEN/English/CIPA4/29 sept 2025.md",
-    "ISEN/English/A2/23 févr 2024.md",
-    "Pasted image 20251009192656.png",
-    "Pasted image 20250610091125.png",
     "ISEN/Réseau/A2/TP Ansible et docker.canvas",
     "ISEN/BDD/CIR2/TD2.canvas",
     "ISEN/Modelec/NB point.canvas",
