@@ -4,67 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "a0965a7be66d6773",
+        "id": "2affa43ffc05e92c",
         "type": "tabs",
         "children": [
           {
-            "id": "e11a6a080eb83632",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ISEN/English/CIPA4/11 fev 2026.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "11 fev 2026"
-            }
-          },
-          {
-            "id": "37a6109c5cf4f8fa",
+            "id": "07ac9f7bcb0c8c7d",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "ISEN/Sécurité IOT/CIPA4/IoT.Firmware.Analysis.pdf"
+                "file": "ISEN/Cloud Computing/CIPA4/Kubernetes.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "IoT.Firmware.Analysis"
-            }
-          },
-          {
-            "id": "ae4f57562b1235e7",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "ISEN/Introduction a la cyber et a la cryptographie/CIPA 4/20250708_CRYPTO_exos_avec_corriges.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "20250708_CRYPTO_exos_avec_corriges"
-            }
-          },
-          {
-            "id": "8d52247f0504a39c",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "ISEN/Introduction a la cyber et a la cryptographie/CIPA 4/20011126_fips-197.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "20011126_fips-197"
+              "title": "Kubernetes"
             }
           }
         ]
@@ -240,27 +192,29 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e11a6a080eb83632",
+  "active": "07ac9f7bcb0c8c7d",
   "lastOpenFiles": [
+    "ISEN/Cloud Computing/CIPA4/Terraform.pdf",
+    "ISEN/Cloud Computing/CIPA4/Kubernetes.pdf",
+    "ISEN/Cloud Computing/CIPA4/Openstack.pdf",
+    "ISEN/Cloud Computing/CIPA4/Docker.pdf",
+    "ISEN/Cloud Computing/CIPA4/Git.pdf",
+    "ISEN/Cloud Computing/CIPA4/Ansible.pdf",
+    "ISEN/Cloud Computing/CIPA4/Cloud Computing Cours 2.md",
+    "ISEN/Cloud Computing/CIPA4/Cloud Computing Cours 1.md",
+    "ISEN/Cloud Computing/CIPA4/DevOPS.pdf",
+    "ISEN/Introduction a la cyber et a la cryptographie/CIPA 4/20011126_fips-197.pdf",
+    "ISEN/Introduction a la cyber et a la cryptographie/CIPA 4/20250708_CRYPTO_exos_avec_corriges.pdf",
+    "ISEN/Sécurité IOT/CIPA4/IoT.Firmware.Analysis.pdf",
     "ISEN/English/CIPA4/11 fev 2026.md",
     "ISEN/Sécurité IOT/CIPA4/Sécurité IOT TP2.md",
     "Pasted image 20260210150329.png",
-    "ISEN/Sécurité IOT/CIPA4/LabFiles/URHProject.xml",
     "ISEN/Sécurité IOT/CIPA4/Sécurité IOT TP1.md",
-    "ISEN/Sécurité IOT/CIPA4/IoT.Firmware.Analysis.pdf",
     "ISEN/Sécurité IOT/CIPA4/test2.md",
     "ISEN/Sécurité IOT/CIPA4/test.md",
-    "ISEN/Sécurité IOT/CIPA4/IoT.Security.Primer.2026.part4.pdf",
-    "ISEN/Sécurité IOT/CIPA4/IoT.Security.Primer.2026.part3.pdf",
-    "ISEN/Sécurité IOT/CIPA4/IoT.Security.Primer.2026.part2.pdf",
-    "ISEN/Sécurité IOT/CIPA4/IoT.Security.Primer.2026.part1.pdf",
     "ISEN/Sécurité IOT/CIPA4/Sécurité IOT Cours 3.md",
     "Pasted image 20260210141034.png",
     "Pasted image 20260210140833.png",
-    "ISEN/Sécurité IOT/CIPA4/LabFiles/rawdata-B1-I-f4.335000e+08-s8.000000e+06.cfile",
-    "ISEN/Sécurité IOT/CIPA4/LabFiles/B1-I-433_5MHz-2MSps-2MHz.complex16s",
-    "ISEN/Sécurité IOT/CIPA4/LabFiles/FullRemote-433_7MHz-2MSps-2MHz.complex16s",
-    "ISEN/Sécurité IOT/CIPA4/LabFiles",
     "ISEN/Sécurité IOT/CIPA4/Firmware/_iotdev_firmware.bin.extracted/squashfs-root/usr/html/logo-7.svg",
     "ISEN/Sécurité IOT/CIPA4/Firmware/_iotdev_firmware.bin.extracted/squashfs-root/usr/html/graph2.png",
     "ISEN/Sécurité IOT/CIPA4/Firmware/_iotdev_firmware.bin.extracted/squashfs-root/usr/html/graph1.png",
@@ -281,13 +235,10 @@
     "ISEN/Réunion/CIPA 4/Réunion international.md",
     "ISEN/Cloud Computing/CIPA4/Cloud Computing Cours 3.md",
     "ISEN/Cloud Computing/CIPA4/Cloud Computing Cours 4.md",
-    "ISEN/Cloud Computing/CIPA4/Cloud Computing Cours 2.md",
     "ISEN/Cloud Computing/CIPA4/Cloud Computing Cours 5.md",
-    "ISEN/Cloud Computing/CIPA4/Cloud Computing Cours 1.md",
     "ISEN/Cloud Computing/CIPA4/TP 4 Ansible.md",
     "ISEN/Cloud Computing/CIPA4/TP 3 Ansible.md",
     "ISEN/Cloud Computing/CIPA4/TP 2 Ansible.md",
-    "ISEN/Cloud Computing/CIPA4/TP 1 Ansible.md",
     "ISEN/Introduction a la cyber et a la cryptographie/CIPA 4/Tunnel SSH TP.canvas",
     "ISEN/Réseau/A2/TP Ansible et docker.canvas",
     "ISEN/BDD/CIR2/TD2.canvas",
