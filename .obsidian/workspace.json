@@ -13,10 +13,10 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "ISEN/Navigation de vehicule autonome/CIPA4/[Brunet] Navigation des véhicules autonomes1-Introduction.pdf"
+                "file": "ISEN/Navigation de vehicule autonome/CIPA4/[Brunet] Navigation des véhicules autonomes 3-Radars ,GPS et protocoles .pdf"
               },
               "icon": "lucide-file-text",
-              "title": "[Brunet] Navigation des véhicules autonomes1-Introduction"
+              "title": "[Brunet] Navigation des véhicules autonomes 3-Radars ,GPS et protocoles"
             }
           }
         ]
@@ -192,15 +192,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "622da1d4e0ba0f73",
+  "active": "07ac9f7bcb0c8c7d",
   "lastOpenFiles": [
-    "ISEN/Navigation de vehicule autonome/CIPA4/[Brunet] Outils de navigation pour la robotique - Fiche cuisine.pdf",
     "ISEN/Navigation de vehicule autonome/CIPA4/[Brunet] Navigation des véhicules autonomes1-Introduction.pdf",
+    "ISEN/Navigation de vehicule autonome/CIPA4/[Brunet] Outils de navigation pour la robotique - Fiche cuisine.pdf",
+    "ISEN/Navigation de vehicule autonome/CIPA4/[Brunet]  Navigation des véhicules autonomes 4 - Imagerie Principes et traitements de bases.pdf",
+    "ISEN/Navigation de vehicule autonome/CIPA4/[Brunet]  Navigation des véhicules autonomes 4a - Imagerie Changements de repère.pdf",
+    "ISEN/Navigation de vehicule autonome/CIPA4/[Brunet]  Navigation des véhicules autonomes 4b - Imagerie Positionnement.pdf",
     "ISEN/Navigation de vehicule autonome/CIPA4/[Brunet] Navigation des véhicules autonomes 3-Radars ,GPS et protocoles .pdf",
     "ISEN/Navigation de vehicule autonome/CIPA4/[Brunet] Navigation des vahicules autonomes 2-AHRS.pdf",
-    "ISEN/Navigation de vehicule autonome/CIPA4/[Brunet]  Navigation des véhicules autonomes 4b - Imagerie Positionnement.pdf",
-    "ISEN/Navigation de vehicule autonome/CIPA4/[Brunet]  Navigation des véhicules autonomes 4a - Imagerie Changements de repère.pdf",
-    "ISEN/Navigation de vehicule autonome/CIPA4/[Brunet]  Navigation des véhicules autonomes 4 - Imagerie Principes et traitements de bases.pdf",
     "ISEN/Cloud Computing/CIPA4/Kubernetes.pdf",
     "ISEN/Cloud Computing/CIPA4/Terraform.pdf",
     "ISEN/Cloud Computing/CIPA4/Openstack.pdf",
