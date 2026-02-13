@@ -13,10 +13,10 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "ISEN/Cloud Computing/CIPA4/Kubernetes.pdf"
+                "file": "ISEN/Navigation de vehicule autonome/CIPA4/[Brunet] Navigation des véhicules autonomes1-Introduction.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "Kubernetes"
+              "title": "[Brunet] Navigation des véhicules autonomes1-Introduction"
             }
           }
         ]
@@ -192,20 +192,21 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "07ac9f7bcb0c8c7d",
+  "active": "622da1d4e0ba0f73",
   "lastOpenFiles": [
-    "ISEN/Cloud Computing/CIPA4/Terraform.pdf",
+    "ISEN/Navigation de vehicule autonome/CIPA4/[Brunet] Outils de navigation pour la robotique - Fiche cuisine.pdf",
+    "ISEN/Navigation de vehicule autonome/CIPA4/[Brunet] Navigation des véhicules autonomes1-Introduction.pdf",
+    "ISEN/Navigation de vehicule autonome/CIPA4/[Brunet] Navigation des véhicules autonomes 3-Radars ,GPS et protocoles .pdf",
+    "ISEN/Navigation de vehicule autonome/CIPA4/[Brunet] Navigation des vahicules autonomes 2-AHRS.pdf",
+    "ISEN/Navigation de vehicule autonome/CIPA4/[Brunet]  Navigation des véhicules autonomes 4b - Imagerie Positionnement.pdf",
+    "ISEN/Navigation de vehicule autonome/CIPA4/[Brunet]  Navigation des véhicules autonomes 4a - Imagerie Changements de repère.pdf",
+    "ISEN/Navigation de vehicule autonome/CIPA4/[Brunet]  Navigation des véhicules autonomes 4 - Imagerie Principes et traitements de bases.pdf",
     "ISEN/Cloud Computing/CIPA4/Kubernetes.pdf",
+    "ISEN/Cloud Computing/CIPA4/Terraform.pdf",
     "ISEN/Cloud Computing/CIPA4/Openstack.pdf",
     "ISEN/Cloud Computing/CIPA4/Docker.pdf",
-    "ISEN/Cloud Computing/CIPA4/Git.pdf",
-    "ISEN/Cloud Computing/CIPA4/Ansible.pdf",
     "ISEN/Cloud Computing/CIPA4/Cloud Computing Cours 2.md",
     "ISEN/Cloud Computing/CIPA4/Cloud Computing Cours 1.md",
-    "ISEN/Cloud Computing/CIPA4/DevOPS.pdf",
-    "ISEN/Introduction a la cyber et a la cryptographie/CIPA 4/20011126_fips-197.pdf",
-    "ISEN/Introduction a la cyber et a la cryptographie/CIPA 4/20250708_CRYPTO_exos_avec_corriges.pdf",
-    "ISEN/Sécurité IOT/CIPA4/IoT.Firmware.Analysis.pdf",
     "ISEN/English/CIPA4/11 fev 2026.md",
     "ISEN/Sécurité IOT/CIPA4/Sécurité IOT TP2.md",
     "Pasted image 20260210150329.png",
