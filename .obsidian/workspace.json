@@ -18,8 +18,21 @@
               "icon": "lucide-file-text",
               "title": "[Brunet] Navigation des véhicules autonomes 3-Radars ,GPS et protocoles"
             }
+          },
+          {
+            "id": "b7c77009e3ea572b",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.12.7"
+              },
+              "icon": "lucide-book-up",
+              "title": "Notes de version 1.12.7"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -42,7 +55,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Files"
+              "title": "Explorateur de fichiers"
             }
           },
           {
@@ -182,17 +195,17 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "bases:Create new base": false,
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "audio-recorder:Start/stop recording": false,
+      "switcher:Ouvrir le sélecteur rapide": false,
+      "graph:Ouvrir la vue graphique": false,
+      "canvas:Créer une nouvelle toile": false,
+      "templates:Insérer le modèle": false,
+      "command-palette:Ouvrir la palette de commandes": false,
+      "audio-recorder:Démarrer / arrêter l'enregistrement": false,
+      "bases:Créer une nouvelle base": false,
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "07ac9f7bcb0c8c7d",
+  "active": "b7c77009e3ea572b",
   "lastOpenFiles": [
     "ISEN/Navigation de vehicule autonome/CIPA4/[Brunet] Navigation des véhicules autonomes1-Introduction.pdf",
     "ISEN/Navigation de vehicule autonome/CIPA4/[Brunet] Outils de navigation pour la robotique - Fiche cuisine.pdf",
