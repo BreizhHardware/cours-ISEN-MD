@@ -23,12 +23,24 @@
             "id": "b7c77009e3ea572b",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.12.7"
+                "file": "ISEN/Projet IA WEB Big Data/CIPA4/Présentation.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
-              "icon": "lucide-book-up",
-              "title": "Notes de version 1.12.7"
+              "icon": "lucide-file",
+              "title": "Présentation"
             }
           }
         ],
@@ -207,6 +219,9 @@
   },
   "active": "b7c77009e3ea572b",
   "lastOpenFiles": [
+    "ISEN/Projet IA WEB Big Data/CIPA4/Présentation.md",
+    "ISEN/Projet IA WEB Big Data/CIPA4",
+    "ISEN/Projet IA WEB Big Data",
     "ISEN/Navigation de vehicule autonome/CIPA4/[Brunet] Navigation des véhicules autonomes1-Introduction.pdf",
     "ISEN/Navigation de vehicule autonome/CIPA4/[Brunet] Outils de navigation pour la robotique - Fiche cuisine.pdf",
     "ISEN/Navigation de vehicule autonome/CIPA4/[Brunet]  Navigation des véhicules autonomes 4 - Imagerie Principes et traitements de bases.pdf",
@@ -215,9 +230,6 @@
     "ISEN/Navigation de vehicule autonome/CIPA4/[Brunet] Navigation des véhicules autonomes 3-Radars ,GPS et protocoles .pdf",
     "ISEN/Navigation de vehicule autonome/CIPA4/[Brunet] Navigation des vahicules autonomes 2-AHRS.pdf",
     "ISEN/Cloud Computing/CIPA4/Kubernetes.pdf",
-    "ISEN/Cloud Computing/CIPA4/Terraform.pdf",
-    "ISEN/Cloud Computing/CIPA4/Openstack.pdf",
-    "ISEN/Cloud Computing/CIPA4/Docker.pdf",
     "ISEN/Cloud Computing/CIPA4/Cloud Computing Cours 2.md",
     "ISEN/Cloud Computing/CIPA4/Cloud Computing Cours 1.md",
     "ISEN/English/CIPA4/11 fev 2026.md",
