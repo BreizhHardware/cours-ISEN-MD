@@ -10,3 +10,6 @@ Partie BigData en R
 # BigData
 Jeu de donnée initial
 Prétraitement initial a faire pour la phase d'apprentissage et de prédiction
+Stockage dans une base de données non relationnel
+
+# IA
