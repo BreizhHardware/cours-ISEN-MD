@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ISEN/Réunion/CIPA 4/Réunion 22 avr 2026.md",
+                "file": "ISEN/Linux Embarqué/CIPA4/Linux embarqué Cours 1.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -40,7 +40,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Réunion 22 avr 2026"
+              "title": "Linux embarqué Cours 1"
             }
           }
         ],
@@ -219,9 +219,12 @@
   },
   "active": "b7c77009e3ea572b",
   "lastOpenFiles": [
+    "ISEN/Réunion/CIPA 4/Réunion 22 avr 2026.md",
+    "ISEN/Linux Embarqué/CIPA4/Linux embarqué Cours 1.md",
+    "ISEN/Linux Embarqué/CIPA4",
+    "ISEN/Linux Embarqué",
     "ISEN/Réunion/CIPA 4/Réunion 8 janv 2026.md",
     "ISEN/Réunion/CIPA 4/Rentrée 2025-2026.md",
-    "ISEN/Réunion/CIPA 4/Réunion 22 avr 2026.md",
     "ISEN/Projet IA WEB Big Data/CIPA4/Présentation.md",
     "ISEN/Projet IA WEB Big Data/CIPA4",
     "ISEN/Projet IA WEB Big Data",
@@ -231,8 +234,6 @@
     "ISEN/Navigation de vehicule autonome/CIPA4/[Brunet]  Navigation des véhicules autonomes 4a - Imagerie Changements de repère.pdf",
     "ISEN/Navigation de vehicule autonome/CIPA4/[Brunet]  Navigation des véhicules autonomes 4b - Imagerie Positionnement.pdf",
     "ISEN/Navigation de vehicule autonome/CIPA4/[Brunet] Navigation des véhicules autonomes 3-Radars ,GPS et protocoles .pdf",
-    "ISEN/Navigation de vehicule autonome/CIPA4/[Brunet] Navigation des vahicules autonomes 2-AHRS.pdf",
-    "ISEN/Cloud Computing/CIPA4/Kubernetes.pdf",
     "ISEN/Cloud Computing/CIPA4/Cloud Computing Cours 2.md",
     "ISEN/Cloud Computing/CIPA4/Cloud Computing Cours 1.md",
     "ISEN/English/CIPA4/11 fev 2026.md",
@@ -264,7 +265,6 @@
     "ISEN/Réunion/CIPA 4/Réunion international.md",
     "ISEN/Cloud Computing/CIPA4/Cloud Computing Cours 3.md",
     "ISEN/Cloud Computing/CIPA4/Cloud Computing Cours 4.md",
-    "ISEN/Cloud Computing/CIPA4/Cloud Computing Cours 5.md",
     "ISEN/Introduction a la cyber et a la cryptographie/CIPA 4/Tunnel SSH TP.canvas",
     "ISEN/Réseau/A2/TP Ansible et docker.canvas",
     "ISEN/BDD/CIR2/TD2.canvas",
