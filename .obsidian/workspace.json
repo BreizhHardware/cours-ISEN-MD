@@ -43,7 +43,8 @@
               "title": "ISEN_ cours de comptabilité"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -216,11 +217,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "07ac9f7bcb0c8c7d",
+  "active": "b7c77009e3ea572b",
   "lastOpenFiles": [
+    "ISEN/Gestion et finance des entreprises/CIPA4/Gestion et finance des entreprises Cours 1.md",
     "ISEN/Gestion et finance des entreprises/CIPA4/ISEN_ cours de comptabilité.pdf",
     "ISEN/Navigation de vehicule autonome/CIPA4/[Brunet] Navigation des véhicules autonomes 3-Radars ,GPS et protocoles .pdf",
-    "ISEN/Gestion et finance des entreprises/CIPA4/Gestion et finance des entreprises Cours 1.md",
     "ISEN/Gestion et finance des entreprises/CIPA4/ISEN_ cours de comptabilité.pdf.crdownload",
     "ISEN/FreeRTOS/CIPA4/FreeRTOS Cours 1.md",
     "ISEN/Gestion et finance des entreprises/CIPA4",
