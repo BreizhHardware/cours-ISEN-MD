@@ -416,6 +416,46 @@ $$
 \end{bmatrix}x + \begin{bmatrix}
 2 \\
 0
-\end{bmatrix}
+\end{bmatrix} u(t) \\
+&y = \begin{bmatrix}
+1.5 & 0.625
+\end{bmatrix}x \\
+&sX(s) = \begin{bmatrix}
+-4 & -1.5 \\
+4 & 0
+\end{bmatrix}X(S) + \begin{bmatrix}
+2 \\
+0
+\end{bmatrix}U(s) \\
+&Y(s) = \begin{bmatrix}
+1.5 & 0.625
+\end{bmatrix}X(S) + \begin{bmatrix}
+0
+\end{bmatrix} U(s) \\
+&\text{Transfer function} = \begin{bmatrix}
+1.5 & 0.625
+\end{bmatrix}(SI-\begin{bmatrix}
+-4 & -1.5 \\
+4 & 0
+\end{bmatrix})^{-1}\begin{bmatrix}
+2 \\
+0
+\end{bmatrix}  \\
+&= \begin{bmatrix}
+1.5 & 0.625
+\end{bmatrix}\left( \frac{1}{s^2+4s+6}\begin{bmatrix}
+s & -1.5 \\
+4 & s+4
+\end{bmatrix} \right)\begin{bmatrix}
+2 \\
+0
+\end{bmatrix} \\
+&= \begin{bmatrix}
+1.5 & 0.625
+\end{bmatrix}\left( \frac{1}{s^2+4s+6}\begin{bmatrix}
+ 2s \\
+8
+\end{bmatrix} \right) \\
+&= \frac{1}{s^2+4s+6}(3s+5) = \frac{3s+5}{s^2+4s+6}
 \end{align}
 $$
