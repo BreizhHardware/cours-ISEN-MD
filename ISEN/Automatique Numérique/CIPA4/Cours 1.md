@@ -37,7 +37,7 @@ $$
 Consider the following differential equation:
 $$
 \begin{aligned}
-&\underbrace{y''''}_{\color{red}{\dot{x_{4}}}} + a_{1}\underbrace{y'''}_{\color{red}{{x_{4}}}} + a_{2}\underbrace{y''}_{\color{red}{{x_{3}}}} + a_{3}\underbrace{y'}_{\color{red}{{x_{2}}}} + a_{4}\underbrace{y}_{\color{red}{{x_{1}}}} = u`
+&\underbrace{y''''}_{\color{red}{\dot{x_{4}}}} + a_{1}\underbrace{y'''}_{\color{red}{{x_{4}}}} + a_{2}\underbrace{y''}_{\color{red}{{x_{3}}}} + a_{3}\underbrace{y'}_{\color{red}{{x_{2}}}} + a_{4}\underbrace{y}_{\color{red}{{x_{1}}}} = u
 \end{aligned}
 $$
 
@@ -222,6 +222,26 @@ $$
 \begin{align}
 &\sum \vec{Forces} = m.\vec{a}  \\
 & -b \dot{y} - ky - u(t) = m \ddot{y} \\
-&m \ddot{y} + b \dot{y} + ky = u(t)
+&m \ddot{y} + b \dot{y} + ky = u(t) \\
+&\text{Diff. eq. of order 2 => 2 state variables:} \\
+&m\underbrace{\ddot{y}}_{\color{red}{\dot{x_{2}}}} + b\underbrace{\dot{y}}_{\color{red}{{x_{2}}}} + k\underbrace{y}_{\color{red}{{x_{1}}}} = u(t) \\
+&x_{1} = y \\
+&x_{2} = \dot{y} = \dot{x_{1}} \color{red}{(1)}\\
+&\dot{x_{2}} = -\frac{K}{m} x_{1} - \frac{b}{m}x_{2} + \frac{1}{m}u(t) \color{red}{(2)} \\
+&\text{Write eq {\color{red}{(1)}} and {\color{red}{(2)}} under the form } \dot{x} = Ax + Bu  \\
+&\dot{x} = \begin{bmatrix}
+0 & 1 \\
+-\frac{K}{m} & -\frac{b}{m}
+\end{bmatrix}
+\begin{bmatrix}
+x_{1} \\
+x_{2}
+\end{bmatrix} + \begin{bmatrix}
+0 \\
+\frac{1}{m}
+\end{bmatrix} u \\
+&\underline{\text{Output equation:}} \\
+&y = x_{1} \\
+
 \end{align}
 $$
