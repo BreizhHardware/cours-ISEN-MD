@@ -240,8 +240,28 @@ x_{2}
 0 \\
 \frac{1}{m}
 \end{bmatrix} u \\
+&A = \begin{bmatrix}
+0 & 1 \\
+-\frac{K}{m} & -\frac{b}{m}
+\end{bmatrix} \text{ and B = } \begin{bmatrix}
+0 \\
+\frac{1}{m}
+\end{bmatrix} \\
 &\underline{\text{Output equation:}} \\
 &y = x_{1} \\
-
+&y = \begin{bmatrix}
+1 & 0
+\end{bmatrix}
+\begin{bmatrix}
+x_{1} \\
+x_{2}
+\end{bmatrix} + \begin{bmatrix}
+0
+\end{bmatrix} u \\
+&C = \begin{bmatrix}
+1 & 0
+\end{bmatrix} \text{ and D = } \begin{bmatrix}
+0
+\end{bmatrix}
 \end{align}
 $$
