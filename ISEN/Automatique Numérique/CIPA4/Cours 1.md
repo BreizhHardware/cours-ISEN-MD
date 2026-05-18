@@ -194,6 +194,22 @@ v(t)\\
 &\text{The output equation:} \\
 &v(c) = \frac{1}{C}q \\
 &\text{Write the output under the form } y = Cx + Du \\
-&v(c) = \frac{1}{C}x_{1}
+&v(c) = \frac{1}{C}x_{1} \\
+&v_{c} = \begin{bmatrix}
+\frac{1}{C} & 0
+\end{bmatrix} \begin{bmatrix}
+x_{1}  \\
+x_{2}
+\end{bmatrix} + \begin{bmatrix}
+0
+\end{bmatrix}v(t) \\
+&\text{C = } \begin{bmatrix}
+\frac{1}{C} & 0
+\end{bmatrix} \text{ and D = } \begin{bmatrix}
+0
+\end{bmatrix} 
 \end{aligned}
 $$
+**Problem 3**
+Find the state and output equation for the mechanical system shown.
+The external force $u(t)$ is the input and the displacement $y(t)$ is the output
