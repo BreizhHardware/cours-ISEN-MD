@@ -17,6 +17,7 @@ Modern control systems is based on state space approach
 
 **State space equations:**
 We can proove that the general state space representation of a dynamic system is written under the following form:
+
 $$
 \begin{aligned}
 &\dot{x} = Ax + Bu \\
@@ -35,6 +36,7 @@ $$
 
 **State space representation of a linear differential equation**
 Consider the following differential equation:
+
 $$
 \begin{aligned}
 &\underbrace{y''''}_{\color{red}{\dot{x_{4}}}} + a_{1}\underbrace{y'''}_{\color{red}{{x_{4}}}} + a_{2}\underbrace{y''}_{\color{red}{{x_{3}}}} + a_{3}\underbrace{y'}_{\color{red}{{x_{2}}}} + a_{4}\underbrace{y}_{\color{red}{{x_{1}}}} = u
@@ -43,6 +45,7 @@ $$
 
 In this exemple we have a differential equation of order = 4 => we have 4 state variables
 We define the state variables as:
+
 $$
 \begin{aligned}
 &x_{1} = y \\
@@ -53,6 +56,7 @@ $$
 \end{aligned}
 $$
 We obtain the following system of equation
+
 $$
 \begin{aligned}
 &\dot{x_{1}} = x_{2} \\
@@ -106,20 +110,25 @@ u \\
 $$
 
 **Problem 1**
+
 ![](https://cdn.breizhhardware.fr/FAKA3/JolIsUKI53.png/raw)
 Find the state space representation of the given RL circuit if $v(t)$ is the system input and $v_{l}$ is the system output
 
 **Solution:**
+
 First fin the diff. eq. of the system
 Apply Kirchhoff's voltage low (KVL)
+
 $$
 \begin{aligned}
 & v(t) = v_{r} + v_{l} \\
 & v(t) = Ri + L \frac{di}{dt} \color{red}{(1)}
 \end{aligned}
 $$
+
 We have a differential equation of order 1 => 1 state variable
 We choose $x_{1} = i$
+
 $$
 \begin{aligned}
 & {\color{red}{(1)}:} v(t) = Rx_{1} + L \dot{x_{1}} \implies \dot{x_{1}} = -\frac{R}{L}x_{1} + \frac{1}{L}v(t) {\color{red}{(2)}}\\
@@ -133,7 +142,9 @@ $$
 \end{bmatrix} \\
 \end{aligned}
 $$
+
 The output equation:
+
 $$
 \begin{aligned}
 & v_{l} = L \frac{di}{dt} \\
@@ -151,9 +162,12 @@ $$
 $$
 
 **Problem 2**
+
 Find the state and output equation of the given RLC circuit if $v(t)$ is the input and $v(c)$ is the output.
 ![](https://cdn.breizhhardware.fr/FAKA3/DEXilUyI79.png/raw)
+
 **Solution**
+
 $$
 \begin{aligned}
 & v(t) = v_{r} + v_{l} + v_{c} \\
@@ -210,14 +224,18 @@ x_{2}
 \end{bmatrix} 
 \end{aligned}
 $$
+
 **Problem 3**
+
 Find the state and output equation for the mechanical system shown.
 The external force $u(t)$ is the input and the displacement $y(t)$ is the output
 ![](https://cdn.breizhhardware.fr/FAKA3/GUBEWIZI82.png/raw)
 **Solution**
+
 Free body diagram
 ![](https://cdn.breizhhardware.fr/FAKA3/BIWEGONi54.png/raw)
 Apply Newton's 2nd law:
+
 $$
 \begin{align}
 &\sum \vec{Forces} = m.\vec{a}  \\
