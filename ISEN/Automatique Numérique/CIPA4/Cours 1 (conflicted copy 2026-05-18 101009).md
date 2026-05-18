@@ -136,8 +136,7 @@ $$
 The output equation:
 $$
 \begin{aligned}
-& v_{l} = L \frac{di}{dt} \\
-&\text{write the output equation under the form } y = Cx + Du \\
-& v_{l} = L \frac{di}{dt} = L \dot{x}
+& v_{l} = L \frac{di}{dt}
+\text{}
 \end{aligned}
 $$
