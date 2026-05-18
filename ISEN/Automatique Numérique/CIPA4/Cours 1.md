@@ -396,6 +396,26 @@ $$
 &\text{Take Laplace transform assuming zero initial condition: } \\
 &sX(s) = AX(s) + BU(s) \color{red}{(1)}\\
 & Y(s) = CX(s) + DU(s) \color{red}{(2)} \\
-&{\color{red}{(1):}} (sI-A)
+&{\color{red}{(1):}} (sI-A)X(s) = BU(s) \text{where I is the identity matrix} \\
+&X(s) = (sI-A)^{-1}BU(s) \\
+&\text{substitute X(s) into eq} \color{red}{(2) :} \\
+&Y(s) = C(SI-A)^{-1}BU(s)+DU(s) = [C(SI-A)^{-1}B+D]U(s) \\
+&\text{Transfer function} = \frac{output}{input} = \frac{Y(s)}{U(s)} = C(SI-A)^{-1}B+D \\
+&\color{red}{\text{If Y and U are vectors, } C(SI-A)^{-1}B \text{is called transfer matrix}}
+\end{align}
+$$
+
+**Problem 6**
+
+Convert the state and output equations to a transfer function
+$$
+\begin{align}
+&\dot{x} = \begin{bmatrix}
+-4 & -1.5 \\
+4 & 0
+\end{bmatrix}x + \begin{bmatrix}
+2 \\
+0
+\end{bmatrix}
 \end{align}
 $$
