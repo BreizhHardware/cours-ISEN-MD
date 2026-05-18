@@ -149,12 +149,12 @@ The output equation:
 
 $$
 \begin{aligned}
-& v_{l} = L \frac{di}{dt} \\
-&\text{write the output equation under the form } y = Cx + Du \\
-& v_{l} = L \frac{di}{dt} = L \dot{x_{1}}\\
-&\text{using eq {\color{red}{(2)}}:} \\
-& v_{l} = -Rx_{1} + v(t) \text{ of the form: } \\
-& y = Cx + Du \\
+& v_{l} = L \frac{di}{dt} \\\\
+&\text{write the output equation under the form } y = Cx + Du \\\\
+& v_{l} = L \frac{di}{dt} = L \dot{x_{1}}\\\\
+&\text{using eq {\color{red}{(2)}}:} \\\\
+& v_{l} = -Rx_{1} + v(t) \text{ of the form: } \\\\
+& y = Cx + Du \\\\
 & \text{where C} = \begin{bmatrix}
 -R
 \end{bmatrix} \text{ and } D = \begin{bmatrix}
@@ -172,53 +172,53 @@ Find the state and output equation of the given RLC circuit if $v(t)$ is the inp
 
 $$
 \begin{aligned}
-& v(t) = v_{r} + v_{l} + v_{c} \\
-& v(t) = Ri + L \frac{di}{dt} + \frac{1}{C}q \\
-&\text{where i = }\frac{dq}{dt} \\
-&\implies v(t) = R \frac{dq}{dt} + L \frac{d^2q}{dt^2} + \frac{1}{C}q \\
-&v(t) = L \frac{d^2i}{dt^2} + R \frac{dq}{dt} + \frac{1}{C}q \color{red}{(1)}\\
-&\text{diff. eq. of order 2 => 2 state variables}\\
-&\text{we choose: }\\
-&x_{1} = q \\
-& x_{2} = \frac{dq}{dt} = \dot{x_{1}} {\color{red}{(2)}} \implies \dot{x_{2}} = \frac{d^2q}{dt^2} \\
-&{\color{red}{(1)}:} v(t) = R x_{2} + L \dot{x_{2}} + \frac{1}{C} x_{1} \\
-&\implies \dot{x_{2}} = -\frac{1}{LC}x_{1} - \frac{R}{L}x_{2} + \frac{1}{L} v(t) \color{red}{(3)}\\
+& v(t) = v_{r} + v_{l} + v_{c} \\\\
+& v(t) = Ri + L \frac{di}{dt} + \frac{1}{C}q \\\\
+&\text{where i = }\frac{dq}{dt} \\\\
+&\implies v(t) = R \frac{dq}{dt} + L \frac{d^2q}{dt^2} + \frac{1}{C}q \\\\
+&v(t) = L \frac{d^2i}{dt^2} + R \frac{dq}{dt} + \frac{1}{C}q \color{red}{(1)}\\\\
+&\text{diff. eq. of order 2 => 2 state variables}\\\\
+&\text{we choose: }\\\\
+&x_{1} = q \\\\
+& x_{2} = \frac{dq}{dt} = \dot{x_{1}} {\color{red}{(2)}} \implies \dot{x_{2}} = \frac{d^2q}{dt^2} \\\\
+&{\color{red}{(1)}:} v(t) = R x_{2} + L \dot{x_{2}} + \frac{1}{C} x_{1} \\\\
+&\implies \dot{x_{2}} = -\frac{1}{LC}x_{1} - \frac{R}{L}x_{2} + \frac{1}{L} v(t) \color{red}{(3)}\\\\
 &\text{Write eq } {\color{red}{(2)}} \text{ and } {\color{red}{(3)}} \text{ under the form } \dot{x} = Ax + Bu \\\\
 &\dot{x} = \begin{bmatrix}
-\dot{x_{1}} \\
+\dot{x_{1}} \\\\
 \dot{x_{2}}
 \end{bmatrix} = \begin{bmatrix}
-0 & 1 \\
+0 & 1 \\\\
 -\frac{1}{LC} & -\frac{R}{L}
 \end{bmatrix}
 \begin{bmatrix}
-x_{1} \\
+x_{1} \\\\
 x_{2}
 \end{bmatrix} + 
 \begin{bmatrix}
-0 \\
+0 \\\\
 \frac{1}{L}
 \end{bmatrix}
-v(t)\\
+v(t)\\\\
 & \implies A = \begin{bmatrix}
-0 & 1 \\
+0 & 1 \\\\
 -\frac{1}{LC} & -\frac{R}{L}
 \end{bmatrix} \text{ and B = } \begin{bmatrix}
-0 \\
+0 \\\\
 \frac{1}{L}
-\end{bmatrix} \\
-&\text{The output equation:} \\
-&v(c) = \frac{1}{C}q \\
-&\text{Write the output under the form } y = Cx + Du \\
-&v(c) = \frac{1}{C}x_{1} \\
+\end{bmatrix} \\\\
+&\text{The output equation:} \\\\
+&v(c) = \frac{1}{C}q \\\\
+&\text{Write the output under the form } y = Cx + Du \\\\
+&v(c) = \frac{1}{C}x_{1} \\\\
 &v_{c} = \begin{bmatrix}
 \frac{1}{C} & 0
 \end{bmatrix} \begin{bmatrix}
-x_{1}  \\
+x_{1}  \\\\
 x_{2}
 \end{bmatrix} + \begin{bmatrix}
 0
-\end{bmatrix}v(t) \\
+\end{bmatrix}v(t) \\\\
 &\text{C = } \begin{bmatrix}
 \frac{1}{C} & 0
 \end{bmatrix} \text{ and D = } \begin{bmatrix}
@@ -240,44 +240,44 @@ Apply Newton's 2nd law:
 
 $$
 \begin{align}
-&\sum \vec{Forces} = m.\vec{a}  \\
-& -b \dot{y} - ky - u(t) = m \ddot{y} \\
-&m \ddot{y} + b \dot{y} + ky = u(t) \\
-&\text{Diff. eq. of order 2 => 2 state variables:} \\
-&m\underbrace{\ddot{y}}_{\color{red}{\dot{x_{2}}}} + b\underbrace{\dot{y}}_{\color{red}{{x_{2}}}} + k\underbrace{y}_{\color{red}{{x_{1}}}} = u(t) \\
-&x_{1} = y \\
-&x_{2} = \dot{y} = \dot{x_{1}} \color{red}{(1)}\\
-&\dot{x_{2}} = -\frac{K}{m} x_{1} - \frac{b}{m}x_{2} + \frac{1}{m}u(t) \color{red}{(2)} \\
-&\text{Write eq {\color{red}{(1)}} and {\color{red}{(2)}} under the form } \dot{x} = Ax + Bu  \\
+&\sum \vec{Forces} = m.\vec{a}  \\\\
+& -b \dot{y} - ky - u(t) = m \ddot{y} \\\\
+&m \ddot{y} + b \dot{y} + ky = u(t) \\\\
+&\text{Diff. eq. of order 2 => 2 state variables:} \\\\
+&m\underbrace{\ddot{y}}_{\color{red}{\dot{x_{2}}}} + b\underbrace{\dot{y}}_{\color{red}{{x_{2}}}} + k\underbrace{y}_{\color{red}{{x_{1}}}} = u(t) \\\\
+&x_{1} = y \\\\
+&x_{2} = \dot{y} = \dot{x_{1}} \color{red}{(1)}\\\\
+&\dot{x_{2}} = -\frac{K}{m} x_{1} - \frac{b}{m}x_{2} + \frac{1}{m}u(t) \color{red}{(2)} \\\\
+&\text{Write eq {\color{red}{(1)}} and {\color{red}{(2)}} under the form } \dot{x} = Ax + Bu  \\\\
 &\dot{x} = \begin{bmatrix}
-0 & 1 \\
+0 & 1 \\\\
 -\frac{K}{m} & -\frac{b}{m}
 \end{bmatrix}
 \begin{bmatrix}
-x_{1} \\
+x_{1} \\\\
 x_{2}
 \end{bmatrix} + \begin{bmatrix}
-0 \\
+0 \\\\
 \frac{1}{m}
-\end{bmatrix} u \\
+\end{bmatrix} u \\\\
 &A = \begin{bmatrix}
-0 & 1 \\
+0 & 1 \\\\
 -\frac{K}{m} & -\frac{b}{m}
 \end{bmatrix} \text{ and B = } \begin{bmatrix}
-0 \\
+0 \\\\
 \frac{1}{m}
-\end{bmatrix} \\
-&\underline{\text{Output equation:}} \\
-&y = x_{1} \\
+\end{bmatrix} \\\\
+&\underline{\text{Output equation:}} \\\\
+&y = x_{1} \\\\
 &y = \begin{bmatrix}
 1 & 0
 \end{bmatrix}
 \begin{bmatrix}
-x_{1} \\
+x_{1} \\\\
 x_{2}
 \end{bmatrix} + \begin{bmatrix}
 0
-\end{bmatrix} u \\
+\end{bmatrix} u \\\\
 &C = \begin{bmatrix}
 1 & 0
 \end{bmatrix} \text{ and D = } \begin{bmatrix}
@@ -303,46 +303,46 @@ cross multiplying yields:
 
 $$
 \begin{align}
-&(s^3 + 9s^2 + 26s + 24)C(s) = 24R(s) \\
-&s^3C(s) + 9s^2C(s) + 26sC(s) + 24C(s) = 24R(s) \\
-&\text{Taking the inverse Laplace transform yields:} \quad \color{red}{\text{(Review } L[f^{m}(t)] = s^mF(s) \text{ with zero I.C.)}} \\
-&\dddot{c}+9\ddot{c}+26\dot{c}+24c = 24r \\
-&\text{We get a diff. eq. of order 3 => 3 state variables} \\
-&\text{We select: } \\
-&x_{1} = c \\
-&x_{2} = \dot{c} \\
-&x_{3} = \ddot{c} \\
-&\text{We can write the state equation } \dot{x} = Ax + Bu \\
-&\dot{x_{1}} = x_{2} \\
-&\dot{x_{2}} = x_{3} \\
-&\dot{x_{3}} = -24x_{1} - 26x_{2} - 9x_{3} + 24r \\
-&\text{In matrix form: } \\
+&(s^3 + 9s^2 + 26s + 24)C(s) = 24R(s) \\\\
+&s^3C(s) + 9s^2C(s) + 26sC(s) + 24C(s) = 24R(s) \\\\
+&\text{Taking the inverse Laplace transform yields:} \quad \color{red}{\text{(Review } L[f^{m}(t)] = s^mF(s) \text{ with zero I.C.)}} \\\\
+&\dddot{c}+9\ddot{c}+26\dot{c}+24c = 24r \\\\
+&\text{We get a diff. eq. of order 3 => 3 state variables} \\\\
+&\text{We select: } \\\\
+&x_{1} = c \\\\
+&x_{2} = \dot{c} \\\\
+&x_{3} = \ddot{c} \\\\
+&\text{We can write the state equation } \dot{x} = Ax + Bu \\\\
+&\dot{x_{1}} = x_{2} \\\\
+&\dot{x_{2}} = x_{3} \\\\
+&\dot{x_{3}} = -24x_{1} - 26x_{2} - 9x_{3} + 24r \\\\
+&\text{In matrix form: } \\\\
 &\dot{x} = \begin{bmatrix}
-\dot{x_{1}} \\
-\dot{x_{2}} \\
+\dot{x_{1}} \\\\
+\dot{x_{2}} \\\\
 \dot{x_{3}}
 \end{bmatrix} =
 \begin{bmatrix}
-0 & 1 & 0 \\
-0 & 0 & 1 \\
+0 & 1 & 0 \\\\
+0 & 0 & 1 \\\\
 -24 & -26 & -9
 \end{bmatrix} 
 \begin{bmatrix}
-x_{1} \\
-x_{2} \\
+x_{1} \\\\
+x_{2} \\\\
 x_{3}
 \end{bmatrix} + \begin{bmatrix}
-0 \\
-0 \\
+0 \\\\
+0 \\\\
 24
-\end{bmatrix} r \\
-&y = c =x_{1} \\ 
-&\text{In matrix form: } \\
+\end{bmatrix} r \\\\
+&y = c =x_{1} \\\\
+&\text{In matrix form: } \\\\
 &y = \begin{bmatrix}
 1 & 0  & 0
 \end{bmatrix} \begin{bmatrix}
-x_{1} \\
-x_{2} \\
+x_{1} \\\\
+x_{2} \\\\
 x_{3}
 \end{bmatrix} + \begin{bmatrix}
 0
@@ -367,5 +367,31 @@ We seperate the system into two cascaded blocks
 The first block gives:
 
 $$
-\frac{X(s)}{R(s)} = \frac{1}{s^3+9s^2+16s}
+\begin{align}
+&\frac{X(s)}{R(s)} = \frac{1}{s^3+9s^2+26s+24} \\\\
+&(s^3+9s^2+26s+24)X(s) = R(s) \\\\
+&s^3X(s)+9s^2X(S)+26sX(s)+24X(s) = R(s) \\\\
+&\text{Taking the inverse Laplace transfer, with zero initial condition, yields} \\\\
+&\dddot{x_{3}}+9\ddot{x}+26\dot{x}+24x = r(t) \\\\
+&\text{We select the following state variables} \\\\
+&x_{1} = x \\\\
+&x_{2} = \dot{x} \\\\
+&x_{3} = \ddot{x} \\\\
+&\text{The state equations:} \\\\
+&\dot{x_{1}} = x_{2} \\
+&\dot{x_{2}} = x_{3} \\
+&\dot{x_{3}} = -24x_{1} - 26x_{2} - 9x_{3} + r(t) \\\\
+&\text{under matrix form: } \dot{x} = Ax + Bu \\
+&\dot{x} = \begin{bmatrix}
+\dot{x_{1}} \\
+\dot{x_{2}} \\
+\dot{x_{3}}
+\end{bmatrix} = \begin{bmatrix}
+0 & 1 & 0 \\
+0 & 0 & 1 \\
+-24 & -26 & -9
+\end{bmatrix} \begin{bmatrix}
+
+\end{bmatrix}
+\end{align}
 $$
