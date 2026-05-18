@@ -37,7 +37,7 @@ $$
 Consider the following differential equation:
 $$
 \begin{aligned}
-y\prime\prime\prime\prime+a_{1}y\prime\prime\prime+a_{2}y\prime\prime+a_{3}y\prime+a_{4}y = u
+\underbrace{y''''}_{\color{red}{\dot{x_{4}}}} + a_{1}\underbrace{y'''}_{\color{red}{{x_{4}}}} + a_{2}\underbrace{y''}_{\color{red}{{x_{3}}}} + a_{3}\underbrace{y'}_{\color{red}{{x_{2}}}} + a_{4}\underbrace{y}_{\color{red}{{x_{1}}}} = u`
 \end{aligned}
 $$
 
@@ -45,12 +45,35 @@ In this exemple we have a differential equation of order = 4 => we have 4 state 
 We define the state variables as:
 $$
 \begin{aligned}
-x_{1} = y
-x_{2} = y\prime = \frac{dy}{dt}
-x_{3} = y\prime\prime = \frac{d^2y}{dt^2}
-x_{4} = y\prime\prime\prime = \frac{d^3y}{dt^3}
-
+x_{1} = y \\
+x_{2} = y\prime = \frac{dy}{dt} = \dot{y} = \dot{x_{1}} \\
+x_{3} = y\prime\prime = \frac{d^2y}{dt^2} = \dot{x_{2}} \\
+x_{4} = y\prime\prime\prime = \frac{d^3y}{dt^3} = \dot{x_{3}} \\
 \implies 
-\dot{x} &= Ax + Bu \\
+\dot{x_{4}} &= -a_{1}x_{4}-a_{2}x_{3}-a_{3}x_{2}-a_{4}x_{1}+u \\
+\end{aligned}
+$$
+We obtain the following system of equation
+$$
+\begin{aligned}
+\dot{x_{1}} = x_{2} \\
+\dot{x_{2}} = x_{3} \\
+\dot{x_{3}} = x_{4} \\
+\dot{x_{4}} -a_{1}x_{4}-a_{2}x_{3}-a_{3}x_{2}-a_{4}x_{1}+u \\
+\text{Write the above system under the form } \dot{X} = Ax + Bu \\
+\dot{X} = \begin{matrix}
+\dot{x_{1}} \\
+\dot{x_{2}} \\
+\dot{x_{3}} \\
+\dot{x_{4}} \\
+\end{matrix}
+=
+\begin{bmatrix}
+0 & 1 & 0 & 0 \\
+0 & 0 & 1 & 0 \\
+0 & 0 & 0 & 1 \\
+1 & 0 & 0 & 0 
+\end{bmatrix}
+
 \end{aligned}
 $$
