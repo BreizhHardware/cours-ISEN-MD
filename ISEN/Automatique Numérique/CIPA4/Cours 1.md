@@ -158,6 +158,42 @@ $$
 \begin{aligned}
 & v(t) = v_{r} + v_{l} + v_{c} \\
 & v(t) = Ri + L \frac{di}{dt} + \frac{1}{C}q \\
-&\text{where i = }\frac{dq}{dt}
+&\text{where i = }\frac{dq}{dt} \\
+&\implies v(t) = R \frac{dq}{dt} + L \frac{d^2q}{dt^2} + \frac{1}{C}q \\
+&v(t) = L \frac{d^2i}{dt^2} + R \frac{dq}{dt} + \frac{1}{C}q \color{red}{(1)}\\
+&\text{diff. eq. of order 2 => 2 state variables}\\
+&\text{we choose: }\\
+&x_{1} = q \\
+& x_{2} = \frac{dq}{dt} = \dot{x_{1}} {\color{red}{(2)}} \implies \dot{x_{2}} = \frac{d^2q}{dt^2} \\
+&{\color{red}{(1)}:} v(t) = R x_{2} + L \dot{x_{2}} + \frac{1}{C} x_{1} \\
+&\implies \dot{x_{2}} = -\frac{1}{LC}x_{1} - \frac{R}{L}x_{2} + \frac{1}{L} v(t) \color{red}{(3)}\\
+&\text{Write eq {\color{red}{(2)}} and {\color{red}{(3)}} under the form } \dot{x} = Ax + Bu \\
+&\dot{x} = \begin{bmatrix}
+\dot{x_{1}} \\
+\dot{x_{2}}
+\end{bmatrix} = \begin{bmatrix}
+0 & 1 \\
+-\frac{1}{LC} & -\frac{R}{L}
+\end{bmatrix}
+\begin{bmatrix}
+x_{1} \\
+x_{2}
+\end{bmatrix} + 
+\begin{bmatrix}
+0 \\
+\frac{1}{L}
+\end{bmatrix}
+v(t)\\
+& \implies A = \begin{bmatrix}
+0 & 1 \\
+-\frac{1}{LC} & -\frac{R}{L}
+\end{bmatrix} \text{ and B = } \begin{bmatrix}
+0 \\
+\frac{1}{L}
+\end{bmatrix} \\
+&\text{The output equation:} \\
+&v(c) = \frac{1}{C}q \\
+&\text{Write the output under the form } y = Cx + Du \\
+&v(c) = \frac{1}{C}x_{1}
 \end{aligned}
 $$
