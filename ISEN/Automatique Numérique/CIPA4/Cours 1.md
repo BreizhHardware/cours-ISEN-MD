@@ -183,7 +183,7 @@ $$
 & x_{2} = \frac{dq}{dt} = \dot{x_{1}} {\color{red}{(2)}} \implies \dot{x_{2}} = \frac{d^2q}{dt^2} \\
 &{\color{red}{(1)}:} v(t) = R x_{2} + L \dot{x_{2}} + \frac{1}{C} x_{1} \\
 &\implies \dot{x_{2}} = -\frac{1}{LC}x_{1} - \frac{R}{L}x_{2} + \frac{1}{L} v(t) \color{red}{(3)}\\
-&\text{Write eq {\color{red}{(2)}} and {\color{red}{(3)}} under the form } \dot{x} = Ax + Bu \\
+&\text{Write eq } {\color{red}{(2)}} \text{ and } {\color{red}{(3)}} \text{ under the form } \dot{x} = Ax + Bu \\\\
 &\dot{x} = \begin{bmatrix}
 \dot{x_{1}} \\
 \dot{x_{2}}
@@ -355,5 +355,17 @@ First seperate the transfer function into two cascaded transfer functions:
 
 The first is the denominator, and the second is just the numerator
 ![](https://cdn.breizhhardware.fr/FAKA3/QOjEJafE04.png/raw)
+![](https://cdn.breizhhardware.fr/FAKA3/wuPebiyi24.png/raw)
 
+**Problem 5**
 
+Find the state space representation of the transfer function shown:
+![](https://cdn.breizhhardware.fr/FAKA3/GODuNuMU97.png/raw)
+**Solution**
+We seperate the system into two cascaded blocks
+![](https://cdn.breizhhardware.fr/FAKA3/lUyePaRo39.png/raw)
+The first block gives:
+
+$$
+\frac{X(s)}{R(s)} = \frac{1}{s^3+9s^2+16s}
+$$
