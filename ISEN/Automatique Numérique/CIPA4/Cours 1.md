@@ -456,6 +456,19 @@ s & -1.5 \\
  2s \\
 8
 \end{bmatrix} \\
-&= \frac{1}{s^2+4s+6}(3s+5) = \frac{3s+5}{s^2+4s+6}
+&= \frac{1}{s^2+4s+6}(3s+5) = \frac{3s+5}{s^2+4s+6} \\
+&\color{red}{\text{Note that the denominator of the transfer function represent the characterstic equation of the system, given by} \det(SI-A)} \\
+&\color{red}{\text{The characteristic eq. determines the system poles and thus the performence and stability of the system}}
+\end{align}
+$$
+
+# 4 - Laplace transform solution of state equation
+Consider the following state and output equations:
+$$
+\begin{align}
+&\dot{x} = Ax + Bu \color{red}{(1)}\\
+&y = Cx + Du \color{red}{(2)} \\
+&\text{Taking Laplace transform of eq {\color{red}{(1)}} yields:} \\
+&sX(s) - X(0)
 \end{align}
 $$
