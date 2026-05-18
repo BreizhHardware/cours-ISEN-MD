@@ -109,7 +109,7 @@ $$
 ![](https://cdn.breizhhardware.fr/FAKA3/JolIsUKI53.png/raw)
 Find the state space representation of the given RL circuit if $v(t)$ is the system input and $v_{l}$ is the system output
 
-Solution:
+**Solution:**
 First fin the diff. eq. of the system
 Apply Kirchhoff's voltage low (KVL)
 $$
@@ -152,3 +152,12 @@ $$
 
 **Problem 2**
 Find the state and output equation of the given RLC circuit if $v(t)$ is the input and $v(c)$ is the output.
+![](https://cdn.breizhhardware.fr/FAKA3/DEXilUyI79.png/raw)
+**Solution**
+$$
+\begin{aligned}
+& v(t) = v_{r} + v_{l} + v_{c} \\
+& v(t) = Ri + L \frac{di}{dt} + \frac{1}{C}q \\
+&\text{where i = }\frac{dq}{dt}
+\end{aligned}
+$$
