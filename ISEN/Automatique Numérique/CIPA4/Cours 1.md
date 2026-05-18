@@ -483,5 +483,53 @@ $$
 Find the response y(t) of the following system represented in state space
 
 $$
+\begin{align}
+&\dot{x} = \begin{bmatrix}
+0 & 2 \\
+-3 & -5
+\end{bmatrix}x + \begin{bmatrix}
+0 \\
+1
+\end{bmatrix}e^{-t} \\
+&y = \begin{bmatrix}
+1 & 3
+\end{bmatrix}x \\
+&X(0) = \begin{bmatrix}
+2 \\
+1
+\end{bmatrix}
+\end{align}
+$$
 
+**Solution**
+
+The state solution is given by:
+$$
+\begin{align}
+&X(s) = (SI - A)^{-1}[X(0)+BU(s)] \\
+&\text{where } SI-A = \begin{bmatrix}
+s & 0 \\
+0 & s
+\end{bmatrix} - \begin{bmatrix}
+0 & 2 \\
+-3 & -5
+\end{bmatrix} = \begin{bmatrix}
+s & -2 \\
+3 & s+5
+\end{bmatrix} \\
+&(SI-A)^{-1} = \frac{1}{s(s+5)-3(-2)}\begin{bmatrix}
+s+5 & 2 \\
+-3 & s
+\end{bmatrix} = \frac{1}{s^2+5s+6}\begin{bmatrix}
+s+5 & 2 \\
+-3 & s
+\end{bmatrix} \\
+&X(0)+BU(s) = \begin{bmatrix}
+2 \\
+1
+\end{bmatrix} + \begin{bmatrix}
+0 \\
+1
+\end{bmatrix}U(s)
+\end{align}
 $$
