@@ -554,8 +554,27 @@ s+5 & 2 \\
 \frac{2(s+5)(s+1)+2(s+2)}{s+1} \\
 \frac{-6(s+1)+s(s+2)}{s+1}
 \end{bmatrix} \\
-&= \frac{1}{s^2+5s+6}\begin{bmatrix}
-
+&= \frac{1}{(s^2+5s+6)(s+1)}\begin{bmatrix}
+2s^2 + 14s + 14 \\
+s^2 - 4s - 6
 \end{bmatrix}
+\end{align}
+$$
+
+The output equation:
+
+$$
+\begin{align}
+&Y(s) = CX(s) + DU(s) \\
+&= \begin{bmatrix}
+1 & 3
+\end{bmatrix} \frac{1}{(s^2+5s+6)(s+1)}\begin{bmatrix}
+2s^2+14s+14 \\
+s^2-4s-6
+\end{bmatrix} \\
+&= \frac{2s^2+14s+14+3s^2-12s-18}{(s^2+5s+6)(s+1)} \\
+&= \frac{5s^2+2s-4}{(s^2+5s+6)(s+1)} \\
+&\text{The response y(t) is given by :} \\
+&y(t) = L^{-1}[Y(s)]
 \end{align}
 $$
