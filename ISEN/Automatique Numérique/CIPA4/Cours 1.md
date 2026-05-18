@@ -450,12 +450,12 @@ s & -1.5 \\
 2 \\
 0
 \end{bmatrix} \\
-&= \begin{bmatrix}
+&= \frac{1}{s^2+4s+6}\begin{bmatrix}
 1.5 & 0.625
-\end{bmatrix}\left( \frac{1}{s^2+4s+6}\begin{bmatrix}
+\end{bmatrix} \begin{bmatrix}
  2s \\
 8
-\end{bmatrix} \right) \\
+\end{bmatrix} \\
 &= \frac{1}{s^2+4s+6}(3s+5) = \frac{3s+5}{s^2+4s+6}
 \end{align}
 $$
