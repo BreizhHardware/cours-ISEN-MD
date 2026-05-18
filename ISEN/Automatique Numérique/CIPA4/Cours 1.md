@@ -297,3 +297,23 @@ Find the state-space representation in phase-variable form of the following tran
 solution:
 
 The transfer function $\frac{C(s)}{R(s)} = \frac{24}{s^3+9s^2+26s+24}$
+
+cross multiplying yields:
+
+$$
+\begin{align}
+&(s^3 + 9s^2 + 26s + 24)C(s) = 24R(s) \\
+&s^3C(s) + 9s^2C(s) + 26sC(s) + 24C(s) = 24R(s) \\
+&\text{Taking the inverse Laplace transform yields:} \quad \color{red}{\text{(Review } L[f^{m}(t)] = s^mF(s) \text{ with zero I.C.)}} \\
+&\dddot{c}+9\ddot{c}+26\dot{c}+24c = 24r \\
+&\text{We get a diff. eq. of order 3 => 3 state variables} \\
+&\text{We select: } \\
+&x_{1} = c \\
+&x_{2} = \dot{c} \\
+&x_{3} = \ddot{c} \\
+&\text{We can write the state equation } \dot{x} = Ax + Bu \\
+&\dot{x_{1}} = x_{2} \\
+&\dot{x_{2}} = x_{3} \\
+&\dot{x_{3}} = -24x_{1} - 26x_{2} - 9x_{3} + 24r
+\end{align}
+$$
