@@ -530,6 +530,32 @@ s+5 & 2 \\
 \end{bmatrix} + \begin{bmatrix}
 0 \\
 1
-\end{bmatrix}U(s)
+\end{bmatrix} \frac{1}{s+1} = \begin{bmatrix}
+2 \\
+1+ \frac{1}{s+1}
+\end{bmatrix} = 
+\begin{bmatrix}
+2 \\
+\frac{s+2}{s+1}
+\end{bmatrix} \\
+&X(s) = (SI-A)^{-1}[X(0) + BU(s)] \\
+&= \frac{1}{s^2+5s+6}\begin{bmatrix}
+s+5 & 2 \\
+-3 & s
+\end{bmatrix} \begin{bmatrix}
+2 \\
+\frac{s+2}{s+1}
+\end{bmatrix} \\
+&= \frac{1}{s^2+5s+6}\begin{bmatrix}
+2(s+5)+2 \frac{s+2}{s+1} \\
+-3*2+s \frac{s+2}{s+1}
+\end{bmatrix} \\
+&= \frac{1}{s^2+5s+6}\begin{bmatrix}
+\frac{2(s+5)(s+1)+2(s+2)}{s+1} \\
+\frac{-6(s+1)+s(s+2)}{s+1}
+\end{bmatrix} \\
+&= \frac{1}{s^2+5s+6}\begin{bmatrix}
+
+\end{bmatrix}
 \end{align}
 $$
