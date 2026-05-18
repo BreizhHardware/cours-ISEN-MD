@@ -575,6 +575,12 @@ s^2-4s-6
 &= \frac{2s^2+14s+14+3s^2-12s-18}{(s^2+5s+6)(s+1)} \\
 &= \frac{5s^2+2s-4}{(s^2+5s+6)(s+1)} \\
 &\text{The response y(t) is given by :} \\
-&y(t) = L^{-1}[Y(s)]
+&y(t) = L^{-1}[Y(s)] = L^{-1}\left[ \frac{5s^2+2s-4}{(s^2+5s+6)(s+1)} \right]=L^{-1}\left[ \frac{5s^2+2s-4}{(s+2)(s+3)(s+1)} \right] \\
+&= L^{-1}\left[  \frac{a_{1}}{s+1} + \frac{a_{2}}{s+2} + \frac{a_{3}}{s+3} \right] \\
+&\text{avec } a_{1} = \left[    \frac{5s^2+2s-4}{(s+2)(s+3)} \right]_{s=-1} = -\frac{1}{2} \\
+&a_{2} = \left[    \frac{5s^2+2s-4}{(s+1)(s+3)} \right]_{s=-2} = -12 \\
+&a_{3} = \left[    \frac{5s^2+2s-4}{(s+1)(s+2)} \right]_{s=-3} = \frac{35}{2} \\
+&y(t) = L^{-1}\left[ -\frac{\frac{1}{2}}{s+1} - \frac{12}{s+2} + \frac{\frac{35}{2}}{s+3} \right] \\
+&y(t) = -\frac{1}{2}e^{-t} -12 e^{-2t} + \frac{35}{2} e^{-3t}
 \end{align}
 $$
