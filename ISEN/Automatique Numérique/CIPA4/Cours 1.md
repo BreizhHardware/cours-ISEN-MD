@@ -138,6 +138,17 @@ $$
 \begin{aligned}
 & v_{l} = L \frac{di}{dt} \\
 &\text{write the output equation under the form } y = Cx + Du \\
-& v_{l} = L \frac{di}{dt} = L \dot{x}
+& v_{l} = L \frac{di}{dt} = L \dot{x_{1}}\\
+&\text{using eq {\color{red}{(2)}}:} \\
+& v_{l} = -Rx_{1} + v(t) \text{ of the form: } \\
+& y = Cx + Du \\
+& \text{where C} = \begin{bmatrix}
+-R
+\end{bmatrix} \text{ and } D = \begin{bmatrix}
+1
+\end{bmatrix}
 \end{aligned}
 $$
+
+**Problem 2**
+Find the state and output equation of the given RLC circuit if $v(t)$ is the input and $v(c)$ is the output.
