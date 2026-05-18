@@ -469,6 +469,19 @@ $$
 &\dot{x} = Ax + Bu \color{red}{(1)}\\
 &y = Cx + Du \color{red}{(2)} \\
 &\text{Taking Laplace transform of eq {\color{red}{(1)}} yields:} \\
-&sX(s) - X(0)
+&sX(s) - X(0) = AX(s) + BU(s) \\
+&(SI-A)X(s) = X(0)+BU(s) \\
+&X(s) = (SI-A)^{-1}[X(0) + BU(s)] \\
+&\text{We get the output solution by taking the inverse Laplace transformation of the output equation {\color{red}{(eq 2)}}:} \\
+&Y(s) = CX(s) + DU(s) \\
+&y(t) = L^{-1}[Y(s)]
 \end{align}
+$$
+
+**Problem 7**
+
+Find the response y(t) of the following system represented in state space
+
+$$
+
 $$
