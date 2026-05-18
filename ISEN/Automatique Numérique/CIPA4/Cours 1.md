@@ -32,3 +32,25 @@ C &: \text{output matrix} \\
 D &: \text{feed forward matrix}
 \end{aligned}
 $$
+
+**State space representation of a linear differential equation**
+Consider the following differential equation:
+$$
+\begin{aligned}
+y\prime\prime\prime\prime+a_{1}y\prime\prime\prime+a_{2}y\prime\prime+a_{3}y\prime+a_{4}y = u
+\end{aligned}
+$$
+
+In this exemple we have a differential equation of order = 4 => we have 4 state variables
+We define the state variables as:
+$$
+\begin{aligned}
+x_{1} = y
+x_{2} = y\prime = \frac{dy}{dt}
+x_{3} = y\prime\prime = \frac{d^2y}{dt^2}
+x_{4} = y\prime\prime\prime = \frac{d^3y}{dt^3}
+
+\implies 
+\dot{x} &= Ax + Bu \\
+\end{aligned}
+$$
