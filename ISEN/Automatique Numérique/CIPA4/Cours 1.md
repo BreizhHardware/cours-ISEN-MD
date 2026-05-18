@@ -1,4 +1,5 @@
 #AutomatiqueNumérique #CIPA4 
+
 **Modern control engineering**
 Classical control system: based on transfer function approach
 Transfer function approach is used:
@@ -314,6 +315,33 @@ $$
 &\text{We can write the state equation } \dot{x} = Ax + Bu \\
 &\dot{x_{1}} = x_{2} \\
 &\dot{x_{2}} = x_{3} \\
-&\dot{x_{3}} = -24x_{1} - 26x_{2} - 9x_{3} + 24r
+&\dot{x_{3}} = -24x_{1} - 26x_{2} - 9x_{3} + 24r \\
+&\text{In matrix form: } \\
+&\dot{x} = \begin{bmatrix}
+\dot{x_{1}} \\
+\dot{x_{2}} \\
+\dot{x_{3}}
+\end{bmatrix} =
+\begin{bmatrix}
+0 & 1 & 0 \\
+0 & 0 & 1 \\
+-24 & -26 & -9
+\end{bmatrix} 
+\begin{bmatrix}
+x_{1} \\
+x_{2} \\
+x_{3}
+\end{bmatrix} + \begin{bmatrix}
+0 \\
+0 \\
+24
+\end{bmatrix} r \\
+&y = c =x_{1} \\ 
+&\text{In matrix form: } \\
+&y = \begin{bmatrix}
+1 & 0  & 0
+\end{bmatrix} \begin{bmatrix}
+
+\end{bmatrix}
 \end{align}
 $$
