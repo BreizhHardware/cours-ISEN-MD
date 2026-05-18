@@ -341,7 +341,19 @@ x_{3}
 &y = \begin{bmatrix}
 1 & 0  & 0
 \end{bmatrix} \begin{bmatrix}
-
-\end{bmatrix}
+x_{1} \\
+x_{2} \\
+x_{3}
+\end{bmatrix} + \begin{bmatrix}
+0
+\end{bmatrix}r
 \end{align}
 $$
+
+If a transfer function has a polynomial in $s$ in the numerator that is of order less than the polynomial in the denominator, the numerator and the denominator can be handled seperately.
+First seperate the transfer function into two cascaded transfer functions:
+
+The first is the denominator, and the second is just the numerator
+![](https://cdn.breizhhardware.fr/FAKA3/QOjEJafE04.png/raw)
+
+
