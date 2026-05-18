@@ -55,6 +55,7 @@ $$
 &\implies\dot{x_{4}} = -a_{1}x_{4}-a_{2}x_{3}-a_{3}x_{2}-a_{4}x_{1}+u \\
 \end{aligned}
 $$
+
 We obtain the following system of equation
 
 $$
@@ -283,3 +284,16 @@ x_{2}
 \end{bmatrix}
 \end{align}
 $$
+
+# 2 - Converting a transfer function to state space
+To convert a transfer function, with a constant numeration, into a state equation in phase-variable form, we first convert the transfer function to a differential equation by cross-multiplying and taking the inverse Laplace transform, assuming zero initial conditions.
+
+**Problem 4**
+
+Find the state-space representation in phase-variable form of the following transfer function:
+
+![](https://cdn.breizhhardware.fr/FAKA3/SAdutoxA76.png/raw)
+
+solution:
+
+The transfer function $\frac{C(s)}{R(s)} = \frac{24}{s^3+9s^2+26s+24}$
