@@ -213,3 +213,15 @@ $$
 **Problem 3**
 Find the state and output equation for the mechanical system shown.
 The external force $u(t)$ is the input and the displacement $y(t)$ is the output
+![](https://cdn.breizhhardware.fr/FAKA3/GUBEWIZI82.png/raw)
+**Solution**
+Free body diagram
+![](https://cdn.breizhhardware.fr/FAKA3/BIWEGONi54.png/raw)
+Apply Newton's 2nd law:
+$$
+\begin{align}
+&\sum \vec{Forces} = m.\vec{a}  \\
+& -b \dot{y} - ky - u(t) = m \ddot{y} \\
+&m \ddot{y} + b \dot{y} + ky = u(t)
+\end{align}
+$$
