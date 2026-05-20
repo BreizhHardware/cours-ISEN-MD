@@ -54,6 +54,18 @@
               "icon": "lucide-file",
               "title": "Mutations sociales Cours 1"
             }
+          },
+          {
+            "id": "b8e0f798b53c312e",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "ISEN/Mutations sociales/CIPA4/Mutation soc et pro partie 1_2026.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "Mutation soc et pro partie 1_2026"
+            }
           }
         ],
         "currentTab": 1
@@ -231,8 +243,9 @@
   },
   "active": "b7c77009e3ea572b",
   "lastOpenFiles": [
-    "ISEN/Gestion et finance des entreprises/CIPA4/ISEN _ analyse financière.pdf",
+    "ISEN/Mutations sociales/CIPA4/Mutation soc et pro partie 1_2026.pdf",
     "ISEN/Mutations sociales/CIPA4/Mutations sociales Cours 1.md",
+    "ISEN/Gestion et finance des entreprises/CIPA4/ISEN _ analyse financière.pdf",
     "ISEN/Mutations sociales/CIPA4",
     "ISEN/Mutations sociales",
     "ISEN/Gestion et finance des entreprises/CIPA4/ISEN_ cours de comptabilité.pdf",
@@ -246,7 +259,6 @@
     "ISEN/Navigation de vehicule autonome/CIPA4/[Brunet] Navigation des véhicules autonomes 3-Radars ,GPS et protocoles .pdf",
     "ISEN/Gestion et finance des entreprises/CIPA4/ISEN_ cours de comptabilité.pdf.crdownload",
     "ISEN/FreeRTOS/CIPA4/FreeRTOS Cours 1.md",
-    "ISEN/Gestion et finance des entreprises/CIPA4",
     "ISEN/Linux Embarqué/CIPA4/Linux embarqué Cours 1.md",
     "ISEN/Réunion/CIPA 4/Réunion 22 avr 2026.md",
     "ISEN/Réunion/CIPA 4/Réunion 8 janv 2026.md",
