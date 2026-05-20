@@ -35,24 +35,12 @@
             "id": "b7c77009e3ea572b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "ISEN/Automatique Numérique/CIPA4/Cours 1.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
+                "file": "ISEN/Gestion et finance des entreprises/CIPA4/ISEN _ analyse financière.pdf"
               },
-              "icon": "lucide-file",
-              "title": "Cours 1"
+              "icon": "lucide-file-text",
+              "title": "ISEN _ analyse financière"
             }
           }
         ],
@@ -231,10 +219,12 @@
   },
   "active": "b7c77009e3ea572b",
   "lastOpenFiles": [
-    "ISEN/Automatique Numérique/CIPA4/Cours 1.md",
-    "ISEN/Gestion et finance des entreprises/CIPA4/Gestion et finance des entreprises Cours 2.md",
-    "ISEN/Automatique Numérique/CIPA4/Cours 1 (conflicted copy 2026-05-18 101009).md",
     "ISEN/Gestion et finance des entreprises/CIPA4/ISEN_ cours de comptabilité.pdf",
+    "ISEN/Gestion et finance des entreprises/CIPA4/Exercice gestion _ début d’activité.pdf",
+    "ISEN/Gestion et finance des entreprises/CIPA4/ISEN _ analyse financière.pdf",
+    "ISEN/Gestion et finance des entreprises/CIPA4/Gestion et finance des entreprises Cours 2.md",
+    "ISEN/Automatique Numérique/CIPA4/Cours 1.md",
+    "ISEN/Automatique Numérique/CIPA4/Cours 1 (conflicted copy 2026-05-18 101009).md",
     "ISEN/Automatique Numérique/CIPA4",
     "ISEN/Automatique Numérique",
     "ISEN/Gestion et finance des entreprises/CIPA4/Gestion et finance des entreprises Cours 1.md",
@@ -247,7 +237,6 @@
     "ISEN/FreeRTOS/CIPA4",
     "ISEN/FreeRTOS",
     "ISEN/Réunion/CIPA 4/Réunion 22 avr 2026.md",
-    "ISEN/Linux Embarqué/CIPA4",
     "ISEN/Réunion/CIPA 4/Réunion 8 janv 2026.md",
     "ISEN/Réunion/CIPA 4/Rentrée 2025-2026.md",
     "ISEN/Projet IA WEB Big Data/CIPA4/Présentation.md",
@@ -276,7 +265,6 @@
     "ISEN/Web/CIPA 4/TP/TP5/MPD.png",
     "ISEN/Introduction a la cyber et a la cryptographie/CIPA 4/Crypto Cours 1.md",
     "ISEN/Réunion/CIPA 3/Rentrée 2024-25.md",
-    "ISEN/Réunion/CIPA 3/Départ en entreprise 1 20-09-2024.md",
     "ISEN/Introduction a la cyber et a la cryptographie/CIPA 4/Tunnel SSH TP.canvas",
     "ISEN/Réseau/A2/TP Ansible et docker.canvas",
     "ISEN/BDD/CIR2/TD2.canvas",
