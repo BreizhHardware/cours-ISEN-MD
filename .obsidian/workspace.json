@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ISEN/Gestion et finance des entreprises/CIPA4/Gestion et finance des entreprises Cours 2.md",
+                "file": "ISEN/Gestion et finance des entreprises/CIPA4/Gestion et finance des entreprises Cours 1.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Gestion et finance des entreprises Cours 2"
+              "title": "Gestion et finance des entreprises Cours 1"
             }
           },
           {
@@ -67,8 +67,7 @@
               "title": "Mutation soc et pro partie 1_2026"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -241,16 +240,16 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b7c77009e3ea572b",
+  "active": "07ac9f7bcb0c8c7d",
   "lastOpenFiles": [
-    "ISEN/Mutations sociales/CIPA4/Mutation soc et pro partie 1_2026.pdf",
+    "ISEN/Gestion et finance des entreprises/CIPA4/Gestion et finance des entreprises Cours 2.md",
     "ISEN/Mutations sociales/CIPA4/Mutations sociales Cours 1.md",
+    "ISEN/Mutations sociales/CIPA4/Mutation soc et pro partie 1_2026.pdf",
     "ISEN/Gestion et finance des entreprises/CIPA4/ISEN _ analyse financière.pdf",
     "ISEN/Mutations sociales/CIPA4",
     "ISEN/Mutations sociales",
     "ISEN/Gestion et finance des entreprises/CIPA4/ISEN_ cours de comptabilité.pdf",
     "ISEN/Gestion et finance des entreprises/CIPA4/Exercice gestion _ début d’activité.pdf",
-    "ISEN/Gestion et finance des entreprises/CIPA4/Gestion et finance des entreprises Cours 2.md",
     "ISEN/Automatique Numérique/CIPA4/Cours 1.md",
     "ISEN/Automatique Numérique/CIPA4/Cours 1 (conflicted copy 2026-05-18 101009).md",
     "ISEN/Automatique Numérique/CIPA4",
