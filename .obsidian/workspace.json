@@ -35,39 +35,16 @@
             "id": "b7c77009e3ea572b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ISEN/Mutations sociales/CIPA4/Mutations sociales Cours 1.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Mutations sociales Cours 1"
-            }
-          },
-          {
-            "id": "b8e0f798b53c312e",
-            "type": "leaf",
-            "state": {
               "type": "pdf",
               "state": {
-                "file": "ISEN/Mutations sociales/CIPA4/Mutation soc et pro partie 1_2026.pdf"
+                "file": "ISEN/Mutations sociales/CIPA4/Mutation soc et pro _P1 et P2 2026.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "Mutation soc et pro partie 1_2026"
+              "title": "Mutation soc et pro _P1 et P2 2026"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -240,11 +217,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "07ac9f7bcb0c8c7d",
+  "active": "b7c77009e3ea572b",
   "lastOpenFiles": [
-    "ISEN/Gestion et finance des entreprises/CIPA4/Gestion et finance des entreprises Cours 2.md",
     "ISEN/Mutations sociales/CIPA4/Mutations sociales Cours 1.md",
     "ISEN/Mutations sociales/CIPA4/Mutation soc et pro partie 1_2026.pdf",
+    "ISEN/Mutations sociales/CIPA4/Mutation soc et pro _P1 et P2 2026.pdf",
+    "ISEN/Gestion et finance des entreprises/CIPA4/Gestion et finance des entreprises Cours 1.md",
+    "ISEN/Gestion et finance des entreprises/CIPA4/Gestion et finance des entreprises Cours 2.md",
     "ISEN/Gestion et finance des entreprises/CIPA4/ISEN _ analyse financière.pdf",
     "ISEN/Mutations sociales/CIPA4",
     "ISEN/Mutations sociales",
@@ -254,9 +233,7 @@
     "ISEN/Automatique Numérique/CIPA4/Cours 1 (conflicted copy 2026-05-18 101009).md",
     "ISEN/Automatique Numérique/CIPA4",
     "ISEN/Automatique Numérique",
-    "ISEN/Gestion et finance des entreprises/CIPA4/Gestion et finance des entreprises Cours 1.md",
     "ISEN/Navigation de vehicule autonome/CIPA4/[Brunet] Navigation des véhicules autonomes 3-Radars ,GPS et protocoles .pdf",
-    "ISEN/Gestion et finance des entreprises/CIPA4/ISEN_ cours de comptabilité.pdf.crdownload",
     "ISEN/FreeRTOS/CIPA4/FreeRTOS Cours 1.md",
     "ISEN/Linux Embarqué/CIPA4/Linux embarqué Cours 1.md",
     "ISEN/Réunion/CIPA 4/Réunion 22 avr 2026.md",
