@@ -773,6 +773,14 @@ s-8 & -1 \\
 &= s^3-6s^2-11s - 6s + 18 + 10s - 70 = s^3 - 6s^2 - 7s - 52 \\
 &\det(sI - A) = 0 \implies s^3 - 6s^2 - 7s - 52 = 0 \\
 &\text{Since we have a polynomial of order >= 2, we cannot determine the poles, thus we have to use} \\
-&\text{Routh criterion}
+&\text{Routh criterion} \\
+&\begin{array}{c|cc}
+s^3 & 1 & -7 \\
+s^2 & -6 & -52 \\
+s^1 & \frac{(-6)(-7) - (1)(-52)}{-6} = \frac{42 + 52}{-6} = -\frac{94}{6} = -\frac{47}{3} & 0 \\
+s^0 & \frac{(-\frac{47}{3})(-52) - (-6)0}{-\frac{47}{3}} = \frac{\frac{2444}{3} - 0}{-\frac{47}{3}} = -52 & 0 \\
+\end{array}
 \end{align}
 $$
+
+The system is stable if all c
