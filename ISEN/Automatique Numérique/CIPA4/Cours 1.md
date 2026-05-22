@@ -797,3 +797,33 @@ $$
 & y = Cx \color{red}{(2)}
 \end{align}
 $$
+![](https://cdn.breizhhardware.fr/FAKA3/xodUREwE10.png/raw)
+The error is given by:
+$$
+\begin{align}
+E(s) = U(s)-Y(s) \color{red}{(2')}
+\end{align}
+$$
+Taking the Laplace transform of eq $\color{red}{(1)}$ leads:
+$$
+\begin{align}
+&sX(s) = AX(s) + BU(s) \\
+&(sI - A)X(s) = BU(s) \\
+&X(s) = (sI-A)^{-1}BU(s) \color{red}{(3)}
+\end{align}
+$$
+
+Taking Laplace transform of eq $\color{red}{(2)}$:
+$$
+\begin{align}
+&Y(s) = CX(s) \\
+&Y(s)= C(sI-A)^{-1}BU(s) \color{red}{(4)}
+\end{align}
+$$
+
+Plugging eq $\color{red}{(2')}$ and $\color{red}{(4)}$ :
+$$
+\begin{align}
+ &E(s) = U(s) - C(sI - A)^{-1}BU(s)
+\end{align}
+$$
