@@ -408,6 +408,7 @@ $$
 **Problem 6**
 
 Convert the state and output equations to a transfer function
+
 $$
 \begin{align}
 &\dot{x} = \begin{bmatrix}
@@ -504,6 +505,7 @@ $$
 **Solution**
 
 The state solution is given by:
+
 $$
 \begin{align}
 &X(s) = (SI - A)^{-1}[X(0)+BU(s)] \\
@@ -824,6 +826,26 @@ $$
 Plugging eq $\color{red}{(2')}$ and $\color{red}{(4)}$ :
 $$
 \begin{align}
- &E(s) = U(s) - C(sI - A)^{-1}BU(s)
+ &E(s) = U(s) - C(sI - A)^{-1}BU(s) \\
+& = U(s) [1 - C(sI-A)^{-1}B] \\
 \end{align}
 $$
+To find $e(\infty)$ we apply the final value theorem:
+
+$$
+\begin{align}
+&e(\infty) = \lim_{ t \to \infty } e(t) = \lim_{ s \to 0 } sE((s)) \\
+&e(\infty) = \lim_{ s \to 0 } sU(s)[1-C(sI-A)^{-1}B]
+\end{align}
+$$
+Where $U(s)$ is the input
+
+|  $u(t)$   |        $U(s)$        |
+| :-------: | :------------------: |
+|    $1$    |    $\frac{1}{s}$     |
+|    $t$    |   $\frac{1}{s^2}$    |
+|   $t^n$   | $\frac{n!}{s^{n+1}}$ |
+| $e^{-at}$ |    $\frac{1}{s}$     |
+|           |                      |
+|           |                      |
+|           |                      |
