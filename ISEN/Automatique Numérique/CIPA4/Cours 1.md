@@ -61,12 +61,12 @@ We obtain the following system of equation
 
 $$
 \begin{aligned}
-&\dot{x_{1}} = x_{2} \\
-&\dot{x_{2}} = x_{3} \\
-&\dot{x_{3}} = x_{4} \\
-&\dot{x_{4}} = -a_{1}x_{4} - a_{2}x_{3} - a_{3}x_{2} - a_{4}x_{1} + u \\
-&\text{Write the above system under the form } \dot{X} = AX + BU \\
-&\dot{X} =
+& \dot{x_{1}} = x_{2} \\
+& \dot{x_{2}} = x_{3} \\
+& \dot{x_{3}} = x_{4} \\
+& \dot{x_{4}} = -a_{1}x_{4} - a_{2}x_{3} - a_{3}x_{2} - a_{4}x_{1} + u \\
+& \text{Write the above system under the form } \dot{X} = AX + BU \\
+& \dot{X} =
 \begin{bmatrix}
 \dot{x_{1}} \\
 \dot{x_{2}} \\
@@ -92,7 +92,7 @@ x_{4}
 1
 \end{bmatrix}
 u \\
-&\implies A =
+& \implies A =
 \begin{bmatrix}
 0 & 1 & 0 & 0 \\
 0 & 0 & 1 & 0 \\
