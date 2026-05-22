@@ -765,11 +765,14 @@ s-8 & -1 \\
 \end{bmatrix} + 3*\det \begin{bmatrix}
 -2 & -1 \\
 10 & s+2
-\end{bmatrix} + \det \begin{bmatrix}
+\end{bmatrix} - \det \begin{bmatrix}
 -2 & s-8 \\
 10 & 5
 \end{bmatrix} \\
-&= s ((s-8)(s+2)+5) + 3(-2(s+2) + 10) + (-10 - 10(s-8)) \\
-&= s^3-6s^2-11s - 6s + 18 - 10s - 90
+&= s ((s-8)(s+2)+5) + 3(-2(s+2) + 10) - (-10 - 10(s-8)) \\
+&= s^3-6s^2-11s - 6s + 18 + 10s - 70 = s^3 - 6s^2 - 7s - 52 \\
+&\det(sI - A) = 0 \implies s^3 - 6s^2 - 7s - 52 = 0 \\
+&\text{Since we have a polynomial of order >= 2, we cannot determine the poles, thus we have to use} \\
+&\text{Routh criterion}
 \end{align}
 $$
