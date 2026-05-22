@@ -714,5 +714,31 @@ The above equation determine the system poles.
 **Review: stability**
 
 A system is stable if an only if the real part of all the poles is negative. If at least one of the poles has a positive real part, then the system is unstable.
-![](https://cdn.breizhhardware.fr/FAKA3/xUnATEko42.png/raw)
+![](https://cdn.breizhhardware.fr/FAKA3/SAkoraDi82.png/raw)
 
+**Problem 9**
+
+The state space representation of a system is given by:
+
+$$
+\begin{align}
+&\dot{x} = \begin{bmatrix}
+0 & 3 & 1 \\
+2 & 8 & 1 \\
+-10 & -5 & -2
+\end{bmatrix}x + \begin{bmatrix}
+10 \\
+0 \\
+0
+\end{bmatrix}u \\
+&y = \begin{bmatrix}
+1 & 0 & 0
+\end{bmatrix}x
+\end{align}
+$$
+
+Check if the system is stable.
+
+$$
+
+$$
