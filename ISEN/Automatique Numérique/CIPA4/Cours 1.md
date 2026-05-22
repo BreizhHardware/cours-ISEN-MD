@@ -584,3 +584,27 @@ s^2-4s-6
 &y(t) = -\frac{1}{2}e^{-t} -12 e^{-2t} + \frac{35}{2} e^{-3t}
 \end{align}
 $$
+
+# 5 - Time domain solution of state equation
+We can prove that the time domain solution can be computed using the following equation:
+
+$$
+\begin{align}
+&x(t) = e^{A}.x(0) + \int_{0}^{t} e^{A(t-z)}.B.u(z)dz \\
+&x(t) = \phi(t).x(0)+\int_{0}^{t} \phi(t-z).B.u(z)dz
+\end{align}
+$$
+Where $\phi(t) = e^{At}$ is called the state transition matrix
+
+The state transition matrix $\phi(t)$ can be evaluated using the following expression:
+$$
+\begin{align}
+&\phi(t) = L^{-1}[(sI-A)^{-1}]
+\end{align}
+$$
+
+Properties of the state transition matrix:
+
+$$
+&
+$$
