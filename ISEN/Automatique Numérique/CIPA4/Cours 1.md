@@ -710,3 +710,9 @@ $$
 $$
 
 The above equation determine the system poles.
+
+**Review: stability**
+
+A system is stable if an only if the real part of all the poles is negative. If at least one of the poles has a positive real part, then the system is unstable.
+![](https://cdn.breizhhardware.fr/FAKA3/xUnATEko42.png/raw)
+
