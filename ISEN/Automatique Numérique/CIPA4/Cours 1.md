@@ -867,4 +867,55 @@ Where $U(s)$ is the input
 
 **Problem 10**
 
-Evaluate the steady-sate error for the system
+Evaluate the steady-sate error for the system described by:
+
+$$
+\begin{align}
+& \dot{x} = \begin{bmatrix}
+1 & 0 \\
+1 & 2
+\end{bmatrix} x + \begin{bmatrix}
+0 \\
+1
+\end{bmatrix}u \\
+& y = \begin{bmatrix}
+-1 & 0
+\end{bmatrix}x
+\end{align}
+$$
+
+for umit step input.
+
+**Solution**
+
+The steady state error is given by:
+
+$$
+\begin{align}
+& e(\infty) = \lim_{ t \to \infty } e(t) = \lim_{ s \to 0 } sE((s)) \\
+& e(\infty) = \lim_{ s \to 0 } sU(s)[1-C(sI-A)^{-1}B]
+\end{align}
+$$
+
+$$
+\begin{align}
+& (sI - A) = \begin{bmatrix}
+s & 0 \\
+0 & s
+\end{bmatrix} - \begin{bmatrix}
+1 & 0 \\
+1 & 2
+\end{bmatrix} = \begin{bmatrix}
+s-1 & 0 \\
+-1 & s-2
+\end{bmatrix} \\
+& (sI - A)^{-1} = \frac{1}{(s-1)(s-2)}\begin{bmatrix}
+s-2 & 0 \\
+1 & s-1
+\end{bmatrix} = \frac{1}{s^2 - 3s +2}\begin{bmatrix}
+s-2 & 0 \\
+1 & s-1
+\end{bmatrix} \\
+& e(\infty) = 
+\end{align}
+$$
