@@ -690,3 +690,4 @@ $} \\
 \end{align}
 $$
 
+# 6 - Stability in state space
