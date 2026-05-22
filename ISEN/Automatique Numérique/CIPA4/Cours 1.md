@@ -799,13 +799,16 @@ $$
 & y = Cx \color{red}{(2)}
 \end{align}
 $$
+
 ![](https://cdn.breizhhardware.fr/FAKA3/xodUREwE10.png/raw)
+
 The error is given by:
 $$
 \begin{align}
-E(s) = U(s)-Y(s) \color{red}{(2')}
+&E(s) = U(s)-Y(s) \color{red}{(2')}
 \end{align}
 $$
+
 Taking the Laplace transform of eq $\color{red}{(1)}$ leads:
 $$
 \begin{align}
@@ -823,13 +826,14 @@ $$
 \end{align}
 $$
 
-Plugging eq $\color{red}{(2')}$ and $\color{red}{(4)}$ :
+Plugging eq $\color{red}{(2')}$ and $\color{red}{(4)}$:
 $$
 \begin{align}
- &E(s) = U(s) - C(sI - A)^{-1}BU(s) \\
+&E(s) = U(s) - C(sI - A)^{-1}BU(s) \\
 & = U(s) [1 - C(sI-A)^{-1}B] \\
 \end{align}
 $$
+
 To find $e(\infty)$ we apply the final value theorem:
 
 $$
@@ -838,6 +842,7 @@ $$
 &e(\infty) = \lim_{ s \to 0 } sU(s)[1-C(sI-A)^{-1}B]
 \end{align}
 $$
+
 Where $U(s)$ is the input
 
 |  $u(t)$   |        $U(s)$        |
@@ -845,7 +850,5 @@ Where $U(s)$ is the input
 |    $1$    |    $\frac{1}{s}$     |
 |    $t$    |   $\frac{1}{s^2}$    |
 |   $t^n$   | $\frac{n!}{s^{n+1}}$ |
-| $e^{-at}$ |    $\frac{1}{s}$     |
-|           |                      |
-|           |                      |
-|           |                      |
+| $e^{-at}$ |   $\frac{1}{s+a}$    |
+
