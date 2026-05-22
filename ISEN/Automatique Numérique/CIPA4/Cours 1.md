@@ -783,4 +783,17 @@ s^0 & \frac{(-\frac{47}{3})(-52) - (-6)0}{-\frac{47}{3}} = \frac{\frac{2444}{3} 
 \end{align}
 $$
 
-The system is stable if all c
+The system is stable if all coefficients of the first column have the same sign.
+
+Since we have one sign change this implies that we have one pole with positive real part => The system is unstable.
+
+# 7 - Steady state error for systems in state space
+
+Consider the following closed-loop system represented in state space:
+
+$$
+\begin{align}
+& \dot{x} = Ax + Bu \color{red}{(1)}\\
+& y = Cx \color{red}{(2)}
+\end{align}
+$$
