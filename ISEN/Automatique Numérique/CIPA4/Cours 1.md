@@ -386,7 +386,7 @@ x_{3}
 \end{align}
 $$
 
-# 3 - Converting from state space to a transfer function
+# 3 - Converting from state space to a transfer function 
 Given the state and output equations
 
 $$
@@ -691,3 +691,22 @@ $} \\
 $$
 
 # 6 - Stability in state space
+In section [3](#3---converting-from-state-space-to-a-transfer-function), we have shown that state space representation is converted to a transfer function $G(s)$ using:
+
+$$
+\begin{align}
+&G(s) = C(sI-A)^{-1}B + D \\
+&= C \frac{{[cof(sI-1)]^TB}}{\det(sI-A)}+D \\
+&= \frac{C[cof(sI-A)]^TB+D\det(sI-A)}{\det(sI-A)} \\
+\end{align}
+$$
+
+Stability condition is determined using the characteristic equation of the system, which is given by settings the denominator of $G(s)$ to zero :
+
+$$
+\begin{align}
+&\det(sI-A) = 0
+\end{align}
+$$
+
+The above equation determine the system poles.
