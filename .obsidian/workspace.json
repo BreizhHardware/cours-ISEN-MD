@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "07ac9f7bcb0c8c7d",
+            "id": "b7c77009e3ea572b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ISEN/Gestion et finance des entreprises/CIPA4/Gestion et finance des entreprises Cours 1.md",
+                "file": "ISEN/Automatique Numérique/CIPA4/Cours 1.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,23 +28,10 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Gestion et finance des entreprises Cours 1"
-            }
-          },
-          {
-            "id": "b7c77009e3ea572b",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "ISEN/Mutations sociales/CIPA4/Mutation soc et pro _P3 2026.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "Mutation soc et pro _P3 2026"
+              "title": "Cours 1"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -217,10 +204,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b7c77009e3ea572b",
+  "active": "622da1d4e0ba0f73",
   "lastOpenFiles": [
-    "ISEN/Mutations sociales/CIPA4/Mutation soc et pro _P1 et P2 2026.pdf",
     "ISEN/Mutations sociales/CIPA4/Mutation soc et pro _P3 2026.pdf",
+    "ISEN/Mutations sociales/CIPA4/Mutation soc et pro _P1 et P2 2026.pdf",
     "ISEN/Mutations sociales/CIPA4/Mutations sociales Cours 1.md",
     "ISEN/Mutations sociales/CIPA4/Mutation soc et pro partie 1_2026.pdf",
     "ISEN/Gestion et finance des entreprises/CIPA4/Gestion et finance des entreprises Cours 1.md",
