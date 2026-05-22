@@ -805,31 +805,31 @@ $$
 The error is given by:
 $$
 \begin{align}
-&E(s) = U(s)-Y(s) \color{red}{(2')}
+& E(s) = U(s)-Y(s) \color{red}{(2')}
 \end{align}
 $$
 
 Taking the Laplace transform of eq $\color{red}{(1)}$ leads:
 $$
 \begin{align}
-&sX(s) = AX(s) + BU(s) \\
-&(sI - A)X(s) = BU(s) \\
-&X(s) = (sI-A)^{-1}BU(s) \color{red}{(3)}
+& sX(s) = AX(s) + BU(s) \\
+& (sI - A)X(s) = BU(s) \\
+& X(s) = (sI-A)^{-1}BU(s) \color{red}{(3)}
 \end{align}
 $$
 
 Taking Laplace transform of eq $\color{red}{(2)}$:
 $$
 \begin{align}
-&Y(s) = CX(s) \\
-&Y(s)= C(sI-A)^{-1}BU(s) \color{red}{(4)}
+& Y(s) = CX(s) \\
+& Y(s)= C(sI-A)^{-1}BU(s) \color{red}{(4)}
 \end{align}
 $$
 
 Plugging eq $\color{red}{(2')}$ and $\color{red}{(4)}$:
 $$
 \begin{align}
-&E(s) = U(s) - C(sI - A)^{-1}BU(s) \\
+& E(s) = U(s) - C(sI - A)^{-1}BU(s) \\
 & = U(s) [1 - C(sI-A)^{-1}B] \\
 \end{align}
 $$
@@ -838,8 +838,8 @@ To find $e(\infty)$ we apply the final value theorem:
 
 $$
 \begin{align}
-&e(\infty) = \lim_{ t \to \infty } e(t) = \lim_{ s \to 0 } sE((s)) \\
-&e(\infty) = \lim_{ s \to 0 } sU(s)[1-C(sI-A)^{-1}B]
+& e(\infty) = \lim_{ t \to \infty } e(t) = \lim_{ s \to 0 } sE((s)) \\
+& e(\infty) = \lim_{ s \to 0 } sU(s)[1-C(sI-A)^{-1}B]
 \end{align}
 $$
 
