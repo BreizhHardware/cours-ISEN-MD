@@ -803,6 +803,7 @@ $$
 ![](https://cdn.breizhhardware.fr/FAKA3/xodUREwE10.png/raw)
 
 The error is given by:
+
 $$
 \begin{align}
 & E(s) = U(s)-Y(s) \color{red}{(2')}
@@ -810,6 +811,7 @@ $$
 $$
 
 Taking the Laplace transform of eq $\color{red}{(1)}$ leads:
+
 $$
 \begin{align}
 & sX(s) = AX(s) + BU(s) \\
@@ -819,6 +821,7 @@ $$
 $$
 
 Taking Laplace transform of eq $\color{red}{(2)}$:
+
 $$
 \begin{align}
 & Y(s) = CX(s) \\
@@ -827,6 +830,7 @@ $$
 $$
 
 Plugging eq $\color{red}{(2')}$ and $\color{red}{(4)}$:
+
 $$
 \begin{align}
 & E(s) = U(s) - C(sI - A)^{-1}BU(s) \\
@@ -851,4 +855,6 @@ Where $U(s)$ is the input
 |    $t$    |   $\frac{1}{s^2}$    |
 |   $t^n$   | $\frac{n!}{s^{n+1}}$ |
 | $e^{-at}$ |   $\frac{1}{s+a}$    |
+
+![](https://cdn.breizhhardware.fr/FAKA3/Pakokete50.png/raw)
 
