@@ -606,5 +606,49 @@ $$
 Properties of the state transition matrix:
 
 $$
-&
+\begin{align}
+&* \phi(0) = I \text{ where I is the identity matrix} \\
+&* \phi^{-1}(t) = \phi(-t) \\
+&* \phi(t_{1} + t_{2}) = \phi(t_{1}).\phi(t_{2}) \\
+&* [\phi(t)]^n = \phi(nt)
+\end{align}
+$$
+
+**Problem 8**
+
+a) Find the state transition matrix of the following system
+$$
+\begin{align}
+& \dot{x} = \begin{bmatrix}
+0 & 1 \\
+-8 & -6
+\end{bmatrix} x(t) + \begin{bmatrix}
+0 \\
+1
+\end{bmatrix} u(t)
+\end{align}
+$$
+
+Solution
+$$
+\begin{align}
+&\phi(t) = L^{-1}[(sI - A)^{-1}] \\
+& sI - A = \begin{bmatrix}
+s & 0 \\
+0 & s
+\end{bmatrix} - \begin{bmatrix}
+0 & 1 \\
+-8 & -6
+\end{bmatrix} = \begin{bmatrix}
+s & -1 \\
+8 & s+6
+\end{bmatrix} \\
+&(SI-A)^{-1} = \frac{1}{s(s+5)-3(-2)}\begin{bmatrix}
+s+5 & 2 \\
+-3 & s
+\end{bmatrix} = \frac{1}{s^2+5s+6}\begin{bmatrix}
+s+5 & 2 \\
+-3 & s
+\end{bmatrix} \\
+\end{align}
 $$
