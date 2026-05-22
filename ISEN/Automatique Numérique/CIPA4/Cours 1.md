@@ -740,5 +740,36 @@ $$
 Check if the system is stable.
 
 $$
-
+\begin{align}
+&sI-A = \begin{bmatrix}
+s & 0 & 0 \\
+0 & s & 0 \\
+0 & 0 & s
+\end{bmatrix} - \begin{bmatrix}
+0 & 3 & 1 \\
+2 & 8 & 1 \\
+-10 & -5 & -2
+\end{bmatrix} = \begin{bmatrix}
+s & -3 & -1 \\
+-2 & s-8 & -1 \\
+10 & 5 & s+2
+\end{bmatrix} \\
+&\det(sI-A) = \det \begin{bmatrix}
+s & -3 & -1 \\
+-2 & s-8 & -1 \\
+10 & 5 & s+2
+\end{bmatrix}  \\
+&= s*\det \begin{bmatrix}
+s-8 & -1 \\
+5 & s+2
+\end{bmatrix} + 3*\det \begin{bmatrix}
+-2 & -1 \\
+10 & s+2
+\end{bmatrix} + \det \begin{bmatrix}
+-2 & s-8 \\
+10 & 5
+\end{bmatrix} \\
+&= s ((s-8)(s+2)+5) + 3(-2(s+2) + 10) + (-10 - 10(s-8)) \\
+&= s^3-6s^2-11s - 6s + 18 - 10s - 90
+\end{align}
 $$
