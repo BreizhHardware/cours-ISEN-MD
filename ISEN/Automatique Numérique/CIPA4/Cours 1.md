@@ -643,12 +643,21 @@ s & 0 \\
 s & -1 \\
 8 & s+6
 \end{bmatrix} \\
-&(SI-A)^{-1} = \frac{1}{s(s+5)-3(-2)}\begin{bmatrix}
-s+5 & 2 \\
--3 & s
-\end{bmatrix} = \frac{1}{s^2+5s+6}\begin{bmatrix}
-s+5 & 2 \\
--3 & s
+&(SI-A)^{-1} = \frac{1}{s(s+6)-1(-8)}\begin{bmatrix}
+s+6 & 1 \\
+-8 & s
+\end{bmatrix} = \frac{1}{s^2+6s+8}\begin{bmatrix}
+s+6 & 1 \\
+-8 & s
 \end{bmatrix} \\
+&(SI-A)^{-1} = \begin{bmatrix}
+\frac{{s+6}}{s^2+6s+8} & \frac{{1}}{s^2+6s+8} \\
+\frac{{-8}}{s^2+6s+8} & \frac{{s}}{s^2+6s+8}
+\end{bmatrix} \\
+&\text{To find the inverse Laplace transform of each term, we need to apply a partital fraction expension} \\
+&(SI-A)^{-1} = \begin{bmatrix}
+\frac{{s+6}}{(s+2)(s+4)} & \frac{{1}}{(s+2)(s+4)} \\
+\frac{{-8}}{(s+2)(s+4)} & \frac{{s}}{(s+2)(s+4)}
+\end{bmatrix}
 \end{align}
 $$
