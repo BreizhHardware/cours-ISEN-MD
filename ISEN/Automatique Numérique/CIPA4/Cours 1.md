@@ -72,8 +72,7 @@ $$
 \dot{x_{2}} \\
 \dot{x_{3}} \\
 \dot{x_{4}}
-\end{bmatrix}
-=
+\end{bmatrix} =
 \begin{bmatrix}
 0 & 1 & 0 & 0 \\
 0 & 0 & 1 & 0 \\
@@ -85,8 +84,7 @@ x_{1} \\
 x_{2} \\
 x_{3} \\
 x_{4}
-\end{bmatrix}
-+
+\end{bmatrix} +
 \begin{bmatrix}
 0 \\
 0 \\
@@ -884,7 +882,7 @@ $$
 \end{align}
 $$
 
-for umit step input.
+for unit step input.
 
 **Solution**
 
@@ -925,6 +923,17 @@ s-2 & 0 \\
 0 \\
 1
 \end{bmatrix} \right)  \\
-& e(\infty) = \lim_{ s \to 0 } sU(s)\left( 1- \frac{1}{s^2-3s+1} \right)
+& e(\infty) = \lim_{ s \to 0 } sU(s)\left( 1- \frac{1}{s^2-3s+1} \begin{bmatrix}
+-1 & 0
+\end{bmatrix} \begin{bmatrix}
+0 \\
+s-1
+\end{bmatrix}\right) \\
+& e(\infty) = \lim_{ s \to 0 } sU(s)\left( 1- \frac{1}{s^2-3s+1} \begin{bmatrix}
+0
+\end{bmatrix} \right) \\
+& e(\infty) = \lim_{ s \to 0 } sU(s)  \\
+& \text{For a unit step function U(s) = } \frac{1}{s} \\
+& \implies e(\infty) = \lim_{ s \to 0 } s.\frac{1}{s} = \lim_{ s \to 0 } 1 = 1
 \end{align}
 $$
