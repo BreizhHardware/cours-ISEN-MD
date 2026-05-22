@@ -639,7 +639,7 @@ Solution
 
 $$
 \begin{align}
-&\phi(t) = L^{-1}[(sI - A)^{-1}] \\
+& \phi(t) = L^{-1}[(sI - A)^{-1}] \\
 & sI - A = \begin{bmatrix}
 s & 0 \\
 0 & s
@@ -650,42 +650,42 @@ s & 0 \\
 s & -1 \\
 8 & s+6
 \end{bmatrix} \\
-&(sI-A)^{-1} = \frac{1}{s(s+6)-1(-8)}\begin{bmatrix}
+& (sI-A)^{-1} = \frac{1}{s(s+6)-1(-8)}\begin{bmatrix}
 s+6 & 1 \\
 -8 & s
 \end{bmatrix} = \frac{1}{s^2+6s+8}\begin{bmatrix}
 s+6 & 1 \\
 -8 & s
 \end{bmatrix} \\
-&(sI-A)^{-1} = \begin{bmatrix}
+& (sI-A)^{-1} = \begin{bmatrix}
 \frac{{s+6}}{s^2+6s+8} & \frac{{1}}{s^2+6s+8} \\
 \frac{{-8}}{s^2+6s+8} & \frac{{s}}{s^2+6s+8}
 \end{bmatrix} \\
-&\text{To find the inverse Laplace transform of each term, we need to apply a partital fraction expension} \\
-&\Delta = b^2 - 4ac = 36 - 32 = 4 \\
+& \text{To find the inverse Laplace transform of each term, we need to apply a partital fraction expension} \\
+& \Delta = b^2 - 4ac = 36 - 32 = 4 \\
 & x_{1} = \frac{{-6-2}}{2} = -4 \\
 & x_{2} = \frac{{-6+2}}{2} = -2 \\
-&(sI-A)^{-1} = \begin{bmatrix}
+& (sI-A)^{-1} = \begin{bmatrix}
 \frac{{s+6}}{(s+2)(s+4)} & \frac{{1}}{(s+2)(s+4)} \\
 \frac{{-8}}{(s+2)(s+4)} & \frac{{s}}{(s+2)(s+4)}
 \end{bmatrix} \\
-&(sI-A)^{-1} = \begin{bmatrix}
+& (sI-A)^{-1} = \begin{bmatrix}
 \frac{{a_{1}}}{s+2}+\frac{a_{2}}{s+4} & \frac{a_{3}}{s+2} + \frac{a_{4}}{s+4} \\
 \frac{{a_{5}}}{s+2}+\frac{a_{6}}{s+4} & \frac{{a_{7}}}{s+2}+{\frac{a_8}{s+4}}
 \end{bmatrix} \\
-&\text{where } a_{1} = \left[ \frac{{s+6}}{s+4} \right]_{s=-2} = \frac{4}{2} = 2 \\
-&a_{2} = \left[ \frac{{s+6}}{s+2} \right]_{s=-4} = \frac{2}{-2} = -1 \\
-&a_{3} = \left[ \frac{{1}}{s+4} \right]_{s=-2} = \frac{1}{2} \\
-&a_{4} = \left[ \frac{{1}}{s+2} \right]_{s=-4} = \frac{1}{-2} \\
-&a_{5} = \left[ \frac{{-8}}{s+4} \right]_{s=-2} = \frac{-8}{2} = -4 \\
-&a_{6} = \left[ \frac{{-8}}{s+2} \right]_{s=-4} = \frac{-8}{-2} = 4 \\
-&a_{7} = \left[ \frac{{s}}{s+4} \right]_{s=-2} = \frac{-2}{2} = -1 \\
-&a_{8} = \left[ \frac{{s}}{s+2} \right]_{s=-4} = \frac{-4}{-2} = 2 \\
-&(sI-A)^{-1} = \begin{bmatrix}
+& \text{where } a_{1} = \left[ \frac{{s+6}}{s+4} \right]_{s=-2} = \frac{4}{2} = 2 \\
+& a_{2} = \left[ \frac{{s+6}}{s+2} \right]_{s=-4} = \frac{2}{-2} = -1 \\
+& a_{3} = \left[ \frac{{1}}{s+4} \right]_{s=-2} = \frac{1}{2} \\
+& a_{4} = \left[ \frac{{1}}{s+2} \right]_{s=-4} = \frac{1}{-2} \\
+& a_{5} = \left[ \frac{{-8}}{s+4} \right]_{s=-2} = \frac{-8}{2} = -4 \\
+& a_{6} = \left[ \frac{{-8}}{s+2} \right]_{s=-4} = \frac{-8}{-2} = 4 \\
+& a_{7} = \left[ \frac{{s}}{s+4} \right]_{s=-2} = \frac{-2}{2} = -1 \\
+& a_{8} = \left[ \frac{{s}}{s+2} \right]_{s=-4} = \frac{-4}{-2} = 2 \\
+& (sI-A)^{-1} = \begin{bmatrix}
 \frac{{2}}{s+2}+\frac{-1}{s+4} & \frac{\frac{1}{2}}{s+2} + \frac{-\frac{1}{2}}{s+4} \\
 \frac{{-4}}{s+2}+\frac{4}{s+4} & \frac{{-1}}{s+2}+{\frac{2}{s+4}}
 \end{bmatrix} \\
-&L^{-1}[(sI-A)^{-1}] = L^{-1}\begin{bmatrix}
+& L^{-1}[(sI-A)^{-1}] = L^{-1}\begin{bmatrix}
 \frac{{2}}{s+2}+\frac{-1}{s+4} & \frac{\frac{1}{2}}{s+2} + \frac{-\frac{1}{2}}{s+4} \\
 \frac{{-4}}{s+2}+\frac{4}{s+4} & \frac{{-1}}{s+2}+{\frac{2}{s+4}}
 \end{bmatrix} = \fcolorbox{red}{white}{$
