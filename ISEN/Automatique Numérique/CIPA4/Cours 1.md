@@ -623,6 +623,7 @@ $$
 **Problem 8**
 
 a) Find the state transition matrix of the following system
+
 $$
 \begin{align}
 & \dot{x} = \begin{bmatrix}

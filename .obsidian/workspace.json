@@ -11,24 +11,14 @@
             "id": "b7c77009e3ea572b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "split-diff-view",
               "state": {
-                "file": "ISEN/Automatique Numérique/CIPA4/Cours 1.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
+                "aFile": "ISEN/Automatique Numérique/CIPA4/Cours 1.md",
+                "bFile": "ISEN/Automatique Numérique/CIPA4/Cours 1.md",
+                "aRef": ""
               },
-              "icon": "lucide-file",
-              "title": "Cours 1"
+              "icon": "diff",
+              "title": "Diff: Cours 1"
             }
           },
           {
@@ -55,7 +45,8 @@
               "title": "Cours 1"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -228,8 +219,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b7c77009e3ea572b",
+  "active": "6443773d47fac02d",
   "lastOpenFiles": [
+    "ISEN/Automatique Numérique/CIPA4/Cours 1.md",
     "ISEN/Mutations sociales/CIPA4/Mutation soc et pro _P3 2026.pdf",
     "ISEN/Mutations sociales/CIPA4/Mutation soc et pro _P1 et P2 2026.pdf",
     "ISEN/Mutations sociales/CIPA4/Mutations sociales Cours 1.md",
@@ -241,11 +233,9 @@
     "ISEN/Mutations sociales",
     "ISEN/Gestion et finance des entreprises/CIPA4/ISEN_ cours de comptabilité.pdf",
     "ISEN/Gestion et finance des entreprises/CIPA4/Exercice gestion _ début d’activité.pdf",
-    "ISEN/Automatique Numérique/CIPA4/Cours 1.md",
     "ISEN/Automatique Numérique/CIPA4/Cours 1 (conflicted copy 2026-05-18 101009).md",
     "ISEN/Automatique Numérique/CIPA4",
     "ISEN/Automatique Numérique",
-    "ISEN/Navigation de vehicule autonome/CIPA4/[Brunet] Navigation des véhicules autonomes 3-Radars ,GPS et protocoles .pdf",
     "ISEN/FreeRTOS/CIPA4/FreeRTOS Cours 1.md",
     "ISEN/Linux Embarqué/CIPA4/Linux embarqué Cours 1.md",
     "ISEN/Réunion/CIPA 4/Réunion 22 avr 2026.md",
