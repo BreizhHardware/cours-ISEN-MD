@@ -916,6 +916,15 @@ s-2 & 0 \\
 s-2 & 0 \\
 1 & s-1
 \end{bmatrix} \\
-& e(\infty) = 
+& e(\infty) = \lim_{ s \to 0 } sU(s)\left( 1-\begin{bmatrix}
+-1 & 0
+\end{bmatrix} \frac{1}{s^2-3s+1} \begin{bmatrix}
+s-2 & 0 \\
+1 & s-1
+\end{bmatrix} \begin{bmatrix}
+0 \\
+1
+\end{bmatrix} \right)  \\
+& e(\infty) = \lim_{ s \to 0 } sU(s)\left( 1- \frac{1}{s^2-3s+1} \right)
 \end{align}
 $$
