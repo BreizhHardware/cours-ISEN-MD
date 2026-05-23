@@ -7,6 +7,8 @@
   "canvas": true,
   "outgoing-link": true,
   "tag-pane": true,
+  "footnotes": false,
+  "properties": true,
   "page-preview": true,
   "daily-notes": false,
   "templates": true,
@@ -14,7 +16,7 @@
   "command-palette": true,
   "slash-command": true,
   "editor-status": true,
-  "starred": true,
+  "bookmarks": true,
   "markdown-importer": false,
   "zk-prefixer": false,
   "random-note": false,
@@ -26,9 +28,7 @@
   "file-recovery": true,
   "publish": false,
   "sync": true,
-  "bookmarks": true,
-  "properties": true,
-  "webviewer": false,
-  "footnotes": false,
-  "bases": true
+  "bases": true,
+  "starred": true,
+  "webviewer": false
 }
