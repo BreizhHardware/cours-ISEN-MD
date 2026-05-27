@@ -194,4 +194,31 @@ b_{2}-a_{2}b_{0} & b_{1}-a_{1}b_{0}x + b_{0}u
 3 & 1
 \end{bmatrix}x
 \end{align}
-$$ 
+$$
+
+observable canonical form:
+$$
+\begin{align}
+& \dot{x} = \begin{bmatrix}
+0 & -a_{2} \\
+1 & -a_{1}
+\end{bmatrix}x + \begin{bmatrix}
+b_{2}-a_{2}b_{0} \\
+b_{1}-a_{1}b_{0}
+\end{bmatrix}u = \begin{bmatrix}
+0 & -2 \\
+1 & -3
+\end{bmatrix}x + \begin{bmatrix}
+3 \\
+1
+\end{bmatrix}u \\
+& y = \begin{bmatrix}
+0 & 1
+\end{bmatrix}x + b_{0}u = \begin{bmatrix}
+0 & 1
+\end{bmatrix}x
+\end{align}
+$$
+
+# 2.4 - Pole placement design
+- In conventional approach, we design a controller such that
