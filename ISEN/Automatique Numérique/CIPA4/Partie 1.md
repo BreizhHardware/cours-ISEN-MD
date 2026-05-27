@@ -402,7 +402,7 @@ $$
 &\text{substitute X(s) into eq} \color{red}{(2) :} \\
 &Y(s) = C(SI-A)^{-1}BU(s)+DU(s) = [C(SI-A)^{-1}B+D]U(s) \\
 &\text{Transfer function} = \frac{output}{input} = \frac{Y(s)}{U(s)} = C(SI-A)^{-1}B+D \\
-&\color{red}{\text{If Y and U are vectors, } C(SI-A)^{-1}B \text{is called transfer matrix}}
+&\color{red}{\text{If Y and U are vectors, } C(SI-A)^{-1}B \text{ is called transfer matrix}}
 \end{align}
 $$
 

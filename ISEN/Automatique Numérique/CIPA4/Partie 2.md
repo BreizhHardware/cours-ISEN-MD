@@ -656,6 +656,15 @@ $$
 5 & 6 & 1 \\
 6 & 1 & 0 \\
 1 & 0 & 0
+\end{bmatrix}\begin{bmatrix}
+199 & 55 & 8 \\
+-8 & 159 & 7 \\
+-7 & -43 & 117
+\end{bmatrix} \\
+& \fcolorbox{red}{white}{$
+K = \begin{bmatrix}
+199 & 55 & 8
 \end{bmatrix}
+$} 
 \end{align}
 $$
