@@ -10,7 +10,7 @@ Requirements :
 
 A system $\dot{x} = Ax + Bu$ is completely controllable if the controllability matrix $M = C_{m} = \begin{bmatrix}B & AB & A^2B & \cdots{}& A^{n-1}B\end{bmatrix}$ is of rank n
 
-**Note: The rank of a matrix can be found by finding the highest order square submatrix that is nonsingular (det $\neq$ 0)**
+>Note: The rank of a matrix can be found by finding the highest order square submatrix that is nonsingular (det $\neq$ 0)
 
 **Exercice 1 :**
 
@@ -303,7 +303,16 @@ Where $M$ is the controllability matrix :
 $$
 \begin{align}
 & M = \begin{bmatrix}
-B & AB & A^2B
+B & AB & A^2B & \cdots & A^{n-1}B
 \end{bmatrix}
 \end{align}
 $$
+
+and $W = \begin{bmatrix}a_{n-1} & a_{n-2} & \cdots & a_{1} & 1 \\  a_{n-2} & a_{n-3} & \cdots & 1 & 0  \\  \vdots \\  a_{1} & 1 & \cdots & 0 & 0 \\  1 & \cdots & \cdots & 0 & 0\end{bmatrix}$
+
+Where $a_i$ are the coefficients of the characteristic polynomial $\det(sI-A) = s^n+a_{1}s^{n-1}+\cdots+a_{n-1}s+a_{n}$
+
+>Note that if the system is already in the controllable canonical form, then $T = I$ where $I$ is the identity matrix.
+
+- Step 5: Determine K using:
+$K = \begin{bmatrix}\alpha_{n}-a_{n} & \alpha_{n-1}-a_{n-1} & \cdots & \alpha\end{bmatrix}$
