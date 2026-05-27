@@ -421,3 +421,10 @@ B & AB & A^2B
  &  & possible
 \end{align}
 $$
+- Step 2: 
+
+$$
+\begin{align}
+& (s-\mu_{1})(s-\mu_{2})(s-\mu_{3}) = 
+\end{align}
+$$
