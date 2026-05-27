@@ -250,3 +250,13 @@ The block diagram becomes :
 
 ![](https://cdn.breizhhardware.fr/FAKA3/vImiZoLi37.png/raw)
 
+$$
+\begin{align}
+& \text{eq } \color{red}{(1)} \text{ \color{black}and } \color{red}{(3)} \\
+& \dot{x} = Ax + B(-Kx) \\
+& \dot{x} = Ax - BKx \\
+& \dot{x} = (A - BK)x
+\end{align}
+$$
+
+The solution is giv
