@@ -102,3 +102,4 @@ The controllability matrix $M = \begin{bmatrix}B & AB\end{bmatrix} = \begin{bmat
 
 The observability matrix $O_{m} = \begin{bmatrix}C \\ CA\end{bmatrix} = \begin{bmatrix}\begin{bmatrix}1 & 0\end{bmatrix} \\ \begin{bmatrix}1 & 1\end{bmatrix}\end{bmatrix} = \begin{bmatrix}1 & 0 \\ 1 & 1\end{bmatrix}$ $O_{m}$ is of rank $2$ because $\det(O_{m}) \neq 0$ therefore the system is completely observable.
 
+# 2.3 - Controllable and observable canonical forms
