@@ -283,6 +283,17 @@ $$
 - Step 1: First check the controllability condition of the system. If the system is completely state controllable, then K matrix can be determined.
 - Step 2: Let the desired closed-loop poles be $\mu_{1}, \mu_{2}, \cdots, \mu_{n}$ write the desired characteristic polynomial $(s-\mu_{1})(s-\mu_{2}\cdots(s-\mu_{n}))$ under the developped form $s^n+\alpha_{1}s^{n-1}+\alpha_{2}s^{n-2}+\cdots+\alpha_{n-1}s+\alpha_{n}$
 
-**Methode 1:** Determination of K using direct substitution methode
+**Method 1:** Determination of K using direct substitution method
 
-- Step 3: K can be found by equating the characteristic polynomials $\det(sI-(A-BK)) = (s-\mu_{1})(s-\mu_{2})\cdots(s-\mu_{n}) = s^n+\alpha_{1}s^{n-1}+\cdots+\alpha_{n-1}s^1+\alpha_{n}$ where I is the identity matrix
+- Step 3: K can be found by equating the characteristic polynomials $\det(sI-(A-BK)) = (s-\mu_{1})(s-\mu_{2})\cdots(s-\mu_{n}) = s^n+\alpha_{1}s^{n-1}+\cdots+\alpha_{n-1}s^1+\alpha_{n}$ where $I$ is the identity matrix
+
+**Method 2:** Determination of K using transformation matrix $T$
+
+- Step 3: Write the characteristic polynomial of matrix $A$ under the form: $\det(sI-A) = s^n+a_{1}s^{n-1}+\cdots+a_{n-1}s+a_{n}$
+- Step 4: Determine the transformation matrix $T$ that transforms the system state equation into controllable canonical form.
+
+$$
+\begin{align}
+& T = MW
+\end{align}
+$$
