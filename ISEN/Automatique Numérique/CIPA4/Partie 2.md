@@ -107,7 +107,7 @@ Consider a system defined by its transfer function:
 
 $$
 \begin{align}
-\frac{Y(s)}{U(s)} = \frac{b_{0}s^n + b_{1}s^{n)1} + \cdots + b_{n-1}s + b_{n}}{s^n+a_{1}s^{n-1}+\cdots + a_{n-1}s + a_{n}}
+\frac{Y(s)}{U(s)} = \frac{b_{0}s^n + b_{1}s^{n-1} + \cdots + b_{n-1}s + b_{n}}{s^n+a_{1}s^{n-1}+\cdots + a_{n-1}s + a_{n}}
 \end{align}
 $$
 
@@ -165,4 +165,33 @@ $$
 \end{align}
 $$
 
-Obtain state space representation in controllable dans observable canonical forms
+Obtain state space representation in controllable dans observable canonical forms.
+
+**Solution**
+
+We have n = 0 $b_{0}$ = 0 $b_{1}$ = 1 $b_2$ = 3 $a_1$ = 3 $a_2$ = 2
+controllable canonical form with n = 2:
+$$
+\begin{align}
+& \dot{x} = \begin{bmatrix}
+0 & 1 \\
+-a_{2} & -a_{1}
+\end{bmatrix}x + \begin{bmatrix}
+0 \\
+1
+\end{bmatrix}u = \begin{bmatrix}
+0 & 1 \\
+-2 & -3
+\end{bmatrix}x + \begin{bmatrix}
+0 \\
+1
+\end{bmatrix}u \\
+& y = \begin{bmatrix}
+b_{2}-a_{2}b_{0} & b_{1}-a_{1}b_{0}x + b_{0}u
+\end{bmatrix}  = \begin{bmatrix}
+3-2*0 & 1-3*0
+\end{bmatrix}x + 0u = \begin{bmatrix}
+3 & 1
+\end{bmatrix}x
+\end{align}
+$$ 
