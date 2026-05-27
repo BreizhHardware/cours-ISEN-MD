@@ -315,4 +315,6 @@ Where $a_i$ are the coefficients of the characteristic polynomial $\det(sI-A) = 
 >Note that if the system is already in the controllable canonical form, then $T = I$ where $I$ is the identity matrix.
 
 - Step 5: Determine K using:
-$K = \begin{bmatrix}\alpha_{n}-a_{n} & \alpha_{n-1}-a_{n-1} & \cdots & \alpha\end{bmatrix}$
+$K = \begin{bmatrix}\alpha_{n}-a_{n} & \alpha_{n-1}-a_{n-1} & \cdots & \alpha_{2}-a_{2} & \alpha_{1}-a_{1}\end{bmatrix}T^{-1}$
+
+**Method 3:** 
