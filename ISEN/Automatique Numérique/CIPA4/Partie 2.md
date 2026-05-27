@@ -441,6 +441,31 @@ of the form $s^3 + \alpha_{1}s^2 + \alpha_{2}s + \alpha_{3}$ where $\alpha_{1} =
 
 $$
 \begin{align}
-& \det(sI - (A-BK)) = 
+& \det(sI - (A-BK)) = s^3 + \alpha_{1}s^2+\alpha_{2}s+\alpha_{3} \\
+& \det(sI - A + BK) = s^3 + 14s^2 + 60s + 200 \\
+& \text{where } \det(sI - A + BK) = \det(\begin{bmatrix}
+s & 0 & 0 \\
+0 & s & 0 \\
+0 & 0 & s
+\end{bmatrix} - \begin{bmatrix}
+0 & 1 & 0 \\
+0 & 0 & 1 \\
+-1 & -5 & -6
+\end{bmatrix}+ \begin{bmatrix}
+0 \\
+0 \\
+1
+\end{bmatrix}\begin{bmatrix}
+K_{1} & K_{2} K_{3}
+\end{bmatrix}) \\
+& \det(\begin{bmatrix}
+s & -1 & 0 \\
+0 & s & -1 \\
+1 & 5 & s+6
+\end{bmatrix}+\begin{bmatrix}
+0  & 0 & 0\\
+0  & 0 & 0\\
+K_{1} & K_{2} & K_{3}
+\end{bmatrix})
 \end{align}
 $$
