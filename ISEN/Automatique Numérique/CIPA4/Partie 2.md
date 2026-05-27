@@ -595,6 +595,67 @@ $$
 0 & 0 & 1 \\
 0 & 1 & -6 \\
 1 & -6 & 31
+\end{bmatrix} = \frac{1}{\det}.[cof(A)]^T \\
+& cof(A) = \begin{bmatrix}
+\det(\begin{bmatrix}
+1 & -6 \\
+-6 & 31
+\end{bmatrix}) & -\det(\begin{bmatrix}
+0 & -6 \\
+1 & 31
+\end{bmatrix}) & \det(\begin{bmatrix}
+0 & 1 \\
+1 & -6
+\end{bmatrix}) \\
+-\det(\begin{bmatrix}
+0 & 1 \\
+-6 & 31
+\end{bmatrix}) & \det(\begin{bmatrix}
+0 & 1 \\
+1 & 31
+\end{bmatrix}) & -\det(\begin{bmatrix}
+0 & 0 \\
+1 & -6
+\end{bmatrix}) \\
+\det(\begin{bmatrix}
+0 & 1 \\
+1 & -6
+\end{bmatrix}) & -\det(\begin{bmatrix}
+0 & 1 \\
+0 & -6
+\end{bmatrix}) & \det(\begin{bmatrix}
+0 & 0 \\
+0 & 1
+\end{bmatrix})
+\end{bmatrix} \\
+& = \begin{bmatrix}
+-5 & -6 & -1 \\
+-6 & -1 & 0 \\
+-1 & 0 & 0
+\end{bmatrix} \\
+& cof(A)^T = \begin{bmatrix}
+-5 & -6 & -1 \\
+-6 & -1 & 0 \\
+-1 & 0 & 0
+\end{bmatrix} \\
+& \det(A) = -1 \\
+& M^{-1} = \frac{1}{-1}\begin{bmatrix}
+-5 & -6 & -1 \\
+-6 & -1 & 0 \\
+-1 & 0 & 0
+\end{bmatrix} = \begin{bmatrix}
+5 & 6 & 1 \\
+6 & 1 & 0 \\
+1 & 0 & 0
+\end{bmatrix} \\
+& K = \begin{bmatrix}
+0 & 0 & 1
+\end{bmatrix}M^{-1}\phi(A) = \begin{bmatrix}
+0 & 0 & 1
+\end{bmatrix}\begin{bmatrix}
+5 & 6 & 1 \\
+6 & 1 & 0 \\
+1 & 0 & 0
 \end{bmatrix}
 \end{align}
 $$
