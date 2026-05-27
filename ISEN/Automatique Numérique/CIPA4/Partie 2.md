@@ -566,6 +566,35 @@ $$
 -1 & -5 & -6 \\
 6 & 29 & 31 \\
 -31 & -149 & -157
+\end{bmatrix} \\
+& \phi(A) = A^3+14a^2+60A+200I \\
+& = \begin{bmatrix}
+-1 & -5 & -6 \\
+6 & 29 & 31 \\
+-31 & -149 & -157
+\end{bmatrix} + 14 \begin{bmatrix}
+0 & 0 & 1 \\
+-1 & -5 & -6 \\
+6 & 29 & 31
+\end{bmatrix} + 60 \begin{bmatrix}
+0 & 1 & 0 \\
+0 & 0 & 1 \\
+-1  & -5 & -6
+\end{bmatrix} + 200 \begin{bmatrix}
+1 & 0 & 0 \\
+0 & 1 & 0 \\
+0 & 0 & 1
+\end{bmatrix} \\
+& \phi(A) = \begin{bmatrix}
+199 & 55 & 8 \\
+-8 & 159 & 7 \\
+-7 & -43 & 117
+\end{bmatrix}  \\
+& \text{Calcul of } M^{-1} \\
+& M^{-1} = \begin{bmatrix}
+0 & 0 & 1 \\
+0 & 1 & -6 \\
+1 & -6 & 31
 \end{bmatrix}
 \end{align}
 $$
