@@ -134,3 +134,35 @@ b_{n} - a_{n}b_{0} & b_{n-1}-a_{n-1}b_{0} & \cdots & b_{1}-a_{1}b_{0}
 \end{align}
 $$
 
+The following state space representation is called an observable canonical form:
+$$
+\begin{align}
+& \dot{x} = \begin{bmatrix}
+0 & 0 & \cdots & 0 & -a_{n} \\
+1 & 0 & \cdots & 0 & -a_{n-1} \\
+0 & 1 & \ddots & \vdots & \vdots \\
+\vdots & \vdots & \ddots & \vdots & \vdots \\
+0 & 0 & \cdots & 1 & -a_{1}
+\end{bmatrix}x + \begin{bmatrix}
+b_{n}-a_{n}b_{0} \\
+b_{n-1}-a_{n-1}b_{0} \\
+\vdots \\
+b_{1}-a_{1}b_{0}
+\end{bmatrix}u \\
+& y = \begin{bmatrix}
+0 & 0 & \cdots & 0 & 1
+\end{bmatrix}x + b_{0}u
+\end{align}
+$$
+
+**Exercice 4 :**
+
+Consider the system given by :
+
+$$
+\begin{align}
+& \frac{Y(s)}{U(s)} = \frac{s+3}{s^2+3s+2}
+\end{align}
+$$
+
+Obtain state space representation in controllable dans observable canonical forms
