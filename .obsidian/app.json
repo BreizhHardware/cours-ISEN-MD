@@ -9,5 +9,6 @@
     "margin": "1",
     "downscalePercent": 78
   },
-  "useMarkdownLinks": true
+  "useMarkdownLinks": true,
+  "openBehavior": "daily"
 }
