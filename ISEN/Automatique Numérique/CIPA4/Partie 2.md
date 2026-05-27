@@ -221,4 +221,25 @@ b_{1}-a_{1}b_{0}
 $$
 
 # 2.4 - Pole placement design
-- In conventional approach, we design a controller such that
+- In conventional approach, we design a controller such that dominant poles meet the desired criteria ($\delta$, $\omega_{n}$)
+- If all state variables are mesurable and are available for feedback, it can be shown that if the system is completely state controllable, then poles can be placed at any desired location by mean of state feedback
+- The present pole-placement approach specifies all closed loop poles (and not only dominant poles in the conventional approach)
+
+Consider a control system :
+
+$$
+\begin{align}
+& \dot{x} = Ax + Bu \color{red}{(1)}\\
+& y = Cx + Du \color{red}{(2)}
+\end{align}
+$$
+
+We choose the control signal to be : 
+
+$$
+\begin{align}
+& u = -Kx \color{red}{(1)}
+\end{align}
+$$
+
+K is called the state feedback

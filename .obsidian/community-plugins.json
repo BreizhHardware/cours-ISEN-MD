@@ -1,5 +1,10 @@
 [
-  "automatic-table-of-contents",
+  "obsidian-wakatime",
+  "obsidian-table-generator",
+  "obsidian-git",
   "obsidian-latex-suite",
-  "obsidian-table-generator"
+  "automatic-table-of-contents",
+  "better-export-pdf",
+  "obsidian-style-settings",
+  "obsidian-discordrpc"
 ]
