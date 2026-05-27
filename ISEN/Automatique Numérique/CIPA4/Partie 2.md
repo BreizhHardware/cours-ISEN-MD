@@ -297,3 +297,13 @@ $$
 & T = MW
 \end{align}
 $$
+
+Where $M$ is the controllability matrix :
+
+$$
+\begin{align}
+& M = \begin{bmatrix}
+B & AB & A^2B
+\end{bmatrix}
+\end{align}
+$$
