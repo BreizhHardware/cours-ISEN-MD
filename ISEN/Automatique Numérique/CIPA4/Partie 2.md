@@ -425,6 +425,22 @@ $$
 
 $$
 \begin{align}
-& (s-\mu_{1})(s-\mu_{2})(s-\mu_{3}) = 
+& (s-\mu_{1})(s-\mu_{2})(s-\mu_{3}) = s^3+\alpha_{1}s^2+\alpha_{2}s+\alpha_{3} \\
+& (s+2-j4)(s+2+j4)(s+10) = ((s+2)^2-(j4)^2)(s+10) \\
+& = (s^2+4s+2+16)(s+10) = (s^2+4s+18)(s+10) \\
+& = s^3+10s^2+4s^2+40s+20s+200 \\
+& = s^3+14s^2+60s+200
+\end{align}
+$$
+
+of the form $s^3 + \alpha_{1}s^2 + \alpha_{2}s + \alpha_{3}$ where $\alpha_{1} = 14, \alpha_{2} = 60, \alpha_{3} = 200$
+
+**Method 1:**
+
+- Step 3:
+
+$$
+\begin{align}
+& \det(sI - (A-BK)) = 
 \end{align}
 $$
