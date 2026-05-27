@@ -342,3 +342,32 @@ $$
 \end{align}
 $$
 
+**Exercice 5**
+
+Consider the following system
+
+$$
+\begin{align}
+& \dot{x} = Ax + Bu \\
+& \text{Where} \\
+& A = \begin{bmatrix}
+0 & 1 & 0 \\
+0 & 0 & 1 \\
+-1 & -5 & -6
+\end{bmatrix} \text{ and } B = \begin{bmatrix}
+0 \\
+0 \\
+1
+\end{bmatrix}
+\end{align}
+$$
+The system uses the state feedback control $u = -Kx$
+
+Let the desired closed-loop poles located at:
+
+$$
+\begin{align}
+& s= -2 j_{4} & s= -2-j4
+\end{align}
+$$
+Use the 3 methods to determine the state feedback gain matrix K
