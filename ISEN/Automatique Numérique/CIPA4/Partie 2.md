@@ -540,4 +540,32 @@ $$
 
 **Method 3:**
 
+- Step 3:
 
+$$
+\begin{align}
+& K = \begin{bmatrix}
+0 & 0 & 1
+\end{bmatrix}M^{-1}\phi(A) \\
+& \text{Where } M = \begin{bmatrix}
+0  & 0 & 1\\
+0  & 1 & -6\\
+1 & -6 & 31
+\end{bmatrix} (Step 1) \\
+& \text{And } \phi(A) = A^3+\alpha_{1}A^2+\alpha_{2}A + \alpha_{3}I \\
+& = A^3 + 14A^2+60A+200I \\
+& A = \begin{bmatrix}
+0 & 1 & 0 \\
+0 & 0 & 1 \\
+-1 & -5 & -6
+\end{bmatrix} A^2=\begin{bmatrix}
+0 & 0 & 1 \\
+-1 & -5 & -6 \\
+6 & 29 & 31
+\end{bmatrix} A^3 = \begin{bmatrix}
+-1 & -5 & -6 \\
+6 & 29 & 31 \\
+-31 & -149 & -157
+\end{bmatrix}
+\end{align}
+$$
