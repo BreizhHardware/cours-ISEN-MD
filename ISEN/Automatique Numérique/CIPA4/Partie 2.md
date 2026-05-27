@@ -238,8 +238,14 @@ We choose the control signal to be :
 
 $$
 \begin{align}
-& u = -Kx \color{red}{(1)}
+& u = -Kx \color{red}{(3)}
 \end{align}
 $$
 
-K is called the state feedback
+K is called the state feedback gain matrix.
+
+size(k) = $1*n$
+
+The block diagram becomes :
+
+![](/raw)
