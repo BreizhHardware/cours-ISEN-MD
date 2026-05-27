@@ -30,4 +30,22 @@ determine its controllability
 
 **Solution**
 
-The controlability matrix $M = \begin{bmatrix}B & AB\end{bmatrix} =\begin{bmatrix}\begin{bmatrix}1 \\ 0\end{bmatrix}\begin{bmatrix}1 \\ 0\end{bmatrix}\end{bmatrix}$
+The controllability matrix $M = \begin{bmatrix}B & AB\end{bmatrix} =\begin{bmatrix}\begin{bmatrix}1 \\ 0\end{bmatrix}\begin{bmatrix}1 \\ 0\end{bmatrix}\end{bmatrix} = \begin{bmatrix}1 & 1 \\ 0 & 0\end{bmatrix}$ M is of rank $1 < 2$ therefore the system is not completely controllable.
+
+**Exercice 2 :**
+
+Determine the controllability of the following system :
+
+$$
+\dot{x} = \begin{bmatrix}
+1 & 1 \\
+2 & -1
+\end{bmatrix}x + \begin{bmatrix}
+0 \\
+1
+\end{bmatrix}u
+$$
+
+**Solution**
+
+The controllability matrix $M = \begin{bmatrix}B & AB\end{bmatrix} = \begin{bmatrix}\begin{bmatrix}0 \\ 1\end{bmatrix}\begin{bmatrix}1 \\ -1\end{bmatrix}\end{bmatrix} = \begin{bmatrix}0 & 1 \\ 1  &  -1\end{bmatrix}$ $M$ is non singular because $\det(M) = -1 \neq 0 \implies rank(M) = n = 2$ therefore the system is completely state controllable.
