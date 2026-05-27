@@ -317,4 +317,28 @@ Where $a_i$ are the coefficients of the characteristic polynomial $\det(sI-A) = 
 - Step 5: Determine K using:
 $K = \begin{bmatrix}\alpha_{n}-a_{n} & \alpha_{n-1}-a_{n-1} & \cdots & \alpha_{2}-a_{2} & \alpha_{1}-a_{1}\end{bmatrix}T^{-1}$
 
-**Method 3:** 
+**Method 3:** Determination of K using Ackermann's formula
+
+- Step 3: determine K using the following expression
+
+$$
+\begin{align}
+& K = \begin{bmatrix}
+0 & 0 & \cdots & 0 & 1
+\end{bmatrix}M^{-1}\phi(A) \\
+& = \begin{bmatrix}
+0 & 0 & \cdots & 0 & 1
+\end{bmatrix}\begin{bmatrix}
+B & AB & \cdots & A^{n-1}B
+\end{bmatrix}^{-1}\phi(A)
+\end{align}
+$$
+
+where
+
+$$
+\begin{align}
+& \phi(A) = A^n+\alpha_{1}A^{n-1}+\cdots+\alpha_{n-1}A+\alpha_{n}I
+\end{align}
+$$
+
