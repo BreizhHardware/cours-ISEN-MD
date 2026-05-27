@@ -371,3 +371,53 @@ $$
 \end{align}
 $$
 Use the 3 methods to determine the state feedback gain matrix K
+
+**Solution**
+
+- Step 1: Controllability condition
+
+$$
+\begin{align}
+& M = \begin{bmatrix}
+B & AB & A^2B
+\end{bmatrix} \\
+& \text{Where } B = \begin{bmatrix}
+0 \\
+0 \\
+1
+\end{bmatrix} & AB = \begin{bmatrix}
+0 & 1 & 0 \\
+0 & 0 & 1 \\
+-1 & -5 & -6
+\end{bmatrix}\begin{bmatrix}
+0 \\
+0 \\
+1
+\end{bmatrix} = \begin{bmatrix}
+0 \\
+1 \\
+-6
+\end{bmatrix} \\
+& A^2B = A*AB = \begin{bmatrix}
+0 & 1 & 0 \\
+0 & 0 & 1 \\
+-1 & -5 & -6
+\end{bmatrix}\begin{bmatrix}
+0 \\
+1 \\
+-6
+\end{bmatrix} = \begin{bmatrix}
+1 \\
+-6 \\
+31
+\end{bmatrix} \\
+& \implies M = \begin{bmatrix}
+0  & 0 & 1\\
+0  & 1 & -6\\
+1 & -6 & 31
+\end{bmatrix} & \det(M) = 1[0*(-6)-1*1] = -1 \neq 0 \implies \text{M} \\
+ &  & \text{is of rank 3 thus the system is completely state} \\
+ &  & \text{controllable and arbitary pole placement is} \\
+ &  & possible
+\end{align}
+$$
