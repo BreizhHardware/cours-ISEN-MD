@@ -76,3 +76,28 @@ C^T & A^TC^T & \cdots & (A^T)^{n-1}C
 \end{align}
 $$
 is of rank n 
+
+**Exercice 3**
+
+Consider the system described by
+$$
+\begin{align}
+& \dot{x} = \begin{bmatrix}
+1 & 1 \\
+2 & -1
+\end{bmatrix}x + \begin{bmatrix}
+0 \\
+1
+\end{bmatrix}u \\
+& y = \begin{bmatrix}
+1 & 0
+\end{bmatrix}x
+\end{align}
+$$
+is the system controllable and observable ?
+
+**Solution**
+
+The controllability matrix $M = \begin{bmatrix}B & AB\end{bmatrix} = \begin{bmatrix}\begin{bmatrix}0 \\ 1\end{bmatrix}\begin{bmatrix}1 \\ -1\end{bmatrix}\end{bmatrix} = \begin{bmatrix}0 & 1 \\ 1  &  -1\end{bmatrix}$ $M$ is non singular because $\det(M) = -1 \neq 0 \implies rank(M) = n = 2$ therefore the system is completely state controllable.
+
+The observability matrix $O_{m} = \begin{bmatrix}C \\ CA\end{bmatrix} = \begin{bmatrix}\begin{bmatrix}1 & 0\end{bmatrix} \\ \begin{bmatrix}1 & 1\end{bmatrix}\end{bmatrix} = \begin{bmatrix}1 & 0 \\ 1 & 1\end{bmatrix}$ $O_{m}$ is of rank $1 < 2$ therefore the system is not completely observable.
