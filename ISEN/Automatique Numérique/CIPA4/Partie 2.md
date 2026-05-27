@@ -490,3 +490,32 @@ $$
 **Method 2:** Using the transformation matrix $T$
 
 - Step 3:
+
+$$
+\begin{align}
+& \det(sI - A) = \det(\begin{bmatrix}
+s & 0 & 0 \\
+0 & s & 0 \\
+0 & 0 & s
+\end{bmatrix} - \begin{bmatrix}
+0 & 1 & 0 \\
+0 & 0 & 1 \\
+-1 & -5 & -6
+\end{bmatrix}) \\
+& = \det(\begin{bmatrix}
+s & -1 & 0 \\
+0 & s & -1 \\
+1  & 5 & s+6
+\end{bmatrix}) = s[s(s+6)-(-1)5] - (-1)[0(s+6)-(-1)(1)] + 0 \\
+& = s(s^2+6s+5) + 1 = s^3 + 6s^2 + 5s + 1 \\
+& \text{Of the form } s^3+a_{1}s^2+a_{2}s+a_{3} \\
+& \text{With } a_{1} = 6, a_{2} = 5, a_{3} = 1
+\end{align}
+$$
+- Step 4:
+
+$$
+\begin{align}
+
+\end{align}
+$$
