@@ -103,3 +103,34 @@ The controllability matrix $M = \begin{bmatrix}B & AB\end{bmatrix} = \begin{bmat
 The observability matrix $O_{m} = \begin{bmatrix}C \\ CA\end{bmatrix} = \begin{bmatrix}\begin{bmatrix}1 & 0\end{bmatrix} \\ \begin{bmatrix}1 & 1\end{bmatrix}\end{bmatrix} = \begin{bmatrix}1 & 0 \\ 1 & 1\end{bmatrix}$ $O_{m}$ is of rank $2$ because $\det(O_{m}) \neq 0$ therefore the system is completely observable.
 
 # 2.3 - Controllable and observable canonical forms
+Consider a system defined by its transfer function:
+
+$$
+\begin{align}
+\frac{Y(s)}{U(s)} = \frac{b_{0}s^n + b_{1}s^{n)1} + \cdots + b_{n-1}s + b_{n}}{s^n+a_{1}s^{n-1}+\cdots + a_{n-1}s + a_{n}}
+\end{align}
+$$
+
+The following state space representation is called controllable canonical form: 
+$$
+\begin{align}
+& \dot{x} = \begin{bmatrix}
+0 & 1 & 0 \cdots & 0 \\
+0 & 0 & 1 & \cdots & 0 \\
+\vdots & \vdots & \vdots & \ddots & \vdots \\
+0 & 0 & 0 & \ddots & 1 \\
+-a_{n} & -a_{n-1} & -a_{n-2} & \cdots & -a_{1}
+\end{bmatrix}x + \begin{bmatrix}
+0 \\
+0 \\
+0 \\
+\vdots \\
+0 \\
+1
+\end{bmatrix}u \\
+& y = \begin{bmatrix}
+b_{n} - a_{n}b_{0} & b_{n-1}-a_{n-1}b_{0} & \cdots & b_{1}-a_{1}b_{0}
+\end{bmatrix}x + b_{0}u
+\end{align}
+$$
+
