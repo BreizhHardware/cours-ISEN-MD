@@ -248,4 +248,5 @@ size(k) = $1*n$
 
 The block diagram becomes :
 
-![](/raw)
+![](https://cdn.breizhhardware.fr/FAKA3/vImiZoLi37.png/raw)
+
