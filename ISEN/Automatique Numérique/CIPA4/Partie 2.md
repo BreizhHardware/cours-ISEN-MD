@@ -476,6 +476,17 @@ s & -1 & 0 \\
 & = s[s^2+6s+K_{3}s+5+K_{2}]+(1+K_{1}) = s^3+6s^2+K_{3}s^2+5s+K_{2}s+1+K_{1} \\
 & = s^3 + (6+K_{3})s^2 + (5+K_{2})s + (1+K_{1}) \\
 & \text{Eq \color{red}{(1)} \color{black} becomes:} \\
-& \det(sI-A+BK)
+& \det(sI-A+BK) = s^3+14s^2+60s+200 \\
+& s^3 + (6+K_{3})s^2 + (5+K_{2})s + (1+K_{1}) = s^3+14s^2+60s+200 \\
+& K_{3} = 8, K_{2} = 55, K_{1} = 199 \\
+& \fcolorbox{red}{white}{$
+K = \begin{bmatrix}
+199 & 55 & 8
+\end{bmatrix}
+$} \\
 \end{align}
 $$
+
+**Method 2:** Using the transformation matrix $T$
+
+- Step 3:
