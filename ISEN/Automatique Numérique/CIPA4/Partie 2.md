@@ -516,6 +516,28 @@ $$
 
 $$
 \begin{align}
-
+& T = MW = I \text{ because the state equation is given in the controllable canonical form}
 \end{align}
 $$
+
+- Step 5:
+
+$$
+\begin{align}
+& K = \begin{bmatrix}
+\alpha_{3} - a_{3} & \alpha_{2}- a_{2} & \alpha_{1}-a_{1}
+\end{bmatrix}T^{-1} \\
+& = \begin{bmatrix}
+200 - 1 & 60 - 5 & 14 - 6
+\end{bmatrix}I^{-1} \\
+& \fcolorbox{red}{white}{$
+K = \begin{bmatrix}
+199 & 55 & 8
+\end{bmatrix}
+$} 
+\end{align}
+$$
+
+**Method 3:**
+
+
