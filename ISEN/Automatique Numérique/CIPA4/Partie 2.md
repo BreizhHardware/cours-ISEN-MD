@@ -259,4 +259,16 @@ $$
 \end{align}
 $$
 
-The solution is giv
+The solution is given by :
+$$
+\begin{align}
+& x(t) = e^{(A-BK)t}.x(0) \\
+& \implies \text{The stability and transient response characteristics are determined} \\
+& \text{by the eigenvalues (valeurs propres) of matrix A-BK}
+\end{align}
+$$
+
+**Determination of K matrix :**
+
+- Step 1: First check the controllability condition of the system. If the system is completely state controllable, then K matrix can be determined.
+- Step 2: Let the desired closed-loop poles be $M_{1}, M_{2}, \cdots, M_{m}$ write the desired characteristic polynomial $(s-\mu_{1})(s-\mu_{2}\cdots)$
