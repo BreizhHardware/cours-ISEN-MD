@@ -199,8 +199,19 @@
               "icon": "lucide-list",
               "title": "Plan de Partie 2"
             }
+          },
+          {
+            "id": "798ab2fa1e7cd170",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -216,13 +227,14 @@
       "command-palette:Ouvrir la palette de commandes": false,
       "bases:Créer une nouvelle base": false,
       "workspaces:Gérer les espaces de travail": false,
-      "markdown-importer:Ouvrir l'importateur Markdown": false
+      "markdown-importer:Ouvrir l'importateur Markdown": false,
+      "obsidian-git:Open Git source control": false
     }
   },
   "active": "691543839b18a3da",
   "lastOpenFiles": [
-    "ISEN/Automatique Numérique/CIPA4/Partie 1.md",
     "ISEN/Automatique Numérique/CIPA4/Partie 2.md",
+    "ISEN/Automatique Numérique/CIPA4/Partie 1.md",
     "ISEN/Mutations sociales/CIPA4/DILEMMES ÉTHIQUES EN ENTREPRISE_2026.pdf",
     "Sans titre.base",
     "ISEN/Mutations sociales/CIPA4/Exemple résolution du dilemmes éthique.pdf",

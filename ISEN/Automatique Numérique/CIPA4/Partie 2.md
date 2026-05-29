@@ -725,4 +725,7 @@ If the plant is completely observable, then it is possible to choose matrix $K_{
 
 The problem is mathematically similar to the pole placement problem.
 
-The block 
+The block diagram of the full order state observer is given by:
+
+![](https://cdn.breizhhardware.fr/FAKA3/DIbitiQO35.png/raw)
+
