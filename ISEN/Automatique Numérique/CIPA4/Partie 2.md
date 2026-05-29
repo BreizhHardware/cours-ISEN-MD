@@ -729,3 +729,35 @@ The block diagram of the full order state observer is given by:
 
 ![](https://cdn.breizhhardware.fr/FAKA3/DIbitiQO35.png/raw)
 
+**Determination of the observer gain matrix $K_e$**
+
+- Step 1: Examine the observability matrix. If the system is completly observabile, then the determination of $K_e$ is possible.
+- Step 2: Write the desired characteristic polynomial as:
+
+$$
+\begin{align}
+& (s - \mu_{1})(s - \mu_{2})\cdots(s-\mu_{n}) = s^n+\alpha_{1}s^{n-1}+\cdots+\alpha_{n-1}s+\alpha_{n}
+\end{align}
+$$
+
+**Method 1:**
+
+- Step 3:
+
+$$
+\begin{align}
+& \det(sI-(A-K_{e}C)) = (s-\mu_{1})(s-\mu_{2})\cdots(s-\mu_{n}) \\
+& = s^n+\alpha_{1}s^{n-1}+\cdots+\alpha_{n-1}s+\alpha_{n} \\
+& \text{Where }K_{e} \text{ is of size n*1}
+\end{align}
+$$
+
+**Method 2:**
+
+- Step 3:
+
+$$
+\begin{align}
+& 
+\end{align}
+$$
