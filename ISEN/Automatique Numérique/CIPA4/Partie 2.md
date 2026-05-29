@@ -842,6 +842,34 @@ $$
 0 & 1
 \end{bmatrix} \\
 & \text{The system uses the observed feedback } u = -k \tilde{x} \\
-& \text{The eigen values of the observed matrix are}
+& \text{The eigen values of the observed matrix are } \mu_{1} = -10 \text{ and } \mu_{2} = -10 \\
+& \text{Design a full order state observer}
 \end{align}
 $$
+
+**Solution**
+
+- Step 1:
+
+$$
+\begin{align}
+& O_{n} = \begin{bmatrix}
+C \\
+CA
+\end{bmatrix} \\
+& CA = \begin{bmatrix}
+0 & 1 \\
+\end{bmatrix} \begin{bmatrix}
+0 & 20.6 \\
+1 & 0
+\end{bmatrix} = \begin{bmatrix}
+1 & 0
+\end{bmatrix} \\
+& O_{n} = \begin{bmatrix}
+0 & 1 \\
+1 & 0
+\end{bmatrix} \text{is of rank 2 because } \det(O_{n}) = -1 \neq 0
+\end{align}
+$$
+
+Hence the system is completely observable and the determination of the desired observer gain matrix is possible
