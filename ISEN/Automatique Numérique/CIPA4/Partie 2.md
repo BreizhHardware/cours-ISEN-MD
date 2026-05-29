@@ -754,10 +754,28 @@ $$
 
 **Method 2:**
 
-- Step 3:
+- Step 3: Write the characteristic polynomial of matrix $A$ as:
 
 $$
 \begin{align}
-& 
+& \det(sI-A) = s^n+\alpha_{1}s^{n-1}+\cdots+\alpha_{n-1}s+\alpha_{n}
+\end{align}
+$$
+
+- Step 4: Determine the transformation matrix $Q$ that transforms the system state equation into observability canonical form:
+
+$$
+\begin{align}
+& Q=(W.O_{n}^T)^{-1} \\
+& \text{Where } Q_{n} \text{ is the observability matrix} \\
+& O_{n} = \begin{bmatrix}
+C^T & A^TC^T & \cdots & (A^T)^{n-1}C^T
+\end{bmatrix} \text{ and } W = \begin{bmatrix}
+a_{n-1} & a_{n-2} & \cdots & a_{1} & 1 \\
+a_{n-2} & a_{n-3} & \cdots & 1 & 0 \\
+\vdots & \vdots & \vdots & \vdots & \vdots \\
+a_{1} & 1 & \cdots & 0 & 0 \\
+1 & 0 & \cdots & 0 & 0
+\end{bmatrix}
 \end{align}
 $$
