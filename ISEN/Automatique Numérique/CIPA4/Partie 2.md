@@ -668,3 +668,61 @@ K = \begin{bmatrix}
 $} 
 \end{align}
 $$
+
+# 2.5 - State observer
+- In pole-placement design, we assumed that all state variables are measurable and available for feedback
+- In many practical cases , not all state variables are measurable, and in this case we need to estimate state variables
+- A device (or computer program) that estimates the state variables based on the measurements of the output and control variables, is called a state observer
+- A device that estimates all the states is called a full-order state observer
+
+Consider the system defined by:
+
+$$
+\begin{align}
+& \dot{x} = Ax + Bu \\
+& y = Cx \\
+\end{align}
+$$
+
+Let $\tilde{x}$ denotes the observed state vector $x$
+
+Let's define the mathematical model of the observer to be:
+
+$$
+\begin{align}
+& \dot{\tilde{x}} = A \tilde{x} + Bu + K_{e}(y-c \tilde{x}) \\
+& \dot{\tilde{x}} = (A - K_{e}C)\tilde{x} + Bu + K_{e} y \\
+& K_{e} \text{ : is called the observer gain matrix} \\
+& C \tilde{x} \text{ : is called the estimated output}
+\end{align}
+$$
+
+> Note that the model of the observer is basically the same as that of the plant, except that we included an additional term that include the estimation error
+
+Foll order state observer $\color{red}{\text{(FOSO)}}$
+
+$$
+\begin{align}
+& \dot{x} - \dot{\tilde{x}} = Ax + Bu - A \tilde{x} - Bu - K_{e}(y-C \tilde{x}) \\
+& = A(x - \tilde{x}) - K_{e}(y - C \tilde{x}) \\
+& = A(x - \tilde{x}) - K_{e}(Cx - C \tilde{x}) \\
+& = A(x - \tilde{x}) - K_{e}C(x-\tilde{x}) \\
+& = (A-K_{e}C)(x - \tilde{x}) \\
+& \dot{x} - \dot{\tilde{x}} = (A-K_{e}C)(x - \tilde{x}) 
+\end{align}
+$$
+
+Defined the error vector $e = x - \tilde{x}$, we can write:
+
+$$
+\begin{align}
+& \dot{e} = (A - K_{e}c)e \\
+& \text{The solution is given by } e(t) = \exp[(A - K_{e}C)t].e(0) \\
+& \implies \text{The dynamic behaviour of the error is determined by the eigen values of the maxtrix } A-K_{e}C 
+\end{align}
+$$
+If the plant is completely observable, then it is possible to choose matrix $K_{e}$ such that $A-K_{e}C$ has arbitrarely design eigen values (desired poles).
+
+The problem is mathematically similar to the pole placement problem.
+
+The block 
