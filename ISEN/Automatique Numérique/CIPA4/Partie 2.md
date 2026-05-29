@@ -779,3 +779,44 @@ a_{1} & 1 & \cdots & 0 & 0 \\
 \end{bmatrix}
 \end{align}
 $$
+
+- Step 5: $K_{e}$ is determined using:
+
+$$
+\begin{align}
+& K_{e} = Q\begin{bmatrix}
+\alpha_{n}-a_{n} \\
+\alpha_{n-1}-a_{n-1} \\
+\vdots \\
+\alpha_{1}-a_{1}
+\end{bmatrix}
+\end{align}
+$$
+
+**Method 3:**
+
+- Step 3: Determine $K_{e}$ using Ackermann's formula:
+
+$$
+\begin{align}
+& K_{e} = \phi(A)O_{n}\begin{bmatrix}
+0 \\
+0 \\
+\vdots \\
+0 \\
+1
+\end{bmatrix} \\
+& \text{Where } \phi(A) = A^n+\alpha_{1}A^{n-1}+\cdots+\alpha_{n-1}A+\alpha_{n}I \\
+& \text{and }O_{n}=\begin{bmatrix}
+C \\
+CA \\
+\vdots  \\
+CA^{n-2} \\
+CA^{n-1}
+\end{bmatrix} \text{ is the observability matrix}
+\end{align}
+$$
+
+The design problem becomes a two stage process:
+
+1. Determination of the feedback
