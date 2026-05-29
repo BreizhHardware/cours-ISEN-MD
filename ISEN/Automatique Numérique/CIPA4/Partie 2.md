@@ -819,4 +819,29 @@ $$
 
 The design problem becomes a two stage process:
 
-1. Determination of the feedback
+1. Determination of the feedback gain matrix $K$ to yield the desired characteristic equation
+2. Determination of the observer gain matrix $K_{e}$ to yield the desired observer characteristic equation
+
+![](https://cdn.breizhhardware.fr/FAKA3/rIZukEBe03.png/raw)
+
+**Exercice 6**
+
+Consider the system
+
+$$
+\begin{align}
+& \dot{x} = Ax + Bu \\
+& y = Cx \\
+& \text{Where } A = \begin{bmatrix}
+0 & 20.6 \\
+1 & 0
+\end{bmatrix} B = \begin{bmatrix}
+0 \\
+1
+\end{bmatrix} C = \begin{bmatrix}
+0 & 1
+\end{bmatrix} \\
+& \text{The system uses the observed feedback } u = -k \tilde{x} \\
+& \text{The eigen values of the observed matrix are}
+\end{align}
+$$
