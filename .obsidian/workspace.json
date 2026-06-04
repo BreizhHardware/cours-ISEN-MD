@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ISEN/Automatique Numérique/CIPA4/Partie 2.md",
+                "file": "ISEN/Réunion/CIPA 4/Départ à l'étranger.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Partie 2"
+              "title": "Départ à l'étranger"
             }
           }
         ],
@@ -139,7 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ISEN/Automatique Numérique/CIPA4/Partie 2.md",
+                "file": "ISEN/Réunion/CIPA 4/Départ à l'étranger.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -149,7 +149,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Rétrolien pour Partie 2"
+              "title": "Rétrolien pour Départ à l'étranger"
             }
           },
           {
@@ -158,12 +158,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ISEN/Automatique Numérique/CIPA4/Partie 2.md",
+                "file": "ISEN/Réunion/CIPA 4/Départ à l'étranger.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Liens sortants de Partie 2"
+              "title": "Liens sortants de Départ à l'étranger"
             }
           },
           {
@@ -201,13 +201,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ISEN/Automatique Numérique/CIPA4/Partie 2.md",
+                "file": "ISEN/Réunion/CIPA 4/Départ à l'étranger.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Plan de Partie 2"
+              "title": "Plan de Départ à l'étranger"
             }
           }
         ]
@@ -230,13 +230,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "bed5580701477d53",
+  "active": "691543839b18a3da",
   "lastOpenFiles": [
+    "ISEN/Automatique Numérique/CIPA4/Partie 2.md",
+    "ISEN/Réunion/CIPA 4/Départ à l'étranger.md",
     "ISEN/Automatique Numérique/CIPA4/Partie 1.md",
     "ISEN/Réunion/CIPA 4/Soutenance mi-alternance Oral 3 juin 2026.md",
     "Sans titre.base",
     "ISEN/Réunion/CIPA 4/Délégué 2025-2026.md",
-    "ISEN/Automatique Numérique/CIPA4/Partie 2.md",
     "ISEN/Sans titre",
     "ISEN/Mutations sociales/CIPA4/DILEMMES ÉTHIQUES EN ENTREPRISE_2026.pdf",
     "ISEN/Mutations sociales/CIPA4/Exemple résolution du dilemmes éthique.pdf",
