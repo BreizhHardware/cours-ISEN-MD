@@ -873,3 +873,25 @@ CA
 $$
 
 Hence the system is completely observable and the determination of the desired observer gain matrix is possible
+
+- Step 2: 
+
+$$
+\begin{align}
+& (s - \mu_{1})(s - \mu_{2}) = s^2+\alpha_{1}s+\alpha_{2} \\
+& (s + 8)(s + 8) \\
+& \implies s^2+16s+64 = s^2+\alpha_{1}s+\alpha_{2} \\
+& \implies \alpha_{1} = 16 \text{ and } \alpha_{2} = 64
+\end{align}
+$$
+
+**Method 1**
+
+- Step 3:
+
+$$
+\begin{align}
+& \det(sI - (A-K_{e}C)) = s^2+\alpha_{1}s+\alpha_{2} \\
+& \det(sI - A + K_{e}C) = s^2+16
+\end{align}
+$$

@@ -35,12 +35,24 @@
             "id": "691543839b18a3da",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "ISEN/FHS/CIPA4/Mutations sociales/Exemple résolution du dilemmes éthique.pdf"
+                "file": "ISEN/Automatique Numérique/CIPA4/Partie 2.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
-              "icon": "lucide-file-text",
-              "title": "Exemple résolution du dilemmes éthique"
+              "icon": "lucide-file",
+              "title": "Partie 2"
             }
           }
         ],
@@ -127,7 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ISEN/FHS/CIPA4/Mutations sociales/Exemple résolution du dilemmes éthique.pdf",
+                "file": "ISEN/Automatique Numérique/CIPA4/Partie 2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +149,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Rétrolien pour Exemple résolution du dilemmes éthique"
+              "title": "Rétrolien pour Partie 2"
             }
           },
           {
@@ -146,12 +158,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ISEN/FHS/CIPA4/Mutations sociales/Exemple résolution du dilemmes éthique.pdf",
+                "file": "ISEN/Automatique Numérique/CIPA4/Partie 2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Liens sortants de Exemple résolution du dilemmes éthique"
+              "title": "Liens sortants de Partie 2"
             }
           },
           {
@@ -189,13 +201,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ISEN/FHS/CIPA4/Mutations sociales/Exemple résolution du dilemmes éthique.pdf",
+                "file": "ISEN/Automatique Numérique/CIPA4/Partie 2.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Plan de Exemple résolution du dilemmes éthique"
+              "title": "Plan de Partie 2"
             }
           }
         ]
@@ -220,6 +232,7 @@
   },
   "active": "691543839b18a3da",
   "lastOpenFiles": [
+    "ISEN/FHS/CIPA4/Mutations sociales/Exemple résolution du dilemmes éthique.pdf",
     "ISEN/FHS/CIPA4/Mutations sociales/~$LETHFISA_MARQUET.docx",
     "ISEN/FHS/CIPA4/Mutations sociales/DILETHFISA_MARQUET.docx",
     "ISEN/FHS/CIPA4/Mutations sociales/Cadre résolution dilemmes éthiques.pdf",
@@ -230,7 +243,6 @@
     "ISEN/Mutations sociales/CIPA4/Cadre résolution dilemmes éthiques.docx",
     "ISEN/Mutations sociales/CIPA4",
     "ISEN/Mutations sociales",
-    "ISEN/FHS/CIPA4/Mutations sociales/Exemple résolution du dilemmes éthique.pdf",
     "ISEN/Réunion/CIPA 4/Départ à l'étranger.md",
     "ISEN/Automatique Numérique/CIPA4/Partie 2.md",
     "ISEN/Automatique Numérique/CIPA4/Partie 1.md",
