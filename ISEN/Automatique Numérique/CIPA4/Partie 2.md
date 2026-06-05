@@ -833,7 +833,7 @@ $$
 & \dot{x} = Ax + Bu \\
 & y = Cx \\
 & \text{Where } A = \begin{bmatrix}
-0 & 20.6 \\
+0 & 12,5 \\
 1 & 0
 \end{bmatrix} B = \begin{bmatrix}
 0 \\
@@ -995,7 +995,27 @@ $$
 1 & 0
 \end{bmatrix} = \begin{bmatrix}
 12,5 & 0 \\
-
+0 & 12,5
+\end{bmatrix} \\
+& K_{e} = \begin{bmatrix}
+76,5 & 200 \\
+16 & 76,5
+\end{bmatrix}\begin{bmatrix}
+0 & 1 \\
+1 & 0
+\end{bmatrix}\begin{bmatrix}
+0 \\
+1
+\end{bmatrix} \\
+& = \begin{bmatrix}
+76,5 & 200 \\
+16 & 76,5
+\end{bmatrix} \begin{bmatrix}
+1 \\
+0
+\end{bmatrix} = \begin{bmatrix}
+76,5 \\
+16
 \end{bmatrix}
 \end{align}
 $$
