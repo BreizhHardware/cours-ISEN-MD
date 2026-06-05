@@ -860,7 +860,7 @@ CA
 & CA = \begin{bmatrix}
 0 & 1 \\
 \end{bmatrix} \begin{bmatrix}
-0 & 20.6 \\
+0 & 12,5 \\
 1 & 0
 \end{bmatrix} = \begin{bmatrix}
 1 & 0
@@ -892,6 +892,110 @@ $$
 $$
 \begin{align}
 & \det(sI - (A-K_{e}C)) = s^2+\alpha_{1}s+\alpha_{2} \\
-& \det(sI - A + K_{e}C) = s^2+16
+& \det(sI - A + K_{e}C) = s^2+16s+64 \\
+& sI - A + K_{e}C = \begin{bmatrix}
+s & 0 \\
+0 & S
+\end{bmatrix} - \begin{bmatrix}
+0 & 12,5 \\
+1 & 0
+\end{bmatrix} + \begin{bmatrix}
+K_{e_{1}} \\
+K_{e_{2}}
+\end{bmatrix}\begin{bmatrix}
+0 & 1
+\end{bmatrix} \\
+& = \begin{bmatrix}
+s & 0 \\
+0 & s
+\end{bmatrix} - \begin{bmatrix}
+0 & 12,5 \\
+1 & 0
+\end{bmatrix} + \begin{bmatrix}
+0 & K_{e_{1}} \\
+0 & K_{e_{2}}
+\end{bmatrix} = \begin{bmatrix}
+s & K_{e_{1}}-12,5 \\
+-1 & K_{e_{2}}-s
+\end{bmatrix} \\
+& \det(sI-A+K_{e}C) = s(s+K_{e_{2}})-(K_{e_{1}}-12,5)(-1) \\
+& = s^2+K_{e_{2}}s+K_{e_{1}}-12,5 = s^2+16s+64 \\
+& \implies K_{e_{2}} = 16 \text{ and } K_{e_{1}} = 76,5 \\
+& K_{e} = \begin{bmatrix}
+76,5 \\
+16
+\end{bmatrix}
+\end{align}
+$$
+
+**Method 2**
+
+- Step 3:
+
+$$
+\begin{align}
+& \det(sI-A) = s^2+a_{1}s+a_{2} \\
+& sI - A = \begin{bmatrix}
+s & 0 \\
+0 & s
+\end{bmatrix}-\begin{bmatrix}
+0 & 12,6 \\
+1 & 0
+\end{bmatrix} = \begin{bmatrix}
+s & -12,5 \\
+-1 & s
+\end{bmatrix} \\
+& \det(sI - A) = s^2 -12,5 \implies a_{1} = 0 \text{ and } a_{2} = -12,5
+\end{align} 
+$$
+
+- Step 4:
+
+$$
+\begin{align}
+& Q = (WO_{m}^T)^{-1} \\
+& \text{Under the canonical form } Q = I
+\end{align}
+$$
+
+- Step 5:
+
+$$
+\begin{align}
+& K_{e} = Q^{-1}\begin{bmatrix}
+\alpha_{2} - a_{2} \\
+\alpha_{1} - a_{1}
+\end{bmatrix}  \\
+& I^{-1}\begin{bmatrix}
+76,5 \\
+16
+\end{bmatrix} = \begin{bmatrix}
+76,5 \\
+16
+\end{bmatrix}
+\end{align}
+$$
+
+**Method 3**
+
+- Step 3:
+
+$$
+\begin{align}
+& K_{e} = \phi(A)O_{m}^{-1}\begin{bmatrix}
+0 \\
+1
+\end{bmatrix} \\
+& \phi(A) = A^2+\alpha_{1}A+\alpha_{2}I \\
+& A^2 = \begin{bmatrix}
+0 & 12,5 \\
+1 & 0
+\end{bmatrix}\begin{bmatrix}
+0 & 12,5 \\
+1 & 0
+\end{bmatrix} = \begin{bmatrix}
+12,5 & 0 \\
+
+\end{bmatrix}
 \end{align}
 $$
