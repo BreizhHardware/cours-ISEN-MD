@@ -40,3 +40,6 @@ https://web.isen-ouest.fr/moodle4/pluginfile.php/45541/mod_resource/content/1/GP
 ## Type of Attacks
 ![](https://cdn.breizhhardware.fr/FAKA3/feSaViQI46.png/raw)
 
+# Mémoire flash
+Quand on commence avec une flash, on commence qu'avec des **1** et on écrit des **0**.
+Si on veut passer de **A7** à **AF** on doit tous récrire (en passant par **FF**)

@@ -30,6 +30,30 @@
               "icon": "lucide-file",
               "title": "Sécurité des applications Cours 1"
             }
+          },
+          {
+            "id": "79bcb68c461aaaae",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ISEN/STM32/CIPA3/STM32 Cours 2.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "STM32 Cours 2"
+            }
           }
         ]
       }
@@ -214,8 +238,10 @@
   },
   "active": "e4257884676ee851",
   "lastOpenFiles": [
-    "ISEN/Réunion/CIPA 5/Réunion présentation DP Cyber.md",
+    "ISEN/STM32/CIPA3/STM32 Cours 2.md",
+    "ISEN/STM32/CIPA3/STM32 Cours 1.md",
     "ISEN/Sécurité des applications/CIPA 5/Sécurité des applications Cours 1.md",
+    "ISEN/Réunion/CIPA 5/Réunion présentation DP Cyber.md",
     "ISEN/Sécurité des applications/CIPA 5",
     "ISEN/Sécurité des applications",
     "ISEN/Réunion/CIPA 5",
