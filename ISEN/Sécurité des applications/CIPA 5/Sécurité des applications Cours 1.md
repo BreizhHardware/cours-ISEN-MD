@@ -56,3 +56,4 @@ Si on veut passer de **A7** à **AF** on doit tous récrire (en passant par **FF
 # Hardware Security
 Mémoire unifiée: Un seul **0** pas de numéro de page (en gros une seule très grande page sur un livre)
 
+Option Bytes: Configuration statique (En ST)
