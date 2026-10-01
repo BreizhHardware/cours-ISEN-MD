@@ -1,43 +1,19 @@
 {
   "main": {
-    "id": "da3845e451bc671a",
+    "id": "5aec44a0e6ca98fe",
     "type": "split",
     "children": [
       {
-        "id": "12a91e7ed8a6c515",
+        "id": "01a819b0b3dbee4d",
         "type": "tabs",
         "children": [
           {
-            "id": "86094e021028184c",
+            "id": "e4257884676ee851",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ISEN/Automatique Numérique/CIPA4/Partie 1.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Partie 1"
-            }
-          },
-          {
-            "id": "691543839b18a3da",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ISEN/Automatique Numérique/CIPA4/Partie 2.md",
+                "file": "ISEN/Réunion/CIPA 5/Réunion présentation DP Cyber.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,38 +28,39 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Partie 2"
+              "title": "Réunion présentation DP Cyber"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "5afb6b2b667df658",
+    "id": "5637a2f7d58e753a",
     "type": "split",
     "children": [
       {
-        "id": "d7e6d653664b8bdc",
+        "id": "6e33f919a90ba54a",
         "type": "tabs",
         "children": [
           {
-            "id": "bed5580701477d53",
+            "id": "86048d51ed600386",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "Explorateur de fichiers"
             }
           },
           {
-            "id": "1931e259bb7f0eb9",
+            "id": "48feb35c5ea6dd89",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -100,11 +77,14 @@
             }
           },
           {
-            "id": "838e90bc99db80f3",
+            "id": "4e9ee3a985c74989",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {},
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
               "icon": "lucide-bookmark",
               "title": "Signets"
             }
@@ -116,30 +96,20 @@
     "width": 300
   },
   "right": {
-    "id": "24f9709c01104937",
+    "id": "0a6ab502aac71d94",
     "type": "split",
     "children": [
       {
-        "id": "4de04a178fa6144f",
+        "id": "35d1ff0a5ed34ea7",
         "type": "tabs",
         "children": [
           {
-            "id": "8f0e5857df7dc1ce",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
-            }
-          },
-          {
-            "id": "aba43a4c9f7203ae",
+            "id": "bf81ae00412a9321",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ISEN/Automatique Numérique/CIPA4/Partie 2.md",
+                "file": "ISEN/Réunion/CIPA 5/Réunion présentation DP Cyber.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -149,25 +119,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Rétrolien pour Partie 2"
+              "title": "Rétroliens"
             }
           },
           {
-            "id": "71c279da45009998",
+            "id": "030b7318a234de6c",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ISEN/Automatique Numérique/CIPA4/Partie 2.md",
+                "file": "ISEN/Réunion/CIPA 5/Réunion présentation DP Cyber.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Liens sortants de Partie 2"
+              "title": "Liens sortants"
             }
           },
           {
-            "id": "d1d3ff87cb635c1e",
+            "id": "313b1a7c5d421d1c",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -182,7 +152,7 @@
             }
           },
           {
-            "id": "16273b5104b03438",
+            "id": "f6d0967e7fb0098a",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -196,21 +166,32 @@
             }
           },
           {
-            "id": "d9799c6895a7dc66",
+            "id": "2b1163da0ce3c99e",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "ISEN/Automatique Numérique/CIPA4/Partie 2.md",
+                "file": "ISEN/Réunion/CIPA 5/Réunion présentation DP Cyber.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Plan de Partie 2"
+              "title": "Plan"
+            }
+          },
+          {
+            "id": "7f28e2b63525e6c2",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -218,75 +199,31 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "markdown-importer:Ouvrir l'importateur Markdown": false,
       "audio-recorder:Démarrer / arrêter l'enregistrement": false,
+      "workspaces:Gérer les espaces de travail": false,
+      "obsidian-git:Open Git source control": false,
       "switcher:Ouvrir le sélecteur rapide": false,
       "graph:Ouvrir la vue graphique": false,
       "canvas:Créer une nouvelle toile": false,
       "templates:Insérer le modèle": false,
       "command-palette:Ouvrir la palette de commandes": false,
-      "bases:Créer une nouvelle base": false,
-      "workspaces:Gérer les espaces de travail": false,
-      "markdown-importer:Ouvrir l'importateur Markdown": false,
-      "obsidian-git:Open Git source control": false
+      "bases:Créer une nouvelle base": false
     }
   },
-  "active": "691543839b18a3da",
+  "active": "7f28e2b63525e6c2",
   "lastOpenFiles": [
-    "ISEN/FHS/CIPA4/Mutations sociales/Exemple résolution du dilemmes éthique.pdf",
-    "ISEN/FHS/CIPA4/Mutations sociales/~$LETHFISA_MARQUET.docx",
-    "ISEN/FHS/CIPA4/Mutations sociales/DILETHFISA_MARQUET.docx",
-    "ISEN/FHS/CIPA4/Mutations sociales/Cadre résolution dilemmes éthiques.pdf",
-    "ISEN/FHS/CIPA4/Mutations sociales/DILEMMES ÉTHIQUES EN ENTREPRISE_2026.pdf",
-    "ISEN/FHS/CIPA4/Mutations sociales/Mutation soc et pro _P1 et P2 2026.pdf",
-    "ISEN/FHS/CIPA4/Mutations sociales/~$dre résolution dilemmes éthiques.docx",
-    "ISEN/FHS/CIPA4/Mutations sociales/Cadre résolution dilemmes éthiques.docx",
-    "ISEN/Mutations sociales/CIPA4/Cadre résolution dilemmes éthiques.docx",
-    "ISEN/Mutations sociales/CIPA4",
-    "ISEN/Mutations sociales",
-    "ISEN/Réunion/CIPA 4/Départ à l'étranger.md",
-    "ISEN/Automatique Numérique/CIPA4/Partie 2.md",
-    "ISEN/Automatique Numérique/CIPA4/Partie 1.md",
-    "ISEN/Réunion/CIPA 4/Soutenance mi-alternance Oral 3 juin 2026.md",
-    "ISEN/Réunion/CIPA 4/Délégué 2025-2026.md",
-    "ISEN/FHS/CIPA4/Mutations sociales/Mutations sociales Cours 1.md",
-    "ISEN/Gestion et finance des entreprises/CIPA4/Gestion et finance des entreprises Cours 1.md",
-    "ISEN/Gestion et finance des entreprises/CIPA4/Gestion et finance des entreprises Cours 2.md",
-    "ISEN/Automatique Numérique/CIPA4/Cours 1 (conflicted copy 2026-05-18 101009).md",
-    "ISEN/FreeRTOS/CIPA4/FreeRTOS Cours 1.md",
-    "ISEN/Linux Embarqué/CIPA4/Linux embarqué Cours 1.md",
-    "ISEN/Réunion/CIPA 4/Réunion 22 avr 2026.md",
-    "ISEN/Réunion/CIPA 4/Réunion 8 janv 2026.md",
-    "ISEN/Réunion/CIPA 4/Rentrée 2025-2026.md",
-    "ISEN/Projet IA WEB Big Data/CIPA4/Présentation.md",
-    "ISEN/Cloud Computing/CIPA4/Cloud Computing Cours 2.md",
-    "ISEN/Cloud Computing/CIPA4/Cloud Computing Cours 1.md",
-    "ISEN/English/CIPA4/11 fev 2026.md",
-    "ISEN/Sécurité IOT/CIPA4/Sécurité IOT TP2.md",
-    "Pasted image 20260210150329.png",
-    "ISEN/Sécurité IOT/CIPA4/Sécurité IOT TP1.md",
-    "ISEN/Sécurité IOT/CIPA4/test2.md",
-    "ISEN/Sécurité IOT/CIPA4/test.md",
-    "ISEN/Sécurité IOT/CIPA4/Sécurité IOT Cours 3.md",
-    "Pasted image 20260210141034.png",
-    "Pasted image 20260210140833.png",
-    "ISEN/Sécurité IOT/CIPA4/Firmware/_iotdev_firmware.bin.extracted/squashfs-root/usr/html/logo-7.svg",
-    "ISEN/Sécurité IOT/CIPA4/Firmware/_iotdev_firmware.bin.extracted/squashfs-root/usr/html/graph2.png",
-    "ISEN/Sécurité IOT/CIPA4/Firmware/_iotdev_firmware.bin.extracted/squashfs-root/usr/html/graph1.png",
-    "ISEN/Sécurité IOT/CIPA4/Firmware/_iotdev_firmware.bin.extracted/squashfs-root-0/usr/html/logo-7.svg",
-    "ISEN/Sécurité IOT/CIPA4/Firmware/_iotdev_firmware.bin.extracted/squashfs-root-0/usr/html/graph2.png",
-    "ISEN/Sécurité IOT/CIPA4/Firmware/_iotdev_firmware.bin.extracted/squashfs-root-0/usr/html/graph1.png",
-    "ISEN/Introduction a la cyber et a la cryptographie/CIPA 4/Crypto Cours 2.md",
-    "ISEN/Sécurité IOT/CIPA4/Sécurité IOT Cours 1.md",
-    "ISEN/Web/CIPA 4/TP/TP5/MPD.png",
-    "ISEN/Introduction a la cyber et a la cryptographie/CIPA 4/Tunnel SSH TP.canvas",
-    "ISEN/Réseau/A2/TP Ansible et docker.canvas",
-    "ISEN/BDD/CIR2/TD2.canvas",
-    "ISEN/Modelec/NB point.canvas",
-    "Untitled.canvas",
-    "ISEN/Other/Graph Overseer.canvas",
-    "ISEN/Algo C/A2/TP1 Exercice 1.canvas",
-    "ISEN/Algo C/A2/MergeSort.canvas",
-    "ISEN/FHS/A1/Stage/Organigramme Go-Recup.canvas",
-    "ISEN/FHS/A1/Démocratie/Mouvement Social.canvas"
+    "ISEN/Réunion/CIPA 5/Réunion présentation DP Cyber.md",
+    "ISEN/Réunion/CIPA 5",
+    "Stage CSI/Cobot alexandria/Drawing 2026-08-18 09.47.06 copy.excalidraw.md",
+    "Stage CSI/Cobot alexandria/Drawing 2026-08-18 09.47.06.excalidraw.md",
+    "Stage CSI/Cobot alexandria/Drawing 2026-08-18 09.47.06.excalidraw.png",
+    "Stage CSI/Cobot alexandria",
+    "Stage CSI",
+    "Excalidraw/Libraries/local-library.excalidrawlib",
+    "ISEN/FHS/A2/Outils RH/~$ttre de motivation.docx",
+    "ISEN/FHS/A2/Outils RH/~WRL2137.tmp",
+    "Excalidraw/Libraries",
+    "Excalidraw"
   ]
 }
