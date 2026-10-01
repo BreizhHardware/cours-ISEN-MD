@@ -37,3 +37,6 @@ PSA Certified offers a framework for securing connected devices.
 
 https://web.isen-ouest.fr/moodle4/pluginfile.php/45541/mod_resource/content/1/GPS_SPE_101_PSACertified_Level1Questionnaire_v3.1_PublicRelease_signed%281%29.pdf
 
+## Type of Attacks
+![](https://cdn.breizhhardware.fr/FAKA3/feSaViQI46.png/raw)
+
