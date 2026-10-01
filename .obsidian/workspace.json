@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ISEN/Réunion/CIPA 5/Réunion présentation DP Cyber.md",
+                "file": "ISEN/Sécurité des applications/CIPA 5/Sans titre.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Réunion présentation DP Cyber"
+              "title": "Sans titre"
             }
           }
         ]
@@ -208,12 +208,16 @@
       "canvas:Créer une nouvelle toile": false,
       "templates:Insérer le modèle": false,
       "command-palette:Ouvrir la palette de commandes": false,
-      "bases:Créer une nouvelle base": false
+      "bases:Créer une nouvelle base": false,
+      "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "7f28e2b63525e6c2",
+  "active": "e4257884676ee851",
   "lastOpenFiles": [
     "ISEN/Réunion/CIPA 5/Réunion présentation DP Cyber.md",
+    "ISEN/Sécurité des applications/CIPA 5/Sans titre.md",
+    "ISEN/Sécurité des applications/CIPA 5",
+    "ISEN/Sécurité des applications",
     "ISEN/Réunion/CIPA 5",
     "Stage CSI/Cobot alexandria/Drawing 2026-08-18 09.47.06 copy.excalidraw.md",
     "Stage CSI/Cobot alexandria/Drawing 2026-08-18 09.47.06.excalidraw.md",
