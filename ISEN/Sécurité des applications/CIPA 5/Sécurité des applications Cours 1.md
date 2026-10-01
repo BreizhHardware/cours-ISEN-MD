@@ -43,3 +43,9 @@ https://web.isen-ouest.fr/moodle4/pluginfile.php/45541/mod_resource/content/1/GP
 # Mémoire flash
 Quand on commence avec une flash, on commence qu'avec des **1** et on écrit des **0**.
 Si on veut passer de **A7** à **AF** on doit tous récrire (en passant par **FF**)
+
+## Write into Flash
+### Unlocking the Flash memory
+1. Write KEY1 = 0x45670123 in the *Flash key register (FLASH_KEYR)*
+2. Write KEY2 = 0xCDEF89AB in the FLASH_KEYR
+
