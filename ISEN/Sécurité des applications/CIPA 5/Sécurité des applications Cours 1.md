@@ -14,3 +14,21 @@ Il doit y avoir un protocole de gestion des vulnérabilités (72h pour déclarer
 
 En fonction du produit vendu, on ne fait pas partie de la meme classe de produit (donc pas les meme choses a faire)
 
+## CRA Compliance
+- Risk Assessment
+- Secure by design
+- No known exploitable vulnerabilities
+- Regular security updates
+- Resistance to DoS attack
+- Minimize negative impact
+- Device Protection
+- Software Bill Of Materials (SBOM)
+- Vulnerabilities handling, monitoring, disclosure
+
+## Security Standards Around the World
+- RED Directive
+- CRA
+- Cyber Trust Act
+- NIST Cybersecurity Framework
+- China Cybersecurity Law
+
