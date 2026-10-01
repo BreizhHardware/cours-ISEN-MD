@@ -32,3 +32,8 @@ En fonction du produit vendu, on ne fait pas partie de la meme classe de produit
 - NIST Cybersecurity Framework
 - China Cybersecurity Law
 
+## PSA Certification
+PSA Certified offers a framework for securing connected devices.
+
+https://web.isen-ouest.fr/moodle4/pluginfile.php/45541/mod_resource/content/1/GPS_SPE_101_PSACertified_Level1Questionnaire_v3.1_PublicRelease_signed%281%29.pdf
+
