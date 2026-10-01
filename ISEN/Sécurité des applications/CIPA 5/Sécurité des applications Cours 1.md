@@ -49,3 +49,10 @@ Si on veut passer de **A7** à **AF** on doit tous récrire (en passant par **FF
 1. Write KEY1 = 0x45670123 in the *Flash key register (FLASH_KEYR)*
 2. Write KEY2 = 0xCDEF89AB in the FLASH_KEYR
 
+## SRAM
+- Without voltage, it is impossible to guarantee that the information is preserved
+- At low temp, it is possible to preserve the values of the bits for a minute (depends on SRAMs)
+
+# Hardware Security
+Mémoire unifiée: Un seul **0** pas de numéro de page (en gros une seule très grande page sur un livre)
+
