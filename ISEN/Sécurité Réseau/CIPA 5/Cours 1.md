@@ -31,4 +31,6 @@ S1(config)#service password-encryption
 S1(config)#interface vlan 1
 S1(config-if)#ip address 1.1.1.1 255.0.0.0
 S1(config-if)#no shutdown
+S1#show interfaces status
+S1#show ip interface brief
 ```
