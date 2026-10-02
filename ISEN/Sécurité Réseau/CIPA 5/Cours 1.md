@@ -38,3 +38,13 @@ S1#show ip interface brief
 
 ![](Pasted%20image%2020261002165703.png)
 
+
+| Couche OSI |     Materiel      | Prot       |
+| :--------: | :---------------: | ---------- |
+|     7      | Firewall DNS DHCP |            |
+|     6      |                   |            |
+|     5      |                   |            |
+|     4      |                   |            |
+|     3      |      Router       | IP décimal |
+|     2      |      Switch       | hexa - Mac |
+|     1      |       Cable       | bit        |
