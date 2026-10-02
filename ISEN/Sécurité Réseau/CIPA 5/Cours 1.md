@@ -3,4 +3,11 @@ Un simulateur imite un système et l'autre vise à le reproduire le plus fidèle
 
 4 pilliers de l'IT/OT:
 - Type de réseau
-- 
+
+
+
+| Type de réseau |         |                                 |
+| :------------: | :-----: | :-----------------------------: |
+|      LAN       | éditeur | Cisco/Juniper/HPE/Dell/Ubiquiti |
+|      MAN       | editeur |            Opérateur            |
+|      WAN       |         |                                 |
