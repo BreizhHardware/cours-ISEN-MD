@@ -3,6 +3,7 @@ Un simulateur imite un système et l'autre vise à le reproduire le plus fidèle
 
 4 pilliers de l'IT/OT:
 - Type de réseau
+- Architecture
 
 | Type de réseau |         |                                 |      |      |        |
 | :------------: | :-----: | :-----------------------------: | ---- | ---- | ------ |
@@ -34,3 +35,6 @@ S1(config-if)#no shutdown
 S1#show interfaces status
 S1#show ip interface brief
 ```
+
+![](Pasted%20image%2020261002165703.png)
+
