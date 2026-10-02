@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ISEN/Sécurité des applications/CIPA 5/Sécurité des applications Cours 1.md",
+                "file": "ISEN/Initiation à Recherche/CIPA 5/Cours 1.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Sécurité des applications Cours 1"
+              "title": "Cours 1"
             }
           },
           {
@@ -238,10 +238,13 @@
   },
   "active": "e4257884676ee851",
   "lastOpenFiles": [
+    "ISEN/Initiation à Recherche/CIPA 5",
+    "ISEN/Sécurité des applications/CIPA 5/Sécurité des applications Cours 1.md",
+    "ISEN/Initiation à Recherche/CIPA 5/Cours 1.md",
+    "ISEN/Initiation à Recherche",
     "Stage CSI/Cobot alexandria/Drawing 2026-08-18 09.47.06 copy.excalidraw.md",
     "Stage CSI/Cobot alexandria/Drawing 2026-08-18 09.47.06.excalidraw.md",
     "Stage CSI/Cobot alexandria/Drawing 2026-08-18 09.47.06.excalidraw.png",
-    "ISEN/Sécurité des applications/CIPA 5/Sécurité des applications Cours 1.md",
     "ISEN/STM32/CIPA3/STM32 Cours 2.md",
     "ISEN/STM32/CIPA3/STM32 Cours 1.md",
     "ISEN/Réunion/CIPA 5/Réunion présentation DP Cyber.md",
@@ -253,7 +256,6 @@
     "Excalidraw/Libraries/local-library.excalidrawlib",
     "ISEN/FHS/A2/Outils RH/~$ttre de motivation.docx",
     "ISEN/FHS/A2/Outils RH/~WRL2137.tmp",
-    "Excalidraw/Libraries",
-    "Excalidraw"
+    "Excalidraw/Libraries"
   ]
 }
