@@ -28,4 +28,7 @@ S1#show startup
 S1#copy running-config startup-config
 S1#conf term
 S1(config)#service password-encryption
+S1(config)#interface vlan 1
+S1(config-if)#ip address 1.1.1.1 255.0.0.0
+S1(config-if)#no shutdown
 ```
