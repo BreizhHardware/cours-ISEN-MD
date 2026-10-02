@@ -12,7 +12,7 @@ Un simulateur imite un système et l'autre vise à le reproduire le plus fidèle
 
 ```CISCO
 S1>enable
-S1#config
+S1#conf term
 S1(config)#banner motd "Interdit si pas personnel"
 S1(config)#enable password cisco
 S1(config)#line console 0 
@@ -26,4 +26,6 @@ S1(config)#exit
 S1#show run
 S1#show startup
 S1#copy running-config startup-config
+S1#conf term
+S1(config)#service password-encryption
 ```
