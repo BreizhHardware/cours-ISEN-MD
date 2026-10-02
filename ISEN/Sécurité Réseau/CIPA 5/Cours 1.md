@@ -10,3 +10,11 @@ Un simulateur imite un système et l'autre vise à le reproduire le plus fidèle
 |      MAN       | editeur |          Opérateur FR           | WMAN |      | SD-WAN |
 |      WAN       | editeur |        Opérateur FR / US        | WWAN |      | SD-WAN |
 
+```CISCO
+S1>enable
+S1#config
+S1(config)#banner motd "Interdit si pas personnel"
+S1(config)#enable password cisco
+S1(config)#line console 0 
+S1(config-line)#login
+```
