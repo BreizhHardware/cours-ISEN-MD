@@ -15,7 +15,7 @@
               "state": {
                 "file": "ISEN/Sécurité Réseau/CIPA 5/Cours 1.md",
                 "mode": "source",
-                "source": false,
+                "source": true,
                 "backlinks": true,
                 "backlinkOpts": {
                   "collapseAll": false,

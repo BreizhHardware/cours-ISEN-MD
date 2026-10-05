@@ -51,6 +51,7 @@ S1#show ip interface brief
 
 Max 30 saut avant que le packet IP soit drop
 
+Désactiver des interfaces
 ```CISCO
 enable
 conf t
@@ -58,4 +59,17 @@ interface range fastEthernet 0/4 - 24
 shutdown
 end
 show run
+```
+
+Mettre un mdp et une banner sur un switch
+```CISCO
+enable
+conf t
+banner motd c interdit pour les personnes non autorise c
+enable password cisco
+line console 0
+login
+password cisco
+exit
+line v
 ```
