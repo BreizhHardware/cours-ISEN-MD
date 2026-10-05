@@ -48,3 +48,5 @@ S1#show ip interface brief
 |     3      |      Router       | IP décimal |
 |     2      |      Switch       | hexa - Mac |
 |     1      |       Cable       | bit        |
+
+Max 30 saut avant que le packet IP soit drop
