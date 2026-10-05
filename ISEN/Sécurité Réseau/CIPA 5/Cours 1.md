@@ -50,3 +50,12 @@ S1#show ip interface brief
 |     1      |       Cable       | bit        |
 
 Max 30 saut avant que le packet IP soit drop
+
+```CISCO
+enable
+conf t
+interface range fastEthernet 0/4 - 24
+shutdown
+end
+show run
+```
