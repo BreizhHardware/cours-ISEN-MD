@@ -71,5 +71,9 @@ line console 0
 login
 password cisco
 exit
-line v
+line vty 0 15
+login
+password cisco
+end
+wr
 ```
