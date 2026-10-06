@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ISEN/Sécurité Réseau/CIPA 5/Cours 1.md",
+                "file": "ISEN/Sécurité des applications/CIPA 5/Rapport Félix MARQUET.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,31 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Cours 1"
-            }
-          },
-          {
-            "id": "79bcb68c461aaaae",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ISEN/STM32/CIPA3/STM32 Cours 2.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "STM32 Cours 2"
+              "title": "Rapport Félix MARQUET"
             }
           }
         ]
@@ -238,6 +214,9 @@
   },
   "active": "e4257884676ee851",
   "lastOpenFiles": [
+    "ISEN/Sécurité des applications/CIPA 5/Sécurité des applications Cours 1.md",
+    "ISEN/Sécurité des applications/CIPA 5/Rapport Félix MARQUET.md",
+    "ISEN/Sécurité Réseau/CIPA 5/Cours 1.md",
     "ISEN/Sécurité Réseau/CIPA 5/LAB/7.2.6-packet-tracer---configure-local-aaa-for-console-and-vty-access.pka_en-US_eba27c59-98ee-4ca5-ab10-c15f73a1bdf1.pka~",
     "ISEN/Sécurité Réseau/CIPA 5/LAB/7.2.6-packet-tracer---configure-local-aaa-for-console-and-vty-access.pka_en-US_eba27c59-98ee-4ca5-ab10-c15f73a1bdf1.pka",
     "ISEN/Sécurité Réseau/CIPA 5/LAB/7.4.9-packet-tracer---configure-server-based-aaa-with-tacacs-and-radius.pka_en-US_8a6e4dde-f4cd-4eb5-9932-3f47261341c9.pka~",
@@ -248,11 +227,8 @@
     "ISEN/Sécurité Réseau/CIPA 5/LAB/Lab 1.pkt~",
     "ISEN/Sécurité Réseau/CIPA 5/LAB/Lab 1.pkt",
     "ISEN/Sécurité Réseau/CIPA 5/LAB",
-    "ISEN/Sécurité Réseau/CIPA 5/Netacad/2.4.8-lab---social-engineering.pdf_en-US_2a028978-22d9-4291-b8c4-14a3c69aa64b.pdf",
     "Pasted image 20261002165703.png",
     "ISEN/Initiation à la recherche/CIPA 5/Cours 1.md",
-    "ISEN/Sécurité Réseau/CIPA 5/Cours 1.md",
-    "ISEN/Sécurité des applications/CIPA 5/Sécurité des applications Cours 1.md",
     "Stage CSI/Cobot alexandria/Drawing 2026-08-18 09.47.06 copy.excalidraw.md",
     "Stage CSI/Cobot alexandria/Drawing 2026-08-18 09.47.06.excalidraw.md",
     "Stage CSI/Cobot alexandria/Drawing 2026-08-18 09.47.06.excalidraw.png",
