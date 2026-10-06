@@ -120,6 +120,7 @@ LoopSum:
 	adds r1, r1, r0 // sum = sum + X 
 	subs r0, r0, #1 // X = X - 1 
 	b LoopSum // retour au test
+
 EndSum:
 	mov r0, r1 // résultat renvoyé dans R0 
 	bx lr // retour à l'appelant
