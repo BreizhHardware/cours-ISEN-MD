@@ -65,3 +65,4 @@ Save:
 | 0x8000206 | 0x20000000  |     0x0     |  0x61000000 (N = 0, Z = 1, C = 1, V = 0)   |   9   |   `str r1, [r0, #0]`    |                    `str` sur le point d'écrire 0 dans `count`, qui vaut encore 9                    |
 | 0x8000208 | 0x20000000  |     0x0     |  0x61000000 (N = 0, Z = 1, C = 1, V = 0)   |   0   |     `b.n 0x80001fc`     |                     `count` = 0 : le compteur a bouclé, 0 -> 1 -> ... -> 9 -> 0                     |
 
+# Design d'une boucle for
