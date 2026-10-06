@@ -114,4 +114,7 @@ installer [https://www.wireshark.org/#download](https://www.wireshark.org/#downl
 
 
 
-Pour lundi 12, faire le checkpint exam Monitoring and Managing Devices Group Exam
+Pour lundi 12, faire le checkpoint exam Monitoring and Managing Devices Group Exam
+
+
+Pour préparer le prochain cours en presentiel si c'est la cas voici un lab qui vous aidera à l'anticiper...
