@@ -19,4 +19,14 @@ Puis quand on ouvre la vue disasembly on peut voir que `ldr r0, =maVariable` dev
 Une fois que l'on éxecute un step si on va à l'adresse correspondant à `r0` (`0x20000000`) on peut voir que la valeur est a 2 ce qui correspond a notre valeur initial, de plus le PC à changé pour `0x80001fc`. 
 Une fois que rl est à 0, xpsr est a `0x61000000`, et une fois que rl est à `0xffffffff`, xpsr est a `0x81000000` ce qui correspond à l'activation du flag *N* (Negative, bit 31), car le résultat de `0 - 1` est négatif, et du bit T* (Thumb, bit 24), qui est toujours à 1.
 
-# 
+# Construction d'un compteur modulo 10
+
+```assembly
+count:
+	.word 0
+	
+main:
+ldr r0, =count
+
+
+```
