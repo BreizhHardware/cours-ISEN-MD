@@ -107,3 +107,11 @@ Installer un driver de prise en charge d'interface de prise console
 
 installer [https://mobaxterm.mobatek.net/](https://mobaxterm.mobatek.net/)
 installer [https://www.wireshark.org/#download](https://www.wireshark.org/#download)
+
+
+
+
+
+
+
+Pour lundi 12, faire le checkpint exam Monitoring and Managing Devices Group Exam
