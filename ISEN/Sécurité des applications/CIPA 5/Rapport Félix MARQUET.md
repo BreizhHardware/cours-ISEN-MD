@@ -104,3 +104,4 @@ Dans la boucle `cmp r1, #1` compare `X` à 1 et met à jour le `xPSR`. Si `X < 1
 |   1    |    1 - 1 = 0     | 0x61000000 (Z = 1, C = 1) | non pris |
 |   0    |    0 - 1 = -1    | 0x81000000 (N = 1, C = 0) |   pris   |
 
+# Création et appel d'une sous routine
