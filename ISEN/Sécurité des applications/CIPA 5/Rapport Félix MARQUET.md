@@ -28,5 +28,25 @@ count:
 main:
 ldr r0, =count
 
+LoopForever:
+	ldr r1, [r0] // r1 = count
+	adds r1, #1 // On ajoute 1
+	cmp r1, #10 // On regarde si r1 = 10
+	blt Save // Si r1 < 10 on sauvegarde la valeur
+	movs r1, #0 // Sinon on retourne a 0
 
+Save:
+	str r1, [r0] // count = r1
+	b LoopForever
 ```
+
+
+|    PC     | Registre R0 | Registre R1 |              Flags N Z C V              | Variable counter |       Instruction       | Remarque |
+| :-------: | :---------: | :---------: | :-------------------------------------: | :--------------: | :---------------------: | :------: |
+| 0x80001fa | 0x20000000  | 0x20000004  | 0x61000000 (N = 0, Z = 1, C = 1, V = 0) |        0         | `ldr     r0, [pc, #40]` |          |
+| 0x80001fc | 0x20000000  | 0x20000004  | 0x61000000 (N = 0, Z = 1, C = 1, V = 0) |        0         | `ldr     r1, [r0, #0]`  |          |
+| 0x80001fe | 0x20000000  |     0x0     | 0x61000000 (N = 0, Z = 1, C = 1, V = 0) |        0         | `ldr     r1, [r0, #0]`  |          |
+|           |             |             |                                         |                  |                         |          |
+|           |             |             |                                         |                  |                         |          |
+|           |             |             |                                         |                  |                         |          |
+|           |             |             |                                         |                  |                         |          |
