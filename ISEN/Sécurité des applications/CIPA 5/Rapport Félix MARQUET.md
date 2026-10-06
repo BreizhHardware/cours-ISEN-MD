@@ -74,11 +74,6 @@ sum:
 main:
 ldr   r0, =sum         // r0 = adresse de sum
 
-Start:
-    movs  r2, #0
-    strb  r2, [r0]         // sum = 0
-    movs  r1, #20          // X = 20
-
 LoopForever:
     cmp   r1, #1           // compare X à 1
     blt   Start            // X < 1 (donc X = 0) : retour à sum = 0
@@ -87,4 +82,19 @@ LoopForever:
     strb  r2, [r0]         // écrit sum (1 octet)
     subs  r1, r1, #1       // X = X - 1
     b     LoopForever
+
+Start:
+    movs  r2, #0
+    strb  r2, [r0]         // sum = 0
+    movs  r1, #20          // X = 20
 ```
+
+Pour cette boucle on veut calculer la somme des 20 premiers entiers (1 à 20). Le résultat attendu est `20 * 21 = 210 = 0xD2`, ce qui tient sur un seul octet. L'indice de la boucle `X` vit directement dans le registre `r1`. Au démarrage `ldr r0, =sum` place l'adresse de `sum` dans `r0`. Ensuite dans `Start`on initialise `sum = 0`. On utilise `strb` (et non pas `str` car `sum` ne fait qu'un octet et `str` écrit sur 4 octet et donc viendrait écraser les 3 octects voisin de `sum`).
+Dans la boucle `cmp r1, #1` compare `X` à 1 et met à jour le `xPSR`. Si `X < 1` alors on passe dans `Start` qui comme dit plus tôt mets `sum` à 0. Sinon on continu et on calcule `sum + X` avant de le stocker dans `r2`, une fois l'écriture en mémoire faites, on retire `1` à `X` et on recommence la boucle.
+
+
+| R1  | Calcul |  x  |     |
+| :-: | :----: | :-: | :-: |
+|     |        |     |     |
+|     |        |     |     |
+|     |        |     |     |
