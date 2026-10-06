@@ -105,3 +105,31 @@ Dans la boucle `cmp r1, #1` compare `X` à 1 et met à jour le `xPSR`. Si `X < 1
 |   0    |    0 - 1 = -1    | 0x81000000 (N = 1, C = 0) |   pris   |
 
 # Création et appel d'une sous routine
+
+```assembly
+sum:
+.byte 0
+
+calculate_sum:
+	movs r1, #0 // sum = 0
+				// X = A : X est directement R0
+
+LoopSum:
+	cmp r0, #1 // compare X à 1 
+	blt EndSum // X < 1: fin du calcul 
+	adds r1, r1, r0 // sum = sum + X 
+	subs r0, r0, #1 // X = X - 1 
+	b LoopSum // retour au test
+EndSum:
+	mov r0, r1 // résultat renvoyé dans R0 
+	bx lr // retour à l'appelant
+	
+main:
+ldr r2, =sum // r2 = adresse de la variable sum
+
+Start:
+	movs r0, #22 // A = 22 
+	bl calculate_sum // appel du sous-programme
+	strb r0, [r2] // sum = R0
+	b Start // on recommence
+```
