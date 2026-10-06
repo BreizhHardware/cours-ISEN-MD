@@ -41,6 +41,12 @@ Save:
 ```
 
 
+Les flags `xPSR` N Z C V correspondent respectivement à:
+- **N (Negative, bit 31)** : vaut 1 si le résultat de l'opération est négatif
+- **Z (Zero, bit 30)** : vaut 1 si le résultat de l'opération est nul
+- **C (Carry, bit 29)** : vaut 1 s'il y a une retenue en sortie pour une addition, ou s'il n'y a **pas** d'emprunt pour une soustraction ou un `cmp`
+- **V (oVerflow, bit 28)** : vaut 1 s'il y a un dépassement de capacité en arithmétique signée, c'est-à-dire quand le résultat ne tient pas dans 32 bits signés (par exemple, deux positifs dont la somme donne un négatif).
+
 |    PC     | Registre R0 | Registre R1 |            xPSR (Flags N Z C V)            | Count |       Instruction       |                                              Remarque                                               |
 | :-------: | :---------: | :---------: | :----------------------------------------: | :---: | :---------------------: | :-------------------------------------------------------------------------------------------------: |
 | 0x80001fa | 0x20000000  | 0x20000004  |  0x61000000 (N = 0, Z = 1, C = 1, V = 0)   |   0   | `ldr     r0, [pc, #40]` |                                          État au démarrage                                          |
@@ -92,9 +98,9 @@ Start:
 Pour cette boucle on veut calculer la somme des 20 premiers entiers (1 à 20). Le résultat attendu est `20 * 21 = 210 = 0xD2`, ce qui tient sur un seul octet. L'indice de la boucle `X` vit directement dans le registre `r1`. Au démarrage `ldr r0, =sum` place l'adresse de `sum` dans `r0`. Ensuite dans `Start`on initialise `sum = 0`. On utilise `strb` (et non pas `str` car `sum` ne fait qu'un octet et `str` écrit sur 4 octet et donc viendrait écraser les 3 octects voisin de `sum`).
 Dans la boucle `cmp r1, #1` compare `X` à 1 et met à jour le `xPSR`. Si `X < 1` alors on passe dans `Start` qui comme dit plus tôt mets `sum` à 0. Sinon on continu et on calcule `sum + X` avant de le stocker dans `r2`, une fois l'écriture en mémoire faites, on retire `1` à `X` et on recommence la boucle.
 
+|   R1   |      Calcul      |           xPSR            |   blt    |
+| :----: | :--------------: | :-----------------------: | :------: |
+| 20 à 2 | résultat positif |    0x21000000 (C = 1)     | non pris |
+|   1    |    1 - 1 = 0     | 0x61000000 (Z = 1, C = 1) | non pris |
+|   0    |    0 - 1 = -1    | 0x81000000 (N = 1, C = 0) |   pris   |
 
-| R1  | Calcul |  x  |     |
-| :-: | :----: | :-: | :-: |
-|     |        |     |     |
-|     |        |     |     |
-|     |        |     |     |
