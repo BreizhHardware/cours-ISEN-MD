@@ -14,6 +14,7 @@ Un simulateur imite un système et l'autre vise à le reproduire le plus fidèle
 ```CISCO
 S1>enable
 S1#conf term
+S1(config)#hostname S1
 S1(config)#banner motd "Interdit si pas personnel"
 S1(config)#enable password cisco
 S1(config)#line console 0 
