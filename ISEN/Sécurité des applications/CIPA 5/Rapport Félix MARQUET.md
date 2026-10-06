@@ -66,3 +66,25 @@ Save:
 | 0x8000208 | 0x20000000  |     0x0     |  0x61000000 (N = 0, Z = 1, C = 1, V = 0)   |   0   |     `b.n 0x80001fc`     |                     `count` = 0 : le compteur a bouclé, 0 -> 1 -> ... -> 9 -> 0                     |
 
 # Design d'une boucle for
+
+```assembly
+sum:
+	.byte 0
+
+main:
+ldr   r0, =sum         // r0 = adresse de sum
+
+Start:
+    movs  r2, #0
+    strb  r2, [r0]         // sum = 0
+    movs  r1, #20          // X = 20
+
+LoopForever:
+    cmp   r1, #1           // compare X à 1
+    blt   Start            // X < 1 (donc X = 0) : retour à sum = 0
+    ldrb  r2, [r0]         // r2 = sum
+    adds  r2, r2, r1       // sum = sum + X
+    strb  r2, [r0]         // écrit sum (1 octet)
+    subs  r1, r1, #1       // X = X - 1
+    b     LoopForever
+```
