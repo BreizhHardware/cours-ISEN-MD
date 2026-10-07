@@ -15,7 +15,7 @@
               "state": {
                 "file": "ISEN/Sécurité des applications/CIPA 5/Rapport Félix MARQUET.md",
                 "mode": "source",
-                "source": true,
+                "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
                   "collapseAll": false,
