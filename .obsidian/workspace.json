@@ -199,13 +199,12 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "markdown-importer:Ouvrir l'importateur Markdown": false,
-      "audio-recorder:Démarrer / arrêter l'enregistrement": false,
-      "workspaces:Gérer les espaces de travail": false,
+      "canvas:Créer un nouveau canvas": false,
+      "audio-recorder:Démarrer/Arrêter l'enregistrement": false,
+      "workspaces:Gérer les dispositions des espaces de travail": false,
       "obsidian-git:Open Git source control": false,
       "switcher:Ouvrir le sélecteur rapide": false,
       "graph:Ouvrir la vue graphique": false,
-      "canvas:Créer une nouvelle toile": false,
       "templates:Insérer le modèle": false,
       "command-palette:Ouvrir la palette de commandes": false,
       "bases:Créer une nouvelle base": false,
