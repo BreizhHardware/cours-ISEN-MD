@@ -3,7 +3,7 @@
 Audit != pentest
 Audit: Pas forcément technique, comparer les docs avec ce qui se fait réellement, un audit peut être automatiser
 
-Outils par phase
+# Outils par phase
 
 |        Phase         |                    Outils principaux                     |                         Objectif                         |
 | :------------------: | :------------------------------------------------------: | :------------------------------------------------------: |
@@ -13,3 +13,6 @@ Outils par phase
 |  Post-Exploitation   |    kMimikatz, BloodHound, evil-winrm, secretsdunp.py     |                                                          |
 | Privilege Escalation |           LinPEAS, winPEAS, GTFObins, PEASS-ng           |                                                          |
 
+# Reconnaissance
+
+2 parties, une active et une passive
