@@ -30,6 +30,16 @@
               "icon": "lucide-file",
               "title": "Cours 1"
             }
+          },
+          {
+            "id": "21947fa377be730a",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Vue graphique"
+            }
           }
         ]
       }
@@ -65,7 +75,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#CIPA5",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -211,10 +221,10 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "e4257884676ee851",
+  "active": "86048d51ed600386",
   "lastOpenFiles": [
-    "ISEN/Sécurité des applications/CIPA 5/Rapport Félix MARQUET.md",
     "ISEN/Sécurité offensive/CIPA5/Cours 1.md",
+    "ISEN/Sécurité des applications/CIPA 5/Rapport Félix MARQUET.md",
     "ISEN/Sécurité offensive/CIPA5",
     "ISEN/Sécurité offensive",
     "ISEN/Sécurité des applications/CIPA 5/Sécurité des applications Cours 1.md",

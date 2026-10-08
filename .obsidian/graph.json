@@ -27,6 +27,13 @@
         "a": 1,
         "rgb": 14701138
       }
+    },
+    {
+      "query": "tag:#Cyber  ",
+      "color": {
+        "a": 1,
+        "rgb": 6084188
+      }
     }
   ],
   "collapse-display": false,
@@ -39,6 +46,6 @@
   "repelStrength": 10.5729166666667,
   "linkStrength": 0.252604166666667,
   "linkDistance": 30,
-  "scale": 0.6932132361721176,
+  "scale": 0.29286867408728345,
   "close": false
 }
