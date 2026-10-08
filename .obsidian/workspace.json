@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ISEN/Sécurité des applications/CIPA 5/Rapport Félix MARQUET.md",
+                "file": "ISEN/Sécurité offensive/CIPA5/Cours 1.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Rapport Félix MARQUET"
+              "title": "Cours 1"
             }
           }
         ]
@@ -214,6 +214,9 @@
   "active": "e4257884676ee851",
   "lastOpenFiles": [
     "ISEN/Sécurité des applications/CIPA 5/Rapport Félix MARQUET.md",
+    "ISEN/Sécurité offensive/CIPA5/Cours 1.md",
+    "ISEN/Sécurité offensive/CIPA5",
+    "ISEN/Sécurité offensive",
     "ISEN/Sécurité des applications/CIPA 5/Sécurité des applications Cours 1.md",
     "ISEN/Sécurité Réseau/CIPA 5/Cours 1.md",
     "ISEN/Sécurité Réseau/CIPA 5/LAB/7.2.6-packet-tracer---configure-local-aaa-for-console-and-vty-access.pka_en-US_eba27c59-98ee-4ca5-ab10-c15f73a1bdf1.pka~",
@@ -224,8 +227,6 @@
     "ISEN/Sécurité Réseau/CIPA 5/LAB/7.4.9-packet-tracer---configure-server-based-aaa-with-tacacs-and-radius.pka_en-US_8a6e4dde-f4cd-4eb5-9932-3f47261341c9.pka",
     "ISEN/Sécurité Réseau/CIPA 5/LAB/10.4.3-packet-tracer---build-a-switch-and-router-network---physical-mode_fr-FR.pka",
     "ISEN/Sécurité Réseau/CIPA 5/LAB/Lab 1.pkt~",
-    "ISEN/Sécurité Réseau/CIPA 5/LAB/Lab 1.pkt",
-    "ISEN/Sécurité Réseau/CIPA 5/LAB",
     "Pasted image 20261002165703.png",
     "ISEN/Initiation à la recherche/CIPA 5/Cours 1.md",
     "Stage CSI/Cobot alexandria/Drawing 2026-08-18 09.47.06 copy.excalidraw.md",
