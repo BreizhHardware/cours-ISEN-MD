@@ -16,3 +16,4 @@ Audit: Pas forcément technique, comparer les docs avec ce qui se fait réelleme
 # Reconnaissance
 
 2 parties, une active et une passive
+
