@@ -135,3 +135,4 @@ Start:
 	b Start // on recommence
 ```
 
+Durant l'execution au moment de rentrer dans la sous routine on peut voir que le PC passe de `0x800020e` à `0x80001fa` et que le LR passe de `0x80001fb` à `0x8000213` 
