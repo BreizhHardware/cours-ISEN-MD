@@ -151,3 +151,4 @@ Avant le `bl`, le `LR` valait `0x80001fb`, c'est l'adresse de retour du `bl main
 |Pendant la boucle|`LoopSum` à `EndSum`|`0x8000213`|
 |Après `bx lr`|`0x8000212`|`0x8000213`|
 
+# Control
