@@ -151,4 +151,44 @@ Avant le `bl`, le `LR` valait `0x80001fb`, c'est l'adresse de retour du `bl main
 |Pendant la boucle|`LoopSum` à `EndSum`|`0x8000213`|
 |Après `bx lr`|`0x8000212`|`0x8000213`|
 
-# Control
+# Controller une LED avec un bouton poussoir
+
+```assembly
+init_led:
+/* Configure PORT A*/
+
+	/* Enable port A */
+	ldr r0, =0x4002381C /* address of the RCC_AHBENR GPIO Clock Enable Register */
+	ldr r1, =0x00000001 /* mask to apply to RCC_IOPENR */
+	ldr r2, [r0] /* load value of RCC_IOPENR to r2 */
+	orrs r1,r2 /* for IOPAEN to 1 to enable port A */
+	str r1, [r0] /* write new value to RCC_IOPENR */
+	  
+	/* configure pin in output mode */
+	ldr r0, =0x40020000 /* address of the MODE Register port A */
+	ldr r1, =0x00000400 /* mask to apply to MODE Register port A */
+	ldr r2, [r0] /* load value of MODE Register port A */
+	orrs r1,r2 /* force bit 10 to 1 */
+	str r1, [r0] /* write new value to port A OTYPER */
+	
+	ldr r1, =0xFFFFF7FF /* mask to apply to MODE Register port A */
+	ldr r2, [r0] /* load value of MODE Register port A */
+	ands r1,r2 /* force bit 11 to 0 */
+	str r1, [r0] /* write new value to port A OTYPER */
+	
+	bx lr
+```
+
+Le code fourni, dont voici un extrait ci-dessus, était écrit pour un STM32L152, alors que notre carte est un STM32L476. Au premier `ldr r2, [r0]` de `init_led`, le programme plantait.
+Sur le L476, l'adresse `0x4002381C` (RCC_AHBENR du L152) se trouve dans une zone mémoire réservée. La lire provoque une BusFault, qui est escaladée en HardFault. Comme ce handler n'est pas défini, il pointe vers `Default_Handler`, et le programme reste bloqué dans `Infinite_Loop`.
+Après analyse et recherche dans le reference manual du L476, voici les adresses à changer :
+
+| Registre                               | L152                       | L476                           |
+| -------------------------------------- | -------------------------- | ------------------------------ |
+| RCC, activation de l'horloge des GPIO  | `0x4002381C` (RCC_AHBENR)  | **`0x4002104C`** (RCC_AHB2ENR) |
+| RCC, activation de l'horloge de SYSCFG | `0x40023820` (RCC_APB2ENR) | **`0x40021060`** (RCC_APB2ENR) |
+| GPIOA_MODER                            | `0x40020000`               | **`0x48000000`**               |
+| GPIOA_ODR                              | `0x40020014`               | **`0x48000014`**               |
+| GPIOC_MODER                            | `0x40020800`               | **`0x48000800`**               |
+
+Cependant les bits à modifier restent les même donc seul les registres RCC et GPIO ont changé.
