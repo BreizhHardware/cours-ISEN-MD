@@ -192,3 +192,4 @@ Après analyse et recherche dans le reference manual du L476, voici les adresses
 | GPIOC_MODER                            | `0x40020800`               | **`0x48000800`**               |
 
 Cependant les bits à modifier restent les même donc seul les registres RCC et GPIO ont changé.
+
