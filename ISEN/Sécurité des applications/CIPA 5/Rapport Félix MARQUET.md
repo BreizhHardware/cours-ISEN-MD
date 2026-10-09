@@ -95,7 +95,7 @@ Start:
     movs  r1, #20          // X = 20
 ```
 
-Pour cette boucle on veut calculer la somme des 20 premiers entiers (1 à 20). Le résultat attendu est `20 * 21 = 210 = 0xD2`, ce qui tient sur un seul octet. L'indice de la boucle `X` vit directement dans le registre `r1`. Au démarrage `ldr r0, =sum` place l'adresse de `sum` dans `r0`. Ensuite dans `Start`on initialise `sum = 0`. On utilise `strb` (et non pas `str` car `sum` ne fait qu'un octet et `str` écrit sur 4 octet et donc viendrait écraser les 3 octects voisin de `sum`).
+Pour cette boucle on veut calculer la somme des 20 premiers entiers (1 à 20). Le résultat attendu est `(20 * 21) / 2 = 210 = 0xD2`, ce qui tient sur un seul octet. L'indice de la boucle `X` vit directement dans le registre `r1`. Au démarrage `ldr r0, =sum` place l'adresse de `sum` dans `r0`. Ensuite dans `Start`on initialise `sum = 0`. On utilise `strb` (et non pas `str` car `sum` ne fait qu'un octet et `str` écrit sur 4 octet et donc viendrait écraser les 3 octects voisin de `sum`).
 Dans la boucle `cmp r1, #1` compare `X` à 1 et met à jour le `xPSR`. Si `X < 1` alors on passe dans `Start` qui comme dit plus tôt mets `sum` à 0. Sinon on continu et on calcule `sum + X` avant de le stocker dans `r2`, une fois l'écriture en mémoire faites, on retire `1` à `X` et on recommence la boucle.
 
 |   R1   |      Calcul      |           xPSR            |   blt    |
@@ -135,4 +135,19 @@ Start:
 	b Start // on recommence
 ```
 
-Durant l'execution au moment de rentrer dans la sous routine on peut voir que le PC passe de `0x800020e` à `0x80001fa` et que le LR passe de `0x80001fb` à `0x8000213` 
+Pour ce programme on reprend le calcul de la somme, mais cette fois dans un sous-programme `calculate_sum` qui peut additionner n'importe quel nombre d'entiers. Ici on utilise `A = 22`, donc le résultat attendu est `22 * 23 / 2 = 253 = 0xFD`, ce qui tient encore sur un seul octet, `sum` reste donc en `.byte`.
+Le sous-programme reçoit `A` dans `r0` et renvoie le résultat dans `r0`. `X` est directement `r0` et la somme est accumulée dans `r1`. Une fois la boucle finie, `mov r0, r1` place le résultat dans `r0`. On utilise `mov` sans le `s` car on n'a pas besoin de mettre à jour le `xPSR`. Le programme principal garde l'adresse de `sum` dans `r2`, que `calculate_sum` ne modifie pas, elle est donc encore valide après l'appel. Le résultat est ensuite écrit avec `strb`.
+Durant l'exécution, au moment de rentrer dans le sous-programme, on peut voir que le `PC` passe de `0x800020e` à `0x80001fa` et que le `LR` passe de `0x80001fb` à `0x8000213`. Ce comportement vient de l'instruction `bl calculate_sum`, qui fait deux choses en même temps :
+- Le `PC` reçoit l'adresse de la première instruction du sous-programme (`movs r1, #0`), c'est le saut.
+- Le `LR` (Link Register) reçoit l'adresse de retour, c'est-à-dire l'adresse de l'instruction qui suit le `bl`. Le `bl` fait 4 octets en Thumb (instruction 32 bits), donc le `strb` est à `0x800020e + 4 = 0x8000212`. Le `LR` vaut `0x8000213` car le bit 0 est mis à 1 pour indiquer le mode Thumb.
+
+Avant le `bl`, le `LR` valait `0x80001fb`, c'est l'adresse de retour du `bl main` fait dans `Reset_Handler`. Cette valeur est écrasée par le `bl calculate_sum`.
+À la fin du sous-programme, `bx lr` recopie le `LR` dans le `PC`. Le processeur ignore le bit 0 et reprend à `0x8000212`, sur le `strb r0, [r2]`.
+
+|Moment|PC|LR|
+|---|---|---|
+|Avant `bl calculate_sum`|`0x800020e`|`0x80001fb`|
+|Après `bl`|`0x80001fa`|`0x8000213`|
+|Pendant la boucle|`LoopSum` à `EndSum`|`0x8000213`|
+|Après `bx lr`|`0x8000212`|`0x8000213`|
+
