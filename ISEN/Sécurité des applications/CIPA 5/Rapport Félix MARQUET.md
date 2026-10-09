@@ -151,7 +151,7 @@ Avant le `bl`, le `LR` valait `0x80001fb`, c'est l'adresse de retour du `bl main
 |Pendant la boucle|`LoopSum` à `EndSum`|`0x8000213`|
 |Après `bx lr`|`0x8000212`|`0x8000213`|
 
-# Controller une LED avec un bouton poussoir
+# Faire flasher en on/off avec une interruption
 
 ```assembly
 init_led:
