@@ -323,13 +323,7 @@ Après l'effacement, on réécrit `0xDEADBEEF` et `0x01234567` : `sr` = `0x0`, e
 | Réécriture sans effacement | refusée (PROGERR) |
 | Effacement | remet tous les bits à 1 (`0xFF`) |
 
-# LED FLashing
-
-```assembly
-080004c4:   movs    r1, #1
-080004c6:   ldr     r0, [pc, #16]   @ (0x80004d8 <main+40>)
-080004c8:   bl      0x8000ea0 <HAL_GPIO_TogglePin>
-```
+# LED Flashing
 
 ```C
 /* USER CODE BEGIN WHILE */
@@ -344,3 +338,60 @@ while (1)
 /* USER CODE END 3 */
 ```
 
+## Le désassemblage
+
+```assembly
+080004c4:   movs    r1, #1
+080004c6:   ldr     r0, [pc, #16]   @ (0x80004d8 <main+40>)
+080004c8:   bl      0x8000ea0 <HAL_GPIO_TogglePin>
+```
+
+Dans la vue Disassembly on retrouve l'appel à `HAL_GPIO_TogglePin(GPIOB, GPIO_PIN_0)` :
+- `movs r1, #1` charge le masque de la broche (`GPIO_PIN_0 = 0x0001`) dans `r1`, le deuxième argument de la fonction.
+- `ldr r0, [pc, #16]` charge l'adresse de `GPIOB` dans `r0`, le premier argument.
+- `bl HAL_GPIO_TogglePin` appelle la fonction, qui inverse les bits de `ODR` sélectionnés par le masque.
+
+Le masque n'est donc pas dans la fonction `HAL_GPIO_TogglePin` : il est chargé juste avant l'appel, par `movs r1, #1`. Si on le change, la fonction inversera d'autres broches.
+
+## Le patch
+
+Pour faire clignoter `PB0` et `PB1` ensemble, il faut un masque `0x03` (bits 0 et 1) à la place de `0x01`. Il suffit donc de transformer `movs r1, #1` en `movs r1, #3`.
+
+| | Instruction | Opcode (16 bits) | Octets en mémoire |
+| :--- | :---: | :---: | :---: |
+| Avant | `movs r1, #1` | `0x2101` | `01 21` |
+| Après | `movs r1, #3` | `0x2103` | `03 21` |
+
+## La manipulation dans STM32CubeProgrammer
+
+La Flash commence à `0x08000000` et l'instruction est à `0x080004C4`. On l'affiche dans l'onglet *Device memory* en lisant 16 octets à partir de `0x080004C0` :
+
+| Adresse | Avant | Après |
+| :---: | :---: | :---: |
+| `0x080004C0` | `48042101` | `48042103` |
+
+Le mot est affiché sur 32 bits en little-endian : les octets en mémoire sont `01 21 04 48`, c'est-à-dire `movs r1, #1` suivi du début du `ldr r0, [pc, #16]` (`04 48`). On modifie uniquement le dernier chiffre. Les autres mots de la zone ne changent pas.
+
+Étapes :
+1. Connecter la carte dans CubeProgrammer et lire `0x080004C0` (taille `0x10`).
+2. Double-cliquer sur le mot `48042101`, saisir `48042103` et valider avec Entrée.
+3. Relire la zone pour vérifier que la valeur est bien `48042103`.
+4. Cliquer sur *Disconnect*, sinon CubeIDE ne peut pas utiliser le ST-LINK.
+5. Faire un reset avec le bouton noir de la Nucleo.
+
+## Résultat
+
+Après le reset, les deux LED clignotent ensemble à 1 Hz, alors que le code source n'a pas changé.
+
+Pour le vérifier, on lance le debug dans CubeIDE avec l'option *Download* à `false` dans l'onglet *Startup*. Sans cela, CubeIDE reprogramme la Flash avec le binaire d'origine et efface le patch. Dans la vue Disassembly on lit alors :
+
+```assembly
+080004c4:   movs    r1, #3
+```
+
+alors que la ligne C affiche toujours `HAL_GPIO_TogglePin(GPIOB, GPIO_PIN_0)`.
+
+| | Code source C | Binaire en Flash | LED |
+| :--- | :---: | :---: | :---: |
+| Avant le patch | `GPIO_PIN_0` | `movs r1, #1` | LED1 seule |
+| Après le patch | `GPIO_PIN_0` | `movs r1, #3` | LED1 et LED2 |
