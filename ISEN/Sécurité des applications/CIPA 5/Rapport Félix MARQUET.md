@@ -329,4 +329,17 @@ Après l'effacement, on réécrit `0xDEADBEEF` et `0x01234567` : `sr` = `0x0`, e
 080004c4:   movs    r1, #1
 080004c6:   ldr     r0, [pc, #16]   @ (0x80004d8 <main+40>)
 080004c8:   bl      0x8000ea0 <HAL_GPIO_TogglePin>
-``
+```
+
+```C
+/* USER CODE BEGIN WHILE */
+while (1)
+{
+	HAL_GPIO_TogglePin(GPIOB, GPIO_PIN_0);
+	HAL_Delay(500);
+	/* USER CODE END WHILE */
+	
+	/* USER CODE BEGIN 3 */
+}
+/* USER CODE END 3 */
+```
