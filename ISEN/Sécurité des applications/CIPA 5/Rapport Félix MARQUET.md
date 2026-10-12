@@ -323,3 +323,10 @@ Après l'effacement, on réécrit `0xDEADBEEF` et `0x01234567` : `sr` = `0x0`, e
 | Réécriture sans effacement | refusée (PROGERR) |
 | Effacement | remet tous les bits à 1 (`0xFF`) |
 
+# LED FLashing
+
+```assembly
+080004c4:   movs    r1, #1
+080004c6:   ldr     r0, [pc, #16]   @ (0x80004d8 <main+40>)
+080004c8:   bl      0x8000ea0 <HAL_GPIO_TogglePin>
+``
