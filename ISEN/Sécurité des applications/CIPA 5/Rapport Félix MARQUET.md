@@ -210,3 +210,116 @@ Pour ce programme on déclare des variables dans les quatre zones demandées :
 |     `bss_var1`, `bss_var2`     |  SRAM1 (`.bss`)   | `0x2000xxxx` (après `.data`) |                   `bss_var1`: `0x200000b8`, `bss_var2`: `0x200000bc`                    |
 | `stack_var`, `k`, `sw1`, `res` |       Pile        |   juste sous `0x20018000`    | `stack_var`: `0x20017fd8`,  `k`: `0x20017fec`, `res`: `0x20017ff0`, `sw1`: `0x20017ff7` |
 |           `reg_var`            |     Registre      |         `R4` à `R11`         |                                          `R4`                                           |
+
+# Writing in memory
+
+## Les adresses
+Le STM32L476RG possède 1 Mo de Flash, 96 Ko de SRAM1 et 32 Ko de SRAM2.
+
+| Adresse | Zone |
+| :--- | :--- |
+| `0x0800 0000` | Début de la Flash (bank 1), qui contient la table des vecteurs. |
+| `0x0808 0000` | Début de la bank 2 de la Flash (2 banks de 512 Ko en mode dual-bank). |
+| `0x2000 0000` | Début de la SRAM1. |
+
+L'énoncé donne `0x8000 0000`, qui correspond en réalité à la zone FMC. Nous avons considéré qu'il s'agissait de `0x0800 0000`. De même, `0x08080 0000` et `0x8080 0004` sont lus comme `0x0808 0000` et `0x0808 0004`.
+
+## Lecture de la Flash et de la RAM
+
+```c
+volatile uint32_t val_flash, val_ram, readback, old, sr;
+
+val_flash = *(volatile uint32_t *)0x08000000;
+val_ram   = *(volatile uint32_t *)0x20000000;
+```
+
+- `val_flash` = `0x20018000` : c'est le premier mot de la table des vecteurs, la valeur initiale de `SP` (`_estack`).
+- `val_ram` = `0x04C4B400` (80 000 000) : c'est `SystemCoreClock`, la première variable de la section `.data`, mise à jour par `SystemClock_Config` (80 MHz).
+
+(capture BP ligne 143)
+
+## Écriture en RAM
+
+```c
+old = *(volatile uint32_t *)0x20000000;
+*(volatile uint32_t *)0x20000000 = 0xDEADBEEF;
+readback = *(volatile uint32_t *)0x20000000;
+*(volatile uint32_t *)0x20000000 = old;
+```
+
+`readback` vaut `0xDEADBEEF` : la RAM s'écrit mot par mot, sans condition. On restaure ensuite l'ancienne valeur, car cette adresse contient `SystemCoreClock`.
+
+(capture BP ligne 146)
+
+## Écriture directe en Flash
+
+```c
+*(volatile uint32_t *)0x08020000 = 0xDEADBEEF;
+readback = *(volatile uint32_t *)0x08020000;
+sr = FLASH->SR;
+```
+
+Chez nous, `readback` vaut `0xFFFFFFFF` : la valeur n'a pas été écrite. Il n'y a pas de HardFault, mais `FLASH->SR` = `0x80`, soit le flag **PGSERR** (erreur de séquence de programmation). La Flash est verrouillée (`FLASH->CR` = `0xC0000000`, bits LOCK et OPTLOCK) et il faut suivre une procédure précise pour la programmer, contrairement à la RAM.
+
+(capture BP ligne 153)
+
+## Lecture à partir de `0x0802 0000`
+
+La lecture donne `0xFFFFFFFF`. **Oui, la mémoire est effacée** à cet endroit : une cellule Flash effacée a tous ses bits à 1. Le programme fait environ 12 Ko et n'occupe donc pas cette zone.
+
+(capture BP ligne 155 + Memory Browser à `0x08020000`)
+
+## Programmation de la bank 2
+
+Procédure « Read from bank 1 while programming bank 2 » :
+
+1. Déverrouiller la Flash en écrivant `0x45670123` puis `0xCDEF89AB` dans `FLASH_KEYR`. `FLASH->CR` passe de `0xC0000000` à `0x40000000` (LOCK à 0).
+2. Attendre `BSY = 0` et effacer les flags d'erreur.
+3. Mettre `PG = 1` dans `FLASH_CR`.
+4. Écrire les deux mots : `0xDEADBEEF` à `0x08080000` et `0xAABBCCDD` à `0x08080004`.
+5. Attendre `BSY = 0`, relever `FLASH_SR`, puis remettre `PG = 0`.
+
+La Flash du L476 se programme par double mot de 64 bits. Les deux écritures forment donc une seule opération, déclenchée par l'écriture du second mot. Le programme tournant en bank 1, il continue de s'exécuter pendant que la bank 2 est programmée.
+
+Résultat : `sr` = `0x0`, `0x08080000` = `0xDEADBEEF`, `0x08080004` = `0xAABBCCDD`. Dans le Memory Browser, on lit en little-endian `EF BE AD DE DD CC BB AA`.
+
+(captures BP ligne 157 après 2 steps + Memory Browser à `0x08080000`)
+
+## Réécriture sans effacement
+
+On tente d'écrire `0x01234567` à la place de `0xAABBCCDD`. La valeur ne change pas et `FLASH->SR` indique une erreur (**PROGERR**, bit 3).
+
+La programmation ne peut faire passer un bit que de 1 à 0. Seul un effacement (par page ou par bank) remet les bits à 1. Avant de programmer, le contrôleur vérifie que le double mot cible est à `0xFFFFFFFFFFFFFFFF`. Ici il contient déjà `0xDEADBEEF_AABBCCDD`, donc l'écriture est refusée.
+
+(capture BP ligne 161)
+
+### Remarque observée en pratique
+
+Lors d'un premier essai, sans effacement préalable, la première écriture a été refusée (`sr` = `0xA8`, qui contient PROGERR). Les données écrites lors d'une session de debug précédente étaient encore en bank 2 (`0xDEADBEEF` et `0x01234567`). Cela confirme que la Flash est non volatile : ses données survivent au reset et à la reprogrammation du bank 1. Le programme final efface donc la bank 2 avant la première écriture.
+
+## Effacement de la bank 2
+
+Procédure « Read from bank 1 while page erasing in bank 2 » : `MER2 = 1` dans `FLASH_CR` (effacement total de la bank 2), puis `STRT = 1`, attente de `BSY = 0`, et remise à 0 de `MER2`. Résultat : `sr` = `0x0`, et `0x08080000` et `0x08080004` valent `0xFFFFFFFF`.
+
+(capture BP ligne 164 après 2 steps + Memory Browser à `0x08080000`)
+
+## Nouvelle écriture
+
+Après l'effacement, on réécrit `0xDEADBEEF` et `0x01234567` : `sr` = `0x0`, et les valeurs sont bien lues en mémoire. Le Flash est donc à nouveau programmable après un effacement.
+
+(capture BP ligne 170)
+
+## Synthèse
+
+| Opération | Résultat |
+| :--- | :--- |
+| Lecture Flash / RAM | possible, sans condition |
+| Écriture RAM | libre, mot par mot |
+| Écriture Flash verrouillée | refusée (PGSERR) |
+| Écriture Flash après déverrouillage et effacement | possible, par double mot de 64 bits |
+| Réécriture sans effacement | refusée (PROGERR) |
+| Effacement | remet tous les bits à 1 (`0xFF`) |
+
+## Consommation
+
+La programmation et l'effacement de la Flash demandent beaucoup de courant. Un programme qui écrit en Flash de façon inattendue (modification de son propre code, installation d'une porte dérobée) peut donc être détecté par une mesure de consommation. Je n'ai pas fait de mesure de courant ici, c'est une conclusion de l'énoncé.
