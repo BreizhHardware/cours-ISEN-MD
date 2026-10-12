@@ -234,9 +234,9 @@ val_ram   = *(volatile uint32_t *)0x20000000;
 ```
 
 - `val_flash` = `0x20018000` : c'est le premier mot de la table des vecteurs, la valeur initiale de `SP` (`_estack`).
-- `val_ram` = `0x04C4B400` (80 000 000) : c'est `SystemCoreClock`, la première variable de la section `.data`, mise à jour par `SystemClock_Config` (80 MHz).
+- `val_ram` = `0x04C4B400` : c'est `SystemCoreClock`, la première variable de la section `.data`, mise à jour par `SystemClock_Config`.
 
-(capture BP ligne 143)
+![](Capture%20d’écran%202026-10-12%20à%2009.54.09.png)
 
 ## Écriture en RAM
 
@@ -249,7 +249,7 @@ readback = *(volatile uint32_t *)0x20000000;
 
 `readback` vaut `0xDEADBEEF` : la RAM s'écrit mot par mot, sans condition. On restaure ensuite l'ancienne valeur, car cette adresse contient `SystemCoreClock`.
 
-(capture BP ligne 146)
+![](Capture%20d’écran%202026-10-12%20à%2009.54.32.png)
 
 ## Écriture directe en Flash
 
@@ -259,21 +259,22 @@ readback = *(volatile uint32_t *)0x08020000;
 sr = FLASH->SR;
 ```
 
-Chez nous, `readback` vaut `0xFFFFFFFF` : la valeur n'a pas été écrite. Il n'y a pas de HardFault, mais `FLASH->SR` = `0x80`, soit le flag **PGSERR** (erreur de séquence de programmation). La Flash est verrouillée (`FLASH->CR` = `0xC0000000`, bits LOCK et OPTLOCK) et il faut suivre une procédure précise pour la programmer, contrairement à la RAM.
+Chez nous, `readback` vaut `0xFFFFFFFF` : la valeur n'a pas été écrite. Il n'y a pas de HardFault, mais `FLASH->SR` = `0x80`, soit le flag **PGSERR**. La Flash est verrouillée (`FLASH->CR` = `0xC0000000`, bits LOCK et OPTLOCK) et il faut suivre une procédure précise pour la programmer, contrairement à la RAM.
 
-(capture BP ligne 153)
+![](Capture%20d’écran%202026-10-12%20à%2009.54.56.png)
 
 ## Lecture à partir de `0x0802 0000`
 
-La lecture donne `0xFFFFFFFF`. **Oui, la mémoire est effacée** à cet endroit : une cellule Flash effacée a tous ses bits à 1. Le programme fait environ 12 Ko et n'occupe donc pas cette zone.
+La lecture donne `0xFFFFFFFF`. Oui, la mémoire est effacée à cet endroit : une cellule Flash effacée a tous ses bits à 1. Le programme fait environ 12 Ko et n'occupe donc pas cette zone.
 
-(capture BP ligne 155 + Memory Browser à `0x08020000`)
+![](Capture%20d’écran%202026-10-12%20à%2009.55.13.png)
+![](Capture%20d’écran%202026-10-12%20à%2009.55.31.png)
 
 ## Programmation de la bank 2
 
 Procédure « Read from bank 1 while programming bank 2 » :
 
-1. Déverrouiller la Flash en écrivant `0x45670123` puis `0xCDEF89AB` dans `FLASH_KEYR`. `FLASH->CR` passe de `0xC0000000` à `0x40000000` (LOCK à 0).
+1. Déverrouiller la Flash en écrivant `0x45670123` puis `0xCDEF89AB` dans `FLASH_KEYR`. `FLASH->CR` passe de `0xC0000000` à `0x40000000`.
 2. Attendre `BSY = 0` et effacer les flags d'erreur.
 3. Mettre `PG = 1` dans `FLASH_CR`.
 4. Écrire les deux mots : `0xDEADBEEF` à `0x08080000` et `0xAABBCCDD` à `0x08080004`.
@@ -283,7 +284,8 @@ La Flash du L476 se programme par double mot de 64 bits. Les deux écritures for
 
 Résultat : `sr` = `0x0`, `0x08080000` = `0xDEADBEEF`, `0x08080004` = `0xAABBCCDD`. Dans le Memory Browser, on lit en little-endian `EF BE AD DE DD CC BB AA`.
 
-(captures BP ligne 157 après 2 steps + Memory Browser à `0x08080000`)
+![](Capture%20d’écran%202026-10-12%20à%2009.57.30.png)
+![](Capture%20d’écran%202026-10-12%20à%2009.57.45.png)
 
 ## Réécriture sans effacement
 
@@ -291,7 +293,7 @@ On tente d'écrire `0x01234567` à la place de `0xAABBCCDD`. La valeur ne change
 
 La programmation ne peut faire passer un bit que de 1 à 0. Seul un effacement (par page ou par bank) remet les bits à 1. Avant de programmer, le contrôleur vérifie que le double mot cible est à `0xFFFFFFFFFFFFFFFF`. Ici il contient déjà `0xDEADBEEF_AABBCCDD`, donc l'écriture est refusée.
 
-(capture BP ligne 161)
+![](Capture%20d’écran%202026-10-12%20à%2009.58.26.png)
 
 ### Remarque observée en pratique
 
@@ -301,13 +303,14 @@ Lors d'un premier essai, sans effacement préalable, la première écriture a é
 
 Procédure « Read from bank 1 while page erasing in bank 2 » : `MER2 = 1` dans `FLASH_CR` (effacement total de la bank 2), puis `STRT = 1`, attente de `BSY = 0`, et remise à 0 de `MER2`. Résultat : `sr` = `0x0`, et `0x08080000` et `0x08080004` valent `0xFFFFFFFF`.
 
-(capture BP ligne 164 après 2 steps + Memory Browser à `0x08080000`)
+![](Capture%20d’écran%202026-10-12%20à%2009.58.45.png)
+![](Capture%20d’écran%202026-10-12%20à%2009.58.56.png)
 
 ## Nouvelle écriture
 
 Après l'effacement, on réécrit `0xDEADBEEF` et `0x01234567` : `sr` = `0x0`, et les valeurs sont bien lues en mémoire. Le Flash est donc à nouveau programmable après un effacement.
 
-(capture BP ligne 170)
+![](Capture%20d’écran%202026-10-12%20à%2009.59.29.png)
 
 ## Synthèse
 
@@ -320,6 +323,3 @@ Après l'effacement, on réécrit `0xDEADBEEF` et `0x01234567` : `sr` = `0x0`, e
 | Réécriture sans effacement | refusée (PROGERR) |
 | Effacement | remet tous les bits à 1 (`0xFF`) |
 
-## Consommation
-
-La programmation et l'effacement de la Flash demandent beaucoup de courant. Un programme qui écrit en Flash de façon inattendue (modification de son propre code, installation d'une porte dérobée) peut donc être détecté par une mesure de consommation. Je n'ai pas fait de mesure de courant ici, c'est une conclusion de l'énoncé.
