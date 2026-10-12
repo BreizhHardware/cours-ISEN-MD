@@ -193,3 +193,19 @@ Après analyse et recherche dans le reference manual du L476, voici les adresses
 
 Cependant les bits à modifier restent les même donc seul les registres RCC et GPIO ont changé.
 
+# Localisation des variables en mémoire
+
+Le STM32L476RG possède 1 Mo de Flash (à partir de `0x08000000`), 96 Ko de SRAM1 (à partir de `0x20000000`) et 32 Ko de SRAM2 (à partir de `0x10000000`). Le linker script de CubeIDE place le code et les constantes en Flash, et `.data`, `.bss` et la pile en SRAM1. La SRAM2 n'est pas utilisée ici.
+Pour ce programme on déclare des variables dans les quatre zones demandées :
+- **Flash** : `cst_int` et `cst_text` sont déclarées `const`, elles sont donc placées dans la section `.rodata`, en Flash. On s'attend à une adresse en `0x0800xxxx`. 
+- **SRAM, section `.data`** : `data_var1` et `data_var2` sont des variables globales initialisées avec une valeur non nulle. Elles sont en SRAM1, au début de la RAM (`0x2000xxxx`). Leur valeur initiale est stockée en Flash, puis copiée en RAM par `Reset_Handler` au démarrage (boucle `CopyDataInit`). 
+- **SRAM, section `.bss`** : `bss_var1`, `bss_var2` (et `huart2`, générée par CubeMX) sont des globales non initialisées. Elles sont en SRAM1, juste après `.data`, et mises à 0 par `Reset_Handler` (boucle `FillZerobss`). 
+- **Pile (stack)** : les variables locales `stack_var` (dans `function1`), `k`, `sw1` et `res` (dans `main`) sont des variables automatiques. `stack_var` et `k` sont `volatile`, donc forcées en mémoire. En `-O0`, `sw1`, `res` et `i` sont aussi en pile. La pile est en haut de la SRAM1 et descend depuis `_estack = 0x20018000`. Les adresses doivent donc être proches de `SP`, juste en dessous de `0x20018000`. 
+- **Registres** : `reg_var` est déclarée `register`, on s'attend à la voir dans un registre (probablement `R4` à `R11`). Une variable en registre n'a pas d'adresse. En `-O1`, `sw1`, `i` et `res` passent aussi en registres. 
+| Variable | Zone attendue | Adresse attendue | Adresse relevée | 
+| :--- | :---: | :---: | :---: | 
+| `cst_int`, `cst_text` | Flash (`.rodata`) | `0x0800xxxx` |  | 
+| `data_var1`, `data_var2` | SRAM1 (`.data`) | `0x2000xxxx` (début) |  | 
+| `bss_var1`, `bss_var2` | SRAM1 (`.bss`) | `0x2000xxxx` (après `.data`) |  | 
+| `stack_var`, `k`, `sw1`, `res` | Pile | juste sous `0x20018000` |  | 
+| `reg_var` | Registre | `R4` à `R11` |  |
