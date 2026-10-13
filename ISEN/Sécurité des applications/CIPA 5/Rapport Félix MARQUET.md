@@ -433,4 +433,13 @@ Pour ce programme on écrit d'abord `0xDEADBEEF` au début de la SRAM2 (`0x10000
 - `TEST_FAULT = 0` : on écrit `0xAABBCCDD` au début de la 2e page (`0x10000400`), qui n'est pas protégée, sans toucher à la première.
 
 - `TEST_FAULT = 1` (écriture dans la page 0 protégée) : l'écriture est refusée et le programme finit dans une boucle infinie de crash. L'écriture lève une faute, le processeur entre dans `HardFault_Handler`, qui lance le reset applicatif (`SCB->AIRCR = 0x05FA0004`). Le programme redémarre, réécrit `0xDEADBEEF`, reprotège la page 0, retente l'écriture interdite, et ainsi de suite. `SWPR` repasse à 0 à chaque reset, mais le programme le remet à 1 à chaque tour. 
-- **`TEST_FAULT = 0` (écriture dans la page 1)** : l'écriture fonctionne, `r3` vaut `0xAABBCCDD` et il n'y a aucun problème ni reset. La protection ne concerne que les pages dont le bit de `SWPR` est à 1. | Cas | Adresse écrite | Page protégée ? | Résultat | | :--- | :---: | :---: | :--- | | `TEST_FAULT = 1` | `0x10000000` | oui (bit 0 de `SWPR`) | HardFault, reset, boucle infinie de crash | | `TEST_FAULT = 0` | `0x10000400` | non | écriture réussie, `r3` = `0xAABBCCDD` | ### Désactiver la protection Les bits de `SYSCFG_SWPR` sont en écriture seule vers 1 : le logiciel peut les mettre à 1 mais pas les remettre à 0. Seul un reset système désactive la protection. Un code malveillant ne peut donc pas la lever une fois qu'elle est activée.
+- `TEST_FAULT = 0` (écriture dans la page 1) : l'écriture fonctionne, `r3` vaut `0xAABBCCDD` et il n'y a aucun problème ni reset. La protection ne concerne que les pages dont le bit de `SWPR` est à 1. 
+
+| Cas              | Adresse écrite |    Page protégée ?    | Résultat                                  |
+| :--------------- | :------------: | :-------------------: | :---------------------------------------- |
+| `TEST_FAULT = 1` |  `0x10000000`  | oui (bit 0 de `SWPR`) | HardFault, reset, boucle infinie de crash |
+| `TEST_FAULT = 0` |  `0x10000400`  |          non          | écriture réussie, `r3` = `0xAABBCCDD`     |
+
+Les bits de `SYSCFG_SWPR` sont en écriture seule vers 1 : le logiciel peut les mettre à 1 mais pas les remettre à 0. Seul un reset système désactive la protection. Un code malveillant ne peut donc pas la lever une fois qu'elle est activée.
+
+![](Capture%20d’écran%202026-10-13%20à%2014.35.12.png)![](Capture%20d’écran%202026-10-13%20à%2014.35.56.png)![](Capture%20d’écran%202026-10-13%20à%2014.36.12.png)![](Capture%20d’écran%202026-10-13%20à%2014.36.43.png)
