@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ISEN/Sécurité des applications/CIPA 5/Rapport Félix MARQUET.md",
+                "file": "ISEN/Prospective innovation/CIPA 5/Prospective innovation Cours 1.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Rapport Félix MARQUET"
+              "title": "Prospective innovation Cours 1"
             }
           },
           {
@@ -248,6 +248,10 @@
   },
   "active": "5c190d9c2d4f5047",
   "lastOpenFiles": [
+    "ISEN/Sécurité des applications/CIPA 5/Rapport Félix MARQUET.md",
+    "ISEN/Prospective innovation/CIPA 5/Prospective innovation Cours 1.md",
+    "ISEN/Prospective innovation/CIPA 5",
+    "ISEN/Prospective innovation",
     "Capture d’écran 2026-10-12 à 09.59.29.png",
     "Capture d’écran 2026-10-12 à 09.58.56.png",
     "Capture d’écran 2026-10-12 à 09.58.45.png",
@@ -258,10 +262,8 @@
     "Capture d’écran 2026-10-12 à 09.55.13.png",
     "Capture d’écran 2026-10-12 à 09.54.56.png",
     "Capture d’écran 2026-10-12 à 09.54.32.png",
-    "Capture d’écran 2026-10-12 à 09.54.09.png",
     "ISEN/Sécurité des applications/CIPA 5/Sécurité des applications Cours 2.md",
     "ISEN/Sécurité des applications/CIPA 5/Sécurité des applications Cours 1.md",
-    "ISEN/Sécurité des applications/CIPA 5/Rapport Félix MARQUET.md",
     "ISEN/Sécurité offensive/CIPA5/Cours 1.md",
     "ISEN/Sécurité offensive/CIPA5",
     "ISEN/Sécurité offensive",
@@ -272,8 +274,6 @@
     "ISEN/Sécurité Réseau/CIPA 5/LAB/4.4.8-packet-tracer---configure-secure-passwords-and-ssh.pka_en-US_60553e3d-2442-4f0b-8c47-ee575544e751.pka~",
     "ISEN/Sécurité Réseau/CIPA 5/LAB/4.4.8-packet-tracer---configure-secure-passwords-and-ssh.pka_en-US_60553e3d-2442-4f0b-8c47-ee575544e751.pka",
     "ISEN/Sécurité Réseau/CIPA 5/LAB/7.4.9-packet-tracer---configure-server-based-aaa-with-tacacs-and-radius.pka_en-US_8a6e4dde-f4cd-4eb5-9932-3f47261341c9.pka",
-    "ISEN/Sécurité Réseau/CIPA 5/LAB/10.4.3-packet-tracer---build-a-switch-and-router-network---physical-mode_fr-FR.pka",
-    "ISEN/Sécurité Réseau/CIPA 5/LAB/Lab 1.pkt~",
     "ISEN/Initiation à la recherche/CIPA 5/Cours 1.md",
     "Stage CSI/Cobot alexandria/Drawing 2026-08-18 09.47.06 copy.excalidraw.md",
     "Stage CSI/Cobot alexandria/Drawing 2026-08-18 09.47.06.excalidraw.md",
