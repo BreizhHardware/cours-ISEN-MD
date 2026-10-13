@@ -525,3 +525,10 @@ On remet `RDP = 0xAA`. Cette régression déclenche un effacement total de la Fl
 Le firmware est détruit, ce qui empêche de le récupérer en repassant au niveau 0 : on protège le code, mais l'ouverture de l'accès coûte l'effacement de la Flash.
 
 ![](Capture%20d’écran%202026-10-13%20à%2015.13.09.png)
+
+# PCROP
+
+```assembly
+ bl      0x80004f4 <secret_led_blinking>
+104       	  HAL_Delay(500);
+```
