@@ -403,7 +403,7 @@ alors que la ligne C affiche toujours `HAL_GPIO_TogglePin(GPIOB, GPIO_PIN_0)`.
 | SRAM2         | `0x10000000` (32 pages de 1 Ko) |
 | 2e page       |          `0x10000400`           |
 | `SYSCFG_SWPR` |          `0x40010020`           |
-| `SCB->AIRCR`  |          `0xE000ED0C`           |
+
 
 ```C
 /* USER CODE BEGIN 2 */
@@ -442,4 +442,18 @@ Pour ce programme on écrit d'abord `0xDEADBEEF` au début de la SRAM2 (`0x10000
 
 Les bits de `SYSCFG_SWPR` sont en écriture seule vers 1 : le logiciel peut les mettre à 1 mais pas les remettre à 0. Seul un reset système désactive la protection. Un code malveillant ne peut donc pas la lever une fois qu'elle est activée.
 
-![](Capture%20d’écran%202026-10-13%20à%2014.35.12.png)![](Capture%20d’écran%202026-10-13%20à%2014.35.56.png)![](Capture%20d’écran%202026-10-13%20à%2014.36.12.png)![](Capture%20d’écran%202026-10-13%20à%2014.36.43.png)
+Dans STM32CubeProgrammer, on lit 16 octets à partir de `0x08000000` :
+![](Capture%20d’écran%202026-10-13%20à%2014.35.12.png)
+On remplace le premier mot par `12345678` et on relit : la valeur est bien modifiée, les autres mots ne changent pas. Sans protection, la Flash est donc modifiable depuis l'outil de programmation.
+![](Capture%20d’écran%202026-10-13%20à%2014.35.56.png)
+Ici `STRT` (`0xFF`) est supérieur à `END` (`0x0`), donc la zone est vide : aucune page n'est protégée.
+![](Capture%20d’écran%202026-10-13%20à%2014.36.12.png)
+On met `WRP1A_STRT = 0x0` et `WRP1A_END = 0x0`, puis *Apply*. Comme `STRT <= END`, la zone protégée va de la page 0 à la page 0, c'est-à-dire `0x08000000` à `0x080007FF`.
+![](Capture%20d’écran%202026-10-13%20à%2014.36.43.png)
+On tente de réécrire le premier mot. CubeProgrammer affiche l'erreur **« Write to memory failed »** et la relecture montre que le mot vaut toujours `12345678` : la page 0 est protégée en écriture et la modification est refusée.
+![](Capture%20d’écran%202026-10-13%20à%2014.37.19.png)
+
+| Mémoire | Protection                          |        Réversible par le logiciel ?        |
+| :------ | :---------------------------------- | :----------------------------------------: |
+| SRAM2   | `SYSCFG_SWPR`, pages de 1 Ko        |          Non, seulement par reset          |
+| Flash   | option bytes `WRPxy`, pages de 2 Ko | Non, via un outil externe (CubeProgrammer) |
