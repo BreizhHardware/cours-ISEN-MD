@@ -1,4 +1,4 @@
-# Introduction
+![](Capture%20d’écran%202026-10-13%20à%2014.58.35.png)# Introduction
 
 ```assembly
 maVariable:
@@ -460,3 +460,13 @@ On tente de réécrire le premier mot. CubeProgrammer affiche l'erreur **« Writ
 
 # RDP Protection
 
+![](Capture%20d’écran%202026-10-13%20à%2014.59.11.png)
+
+![](Pasted%20image%2020261013150140.png)
+
+![](Pasted%20image%2020261013150201.png)
+
+![](Pasted%20image%2020261013150223.png)
+
+
+![](Pasted%20image%2020261013150355.png)
