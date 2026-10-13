@@ -64,6 +64,16 @@
               "icon": "lucide-git-fork",
               "title": "Vue graphique"
             }
+          },
+          {
+            "id": "021f988211d64320",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Nouvel onglet"
+            }
           }
         ],
         "currentTab": 1
@@ -248,9 +258,9 @@
   },
   "active": "5c190d9c2d4f5047",
   "lastOpenFiles": [
+    "ISEN/Sécurité des applications/CIPA 5/Rapport Félix MARQUET.md",
     "ISEN/Sécurité des applications/CIPA 5/Sécurité des applications Cours 1.md",
     "ISEN/Prospective innovation/CIPA 5/Prospective innovation Cours 1.md",
-    "ISEN/Sécurité des applications/CIPA 5/Rapport Félix MARQUET.md",
     "ISEN/Prospective innovation/CIPA 5",
     "ISEN/Prospective innovation",
     "Capture d’écran 2026-10-12 à 09.59.29.png",

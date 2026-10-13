@@ -398,6 +398,13 @@ alors que la ligne C affiche toujours `HAL_GPIO_TogglePin(GPIOB, GPIO_PIN_0)`.
 
 # Write Memory Protection
 
+| Élément       |             Valeur              |
+| :------------ | :-----------------------------: |
+| SRAM2         | `0x10000000` (32 pages de 1 Ko) |
+| 2e page       |          `0x10000400`           |
+| `SYSCFG_SWPR` |          `0x40010020`           |
+| `SCB->AIRCR`  |          `0xE000ED0C`           |
+
 ```C
 /* USER CODE BEGIN 2 */
 volatile uint32_t r1, r2, r3;
@@ -421,3 +428,9 @@ r3 = *(volatile uint32_t *)0x10000400; /* 0xAABBCCDD, pas de reset */
 /* USER CODE END 2 */
 ```
 
+Pour ce programme on écrit d'abord `0xDEADBEEF` au début de la SRAM2 (`0x10000000`) et on le relit dans `r1`. Ensuite on active l'horloge de SYSCFG avec `__HAL_RCC_SYSCFG_CLK_ENABLE()` (sans cela, `SYSCFG->SWPR` n'est pas accessible), puis `SYSCFG->SWPR = 0x1` protège la première page. Le programme existe en deux versions selon `TEST_FAULT` : 
+- `TEST_FAULT = 1` : on écrit `0x11223344` dans la page protégée, puis on relit. 
+- `TEST_FAULT = 0` : on écrit `0xAABBCCDD` au début de la 2e page (`0x10000400`), qui n'est pas protégée, sans toucher à la première.
+
+- `TEST_FAULT = 1` (écriture dans la page 0 protégée) : l'écriture est refusée et le programme finit dans une boucle infinie de crash. L'écriture lève une faute, le processeur entre dans `HardFault_Handler`, qui lance le reset applicatif (`SCB->AIRCR = 0x05FA0004`). Le programme redémarre, réécrit `0xDEADBEEF`, reprotège la page 0, retente l'écriture interdite, et ainsi de suite. `SWPR` repasse à 0 à chaque reset, mais le programme le remet à 1 à chaque tour. 
+- **`TEST_FAULT = 0` (écriture dans la page 1)** : l'écriture fonctionne, `r3` vaut `0xAABBCCDD` et il n'y a aucun problème ni reset. La protection ne concerne que les pages dont le bit de `SWPR` est à 1. | Cas | Adresse écrite | Page protégée ? | Résultat | | :--- | :---: | :---: | :--- | | `TEST_FAULT = 1` | `0x10000000` | oui (bit 0 de `SWPR`) | HardFault, reset, boucle infinie de crash | | `TEST_FAULT = 0` | `0x10000400` | non | écriture réussie, `r3` = `0xAABBCCDD` | ### Désactiver la protection Les bits de `SYSCFG_SWPR` sont en écriture seule vers 1 : le logiciel peut les mettre à 1 mais pas les remettre à 0. Seul un reset système désactive la protection. Un code malveillant ne peut donc pas la lever une fois qu'elle est activée.
