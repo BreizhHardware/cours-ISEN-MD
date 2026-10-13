@@ -395,3 +395,6 @@ alors que la ligne C affiche toujours `HAL_GPIO_TogglePin(GPIOB, GPIO_PIN_0)`.
 | :--- | :---: | :---: | :---: |
 | Avant le patch | `GPIO_PIN_0` | `movs r1, #1` | LED1 seule |
 | Après le patch | `GPIO_PIN_0` | `movs r1, #3` | LED1 et LED2 |
+
+# Write Memory Protection
+
