@@ -532,3 +532,12 @@ Le firmware est détruit, ce qui empêche de le récupérer en repassant au nive
  bl      0x80004f4 <secret_led_blinking>
 104       	  HAL_Delay(500);
 ```
+
+![](Pasted%20image%2020261013163359.png)
+
+```assembly
+08000508:   bl      0x8008000 <secret_led_blinking>
+104       	  HAL_Delay(500);
+```
+
+![](Capture%20d’écran%202026-10-13%20à%2016.39.47.png)
