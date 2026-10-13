@@ -457,3 +457,6 @@ On tente de réécrire le premier mot. CubeProgrammer affiche l'erreur **« Writ
 | :------ | :---------------------------------- | :----------------------------------------: |
 | SRAM2   | `SYSCFG_SWPR`, pages de 1 Ko        |          Non, seulement par reset          |
 | Flash   | option bytes `WRPxy`, pages de 2 Ko | Non, via un outil externe (CubeProgrammer) |
+
+# RDP Protection
+

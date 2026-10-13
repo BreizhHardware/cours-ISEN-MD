@@ -64,16 +64,6 @@
               "icon": "lucide-git-fork",
               "title": "Vue graphique"
             }
-          },
-          {
-            "id": "021f988211d64320",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Nouvel onglet"
-            }
           }
         ],
         "currentTab": 1
