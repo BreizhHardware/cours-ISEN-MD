@@ -1,4 +1,4 @@
-![](Capture%20d’écran%202026-10-13%20à%2014.58.35.png)# Introduction
+![](Capture%20d’écran%202026-10-13%20à%2015.13.09.png)![](Capture%20d’écran%202026-10-13%20à%2015.13.09.png)![](Capture%20d’écran%202026-10-13%20à%2014.58.35.png)# Introduction
 
 ```assembly
 maVariable:
@@ -460,6 +460,42 @@ On tente de réécrire le premier mot. CubeProgrammer affiche l'erreur **« Writ
 
 # RDP Protection
 
+```C 
+/* USER CODE BEGIN PV */ 
+volatile uint32_t cpt = 0; 
+/* USER CODE END PV */ 
+
+/* USER CODE BEGIN 2 */ 
+*((uint32_t *)0x20000020) = 0xDEADBEEF; 
+/* USER CODE END 2 */ 
+
+/* USER CODE BEGIN WHILE */
+while (1) { 
+	HAL_GPIO_TogglePin(GPIOA, GPIO_PIN_5); 
+	HAL_Delay(1000); 
+	cpt++; 
+	/* USER CODE END WHILE */
+	
+	/* USER CODE BEGIN 3 */
+} 
+```
+
+Pour ce programme la LED (`PA5`) change d'état toutes les secondes et `cpt` est incrémenté à chaque tour. En debug, `&cpt` donne `0x200000b0`, en SRAM1. On écrit aussi `0xDEADBEEF` à `0x20000020` pour avoir une valeur repérable en SRAM. La RDP (Read Out Protection) protège la Flash contre la copie du code, le reverse engineering et l'accès par les outils de développement. Elle a trois niveaux : 
+- **Niveau 0** (`RDP = 0xAA`) : aucune protection, c'est le niveau par défaut. 
+- **Niveau 1** (toute valeur différente de `0xAA` et `0xCC`, ici `0xBB`) : si un accès débogueur est détecté, la lecture de la Flash est bloquée et un HardFault est généré. 
+- **Niveau 2** (`RDP = 0xCC`) : irréversible, la Flash devient une ROM. Il n'a **pas été testé** : il rend la carte inutilisable.
+
+## Niveau 0
+
+Dans STM32CubeProgrammer (onglet *Device memory*), on lit la Flash et la SRAM :
+
+|   Adresse    | Contenu                                     |
+| :----------: | :------------------------------------------ |
+| `0x08000000` | `20018000` `0800089D` `08000819` `08000821` |
+| `0x20000020` | `DEADBEEF` `00000000` `40004400` `0001C200` |
+| `0x200000B0` | `0000003B` (`cpt` = 59)                     |
+Tout est lisible. Le premier mot de la Flash est la valeur initiale de `SP` (`_estack`), le deuxième l'adresse de `Reset_Handler`. En SRAM, on retrouve bien `0xDEADBEEF` à `0x20000020`, et `cpt` vaut `0x3B`.
+
 ![](Capture%20d’écran%202026-10-13%20à%2014.59.11.png)
 
 ![](Pasted%20image%2020261013150140.png)
@@ -468,5 +504,24 @@ On tente de réécrire le premier mot. CubeProgrammer affiche l'erreur **« Writ
 
 ![](Pasted%20image%2020261013150223.png)
 
+## Niveau 1
+
+On passe `RDP` à `0xBB` dans l'onglet *OB* , puis on fait un power cycle (débrancher puis rebrancher l'USB). Résultat :
+
+| Zone | Résultat | 
+| :--- | :--- | 
+| Flash (`0x08000000`) | « Error: Data read failed » : lecture refusée | 
+| SRAM (`0x20000020`, `0x200000B0`) | lecture possible | 
+| LED | ne clignote plus |
+
+La Flash est illisible depuis l'extérieur, ce qui empêche de copier le firmware. En revanche la SRAM reste lisible : c'est le cas signalé dans le sujet, problématique pour la sécurité, puisque les variables (et donc d'éventuelles données sensibles) restent accessibles. Une solution est de ne stocker ces données que dans les registres du processeur. La LED ne clignote plus car, au niveau 1, un accès débogueur détecté (ici le ST-LINK connecté) bloque l'accès à la Flash et génère un HardFault : le processeur ne peut plus exécuter le programme.
 
 ![](Pasted%20image%2020261013150355.png)
+
+## Régression du niveau 1 vers le niveau 0
+
+On remet `RDP = 0xAA`. Cette régression déclenche un effacement total de la Flash : la lecture de `0x08000000` donne `0xFFFFFFFF`. La valeur stockée dans la Flash est donc `0xFFFFFFFF` (cellules effacées, tous les bits à 1) et le programme n'existe plus : la LED ne clignote plus tant qu'on ne reflashe pas le firmware.
+
+Le firmware est détruit, ce qui empêche de le récupérer en repassant au niveau 0 : on protège le code, mais l'ouverture de l'accès coûte l'effacement de la Flash.
+
+![](Capture%20d’écran%202026-10-13%20à%2015.13.09.png)
