@@ -398,3 +398,26 @@ alors que la ligne C affiche toujours `HAL_GPIO_TogglePin(GPIOB, GPIO_PIN_0)`.
 
 # Write Memory Protection
 
+```C
+/* USER CODE BEGIN 2 */
+volatile uint32_t r1, r2, r3;
+#define TEST_FAULT 0 /* 0: On peut écrire, 1 on peut pas écrire */
+
+__HAL_RCC_SYSCFG_CLK_ENABLE();
+
+*(volatile uint32_t *)0x10000000 = 0xDEADBEEF;
+r1 = *(volatile uint32_t *)0x10000000;
+
+SYSCFG->SWPR = 0x1;
+
+#if TEST_FAULT
+*(volatile uint32_t *)0x10000000 = 0x11223344; /* écriture refusée */
+r2 = *(volatile uint32_t *)0x10000000; /* relecture */
+#else
+*(volatile uint32_t *)0x10000400 = 0xAABBCCDD; /* 2e page : non protégée */
+r3 = *(volatile uint32_t *)0x10000400; /* 0xAABBCCDD, pas de reset */
+#endif
+
+/* USER CODE END 2 */
+```
+
