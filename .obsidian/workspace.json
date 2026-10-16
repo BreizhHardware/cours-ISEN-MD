@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ISEN/Sécurité offensive/CIPA5/Cours 1.md",
+                "file": "ISEN/Sécurité offensive/CIPA5/HTB Nexus.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Cours 1"
+              "title": "HTB Nexus"
             }
           },
           {
@@ -271,6 +271,8 @@
   },
   "active": "e4257884676ee851",
   "lastOpenFiles": [
+    "ISEN/Sécurité offensive/CIPA5/Cours 1.md",
+    "ISEN/Sécurité offensive/CIPA5/HTB Nexus.md",
     "ISEN/Sécurité dans le cloud/CIPA 5/Lecture1_SDR_overview.pdf",
     "ISEN/Sécurité dans le cloud/CIPA 5/Sécurité dans le cloud.md",
     "ISEN/Sécurité des applications/CIPA 5/Sécurité des applications Cours 1.md",
@@ -291,7 +293,6 @@
     "ISEN/Prospective innovation/CIPA 5/Prospective innovation Cours 1.md",
     "ISEN/Prospective innovation/CIPA 5",
     "ISEN/Prospective innovation",
-    "ISEN/Sécurité offensive/CIPA5/Cours 1.md",
     "ISEN/Sécurité offensive/CIPA5",
     "ISEN/Sécurité offensive",
     "ISEN/Sécurité Réseau/CIPA 5/Cours 1.md",
