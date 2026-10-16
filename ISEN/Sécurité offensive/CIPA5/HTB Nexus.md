@@ -14,4 +14,6 @@ Aller sur le git regarder l'history du .env et boom
 Version de krayin CRM:
 Se logger sur billing avec le mail trouvé (j.matthew@nexus.htb) et le mot de passe (N27xh!!2ucY04)
 
-Exploitation 
+Exploitation CVE-2026-38526
+Dans le formulaire d'envoie de mail il y a un endroit pour upload une PJ.
+On crée `shell.`
