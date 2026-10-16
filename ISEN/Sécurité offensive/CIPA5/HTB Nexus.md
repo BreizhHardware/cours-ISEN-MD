@@ -48,7 +48,7 @@ En créant un repo template, il sera lu et executé par le service qui tourne en
 
 un dépôt Git stocke son contenu sous forme d'objets `tree`, qui sont de simples listes `(mode, nom, hash)`. Si un service (forge Git, système de templates, hook) reconstruit ou extrait ces objets sur le disque sans valider les noms d'entrées, rien n'empêche de forger un arbre contenant des entrées `..` imbriquées, ce qui permet d'écrire des fichiers en dehors du répertoire du dépôt. Si ce service tourne avec des privilèges élevés (root), un dépôt malveillant peut ainsi déposer un fichier arbitraire ailleurs sur le système (ex : une clé SSH dans `/root/.ssh/authorized_keys`), menant à une prise de contrôle totale.
 
-```py
+```python
 #!/usr/bin/env python3
 import hashlib,zlib,os,subprocess,sys,time
 
