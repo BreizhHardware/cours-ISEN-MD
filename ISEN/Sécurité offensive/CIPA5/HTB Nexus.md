@@ -43,3 +43,5 @@ systemctl list-timers --all
 
 gitea-template-sync.service
 
+# Connexion en root
+En créant un repo template, il sera lu et executé par le service qui tourne en root. On peut donc via un script venir injecter une clé ssh dans le `authorized_key` de root pour ensuite pour ssh dedans. 
