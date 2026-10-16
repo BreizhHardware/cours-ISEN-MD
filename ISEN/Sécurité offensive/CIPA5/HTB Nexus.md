@@ -12,4 +12,6 @@ DB Password:
 Aller sur le git regarder l'history du .env et boom
 
 Version de krayin CRM:
-Se logger sur billing avec le mail trouvé (j.matthew@nexus.htb) et le mot de passe
+Se logger sur billing avec le mail trouvé (j.matthew@nexus.htb) et le mot de passe (N27xh!!2ucY04)
+
+Exploitation 
