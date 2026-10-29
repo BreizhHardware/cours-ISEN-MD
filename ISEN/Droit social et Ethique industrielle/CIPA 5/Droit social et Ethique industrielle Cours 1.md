@@ -63,3 +63,6 @@ Clauses spécifiques
 - Clause de mobilité
 - Clause de propriété intellectuelle
 - Clause de restitution des biens
+
+Promesse d'embauche: Doit être tenu, si non tenu -> Prud'hommes (équivalent licenciement)
+Proposition d'embauche: Délimité dans le temps
