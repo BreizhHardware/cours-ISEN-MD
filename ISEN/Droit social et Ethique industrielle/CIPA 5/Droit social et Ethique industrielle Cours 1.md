@@ -45,13 +45,18 @@ Avant licenciement:
 
 Contrat de travail
 
-|                               Droits                               |                Obligations                |
-| :----------------------------------------------------------------: | :---------------------------------------: |
-|   Contrat qui respecte la réglementation et les engagements pris   | Etre assidu et remplir sa part du contrat |
-| Droit à la rémunération en lien avec le contrat et le poste occupé |          Justifier ses abscences          |
-|                            Congés payés                            |              Respecter le RI              |
-|         Couverture sociale: Mutuelle, Prévoyance, Retraite         |           Effectuer le travail            |
-|                                RTT                                 |                                           |
-|                 Contrepartie aux HS si il y a lieu                 |                                           |
-|                            Déconnexion                             |                                           |
-|                      Respect de sa vie privée                      |                                           |
+|                               Droits                               |                        Obligations                        |
+| :----------------------------------------------------------------: | :-------------------------------------------------------: |
+|   Contrat qui respecte la réglementation et les engagements pris   |         Etre assidu et remplir sa part du contrat         |
+| Droit à la rémunération en lien avec le contrat et le poste occupé |                  Justifier ses absences                   |
+|                            Congés payés                            |                      Respecter le RI                      |
+|         Couverture sociale: Mutuelle, Prévoyance, Retraite         | Effectuer le travail selon les consignes de son employeur |
+|                                RTT                                 |        Veiller à sa sécurité et à celle des autres        |
+|                 Contrepartie aux HS si il y a lieu                 |                     Devoir de réserve                     |
+|                            Déconnexion                             |                                                           |
+|                      Respect de sa vie privée                      |                                                           |
+
+Clauses spécifiques
+- Clause de confidentialité: S'applique même après avoir quitter l'entreprise
+- Clause d'exclusivité
+- Clause de non concurence
