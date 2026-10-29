@@ -92,4 +92,11 @@ Critère discriminatoire:
 - Particulière vulnérabilité résultant d'une situation économique
 
 Élément essentiel:
+- La rémunération
+- Le lieu de travail
+- La durée du travail
+- La qualification (poste)
 - 
+
+Prime => Récompenser
+Indemnité => Réparer, composer un préjudice
