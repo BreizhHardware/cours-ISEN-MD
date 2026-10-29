@@ -128,3 +128,12 @@ Temps de travail effectif =/= temps de présence
 - Se conforme à ses directives
 - Sans pouvoir vaquer librement à ses occupation personnelles
 -> temps payé = somme des temps de travail effectif
+
+Congés payés
+
+|            Jours ouvrés             |          Jour ouvrables          | Temps partiel                                                  |
+| :---------------------------------: | :------------------------------: | -------------------------------------------------------------- |
+|            25 CP par an             |           30 CP par an           | Pas le mercredi                                                |
+| À poser du lundi au vendredi inclus | À pose du lundi au samedi inclus | Tous les jours, y compris les jours normalement pas travaillés |
+1ère période = Congé princpal
+2ème période = 5ème semaine
