@@ -96,7 +96,9 @@ Critère discriminatoire:
 - Le lieu de travail
 - La durée du travail
 - La qualification (poste)
-- 
+- Le code APE
+
+En cas de modification du contrat, un avenant doit être fait, pas obliger de signer l'avenant
 
 Prime => Récompenser
 Indemnité => Réparer, composer un préjudice
