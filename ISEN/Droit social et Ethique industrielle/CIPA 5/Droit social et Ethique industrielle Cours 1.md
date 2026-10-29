@@ -50,4 +50,4 @@ Contrat de travail
 |   Contrat qui respecte la réglementation et les engagements pris   |             |
 | Droit à la rémunération en lien avec le contrat et le poste occupé |             |
 |                            Congés payés                            |             |
-|                                                                    |             |
+|         Couverture sociale: Mutuelle, Prévoyance, Retraite         |             |
