@@ -111,6 +111,10 @@ Durée du travail légale
 Repos quotidien -> 11h de repos consécutives entre 2 journées de travail
 Repos hebdo -> 24h consécutives + 11h = 35h
 
+Forfait heures
+- tps de travail -> 151,67 -> taux normal
+- HS -> 10 -> 
+
 En cas de modification du contrat, un avenant doit être fait, pas obliger de signer l'avenant
 
 Prime => Récompenser
