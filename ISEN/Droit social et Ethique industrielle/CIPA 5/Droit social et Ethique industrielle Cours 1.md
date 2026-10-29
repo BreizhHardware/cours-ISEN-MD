@@ -31,3 +31,6 @@ Contract de travail -> 3 conditions
 
 
 Le conseil des prudhommes (CPH) -> Cours d'Appel -> Cours de cassation (Chambre sociale)
+Tribunal administratif -> Cours d'Appel administrative -> Conseil d'Etat
+
+Inspecteur du travail -> Controler, Conseiller, Sanctionner
