@@ -32,54 +32,6 @@
             }
           },
           {
-            "id": "b12fb3ee786f707b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ISEN/Sécurité dans le cloud/CIPA 5/Sécurité dans le cloud.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Sécurité dans le cloud"
-            }
-          },
-          {
-            "id": "5c190d9c2d4f5047",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ISEN/Sécurité des applications/CIPA 5/Rapport Félix MARQUET.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Rapport Félix MARQUET"
-            }
-          },
-          {
             "id": "21947fa377be730a",
             "type": "leaf",
             "state": {
@@ -271,8 +223,8 @@
   },
   "active": "e4257884676ee851",
   "lastOpenFiles": [
-    "file:/Users/felixmarquet/ownCloud/Personnel/Programation/py/CIPA5/Traitement d'image/TP3_1_FiltrageSpatialFrequentiel/Compte_rendu.md",
     "ISEN/Droit social et Ethique industrielle/CIPA 5/Droit social et Ethique industrielle Cours 1.md",
+    "file:/Users/felixmarquet/ownCloud/Personnel/Programation/py/CIPA5/Traitement d'image/TP3_1_FiltrageSpatialFrequentiel/Compte_rendu.md",
     "ISEN/Droit social et Ethique industrielle/CIPA 5",
     "ISEN/Droit social et Ethique industrielle",
     "file:/Users/felixmarquet/ownCloud/Personnel/Programation/py/CIPA5/Traitement d'image/TP  Partie 2 - Seuillage, détection et morphologie mathématique/TP2_1_SeuillageDetectionMorphologie/Compte_rendu.md",

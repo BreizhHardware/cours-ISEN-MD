@@ -9,7 +9,12 @@ OIT (Organisation International du Travail): sert à élaborer des convention qu
 UE: Les directives européens sont imposées aux pays membres (délai de 6 mois a 3 ans pour les retranscrire dans le droit du pays (On est h24 en retard))
 Code du travail: L (Loi) -> D (Décret) -> R (Règlement)
 ANI (Accord National Interprofessionel): 
-CCN (Convention Collective Nationa)
+CCN (Convention Collective Nationale)
+Accord d'entreprise
+RI (Règlement Interieur)
+DUERP (Document Unique d'Evalutation des Risques Professionnels)
+Usage: Pratique dans l'entreprise qui n'est écrite nul part
+CT (Contract de Travail)
 
 Loi: Voté au parlement
 Décret: Précision de la loi, comment la mettre en oeuvre
