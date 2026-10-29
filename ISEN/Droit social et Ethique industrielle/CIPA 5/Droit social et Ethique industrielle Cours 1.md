@@ -22,4 +22,9 @@ Décret: Précision de la loi, comment la mettre en oeuvre
 Contract de travail -> 3 conditions
 1. Prestation de travail
 2. Rémunération
-3. Lien du suboordination
+3. Lien du subordination
+	1. Sous l'autorité de l'employeur
+		1. 3 pouvoirs
+			1. Pouvoir de décision
+			2. Pouvoir règlementaire
+			3. Pouvoir disciplinaire
