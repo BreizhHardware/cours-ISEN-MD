@@ -59,4 +59,5 @@ Contrat de travail
 Clauses spécifiques
 - Clause de confidentialité: S'applique même après avoir quitter l'entreprise
 - Clause d'exclusivité
-- Clause de non concurence
+- Clause de non concurrence
+- Clause de mobilité
