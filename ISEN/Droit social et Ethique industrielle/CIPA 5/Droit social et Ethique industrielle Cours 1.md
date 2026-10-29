@@ -61,3 +61,5 @@ Clauses spécifiques
 - Clause d'exclusivité
 - Clause de non concurrence
 - Clause de mobilité
+- Clause de propriété intellectuelle
+- Clause de restitution des biens
