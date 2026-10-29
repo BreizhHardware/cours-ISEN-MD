@@ -18,3 +18,8 @@ CT (Contract de Travail)
 
 Loi: Voté au parlement
 Décret: Précision de la loi, comment la mettre en oeuvre
+
+Contract de travail -> 3 conditions
+1. Prestation de travail
+2. Rémunération
+3. Lien du suboordination
