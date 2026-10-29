@@ -34,3 +34,11 @@ Le conseil des prudhommes (CPH) -> Cours d'Appel -> Cours de cassation (Chambre 
 Tribunal administratif -> Cours d'Appel administrative -> Conseil d'Etat
 
 Inspecteur du travail -> Controler, Conseiller, Sanctionner
+
+Avant licenciement:
+- Avertissement (Aucun impact sur la présence du salarié en entreprise ni sur la rémunération)
+- Blâme (Equivalent a l'avertissement dans les entreprises privé)
+- Mise a pied disciplinaire (Impact sur la présence du salarié en entreprise et sur la rémunération)
+- Mutation
+- Rétrogradation
+- Licenciement
