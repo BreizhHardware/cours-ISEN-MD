@@ -135,5 +135,5 @@ Congés payés
 | :---------------------------------: | :------------------------------: | -------------------------------------------------------------- |
 |            25 CP par an             |           30 CP par an           | Pas le mercredi                                                |
 | À poser du lundi au vendredi inclus | À pose du lundi au samedi inclus | Tous les jours, y compris les jours normalement pas travaillés |
-1ère période = Congé princpal
+1ère période = Congé princpal -> Entre le 1 mai et le 31 octobre -> 24 jours
 2ème période = 5ème semaine
