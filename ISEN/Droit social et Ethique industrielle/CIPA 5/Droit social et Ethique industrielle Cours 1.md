@@ -98,6 +98,19 @@ Critère discriminatoire:
 - La qualification (poste)
 - Le code APE
 
+Durée Conventionnelle de travail
+- Hebdo -> 37h ou 36h45
+
+Durée du travail légale
+- Hebdo -> 35h
+- Mensuelle -> 151,67h
+- Annuelle 1607h
+- Forfait jour -> 218 j
+- Durée quotidienne -> 7h
+
+Repos quotidien -> 11h de repos consécutives entre 2 journées de travail
+Repos hebdo -> 24h consécutives + 11h = 35h
+
 En cas de modification du contrat, un avenant doit être fait, pas obliger de signer l'avenant
 
 Prime => Récompenser
