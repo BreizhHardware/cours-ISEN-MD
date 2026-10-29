@@ -113,7 +113,10 @@ Repos hebdo -> 24h consécutives + 11h = 35h
 
 Forfait heures
 - tps de travail -> 151,67 -> taux normal
-- HS -> 10 -> 
+- HS -> 10 -> taux majoré
+
+De la 1ère -> 8ème inclus +25%
+Au delas -> 50%
 
 En cas de modification du contrat, un avenant doit être fait, pas obliger de signer l'avenant
 
