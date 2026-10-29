@@ -67,7 +67,7 @@ Clauses spécifiques
 Promesse d'embauche: Doit être tenu, si non tenu -> Prud'hommes (équivalent licenciement)
 Proposition d'embauche: Délimité dans le temps
 
-Critaire discriminatoire:
+Critère discriminatoire:
 - Age
 - Sexe
 - Identité de genre
@@ -90,3 +90,6 @@ Critaire discriminatoire:
 - Qualité de lanceur d'alerte
 - Appartenance éthique
 - Particulière vulnérabilité résultant d'une situation économique
+
+Élément essentiel:
+- 
