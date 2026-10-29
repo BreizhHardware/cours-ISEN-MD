@@ -122,3 +122,9 @@ En cas de modification du contrat, un avenant doit être fait, pas obliger de si
 
 Prime => Récompenser
 Indemnité => Réparer, composer un préjudice
+
+Temps de travail effectif =/= temps de présence
+- Est sous la subordination de son employeur
+- Se conforme à ses directives
+- Sans pouvoir vaquer librement à ses occupation personnelles
+-> temps payé = somme des temps de travail effectif
