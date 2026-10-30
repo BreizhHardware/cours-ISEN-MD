@@ -22,3 +22,13 @@ Accident de travail (AT): Accident pendant le travail, sur le lieu de travail et
 
 Accident de trajet (ATJ): Domicile <-> Travail
 
+Les 9 PGP
+1. Eviter les risques
+2. Evaluer les risques qui peuvent etre evites
+3. Combattre les risques a la source
+4. Adapter le travail a l'homme
+5. Tenir compte de l'evolution de la technique
+6. Remplacer ce qui est dangereux par ce qui n'est pas (ou moins) dangereux
+7. Planifier la prévention
+8. Prendre des mesures de protection collective en leur donnant la priorité sur les mesures de protection individuelle
+9. Donner des instructions appropriées aux travailleurs
