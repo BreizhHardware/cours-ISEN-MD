@@ -21,3 +21,4 @@ Risques:
 Accident de travail (AT): Accident pendant le travail, sur le lieu de travail et/ou sur ordre de l'employeur (accident de mission)
 
 Accident de trajet (ATJ): Domicile <-> Travail
+
