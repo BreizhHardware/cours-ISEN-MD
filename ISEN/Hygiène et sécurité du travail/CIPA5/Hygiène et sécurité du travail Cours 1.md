@@ -33,3 +33,4 @@ Les 9 PGP
 8. Prendre des mesures de protection collective en leur donnant la priorité sur les mesures de protection individuelle
 9. Donner des instructions appropriées aux travailleurs
 
+Arret amiante: Même quand on ne connait pas encore les expositions a un risque
