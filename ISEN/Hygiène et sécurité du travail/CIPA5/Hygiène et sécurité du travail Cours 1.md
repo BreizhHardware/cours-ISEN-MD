@@ -32,3 +32,4 @@ Les 9 PGP
 7. Planifier la prévention
 8. Prendre des mesures de protection collective en leur donnant la priorité sur les mesures de protection individuelle
 9. Donner des instructions appropriées aux travailleurs
+
