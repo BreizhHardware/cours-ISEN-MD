@@ -1,3 +1,16 @@
+
+
+```table-of-contents
+title: Sommaire
+style: nestedList # TOC style (nestedList|nestedOrderedList|inlineFirstLevel)
+minLevel: 0 # Include headings from the specified level
+maxLevel: 0 # Include headings up to the specified level
+include: 
+exclude: 
+includeLinks: true # Make headings clickable
+hideWhenEmpty: false # Hide TOC if no headings are found
+debugInConsole: false # Print debug info in Obsidian console
+```
 # Introduction
 
 ```assembly
@@ -104,7 +117,7 @@ Dans la boucle `cmp r1, #1` compare `X` à 1 et met à jour le `xPSR`. Si `X < 1
 |   1    |    1 - 1 = 0     | 0x61000000 (Z = 1, C = 1) | non pris |
 |   0    |    0 - 1 = -1    | 0x81000000 (N = 1, C = 0) |   pris   |
 
-# Création et appel d'une sous routine
+# Création et appel d'une sous-routine
 
 ```assembly
 sum:
@@ -151,7 +164,7 @@ Avant le `bl`, le `LR` valait `0x80001fb`, c'est l'adresse de retour du `bl main
 |Pendant la boucle|`LoopSum` à `EndSum`|`0x8000213`|
 |Après `bx lr`|`0x8000212`|`0x8000213`|
 
-# Faire flasher en on/off avec une interruption
+# Gestion du clignotement par interruption externe
 
 ```assembly
 init_led:
@@ -211,7 +224,7 @@ Pour ce programme on déclare des variables dans les quatre zones demandées :
 | `stack_var`, `k`, `sw1`, `res` |       Pile        |   juste sous `0x20018000`    | `stack_var`: `0x20017fd8`,  `k`: `0x20017fec`, `res`: `0x20017ff0`, `sw1`: `0x20017ff7` |
 |           `reg_var`            |     Registre      |         `R4` à `R11`         |                                          `R4`                                           |
 
-# Writing in memory
+# Écriture en mémoire Flash et RAM
 
 ## Les adresses
 Le STM32L476RG possède 1 Mo de Flash, 96 Ko de SRAM1 et 32 Ko de SRAM2.
@@ -297,7 +310,7 @@ La programmation ne peut faire passer un bit que de 1 à 0. Seul un effacement (
 
 ### Remarque observée en pratique
 
-Lors d'un premier essai, sans effacement préalable, la première écriture a été refusée (`sr` = `0xA8`, qui contient PROGERR). Les données écrites lors d'une session de debug précédente étaient encore en bank 2 (`0xDEADBEEF` et `0x01234567`). Cela confirme que la Flash est non volatile : ses données survivent au reset et à la reprogrammation du bank 1. Le programme final efface donc la bank 2 avant la première écriture.
+Lors d'un premier essai, sans effacement préalable, la première écriture a été refusée (`sr` = `0xA8`, qui contient PROGERR). Les données écrites lors d'une session de debug précédente étaient encore en bank 2 (`0xDEADBEEF` et `0x01234567`). Cela confirme que la Flash est non volatile, ses données survivent au reset et à la reprogrammation du bank 1. Le programme final efface donc la bank 2 avant la première écriture.
 
 ## Effacement de la bank 2
 
@@ -323,7 +336,7 @@ Après l'effacement, on réécrit `0xDEADBEEF` et `0x01234567` : `sr` = `0x0`, e
 | Réécriture sans effacement | refusée (PROGERR) |
 | Effacement | remet tous les bits à 1 (`0xFF`) |
 
-# LED Flashing
+# Clignotement de LED et patch binaire
 
 ```C
 /* USER CODE BEGIN WHILE */
@@ -396,7 +409,7 @@ alors que la ligne C affiche toujours `HAL_GPIO_TogglePin(GPIOB, GPIO_PIN_0)`.
 | Avant le patch | `GPIO_PIN_0` | `movs r1, #1` | LED1 seule |
 | Après le patch | `GPIO_PIN_0` | `movs r1, #3` | LED1 et LED2 |
 
-# Write Memory Protection
+# Protection en écriture mémoire (SRAM2 et Flash)
 
 | Élément       |             Valeur              |
 | :------------ | :-----------------------------: |
@@ -458,7 +471,7 @@ On tente de réécrire le premier mot. CubeProgrammer affiche l'erreur **« Writ
 | SRAM2   | `SYSCFG_SWPR`, pages de 1 Ko        |          Non, seulement par reset          |
 | Flash   | option bytes `WRPxy`, pages de 2 Ko | Non, via un outil externe (CubeProgrammer) |
 
-# RDP Protection
+# Protection en lecture de la mémoire (RDP)
 
 ```C 
 /* USER CODE BEGIN PV */ 
