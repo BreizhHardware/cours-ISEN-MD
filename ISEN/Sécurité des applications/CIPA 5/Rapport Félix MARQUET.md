@@ -1,4 +1,39 @@
+<div style="text-align: center; padding-top: 20px;">
+
 ![](Logo%20ISEN%20Ouest.png)
+
+<br>
+
+<p style="font-size: 1.1em; text-transform: uppercase; letter-spacing: 2px; color: #555; margin-bottom: 0;">ISEN Yncréa Ouest</p>
+<p style="font-size: 0.95em; color: #777; margin-top: 5px;">Majeure Cybersécurité - Sécurité des applications</p>
+
+<div style="margin-top: 110px; margin-bottom: 110px;">
+  <h1 style="font-size: 2.6em; font-weight: 800; border-bottom: none; margin-bottom: 15px;">Rapport de Travaux Pratiques</h1>
+  <h3 style="font-size: 1.45em; font-weight: normal; color: #444; border-bottom: none; margin-top: 0;">Sécurité Matérielle & Programmation Bas Niveau sur STM32</h3>
+  <hr style="width: 35%; margin: 25px auto; border: 1px solid #999;">
+  <p style="font-size: 1.05em; color: #666; font-style: italic;">Assembleur Cortex-M4 • Exploitation et patch binaire • Protections mémoire Flash & SRAM (WRP, RDP, PCROP)</p>
+</div>
+
+<div style="margin-top: 90px; border-top: 1px solid #ccc; padding-top: 20px;">
+<table style="width: 100%; border: none; border-collapse: collapse; margin: auto;">
+  <tr style="border: none;">
+    <td style="text-align: left; border: none; vertical-align: top;">
+      <span style="color: #666; font-size: 0.9em; text-transform: uppercase;">Auteur :</span><br>
+      <strong style="font-size: 1.15em;">Félix MARQUET</strong>
+      <span style="color: #666;">FISA 5</span>
+    </td>
+    <td style="text-align: right; border: none; vertical-align: top;">
+      <span style="color: #666; font-size: 0.9em; text-transform: uppercase;">Enseignant :</span><br>
+      <strong style="font-size: 1.1em;">Jean-Jacques MENEU</strong><br>
+      <span style="color: #666;">Année académique 2026-2027</span>
+    </td>
+  </tr>
+</table>
+</div>
+
+</div>
+
+<div style="page-break-after: always; break-after: page;"></div>
 
 ```table-of-contents
 title: Sommaire
@@ -11,6 +46,9 @@ includeLinks: true # Make headings clickable
 hideWhenEmpty: false # Hide TOC if no headings are found
 debugInConsole: false # Print debug info in Obsidian console
 ```
+
+<div style="page-break-after: always; break-after: page;"></div>
+
 # Introduction
 
 ```assembly
