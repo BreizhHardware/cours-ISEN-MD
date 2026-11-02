@@ -717,14 +717,139 @@ MEMORY
 } 
 ```
 
+
 ![](Pasted%20image%2020261102105136.png)
+
+`SecureFlash` commence à `0x080FC004`, le firewall s'ouvre par un saut à l'adresse de début du segment de code plus 4. La première fonction de la section doit donc être l'entrée protégée. Le sujet donne 16K de longueur, mais `0x080FC004 + 16K` dépasse de 4 octets la fin de la Flash (`0x08100000`) : on met `0x3FFC`.
+
+Dans `SECTIONS`, on ajoute les deux sections qui placent le code et les données :
+
+```ld 
+.mysection : 
+{ 
+  . = ALIGN(4); 
+  *(.mysection*) 
+  . = ALIGN(4); 
+} > SecureFlash 
+
+.securedata (NOLOAD) : 
+{ 
+  *(.securedata) 
+  *(.securedata*) 
+} > SecureSRAM 
+```
+
 ![](Pasted%20image%2020261102105140.png)
 
+`NOLOAD` évite que l'outil de programmation essaie de charger la zone de RAM.
+
+## Le code
+
+```c 
+/* USER CODE BEGIN PV */ 
+__attribute__((section(".securedata"))) uint32_t number_calls; 
+/* USER CODE END PV */ 
+```
+
+```c
+/* USER CODE BEGIN 0 */
+void __attribute__((section(".mysection"))) Protected_function(void);
+void __attribute__((section(".mysection"), noinline)) toggleLED(void);
+
+void __attribute__((section(".mysection"))) Protected_function(void)
+{
+	__HAL_FIREWALL_PREARM_DISABLE();
+	toggleLED();
+	number_calls++;
+	__HAL_FIREWALL_PREARM_ENABLE();
+}
+
+void __attribute__((section(".mysection"), noinline)) toggleLED(void)
+{
+	GPIOA->ODR ^= GPIO_PIN_5;
+}
+/* USER CODE END 0 */
+```
+
+`Protected_function` est définie en premier pour se trouver à `0x080FC004`. `toggleLED` inverse directement `GPIOA->ODR` : elle n'appelle pas le HAL, car tout code exécuté hors du segment pendant que le firewall est ouvert provoque un reset. 
+L'initialisation se fait dans `USER CODE BEGIN 2` :
+
+```c
+/* USER CODE BEGIN 2 */
+__HAL_RCC_SYSCFG_CLK_ENABLE();
+number_calls = 0;
+
+FIREWALL_InitTypeDef fw_init = {0};
+fw_init.CodeSegmentStartAddress = 0x080FC000;
+fw_init.CodeSegmentLength = 0x2000;
+fw_init.NonVDataSegmentStartAddress = 0x080FE000;
+fw_init.NonVDataSegmentLength = 0x200;
+fw_init.VDataSegmentStartAddress = 0x2000FE00;
+fw_init.VDataSegmentLength = 0x200;
+fw_init.VolatileDataExecution = FIREWALL_VOLATILEDATA_NOT_EXECUTABLE;
+fw_init.VolatileDataShared = FIREWALL_VOLATILEDATA_NOT_SHARED;
+
+if (HAL_FIREWALL_Config(&fw_init) != HAL_OK) Error_Handler();
+HAL_FIREWALL_EnableFirewall();
+/* USER CODE END 2 */
+```
+
+Les points importants : 
+- L'horloge de SYSCFG est activée avant, car le bit `FWDIS` est dans `SYSCFG->CFGR1`. `number_calls` est mis à zéro avant d'activer le firewall. 
+- Le segment de données non volatiles fait au moins `0x100` : `HAL_FIREWALL_Config` renvoie `HAL_ERROR` sinon quand le segment de code est défini. On met `0x200` même sans données non volatiles. 
+- Une fois activé par `HAL_FIREWALL_EnableFirewall()`, le firewall ne peut plus être désactivé par le logiciel : seul un reset le remet à zéro. 
+
+Dans la boucle principale, les interruptions sont coupées pendant l'appel pour éviter qu'une ISR s'exécute hors du segment protégé :
+
+```c
+/* USER CODE BEGIN WHILE */
+while (1)
+{
+	__disable_irq();
+	Protected_function();
+	//volatile uint32_t x = number_calls;
+	//toggleLED();
+	__enable_irq();
+	HAL_Delay(500);
+	/* USER CODE END WHILE */
+	/* USER CODE BEGIN 3 */
+}
+/* USER CODE END 3 */
+```
+
+## Vérification de l'implantation
+
+Le `.map` confirme que la fonction d'entrée est bien à `0x080FC004` et la variable protégée à `0x2000FE00` : 
+
+| Élément | Adresse |
+| :--- | :---: |
+| `Protected_function` | `0x080FC004` |
+| `toggleLED` | `0x080FC058` |
+| `.mysection` | `0x080FC004` à `0x080FC078` (`0x74` octets) |
+| `number_calls` | `0x2000FE00` |
+| `FLASH` (non sécurisée) | `0x08000000`, longueur `0xFC000` (1008K) |
 
 ![](Pasted%20image%2020261102105151.png)
 
+## Test 1 : fonctionnement normal
+
+La LED (PA5) clignote toutes les 500 ms. `Protected_function` est appelée par son adresse d'entrée, le firewall s'ouvre, la LED change d'état, puis le `PREARM` referme le firewall à la sortie. 
+
+| Registre        |    Valeur    | Signification                                    |
+| :-------------- | :----------: | :----------------------------------------------- |
+| `FIREWALL->CR`  |    `0x1`     | `FPA` à 1 : pre-arm activé en sortie de fonction |
+| `SYSCFG->CFGR1` | `0x7C000000` | `FWDIS` à 0 : firewall actif                     |
+| `&number_calls` | `0x2000FE00` | dans le segment de données protégé               |
+Dans la vue Disassembly, la zone `0x080FC004` à `0x080FC054` s'affiche comme une suite de `movs r0, r0` (octets à zéro) : le débogueur ne lit pas le vrai code de la fonction, alors que le processeur l'exécute.
+
 ![](Pasted%20image%2020261102105154.png)
-![](Pasted%20image%2020261102105156.png)![](Capture%20d’écran%202026-11-02%20à%2010.53.50.png)
+
+![](Pasted%20image%2020261102105156.png)
+
+
+
+
+![](Capture%20d’écran%202026-11-02%20à%2010.53.50.png)
 ![](Pasted%20image%2020261102105643.png)
 ![](Pasted%20image%2020261102111049.png)
 ![](Pasted%20image%2020261102111055.png)
