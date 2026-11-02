@@ -17,7 +17,7 @@ LoopForever:
 
 Puis quand on ouvre la vue disasembly on peut voir que `ldr r0, =maVariable` devient ` ldr     r0, [pc, #32]   @ (0x800021c <LoopForever+30>)` à l'adresse `0x80001fa`. Puis quand on va voir dans le registre on peut voir que le PC (Program Counter) est en effet à la valeur `0x80001fa` ce qui veut dire que la prochaine instruction qui va être exécuté sera bien notre récupération d'adresse.
 Une fois que l'on éxecute un step si on va à l'adresse correspondant à `r0` (`0x20000000`) on peut voir que la valeur est a 2 ce qui correspond a notre valeur initial, de plus le PC à changé pour `0x80001fc`. 
-Une fois que rl est à 0, xpsr est a `0x61000000`, et une fois que rl est à `0xffffffff`, xpsr est a `0x81000000` ce qui correspond à l'activation du flag *N* (Negative, bit 31), car le résultat de `0 - 1` est négatif, et du bit T* (Thumb, bit 24), qui est toujours à 1.
+Une fois que r1 est à 0, xpsr est à `0x61000000`, et une fois que r1 est à `0xffffffff`, xpsr est à `0x81000000` ce qui correspond à l'activation du flag *N* (Negative, bit 31), car le résultat de `0 - 1` est négatif, et du bit T* (Thumb, bit 24), qui est toujours à 1.
 
 # Construction d'un compteur modulo 10
 
@@ -71,7 +71,7 @@ Les flags `xPSR` N Z C V correspondent respectivement à:
 | 0x8000206 | 0x20000000  |     0x0     |  0x61000000 (N = 0, Z = 1, C = 1, V = 0)   |   9   |   `str r1, [r0, #0]`    |                    `str` sur le point d'écrire 0 dans `count`, qui vaut encore 9                    |
 | 0x8000208 | 0x20000000  |     0x0     |  0x61000000 (N = 0, Z = 1, C = 1, V = 0)   |   0   |     `b.n 0x80001fc`     |                     `count` = 0 : le compteur a bouclé, 0 -> 1 -> ... -> 9 -> 0                     |
 
-# Design d'une boucle for
+# Conception d'une boucle for
 
 ```assembly
 sum:
