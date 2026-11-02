@@ -1,0 +1,9 @@
+{
+  "id": "asmlight",
+  "name": "Asmlight",
+  "version": "0.5.0",
+  "minAppVersion": "1.5.0",
+  "description": "Highlight and explain RISC-V and ARM assembly, disassembly, Makefiles, linker scripts, Devicetree, Verilog, VHDL and FPGA constraints, and draw register and memory map diagrams.",
+  "author": "mecilh",
+  "isDesktopOnly": false
+}

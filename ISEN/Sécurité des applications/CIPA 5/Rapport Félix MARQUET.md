@@ -51,7 +51,7 @@ debugInConsole: false # Print debug info in Obsidian console
 
 # Introduction
 
-```assembly
+```thumb
 maVariable:
 	.word 2
 
@@ -72,7 +72,7 @@ Une fois que r1 est à 0, xpsr est à `0x61000000`, et une fois que r1 est à `0
 
 # Construction d'un compteur modulo 10
 
-```assembly
+```thumb
 count:
 	.word 0
 	
@@ -124,7 +124,7 @@ Les flags `xPSR` N Z C V correspondent respectivement à:
 
 # Conception d'une boucle for
 
-```assembly
+```thumb
 sum:
 	.byte 0
 
@@ -157,7 +157,7 @@ Dans la boucle `cmp r1, #1` compare `X` à 1 et met à jour le `xPSR`. Si `X < 1
 
 # Création et appel d'une sous-routine
 
-```assembly
+```thumb
 sum:
 .byte 0
 
@@ -204,7 +204,7 @@ Avant le `bl`, le `LR` valait `0x80001fb`, c'est l'adresse de retour du `bl main
 
 # Gestion du clignotement par interruption externe
 
-```assembly
+```thumb
 init_led:
 /* Configure PORT A*/
 
@@ -392,7 +392,7 @@ while (1)
 
 ## Le désassemblage
 
-```assembly
+```thumb
 080004c4:   movs    r1, #1
 080004c6:   ldr     r0, [pc, #16]   @ (0x80004d8 <main+40>)
 080004c8:   bl      0x8000ea0 <HAL_GPIO_TogglePin>
@@ -437,7 +437,7 @@ Après le reset, les deux LED clignotent ensemble à 1 Hz, alors que le code sou
 
 Pour le vérifier, on lance le debug dans CubeIDE avec l'option *Download* à `false` dans l'onglet *Startup*. Sans cela, CubeIDE reprogramme la Flash avec le binaire d'origine et efface le patch. Dans la vue Disassembly on lit alors :
 
-```assembly
+```thumb
 080004c4:   movs    r1, #3
 ```
 
@@ -608,7 +608,7 @@ HAL_Delay(500);
 
 Au départ, la fonction est compilée dans la section standard `.text` en Flash classique. Dans la vue Disassembly, l'appel depuis `main` se fait vers l'adresse standard `0x080004f4` :
 
-```assembly
+```thumb
  bl      0x80004f4 <secret_led_blinking>
 104       	  HAL_Delay(500);
 ```
@@ -656,7 +656,7 @@ Dans le Build Analyzer, on vérifie que la zone `PCROP` est bien créée à `0x0
 
 Et dans la vue Disassembly, on constate que le saut `bl` cible désormais l'adresse `0x08008000` :
 
-```assembly
+```thumb
 08000508:   bl      0x8008000 <secret_led_blinking>
 104       	  HAL_Delay(500);
 ```
