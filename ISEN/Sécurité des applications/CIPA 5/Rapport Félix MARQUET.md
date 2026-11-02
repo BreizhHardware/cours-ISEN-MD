@@ -691,65 +691,83 @@ La protection PCROP ne peut pas être désactivée par une simple réécriture d
 
 Ce mécanisme garantit qu'il est impossible de lever la protection pour lire frauduleusement le code, toute tentative de déverrouillage détruit irrémédiablement le binaire protégé.
 
-# Firewall
+# Isolation et enclave logicielle (Firewall)
 
-Le firewall du STM32L476 crée une enclave de sécurité, un segment de code, un segment de données non volatiles (en Flash) et un segment de données volatiles (en SRAM) ne sont accessibles que si l'on entre dans le segment de code par une adresse précise (la *call gate*). Il contrôle les accès sur le bus AHB et se configure comme un périphérique : il ne passe pas par CubeMX, le driver est ajouté à la main.
+Le périphérique Firewall intégré au STM32L476 permet de créer une enclave de sécurité matérielle isolant une portion de code et de données au sein d'une même application. Contrairement à une simple protection globale de la mémoire, le Firewall filtre les transactions directement sur la matrice de bus AHB. Il définit trois segments protégés distincts :
+- Un **segment de code** (en Flash).
+- Un **segment de données non volatiles** (en Flash).
+- Un **segment de données volatiles** (en SRAM).
 
-## Installation du driver 
-On copie `stm32l4xx_hal_firewall.c` dans `Drivers/STM32L4xx_HAL_Driver/Src/` et `stm32l4xx_hal_firewall.h` dans `Drivers/STM32L4xx_HAL_Driver/Inc/`, puis on active le module dans `stm32l4xx_hal_conf.h` : 
-```c 
-#define HAL_FIREWALL_MODULE_ENABLED 
+L'accès à cette enclave est strictement conditionné : toute exécution du code protégé doit obligatoirement débuter par une adresse précise appelée la ***Call Gate*** (`CodeSegmentStartAddress + 4`). Dès lors qu'une instruction valide franchit cette porte, le Firewall passe à l'état ouvert (*Open*) et autorise l'accès aux segments de données associés. Tout accès non conforme (saut au milieu du code, lecture de données protégées depuis le code externe, interruption non maîtrisée) provoque immédiatement un reset matériel du microcontrôleur.
+
+Le composant ne pouvant pas être configuré graphiquement via CubeMX, l'intégration de son pilote et sa configuration doivent être réalisées manuellement.
+
+## Intégration manuelle du pilote HAL Firewall
+
+Les pilotes bas niveau fournis par STMicroelectronics sont intégrés dans l'arborescence du projet :
+- `stm32l4xx_hal_firewall.c` dans `Drivers/STM32L4xx_HAL_Driver/Src/`
+- `stm32l4xx_hal_firewall.h` dans `Drivers/STM32L4xx_HAL_Driver/Inc/`
+
+Le module est ensuite activé dans le fichier de configuration `Core/Inc/stm32l4xx_hal_conf.h` :
+
+```c
+#define HAL_FIREWALL_MODULE_ENABLED
 ```
+
 ![](Pasted%20image%2020261102105144.png)
 
-## Le linker script
+## Segmentation mémoire dans le Linker Script
 
-Dans `STM32L476RGTX_FLASH.ld`, on réduit la Flash non sécurisée à 1008K et on ajoute deux régions :
+Afin d'isoler physiquement les sections protégées, le fichier de liaison `STM32L476RGTX_FLASH.ld` est partitionné. La mémoire Flash non sécurisée est réduite à 1008 Ko, et deux zones dédiées sont déclarées :
 
 ```ld
-MEMORY 
-{ 
-  RAM (xrw) : ORIGIN = 0x20000000, LENGTH = 96K 
-  RAM2 (xrw) : ORIGIN = 0x10000000, LENGTH = 32K 
-  FLASH (rx) : ORIGIN = 0x08000000, LENGTH = 1008K 
-  SecureFlash (rx) : ORIGIN = 0x080FC004, LENGTH = 0x3FFC 
-  SecureSRAM (xrw) : ORIGIN = 0x2000FE00, LENGTH = 512 
-} 
+MEMORY
+{
+  RAM         (xrw) : ORIGIN = 0x20000000, LENGTH = 96K
+  RAM2        (xrw) : ORIGIN = 0x10000000, LENGTH = 32K
+  FLASH        (rx) : ORIGIN = 0x08000000, LENGTH = 1008K
+  SecureFlash  (rx) : ORIGIN = 0x080FC004, LENGTH = 0x3FFC
+  SecureSRAM  (xrw) : ORIGIN = 0x2000FE00, LENGTH = 512
+}
 ```
-
 
 ![](Pasted%20image%2020261102105136.png)
 
-`SecureFlash` commence à `0x080FC004`, le firewall s'ouvre par un saut à l'adresse de début du segment de code plus 4. La première fonction de la section doit donc être l'entrée protégée. Le sujet donne 16K de longueur, mais `0x080FC004 + 16K` dépasse de 4 octets la fin de la Flash (`0x08100000`) : on met `0x3FFC`.
+> [!NOTE]
+> La zone `SecureFlash` débute à l'adresse `0x080FC004`. En effet, l'ouverture matérielle du Firewall s'effectue obligatoirement à l'adresse de base du segment de code incrémentée de 4 octets (`0x080FC000 + 4`). La première fonction de cette section constitue donc la *Call Gate*. Par ailleurs, pour éviter un dépassement de 4 octets au-delà de la fin physique de la Flash (`0x08100000`), la taille allouée est ajustée à `0x3FFC` au lieu des 16 Ko théoriques.
 
-Dans `SECTIONS`, on ajoute les deux sections qui placent le code et les données :
+Dans le bloc `SECTIONS`, les règles de placement du code et des données protégées sont ajoutées :
 
-```ld 
-.mysection : 
-{ 
-  . = ALIGN(4); 
-  *(.mysection*) 
-  . = ALIGN(4); 
-} > SecureFlash 
+```ld
+.mysection :
+{
+  . = ALIGN(4);
+  *(.mysection*)
+  . = ALIGN(4);
+} > SecureFlash
 
-.securedata (NOLOAD) : 
-{ 
-  *(.securedata) 
-  *(.securedata*) 
-} > SecureSRAM 
+.securedata (NOLOAD) :
+{
+  *(.securedata)
+  *(.securedata*)
+} > SecureSRAM
 ```
 
 ![](Pasted%20image%2020261102105140.png)
 
-`NOLOAD` évite que l'outil de programmation essaie de charger la zone de RAM.
+La directive `NOLOAD` indique au linker que la section `.securedata` ne doit pas faire l'objet d'un chargement initial en mémoire Flash par le programmateur, s'agissant de variables non initialisées allouées dynamiquement en SRAM.
 
-## Le code
+## Implémentation du code sécurisé et configuration
 
-```c 
-/* USER CODE BEGIN PV */ 
-__attribute__((section(".securedata"))) uint32_t number_calls; 
-/* USER CODE END PV */ 
+La variable confidentielle `number_calls` est placée dans la section protégée `.securedata` :
+
+```c
+/* USER CODE BEGIN PV */
+__attribute__((section(".securedata"))) uint32_t number_calls;
+/* USER CODE END PV */
 ```
+
+Les fonctions exécutées dans l'enclave sont définies dans la section `.mysection` :
 
 ```c
 /* USER CODE BEGIN 0 */
@@ -771,8 +789,11 @@ void __attribute__((section(".mysection"), noinline)) toggleLED(void)
 /* USER CODE END 0 */
 ```
 
-`Protected_function` est définie en premier pour se trouver à `0x080FC004`. `toggleLED` inverse directement `GPIOA->ODR` : elle n'appelle pas le HAL, car tout code exécuté hors du segment pendant que le firewall est ouvert provoque un reset. 
-L'initialisation se fait dans `USER CODE BEGIN 2` :
+- `Protected_function` est déclarée en premier dans le fichier source afin d'être physiquement positionnée à l'adresse de la *Call Gate* (`0x080FC004`).
+- `toggleLED` modifie directement le registre `GPIOA->ODR` sans passer par les pilotes HAL, car tout saut hors de la section protégée pendant que le Firewall est actif déclencherait immédiatement un reset.
+- L'attribut `noinline` empêche le compilateur d'intégrer le corps de `toggleLED` directement dans `Protected_function`, conservant la structure d'appel de sous-programme demandée.
+
+L'initialisation et le verrouillage s'effectuent au démarrage dans la routine principale :
 
 ```c
 /* USER CODE BEGIN 2 */
@@ -794,12 +815,13 @@ HAL_FIREWALL_EnableFirewall();
 /* USER CODE END 2 */
 ```
 
-Les points importants : 
-- L'horloge de SYSCFG est activée avant, car le bit `FWDIS` est dans `SYSCFG->CFGR1`. `number_calls` est mis à zéro avant d'activer le firewall. 
-- Le segment de données non volatiles fait au moins `0x100` : `HAL_FIREWALL_Config` renvoie `HAL_ERROR` sinon quand le segment de code est défini. On met `0x200` même sans données non volatiles. 
-- Une fois activé par `HAL_FIREWALL_EnableFirewall()`, le firewall ne peut plus être désactivé par le logiciel : seul un reset le remet à zéro. 
+Remarques relatives à la configuration :
+1. L'horloge du périphérique SYSCFG doit impérativement être validée au préalable (`__HAL_RCC_SYSCFG_CLK_ENABLE()`), car le bit d'activation `FWDIS` réside dans `SYSCFG->CFGR1`.
+2. La variable `number_calls` est initialisée à zéro avant l'armement du Firewall, puisqu'elle deviendra inaccessible depuis ce contexte une fois la protection verrouillée.
+3. Le pilote HAL impose que le segment de données non volatiles ait une taille minimale de `0x100` sous peine de renvoyer `HAL_ERROR` ; une plage de `0x200` octets lui est donc assignée par conformité.
+4. Une fois armé via `HAL_FIREWALL_EnableFirewall()`, le bit `FWDIS` est verrouillé : aucun mécanisme logiciel ne peut désactiver le Firewall, seul un reset matériel remet l'état à zéro.
 
-Dans la boucle principale, les interruptions sont coupées pendant l'appel pour éviter qu'une ISR s'exécute hors du segment protégé :
+Dans la boucle infinie, les interruptions sont masquées pendant l'appel afin de garantir qu'aucune routine ISR ne tente d'interrompre l'enclave :
 
 ```c
 /* USER CODE BEGIN WHILE */
@@ -817,40 +839,122 @@ while (1)
 /* USER CODE END 3 */
 ```
 
-## Vérification de l'implantation
+## Analyse de l'implantation mémoire (Fichier .map)
 
-Le `.map` confirme que la fonction d'entrée est bien à `0x080FC004` et la variable protégée à `0x2000FE00` : 
+L'inspection du fichier `.map` issu de la compilation confirme le respect strict de la topologie mémoire :
 
-| Élément | Adresse |
-| :--- | :---: |
-| `Protected_function` | `0x080FC004` |
-| `toggleLED` | `0x080FC058` |
-| `.mysection` | `0x080FC004` à `0x080FC078` (`0x74` octets) |
-| `number_calls` | `0x2000FE00` |
-| `FLASH` (non sécurisée) | `0x08000000`, longueur `0xFC000` (1008K) |
+| Élément | Adresse physique | Propriété / Rôle |
+| :--- | :---: | :--- |
+| `Protected_function` | `0x080FC004` | Porte d'entrée unique (*Call Gate*) |
+| `toggleLED` | `0x080FC058` | Fonction interne à l'enclave |
+| `.mysection` | `0x080FC004` – `0x080FC078` | Segment Flash protégé (taille `0x74` octets) |
+| `number_calls` | `0x2000FE00` | Variable confidentielle en SRAM sécurisée |
+| `FLASH` classique | `0x08000000` | Code non sécurisé, longueur `0xFC000` (1008 Ko) |
 
 ![](Pasted%20image%2020261102105151.png)
 
-## Test 1 : fonctionnement normal
+## Test 1 : Fonctionnement nominal et Pre-Arm
 
-La LED (PA5) clignote toutes les 500 ms. `Protected_function` est appelée par son adresse d'entrée, le firewall s'ouvre, la LED change d'état, puis le `PREARM` referme le firewall à la sortie. 
+Dans des conditions normales d'exécution, la LED verte (PA5) clignote toutes les 500 ms. L'entrée dans `Protected_function` par la *Call Gate* valide ouvre le Firewall, la LED bascule, le compteur s'incrémente, puis l'instruction `__HAL_FIREWALL_PREARM_ENABLE()` réarme le mécanisme de fermeture automatique à la sortie.
 
-| Registre        |    Valeur    | Signification                                    |
-| :-------------- | :----------: | :----------------------------------------------- |
-| `FIREWALL->CR`  |    `0x1`     | `FPA` à 1 : pre-arm activé en sortie de fonction |
-| `SYSCFG->CFGR1` | `0x7C000000` | `FWDIS` à 0 : firewall actif                     |
-| `&number_calls` | `0x2000FE00` | dans le segment de données protégé               |
-Dans la vue Disassembly, la zone `0x080FC004` à `0x080FC054` s'affiche comme une suite de `movs r0, r0` (octets à zéro) : le débogueur ne lit pas le vrai code de la fonction, alors que le processeur l'exécute.
+| Registre | Valeur relevée | Signification technique |
+| :--- | :---: | :--- |
+| `FIREWALL->CR` | `0x1` | Bit `FPA` à 1 : mode Pre-Arm validé en sortie |
+| `SYSCFG->CFGR1` | `0x7C000000` | Bit `FWDIS` à 0 : Firewall armé et actif |
+| `&number_calls` | `0x2000FE00` | Adresse confirmée dans le segment SRAM protégé |
+
+Dans la vue Disassembly, la plage `0x080FC004` – `0x080FC054` apparaît au débogueur sous forme d'instructions `movs r0, r0` (octets nuls) : le ST-LINK ne peut pas lire le contenu réel du code machine, bien que le processeur l'exécute parfaitement.
 
 ![](Pasted%20image%2020261102105154.png)
 
 ![](Pasted%20image%2020261102105156.png)
 
+## Test 2 : Tentative d'appel direct hors Call Gate
 
+Pour valider l'intransigeance du Firewall, l'appel à `Protected_function()` est remplacé dans `main()` par un appel direct à `toggleLED()`. Bien que `toggleLED` soit physiquement située dans le segment de code protégé (`0x080FC058`), l'instruction de branchement court-circuite la *Call Gate* (`0x080FC004`).
 
+**Constat :** La LED ne clignote plus et le microcontrôleur redémarre instantanément en boucle, repassant continuellement par `HAL_Init()`. Le contrôleur matériel génère un reset immédiat dès la première instruction lue en dehors du point d'entrée officiel.
+
+| Type d'appel | Adresse ciblée | Statut de la porte | Comportement observé |
+| :--- | :---: | :---: | :--- |
+| `Protected_function()` | `0x080FC004` | *Call Gate* valide | Exécution normale, la LED clignote |
+| `toggleLED()` direct | `0x080FC058` | Entrée illégale | Violation d'accès $\rightarrow$ Reset immédiat |
+
+Le segment protégé ne tolère donc aucune exécution fractionnée : l'application non sécurisée ne peut interagir avec l'enclave que par l'interface formellement publiée.
 
 ![](Capture%20d’écran%202026-11-02%20à%2010.53.50.png)
+
+## Test 3 : Tentative d'accès non autorisé aux données protégées
+
+Deux modes de lecture de la variable confidentielle `number_calls` sont évalués :
+1. **Accès logiciel depuis `main()`** : l'instruction `volatile uint32_t x = number_calls;` est décommentée dans la boucle principale, en dehors de l'enclave. L'accès en lecture sur le bus AHB est immédiatement intercepté et déclenche le reset continu du système. La SRAM protégée est donc totalement hermétique au reste de l'application.
+2. **Accès matériel par le débogueur** : lors d'une halte du processeur dans `main()`, la vue *Expressions* de STM32CubeIDE parvient à afficher la valeur de `number_calls` (valeur observée : `4`) sans provoquer de reset.
+
+| Origine de l'accès à `number_calls` | Canal d'accès | Réaction du système |
+| :--- | :---: | :--- |
+| Code applicatif non sécurisé (`main`) | Bus AHB interne | Violation détectée $\rightarrow$ Reset matériel |
+| Routine sécurisée (`Protected_function`) | Bus interne (Firewall ouvert) | Lecture et écriture autorisées |
+| Sonde de débogage externe (SWD/JTAG) | Bus de debug DAP | Donnée lisible (pas de reset) |
+
+Ce test démontre que le Firewall protège les données contre les menaces logicielles internes, mais qu'il doit être obligatoirement couplé à une protection de niveau RDP 1 ou 2 pour interdire la consultation par une sonde physique.
+
 ![](Pasted%20image%2020261102105643.png)
+
+## Test 4 : Analyse des fuites de données par les registres du cœur
+
+Le Firewall filtre rigoureusement les accès mémoires en Flash et en RAM, mais il n'exerce aucun contrôle sur les registres internes du cœur Cortex-M4 (`R0` à `R12`). Si une fonction protégée manipule des données secrètes dans ces registres sans les assainir avant de rendre la main, l'application non sécurisée peut facilement les récupérer.
+
+Pour mettre en évidence cette vulnérabilité, l'incrémentation en C est remplacée par la séquence assembleur suivante :
+
+```c
+__asm__ (
+	"ldr r4, =number_calls\n"
+	"ldr r5, [r4]\n"
+	"add r5, #1\n"
+	"str r5, [r4]\n"
+	"ldr r6, =0xDEADBEEF");
+```
+
+Des points d'arrêt sont positionnés dans la boucle `main()`, juste après la sortie de `Protected_function()`. Les registres `R4`, `R5` et `R6` sont ensuite relevés :
+
+| Point d'arrêt | Registre `R4` (Adresse) | Registre `R5` (Valeur secrète) | Registre `R6` (Motif témoin) |
+| :---: | :---: | :---: | :---: |
+| 1 | `0x2000FE00` | `0x2C` (44) | `0xDEADBEEF` |
+| 2 | `0x2000FE00` | `0x2D` (45) | `0xDEADBEEF` |
+| 3 | `0x2000FE00` | `0x2F` (47) | `0xDEADBEEF` |
+
 ![](Pasted%20image%2020261102111049.png)
+
 ![](Pasted%20image%2020261102111055.png)
+
 ![](Pasted%20image%2020261102111058.png)
+
+### Constat de la fuite d'information
+
+Bien que le code non sécurisé n'ait aucun droit d'accès direct à la variable `number_calls` en SRAM, il lui suffit de lire les registres à la sortie du sous-programme pour récupérer :
+- L'adresse physique de la variable protégée dans `R4` (`0x2000FE00`).
+- La valeur du compteur dans `R5` (`44`, `45`, `47`).
+- La constante arbitraire dans `R6` (`0xDEADBEEF`).
+
+L'isolation mémoire offerte par le Firewall est donc compromise par la persistance de l'état des registres.
+
+### Recommandations et contre-mesures
+
+Afin de combler cette faille architecturale, plusieurs bonnes pratiques doivent être instaurées :
+1. **Sauvegarde et restauration conforme (AAPCS)** : Sauvegarder systématiquement les registres non volatils (`R4` à `R11`) sur la pile sécurisée via `push`/`pop` dès l'entrée dans l'enclave, assurant que l'appelant retrouve son propre contexte.
+2. **Effacement systématique des registres de travail** : Réinitialiser à zéro les registres volatils (`R0`–`R3`, `R12`) avant le retour d'instruction (`bx lr`), afin qu'aucune donnée intermédiaire ne subsiste.
+3. **Spécification de la liste de clobber en C** : Indiquer explicitement au compilateur les registres modifiés par l'assembleur en ligne (`: : : "r4", "r5", "r6"`).
+4. **Utilisation d'un wrapper de sortie étanche** : Encapsuler l'appel dans une passerelle sécurisée dont l'unique mission est de purger les registres résiduels avant de réactiver le mode non sécurisé.
+
+## Synthèse et bilan de sécurité
+
+| Vecteur d'accès | Comportement constaté | Niveau de robustesse |
+| :--- | :--- | :---: |
+| Appel nominal via *Call Gate* (`0x080FC004`) | Exécution normale du code protégé | Autorisé |
+| Appel direct d'une fonction interne (`toggleLED`) | Détection d'intrusion $\rightarrow$ Reset immédiat | Hermétique |
+| Lecture/écriture de la SRAM sécurisée hors enclave | Transaction interceptée $\rightarrow$ Reset immédiat | Hermétique |
+| Inspection de la mémoire par sonde SWD | Lecture possible sans blocage | Vulnérable (nécessite RDP) |
+| Fuite de données résiduelles dans les registres | Contenu de `R4`, `R5`, `R6` exploitable | Vulnérable (nécessite assainissement) |
+| Désactivation logicielle du Firewall | Impossible sans un reset matériel complet | Robuste |
+
+Le Firewall matériel offre une isolation logicielle efficace et sans surcoût d'émulation pour compartimenter du code critique. Cependant, son étanchéité globale dépend impérativement d'un assainissement rigoureux des registres du processeur à la sortie de l'enclave, ainsi que du verrouillage physique du débogage par le mécanisme RDP.
