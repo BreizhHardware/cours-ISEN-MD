@@ -1,4 +1,4 @@
-
+![](Logo%20ISEN%20Ouest.png)
 
 ```table-of-contents
 title: Sommaire
@@ -108,8 +108,8 @@ Start:
     movs  r1, #20          // X = 20
 ```
 
-Pour cette boucle on veut calculer la somme des 20 premiers entiers (1 à 20). Le résultat attendu est `(20 * 21) / 2 = 210 = 0xD2`, ce qui tient sur un seul octet. L'indice de la boucle `X` vit directement dans le registre `r1`. Au démarrage `ldr r0, =sum` place l'adresse de `sum` dans `r0`. Ensuite dans `Start`on initialise `sum = 0`. On utilise `strb` (et non pas `str` car `sum` ne fait qu'un octet et `str` écrit sur 4 octet et donc viendrait écraser les 3 octects voisin de `sum`).
-Dans la boucle `cmp r1, #1` compare `X` à 1 et met à jour le `xPSR`. Si `X < 1` alors on passe dans `Start` qui comme dit plus tôt mets `sum` à 0. Sinon on continu et on calcule `sum + X` avant de le stocker dans `r2`, une fois l'écriture en mémoire faites, on retire `1` à `X` et on recommence la boucle.
+Pour cette boucle on veut calculer la somme des 20 premiers entiers (1 à 20). Le résultat attendu est `(20 * 21) / 2 = 210 = 0xD2`, ce qui tient sur un seul octet. L'indice de la boucle `X` vit directement dans le registre `r1`. Au démarrage `ldr r0, =sum` place l'adresse de `sum` dans `r0`. Ensuite dans `Start` on initialise `sum = 0`. On utilise `strb` (et non pas `str` car `sum` ne fait qu'un octet et `str` écrit sur 4 octets et donc viendrait écraser les 3 octets voisins de `sum`).
+Dans la boucle `cmp r1, #1` compare `X` à 1 et met à jour le `xPSR`. Si `X < 1` alors on passe dans `Start` qui comme dit plus tôt met `sum` à 0. Sinon on continue et on calcule `sum + X` avant de le stocker dans `r2`, une fois l'écriture en mémoire faite, on retire `1` à `X` et on recommence la boucle.
 
 |   R1   |      Calcul      |           xPSR            |   blt    |
 | :----: | :--------------: | :-----------------------: | :------: |
@@ -539,23 +539,115 @@ Le firmware est détruit, ce qui empêche de le récupérer en repassant au nive
 
 ![](Capture%20d’écran%202026-10-13%20à%2015.13.09.png)
 
-# PCROP
+# Protection propriétaire de code en exécution seule (PCROP)
+
+La protection PCROP (*Proprietary Code Read-Out Protection*) permet d'isoler une partie de la mémoire Flash pour qu'elle soit exécutable uniquement (*Execute-Only*). Toute tentative de lecture (par le processeur via un pointeur/donnée ou par un débogueur externe JTAG/SWD) provoque une erreur de bus (*BusFault*), tandis que le processeur conserve le droit d'y chercher des instructions pour les exécuter. Cette fonctionnalité répond typiquement au cas industriel où une entreprise A fournit une brique logicielle ou une propriété intellectuelle à une entreprise B sans que cette dernière ne puisse rétro-ingénier ou dumper le code machine.
+
+Pour ce TP, l'IP à protéger est la fonction `secret_led_blinking` définie dans un fichier dédié `led_blinking.c` :
+
+```c
+#include "main.h"
+
+#define LED_PORT_GPIO_ADDRESS *((uint32_t *) 0x48000014) // GPIOA_ODR
+#define GPIO_PIN_LED (1 << 5)                             // PA5 (LED verte)
+
+void secret_led_blinking(void) {
+    LED_PORT_GPIO_ADDRESS ^= GPIO_PIN_LED;
+}
+```
+
+Dans la fonction `main` du projet, cette fonction est appelée périodiquement :
+
+```c
+/* USER CODE BEGIN 3 */
+secret_led_blinking();
+HAL_Delay(500);
+/* USER CODE END 3 */
+```
+
+## État initial sans protection
+
+Au départ, la fonction est compilée dans la section standard `.text` en Flash classique. Dans la vue Disassembly, l'appel depuis `main` se fait vers l'adresse standard `0x080004f4` :
 
 ```assembly
  bl      0x80004f4 <secret_led_blinking>
 104       	  HAL_Delay(500);
 ```
 
+À ce stade, n'importe qui accédant à la carte avec un ST-LINK peut désassembler ou dumper le code binaire de `secret_led_blinking`.
+
+## Déplacement de la fonction dans le Linker Script
+
+Afin de pouvoir appliquer la protection matérielle sur une zone spécifique de la mémoire, on segmente la Flash dans le fichier `STM32L476RGTX_FLASH.ld`. La Flash étant découpée en pages de 2 Ko, on réserve une région `PCROP` de 16 Ko débutant à `0x08008000`, et on réduit la Flash non sécurisée à 16 Ko :
+
+```ld
+MEMORY
+{
+  RAM   (xrw) : ORIGIN = 0x20000000, LENGTH = 96K
+  RAM2  (xrw) : ORIGIN = 0x10000000, LENGTH = 32K
+  FLASH (rx)  : ORIGIN = 0x08000000, LENGTH = 16K
+  PCROP (rx)  : ORIGIN = 0x08008000, LENGTH = 16K
+}
+```
+
+Puis, dans la section `SECTIONS`, on crée la section `.PCROPed` qui y dirige spécifiquement le code de `led_blinking.o` :
+
+```ld
+.PCROPed :
+{
+  . = ALIGN(4);
+  *led_blinking.o (.text .text*)
+  . = ALIGN(4);
+} > PCROP
+```
+
+## Configuration du compilateur (-mslow-flash-data)
+
+Comme la zone PCROP est en *Execute-Only*, tout accès en lecture de donnée est rigoureusement interdit. Or, par défaut, le compilateur GCC place souvent les constantes ou les adresses de périphériques dans un *literal pool* en Flash et les lit via des instructions `ldr rX, [pc, #offset]`. Dans une zone PCROP, cette lecture déclencherait immédiatement une faute.
+
+Pour éviter cela, on modifie les options de compilation spécifiques au fichier `led_blinking.c` (clic droit sur le fichier -> *Properties* -> *C/C++ Build* -> *Settings* -> *Tool Settings* -> *MCU GCC Compiler*) :
+1. Optimisation : `-O0` (*None*).
+2. Option cochée : **« Assume loading data from flash is slower than fetching instruction (-mslow-flash-data) »**.
+
+Cette directive force GCC à générer les valeurs immédiates et les adresses directement sous forme d'instructions arithmétiques séquentielles (`movw`, `movt`, `orr`), garantissant qu'aucune donnée n'est lue en Flash.
+
+Dans le Build Analyzer, on vérifie que la zone `PCROP` est bien créée à `0x08008000` :
+
 ![](Pasted%20image%2020261013163359.png)
+
+Et dans la vue Disassembly, on constate que le saut `bl` cible désormais l'adresse `0x08008000` :
 
 ```assembly
 08000508:   bl      0x8008000 <secret_led_blinking>
 104       	  HAL_Delay(500);
 ```
+
+## Activation matérielle de la protection PCROP
+
+La protection s'active au niveau des Option Bytes dans STM32CubeProgrammer :
+1. Dans l'onglet *OB* -> section *PCROP Protection (Bank 1)*.
+2. On configure la plage d'adresses à protéger :
+   - `PCROP1_STRT = 0x1000` (correspondant à l'adresse de départ `0x08008000`).
+   - `PCROP1_END = 0x10FF` (adresse de fin `0x080087F8`).
+3. On clique sur *Apply*.
 
 ![](Capture%20d’écran%202026-10-13%20à%2016.39.47.png)
 
-```assembly
-08000508:   bl      0x8008000 <secret_led_blinking>
-104       	  HAL_Delay(500);
-```
+## Observation en mode Debug
+
+Une fois PCROP activé, le contrôleur Flash bloque toute lecture de cette zone par le ST-LINK.
+Pour relancer une session de débogage sans écraser ni bloquer la mémoire :
+- Dans la configuration de débogage (*Debug Configurations* -> onglet *Startup*), il est indispensable de passer l'option **Download à `false`**. Si l'option reste active, CubeIDE tente d'effacer et reprogrammer la Flash protégée, ce qui échoue.
+
+Au redémarrage de la cible :
+- **Comportement physique** : la LED verte continue de clignoter normalement à 1 Hz. Le processeur lit et exécute les instructions sans aucune entrave depuis la zone PCROP.
+- **Comportement du débogueur** : lorsque l'on inspecte la fonction `secret_led_blinking` à l'adresse `0x08008000` dans la fenêtre Disassembly ou Memory Browser, la mémoire apparaît masquée (lecture retournant `0xFFFF`). Le débogueur est incapable de restituer le code assembleur d'origine. La propriété intellectuelle est ainsi préservée contre toute tentative d'analyse.
+
+## Désactivation de la protection PCROP
+
+La protection PCROP ne peut pas être désactivée par une simple réécriture des registres de configuration. Pour la supprimer :
+1. Dans STM32CubeProgrammer, cocher l'option **`PCROP_RDP`**.
+2. Régresser le niveau RDP en passant de **Niveau 1 (`0xBB`)** à **Niveau 0 (`0xAA`)**.
+3. Cette opération entraîne obligatoirement un **effacement de masse (*Mass Erase*)** de l'ensemble de la Flash.
+
+Ce mécanisme garantit qu'il est impossible de lever la protection pour lire frauduleusement le code : toute tentative de déverrouillage détruit irrémédiablement le binaire protégé.
