@@ -560,11 +560,11 @@ Tout est lisible. Le premier mot de la Flash est la valeur initiale de `SP` (`_e
 
 On passe `RDP` à `0xBB` dans l'onglet *OB* , puis on fait un power cycle (débrancher puis rebrancher l'USB). Résultat :
 
-| Zone | Résultat | 
-| :--- | :--- | 
-| Flash (`0x08000000`) | « Error: Data read failed » : lecture refusée | 
-| SRAM (`0x20000020`, `0x200000B0`) | lecture possible | 
-| LED | ne clignote plus |
+| Zone                              | Résultat                                      |
+| :-------------------------------- | :-------------------------------------------- |
+| Flash (`0x08000000`)              | « Error: Data read failed » : lecture refusée |
+| SRAM (`0x20000020`, `0x200000B0`) | lecture possible                              |
+| LED                               | ne clignote plus                              |
 
 La Flash est illisible depuis l'extérieur, ce qui empêche de copier le firmware. En revanche la SRAM reste lisible : c'est le cas signalé dans le sujet, problématique pour la sécurité, puisque les variables (et donc d'éventuelles données sensibles) restent accessibles. Une solution est de ne stocker ces données que dans les registres du processeur. La LED ne clignote plus car, au niveau 1, un accès débogueur détecté (ici le ST-LINK connecté) bloque l'accès à la Flash et génère un HardFault : le processeur ne peut plus exécuter le programme.
 
@@ -580,7 +580,7 @@ Le firmware est détruit, ce qui empêche de le récupérer en repassant au nive
 
 # Protection propriétaire de code en exécution seule (PCROP)
 
-La protection PCROP (*Proprietary Code Read-Out Protection*) permet d'isoler une partie de la mémoire Flash pour qu'elle soit exécutable uniquement (*Execute-Only*). Toute tentative de lecture (par le processeur via un pointeur/donnée ou par un débogueur externe JTAG/SWD) provoque une erreur de bus (*BusFault*), tandis que le processeur conserve le droit d'y chercher des instructions pour les exécuter. Cette fonctionnalité répond typiquement au cas industriel où une entreprise A fournit une brique logicielle ou une propriété intellectuelle à une entreprise B sans que cette dernière ne puisse rétro-ingénier ou dumper le code machine.
+La protection PCROP (*Proprietary Code Read-Out Protection*) permet d'isoler une partie de la mémoire Flash pour qu'elle soit exécutable uniquement (*Execute-Only*). Toute tentative de lecture (par le processeur via un pointeur/donnée ou par un débogueur externe) provoque une erreur de bus (*BusFault*), tandis que le processeur conserve le droit d'y chercher des instructions pour les exécuter. Cette fonctionnalité répond typiquement au cas industriel où une entreprise A fournit une brique logicielle ou une propriété intellectuelle à une entreprise B sans que cette dernière ne puisse rétro-ingénier ou dumper le code machine.
 
 Pour ce TP, l'IP à protéger est la fonction `secret_led_blinking` définie dans un fichier dédié `led_blinking.c` :
 
