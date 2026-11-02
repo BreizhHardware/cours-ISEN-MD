@@ -690,3 +690,11 @@ La protection PCROP ne peut pas être désactivée par une simple réécriture d
 3. Cette opération entraîne obligatoirement un **effacement de masse (*Mass Erase*)** de l'ensemble de la Flash.
 
 Ce mécanisme garantit qu'il est impossible de lever la protection pour lire frauduleusement le code, toute tentative de déverrouillage détruit irrémédiablement le binaire protégé.
+
+# Firewall
+![](Pasted%20image%2020261102105136.png)
+![](Pasted%20image%2020261102105140.png)
+![](Pasted%20image%2020261102105144.png)
+![](Pasted%20image%2020261102105151.png)
+![](Pasted%20image%2020261102105154.png)
+![](Pasted%20image%2020261102105156.png)![](Capture%20d’écran%202026-11-02%20à%2010.53.50.png)
