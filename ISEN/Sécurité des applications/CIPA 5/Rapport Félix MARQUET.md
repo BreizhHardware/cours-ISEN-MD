@@ -5,7 +5,7 @@
 <br>
 
 <p style="font-size: 1.1em; text-transform: uppercase; letter-spacing: 2px; color: #555; margin-bottom: 0;">ISEN Yncréa Ouest</p>
-<p style="font-size: 0.95em; color: #777; margin-top: 5px;">Majeure Cybersécurité - Sécurité des applications</p>
+<p style="font-size: 0.95em; color: #777; margin-top: 5px;">Majeure Cybersécurité - Sécurité Hardware</p>
 
 <div style="margin-top: 110px; margin-bottom: 110px;">
   <h1 style="font-size: 2.6em; font-weight: 800; border-bottom: none; margin-bottom: 15px;">Rapport de Travaux Pratiques</h1>
@@ -268,11 +268,11 @@ Pour ce programme on déclare des variables dans les quatre zones demandées :
 ## Les adresses
 Le STM32L476RG possède 1 Mo de Flash, 96 Ko de SRAM1 et 32 Ko de SRAM2.
 
-| Adresse | Zone |
-| :--- | :--- |
-| `0x0800 0000` | Début de la Flash (bank 1), qui contient la table des vecteurs. |
+| Adresse       | Zone                                                                  |
+| :------------ | :-------------------------------------------------------------------- |
+| `0x0800 0000` | Début de la Flash (bank 1), qui contient la table des vecteurs.       |
 | `0x0808 0000` | Début de la bank 2 de la Flash (2 banks de 512 Ko en mode dual-bank). |
-| `0x2000 0000` | Début de la SRAM1. |
+| `0x2000 0000` | Début de la SRAM1.                                                    |
 
 L'énoncé donne `0x8000 0000`, qui correspond en réalité à la zone FMC. Nous avons considéré qu'il s'agissait de `0x0800 0000`. De même, `0x08080 0000` et `0x8080 0004` sont lus comme `0x0808 0000` et `0x0808 0004`.
 
@@ -311,7 +311,7 @@ readback = *(volatile uint32_t *)0x08020000;
 sr = FLASH->SR;
 ```
 
-Chez nous, `readback` vaut `0xFFFFFFFF` : la valeur n'a pas été écrite. Il n'y a pas de HardFault, mais `FLASH->SR` = `0x80`, soit le flag **PGSERR**. La Flash est verrouillée (`FLASH->CR` = `0xC0000000`, bits LOCK et OPTLOCK) et il faut suivre une procédure précise pour la programmer, contrairement à la RAM.
+Chez nous, `readback` vaut `0xFFFFFFFF`, la valeur n'a pas été écrite. Il n'y a pas de HardFault, mais `FLASH->SR` = `0x80`, soit le flag **PGSERR**. La Flash est verrouillée (`FLASH->CR` = `0xC0000000`, bits LOCK et OPTLOCK) et il faut suivre une procédure précise pour la programmer, contrairement à la RAM.
 
 ![](Capture%20d’écran%202026-10-12%20à%2009.54.56.png)
 
