@@ -698,3 +698,4 @@ Ce mécanisme garantit qu'il est impossible de lever la protection pour lire fra
 ![](Pasted%20image%2020261102105151.png)
 ![](Pasted%20image%2020261102105154.png)
 ![](Pasted%20image%2020261102105156.png)![](Capture%20d’écran%202026-11-02%20à%2010.53.50.png)
+![](Pasted%20image%2020261102105643.png)
