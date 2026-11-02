@@ -1,11 +1,12 @@
 <div style="height: 86vh; display: flex; flex-direction: column; justify-content: space-between; text-align: center;">
 
-  <div>
-    ![](Logo%20ISEN%20Ouest.png)
-    <br>
-    <p style="font-size: 1.1em; text-transform: uppercase; letter-spacing: 2px; color: #555; margin-bottom: 0;">ISEN Yncréa Ouest</p>
-    <p style="font-size: 0.95em; color: #777; margin-top: 5px;">Majeure Cybersécurité - Sécurité Hardware</p>
-  </div>
+<div>
+
+![](Logo%20ISEN%20Ouest.png)
+
+<p style="font-size: 1.1em; text-transform: uppercase; letter-spacing: 2px; color: #555; margin-top: 15px; margin-bottom: 0;">ISEN Yncréa Ouest</p>
+<p style="font-size: 0.95em; color: #777; margin-top: 5px;">Majeure Cybersécurité - Sécurité Hardware</p>
+</div>
 
   <div style="margin: auto 0; padding: 20px 0;">
     <h1 style="font-size: 2.6em; font-weight: 800; border-bottom: none; margin-bottom: 15px;">Rapport de Travaux Pratiques</h1>
