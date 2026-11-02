@@ -1,4 +1,3 @@
-![](Capture%20d’écran%202026-10-13%20à%2015.13.09.png)![](Capture%20d’écran%202026-10-13%20à%2015.13.09.png)![](Capture%20d’écran%202026-10-13%20à%2014.58.35.png)
 # Introduction
 
 ```assembly
