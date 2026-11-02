@@ -1,0 +1,16 @@
+@media print {
+      /* Limiter la taille des captures sur l'export PDF et les centrer */
+      .markdown-rendered img {
+        max-width: 65% !important;
+        max-height: 280px !important;
+        display: block !important;
+        margin: 14px auto !important;
+        object-fit: contain !important;
+      }
+
+      /* Garder le logo ISEN intact sur la page de garde */
+      div[style*="text-align: center"] img:first-child {
+        max-width: 150px !important;
+        max-height: 80px !important;
+      }
+    }

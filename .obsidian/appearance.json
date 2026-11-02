@@ -3,5 +3,8 @@
   "cssTheme": "Maple",
   "theme": "system",
   "baseFontSizeAction": false,
-  "baseFontSize": 17
+  "baseFontSize": 17,
+  "enabledCssSnippets": [
+    "pdf-images"
+  ]
 }

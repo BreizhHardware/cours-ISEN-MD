@@ -10,7 +10,7 @@
   "displayMetadata": true,
   "debug": false,
   "isTimestamp": false,
-  "enabledCss": false,
+  "enabledCss": true,
   "concurrency": "5",
   "version": "2",
   "prevConfig": {
