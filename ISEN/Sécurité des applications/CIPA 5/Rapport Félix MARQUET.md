@@ -692,10 +692,40 @@ La protection PCROP ne peut pas être désactivée par une simple réécriture d
 Ce mécanisme garantit qu'il est impossible de lever la protection pour lire frauduleusement le code, toute tentative de déverrouillage détruit irrémédiablement le binaire protégé.
 
 # Firewall
+
+Le firewall du STM32L476 crée une enclave de sécurité, un segment de code, un segment de données non volatiles (en Flash) et un segment de données volatiles (en SRAM) ne sont accessibles que si l'on entre dans le segment de code par une adresse précise (la *call gate*). Il contrôle les accès sur le bus AHB et se configure comme un périphérique : il ne passe pas par CubeMX, le driver est ajouté à la main.
+
+## Installation du driver 
+On copie `stm32l4xx_hal_firewall.c` dans `Drivers/STM32L4xx_HAL_Driver/Src/` et `stm32l4xx_hal_firewall.h` dans `Drivers/STM32L4xx_HAL_Driver/Inc/`, puis on active le module dans `stm32l4xx_hal_conf.h` : 
+```c 
+#define HAL_FIREWALL_MODULE_ENABLED 
+```
+![](Pasted%20image%2020261102105144.png)
+
+## Le linker script
+
+Dans `STM32L476RGTX_FLASH.ld`, on réduit la Flash non sécurisée à 1008K et on ajoute deux régions :
+
+```ld
+MEMORY 
+{ 
+  RAM (xrw) : ORIGIN = 0x20000000, LENGTH = 96K 
+  RAM2 (xrw) : ORIGIN = 0x10000000, LENGTH = 32K 
+  FLASH (rx) : ORIGIN = 0x08000000, LENGTH = 1008K 
+  SecureFlash (rx) : ORIGIN = 0x080FC004, LENGTH = 0x3FFC 
+  SecureSRAM (xrw) : ORIGIN = 0x2000FE00, LENGTH = 512 
+} 
+```
+
 ![](Pasted%20image%2020261102105136.png)
 ![](Pasted%20image%2020261102105140.png)
-![](Pasted%20image%2020261102105144.png)
+
+
 ![](Pasted%20image%2020261102105151.png)
+
 ![](Pasted%20image%2020261102105154.png)
 ![](Pasted%20image%2020261102105156.png)![](Capture%20d’écran%202026-11-02%20à%2010.53.50.png)
 ![](Pasted%20image%2020261102105643.png)
+![](Pasted%20image%2020261102111049.png)
+![](Pasted%20image%2020261102111055.png)
+![](Pasted%20image%2020261102111058.png)
