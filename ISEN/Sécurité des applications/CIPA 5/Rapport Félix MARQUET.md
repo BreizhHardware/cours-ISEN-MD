@@ -66,7 +66,7 @@ LoopForever:
 	b LoopForever
 ```
 
-Puis quand on ouvre la vue disasembly on peut voir que `ldr r0, =maVariable` devient ` ldr     r0, [pc, #32]   @ (0x800021c <LoopForever+30>)` à l'adresse `0x80001fa`. Puis quand on va voir dans le registre on peut voir que le PC (Program Counter) est en effet à la valeur `0x80001fa` ce qui veut dire que la prochaine instruction qui va être exécuté sera bien notre récupération d'adresse.
+Quand on ouvre la vue disasembly, on peut voir que `ldr r0, =maVariable` devient ` ldr     r0, [pc, #32]   @ (0x800021c <LoopForever+30>)` à l'adresse `0x80001fa`. Puis quand on va voir dans le registre on peut voir que le PC (Program Counter) est en effet à la valeur `0x80001fa` ce qui veut dire que la prochaine instruction qui va être exécuté sera bien notre récupération d'adresse.
 Une fois que l'on éxecute un step si on va à l'adresse correspondant à `r0` (`0x20000000`) on peut voir que la valeur est a 2 ce qui correspond a notre valeur initial, de plus le PC à changé pour `0x80001fc`. 
 Une fois que r1 est à 0, xpsr est à `0x61000000`, et une fois que r1 est à `0xffffffff`, xpsr est à `0x81000000` ce qui correspond à l'activation du flag *N* (Negative, bit 31), car le résultat de `0 - 1` est négatif, et du bit T* (Thumb, bit 24), qui est toujours à 1.
 
@@ -261,6 +261,7 @@ Pour ce programme on déclare des variables dans les quatre zones demandées :
 |     `bss_var1`, `bss_var2`     |  SRAM1 (`.bss`)   | `0x2000xxxx` (après `.data`) |                   `bss_var1`: `0x200000b8`, `bss_var2`: `0x200000bc`                    |
 | `stack_var`, `k`, `sw1`, `res` |       Pile        |   juste sous `0x20018000`    | `stack_var`: `0x20017fd8`,  `k`: `0x20017fec`, `res`: `0x20017ff0`, `sw1`: `0x20017ff7` |
 |           `reg_var`            |     Registre      |         `R4` à `R11`         |                                          `R4`                                           |
+![](Capture%20d’écran%202026-11-02%20à%2009.07.48.png)
 
 # Écriture en mémoire Flash et RAM
 
@@ -688,4 +689,4 @@ La protection PCROP ne peut pas être désactivée par une simple réécriture d
 2. Régresser le niveau RDP en passant de **Niveau 1 (`0xBB`)** à **Niveau 0 (`0xAA`)**.
 3. Cette opération entraîne obligatoirement un **effacement de masse (*Mass Erase*)** de l'ensemble de la Flash.
 
-Ce mécanisme garantit qu'il est impossible de lever la protection pour lire frauduleusement le code : toute tentative de déverrouillage détruit irrémédiablement le binaire protégé.
+Ce mécanisme garantit qu'il est impossible de lever la protection pour lire frauduleusement le code, toute tentative de déverrouillage détruit irrémédiablement le binaire protégé.
