@@ -54,3 +54,10 @@ Je coupe le scanner depuis le dashboard parce que c'est drole :)
 
 ![](Pasted%20image%2020261103104434.png)
 
+Spoiler: C'est ce qu'il fallait faire, on clique sur le lien et ça nous fait spawn un edge
+
+Ensuite on peut faire ctrl+o pour ouvrir un fichier et donc pouvoir invoquer cmd.exe
+
+Puis en se balandant dans Desktop il y avait un flag
+
+netstat -ano | findstr :3306
