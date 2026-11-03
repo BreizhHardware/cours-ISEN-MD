@@ -141,3 +141,10 @@ Generated automatically by Enigma Corp Identity Management System.
 ```
 
 Bingo on a accès a un email, on voit un mail envoyé par sarah et quand on essaye on peut se connecter au compte de sarah avec les login de kevin
+
+Dans les mail de sarah on a les login admin a une plateforme de support
+
+User: admin
+Password: Ne3s4rtars78s
+
+On voit qu'on est sur un OpenSTAManager V2.9.8, il a plusieurs CVE (CVE-2026-24417, CVE-2026-24416, CVE-2026-38751)
