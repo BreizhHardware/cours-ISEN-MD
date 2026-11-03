@@ -86,3 +86,20 @@ SELECT employee_id, email, auth_code, role, active FROM _htb_staff;
 ```
 
 ![](Pasted%20image%2020261103110624.png)
+
+En allant dans C:\ProgramData\HTB Airways il y a regresh-dates.bat avec les ID root de la db
+
+User: root
+Password: HTB@irw4ys_DB!2026
+
+```sql
+DESCRIBE mysql.user;
+SHOW VARIABLES LIKE 'plugin_dir';
+```
+
+On vérifie les permissions du dossier plugin avec
+
+```cmd
+icacls.exe C:\MySQL\lib\plugin
+```
+
