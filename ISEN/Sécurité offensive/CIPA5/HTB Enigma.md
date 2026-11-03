@@ -152,3 +152,9 @@ On voit qu'on est sur un OpenSTAManager V2.9.8, il a plusieurs CVE (CVE-2026-244
 J'ai exploiter la CVE-2026-38751 avec https://github.com/b0ySie7e/OpenSTAManager-RCE-Exploit-CVE-2026-38751?tab=readme-ov-file
 
 En regardant dans /etc/passwd on peut voir que seul haris a un shell donc c'est le seul vrai user de cette machine (surement la ou est le flag)
+
+Si on cat config.inc.php du dossier ˜/html/openstagemanager on trouve des creds de DB
+
+user: brollin
+password: Fri3nds@9099
+db: openstamanager
