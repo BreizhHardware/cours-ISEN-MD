@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ISEN/Sécurité des applications/CIPA 5/Rapport Félix MARQUET.md",
+                "file": "ISEN/Sécurité offensive/CIPA5/HTB Touch.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Rapport Félix MARQUET"
+              "title": "HTB Touch"
             }
           },
           {
@@ -221,8 +221,11 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "7f28e2b63525e6c2",
+  "active": "e4257884676ee851",
   "lastOpenFiles": [
+    "ISEN/Sécurité offensive/CIPA5/HTB Nexus.md",
+    "ISEN/Sécurité offensive/CIPA5/HTB Touch.md",
+    "ISEN/Sécurité des applications/CIPA 5/Rapport Félix MARQUET.md",
     "ISEN/Sécurité des applications/CIPA 5/Reglement_europeen_FR_TXT_2024.pdf",
     "ISEN/Sécurité des applications/CIPA 5/Rapport Félix MARQUET-test.pdf",
     "Pasted image 20261102111058.png",
@@ -237,7 +240,6 @@
     "Pasted image 20261102105140.png",
     "ISEN/Sécurité des applications/CIPA 5/Rapport Félix MARQUET.pdf",
     "Compte_rendu.md",
-    "ISEN/Sécurité des applications/CIPA 5/Rapport Félix MARQUET.md",
     "ISEN/Hygiène et sécurité du travail/CIPA5/Hygiène et sécurité du travail Cours 1.md",
     "ISEN/Sécurité des applications/CIPA 5/PCROP (1).pdf",
     "ISEN/Sécurité des applications/CIPA 5/Write_memory_protection.pdf",
@@ -246,13 +248,11 @@
     "ISEN/Sécurité des applications/CIPA 5/PCROP.pdf",
     "ISEN/Sécurité des applications/CIPA 5/cours_hardware_security_2026.pdf",
     "ISEN/Sécurité des applications/CIPA 5/TrustZone.pdf",
-    "ISEN/Sécurité des applications/CIPA 5/Firewall.pdf",
     "ISEN/Droit social et Ethique industrielle/CIPA 5/Droit social et Ethique industrielle Cours 1.md",
     "file:/Users/felixmarquet/ownCloud/Personnel/Programation/py/CIPA5/Traitement d'image/TP3_1_FiltrageSpatialFrequentiel/Compte_rendu.md",
     "file:/Users/felixmarquet/ownCloud/Personnel/Programation/py/CIPA5/Traitement d'image/TP  Partie 2 - Seuillage, détection et morphologie mathématique/TP2_1_SeuillageDetectionMorphologie/Compte_rendu.md",
     "ISEN/Design Thinking/CIPA5/Design Thinking Cours 1.md",
     "ISEN/Sécurité offensive/CIPA5/Cours 1.md",
-    "ISEN/Sécurité offensive/CIPA5/HTB Nexus.md",
     "ISEN/Sécurité dans le cloud/CIPA 5/Sécurité dans le cloud.md",
     "ISEN/Sécurité des applications/CIPA 5/Sécurité des applications Cours 1.md",
     "ISEN/Sécurité des applications/CIPA 5/Sécurité des applications Cours 2.md",
