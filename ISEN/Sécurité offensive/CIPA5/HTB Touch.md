@@ -82,4 +82,7 @@ SHOW DATABASES;
 USE htb_airways;
 SHOW TABLES;
 DESCRIBE _htb_staff;
-SELECT employee_i
+SELECT employee_id, email, auth_code, role, active FROM _htb_staff;
+```
+
+![](Pasted%20image%2020261103110624.png)
