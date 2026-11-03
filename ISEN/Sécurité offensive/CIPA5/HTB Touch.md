@@ -47,3 +47,10 @@ http://10.129.193.108:8443/api/status
 Utiliser le serial number comme default password
 
 Dans printer on a un username (KioskUser) et un password (K!0sk2026#)
+
+Du coup on peut RDP dans le kiosk, une fois dedans quand on est en anglais on peut se log avec les identifants qui nous sont donnés.
+
+Je coupe le scanner depuis le dashboard parce que c'est drole :)
+
+![](Pasted%20image%2020261103104434.png)
+
