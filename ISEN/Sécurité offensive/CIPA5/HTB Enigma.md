@@ -148,3 +148,7 @@ User: admin
 Password: Ne3s4rtars78s
 
 On voit qu'on est sur un OpenSTAManager V2.9.8, il a plusieurs CVE (CVE-2026-24417, CVE-2026-24416, CVE-2026-38751)
+
+J'ai exploiter la CVE-2026-38751 avec https://github.com/b0ySie7e/OpenSTAManager-RCE-Exploit-CVE-2026-38751?tab=readme-ov-file
+
+En regardant dans /etc/passwd on peut voir que seul haris a un shell donc c'est le seul vrai user de cette machine (surement la ou est le flag)
