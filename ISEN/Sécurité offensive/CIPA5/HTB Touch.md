@@ -27,3 +27,13 @@ Nmap done: 1 IP address (1 host up) scanned in 184.43 seconds
 ```
 
 Serveur web sur port 8443
+
+# Listing du serveur web
+
+```bash
+┌──(kali㉿kali)-[~]
+└─$ ffuf -u http://10.129.193.108:8443/FUZZ -recursion -w /usr/share/seclists/Discovery/Web-Content/common.txt -fs 0 -s
+api
+favicon.ico
+login
+```
