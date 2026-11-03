@@ -25,3 +25,27 @@
 - Court, moyen et long terme
 - Fort impact et facile à corriger : d'abord
 - Fort effort et faible impact: plus tard
+
+## Noter une vuln
+CVSS ou alors notre propre système (mais souvent faire une correspondance CVSS)
+
+# Synthèse technique
+Chaque vuln, en détail, et reproducible
+- Un tableau de synthèse: Référence, facilité d'exploitation, risque, impact, criticité
+- Le constat: comment la vuln à été trouvée
+- L'exploitation: les étapes, pour qu'on puisse la rejouer
+- Les risques: ce qu'un attaquant peut en faire
+- La recommandation: comment la corriger
+
+Des captures d'écran pour les outputs. On reste neutre et objectif
+
+## A quoi ressemble une vuln
+Une entrée type, de haut en bas
+
+# Le sommaire type
+1 et 2 Intro: context, objectif du doc, méthodologie, notation
+3: synthèse managériale: appréciation générale, vuln classée par criticité, plan d
+ action en tableau temporel
+ 4: synthèse technique
+
+Rester synthétique mais ne pas trop synthétiser
