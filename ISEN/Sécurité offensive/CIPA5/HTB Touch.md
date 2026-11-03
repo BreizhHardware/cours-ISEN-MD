@@ -37,3 +37,13 @@ api
 favicon.ico
 login
 ```
+
+http://10.129.193.108:8443/api/status
+
+```json
+{"device":"Nexion DeviceHub DH-100","serial":"NX-DH-2024-B7042","firmware":"1.4.2","status":"online","uptime":58718}
+```
+
+Utiliser le serial number comme default password
+
+Dans printer on a un username (KioskUser) et un password (K!0sk2026#)
