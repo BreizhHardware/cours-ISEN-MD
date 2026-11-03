@@ -81,3 +81,63 @@ Service detection performed. Please report any incorrect results at https://nmap
 Nmap done: 1 IP address (1 host up) scanned in 42.13 seconds
 ```
 
+Pas grand chose sur le site web
+
+Par contre sur le nfs
+
+```bash
+┌──(kali㉿kali)-[/usr/…/metasploit-framework/data/exploits/mysql]
+└─$ showmount -e enigma.htb    
+Export list for enigma.htb:
+/srv/nfs/onboarding *
+┌──(kali㉿kali)-[/usr/…/metasploit-framework/data/exploits/mysql]
+└─$ sudo mount -t nfs enigma.htb:/srv/nfs/onboarding /mnt/enigma
+┌──(kali㉿kali)-[/usr/…/metasploit-framework/data/exploits/mysql]
+└─$ ls /mnt/enigma                                        
+New_Employee_Access.pdf
+┌──(kali㉿kali)-[~/htb/enigma]
+└─$ cp /mnt/enigma/New_Employee_Access.pdf ./     
+┌──(kali㉿kali)-[~/htb/enigma]
+└─$ pdftotext New_Employee_Access.pdf
+┌──(kali㉿kali)-[~/htb/enigma]
+└─$ cat New_Employee_Access.txt 
+Enigma Corp
+IT Department - New Employee System Access
+
+Employee:
+
+Kevin Mitchell
+
+Department:
+
+Operations
+
+Provisioned by:
+
+IT Department
+
+Date:
+
+2024-03-01
+
+Webmail Access
+URL:
+
+http://mail001.enigma.htb
+
+Username:
+
+kevin
+
+Password:
+
+Enigma2024!
+
+Please change your password upon first login.
+For support contact: it@enigma.htb
+This document contains confidential internal information intended solely for the recipient.
+Unauthorized access, disclosure, or distribution is strictly prohibited.
+Generated automatically by Enigma Corp Identity Management System.
+```
+
+Bingo on a accès a un email, on voit un mail envoyé par sarah et quand on essaye on peut se connecter au compte de sarah avec les login de kevin
