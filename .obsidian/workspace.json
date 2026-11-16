@@ -11,12 +11,24 @@
             "id": "e4257884676ee851",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "ISEN/Gestion de projet/CIPA 5/Exercice planification projet.excalidraw.md"
+                "file": "ISEN/Management des transitions/CIPA 5/Cours 1.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
-              "icon": "excalidraw-icon",
-              "title": "Exercice planification projet.excalidraw"
+              "icon": "lucide-file",
+              "title": "Cours 1"
             }
           },
           {
@@ -235,8 +247,11 @@
   },
   "active": "e4257884676ee851",
   "lastOpenFiles": [
-    "ISEN/Gestion de projet/CIPA 5/TD1.md",
     "ISEN/Gestion de projet/CIPA 5/Exercice planification projet.excalidraw.md",
+    "ISEN/Management des transitions/CIPA 5/Cours 1.md",
+    "ISEN/Management des transitions/CIPA 5",
+    "ISEN/Management des transitions",
+    "ISEN/Gestion de projet/CIPA 5/TD1.md",
     "ISEN/Gestion de projet/Drawing 2026-11-12 10.24.49.excalidraw.md",
     "Excalidraw/Drawing 2026-11-12 10.24.49.excalidraw.md",
     "Stage CSI/Stockmanager/Drawing 2026-09-01 16.08.10.excalidraw.md",
@@ -251,8 +266,6 @@
     "ISEN/Sécurité Réseau/CIPA 5/LAB/Infrastructure Security and Services Packet Tracer - Configure GRE-1.pka",
     "ISEN/Sécurité Réseau/CIPA 5/LAB/Infrastructure Security and Services Packet Tracer - Configure GRE.pka",
     "ISEN/Sécurité Réseau/CIPA 5/LAB/2- Packet Tracer - Configure GRE.pka",
-    "ISEN/Sécurité Réseau/CIPA 5/LAB/19.5.5-packet-tracer---configure-and-verify-a-site-to-site-ipsec-vpn.pka_en-US_1e048b88-5fee-42f3-a555-314553474f30.pka~",
-    "ISEN/Sécurité Réseau/CIPA 5/LAB/Lab 2 (VPN).pkt~",
     "ISEN/Sécurité Réseau/CIPA 5/Cours 1.md",
     "ISEN/Sécurité offensive/CIPA5/HTB Enigma.md",
     "ISEN/Sécurité offensive/CIPA5/HTB Touch.md",
@@ -279,7 +292,6 @@
     "ISEN/Sécurité dans le cloud/CIPA 5/Sécurité dans le cloud.md",
     "ISEN/Sécurité des applications/CIPA 5/Sécurité des applications Cours 1.md",
     "ISEN/Sécurité des applications/CIPA 5/Sécurité des applications Cours 2.md",
-    "ISEN/Prospective innovation/CIPA 5/Prospective innovation Cours 1.md",
-    "ISEN/Initiation à la recherche/CIPA 5/Cours 1.md"
+    "ISEN/Prospective innovation/CIPA 5/Prospective innovation Cours 1.md"
   ]
 }
