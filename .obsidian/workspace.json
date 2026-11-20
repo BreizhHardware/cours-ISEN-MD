@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ISEN/De l'expert au profane/CIPA 5/Cours 1.md",
+                "file": "ISEN/Stratégie des entreprises/CIPA 5/Cours 1.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -247,8 +247,11 @@
   },
   "active": "e4257884676ee851",
   "lastOpenFiles": [
-    "ISEN/Management des transitions/CIPA 5/Cours 1.md",
     "ISEN/De l'expert au profane/CIPA 5/Cours 1.md",
+    "ISEN/Stratégie des entreprises/CIPA 5/Cours 1.md",
+    "ISEN/Stratégie des entreprises/CIPA 5",
+    "ISEN/Stratégie des entreprises",
+    "ISEN/Management des transitions/CIPA 5/Cours 1.md",
     "ISEN/De l'expert au profane/CIPA 5",
     "ISEN/De l'expert au profane",
     "ISEN/Gestion de projet/CIPA 5/Exercice planification projet.excalidraw.md",
@@ -265,8 +268,6 @@
     "ISEN/Gestion de projet/CIPA 5",
     "ISEN/Gestion de projet",
     "ISEN/Sécurité Réseau/CIPA 5/LAB/2- Packet Tracer - Configure GRE.pka~",
-    "ISEN/Sécurité Réseau/CIPA 5/LAB/Infrastructure Security and Services Packet Tracer - Configure GRE.pka~",
-    "ISEN/Sécurité Réseau/CIPA 5/LAB/Infrastructure Security and Services Packet Tracer - Configure GRE-1.pka",
     "ISEN/Sécurité Réseau/CIPA 5/Cours 1.md",
     "ISEN/Sécurité offensive/CIPA5/HTB Enigma.md",
     "ISEN/Sécurité offensive/CIPA5/HTB Touch.md",
@@ -291,7 +292,6 @@
     "ISEN/Design Thinking/CIPA5/Design Thinking Cours 1.md",
     "ISEN/Sécurité offensive/CIPA5/Cours 1.md",
     "ISEN/Sécurité dans le cloud/CIPA 5/Sécurité dans le cloud.md",
-    "ISEN/Sécurité des applications/CIPA 5/Sécurité des applications Cours 1.md",
-    "ISEN/Sécurité des applications/CIPA 5/Sécurité des applications Cours 2.md"
+    "ISEN/Sécurité des applications/CIPA 5/Sécurité des applications Cours 1.md"
   ]
 }
