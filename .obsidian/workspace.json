@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ISEN/Stratégie des entreprises/CIPA 5/Cours 1.md",
+                "file": "ISEN/Droit social et Ethique industrielle/CIPA 5/Droit social et Ethique industrielle Cours 2.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Cours 1"
+              "title": "Droit social et Ethique industrielle Cours 2"
             }
           },
           {
@@ -247,8 +247,10 @@
   },
   "active": "e4257884676ee851",
   "lastOpenFiles": [
-    "ISEN/De l'expert au profane/CIPA 5/Cours 1.md",
+    "ISEN/Droit social et Ethique industrielle/CIPA 5/Droit social et Ethique industrielle Cours 1.md",
+    "ISEN/Droit social et Ethique industrielle/CIPA 5/Droit social et Ethique industrielle Cours 2.md",
     "ISEN/Stratégie des entreprises/CIPA 5/Cours 1.md",
+    "ISEN/De l'expert au profane/CIPA 5/Cours 1.md",
     "ISEN/Stratégie des entreprises/CIPA 5",
     "ISEN/Stratégie des entreprises",
     "ISEN/Management des transitions/CIPA 5/Cours 1.md",
@@ -286,12 +288,10 @@
     "Pasted image 20261102105151.png",
     "Compte_rendu.md",
     "ISEN/Hygiène et sécurité du travail/CIPA5/Hygiène et sécurité du travail Cours 1.md",
-    "ISEN/Droit social et Ethique industrielle/CIPA 5/Droit social et Ethique industrielle Cours 1.md",
     "file:/Users/felixmarquet/ownCloud/Personnel/Programation/py/CIPA5/Traitement d'image/TP3_1_FiltrageSpatialFrequentiel/Compte_rendu.md",
     "file:/Users/felixmarquet/ownCloud/Personnel/Programation/py/CIPA5/Traitement d'image/TP  Partie 2 - Seuillage, détection et morphologie mathématique/TP2_1_SeuillageDetectionMorphologie/Compte_rendu.md",
     "ISEN/Design Thinking/CIPA5/Design Thinking Cours 1.md",
     "ISEN/Sécurité offensive/CIPA5/Cours 1.md",
-    "ISEN/Sécurité dans le cloud/CIPA 5/Sécurité dans le cloud.md",
-    "ISEN/Sécurité des applications/CIPA 5/Sécurité des applications Cours 1.md"
+    "ISEN/Sécurité dans le cloud/CIPA 5/Sécurité dans le cloud.md"
   ]
 }
