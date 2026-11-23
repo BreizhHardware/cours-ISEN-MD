@@ -38,7 +38,7 @@ RC -> Salarié
 	- Le lendemain de la reception de la demande -> Délai d'instruction du dossier par la DREETS, 15j ouvrable
 		- Vérifie, la demande de RC, l'entretien (au moins 1), Montant de l'indemnité
 			- Couriel avec 1 code pour se connecter et prendre connaissance des décisions de la DREETS
-		- Salarieé peut quitter l'entreprise dès le lendemain de l'expiration du délai d'instruction de la demande d'homologation
+		- Salarieé peut quitter l'entreprise dès le lendemain de l'expiration du délai d'instruction de la demande d'homologation par la DREETS ou à tte autre date ultérieur convenue entre les parties, mentionnée sur le CERFA
 
 - CTT (Interim)
 - Contrat pro
