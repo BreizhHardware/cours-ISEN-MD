@@ -27,7 +27,12 @@ Fin du CDI
 
 RC -> Salarié
 - Formaliser la demande par écrit
-- Convocation par l'employeur à l'entretien
+- Convocation par l'employeur à l'entretien -> Discuter éventuellement des modalités et du calendrier
+- Calcul salaire de référence
+	- Moyenne des 12 derniers mois de salaire comparée à la moyenne des 3 dernier mois de salaire. On prend le plus favorable des 2 pour calculer l'ind RC
+	- 1er calcul = selon la formule légale Ind RC
+	- 2e (Si CNN prévoit) = selon formule CNN
+	- On compare les 2 résultats et on prends le plus favorable au salarié
 
 - CTT (Interim)
 - Contrat pro
