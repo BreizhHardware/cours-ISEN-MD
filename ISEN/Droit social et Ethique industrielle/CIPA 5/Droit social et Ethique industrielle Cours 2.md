@@ -4,9 +4,9 @@
 
 ## Type de contract
 
-- Contract d'apprentissage
+- Contract d'apprentissage -> PE = 45 jours entreprise, fin: à échéance, faute grave, inaptitude, liquidation judiciaire, à l'amiable, décès du tuteur (si dirigent), décision administrative
 - CDD
-- CDI
+- CDI -> PE en fonction de la CSP: Base CT 
 - CTT (Interim)
 - Contrat pro
 - Contrat de chantier
