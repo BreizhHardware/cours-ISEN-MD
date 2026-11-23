@@ -19,11 +19,11 @@ Délai de prévenance
 
 Fin du CDI
 
-| Employeur |  Salarié  |
-| :-------: | :-------: |
-|           | Démission |
-|           |           |
-|           |           |
+|     Employeur      |       Salarié        |
+| :----------------: | :------------------: |
+|    Licenciement    |      Démission       |
+| Mise à la retraite | Départ à la retraite |
+|                    |   Décès du salarié   |
 
 - CTT (Interim)
 - Contrat pro
