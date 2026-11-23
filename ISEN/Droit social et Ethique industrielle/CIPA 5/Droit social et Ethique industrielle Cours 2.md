@@ -25,6 +25,10 @@ Fin du CDI
 | Mise à la retraite | Départ à la retraite |
 |                    |   Décès du salarié   |
 
+RC -> Salarié
+- Formaliser la demande par écrit
+- Convocation par l'employeur à l'entretien
+
 - CTT (Interim)
 - Contrat pro
 - Contrat de chantier
