@@ -27,12 +27,18 @@ Fin du CDI
 
 RC -> Salarié
 - Formaliser la demande par écrit
-- Convocation par l'employeur à l'entretien -> Discuter éventuellement des modalités et du calendrier
+- Convocation par l'employeur à l'entretien -> Discuter éventuellement des modalités et du calendrier, Cerfa d'homologation d'une RC
 - Calcul salaire de référence
 	- Moyenne des 12 derniers mois de salaire comparée à la moyenne des 3 dernier mois de salaire. On prend le plus favorable des 2 pour calculer l'ind RC
 	- 1er calcul = selon la formule légale Ind RC
 	- 2e (Si CNN prévoit) = selon formule CNN
 	- On compare les 2 résultats et on prends le plus favorable au salarié
+	- A partir du lendemain de la signature -> Délai de rétractation de 15 j calendaire
+	- Le lendemain de l'expiration de ce delai, l'adresser à la DREETS sur TeleRC la demande d'homologation
+	- Le lendemain de la reception de la demande -> Délai d'instruction du dossier par la DREETS, 15j ouvrable
+		- Vérifie, la demande de RC, l'entretien (au moins 1), Montant de l'indemnité
+			- Couriel avec 1 code pour se connecter et prendre connaissance des décisions de la DREETS
+		- Salarieé peut quitter l'entreprise dès le lendemain de l'expiration du délai d'instruction de la demande d'homologation
 
 - CTT (Interim)
 - Contrat pro
